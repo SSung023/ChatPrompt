@@ -1,0 +1,87 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문1 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 원문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ( 입력1 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력1 <br><br>
+			</td>
+			<td>
+				<br> ( 출력1 ) <br><br>
+			</td>
+		</tr> 
+		<tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ( 입력2 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력2 <br><br>
+			</td>
+			<td>
+				<br> ( 출력2 ) <br><br>
+			</td>
+		</tr> 
+		<tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ( 입력3 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center' align='center'>
+				<br> 출력3 <br><br>
+			</td>
+			<td>
+				<br> ( 출력3 ) <br><br>
+			</td>
+		</tr> 
+	</table>

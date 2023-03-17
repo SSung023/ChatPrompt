@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<text>
+		<index_SMU>1</index_SMU>
+		<line_num>1a</line_num>
+		<category>Information Extraction</category>
+		<task>task179_participant_extraction</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>In medical studies, treatments are tested within a group of study participants. You will be given a sentence of a study report in which your task is to list the phrases that give information about the participants of the study. You should list the phrases in the same order that they appear in the text, separated by commas. If no information about the participants is mentioned, just output "not found". Relevant information about participants include: gender, medical conditions, location, number of people participating. Do not contain participant mentions without relevant information.</definition>
+		<input>A PPARA Polymorphism Influences the Cardiovascular Benefit of Fenofibrate in Type 2 Diabetes: Findings From ACCORD Lipid.</input>
+		<output>Type 2 Diabetes</output>
+		<num_input_tokens>17</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>2</index_SMU>
+		<line_num>1b</line_num>
+		<category>Information Extraction</category>
+		<task>task179_participant_extraction</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 치료는 연구 참가자 그룹 내에서 테스트됩니다. 연구 참가자에 대한 정보를 제공하는 문구를 나열하는 것이 귀하의 임무인 연구 보고서 문장을 받게 됩니다. 쉼표로 구분하여 텍스트에 나타나는 동일한 순서로 구문을 나열해야 합니다. 참가자에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"만 출력합니다. 참가자에 대한 관련 정보에는 성별, 건강 상태, 위치, 참가자 수가 포함됩니다. 관련 정보 없이 참가자 언급을 포함하지 마십시오.</definition>
+		<input>PPARA 다형성은 제2형 당뇨병에서 페노피브레이트의 심혈관 이점에 영향을 미칩니다: ACCORD Lipid에서 발견.</input>
+		<output>제2형 당뇨병</output>
+		<num_input_tokens>12</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>3</index_SMU>
+		<line_num>2a</line_num>
+		<category>Information Extraction</category>
+		<task>task179_participant_extraction</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>In medical studies, treatments are tested within a group of study participants. You will be given a sentence of a study report in which your task is to list the phrases that give information about the participants of the study. You should list the phrases in the same order that they appear in the text, separated by commas. If no information about the participants is mentioned, just output "not found". Relevant information about participants include: gender, medical conditions, location, number of people participating. Do not contain participant mentions without relevant information.</definition>
+		<input>A total of 270 patients with MCI were enrolled in a 24-week, multicenter, randomized, double-blind, placebo-controlled study.</input>
+		<output>270 patients with MCI</output>
+		<num_input_tokens>17</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>4</index_SMU>
+		<line_num>2b</line_num>
+		<category>Information Extraction</category>
+		<task>task179_participant_extraction</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 치료는 연구 참가자 그룹 내에서 테스트됩니다. 연구 참가자에 대한 정보를 제공하는 문구를 나열하는 것이 귀하의 임무인 연구 보고서 문장을 받게 됩니다. 쉼표로 구분하여 텍스트에 나타나는 동일한 순서로 구문을 나열해야 합니다. 참가자에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"만 출력합니다. 참가자에 대한 관련 정보에는 성별, 건강 상태, 위치, 참가자 수가 포함됩니다. 관련 정보 없이 참가자 언급을 포함하지 마십시오.</definition>
+		<input>총 270명의 MCI 환자가 24주, 다기관, 무작위, 이중 맹검, 위약 대조 연구에 등록되었습니다.</input>
+		<output>MCI 환자 270명</output>
+		<num_input_tokens>13</num_input_tokens>
+	</text>
+</Root>

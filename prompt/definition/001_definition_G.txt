@@ -1,0 +1,13 @@
+	request.setCharacterEncoding( "utf8" ); //한글 깨짐 방지
+
+ 
+ 
+ ( split this page up and down ) 
+ㄴㅇ;리ㅏ;ㅇ날;ㅇ니
+	request.setCharacterEncoding( "utf8" ); //한글 깨짐 방지
+
+
+
+
+
+
