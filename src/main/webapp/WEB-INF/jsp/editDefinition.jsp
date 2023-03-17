@@ -21,7 +21,7 @@
 <br>
 <%@ include file="./file_write.jsp"%>
 <%
-	// 태스크 번호 및 구축자 정보 전달 
+	// 태스크 번호 및 구축자 정보 전달
 	String task_id = ( ( request.getParameter( "task_id" ) == null ) ? "001" : request.getParameter( "task_id" ) );	
 	String annotator = ( ( request.getParameter( "annotator" ) == null ) ? "G" : request.getParameter( "annotator" ) );	
 
