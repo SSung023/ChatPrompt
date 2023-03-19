@@ -42,6 +42,7 @@
 			</td>
 			<td bgcolor='green'>
 				<br> ( 입력1 ) <br><br>
+				<br> ( 입력2 ) <br><br>
 			</td>
 		</tr>
 		<tr>
@@ -50,6 +51,7 @@
 			</td>
 			<td>
 				<br> ( 출력1 ) <br><br>
+				<br> ( 출력2 ) <br><br>
 			</td>
 		</tr> 
 		<tr>
@@ -57,7 +59,8 @@
 				<br> 입력2 <br><br>
 			</td>
 			<td bgcolor='green'>
-				<br> ( 입력2 ) <br><br>
+				<br> ( 입력3 ) <br><br>
+				<br> ( 입력4 ) <br><br>
 			</td>
 		</tr>
 		<tr>
@@ -65,7 +68,8 @@
 				<br> 출력2 <br><br>
 			</td>
 			<td>
-				<br> ( 출력2 ) <br><br>
+				<br> ( 출력3 ) <br><br>
+				<br> ( 출력4 ) <br><br>
 			</td>
 		</tr> 
 		<tr>
@@ -73,7 +77,8 @@
 				<br> 입력3 <br><br>
 			</td>
 			<td bgcolor='green'>
-				<br> ( 입력3 ) <br><br>
+				<br> ( 입력5 ) <br><br>
+				<br> ( 입력6 ) <br><br>
 			</td>
 		</tr>
 		<tr>
@@ -81,7 +86,8 @@
 				<br> 출력3 <br><br>
 			</td>
 			<td>
-				<br> ( 출력3 ) <br><br>
+				<br> ( 출력5 ) <br><br>
+				<br> ( 출력6 ) <br><br>
 			</td>
 		</tr> 
 	</table>

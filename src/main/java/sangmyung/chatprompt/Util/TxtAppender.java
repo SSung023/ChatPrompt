@@ -31,20 +31,20 @@ public class TxtAppender {
         writer.write("\t\t<tr>\n" +
                         "\t\t\t<td bgcolor='green' align='center'>\n" +
                         "\t\t\t\t<br> 입력" + idx + " <br><br>\n" +
-                        "\t\t\t</td>" +
+                        "\t\t\t</td>\n" +
                         "\t\t\t<td bgcolor='green'>\n" +
-                        "\t\t\t\t<br>" + i1 + "<br><br>\n" +
-                        "\t\t\t\t<br>" + i2 + "<br><br>\n" +
+                        "\t\t\t\t<br> " + i1 + " <br><br>\n" +
+                        "\t\t\t\t<br> " + i2 + " <br><br>\n" +
                         "\t\t\t</td>\n" +
                         "\t\t</tr>\n" +
 
                         "\t\t<tr>\n" +
                         "\t\t\t<td align='center'>\n" +
                         "\t\t\t\t<br> 출력" + idx + " <br><br>\n" +
-                        "\t\t\t</td>" +
+                        "\t\t\t</td>\n" +
                         "\t\t\t<td bgcolor='green'>\n" +
-                        "\t\t\t\t<br>" + o1 + "<br><br>\n" +
-                        "\t\t\t\t<br>" + o2 + "<br><br>\n" +
+                        "\t\t\t\t<br> " + o1 + " <br><br>\n" +
+                        "\t\t\t\t<br> " + o2 + " <br><br>\n" +
                         "\t\t\t</td>\n" +
                         "\t\t</tr>\n"
                 );

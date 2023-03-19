@@ -88,7 +88,8 @@ public class TxtWriter {
                 "\t\t\t<td>\n" +
                 "\t\t\t\t<br> ( 지시문 원문 ) <br><br>\n" +
                 "\t\t\t</td>\n" +
-                "\t\t</tr>");
+                "\t\t</tr>" +
+        "\n");
     }
 
 }
