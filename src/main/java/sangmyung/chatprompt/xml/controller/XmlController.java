@@ -1,4 +1,4 @@
-package sangmyung.chatprompt.Home.controller;
+package sangmyung.chatprompt.xml.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import java.util.Set;
 @Controller
 @RequiredArgsConstructor
 @Slf4j
-public class HomeController {
+public class XmlController {
 
     private XmlParser parser = new XmlParser();
     private final TxtWriter txtWriter;
