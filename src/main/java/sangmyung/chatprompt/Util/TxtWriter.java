@@ -1,12 +1,14 @@
 package sangmyung.chatprompt.Util;
 
-import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import sangmyung.chatprompt.xml.DTO.PromptDTO;
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
 
 @Service
@@ -37,7 +39,8 @@ public class TxtWriter {
 
         bufferedWriter.close();
 
-//        appender.
+
+        appender.appendTds(file, infoList, idx);
     }
 
     private void writeUpperText(BufferedWriter writer, String machineTrans) throws IOException {
