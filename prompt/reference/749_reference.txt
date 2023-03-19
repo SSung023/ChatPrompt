@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 짧은 이야기가 제공됩니다. 이야기에서 한 문장이 선택됩니다. 문장에 참여하는 사람들과 그것에 의해 영향을 받는 사람들의 가능한 감정을 고려하십시오. 이러한 감정 중 문장으로 인해 발생하는 것이 있습니까? 답은 "A>원인>B" 형식으로 작성해야 합니다. 가능하면 이야기의 문구와 문장을 사용하여 답을 작성하십시오. 결과를 설명하는 문장에는 동사 느낌을 사용해야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

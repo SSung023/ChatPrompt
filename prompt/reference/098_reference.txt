@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 두 개의 숫자 목록이 제공되며 이 두 목록 간의 교차점을 계산해야 합니다. 두 목록 사이의 교차점은 두 원래 목록 사이의 모든 요소가 공통인 또 다른 목록입니다. 교차점에 요소가 없으면 빈 목록으로 답하십시오. 번호 목록은 괄호 안에 있어야 합니다. 답변의 번호를 오름차순으로 정렬합니다. 즉, 목록의 번호 순서에 관계없이 답변에 오름차순으로 입력해야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 모든 대명사를 표시합니다(그들, 그들, 당신, 그, 그의, 그녀, 당신, 그것 등). 주어진 문장에 존재합니다. 한 문장에 이러한 대명사가 여러 개 있는 경우 주어진 문장에서 처음 나타나는 순서대로 나열합니다. 한 문장에 대명사가 여러 번 나오는 경우 한 번만 나열합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

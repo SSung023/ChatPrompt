@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 입력 i,j 및 A가 제공됩니다. 여기서 i 및 j는 정수이고 A는 목록입니다. i번째 요소에서 j번째 요소까지 A의 모든 요소를 나열해야 합니다. i와 j는 음수가 아니며 항상 A의 길이보다 작은 값을 갖습니다. i는 항상 j보다 작습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

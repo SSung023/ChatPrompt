@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 짧은 이야기가 제공됩니다. 이야기에서 한 문장이 선택됩니다. 그 문장에 참여하는 사람들이 가질 수 있는 감정과 기본적인 인간의 욕구를 고려하십시오. 이러한 마음/느낌의 상태가 참여자로 하여금 그 문장에서 일어나는 일을 하도록 동기를 부여합니까? 답은 " A >동기 부여 > B" 형식으로 작성해야 합니다. 가능하면 이야기의 문구와 문장을 사용하여 답을 작성하십시오. 동기 부여 문장은 :feel(s), want(s) 또는 like(s) 중에서 동사를 선택해야 합니다. 주어진 이야기에는 항상 어떤 동기가 있을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

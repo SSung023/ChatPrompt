@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 의학 연구에서 치료는 연구 참가자 그룹 내에서 테스트됩니다. 연구 참가자에 대한 정보를 제공하는 문구를 나열하는 것이 귀하의 임무인 연구 보고서 문장을 받게 됩니다. 쉼표로 구분하여 텍스트에 나타나는 동일한 순서로 구문을 나열해야 합니다. 참가자에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"만 출력합니다. 참가자에 대한 관련 정보에는 성별, 건강 상태, 위치, 참가자 수가 포함됩니다. 관련 정보 없이 참가자 언급을 포함하지 마십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

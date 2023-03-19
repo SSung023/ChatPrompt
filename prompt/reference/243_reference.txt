@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 두 세트가 주어지고 주어진 두 세트의 교차점에 있는 요소의 수를 세어야 합니다. 집합은 {1, 2, 3}과 같이 두 개의 중괄호와 쉼표로 구분된 숫자로 표시됩니다. 주어진 두 집합의 교집합은 두 집합에 공통인 모든 요소를 포함하는 가장 큰 집합입니다. 주어진 두 집합의 교집합을 찾기 위해 A와 B는 A와 B 모두에 공통인 모든 요소로 구성된 집합입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 레스토랑 설명을 키-값 쌍의 구조화된 데이터 테이블로 구문 분석하도록 요청합니다. 다음은 속성(키) 및 해당 예제 값입니다. 답을 만들 때 이 순서를 유지해야 합니다. 이름: The Eagle,... eatType: 레스토랑, 커피숍,... 음식: French, Italian,... priceRange: 싼, 비싼,... customerRating: 1 of 5(낮음), 4/5(높음) 지역: 강변, 도심, ... familyFriendly: 예 / 아니오 근처: Panda Express,... 출력 테이블은 속성의 전부 또는 일부만 포함할 수 있지만 목록에 없는 속성은 포함하지 않아야 합니다. 출력이 올바른 것으로 간주되려면 입력 문장에 존재하는 모든 속성도 구문 분석해야 합니다. 즉, 불완전한 구문 분석은 잘못된 것으로 간주됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

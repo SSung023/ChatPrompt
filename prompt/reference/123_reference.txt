@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 사전 목록이 제공됩니다. 사전은 각 키가 고유하고 해당 키와 연결된 값이 있는 키-값 쌍의 집합입니다. 사전 목록을 '첫 번째' 키로 가장 작은 것부터 큰 것까지 정렬해야 합니다. 동일한 '첫 번째' 값을 가진 두 개의 사전이 있는 경우 '두 번째' 키로 사전을 정렬합니다. 음수는 양수 앞에 와야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

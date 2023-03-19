@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 한 자리 숫자만 포함된 문자열이 주어집니다. 입력 문자열은 서로 다른 숫자 사이에 공백을 포함하지 않습니다. 당신의 임무는 문자열이 나타내는 숫자를 반환하는 것입니다. 문자열은 예를 들어 '1726'이 '1726' 대신 'oneseventwosix'가 되는 것과 같이 숫자의 각 자릿수 철자를 표시합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

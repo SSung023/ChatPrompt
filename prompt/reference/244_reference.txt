@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 두 세트가 제공되며 주어진 두 세트의 합집합에서 요소의 수를 계산해야 합니다. 집합은 {1, 2, 3}과 같이 두 개의 중괄호와 쉼표로 구분된 숫자로 표시됩니다. 주어진 두 집합의 합집합은 두 집합의 모든 요소를 포함하는 가장 작은 집합입니다. 주어진 두 집합의 합집합을 찾기 위해 A와 B는 A의 모든 요소와 B의 모든 요소로 구성되어 요소가 반복되지 않는 집합입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

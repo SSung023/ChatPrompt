@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 문장이 주어지고 문장을 Yes 또는 No로 분류하여 문장에 동작이 포함되어 있는지 여부를 식별하는 것이 작업입니다. 물리적 개체의 움직임이 발생하면 문장은 '예' 범주에 속하고 그렇지 않으면 문장은 '아니오' 범주에 속합니다. 문장이 (i) 물리적 대상의 움직임을 포함하는 경우 문장에 움직임이 포함됩니다. (ii) 수행된 작업을 나타내는 현재 시제의 동사를 포함합니다. 때로는 동작을 나타내는 동사가 있을 수 있지만 동작이 과거에 발생했을 수 있으며 이러한 문장에 대한 대답은 '아니오'입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 지정된 문장을 사용하여 문장을 (주어, 술어 목적어) 형식의 RDF(Resource Description Framework) 삼중항으로 변환하는 작업입니다. 생성된 RDF 삼중 항은 삼중 항이 입력 문장의 구조와 의미를 정확하게 캡처하도록 해야 합니다. 입력은 문장이고 출력은 문장에 존재하는 관계를 포착하는 [주어, 술어, 목적어] 형식의 삼중항 목록입니다. 문장에 1개 이상의 RDF 삼중항이 가능한 경우 출력에 모든 삼중항이 포함되어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

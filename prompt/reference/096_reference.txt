@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 숫자 목록이 제공되며 목록의 모든 값과 인덱스가 있는 값을 빼야 합니다. 요소의 색인은 목록에서 숫자 순서를 나타냅니다(예를 들어 목록 [7,10,4,5]에서 7의 색인은 1이고 4의 색인은 3입니다) 색인은 1에서 시작해야 합니다. 이므로 목록의 첫 번째 요소에서 1을 뺍니다. 목록의 모든 요소에 대해 시작 요소의 인덱스가 1이고 각 요소에 대해 1씩 증가하는 "요소 - 인덱스"를 찾아야 합니다. 결과 목록을 괄호 안에 넣으십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

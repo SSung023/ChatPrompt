@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 정수 목록이 제공됩니다. 목록은 두 대괄호 사이에 쉼표로 구분된 숫자로 표시됩니다. 예를 들어 [7,3,6]은 목록입니다. 위치 1의 숫자는 7, 위치 2의 숫자는 3, 위치 3의 숫자는 6입니다. 각 위치에 있는 모든 요소가 입력 배열의 다른 모든 위치에 있는 요소의 곱과 같도록 목록으로 응답해야 합니다. 예를 들어 목록에 4개의 숫자가 있는 경우 제공하는 답변은 다음과 같이 작성되어야 합니다. 목록의 첫 번째 요소 = 주어진 목록의 두 번째, 세 번째 및 네 번째 요소의 곱입니다. 목록의 두 번째 요소 = 주어진 목록의 첫 번째, 세 번째 및 네 번째 요소의 곱 등 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

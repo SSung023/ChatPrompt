@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 정수 목록이 제공됩니다. 목록의 모든 요소에 대해 요소가 양수이면 2를 곱해야 합니다. 요소가 음수이면 -3을 곱해야 합니다. 출력은 해당 논리를 입력 목록에 적용한 결과인 정수 목록이어야 합니다. 참고: 목록은 두 개의 괄호 안에 쉼표로 구분된 숫자로 표시됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

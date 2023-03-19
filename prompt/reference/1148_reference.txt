@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 고유한 문자가 포함된 문자열이 제공되며 최대 ASCII 값이 있는 문자열에서 해당 문자를 반환해야 합니다. ASCII는 American Standard Code For Information Interchange의 약자이며 각 문자에 고유 번호를 할당합니다. 문자 [a - z]의 ASCII 범위는 각각 97-122이고 [A-Z]의 ASCII 범위는 각각 65-90입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

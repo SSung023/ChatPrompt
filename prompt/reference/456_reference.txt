@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 개행 문자로 구분된 컨텍스트와 동사가 제공됩니다. 주어진 동사가 의견, 의도, 소원을 암시하는지 확인해야 합니다. 동사는 조건부(또는 조건의 일부)가 아닌 미래에 발생할 예정인 이벤트를 가리키는 경우에만 의도를 나타냅니다. 출력은 다음과 같아야 합니다. 동사가 의견, 의도 또는 희망을 나타내는 경우 '예'; 그렇지 않으면 '아니오'입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

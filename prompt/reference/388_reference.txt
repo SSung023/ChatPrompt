@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 구절이 주어지며 목표는 구절에서 이벤트를 식별하는 것입니다. 이벤트는 발생했거나 발생 중이거나 발생할 수 있는 일을 나타내는 단일 단어로 정의됩니다. 사건은 사실적일 수도 가상적일 수도 있고, 긍정적일 수도 부정적일 수도 있으며, 확실할 수도 불확실할 수도 있습니다. 대부분의 이벤트는 동사를 기반으로 하지만 이벤트는 명사를 기반으로 할 수도 있습니다(예: 폭풍, 눈, 강우) 또는 연결사 동사(is, was, been 등). 사건은 대명사나 형용사가 아니어야 합니다. 여러 단어로 구성된 명사 사건의 경우 구의 마지막 단어를 사건으로 사용합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

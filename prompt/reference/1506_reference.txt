@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 사람의 짧은 약력이 주어지면 그 사람의 생년월일을 포함하는 최소 텍스트 범위를 찾습니다. 출력은 생년월일, 월, 연도를 포함하는 최소 텍스트 범위여야 합니다. 예를 들어, '저는 1990년 12월 27일에 태어나 2008년 10월 23일에 고등학교를 졸업했습니다.'와 같은 약력이 주어집니다. 출력은 '1990년 12월 27일'이어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

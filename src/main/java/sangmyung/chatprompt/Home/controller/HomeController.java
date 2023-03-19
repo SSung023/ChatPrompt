@@ -4,12 +4,15 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import sangmyung.chatprompt.Util.TxtAppender;
 import sangmyung.chatprompt.Util.TxtWriter;
 import sangmyung.chatprompt.Util.XmlParser;
-import sangmyung.chatprompt.xml.DTO.PromptListDTO;
+import sangmyung.chatprompt.xml.DTO.PromptDTO;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 @Controller
 @RequiredArgsConstructor
@@ -18,6 +21,7 @@ public class HomeController {
 
     private XmlParser parser = new XmlParser();
     private final TxtWriter txtWriter;
+    private final TxtAppender txtAppender;
 
 
     @GetMapping("/")
@@ -28,19 +32,19 @@ public class HomeController {
 
 
     @GetMapping("/parse")
-    public String parseXml() throws JAXBException, IOException {
-        PromptListDTO unmarshall = parser.unmarshall();
-        log.info("success");
-
-
-        return "editDefinition";
-    }
-
-    @GetMapping("/test")
     public String writeTxt() throws JAXBException, IOException {
-        PromptListDTO unmarshall = parser.unmarshall();
-        txtWriter.checkFileExist(unmarshall.getInfoList().get(0));
+        List<PromptDTO> infoList = parser.unmarshall().getInfoList();
+        int len = infoList.size();
 
+        for (int i = 0; i < len; i+=2){
+            List<PromptDTO> promptList = new ArrayList<>();
+            promptList.add(infoList.get(i));
+            promptList.add(infoList.get(i+1));
+
+            int idx = Integer.parseInt(infoList.get(i).getIndex().replaceAll("[^0-9]", ""));
+
+            txtWriter.checkAndWriteFile(promptList, idx);
+        }
 
         return "editDefinition";
     }

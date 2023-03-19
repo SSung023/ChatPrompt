@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 단락, 이벤트 및 엔터티가 제공됩니다. 이벤트는 주어진 단락의 일부이며 엔터티의 상태를 변경합니다. 당신의 임무는 엔티티의 상태를 1) 존재하지 않음, 2) 알 수 없는 위치 및 3) 알려진 위치의 세 가지 클래스로 분류하는 것입니다. "존재하지 않음"은 엔터티가 해당 상태에 더 이상 존재하지 않음을 의미합니다. "알 수 없는 위치"는 개체가 해당 상태에 있지만 위치를 알 수 없음을 의미합니다. "알려진 위치"는 엔티티가 존재하고 위치가 알려져 있음을 의미합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

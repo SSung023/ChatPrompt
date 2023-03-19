@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 목록이 제공됩니다. 목록은 [] 안에 쓰여진 쉼표로 구분된 여러 정수와 문자입니다. 입력 목록의 항목 중 하나를 드롭하여 새 목록을 만들 수 있습니다. 귀하의 작업은 입력 목록에서 항목 하나를 삭제하여 만들 수 있는 모든 가능한 목록을 포함하는 목록을 작성하는 것입니다. 예를 들어 입력 목록에 두 개의 항목이 포함된 경우 매번 항목 중 하나를 삭제할 수 있습니다. 따라서 출력은 항목을 줄임으로써 만든 두 개의 내부 목록으로 구성된 목록이어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

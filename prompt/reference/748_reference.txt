@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 짧은 이야기가 제공됩니다. 이야기에서 한 문장이 선택됩니다. 그 문장 이후에 일어나는 사건들을 생각해 보십시오. 그들 중 어떤 것이 그것으로 인해 직접적으로 발생했습니까, 아니면 가능하게 되었습니까? 답은 "A >causes/enables> B" 형식으로 작성해야 합니다. 가능하면 이야기의 문구와 문장을 사용하여 답을 작성하십시오. 답변에서 선택한 주요 문장을 변경하지 마십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

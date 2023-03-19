@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업은 주어진 문장의 주제를 식별하는 것입니다. 문장의 주어는 문장의 동작을 수행하는 사람, 장소 또는 사물입니다. 주제는 문장이 누구에 관한 것인지를 나타냅니다. 이 작업의 각 문장은 단일 주제를 포함하도록 보장됩니다. 입력은 문장이고 출력은 해당 문장의 식별된 주제입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

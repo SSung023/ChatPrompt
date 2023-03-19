@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 수학에서 숫자의 절대값은 부호를 고려하지 않고 해당 숫자의 음수가 아닌 값입니다. 예를 들어 -2의 절대값은 2이고 5의 절대값은 5입니다. 이 작업에서는 숫자 목록이 제공되며 절대값이 가장 높은 요소를 반환해야 합니다. 음수 요소와 양수 요소의 절대값이 같으면 양수 요소를 반환해야 합니다. 음수의 절대값은 -1을 곱하여 구할 수 있습니다. 절대값이 최대인 요소를 찾은 후에는 절대값을 적용하기 전의 해당 요소의 값을 반환해야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

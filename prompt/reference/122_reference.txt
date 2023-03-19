@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 목록, 목록, 숫자가 제공됩니다. 각 목록은 대괄호와 쉼표로 구분된 값으로 표시됩니다. 예를 들어 숫자 목록은 [1,2,3]이고 숫자 목록 두 개는 [[1,2],[3,4,6]]입니다. 모든 내부 목록의 모든 위치에 있는 값을 합산하여 답의 요소로 넣어야 합니다. 즉, 각 내부 목록의 첫 번째 구성원을 합하여 목록의 첫 번째 요소로 넣은 다음 합계 각 내부 목록의 두 번째 구성원을 함께 목록의 두 번째 요소로 넣습니다. 출력은 가장 긴 내부 목록과 길이가 같은 숫자 목록이어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

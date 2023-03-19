@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 동작이 포함된 문장이 제공되며 동작과 관련된 물리적 개체를 식별하는 것이 작업입니다. 입력 문장은 하나 이상의 엔터티를 가질 수 있으며 물리적 움직임에 참여하는 하나 이상의 엔터티가 있습니다. 생물(살아 있는 존재)과 무생물(살아 있지 않은 존재)인 두 가지 유형의 개체가 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+

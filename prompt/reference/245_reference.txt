@@ -1,0 +1,29 @@
+	<table border='1' width='1024px' style='table-layout:fixed; word-break:break-all;'>
+		<tr>
+			<td width='100px' align='center'>
+				<br> 지시문 <br><br>
+			</td>
+			<td>
+				<br> ( 지시문 ) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문1 <br><br>
+			</td>
+			<td>
+				<br> 이 작업에서는 두 세트와 질문이 주어집니다. 요소가 주어진 두 세트의 교차점에 있는지 여부를 찾아야 합니다. 집합은 {1, 2, 3}과 같이 두 개의 중괄호와 쉼표로 구분된 숫자로 표시됩니다. 주어진 두 집합의 교집합은 두 집합에 공통인 모든 요소를 포함하는 가장 큰 집합입니다. 요소는 A와 B 모두에 공통인 경우 주어진 두 세트 A와 B의 교차점에 있습니다. 답을 '예' 또는 '아니오'로 분류하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 기계번역문2 <br><br>
+			</td>
+			<td>
+				<br> ( 기계번역문2 ) <br><br>
+			</td>
+		</tr> 
+	</table><br>
+
+ ( split this page up and down ) 
+
