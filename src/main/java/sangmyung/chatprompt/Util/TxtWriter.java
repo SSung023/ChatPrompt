@@ -32,10 +32,11 @@ public class TxtWriter {
         if (!file.exists()){
             file.createNewFile();
 
-            String machineTrans = infoList.get(1).getDefinition();
-            writeUpperText(bufferedWriter, machineTrans);
-        }
 
+//            writeUpperText(bufferedWriter, machineTrans);
+        }
+        String machineTrans = infoList.get(1).getDefinition();
+        writeUpperText(bufferedWriter, machineTrans);
         bufferedWriter.close();
 
         appender.appendTds(taskNum, infoList, idx);
@@ -81,16 +82,8 @@ public class TxtWriter {
                 "\t</table><br>\n" +
                 "\n" +
                 " ( split this page up and down ) \n" +
-                "\n\t<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'>\n" +
-                "\t\t<tr>\n" +
-                "\t\t\t<td width='100px' align='center'>\n" +
-                "\t\t\t\t<br> 지시문 <br><br>\n" +
-                "\t\t\t</td>\n" +
-                "\t\t\t<td>\n" +
-                "\t\t\t\t<br> ( 지시문 원문 ) <br><br>\n" +
-                "\t\t\t</td>\n" +
-                "\t\t</tr>" +
-        "\n");
+                "\n" +
+                "\t<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'>");
     }
 
 }
