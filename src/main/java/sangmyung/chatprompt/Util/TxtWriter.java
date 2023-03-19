@@ -24,18 +24,19 @@ public class TxtWriter {
     public void checkAndWriteFile(List<PromptDTO> infoList, String taskNum, String idx) throws IOException {
         File file = new File(txtPath + taskNum + refSuffix);
 
-        if (!file.exists()){
-            file.createNewFile();
-        }
+        // upperText가 제대로 안들어가는 문제가 있음
 
-        FileWriter fileWriter = new FileWriter(file);
+        FileWriter fileWriter = new FileWriter(file, true);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-        String machineTrans = infoList.get(1).getDefinition();
-        writeUpperText(bufferedWriter, machineTrans);
+        if (!file.exists()){
+            file.createNewFile();
+
+            String machineTrans = infoList.get(1).getDefinition();
+            writeUpperText(bufferedWriter, machineTrans);
+        }
 
         bufferedWriter.close();
-
 
         appender.appendTds(taskNum, infoList, idx);
     }

@@ -35,7 +35,7 @@ public class HomeController {
 
     @GetMapping("/parse")
     public String writeTxt() throws JAXBException, IOException {
-        Set<String> taskList = new HashSet<>();
+        Set<String> taskNumList = new HashSet<>();
         List<PromptDTO> infoList = parser.unmarshall().getInfoList();
         int len = infoList.size();
 
@@ -44,14 +44,14 @@ public class HomeController {
             promptList.add(infoList.get(i));
             promptList.add(infoList.get(i+1));
 
-            String taskNum = promptList.get(0).getTask().replaceAll("[^0-9]", "");
-            String idx = infoList.get(i).getIndex().replaceAll("[^0-9]", "");
+            String taskNum = promptList.get(0).getTask().replaceAll("[^0-9]", ""); // 179와 같은 task의 번호
+            String idx = infoList.get(i).getIndex().replaceAll("[^0-9]", ""); // 1a, 1b와 같은 번호
 
-            taskList.add(taskNum);
+            taskNumList.add(taskNum);
             txtWriter.checkAndWriteFile(promptList, taskNum, idx);
         }
 
-        for (String taskNum : taskList) {
+        for (String taskNum : taskNumList) {
             txtWriter.addTableSuffix(taskNum);
         }
 
