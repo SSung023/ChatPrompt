@@ -12,7 +12,9 @@ import sangmyung.chatprompt.xml.DTO.PromptDTO;
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Controller
 @RequiredArgsConstructor
@@ -33,6 +35,7 @@ public class HomeController {
 
     @GetMapping("/parse")
     public String writeTxt() throws JAXBException, IOException {
+        Set<String> taskList = new HashSet<>();
         List<PromptDTO> infoList = parser.unmarshall().getInfoList();
         int len = infoList.size();
 
@@ -41,9 +44,15 @@ public class HomeController {
             promptList.add(infoList.get(i));
             promptList.add(infoList.get(i+1));
 
+            String taskNum = promptList.get(0).getTask().replaceAll("[^0-9]", "");
             int idx = Integer.parseInt(infoList.get(i).getIndex().replaceAll("[^0-9]", ""));
 
-            txtWriter.checkAndWriteFile(promptList, idx);
+            taskList.add(taskNum);
+            txtWriter.checkAndWriteFile(promptList, taskNum, idx);
+        }
+
+        for (String taskNum : taskList) {
+            txtWriter.addTableSuffix(taskNum);
         }
 
         return "editDefinition";

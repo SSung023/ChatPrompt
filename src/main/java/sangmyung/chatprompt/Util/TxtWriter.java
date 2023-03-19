@@ -21,10 +21,7 @@ public class TxtWriter {
 
 
 
-    public void checkAndWriteFile(List<PromptDTO> infoList, int idx) throws IOException {
-        String intStr = infoList.get(0).getTask();
-        String taskNum = intStr.replaceAll("[^0-9]", "");
-
+    public void checkAndWriteFile(List<PromptDTO> infoList, String taskNum, int idx) throws IOException {
         File file = new File(txtPath + taskNum + refSuffix);
 
         if (!file.exists()){
@@ -40,7 +37,18 @@ public class TxtWriter {
         bufferedWriter.close();
 
 
-        appender.appendTds(file, infoList, idx);
+//        appender.appendTds(file, infoList, idx);
+    }
+
+    public void addTableSuffix(String taskNum) throws IOException {
+        File file = new File(txtPath + taskNum + refSuffix);
+
+        FileWriter fileWriter = new FileWriter(file, true);
+        BufferedWriter writer = new BufferedWriter(fileWriter);
+
+        writer.write("\n\t</table>");
+        writer.close();
+
     }
 
     private void writeUpperText(BufferedWriter writer, String machineTrans) throws IOException {
@@ -72,7 +80,15 @@ public class TxtWriter {
                 "\t</table><br>\n" +
                 "\n" +
                 " ( split this page up and down ) \n" +
-                "\n");
+                "\n\t<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'>\n" +
+                "\t\t<tr>\n" +
+                "\t\t\t<td width='100px' align='center'>\n" +
+                "\t\t\t\t<br> 지시문 <br><br>\n" +
+                "\t\t\t</td>\n" +
+                "\t\t\t<td>\n" +
+                "\t\t\t\t<br> ( 지시문 원문 ) <br><br>\n" +
+                "\t\t\t</td>\n" +
+                "\t\t</tr>");
     }
 
 }
