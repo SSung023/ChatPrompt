@@ -37,7 +37,7 @@ public class TxtWriter {
         bufferedWriter.close();
 
 
-//        appender.appendTds(file, infoList, idx);
+        appender.appendTds(file, infoList, idx);
     }
 
     public void addTableSuffix(String taskNum) throws IOException {

@@ -7,48 +7,46 @@ import java.util.List;
 
 @Service
 public class TxtAppender {
-    private File file;
-    private BufferedWriter writer;
-    private BufferedReader reader;
+//    private File file;
 
-    private Boolean isTableExist = false;
-
-//    public TxtAppender(File file) {
+    public File appendTds(File file, List<PromptDTO> infoList, int idx) throws IOException {
 //        this.file = file;
-//    }
+        FileWriter fileWriter = new FileWriter(file, true);
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-    public File appendTds(File file) throws IOException {
-        this.reader = new BufferedReader(new FileReader(file));
+        writeLowerText(bufferedWriter,
+               infoList.get(0).getInputStr(),
+               infoList.get(1).getInputStr(),
+               infoList.get(0).getOutputStr(),
+               infoList.get(1).getOutputStr(),
+               idx);
 
-        String line = "";
-        String content = "";
+        bufferedWriter.close();
 
-        while((line = reader.readLine()) != null){
-            if (line.contains("테스트 텍스트입니다")) {
-                isTableExist = true;
-                continue;
-            }
-            if (line.contains("테스트 끝입니다") && isTableExist) {
-                content += "추가할 문자열\n";
-                isTableExist = false;
-            }
-            reader.close();
-
-            FileWriter fw = new FileWriter(file.getAbsoluteFile());
-            BufferedWriter bw = new BufferedWriter(fw);
-            bw.write(content);
-            bw.close();
-        }
         return file;
     }
 
-//    public File appendTds(List<PromptDTO> promptDTO) throws IOException {
-//        this.writer = new BufferedWriter(new FileWriter(file, true));
-//
-//        for (int i = 0; i < promptDTO.size(); i++){
-//
-//        }
-//
-//        return file;
-//    }
+    public void writeLowerText(BufferedWriter writer,
+                               String i1, String i2, String o1, String o2, int idx) throws IOException {
+        writer.write("\t\t<tr>\n" +
+                        "\t\t\t<td bgcolor='green' align='center'>\n" +
+                        "\t\t\t\t<br> 입력" + idx + " <br><br>\n" +
+                        "\t\t\t</td>" +
+                        "\t\t\t<td bgcolor='green'>\n" +
+                        "\t\t\t\t<br>" + i1 + "<br><br>\n" +
+                        "\t\t\t\t<br>" + i2 + "<br><br>\n" +
+                        "\t\t\t</td>\n" +
+                        "\t\t</tr>\n" +
+
+                        "\t\t<tr>\n" +
+                        "\t\t\t<td align='center'>\n" +
+                        "\t\t\t\t<br> 출력" + idx + " <br><br>\n" +
+                        "\t\t\t</td>" +
+                        "\t\t\t<td bgcolor='green'>\n" +
+                        "\t\t\t\t<br>" + o1 + "<br><br>\n" +
+                        "\t\t\t\t<br>" + o2 + "<br><br>\n" +
+                        "\t\t\t</td>\n" +
+                        "\t\t</tr>\n"
+                );
+    }
 }
