@@ -26,7 +26,8 @@
 	String annotator = ( ( request.getParameter( "annotator" ) == null ) ? "G" : request.getParameter( "annotator" ) );	
 
 	// 파일 출력 
-	String filePath = "/usr/local/tomcat/webapps/ROOT/prompt/"; // reference, definition 폴더 경로
+//	String filePath = "/usr/local/tomcat/webapps/ROOT/prompt/"; // reference, definition 폴더 경로
+	String filePath = "prompt/";
 	FileManager filemanager = new FileManager();
 	String[] referenceText = filemanager.read( filePath + "reference/" + task_id + "_reference.txt" ).split( "\n \\( split this page up and down \\) \n" );
 	String[] definitionText = filemanager.read( filePath + "definition/" + task_id + "_definition_" + annotator +".txt" ).split( "\n \\( split this page up and down \\) \n" );

@@ -13,7 +13,8 @@
 	String next_task_id = df.format( Integer.parseInt( task_id ) + 1 );
 
 	// ���� ��� 
-	String filePath = "/usr/local/tomcat/webapps/ROOT/prompt/"; //
+//	String filePath = "/usr/local/tomcat/webapps/ROOT/prompt/";
+	String filePath = "prompt/";
 	FileManager filemanager = new FileManager();
 	filemanager.write( definition1 + "\n ( split this page up and down ) \n" + definition2, 
 			   filePath + "definition/" + task_id + "_definition_" + annotator +".txt" );
