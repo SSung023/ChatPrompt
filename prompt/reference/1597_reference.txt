@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a high-priced 3 star restaurant which offers wines and cheeses. It is family friendly and is located in the City centre near the xnear. Categories: Price, Rating, familyFriendly <br><br>
+				<br> 문장: xname은 와인과 치즈를 제공하는 고가의 3성급 레스토랑입니다. 그것은 가족 친화적이며 xnear 근처의 도심에 위치하고 있습니다. 카테고리: 가격, 등급, 가족우호적 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> price[high], rating[3 out of 5], familyFriendly[yes] <br><br>
+				<br> 가격[높음], 평점[3/5], 가족 친화적[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Situated in the city centre near xnear, xname is a family-friendly place serving English cuisine. Categories: Cuisine, Location, familyFriendly <br><br>
+				<br> Sentence: xnear 근처 도심에 위치한 xname은 영국 요리를 제공하는 가족 친화적인 장소입니다. 카테고리: Cuisine, Location, familyFriendly <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> cuisine[English], location[city centre], familyFriendly[yes] <br><br>
+				<br> 요리[영어], 위치[도심], 가족 친화적[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: A coffee shop named xname is located on the riverside near xnear and has a moderate price range although a low customer rating of 1 out of 5. ; Categories: rating, eattype, price <br><br>
+				<br> 문장: xname이라는 이름의 커피숍은 xnear 근처 강변에 위치하고 있으며 고객 평점이 5점 만점에 1점으로 낮지만 적당한 가격대를 가지고 있습니다. ; 카테고리: 평가, 먹는 유형, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> rating[1 out of 5], eattype[coffee shop], price[moderate] <br><br>
+				<br> 별점[5점 만점에 1점], 식사종류[커피숍], 가격[보통] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Along the riverside near xnear is xname. It serves Italian food in a family-friendly environment. It has a low customer rating. ; Categories: rating, cuisine, familyFriendly <br><br>
+				<br> 문장: xnear 근처의 강변을 따라 xname이 있습니다. 가족 친화적인 환경에서 이탈리아 음식을 제공합니다. 고객 평가가 낮습니다. ; 카테고리: 평점, 요리, familyFriendly <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> rating[low], cuisine[Italian], familyFriendly[yes] <br><br>
+				<br> 평점[낮음], 요리[이탈리아], 가족친절[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Because xname has good ambiance and friendly staff, xname is in Midtown and it is a New American place and expensive, I would consider it. ; Categories: location, decor, cuisine <br><br>
+				<br> 문장: xname은 좋은 분위기와 친절한 직원을 가지고 있기 때문에 xname은 Midtown에 있고 New American 장소이고 비싸기 때문에 고려할 것입니다. ; 카테고리: 위치, 장식, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> location[Midtown], decor[good], cuisine[New American] <br><br>
+				<br> 위치[미드타운], 인테리어[좋음], 요리[뉴 아메리칸] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Because xname is affordable and an Italian restaurant with satisfying staff and mediocre decor and it is in Midtown, it is the best place. ; Categories: price, recommend, cuisine <br><br>
+				<br> 문장: xname은 저렴하고 직원들이 만족하는 이탈리안 레스토랑이며 평범한 인테리어와 Midtown에 있기 때문에 최고의 장소입니다. ; 카테고리: 가격, 추천, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> price[affordable], recommend[yes], cuisine[Italian] <br><br>
+				<br> 가격[저렴함], 추천[예], 요리[이탈리아] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: By the riverside there is a cheap, family-friendly restaurant called xname. ; Categories: price, familyFriendly, location <br><br>
+				<br> 문장: 강변에 xname이라는 저렴하고 가족 친화적인 식당이 있습니다. ; 카테고리: 가격, 가족친절한, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> price[cheap], familyFriendly[yes], location[riverside] <br><br>
+				<br> 가격[저렴], 가족친절[예], 위치[리버사이드] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I believe you would love xname because it offers satisfying food and bad staff. It is a New American restaurant. xname is in Midtown East. this place provides decent decor. it's affordable. ; Categories: decor, qual, location <br><br>
+				<br> 문장: 만족스러운 음식과 나쁜 직원을 제공하기 때문에 xname을 좋아할 것이라고 믿습니다. 뉴 아메리칸 레스토랑입니다. xname은 Midtown East에 있습니다. 이 장소는 괜찮은 장식을 제공합니다. 저렴합니다. ; 카테고리: 장식, 품질, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> decor[acceptable], qual[acceptable], location[Midtown East] <br><br>
+				<br> decor[acceptable], qual[acceptable], 위치[Midtown East] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I imagine you would love xname because this place is in TriBeCa/SoHo and it is a Latin American place. it's affordable with rude staff and bad ambiance. ; Categories: service, recommend, price <br><br>
+				<br> 문장: 이 장소가 TriBeCa/SoHo에 있고 라틴 아메리카 장소이기 때문에 xname을 좋아할 것이라고 생각합니다. 무례한 직원과 나쁜 분위기로 저렴합니다. ; 카테고리: 서비스, 추천, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> service[bad], recommend[yes], price[affordable] <br><br>
+				<br> 서비스[불량], 추천[예], 가격[적당] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I suspect xname is alright because it is a French place and very expensive with welcoming staff and decent decor. It is in Manhattan. it offers good food. ; Categories: cuisine, price, recommend <br><br>
+				<br> 문장: xname은 프랑스식 장소이고 환영하는 직원과 품위 있는 장식으로 매우 비싸기 때문에 괜찮은 것 같습니다. 맨하탄에 있습니다. 그것은 좋은 음식을 제공합니다. ; 카테고리: 요리, 가격, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> cuisine[French], price[very expensive], recommend[yes] <br><br>
+				<br> 요리[프랑스], 가격[매우 비싸다], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I suspect xname is alright because it is affordable. it's in Midtown. ; Categories: recommend, location, price <br><br>
+				<br> 문장: xname은 저렴하기 때문에 괜찮은 것 같습니다. 미드타운에 있다. ; 카테고리: 추천, 위치, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> recommend[yes], location[Midtown], price[affordable] <br><br>
+				<br> 추천[예], 위치[미드타운], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname because it has bad ambiance, although xname provides tasty food. ; Categories: qual, decor, recommend <br><br>
+				<br> 문장: xname은 맛있는 음식을 제공하지만 분위기가 좋지 않기 때문에 xname을 제안합니다. ; 카테고리: qual, 장식, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> qual[good], decor[bad], recommend[yes] <br><br>
+				<br> 품질[좋음], 장식[나쁨], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname because it is affordable and a Vietnamese place. it's in Manhattan. ; Categories: cuisine, location, price <br><br>
+				<br> 문장: 저렴하고 베트남 장소이기 때문에 xname을 추천합니다. 맨하탄에 있어요. ; 카테고리: 요리, 위치, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Vietnamese], location[Manhattan], price[affordable] <br><br>
+				<br> 요리[베트남식], 위치[맨해튼], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname because it provides adequate food, mediocre ambiance and bad staff. It is a Chinese restaurant. it's in Chinatown. ; Categories: qual, decor, recommend <br><br>
+				<br> 문장: 적절한 음식, 평범한 분위기 및 나쁜 직원을 제공하기 때문에 xname을 제안합니다. 중식당입니다. 차이나타운에 있어요. ; 카테고리: qual, 장식, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> qual[acceptable], decor[bad], recommend[yes] <br><br>
+				<br> 품질[허용], 장식[불량], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname because it's affordable and a Chinese place and it offers horrendous ambiance, although it provides good food, and it has rude service. It is in Chinatown. ; Categories: decor, qual, location <br><br>
+				<br> 문장: xname을 추천하는 이유는 저렴하고 중국식 장소이며 좋은 음식을 제공하고 무례한 서비스를 제공하지만 끔찍한 분위기를 제공하기 때문입니다. 차이나타운에 있습니다. ; 카테고리: 장식, 품질, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> decor[terrible], qual[good], location[Chinatown] <br><br>
+				<br> 장식[끔찍], 품질[좋음], 위치[차이나타운] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname because it's in Manhattan and it is a English restaurant and expensive with decent staff and bad ambiance. ; Categories: cuisine, service, decor <br><br>
+				<br> 문장: 맨해튼에 있고 영국식 레스토랑이고 괜찮은 직원과 나쁜 분위기로 비싸기 때문에 xname을 제안합니다. ; 카테고리: 요리, 서비스, 장식 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> cuisine[English], service[acceptable], decor[bad] <br><br>
+				<br> 요리[영어], 서비스[허용], 장식[불량] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname because xname is in Midtown East with friendly service and mediocre decor. it's an Italian restaurant. It is affordable. it provides adequate food. ; Categories: price, service, decor <br><br>
+				<br> 문장: xname은 친절한 서비스와 평범한 장식이 있는 Midtown East에 있기 때문에 xname을 추천합니다. 이탈리안 레스토랑이다. 저렴합니다. 그것은 적절한 음식을 제공합니다. ; 카테고리: 가격, 서비스, 장식 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> price[affordable], service[acceptable], decor[bad] <br><br>
+				<br> 가격[적당함], 서비스[좋음], 장식[불량] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname since it is affordable. It is in Manhattan. it provides acceptable food. ; Categories: recommend, qual, location <br><br>
+				<br> 문장: 저렴하기 때문에 xname을 제안합니다. 맨하탄에 있습니다. 허용되는 음식을 제공합니다. ; 카테고리: 추천, 품질, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> recommend[yes], qual[acceptable], location[Manhattan] <br><br>
+				<br> 추천[예], 품질[허용], 위치[맨해튼] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname since it is affordable. it's in Manhattan. ; Categories: price, location, recommend <br><br>
+				<br> 문장: 저렴하기 때문에 xname을 제안합니다. 맨하탄에 있어요. ; 카테고리: 가격, 위치, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> price[affordable], location[Manhattan], recommend[yes] <br><br>
+				<br> 가격[저렴함], 위치[맨해튼], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: I would suggest xname since it's a Chinese restaurant and xname provides mediocre decor and rude service, but it is cheap though. It is in Manhattan. ; Categories: price, location, cuisine <br><br>
+				<br> 문장: xname은 중국 식당이고 xname은 평범한 장식과 무례한 서비스를 제공하지만 저렴하기 때문에 xname을 추천합니다. 맨하탄에 있습니다. ; 카테고리: 가격, 위치, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> price[cheap], location[Manhattan], cuisine[Chinese] <br><br>
+				<br> 가격[저렴], 위치[맨해튼], 요리[중국] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: In riverside there is a Chinese restaurant called xname that is kid friendly . ; Categories: familyFriendly, location, cuisine <br><br>
+				<br> 문장: 강변에 어린이 친화적인 xname이라는 중국 식당이 있습니다. ; 카테고리: familyFriendly, 위치, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], location[riverside], cuisine[Chinese] <br><br>
+				<br> 가족친절[예], 위치[강변], 요리[중국] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: In the city centre you will find xname which is a moderately priced French pub. ; Categories: eattype, price, cuisine <br><br>
+				<br> 문장: 도심에는 적당한 가격의 프렌치 펍인 xname이 있습니다. ; 카테고리: eattype, 가격, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> eattype[pub], price[moderate], cuisine[French] <br><br>
+				<br> eattype[펍], 가격[보통], 요리[프랑스] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Japanese food is served in xname, near xnear. It is a low-priced, family friendly coffee shop which has a high customer rating. ; Categories: familyFriendly, cuisine, price <br><br>
+				<br> 문장: 일본 음식은 xnear 근처의 xname에서 제공됩니다. 저렴하고 가족 친화적인 커피숍으로 고객 평가가 높습니다. ; 카테고리: 가족친절, 요리, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], cuisine[Japanese], price[cheap] <br><br>
+				<br> 가족친화[있음], 요리[일식], 가격[저렴] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Located near the river xname is a value for money family friendly restaurant. ; Categories: eattype, price, familyFriendly <br><br>
+				<br> 문장: xname 강 근처에 위치한 가족 친화적인 레스토랑은 가격 대비 가치가 있습니다. ; 카테고리: 식사 유형, 가격, 가족친절 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> eattype[pub], price[cheap], familyFriendly[yes] <br><br>
+				<br> eattype[pub], price[저렴함], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Riverside has an average-rated, less than £20 named xname. ; Categories: price, rating, location <br><br>
+				<br> 문장: Riverside는 xname이라는 평균 등급이 20파운드 미만입니다. ; 카테고리: 가격, 등급, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> price[less than £20], rating[average], location[riverside] <br><br>
+				<br> 가격[20파운드 미만], 평점[평균], 위치[강변] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: Since xname offers adequate food, mediocre decor and bad staff. It is a Thai restaurant and it is in Manhattan, I know you would like it. ; Categories: recommend, cuisine, decor <br><br>
+				<br> 문장: xname은 적절한 음식, 평범한 장식 및 나쁜 직원을 제공하기 때문에. 그것은 타이 레스토랑이고 그것은 맨해튼에 있습니다. 당신이 그것을 좋아한다는 것을 압니다. ; 카테고리: 추천, 요리, 장식 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> recommend[yes], cuisine[Thai], decor[bad] <br><br>
+				<br> 추천[예], 요리[태국], 장식[불량] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The coffee shop xname also offers Chinese food in the price range of £20-25. xname has high customer ratings but is not kid friendly. ; Categories: eattype, familyFriendly, cuisine <br><br>
+				<br> 문장: 커피숍 xname은 £20-25 가격대의 중국 음식도 제공합니다. xname은 고객 평가가 높지만 어린이에게 친숙하지 않습니다. ; 카테고리: eattype, familyFriendly, cuisine <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> eattype[coffee shop], familyFriendly[no], cuisine[Chinese] <br><br>
+				<br> eattype[커피숍], familyFriendly[no], cuisine[중국식] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The high end xname is located in the city centre and serves English cuisine ; Categories: location, cuisine, price <br><br>
+				<br> 문장: 하이엔드 xname은 도심에 위치하고 있으며 영국 요리를 제공합니다. 카테고리: 위치, 요리, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> location[city centre], cuisine[English], price[high] <br><br>
+				<br> 위치[도심], 요리[영어], 가격[높음] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The highly rated riverside pub xname serves French food. ; Categories: eattype, location, cuisine <br><br>
+				<br> 문장: 높은 평가를 받는 강변 펍 xname은 프랑스 음식을 제공합니다. ; 카테고리: 먹는 유형, 위치, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> eattype[pub], location[riverside], cuisine[French] <br><br>
+				<br> eattype[펍], 위치[리버사이드], 요리[프랑스어] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The pub, xname on the river side, near xnear, has a poor customer rating of 1 out of 5. ; Categories: eattype, rating, location <br><br>
+				<br> 문장: xnear 근처의 강변에 있는 xname이라는 펍은 고객 평점이 5점 만점에 1점입니다. ; 카테고리: 먹는 유형, 평점, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> eattype[pub], rating[1 out of 5], location[riverside] <br><br>
+				<br> 먹는 유형[펍], 평점[1/5], 위치[강변] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname coffee shop offers more than coffee but burgers and fries as well and its affordably priced. ; Categories: rating, price, familyFriendly <br><br>
+				<br> 문장: xname 커피숍은 커피뿐만 아니라 버거와 감자튀김도 제공하며 가격도 저렴합니다. ; 카테고리: 등급, 가격, 가족우호적 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> rating[3 out of 5], price[moderate], familyFriendly[yes] <br><br>
+				<br> 평점[3/5], 가격[보통], 가족 친화적[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname is a family restaurant with only 1 star rating and very expensive. It's near to xnear. ; Categories: rating, price, cuisine <br><br>
+				<br> 문장: xname은 별점이 1개밖에 없는 패밀리 레스토랑이며 매우 비쌉니다. xnear에 가깝습니다. ; 카테고리: 평가, 가격, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> rating[low], price[more than £30], cuisine[French] <br><br>
+				<br> 평점[낮음], 가격[30파운드 이상], 요리[프랑스어] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname is a family-friendly Italian Place in the city centre that is near xnear with a moderate pricing. ; Categories: cuisine, familyFriendly, price <br><br>
+				<br> 문장: xname은 적당한 가격으로 xn근처에 있는 도심의 가족 친화적인 이탈리안 플레이스입니다. ; 카테고리: 요리, 가족친절, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Italian], familyFriendly[yes], price[moderate] <br><br>
+				<br> 요리[이탈리안], 가족친절[예], 가격[보통] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname is a highly rated pub where you can eat Fast food. It is kids friendly. ; Categories: familyFriendly, cuisine, rating <br><br>
+				<br> 문장: xname은 패스트푸드를 먹을 수 있는 높은 등급의 펍입니다. 아이들에게 친숙합니다. ; 카테고리: familyFriendly, 요리, 평가 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], cuisine[Fast Food], rating[high] <br><br>
+				<br> familyFriendly[예], 요리[패스트푸드], 평점[높음] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname is a non-children friendly and expensive coffee shop near xnear. It is highly rated. ; Categories: eattype, price, familyFriendly <br><br>
+				<br> 문장: xname은 xnear 근처에 있는 비어린이 친화적이고 값비싼 커피숍입니다. 높은 평가를 받고 있습니다. ; 카테고리: 식사 유형, 가격, 가족친절 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> eattype[coffee shop], price[more than £30], familyFriendly[no] <br><br>
+				<br> eattype[커피숍], price[£30 이상], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname is a quiet establishment near the city center with dishes less than £20. ; Categories: location, familyFriendly, price <br><br>
+				<br> 문장: xname은 £20 미만의 요리를 제공하는 도심 근처의 조용한 식당입니다. ; 카테고리: 위치, 가족친절함, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> location[city centre], familyFriendly[no], price[less than £20] <br><br>
+				<br> 위치[도심], 가족 친화적[아니요], 가격[£20 미만] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname restaurant serves Italian. It is kid friendly. ; Categories: familyFriendly, cuisine, eattype <br><br>
+				<br> 문장: xname 레스토랑은 이탈리아 요리를 제공합니다. 그것은 아이 친화적입니다. ; 카테고리: familyFriendly, cuisine, eattype <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], cuisine[Italian], eattype[restaurant] <br><br>
+				<br> familyFriendly[예], 요리[이탈리아], eattype[레스토랑] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: The xname restaurant serves Japanese food and is family friendly. ; Categories: familyFriendly, cuisine, eattype <br><br>
+				<br> 문장: xname 레스토랑은 일식을 제공하며 가족 친화적입니다. ; 카테고리: familyFriendly, cuisine, eattype <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], cuisine[Japanese], eattype[restaurant] <br><br>
+				<br> familyFriendly[예], 요리[일식], eattype[레스토랑] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: There is a Fast food eatery, with a high customer rating and a price range of £20 - £25 named xname. ; Categories: rating, price, cuisine <br><br>
+				<br> 문장: 고객 평점이 높고 가격 범위가 £20 - £25인 xname이라는 패스트푸드점이 있습니다. ; 카테고리: 평가, 가격, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> rating[high], price[£20-25], cuisine[Fast Food] <br><br>
+				<br> 평점[높음], 가격[£20-25], 요리[패스트푸드] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: With friendly service and acceptable decor, xname is one of my favourite restaurant. ; Categories: service, decor, recommend <br><br>
+				<br> 문장: 친절한 서비스와 무난한 장식을 갖춘 xname은 제가 가장 좋아하는 레스토랑 중 하나입니다. ; 카테고리: 서비스, 장식, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> service[acceptable], decor[acceptable], recommend[yes] <br><br>
+				<br> 서비스[허용], 장식[허용], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: With good staff and nice decor, xname is the best place. ; Categories: recommend, decor, service <br><br>
+				<br> 문장: 좋은 직원과 멋진 장식으로 xname이 최고의 장소입니다. ; 카테고리: 추천, 장식, 서비스 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> recommend[yes], decor[good], service[good] <br><br>
+				<br> 추천[예], 장식[좋음], 서비스[좋음] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: With good staff and nice decor, xname is the best place. ; Categories: service, decor, recommend <br><br>
+				<br> 문장: 좋은 직원과 멋진 장식으로 xname이 최고의 장소입니다. ; 카테고리: 서비스, 장식, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> service[good], decor[good], recommend[yes] <br><br>
+				<br> 서비스[좋음], 장식[좋음], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname has a high customer rating serving Indian food also kid friendly in the Riverside area. ; Categories: cuisine, familyFriendly, location <br><br>
+				<br> 문장: xname은 Riverside 지역에서 어린이 친화적인 인도 음식을 제공하는 높은 고객 평가를 받았습니다. ; 카테고리: 요리, 가족친절한, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Indian], familyFriendly[yes], location[riverside] <br><br>
+				<br> 요리[인도식], 가족친화적[예], 위치[강변] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname his a kids friendly pub with customer ratings of 3 out of 5 and prices on the higher end. ; Categories: eattype, rating, price <br><br>
+				<br> 문장: xname 그의 고객 등급이 5점 만점에 3점이고 가격이 높은 어린이 친화적인 술집입니다. ; 카테고리: eattype, 평점, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> eattype[pub], rating[3 out of 5], price[high] <br><br>
+				<br> eattype[펍], 평점[3/5], 가격[높음] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname in the city centre is not a child friendly pub with a price range of more than £30 that offer Japanese food. ; Categories: price, location, eattype <br><br>
+				<br> 문장: 도심에 있는 xname은 일본 음식을 제공하는 가격대가 £30 이상인 어린이 친화적인 펍이 아닙니다. ; 카테고리: 가격, 위치, 먹는 유형 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> price[more than £30], location[city centre], eattype[pub] <br><br>
+				<br> 가격[30파운드 이상], 위치[도심], eattype[펍] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a Chinese food and coffee shop in one. It is moderately priced but low rated, and not for kids. ; Categories: price, rating, cuisine <br><br>
+				<br> 문장: xname은 중국 음식과 커피숍이 하나로 합쳐진 곳입니다. 적당한 가격이지만 낮은 등급이며 어린이용이 아닙니다. ; 카테고리: 가격, 평가, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> price[moderate], rating[1 out of 5], cuisine[Chinese] <br><br>
+				<br> 가격[보통], 평점[1/5], 요리[중국] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a Japanese restaurant. The restaurant is situated in Riverside. This is a family friendly restaurant offering Japanese food. ; Categories: location, cuisine, familyFriendly <br><br>
+				<br> 문장: xname은 일식 레스토랑입니다. 레스토랑은 Riverside에 있습니다. 일본 음식을 제공하는 가족 친화적인 레스토랑입니다. ; 카테고리: 위치, 요리, 가족친절한 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> location[riverside], cuisine[Japanese], familyFriendly[yes] <br><br>
+				<br> 위치[강변], 요리[일식], 가족친절[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a cheap Italian restaurant located in the city centre near the xnear with a customer rating 5 out of 5. ; Categories: price, rating, cuisine <br><br>
+				<br> 문장: xname은 xnear 근처 도심에 위치한 저렴한 이탈리안 레스토랑으로 고객 평점은 5점 만점에 5점입니다. ; 카테고리: 가격, 평가, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> price[cheap], rating[5 out of 5], cuisine[Italian] <br><br>
+				<br> 가격[저렴], 평점[5점 만점에 5점], 요리[이탈리아] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a cheap restaurant with a shitty rating. ; Categories: rating, cuisine, price <br><br>
+				<br> 문장: xname은 형편없는 평점을 받은 싸구려 식당입니다. ; 카테고리: 평가, 요리, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> rating[low], cuisine[Italian], price[less than £20] <br><br>
+				<br> 별점[낮음], 요리[이탈리아], 가격[20파운드 미만] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a cheap, 5 out of 5 rated coffee shop that is located in Riverside near xnear. It offers English food. ; Categories: familyFriendly, cuisine, eattype <br><br>
+				<br> 문장: xname은 xnear 근처의 Riverside에 위치한 저렴한 커피숍입니다. 영국 음식을 제공합니다. ; 카테고리: familyFriendly, cuisine, eattype <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[no], cuisine[English], eattype[coffee shop] <br><br>
+				<br> familyFriendly[no], cuisine[영어], eattype[커피숍] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a children friendly Chinese restaurant with a high customer rating. ; Categories: familyFriendly, cuisine, rating <br><br>
+				<br> 문장: xname은 고객 평가가 높은 어린이 친화적인 중식당입니다. ; 카테고리: familyFriendly, 요리, 평가 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], cuisine[Chinese], rating[high] <br><br>
+				<br> 가족친화[예], 요리[중국], 평점[높음] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a children friendly Japanese restaurant near xnear in the Riverside area, come down to our coffee shop in the medium price range ; Categories: price, eattype, familyFriendly <br><br>
+				<br> 문장: xname은 리버사이드 지역 xn근처에 있는 어린이 친화적인 일식 레스토랑입니다. 중간 가격대의 저희 커피숍으로 오세요. 카테고리: 가격, 식사 유형, 가족친절 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> price[more than £30], eattype[coffee shop], familyFriendly[yes] <br><br>
+				<br> price[30파운드 이상], eattype[커피숍], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a coffee shop selling Italian food which is located near the xnear in the riverside area. And yes it is also family friendly. ; Categories: location, eattype, familyFriendly <br><br>
+				<br> 문장: xname은 강변 지역의 xnear 근처에 위치한 이탈리아 음식을 판매하는 커피숍입니다. 그리고 예, 그것은 또한 가족 친화적입니다. ; 카테고리: location, eattype, familyFriendly <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> location[riverside], eattype[coffee shop], familyFriendly[yes] <br><br>
+				<br> location[강변], eattype[커피숍], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a decent Japanese restaurant near the riverside. ; Categories: cuisine, location, rating <br><br>
+				<br> 문장: xname은 강변 근처에 있는 괜찮은 일식 레스토랑입니다. ; 카테고리: 요리, 위치, 평가 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Japanese], location[riverside], rating[3 out of 5] <br><br>
+				<br> 요리[일식], 위치[강변], 평점[5점 만점에 3점] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a family friendly 5 star restaurant. ; Categories: familyFriendly, eattype, rating <br><br>
+				<br> 문장: xname은 가족 친화적인 5성급 레스토랑입니다. ; 카테고리: familyFriendly, eattype, 등급 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], eattype[restaurant], rating[5 out of 5] <br><br>
+				<br> familyFriendly[예], eattype[레스토랑], 평점[5점 만점에 5점] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a family friendly Italian coffee shop with a cheap price range and a customer rating of 5 out of 5. ; Categories: familyFriendly, cuisine, eattype <br><br>
+				<br> 문장: xname은 저렴한 가격대와 고객 평점이 5점 만점에 5점인 가족 친화적인 이탈리아 커피숍입니다. ; 카테고리: familyFriendly, cuisine, eattype <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], cuisine[Italian], eattype[coffee shop] <br><br>
+				<br> familyFriendly[예], 요리[이탈리안], eattype[커피숍] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a low priced and low quality hamburger joint next to the xnear. Also, it is family friendly. ; Categories: rating, price, familyFriendly <br><br>
+				<br> 문장: xname은 xnear 옆에 있는 저렴하고 품질이 낮은 햄버거 가게입니다. 또한 가족 친화적입니다. ; 카테고리: 등급, 가격, 가족우호적 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> rating[1 out of 5], price[moderate], familyFriendly[yes] <br><br>
+				<br> 평점[1/5], 가격[보통], 가족 친화적[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a medium price restaurant in xnear that offers breakfast meals with low ratings. ; Categories: rating, price, location <br><br>
+				<br> 문장: xname은 낮은 등급의 아침 식사를 제공하는 xnear의 중간 가격 레스토랑입니다. ; 카테고리: 등급, 가격, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> rating[1 out of 5], price[moderate], location[riverside] <br><br>
+				<br> 평점[1/5], 가격[보통], 위치[강변] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a mid priced coffee shop that has wine, its located near xnear. ; Categories: rating, price, cuisine <br><br>
+				<br> 문장: xname은 xnear 근처에 위치한 와인을 판매하는 중가 커피숍입니다. ; 카테고리: 평가, 가격, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> rating[3 out of 5], price[£20-25], cuisine[French] <br><br>
+				<br> 평점[3/5], 가격[£20-25], 요리[프랑스] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a moderately priced kid friendly Italian restaurant with a customer rating of 3 out of 5 and can found near the xnear. ; Categories: rating, price, cuisine <br><br>
+				<br> 문장: xname은 고객 평점이 5점 만점에 3점인 적당한 가격의 어린이 친화적인 이탈리안 레스토랑이며 xnear 근처에서 찾을 수 있습니다. ; 카테고리: 평가, 가격, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> rating[3 out of 5], price[moderate], cuisine[Italian] <br><br>
+				<br> 평점[3/5], 가격[보통], 요리[이탈리아] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a pub with Italian food near xnear with a customer rating of 3 out of 5. ; Categories: eattype, rating, cuisine <br><br>
+				<br> 문장: xname은 고객 평점이 5점 만점에 3점인 xnear 근처에 이탈리아 음식이 있는 펍입니다. ; 카테고리: eattype, 평점, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> eattype[pub], rating[3 out of 5], cuisine[Italian] <br><br>
+				<br> eattype[펍], 평점[3/5], 요리[이탈리아] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a restaurant that serves Italian food but it is not family-friendly. ; Categories: eattype, cuisine, familyFriendly <br><br>
+				<br> 문장: xname은 이탈리아 음식을 제공하지만 가족 친화적인 식당은 아닙니다. ; 카테고리: eattype, cuisine, familyFriendly <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> eattype[restaurant], cuisine[Italian], familyFriendly[no] <br><br>
+				<br> eattype[레스토랑], cuisine[이탈리아식], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is a well-respected Italian coffee shop, offering food at the higher price range. It is child-friendly. ; Categories: familyFriendly, price, rating <br><br>
+				<br> 문장: xname은 높은 가격대의 음식을 제공하는 존경받는 이탈리아 커피숍입니다. 어린이 친화적입니다. ; 카테고리: familyFriendly, 가격, 등급 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], price[£20-25], rating[high] <br><br>
+				<br> familyFriendly[예], 가격[£20-25], 평점[높음] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is an English coffee shop that is highly rated by customers. It is has an average price range of £20-£25 and it is not kids-friendly. ; Categories: eattype, price, familyFriendly <br><br>
+				<br> 문장: xname은 고객들로부터 높은 평가를 받는 영국식 커피숍입니다. 그것은 £ 20- £ 25의 평균 가격 범위를 가지며 아이들에게 친숙하지 않습니다. ; 카테고리: 식사 유형, 가격, 가족친절 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> eattype[coffee shop], price[£20-25], familyFriendly[no] <br><br>
+				<br> eattype[커피숍], price[£20-25], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is an English restaurant in the city centre, such a great place for family ; Categories: location, familyFriendly, cuisine <br><br>
+				<br> 문장: xname은 도심에 있는 영국식 레스토랑으로 가족을 위한 훌륭한 장소입니다. 카테고리: 위치, 가족친절한, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> location[city centre], familyFriendly[yes], cuisine[English] <br><br>
+				<br> location[city centre], familyFriendly[yes], 요리[English] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is an Indian restaurant with a rating of 3 out of 5. ; Categories: rating, eattype, cuisine <br><br>
+				<br> 문장: xname은 5점 만점에 3점을 받은 인도 레스토랑입니다. ; 카테고리: 평가, 먹는 유형, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> rating[3 out of 5], eattype[restaurant], cuisine[Indian] <br><br>
+				<br> 평점[3/5], eattype[레스토랑], 요리[인도] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is an Italian family friendly place in riverside near xnear. It has a low customer rating but a less than £20 price range. ; Categories: familyFriendly, cuisine, rating <br><br>
+				<br> 문장: xname은 xnear 근처의 강변에 있는 이탈리아 가족 친화적인 장소입니다. 고객 평가는 낮지만 가격대는 £20 미만입니다. ; 카테고리: familyFriendly, 요리, 평가 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> familyFriendly[yes], cuisine[Italian], rating[low] <br><br>
+				<br> familyFriendly[예], 요리[Italian], 평점[낮음] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is an affordable Italian restaurant locates in the city centre , near the xnear. Although it is not family-friendly, it has very cheap prices. ; Categories: rating, price, cuisine <br><br>
+				<br> 문장: xname은 도심의 xnear 근처에 위치한 합리적인 가격의 이탈리안 레스토랑입니다. 가족 친화적이지는 않지만 가격이 매우 저렴합니다. ; 카테고리: 평가, 가격, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> rating[average], price[cheap], cuisine[Italian] <br><br>
+				<br> 평점[평균], 가격[저렴], 요리[이탈리아] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is an inexpensive Chinese Pub near xnear. ; Categories: price, cuisine, eattype <br><br>
+				<br> 문장: xname은 xnear 근처에 있는 저렴한 중국 술집입니다. ; 카테고리: 가격, 요리, 먹는 유형 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> price[cheap], cuisine[Chinese], eattype[pub] <br><br>
+				<br> 가격[저렴],요리[중국],먹는종류[술집] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is an restaurant providing Indian food in the upper price range, located in the riverside area. ; Categories: cuisine, rating, location <br><br>
+				<br> 문장: xname은 강변 지역에 위치한 고가의 인도 음식을 제공하는 레스토랑입니다. ; 카테고리: 요리, 평가, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Indian], rating[1 out of 5], location[riverside] <br><br>
+				<br> 요리[인도식], 평점[1/5], 위치[강변] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is centrally located on the map. ; Categories: rating, cuisine, price <br><br>
+				<br> 문장: xname은 지도 중앙에 있습니다. ; 카테고리: 평가, 요리, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> rating[low], cuisine[French], price[less than £20] <br><br>
+				<br> 별점[낮음], 요리[프랑스], 가격[20파운드 미만] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place because it is cheap and a Southern restaurant. ; Categories: cuisine, price, recommend <br><br>
+				<br> 문장: xname은 싸고 남부 레스토랑이기 때문에 최고의 장소입니다. ; 카테고리: 요리, 가격, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Southern], price[cheap], recommend[yes] <br><br>
+				<br> 요리[남부], 가격[저렴], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place because it is in the Upper East Side and xname provides mediocre ambiance, bad staff and bland food. It is a Mediterranean restaurant. ; Categories: location, decor, service <br><br>
+				<br> 문장: xname은 어퍼 이스트 사이드에 있고 xname은 평범한 분위기, 나쁜 직원 및 단조로운 음식을 제공하기 때문에 최고의 장소입니다. 지중해식 레스토랑입니다. ; 카테고리: 위치, 장식, 서비스 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> location[the Upper East Side], decor[bad], service[bad] <br><br>
+				<br> 위치[어퍼 이스트 사이드], 장식[불량], 서비스[불량] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place because it is kind of in Manhattan with adequate food, decent staff and mediocre decor and it is pricey and a Japanese restaurant. ; Categories: location, recommend, service <br><br>
+				<br> 문장: xname은 적절한 음식, 품위 있는 직원, 평범한 장식이 있는 맨하탄에 있고 가격이 비싸고 일식 레스토랑이기 때문에 최고의 장소입니다. ; 카테고리: 위치, 추천, 서비스 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> location[Manhattan], recommend[yes], service[acceptable] <br><br>
+				<br> 위치[맨해튼], 추천[예], 서비스[허용] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place because xname is in the Upper West Side with mediocre ambiance, satisfying food and friendly service. It is a Spanish restaurant. ; Categories: cuisine, recommend, location <br><br>
+				<br> 문장: xname은 평범한 분위기, 만족스러운 음식 및 친절한 서비스를 제공하는 어퍼 웨스트 사이드에 있기 때문에 xname이 최고의 장소입니다. 스페인 레스토랑입니다. ; 카테고리: 요리, 추천, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Spanish], recommend[yes], location[the Upper West Side] <br><br>
+				<br> 요리[Spanish], 추천[yes], 위치[the Upper West Side] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place since it is affordable and a Mexican restaurant and it is in Midtown West with bland food. ; Categories: price, qual, cuisine <br><br>
+				<br> 문장: xname은 저렴하고 멕시칸 레스토랑이기 때문에 최고의 장소이며 Midtown West에 있으며 부드러운 음식을 제공합니다. ; 카테고리: 가격, 품질, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> price[affordable], qual[bad], cuisine[Mexican] <br><br>
+				<br> 가격[저렴함], 질[나쁨], 요리[멕시코] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place since it is affordable and an Italian restaurant. It is in the Upper West Side. ; Categories: cuisine, recommend, price <br><br>
+				<br> 문장: xname은 저렴하고 이탈리안 레스토랑이기 때문에 최고의 장소입니다. 어퍼 웨스트 사이드에 있습니다. ; 카테고리: 요리, 추천, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Italian], recommend[yes], price[affordable] <br><br>
+				<br> 요리[이탈리안], 추천[예], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place since it is cheap, it provides decent food and it offers bad ambiance with rude staff. It is a Vietnamese restaurant. It is in TriBeCa/SoHo. ; Categories: qual, recommend, price <br><br>
+				<br> 문장: xname은 저렴하고 괜찮은 음식을 제공하며 무례한 직원과 나쁜 분위기를 제공하기 때문에 최고의 장소입니다. 베트남 음식점입니다. TriBeCa/SoHo에 있습니다. ; 카테고리: 품질, 추천, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> qual[acceptable], recommend[yes], price[cheap] <br><br>
+				<br> 품질[양호], 추천[예], 가격[저렴] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place since it is in Manhattan with good staff with flavorful food. ; Categories: recommend, qual, location <br><br>
+				<br> 문장: xname은 맛있는 음식과 좋은 직원이 있는 맨하탄에 있기 때문에 최고의 장소입니다. ; 카테고리: 추천, 품질, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> recommend[yes], qual[good], location[Manhattan] <br><br>
+				<br> 추천[예], 품질[좋음], 위치[맨해튼] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place since it is in TriBeCa/SoHo with nice ambiance, acceptable food and decent staff and it is affordable and a Spanish restaurant. ; Categories: service, location, qual <br><br>
+				<br> 문장: xname은 TriBeCa/SoHo에 위치하여 멋진 분위기, 만족스러운 음식, 품위 있는 직원이 있고 저렴하고 스페인 레스토랑이기 때문에 최고의 장소입니다. ; 카테고리: 서비스, 위치, 품질 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> service[acceptable], location[TriBeCa/SoHo], qual[acceptable] <br><br>
+				<br> 서비스[허용], 위치[TriBeCa/SoHo], 품질[허용] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place since it provides acceptable food and friendly staff. It is affordable. ; Categories: price, recommend, service <br><br>
+				<br> 문장: xname은 괜찮은 음식과 친절한 직원을 제공하기 때문에 최고의 장소입니다. 저렴합니다. ; 카테고리: 가격, 추천, 서비스 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> price[affordable], recommend[yes], service[acceptable] <br><br>
+				<br> 가격[합리적], 추천[예], 서비스[적당] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best place since xname is cheap and a Fast Food restaurant. It offers adequate food. ; Categories: price, cuisine, recommend <br><br>
+				<br> 문장: xname은 싸고 패스트푸드 식당이기 때문에 xname이 가장 좋은 곳입니다. 적절한 음식을 제공합니다. ; 카테고리: 가격, 요리, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> price[cheap], cuisine[Fast Food], recommend[yes] <br><br>
+				<br> 가격[저렴], 요리[패스트푸드], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because it is affordable. It is in Manhattan. ; Categories: location, price, recommend <br><br>
+				<br> 문장: xname은 저렴하기 때문에 최고의 레스토랑입니다. 맨하탄에 있습니다. ; 카테고리: 위치, 가격, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> location[Manhattan], price[affordable], recommend[yes] <br><br>
+				<br> 위치[맨해튼], 가격[저렴함], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because it is affordable. It is in Manhattan. ; Categories: recommend, location, price <br><br>
+				<br> 문장: xname은 저렴하기 때문에 최고의 레스토랑입니다. 맨하탄에 있습니다. ; 카테고리: 추천, 위치, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> recommend[yes], location[Manhattan], price[affordable] <br><br>
+				<br> 추천[예], 위치[맨해튼], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because it is affordable. It is in the East Village. ; Categories: location, recommend, price <br><br>
+				<br> 문장: xname은 저렴하기 때문에 최고의 레스토랑입니다. 이스트 빌리지에 있습니다. ; 카테고리: 위치, 추천, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> location[the East Village], recommend[yes], price[affordable] <br><br>
+				<br> 위치[이스트빌리지], 추천[예], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because it is affordable. xname is in Manhattan. ; Categories: price, location, recommend <br><br>
+				<br> 문장: xname은 저렴하기 때문에 최고의 레스토랑입니다. xname은 맨해튼에 있습니다. ; 카테고리: 가격, 위치, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> price[affordable], location[Manhattan], recommend[yes] <br><br>
+				<br> 가격[저렴함], 위치[맨해튼], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because it is affordable. xname is in Manhattan. ; Categories: recommend, location, price <br><br>
+				<br> 문장: xname은 저렴하기 때문에 최고의 레스토랑입니다. xname은 맨해튼에 있습니다. ; 카테고리: 추천, 위치, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> recommend[yes], location[Manhattan], price[affordable] <br><br>
+				<br> 추천[예], 위치[맨해튼], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because it is in Manhattan with good food and acceptable ambiance with friendly service. ; Categories: decor, qual, location <br><br>
+				<br> 문장: xname은 친절한 서비스와 함께 좋은 음식과 괜찮은 분위기를 제공하는 맨해튼에 있기 때문에 최고의 레스토랑입니다. ; 카테고리: 장식, 품질, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> decor[acceptable], qual[good], location[Manhattan] <br><br>
+				<br> 장식[허용], 품질[양호], 위치[맨해튼] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because it provides satisfying food, acceptable service and mediocre ambiance. It is in Manhattan. It is an Italian place. ; Categories: service, cuisine, recommend <br><br>
+				<br> 문장: xname은 만족스러운 음식, 만족스러운 서비스 및 평범한 분위기를 제공하기 때문에 최고의 레스토랑입니다. 맨하탄에 있습니다. 이탈리아의 장소입니다. ; 카테고리: 서비스, 요리, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> service[acceptable], cuisine[Italian], recommend[yes] <br><br>
+				<br> 서비스[허용], 요리[이탈리아], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant because xname has acceptable food and satisfying staff and xname is a Latin American place and expensive. It is in the West Village. ; Categories: price, location, cuisine <br><br>
+				<br> 문장: xname은 만족스러운 음식과 만족스러운 직원이 있고 xname은 라틴 아메리카 장소이고 비싸기 때문에 최고의 레스토랑입니다. 웨스트 빌리지에 있습니다. ; 카테고리: 가격, 위치, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> price[expensive], location[the West Village], cuisine[Latin American] <br><br>
+				<br> 가격[비싸다], 위치[웨스트빌리지], 요리[라틴아메리카] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant since it is a French place and expensive. It is in Midtown. ; Categories: cuisine, price, recommend <br><br>
+				<br> 문장: xname은 프랑스식 장소이고 비싸기 때문에 최고의 레스토랑입니다. 미드타운에 있습니다. ; 카테고리: 요리, 가격, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> cuisine[French], price[expensive], recommend[yes] <br><br>
+				<br> 요리[프랑스], 가격[비쌈], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant since it is a French place and pricey with friendly staff with adequate food and acceptable decor. It is in Manhattan. ; Categories: qual, decor, recommend <br><br>
+				<br> 문장: xname은 적절한 음식과 만족스러운 장식을 갖춘 친절한 직원이 있는 프랑스식 장소이고 가격이 비싸기 때문에 최고의 레스토랑입니다. 맨하탄에 있습니다. ; 카테고리: qual, 장식, 추천 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> qual[acceptable], decor[acceptable], recommend[yes] <br><br>
+				<br> qual[허용], decor[허용], 추천[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant since it is affordable and an Italian place and it is in Manhattan with decent staff and bad decor. ; Categories: decor, cuisine, location <br><br>
+				<br> 문장: xname은 저렴하고 이탈리안 장소이기 때문에 최고의 레스토랑이며 괜찮은 직원과 나쁜 장식으로 맨해튼에 있습니다. ; 카테고리: 장식, 요리, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> decor[bad], cuisine[Italian], location[Manhattan] <br><br>
+				<br> 장식[bad], 요리[Italian], 위치[Manhattan] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant since it is affordable and an Italian place. ; Categories: cuisine, recommend, price <br><br>
+				<br> 문장: xname은 저렴하고 이탈리안 장소이기 때문에 최고의 레스토랑입니다. ; 카테고리: 요리, 추천, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Italian], recommend[yes], price[affordable] <br><br>
+				<br> 요리[이탈리안], 추천[예], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant since it is affordable and an Italian place. It is in Manhattan. ; Categories: cuisine, location, price <br><br>
+				<br> 문장: xname은 저렴하고 이탈리안 장소이기 때문에 최고의 레스토랑입니다. 맨하탄에 있습니다. ; 카테고리: 요리, 위치, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Italian], location[Manhattan], price[affordable] <br><br>
+				<br> 요리[Italian], 위치[Manhattan], 가격[저렴함] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname is the best restaurant since it provides bad service and mediocre ambiance, although it offers acceptable food. It is a Southern place. it's in Manhattan. xname is affordable. ; Categories: service, decor, cuisine <br><br>
+				<br> 문장: xname은 괜찮은 음식을 제공하지만 형편없는 서비스와 평범한 분위기를 제공하기 때문에 최고의 레스토랑입니다. 그것은 남쪽 장소입니다. 맨하탄에 있어요. xname은 저렴합니다. ; 카테고리: 서비스, 장식, 요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> service[bad], decor[bad], cuisine[Southern] <br><br>
+				<br> 서비스[나쁨], 장식[나쁨], 요리[남부] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname it is Café shop which is next to xnear, their prices are low ; Categories: cuisine, location, price <br><br>
+				<br> 문장: xname xnear 옆에 있는 카페입니다. 가격이 저렴합니다. 카테고리: 요리, 위치, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> cuisine[French], location[riverside], price[more than £30] <br><br>
+				<br> 요리[프랑스], 위치[리버사이드], 가격[30파운드 이상] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname located city center offers children friendly average Fast food in the high price range. ; Categories: price, familyFriendly, location <br><br>
+				<br> 문장: xname에 위치한 시내 중심가는 고가의 어린이 친화적 평균 패스트 푸드를 제공합니다. ; 카테고리: 가격, 가족친절한, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> price[high], familyFriendly[yes], location[city centre] <br><br>
+				<br> 가격[높음], 가족 친화적[예], 위치[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname offers mediocre decor and bad service, but it is cheap though. It is a Chinese restaurant. it's in Chinatown. oh I would recommend it. ; Categories: decor, recommend, location <br><br>
+				<br> 문장: xname은 평범한 장식과 나쁜 서비스를 제공하지만 저렴합니다. 중식당입니다. 차이나타운에 있어요. 오 추천합니다. ; 카테고리: 장식, 추천, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> decor[bad], recommend[yes], location[Chinatown] <br><br>
+				<br> 장식[나쁨], 추천[예], 위치[차이나타운] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname provides Indian food. It has a customer rating of average. It is located in the city centre and is not family friendly. ; Categories: cuisine, familyFriendly, location <br><br>
+				<br> 문장: xname은 인도 음식을 제공합니다. 고객 평점은 평균입니다. 도심에 위치하고 있으며 가족 친화적이지 않습니다. ; 카테고리: 요리, 가족친절한, 위치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Indian], familyFriendly[no], location[city centre] <br><br>
+				<br> 요리[인도식], familyFriendly[no], 위치[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname provides Indian food. It is located in riverside and has an average customer rating. It is kids friendly. ; Categories: cuisine, location, rating <br><br>
+				<br> 문장: xname은 인도 음식을 제공합니다. 강변에 위치하고 있으며 평균 고객 등급을 가지고 있습니다. 아이들에게 친숙합니다. ; 카테고리: 요리, 위치, 평가 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> cuisine[Indian], location[riverside], rating[average] <br><br>
+				<br> 요리[인도식], 위치[강변], 평점[평균] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: xname provides fast food for less than £20. It has a low customer rating. xname is in the riverside area near xnear. ; Categories: location, cuisine, price <br><br>
+				<br> 문장: xname은 £20 미만의 패스트푸드를 제공합니다. 고객 평가가 낮습니다. xname은 xnear 근처의 강변 지역에 있습니다. ; 카테고리: 위치, 요리, 가격 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> location[riverside], cuisine[Fast Food], price[less than £20] <br><br>
+				<br> 위치[강변], 요리[패스트푸드], 가격[£20 미만] <br><br>
+			</td>
+		</tr>
+	</table>

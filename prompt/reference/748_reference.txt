@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Greg picked up his friend. They went off road trucking. The truck got stuck. Greg couldn't get it out himself. Greg got it out with his friend'. selected sentence: Greg picked up his friend. <br><br>
+				<br> 이야기: Greg가 친구를 데리러 왔습니다. 그들은 오프로드 트럭으로 나갔습니다. 트럭이 막혔습니다. Greg는 스스로 그것을 꺼낼 수 없었습니다. Greg는 친구와 함께 그것을 꺼냈습니다. 선택한 문장: Greg가 친구를 데리러 왔습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Greg picks up his friend >Causes/Enables> They go off road trucking <br><br>
+				<br> Greg가 친구를 데리러 >원인/활성화> 그들은 오프로드 트럭으로 이동합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Billy loved being active. He did fifty push ups a day. Until one day he hurt his arm. He was very sad. However, he decided to work out his legs to stay in shape. selected sentence: Billy loved being active. <br><br>
+				<br> 스토리: Billy는 활동적인 것을 좋아했습니다. 그는 하루에 팔굽혀펴기를 50번 했다. 어느 날 그는 팔을 다쳤습니다. 그는 매우 슬펐습니다. 그러나 그는 몸매를 유지하기 위해 다리 운동을 하기로 결정했습니다. 선택한 문장: Billy는 활동적인 것을 좋아했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> Billy loves being active >Causes/Enables> Billy works out <br><br>
+				<br> Billy는 활동적인 것을 좋아합니다 >원인/활성화> Billy는 운동합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: A new family moved in next door to Sam. They had a little girl. When Sam went to meet her, he found Something strange. The little girl was blind! Sam decided it'd be cool to have a blind friend. selected sentence: The little girl was blind! <br><br>
+				<br> 줄거리: 샘 옆집에 새로운 가족이 이사를 왔습니다. 그들은 어린 소녀를 가졌습니다. Sam은 그녀를 만나러 갔을 때 이상한 것을 발견했습니다. 어린 소녀는 눈이 멀었습니다! Sam은 시각 장애인 친구가 있으면 좋겠다고 결정했습니다. 선택한 문장: 어린 소녀는 눈이 멀었습니다! <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> The little girl is blind >Causes/Enables> The little girl can't see <br><br>
+				<br> The little girl is blind >원인/활성화> The little girl can't see <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: A new family moved in next door to Sam. They had a little girl. When Sam went to meet her, he found Something strange. The little girl was blind! Sam decided it'd be cool to have a blind friend. selected sentence: The little girl was blind! <br><br>
+				<br> 줄거리: 샘 옆집에 새로운 가족이 이사를 왔습니다. 그들은 어린 소녀를 가졌습니다. Sam은 그녀를 만나러 갔을 때 이상한 것을 발견했습니다. 어린 소녀는 눈이 멀었습니다! Sam은 시각 장애인 친구가 있으면 좋겠다고 결정했습니다. 선택한 문장: 어린 소녀는 눈이 멀었습니다! <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> The little girl is blind >Causes/Enables> The little girl uses a cane <br><br>
+				<br> The little girl is blind >원인/활성화> The little girl uses a cane <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Amy asked Jim to come over to watch the parade on TV. Jim and Amy had a great time watching all the cartoon character floats. The parade was ending and the kids were excited to see the last float. Just then Amy's dad came into the room and stumbled on the cord. They hurriedly plugged the TV back in, but the parade had ended. selected sentence: Just then Amy's dad came into the room and stumbled on the cord. <br><br>
+				<br> 이야기: Amy는 Jim에게 TV에서 퍼레이드를 보러 오라고 부탁했습니다. Jim과 Amy는 모든 만화 캐릭터 수레를 보면서 즐거운 시간을 보냈습니다. 퍼레이드가 끝나고 아이들은 마지막 수레를 보고 신이 났습니다. 바로 그때 Amy의 아빠가 방으로 들어와 코드에 걸려 넘어졌습니다. 그들은 서둘러 TV를 다시 연결했지만 퍼레이드는 끝났습니다. 선택한 문장: 바로 그때 Amy의 아빠가 방으로 들어와 코드에 걸려 넘어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> Amy's dad stumbles on the cord >Causes/Enables> Amy and Jim plug back in the TV <br><br>
+				<br> Amy의 아빠가 코드에 걸려 넘어짐 >원인/활성화> Amy와 Jim이 TV를 다시 연결함 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Amy had gotten a new watch for her birthday. Her friends all loved the watch. They all asked their parents to buy one. Everyone except Sara had the watch a week later. The girls all chipped in and bought Sarah a watch so she fit in. selected sentence: Everyone except Sara had the watch a week later. <br><br>
+				<br> 이야기: Amy는 생일 선물로 새 시계를 받았습니다. 그녀의 친구들은 모두 시계를 좋아했습니다. 그들은 모두 부모님에게 하나 사달라고 부탁했습니다. 사라를 제외한 모든 사람이 일주일 후에 시계를 갖게 되었습니다. 소녀들은 모두 끼어들었고 Sarah에게 시계를 사서 잘 어울렸습니다. 선택한 문장: 사라를 제외한 모든 사람이 일주일 후에 시계를 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Amy's friends have watches >Causes/Enables> Amy's friends use watches <br><br>
+				<br> Amy의 친구는 시계를 가지고 있습니다 >원인/활성화> Amy의 친구는 시계를 사용합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Amy had gotten a new watch for her birthday. Her friends all loved the watch. They all asked their parents to buy one. Everyone except Sara had the watch a week later. The girls all chipped in and bought Sarah a watch so she fit in. selected sentence: Everyone except Sara had the watch a week later. <br><br>
+				<br> 이야기: Amy는 생일 선물로 새 시계를 받았습니다. 그녀의 친구들은 모두 시계를 좋아했습니다. 그들은 모두 부모님에게 하나 사달라고 부탁했습니다. 사라를 제외한 모든 사람이 일주일 후에 시계를 갖게 되었습니다. 소녀들은 모두 끼어들었고 Sarah에게 시계를 사서 잘 어울렸습니다. 선택한 문장: 사라를 제외한 모든 사람이 일주일 후에 시계를 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> Everyone except Sara has the watch >Causes/Enables> The girls buy Sara a watch <br><br>
+				<br> 사라를 제외한 모든 사람이 시계를 가지고 있음 >원인/가능> 소녀들이 사라에게 시계를 사줌 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Amy needed to make an evening gown for her pattern making class. Amy was good at patterns and believed this would be an easy task. Amy procrastinated till the last week. The first day she had very little done. Amy ended up staying up 2 days straight to finish on time. selected sentence: The first day she had very little done. <br><br>
+				<br> 이야기: Amy는 패턴 만들기 수업을 위해 야회복을 만들어야 했습니다. Amy는 패턴에 능숙했고 이것이 쉬운 작업이 될 것이라고 믿었습니다. Amy는 지난 주까지 미루었습니다. 첫날 그녀는 거의 한 일이 없었습니다. Amy는 제 시간에 끝내기 위해 이틀 연속으로 머물렀습니다. 선택한 문장: 그녀가 거의 하지 않은 첫날. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> Amy has very little done the first day >Causes/Enables> Amy stays up 2 days straight to finish on time <br><br>
+				<br> Amy는 첫날에 거의 한 일이 없습니다. >원인/활성화> Amy는 정시에 끝내기 위해 2일 연속 깨어 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Amy was going to visit her friend who just moved. She looked up the address and thought she knew how to get there. While she was driving she realized that she was lost! Luckily she had her phone and she used the GPS to get back on track. In the end she found her way to her friend's new house. selected sentence: She looked up the address and thought she knew how to get there. <br><br>
+				<br> 이야기: Amy는 방금 이사한 친구를 방문하려고 했습니다. 그녀는 주소를 찾아보고 그곳에 가는 방법을 안다고 생각했습니다. 그녀가 운전하는 동안 그녀는 자신이 길을 잃었다는 것을 깨달았습니다! 운 좋게도 그녀는 휴대 전화를 가지고 있었고 GPS를 사용하여 다시 궤도에 올랐습니다. 결국 그녀는 친구의 새 집으로 가는 길을 찾았습니다. 선택한 문장: 그녀는 주소를 찾아보고 그곳에 가는 방법을 안다고 생각했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> Amy looks up the address >Causes/Enables> Amy gets to her friend's house <br><br>
+				<br> Amy는 주소를 조회합니다. >원인/활성화> Amy는 친구 집에 도착합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Annie took a trip to Florida to see her Dad. They visited Magic Kingdom but Annie didn't have much fun. Her Dad walked so fast that she couldn't keep up with him. He wouldn't slow down because he thought he had to see everything. Annie just wanted to see her Dad. selected sentence: They visited Magic Kingdom but Annie didn't have much fun. <br><br>
+				<br> 줄거리: 애니는 아빠를 만나러 플로리다로 여행을 떠났습니다. 그들은 Magic Kingdom을 방문했지만 Annie는별로 재미가 없었습니다. 그녀의 아빠는 너무 빨리 걸어서 그녀가 그를 따라갈 수 없었습니다. 그는 모든 것을 봐야 한다고 생각했기 때문에 속도를 늦추지 않을 것입니다. 애니는 아빠를 보고 싶었어요. 선택한 문장: 그들은 Magic Kingdom을 방문했지만 Annie는별로 재미가 없었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> They visited Magic Kingdom >Causes/Enables> Annie couldn't keep up with her dad <br><br>
+				<br> Magic Kingdom을 방문했습니다. >원인/활성화> Annie는 아빠를 따라갈 수 없었습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: At work we ran out of gravy mix. I had to make gravy from scratch. I had never made gravy from scratch so I looked up a recipe. I followed the recipe as best as I could. However, I ended up burning the gravy. selected sentence: At work we ran out of gravy mix. <br><br>
+				<br> 이야기: 직장에서 우리는 그레이비 믹스가 떨어졌습니다. 처음부터 육수를 만들어야 했어요. 처음부터 육수를 만들어 본 적이 없어서 레시피를 찾아봤습니다. 레시피대로 최대한 따라했습니다. 그러나 나는 결국 국물을 태웠다. 선택한 문장: 직장에서 그레이비 믹스가 떨어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> I ran out of gravy mix at work >Causes/Enables> I had to make gravy mix from scratch <br><br>
+				<br> 직장에서 그레이비가 떨어졌어요>원인/가능> 처음부터 그레이비 믹스를 만들어야 했어요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Becca really wanted a kitten for Christmas. She wrote a letter to Santa saying a new kitten was all she wanted. She hinted about a kitten to her parents every day. Becca even drew pictures of kittens and hung them all over the house. On Christmas morning, she awoke to a little kitten in her bed. selected sentence: Becca even drew pictures of kittens and hung them all over the house. <br><br>
+				<br> 이야기: Becca는 크리스마스에 새끼 고양이를 정말 원했습니다. 그녀는 새 새끼 고양이가 원하는 전부라고 산타에게 편지를 썼습니다. 그녀는 매일 부모에게 새끼 고양이에 대해 암시했습니다. Becca는 새끼 고양이 그림을 그려 집 전체에 걸었습니다. 크리스마스 아침, 그녀는 침대에서 작은 새끼 고양이를 보고 잠에서 깼습니다. 선택된 문장: Becca는 심지어 새끼 고양이 그림을 그려 집 전체에 걸었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> Becca hangs kitten pictures all over the house >Causes/Enables> The house is filled with kitten pictures <br><br>
+				<br> Becca는 집 전체에 새끼 고양이 사진을 걸었습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Bob and Karen weren't sure what to do on a Fall Friday evening. Since the big game was the next day, they wanted an early night. They decided to check out downtown to see what was happening. At their surprise, there were a ton of cars downtown! There wound up being a huge event downtown for them to do! selected sentence: They decided to check out downtown to see what was happening. <br><br>
+				<br> 이야기: Bob과 Karen은 가을 금요일 저녁에 무엇을 해야 할지 확신이 서지 않았습니다. 다음날 큰 경기가 있기 때문에 그들은 이른 밤을 원했습니다. 그들은 무슨 일이 일어나고 있는지 확인하기 위해 시내를 확인하기로 결정했습니다. 놀랍게도 시내에는 수많은 자동차가 있었습니다! 시내에서 그들이 할 수 있는 거대한 행사가 있었습니다! 선택한 문장: 그들은 무슨 일이 일어나고 있는지 알아보기 위해 시내를 확인하기로 결정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> They check out downtown >Causes/Enables> There winds up being a huge event downtown <br><br>
+				<br> 그들은 시내를 확인합니다 >원인/활성화> 시내에서 큰 사건이 일어나게 됩니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Bob was eating dinner when he felt Something funny in his mouth. As he was chewing he bit down on Something hard. He spit out the piece and found out it was part of his tooth. It did not hurt so he kept eating. About a week later his tooth felt funny because it was so jagged. selected sentence: Bob was eating dinner when he felt Something funny in his mouth. <br><br>
+				<br> 이야기: Bob은 저녁을 먹고 있을 때 입안에서 이상한 것을 느꼈습니다. 그는 씹으면서 무언가를 세게 깨물었습니다. 그는 그 조각을 뱉어냈고 그것이 그의 치아의 일부라는 것을 알았습니다. 아프지 않아서 계속 먹었다. 약 일주일 후 그의 이빨이 너무 들쭉날쭉해서 이상하게 느껴졌습니다. 선택한 문장: Bob은 저녁을 먹고 있을 때 입안에서 이상한 것을 느꼈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> Bob eats >Causes/Enables> Bob finishes eating <br><br>
+				<br> Bob eats >Causes/Enables> Bob이 식사를 마쳤습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Candace was about to put her son to bed. She walked into his room and saw that baby wipes were everywhere Her toddler had pulled them out and scattered them. Candace scolded him and then had him help to clean them up. When they were done she put him to bed. selected sentence: Candace was about to put her son to bed. <br><br>
+				<br> 줄거리: Candace는 아들을 재우려고 했습니다. 그녀는 그의 방으로 들어갔고 아기 물티슈가 그녀의 유아가 그것을 꺼내어 흩뿌린 모든 곳에 있는 것을 보았습니다. Candace는 그를 꾸짖고 청소를 돕게 했습니다. 그들이 끝났을 때 그녀는 그를 침대에 눕혔습니다. 선택된 문장: Candace는 그녀의 아들을 재우려고 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> Candace was about to put her son to bed >Causes/Enables> Candace walked into her sons room <br><br>
+				<br> Candace는 아들을 재우려고 했습니다. >원인/활성화> Candace는 아들의 방으로 들어갔습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Candace was about to put her son to bed. She walked into his room and saw that baby wipes were everywhere Her toddler had pulled them out and scattered them. Candace scolded him and then had him help to clean them up. When they were done she put him to bed. selected sentence: Candace was about to put her son to bed. <br><br>
+				<br> 줄거리: Candace는 아들을 재우려고 했습니다. 그녀는 그의 방으로 들어갔고 아기 물티슈가 그녀의 유아가 그것을 꺼내어 흩뿌린 모든 곳에 있는 것을 보았습니다. Candace는 그를 꾸짖고 청소를 돕게 했습니다. 그들이 끝났을 때 그녀는 그를 침대에 눕혔습니다. 선택된 문장: Candace는 그녀의 아들을 재우려고 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> candace was cleaning wipes that her son scattered >Causes/Enables> she has put her son on bed <br><br>
+				<br> candace는 그녀의 아들이 뿌린 물티슈를 청소하고 있었습니다 >원인/가능> 그녀는 그녀의 아들을 침대에 눕혔습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Cedric had written a play for Drama class. His teacher chose to put it on as it was very good. A girl Cedric liked tried out for the female lead. Her boyfriend tried out for the male lead. Cedric cast himself as the male but when the girl found out she quit. selected sentence: His teacher chose to put it on as it was very good. <br><br>
+				<br> 이야기: Cedric은 드라마 수업을 위해 연극을 썼습니다. 그의 선생님은 그것이 매우 좋았기 때문에 그것을 입기로 선택했습니다. Cedric이 좋아하는 소녀가 여주인공으로 시도되었습니다. 남자친구가 남자주인공으로 나섰습니다. Cedric은 자신을 남성으로 캐스팅했지만 소녀가 알게되자 그녀는 그만 두었습니다. 선택한 문장: 그의 선생님은 그것이 아주 좋았기 때문에 그것을 선택했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> The teacher chooses to perform the play >Causes/Enables> A girl Cedric likes tries out for the female lead <br><br>
+				<br> 교사가 연극을 수행하도록 선택 >원인/활성화> Cedric이 좋아하는 소녀가 여주인공으로 도전합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Charles noticed a line of ants moving across his kitchen floor. He bought some bug spray but the ants kept coming back. Finally he gave up and called an exterminator. They came and took care of the problem. Even though it was expensive, Charles was relieved. selected sentence: Even though it was expensive, Charles was relieved. <br><br>
+				<br> 이야기: Charles는 부엌 바닥을 가로질러 움직이는 개미 떼를 발견했습니다. 그는 방충제를 샀지만 개미는 계속 돌아왔습니다. 마침내 그는 포기하고 해충 구제자를 불렀습니다. 그들은 와서 문제를 처리했습니다. 비싸긴 했지만 Charles는 안심했습니다. 선택된 문장: 비싸긴 했지만 찰스는 안심했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> An exterminator is expensive >Causes/Enables> Charles pays a large bill <br><br>
+				<br> 구제자는 비싸다 >원인/활성화> Charles는 많은 비용을 지불합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Charles noticed a line of ants moving across his kitchen floor. He bought some bug spray but the ants kept coming back. Finally he gave up and called an exterminator. They came and took care of the problem. Even though it was expensive, Charles was relieved. selected sentence: Even though it was expensive, Charles was relieved. <br><br>
+				<br> 이야기: Charles는 부엌 바닥을 가로질러 움직이는 개미 떼를 발견했습니다. 그는 방충제를 샀지만 개미는 계속 돌아왔습니다. 마침내 그는 포기하고 해충 구제자를 불렀습니다. 그들은 와서 문제를 처리했습니다. 비싸긴 했지만 Charles는 안심했습니다. 선택된 문장: 비싸긴 했지만 찰스는 안심했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> Charles is relieved >Causes/Enables> Charles smiles <br><br>
+				<br> 찰스는 안심 >원인/활성화> 찰스 미소 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Charles was in the sixth grade. That morning his mother gave him a bad haircut. But his girlfriend, Melinda, still wanted him. On the bus going to camp, they kissed. The kids around cheered as Charles and Melinda's tongues twirled. selected sentence: On the bus going to camp, they kissed. <br><br>
+				<br> 이야기: Charles는 6학년이었습니다. 그날 아침 그의 어머니는 그에게 형편없는 이발을 해주었다. 하지만 그의 여자친구인 멜린다는 여전히 그를 원했습니다. 캠프로 가는 버스에서 그들은 키스했다. Charles와 Melinda의 혀가 빙글빙글 돌자 주변의 아이들은 환호했습니다. 선택된 문장: 캠프로 가는 버스에서 그들은 키스했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> Charles and Melinda kiss >Causes/Enables> Charles and Melinda finish kissing <br><br>
+				<br> Charles와 Melinda의 키스 >원인/활성화> Charles와 Melinda의 키스 완료 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Chris was a weird kind of lazy. After going grocery shopping he didn't want to walk in more than once. So he decided to try to carry all the groceries at the same time. He made it as far as the front door before a bag tore and spilled. While trying to pick that up the rest of his groceries fell out. selected sentence: While trying to pick that up the rest of his groceries fell out. <br><br>
+				<br> 스토리: Chris는 이상하게 게으른 사람이었습니다. 식료품 쇼핑을 한 후에 그는 한 번 이상 걷고 싶지 않았습니다. 그래서 그는 모든 식료품을 동시에 운반하기로 결정했습니다. 그는 가방이 찢어져 쏟아지기 전에 정문까지 갔다. 그것을 주우려고 시도하는 동안 그의 나머지 식료품이 떨어졌습니다. 선택된 문장: 그것을 주우려고 하는 동안 그의 나머지 식료품이 떨어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> The groceries fall out >Causes/Enables> He picks up the groceries <br><br>
+				<br> 식료품이 떨어짐 >원인/활성화> 그는 식료품을 줍습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Dan loved reading to his daughter. Recently, he bought a new book titled Magical Unicorn. Dan read the book to his daughter, and she loved it. She loved the book so much, Dan read the book another two times. Dan loved the fact that his daughter loved the book he bought. selected sentence: She loved the book so much, Dan read the book another two times. <br><br>
+				<br> 이야기: Dan은 딸에게 책을 읽어주는 것을 좋아했습니다. 최근에 그는 Magical Unicorn이라는 새 책을 샀습니다. Dan은 딸에게 그 책을 읽어 주었고 그녀는 그것을 좋아했습니다. 그녀는 책을 너무 좋아했고 Dan은 그 책을 두 번 더 읽었습니다. Dan은 자신이 산 책을 딸이 좋아한다는 사실을 좋아했습니다. 선택한 문장: 그녀는 그 책을 너무 좋아해서 Dan은 그 책을 두 번 더 읽었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> Dan's daughter loves the book >Causes/Enables> Dan loves the fact that his daughter loves the book he bought <br><br>
+				<br> 댄의 딸은 책을 좋아합니다 >원인/활성화> 댄은 자신이 구입한 책을 딸이 좋아한다는 사실을 좋아합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Daniel was doing laundry. He got done with one load and ran out of detergent. He had to run to the store to get more. Daniel did just that and replaced it within minutes. He was able to finish doing laundry. selected sentence: He had to run to the store to get more. <br><br>
+				<br> 줄거리: 다니엘은 빨래를 하고 있었습니다. 그는 한 번의 작업을 마치고 세제가 떨어졌습니다. 그는 더 사러 가게로 달려가야 했다. Daniel은 그렇게 했고 몇 분 안에 교체했습니다. 그는 빨래를 마칠 수 있었다. 선택된 문장: 그는 더 사러 가게로 달려가야 했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> Daniel runs to the store for detergent >Causes/Enables> Daniel buys detergent <br><br>
+				<br> 다니엘은 세제를 사러 가게로 달려갑니다 >원인/가능> 다니엘은 세제를 구입합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Daniel was doing laundry. He got done with one load and ran out of detergent. He had to run to the store to get more. Daniel did just that and replaced it within minutes. He was able to finish doing laundry. selected sentence: He had to run to the store to get more. <br><br>
+				<br> 줄거리: 다니엘은 빨래를 하고 있었습니다. 그는 한 번의 작업을 마치고 세제가 떨어졌습니다. 그는 더 사러 가게로 달려가야 했다. Daniel은 그렇게 했고 몇 분 안에 교체했습니다. 그는 빨래를 마칠 수 있었다. 선택된 문장: 그는 더 사러 가게로 달려가야 했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> Daniel runs to the store for detergent >Causes/Enables> Daniel finishes the laundry <br><br>
+				<br> 다니엘은 세제를 사러 가게로 달려갑니다 >원인/가능> 다니엘이 빨래를 마칩니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Ed took his dog Molly to the dog park. He was feeling sad because he and his girl had recently broken up. As he sat watching his dog play, a pretty woman sat next to him. They started chatting and really hit it off. They made a date for the following weekend for dinner. selected sentence: He was feeling sad because he and his girl had recently broken up. <br><br>
+				<br> 이야기: Ed는 그의 개 Molly를 개 공원으로 데려갔습니다. 그는 그와 그의 여자친구가 최근에 헤어졌기 때문에 슬펐습니다. 그가 개 노는 것을 지켜보고 있을 때, 예쁜 여자가 그의 옆에 앉았습니다. 그들은 채팅을 시작했고 정말 잘 맞았습니다. 그들은 다음 주말 저녁 식사를 위해 날짜를 정했습니다. 선택된 문장: 그는 그와 그의 여자친구가 최근에 헤어졌기 때문에 슬펐습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> Ed breaks up with his girlfriend >Causes/Enables> Ed meets a pretty woman <br><br>
+				<br> 에드가 여자친구와 이별 >원인/가능> 에드가 예쁜 여자를 만나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Evan wanted a pair of jean shorts for the summer. He shopped around, but every store was too expensive. Then he decided to try to make his own. He carefully cut the legs off an old pair of jeans. Soon he had a homemade new pair of jean shorts! selected sentence: He shopped around, but every store was too expensive. <br><br>
+				<br> 줄거리: 에반은 여름용 반바지를 원했습니다. 그는 쇼핑을 했지만 모든 상점이 너무 비쌌습니다. 그런 다음 그는 자신의 것을 만들기로 결정했습니다. 그는 낡은 청바지의 다리를 조심스럽게 잘라냈습니다. 곧 그는 집에서 만든 새로운 진 반바지를 갖게 되었습니다! 선택한 문장: 그는 쇼핑을 했지만 모든 상점이 너무 비쌌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> The stores are too expensive >Causes/Enables> Evan tries to make his own jean shorts <br><br>
+				<br> 가게가 너무 비싸다> 원인/가능> Evan은 자신의 청바지를 만들려고합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Fig's little brother was scared to sleep alone. Fig decided to help him out. She went into his room and read to him. She read three chapters, until his eyes closed. Then she crept out of his room quietly. selected sentence: Fig's little brother was scared to sleep alone. <br><br>
+				<br> 줄거리: Fig의 남동생은 혼자 자는 것을 무서워했습니다. Fig는 그를 돕기로 결정했습니다. 그녀는 그의 방으로 들어가 그에게 책을 읽어주었다. 그녀는 그가 눈을 감을 때까지 세 장을 읽었습니다. 그리고는 조용히 그의 방을 빠져나갔다. 선택한 문장: Fig의 남동생은 혼자 자는 것을 무서워했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> Fig's little brother is scared to sleep alone >Causes/Enables> Fig decides to help him <br><br>
+				<br> Fig의 남동생은 혼자 자는 것이 무서워 >원인/가능> Fig는 그를 돕기로 결정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Fred was looking for his shoes. Fred found them underneath the bed. When Fred reached under the bed, he found Something else. He found a dirty magazine. Fred didn't leave the house on time. selected sentence: Fred was looking for his shoes. <br><br>
+				<br> 이야기: Fred는 그의 신발을 찾고 있었습니다. Fred는 침대 밑에서 그것들을 찾았습니다. Fred가 침대 밑으로 손을 뻗었을 때 그는 다른 것을 발견했습니다. 그는 더러운 잡지를 찾았습니다. Fred는 제 시간에 집을 떠나지 않았습니다. 선택한 문장: Fred는 그의 신발을 찾고 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> Fred looks for his shoes >Causes/Enables> Fred finds his shoes <br><br>
+				<br> Fred는 그의 신발을 찾습니다 >원인/활성화> Fred는 그의 신발을 찾습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Gina had a cool new day bed. She loved it so much she wanted to stay in it all day. Her sisters and brothers had new bunk beds. She complimented them on their beds. But she knew her's was the best. selected sentence: Her sisters and brothers had new bunk beds. <br><br>
+				<br> 스토리: Gina는 멋진 새 데이 베드를 사용했습니다. 그녀는 그것을 너무 좋아해서 하루 종일 그 안에 머물고 싶었습니다. 그녀의 자매와 형제들은 새로운 이층 침대를 가지고 있었습니다. 그녀는 침대에서 그들을 칭찬했습니다. 그러나 그녀는 자신의 것이 최고라는 것을 알고 있었습니다. 선택된 문장: 그녀의 자매와 형제는 새로운 이층 침대를 가지고 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> Gina's siblings had new bunk beds >Causes/Enables> Gina complimented their new beds <br><br>
+				<br> 지나의 남매가 새 이층 침대를 갖게 되었습니다. >원인/가능> 지나는 새 침대를 칭찬했습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Gina went outside to play with her sisters. But she couldn't find them. She walked around the block and to the store. They were nowhere to be found. Gina sat on the front step waiting for them to return. selected sentence: She walked around the block and to the store. <br><br>
+				<br> 줄거리: 지나는 언니들과 놀러 밖에 나갔다. 그러나 그녀는 그들을 찾을 수 없었습니다. 그녀는 블록을 돌아 가게로 걸어갔다. 그들은 어디에도 없었습니다. Gina는 그들이 돌아오기를 기다리며 앞 계단에 앉았습니다. 선택한 문장: 그녀는 블록을 돌아 가게로 걸어갔습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> Gina goes to the store >Causes/Enables> Gina comes back <br><br>
+				<br> 지나가 가게에 간다>원인/가능>지나가 돌아온다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Harry wanted to bake cookies at home. His wife wouldn't let him because of the mess. He promised to clean up if she would change her mind. She gave him one chance and he excitedly began baking. When he was done it was still messy but she knew he had tried. selected sentence: She gave him one chance and he excitedly began baking. <br><br>
+				<br> 줄거리: 해리는 집에서 쿠키를 굽고 싶었어요. 그의 아내는 엉망진창 때문에 그를 허락하지 않았습니다. 그는 그녀가 마음을 바꾸면 청소하겠다고 약속했습니다. 그녀는 그에게 한 번의 기회를 주었고 그는 신나게 빵을 굽기 시작했습니다. 그가 끝났을 때 여전히 지저분했지만 그녀는 그가 노력했다는 것을 알았습니다. 선택한 문장: 그녀는 그에게 한 번의 기회를 주었고 그는 신나게 빵을 굽기 시작했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> Harry bakes cookies >Causes/Enables> Harry makes a mess <br><br>
+				<br> 해리가 쿠키를 굽다 >원인/활성화> 해리가 엉망으로 만들다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I came in from work and wanted to watch TV. I looked all over the living room for the remote. I asked the kids where they left it. None of the kids knew where the remote was. My dog then ran through the room carrying the remote in his mouth. selected sentence: I looked all over the living room for the remote. <br><br>
+				<br> 줄거리: 퇴근하고 티비를 보고 싶어졌다. 나는 리모콘을 찾기 위해 거실을 샅샅이 뒤졌다. 나는 아이들에게 그것을 어디에 두었는지 물었다. 아이들 중 누구도 리모컨이 어디에 있는지 몰랐습니다. 내 개는 리모콘을 입에 물고 방을 뛰어 다녔습니다. 선택한 문장: 나는 리모콘을 찾기 위해 거실 전체를 둘러보았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> I look for the remote >Causes/Enables> I see the dog carrying the remote <br><br>
+				<br> 리모콘을 찾습니다>원인/활성화> 리모콘을 들고 있는 개가 보입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I came in from work and wanted to watch TV. I looked all over the living room for the remote. I asked the kids where they left it. None of the kids knew where the remote was. My dog then ran through the room carrying the remote in his mouth. selected sentence: I looked all over the living room for the remote. <br><br>
+				<br> 줄거리: 퇴근하고 티비를 보고 싶어졌다. 나는 리모콘을 찾기 위해 거실을 샅샅이 뒤졌다. 나는 아이들에게 그것을 어디에 두었는지 물었다. 아이들 중 누구도 리모컨이 어디에 있는지 몰랐습니다. 내 개는 리모콘을 입에 물고 방을 뛰어 다녔습니다. 선택한 문장: 나는 리모콘을 찾기 위해 거실 전체를 둘러보았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> I looked for the remote >Causes/Enables> I asked my kids about the remote <br><br>
+				<br> 리모컨을 찾았다>원인/가능> 아이들에게 리모컨에 대해 물어봤다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I drove my car to the grocery store today. I got my reusable bags out of the back of my car. I went inside the store to grocery shop. I went down each aisle looking for items I needed. I paid the cashier for all my groceries. selected sentence: I paid the cashier for all my groceries. <br><br>
+				<br> 줄거리: 오늘 식료품점에 차를 몰고 갔습니다. 재사용 가능한 가방을 차 뒤에서 꺼냈습니다. 나는 식료품 가게에 가게 안으로 들어갔다. 나는 필요한 물건을 찾기 위해 각 통로를 내려갔다. 계산원에게 모든 식료품 값을 지불했습니다. 선택한 문장: 계산원에게 모든 식료품 값을 지불했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> I buy groceries >Causes/Enables> I eat <br><br>
+				<br> 나는 식료품을 산다>원인/활성화>나는 먹는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I kept cold drafts out this winter by covering the windows. I measured the windows to see what size plastic I needed. I cut the plastic with a knife to fit the windows. I taped and stapled the plastic to the windows. Using plastic is how I kept the cold drafts out this winter. selected sentence: I measured the windows to see what size plastic I needed. <br><br>
+				<br> story: 이번 겨울에 창문을 가려서 찬 바람을 막았습니다. 필요한 플라스틱 크기를 확인하기 위해 창문을 측정했습니다. 나는 창문에 맞게 칼로 플라스틱을 자릅니다. 나는 플라스틱을 창문에 테이프로 붙이고 스테이플러로 고정했습니다. 플라스틱을 사용하는 것이 올 겨울 찬 바람을 막는 방법입니다. 선택한 문장: 필요한 플라스틱 크기를 확인하기 위해 창문을 측정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> I measure the windows >Causes/Enables> I cut the plastic to fit the windows <br><br>
+				<br> 나는 창문을 측정한다>원인/활성화>나는 창문에 맞게 플라스틱을 자른다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I kept cold drafts out this winter by covering the windows. I measured the windows to see what size plastic I needed. I cut the plastic with a knife to fit the windows. I taped and stapled the plastic to the windows. Using plastic is how I kept the cold drafts out this winter. selected sentence: I measured the windows to see what size plastic I needed. <br><br>
+				<br> story: 이번 겨울에 창문을 가려서 찬 바람을 막았습니다. 필요한 플라스틱 크기를 확인하기 위해 창문을 측정했습니다. 나는 창문에 맞게 칼로 플라스틱을 자릅니다. 나는 플라스틱을 창문에 테이프로 붙이고 스테이플러로 고정했습니다. 플라스틱을 사용하는 것이 올 겨울 찬 바람을 막는 방법입니다. 선택한 문장: 필요한 플라스틱 크기를 확인하기 위해 창문을 측정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> I measured the windows for plastic. >Causes/Enables> I cut the plastic <br><br>
+				<br> 플라스틱 창을 측정했습니다. >원인/가능> 나는 플라스틱을 자른다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I took the back road into town last Tuesday. It was Something I hardly ever do but for some reason it was fun. The open road stretched out for miles with not a car in sight. My daughter and I sang songs from the Sound of Music. It was a perfect memory and I'll never forget it. selected sentence: My daughter and I sang songs from the Sound of Music. <br><br>
+				<br> 스토리: 지난 화요일에 시내로 뒷길을 갔습니다. 거의 하지 않는 일이었지만 왠지 재미있었다. 차가 보이지 않는 탁 트인 도로가 몇 마일이나 뻗어 있습니다. 내 딸과 나는 사운드 오브 뮤직의 노래를 불렀다. 완벽한 추억이었고 절대 잊지 못할 것입니다. 선택한 문장: 내 딸과 나는 사운드 오브 뮤직에서 노래를 불렀다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> My daughter and I are singing songs from the Sound of Music >Causes/Enables> We are creating a perfect memory <br><br>
+				<br> 딸과 나는 사운드오브뮤직의 노래를 부르고 있다 >원인/활성화> 우리는 완벽한 추억을 만들고 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I was lonely as a child. I was shy and afraid of people. I solved my problem by having imaginary friends. I am an adult now. I still think about my old friends. selected sentence: I was lonely as a child. <br><br>
+				<br> 줄거리: 나는 어렸을 때 외로웠다. 나는 수줍음이 많고 사람을 무서워했다. 상상의 친구를 사귀어 문제를 해결했습니다. 나는 이제 성인입니다. 나는 아직도 나의 오랜 친구들을 생각한다. 선택한 문장: 나는 어렸을 때 외로웠다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> I am lonely >Causes/Enables> I have imaginary friends <br><br>
+				<br> 나는 외롭다 >원인/활성화> 나는 상상의 친구가 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I went to the river by my neighborhood. I sat down with my fishing pole. I through the line out into the water. I waited for a while until I caught a fish. I went home with the fish and ate it. selected sentence: I through the line out into the water. <br><br>
+				<br> 줄거리: 나는 우리 동네에서 강에 갔다. 나는 낚싯대를 들고 앉았다. 나는 줄을 통해 물 속으로 빠져나간다. 나는 물고기를 잡을 때까지 잠시 기다렸다. 나는 물고기를 가지고 집에 가서 그것을 먹었다. 선택한 문장: 나는 줄을 통해 물 속으로 빠져나간다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> I threw out my fishing line into the water >Causes/Enables> I caught a fish <br><br>
+				<br> 낚싯줄을 물에 던졌다 >원인/가능> 물고기를 잡았다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: It was that time of the year again. The pond's were beginning to freeze over. The boys were excited to go out and ice skate. They tested the ice to make sure it was safe before skating. It looked good and they were off ice skating the day away. selected sentence: It looked good and they were off ice skating the day away. <br><br>
+				<br> story: 다시 올해의 그 시간이었다. 연못이 얼기 시작했습니다. 소년들은 나가서 아이스 스케이트를 타는 것에 신이 났습니다. 그들은 스케이트를 타기 전에 얼음이 안전한지 확인하기 위해 얼음을 테스트했습니다. 좋아 보였고 그들은 하루 종일 아이스 스케이트를 탔습니다. 선택한 문장: 좋아 보였고 그들은 멀리 아이스 스케이트를 탔습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> The boys skate >Causes/Enables> The boys have fun <br><br>
+				<br> The boys skate >원인/활성화> The boys have fun <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jack was starting kindergarten. He was scared. He had never even been to daycare. His mom walked him to the door and kissed him bye. He had a great first day. selected sentence: He was scared. <br><br>
+				<br> 줄거리: 잭은 유치원에 다니고 있었습니다. 그는 무서웠다. 그는 어린이집에 가본 적도 없었다. 그의 엄마는 그를 문까지 데려다 주고 작별 키스를 했습니다. 그는 좋은 첫날을 보냈습니다. 선택된 문장: 그는 무서웠다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> Jack is scared >Causes/Enables> Jack calms down <br><br>
+				<br> 잭이 무서워 >원인/활성화> 잭이 진정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jack was starting kindergarten. He was scared. He had never even been to daycare. His mom walked him to the door and kissed him bye. He had a great first day. selected sentence: He was scared. <br><br>
+				<br> 줄거리: 잭은 유치원에 다니고 있었습니다. 그는 무서웠다. 그는 어린이집에 가본 적도 없었다. 그의 엄마는 그를 문까지 데려다 주고 작별 키스를 했습니다. 그는 좋은 첫날을 보냈습니다. 선택된 문장: 그는 무서웠다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> Jack is scared >Causes/Enables> Jack's mom walks Jack to the door <br><br>
+				<br> 잭이 무서워 >원인/활성화> 잭의 엄마가 잭을 문까지 데려다 줍니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jane used to get made fun of at school for being poor. Even though the other kids had money, they weren't as happy as Jane. One day she was asked why she is always happy even without money. She said she appreciates the many little things in her life. Now she is no longer made fun of at school. selected sentence: She said she appreciates the many little things in her life. <br><br>
+				<br> 줄거리: 제인은 학교에서 가난하다는 이유로 놀림을 받곤 했습니다. 다른 아이들은 돈이 있었지만 제인만큼 행복하지 않았습니다. 어느 날 그녀는 돈이 없어도 왜 항상 행복한지 물었습니다. 그녀는 인생의 많은 작은 것들에 감사한다고 말했습니다. 이제 그녀는 더 이상 학교에서 놀림을 받지 않습니다. 선택한 문장: 그녀는 인생의 많은 작은 것들에 감사한다고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> Jane says she appreciates the little things >Causes/Enables> The other kids stop making fun of Jane <br><br>
+				<br> Jane은 작은 것에 감사한다고 말합니다. >원인/활성화> 다른 아이들이 Jane을 놀리지 않습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jeb was always late for work. He always hit the snooze button when his alarm rang. His boss was going to fire him. Jeb decided to put a cactus on his alarm clock. The painful wake up made it so that he was never late again. selected sentence: Jeb decided to put a cactus on his alarm clock. <br><br>
+				<br> 줄거리: 젭은 항상 일에 늦었다. 그는 알람이 울릴 때마다 스누즈 버튼을 눌렀다. 그의 상사는 그를 해고하려고 했다. Jeb은 자명종에 선인장을 달기로 했습니다. 고통스러운 기상은 그가 다시는 늦지 않도록 만들었습니다. 선택한 문장: Jeb은 자명종에 선인장을 달기로 결정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Jeb decides to put a cactus on the clock >Causes/Enables> Jeb puts a cactus on the clock <br><br>
+				<br> 젭은 시계에 선인장을 놓기로 결정 >원인/활성화> 젭은 시계에 선인장을 놓는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jerry has a mouse. His wife wants to get a cat. Jerry said no. His wife got a cat behind his back. The cat and mouse are best friends. selected sentence: His wife wants to get a cat. <br><br>
+				<br> 이야기: Jerry는 쥐를 가지고 있습니다. 그의 아내는 고양이를 키우고 싶어합니다. 제리는 거절했다. 그의 아내는 등 뒤에 고양이를 키웠다. 고양이와 쥐는 가장 친한 친구입니다. 선택한 문장: 그의 아내는 고양이를 키우고 싶어합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> Jerry's wife wants a cat >Causes/Enables> Jerry's wife gets a cat <br><br>
+				<br> 제리의 아내는 고양이를 원합니다 >원인/활성화> 제리의 아내는 고양이를 얻습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jim was getting ready to go run. He could not find any clean socks. He looked everywhere in his drawers. He knew he had just done laundry. Then he remembered they were still in the dryer. selected sentence: Then he remembered they were still in the dryer. <br><br>
+				<br> 이야기: Jim은 뛸 준비를 하고 있었습니다. 그는 깨끗한 양말을 찾을 수 없었습니다. 그는 서랍 안 구석구석을 살펴보았다. 그는 자신이 방금 빨래를 했다는 것을 알았습니다. 그런 다음 그는 그들이 여전히 건조기에 있다는 것을 기억했습니다. 선택된 문장: 그때 그는 그들이 아직 건조기 안에 있었다는 것을 기억했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> Jim remembers they are in the dryer >Causes/Enables> Jim walks to the dryer <br><br>
+				<br> Jim은 그들이 건조기에 있다는 것을 기억합니다. >원인/활성화> Jim이 건조기로 걸어갑니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jim was playing with paint. He got paint on the carpet. He tried forever to get it out. He had an idea. He placed a rug right over the stain to hide it. selected sentence: He placed a rug right over the stain to hide it. <br><br>
+				<br> 이야기: Jim은 페인트를 가지고 놀고 있었습니다. 그는 카펫에 페인트를 칠했습니다. 그는 그것을 꺼내기 위해 영원히 노력했습니다. 그는 생각이 있었다. 그는 그것을 숨기기 위해 얼룩 바로 위에 깔개를 놓았습니다. 선택한 문장: 그는 얼룩을 숨기기 위해 얼룩 바로 위에 깔개를 깔았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> Jim puts the rug over the stain >Causes/Enables> The rug covers the stain <br><br>
+				<br> 짐이 얼룩 위에 깔개를 깔다 >원인/가능> 깔개가 얼룩을 덮음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Joe dreamed of being the fastest kid in his 3rd grade class. His friends always held races during recess. Joe practiced constantly, striving to be the best. But when the races started that year, a girl named Lisa won the race. Joe was disappointed, but decided he would not stop trying. selected sentence: Joe was disappointed, but decided he would not stop trying. <br><br>
+				<br> 줄거리: Joe는 3학년 반에서 가장 빠른 아이가 되는 꿈을 꾸었습니다. 그의 친구들은 항상 쉬는 시간에 경주를 열었습니다. Joe는 최고가 되기 위해 끊임없이 연습했습니다. 그러나 그해 경주가 시작되었을 때 Lisa라는 소녀가 경주에서 우승했습니다. Joe는 실망했지만 노력을 멈추지 않기로 결정했습니다. 선택한 문장: Joe는 실망했지만 노력을 멈추지 않기로 결정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> Joe decides he would not stop trying >Causes/Enables> Joe doesn't stop trying <br><br>
+				<br> Joe는 시도를 멈추지 않겠다고 결정 >원인/활성화> Joe는 시도를 멈추지 않습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Julie was walking to the store. She was going to buy a soda. She saw Something moving on the ground. It was a snake. She almost stepped on it. selected sentence: It was a snake. <br><br>
+				<br> 줄거리: Julie는 가게로 걸어가고 있었다. 그녀는 탄산음료를 사려고 했다. 그녀는 무언가가 땅에서 움직이는 것을 보았다. 뱀이었다. 그녀는 거의 밟을 뻔했습니다. 선택한 문장: 그것은 뱀이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> It is a snake >Causes/Enables> Julie avoids the snake <br><br>
+				<br> 뱀이다 >원인/활성화> 줄리는 뱀을 피한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate bought a new pair of pants. They were really tight. Kate decided to wear them out dancing. Within the first hour they tore in the butt area. Kate didn't notice until she got back home. selected sentence: Kate decided to wear them out dancing. <br><br>
+				<br> 이야기: Kate는 새 바지를 샀습니다. 그들은 정말 빡빡했습니다. Kate는 춤을 추면서 그들을 지치게 하기로 결정했습니다. 처음 한 시간 안에 엉덩이 부분이 찢어졌습니다. Kate는 집에 돌아올 때까지 눈치채지 못했습니다. 선택한 문장: Kate는 그들을 춤추게 하기로 결정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Kate decides to wear them out dancing >Causes/Enables> They tore in the butt area <br><br>
+				<br> 케이트는 춤을 추기로 결정합니다. >원인/활성화> 엉덩이 부분이 찢어졌습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate had been ignoring a guy in the club. Until she caught his attention by touching his arm. He stopped and looked at her. She had no idea what she would say. So she just laughed until he finally joined her and laughed too. selected sentence: He stopped and looked at her. <br><br>
+				<br> 이야기: 케이트는 클럽에서 한 남자를 무시하고 있었습니다. 그녀가 그의 팔을 만져 그의 관심을 끌 때까지. 그는 걸음을 멈추고 그녀를 바라보았다. 그녀는 무슨 말을 할지 몰랐습니다. 그래서 그녀는 그가 마침내 그녀와 합류할 때까지 그냥 웃었고 너무 웃었습니다. 선택된 문장: 그는 멈추고 그녀를 보았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> The guy looks at Kate >Causes/Enables> Kate laughs <br><br>
+				<br> 남자는 케이트를 쳐다본다>원인/활성화> 케이트가 웃는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate threw a frisbee to her dog. The dog caught the frisbee. It brought it back to her. She threw it again. This time the dog missed. selected sentence: Kate threw a frisbee to her dog. <br><br>
+				<br> 이야기: 케이트는 개에게 원반을 던졌습니다. 개가 프리스비를 잡았다. 그것은 그녀에게 다시 가져 왔습니다. 그녀는 그것을 다시 던졌다. 이번에는 개가 놓쳤습니다. 선택한 문장: 케이트는 개에게 원반을 던졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> Kate throws the frisbee to the dog >Causes/Enables> The dog catches the frisbee <br><br>
+				<br> 케이트가 개에게 프리스비를 던짐>원인/활성화> 개가 프리스비를 잡다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kelly needed a new sink for her house. She looked everywhere. She couldn't find the right one. Finally she found one online. It looked great. selected sentence: It looked great. <br><br>
+				<br> 이야기: Kelly는 집에 새 싱크대가 필요했습니다. 그녀는 사방을 보았다. 그녀는 올바른 것을 찾을 수 없었습니다. 마침내 그녀는 온라인에서 하나를 찾았습니다. 멋져 보였다. 선택한 문장: 멋져 보였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> I think it looks great >Causes/Enables> I buy it <br><br>
+				<br> 멋져보인다 >원인/유효> 구입한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kelly needed a new sink for her house. She looked everywhere. She couldn't find the right one. Finally she found one online. It looked great. selected sentence: It looked great. <br><br>
+				<br> 이야기: Kelly는 집에 새 싱크대가 필요했습니다. 그녀는 사방을 보았다. 그녀는 올바른 것을 찾을 수 없었습니다. 마침내 그녀는 온라인에서 하나를 찾았습니다. 멋져 보였다. 선택한 문장: 멋져 보였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> The sink looks great >Causes/Enables> Kelly buys the sink <br><br>
+				<br> 싱크대가 멋져 보입니다. >원인/활성화> Kelly가 싱크대를 구입합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kelly needed a new sink for her house. She looked everywhere. She couldn't find the right one. Finally she found one online. It looked great. selected sentence: It looked great. <br><br>
+				<br> 이야기: Kelly는 집에 새 싱크대가 필요했습니다. 그녀는 사방을 보았다. 그녀는 올바른 것을 찾을 수 없었습니다. 마침내 그녀는 온라인에서 하나를 찾았습니다. 멋져 보였다. 선택한 문장: 멋져 보였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 이야기: Kelly는 집에 새 싱크대가 필요했습니다. 그녀는 사방을 보았다. 그녀는 올바른 것을 찾을 수 없었습니다. 마침내 그녀는 온라인에서 하나를 찾았습니다. 멋져 보였다. 선택한 문장: 멋져 보였다. <br><br>
+				<br> 이야기: Kelly는 집에 새 싱크대가 필요했습니다. 그녀는 사방을 보았다. 그녀는 올바른 것을 찾을 수 없었습니다. 마침내 그녀는 온라인에서 하나를 찾았습니다. 멋져 보였다. 선택한 문장: 멋져 보였다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kya lost her car keys. She looked all over her house. She was afraid she'd be late for work. Then she finally found them - in her front pocket! Kya shook her head at her own silliness. selected sentence: She looked all over her house. <br><br>
+				<br> 이야기: Kya는 자동차 열쇠를 잃어버렸습니다. 그녀는 온 집안을 둘러보았다. 그녀는 직장에 늦을까봐 두려웠다. 그런 다음 그녀는 마침내 앞 주머니에서 그것들을 찾았습니다! Kya는 자신의 어리석음에 고개를 저었다. 선택된 문장: 그녀는 온 집안을 둘러보았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> Kya searches for her keys >Causes/Enables> Kya finds her keys <br><br>
+				<br> Kya는 자신의 키를 검색합니다. >원인/활성화> Kya는 자신의 키를 찾습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Last night I had to be home in time for the new episode I had to watch The show is vanderpump rules and it's one of my favorite shows. Thankfully I got home just in time to see it. I ended up loving the episode. I couldn't wait for the new one the following week. selected sentence: I couldn't wait for the new one the following week. <br><br>
+				<br> 스토리: 어젯밤 새 에피소드를 보기 위해 시간에 맞춰 집에 가야 했습니다. 이 쇼는 밴더펌프 규칙이고 내가 가장 좋아하는 쇼 중 하나입니다. 덕분에 시간 맞춰 집에 도착했다. 나는 에피소드를 좋아하게되었습니다. 나는 다음 주에 새로운 것을 기다릴 수 없었다. 선택한 문장: 나는 다음 주에 새로운 것을 기다릴 수 없었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> I can't wait for the next one >Causes/Enables> I watch the next one <br><br>
+				<br> 다음편이 기대된다>원인/가능>다음편을 본다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Lee hated bugs of any kind. She was going fishing for the first time. When it was time to hook the worm Lee passed out. The whole fishing trip quickly came to an end. Lee was super embarrassed of her reaction to the worms. selected sentence: The whole fishing trip quickly came to an end. <br><br>
+				<br> 줄거리: Lee는 모든 종류의 벌레를 싫어했습니다. 그녀는 처음으로 낚시하러 가고 있었다. 벌레를 잡을 때가 되자 이씨는 기절했다. 전체 낚시 여행이 빠르게 끝났습니다. Lee는 벌레에 대한 그녀의 반응에 매우 당황했습니다. 선택한 문장: 전체 낚시 여행이 금방 끝났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> The trip ends >Causes/Enables> Everyone goes home <br><br>
+				<br> 여행 끝>원인/가능>다들 집에 간다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Linda wanted to cook a special dinner for her boyfriend. It took a lot of work, but the dinner was finished just as he arrived. He loved every bite of it. Now, he asks Linda to cook every time he visits. She wishes she hadn't cooked so well, because she hates to cook. selected sentence: It took a lot of work, but the dinner was finished just as he arrived. <br><br>
+				<br> 이야기: Linda는 남자 친구를 위해 특별한 저녁 식사를 요리하고 싶었습니다. 많은 일이 있었지만 그가 도착하자마자 저녁 식사가 끝났습니다. 그는 그것의 모든 물기를 좋아했습니다. 이제 그는 방문할 때마다 Linda에게 요리를 부탁합니다. 그녀는 요리하는 것을 싫어하기 때문에 자신이 그렇게 잘 요리하지 않았더라면 좋았을 것입니다. 선택한 문장: 수고가 많았지만 그가 도착하자마자 저녁 식사가 끝났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> He arrives home >Causes/Enables> She gives him his dinner <br><br>
+				<br> 그는 집에 도착합니다 >원인/활성화> 그녀는 그에게 저녁 식사를 제공합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Linda wanted to cook a special dinner for her boyfriend. It took a lot of work, but the dinner was finished just as he arrived. He loved every bite of it. Now, he asks Linda to cook every time he visits. She wishes she hadn't cooked so well, because she hates to cook. selected sentence: It took a lot of work, but the dinner was finished just as he arrived. <br><br>
+				<br> 이야기: Linda는 남자 친구를 위해 특별한 저녁 식사를 요리하고 싶었습니다. 많은 일이 있었지만 그가 도착하자마자 저녁 식사가 끝났습니다. 그는 그것의 모든 물기를 좋아했습니다. 이제 그는 방문할 때마다 Linda에게 요리를 부탁합니다. 그녀는 요리하는 것을 싫어하기 때문에 자신이 그렇게 잘 요리하지 않았더라면 좋았을 것입니다. 선택한 문장: 수고가 많았지만 그가 도착하자마자 저녁 식사가 끝났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Linda cooks >Causes/Enables> Linda's boyfriend eats <br><br>
+				<br> 린다가 요리하다 >원인/활성화> 린다의 남자친구가 먹는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Lorance drove to the beach. He swam in the cold ocean. After a while, he rested on the sand. The day broke while he rested. Lorance got in his car and drove to school. selected sentence: After a while, he rested on the sand. <br><br>
+				<br> 줄거리: Lorance는 해변으로 차를 몰고 갔다. 그는 차가운 바다에서 수영했습니다. 잠시 후 그는 모래 위에서 쉬었다. 그가 쉬는 동안 날이 밝았다. Lorance는 그의 차를 타고 학교로 차를 몰았다. 선택한 문장: 잠시 후 그는 모래 위에서 쉬었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Lorance rests >Causes/Enables> Lorance gets recharged <br><br>
+				<br> Lorance 휴식 >원인/활성화> Lorance가 충전됨 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Martha always wanted to be a good baker. She watched a TV show on how to bake bread and tried it on her own. She ended up baking her first loaf of bread a week later. The loaf ended up coming out burnt. Her mom yelled at her and told her not to bake bread ever again. selected sentence: Martha always wanted to be a good baker. <br><br>
+				<br> 이야기: Martha는 항상 좋은 제빵사가 되고 싶었습니다. 그녀는 빵을 굽는 방법에 대한 TV 프로그램을 보고 스스로 그것을 시도했습니다. 그녀는 일주일 후에 첫 번째 빵 덩어리를 구웠습니다. 빵은 결국 타버렸습니다. 그녀의 엄마는 그녀에게 소리를 지르며 다시는 빵을 굽지 말라고 말했습니다. 선택한 문장: Martha는 항상 좋은 제빵사가 되고 싶었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> Martha wants to be a good baker >Causes/Enables> Martha tries being a good baker <br><br>
+				<br> Martha는 좋은 빵 굽는 사람이 되고 싶어 >원인/활성화> Martha는 좋은 빵 굽는 사람이 되려고 노력합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Martha always wanted to be a good baker. She watched a TV show on how to bake bread and tried it on her own. She ended up baking her first loaf of bread a week later. The loaf ended up coming out burnt. Her mom yelled at her and told her not to bake bread ever again. selected sentence: Martha always wanted to be a good baker. <br><br>
+				<br> 이야기: Martha는 항상 좋은 제빵사가 되고 싶었습니다. 그녀는 빵을 굽는 방법에 대한 TV 프로그램을 보고 스스로 그것을 시도했습니다. 그녀는 일주일 후에 첫 번째 빵 덩어리를 구웠습니다. 빵은 결국 타버렸습니다. 그녀의 엄마는 그녀에게 소리를 지르며 다시는 빵을 굽지 말라고 말했습니다. 선택한 문장: Martha는 항상 좋은 제빵사가 되고 싶었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> Martha wants to be a good baker >Causes/Enables> She watches a TV show on how to bake bread <br><br>
+				<br> Martha는 좋은 제빵사가 되고 싶어합니다. >원인/활성화> 그녀는 빵을 굽는 방법에 대한 TV 쇼를 봅니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Matt was excited because he was leaving for camp this week. He went to the archery range as soon as he got there. The instructor for archery asked for a challenger. Matt thought he had a good shot at beating him. With a lot of focus, he beat the instructor easily. selected sentence: Matt thought he had a good shot at beating him. <br><br>
+				<br> 이야기: Matt는 이번 주에 캠프로 떠나기 때문에 들떠 있었습니다. 그는 도착하자마자 양궁장으로 갔다. 양궁 강사가 도전자를 요청했다. Matt는 그가 그를 이길 좋은 기회가 있다고 생각했습니다. 많은 집중력으로 그는 강사를 쉽게 이겼습니다. 선택한 문장: Matt는 자신을 이길 수 있다고 생각했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> Matt volunteers for the archery contest against the instructor >Causes/Enables> He beats the instructor <br><br>
+				<br> Matt는 강사를 상대로 양궁 대회에 자원합니다. >원인/활성화> 그는 강사를 이겼습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Matthew was not happy to be going shopping with his mother. The grocery store was no fun but then they went next door. It was a new pet shop filled with mice, birds, and fish! To a delighted Matthew, it was like a zoo. His mother let him pick his first pet, a goldfish with black spots. selected sentence: It was a new pet shop filled with mice, birds, and fish! <br><br>
+				<br> 줄거리: Matthew는 어머니와 쇼핑하러 가는 것이 달갑지 않았습니다. 식료품 가게는 재미가 없었지만 그들은 옆집으로 갔다. 생쥐, 새, 물고기로 가득한 새로운 펫샵이었습니다! 기뻐하는 매튜에게 그곳은 마치 동물원 같았습니다. 그의 어머니는 그가 첫 번째 애완동물인 검은 반점이 있는 금붕어를 고르게 했습니다. 선택한 문장: 생쥐, 새, 물고기로 가득한 새로운 펫샵이었습니다! <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> The pet shop has fish >Causes/Enables> Matthew gets a fish <br><br>
+				<br> 애완동물 가게에 물고기가 있습니다 >원인/활성화> Matthew는 물고기를 얻습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Me and my friend Kyle were playing ping pong in my basement. Kyle gets very competitive and I am almost as bad. When I win he makes a bet to get me to play again. In a few games we are betting lots of money and diving everywhere. I crash right into and knock over an old dresser trying to get ball. selected sentence: Kyle gets very competitive and I am almost as bad. <br><br>
+				<br> 줄거리: 나와 내 친구 카일은 지하실에서 탁구를 치고 있었다. Kyle은 매우 경쟁적이 되고 나는 거의 나쁩니다. 내가 이기면 그는 내가 다시 플레이하게 하기 위해 내기를 한다. 몇몇 게임에서 우리는 많은 돈을 걸고 모든 곳에서 다이빙을 합니다. 나는 공을 잡으려고 낡은 서랍장에 바로 부딪혀 쓰러뜨렸다. 선택된 문장: Kyle은 매우 경쟁적이 되고 나는 거의 그만큼 나쁩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> Kyle gets competitive >Causes/Enables> Kyle dives everywhere <br><br>
+				<br> Kyle이 경쟁력을 갖게 됨 >Causes/Enables> Kyle이 모든 곳에서 다이빙 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Mommy told us that it is bedtime and we knew it was story time. My sister and I brushed our teeth and got into bed. We pulled the cover up to our cheeks Mommy came in and read us a story. Then she kissed us goodnight and turned out the lights. selected sentence: Mommy came in and read us a story. <br><br>
+				<br> 이야기: 엄마는 취침 시간이라고 말씀하셨고 우리는 이야기 시간이라는 것을 알았습니다. 누나와 나는 이를 닦고 침대에 누웠다. 우리는 우리의 뺨에 덮개를 당겼습니다. 엄마가 들어와 우리에게 이야기를 읽어주었습니다. 그런 다음 그녀는 우리에게 잘자라고 키스하고 불을 껐습니다. 선택한 문장: 엄마가 오셔서 우리에게 이야기를 읽어 주셨어요. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> Mommy reads My sister and I a story >Causes/Enables> My sister and I go to sleep <br><br>
+				<br> 엄마는 누나와 나에게 이야기를 읽어줍니다 >원인/활성화> 누나와 나는 잠을 잡니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My Aunt found out she had stage four lung cancer. Two days later we left to make the eight hour drive to Los Angeles. Six and a half hours into the drive I received a phone call. At home and in comfort she had passed peacefully minutes earlier. She lay in state when I arrived to say my goodbye. selected sentence: Two days later we left to make the eight hour drive to Los Angeles. <br><br>
+				<br> 이야기: 이모가 폐암 4기라는 사실을 알게 되었습니다. 이틀 후 우리는 로스앤젤레스로 8시간을 운전하기 위해 떠났습니다. 운전을 시작한지 6시간 30분만에 전화를 받았습니다. 집에서 편안하게 그녀는 몇 분 전에 평화롭게 세상을 떠났습니다. 내가 작별 인사를 하기 위해 도착했을 때 그녀는 누워 있었다. 선택한 문장: 이틀 후 우리는 로스앤젤레스로 8시간을 운전하기 위해 떠났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> We drive to Los Angeles >Causes/Enables> My Aunt dies <br><br>
+				<br> 우리는 로스앤젤레스로 운전합니다 >원인/활성화> My Aunt dies <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My brother was mad at me. He waited till I was hanging upside from a tree branch. He smacked me in the head with a broom and made me fall. I had a really bad bump from the fall on my head. He was grounded for a whole month! selected sentence: My brother was mad at me. <br><br>
+				<br> 줄거리: 동생이 나에게 화를 냈다. 그는 내가 나뭇가지에 거꾸로 매달릴 때까지 기다렸다. 그는 빗자루로 내 머리를 때리고 넘어지게 만들었습니다. 나는 머리에 넘어져서 정말 심하게 부딪쳤습니다. 그는 한 달 내내 접지되었습니다! 선택된 문장: 내 동생은 나에게 화를 냈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> My brother was mad at me >Causes/Enables> My brother made me fall <br><br>
+				<br> 형이 나에게 화를 냈다 >원인/가능> 형이 나를 넘어지게 했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My dog was bored. I was working all day so I couldn't spend time with him. When I finished work I decided to play with my dog. He was so happy to finally have some fun! Alas, he fell sick and died. selected sentence: Alas, he fell sick and died. <br><br>
+				<br> 이야기: 내 개는 지루했다. 나는 하루 종일 일을 했기 때문에 그와 시간을 보낼 수 없었다. 일이 끝나면 개와 놀기로 결정했습니다. 그는 마침내 약간의 재미를 갖게 되어 매우 기뻤습니다! 아아, 그는 병에 걸려 죽었습니다. 선택한 문장: 아아, 그는 병에 걸려 죽었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> He falls sick >Causes/Enables> He dies <br><br>
+				<br> 그는 병에 걸렸다 >원인/활성화> 그는 죽는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My dog was bored. I was working all day so I couldn't spend time with him. When I finished work I decided to play with my dog. He was so happy to finally have some fun! Alas, he fell sick and died. selected sentence: Alas, he fell sick and died. <br><br>
+				<br> 이야기: 내 개는 지루했다. 나는 하루 종일 일을 했기 때문에 그와 시간을 보낼 수 없었다. 일이 끝나면 개와 놀기로 결정했습니다. 그는 마침내 약간의 재미를 갖게 되어 매우 기뻤습니다! 아아, 그는 병에 걸려 죽었습니다. 선택한 문장: 아아, 그는 병에 걸려 죽었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> My dog falls sick >Causes/Enables> I take him to the vet <br><br>
+				<br> 내 개가 아프다 >원인/활성화> 나는 그를 수의사에게 데려갑니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My kitchen was filling up with trash. I picked up a bag to carry it to my trash can. I began to walk down my driveway with the bag. Suddenly, the bag ripped and trash fell everywhere. I cleaned up the spilled trash and put it in the trash can. selected sentence: I began to walk down my driveway with the bag. <br><br>
+				<br> 이야기: 내 부엌은 쓰레기로 가득 차 있었습니다. 나는 그것을 쓰레기통으로 옮기기 위해 가방을 집어 들었다. 나는 가방을 들고 차도를 걷기 시작했다. 갑자기 가방이 찢어지고 쓰레기가 사방에 떨어졌습니다. 나는 흘린 쓰레기를 치우고 쓰레기통에 넣었다. 선택한 문장: 나는 가방을 들고 진입로를 걷기 시작했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> I walk down the driveway >Causes/Enables> I reach the end of the driveway <br><br>
+				<br> 진입로를 걸어 내려갑니다 >원인/활성화> 진입로 끝에 도달합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My mom told me a story about a scary house in a corner. I told my friends the story. We went to look for the house. We went inside the house and got scared by the clown that lives there. We went back to my house and promised to never speak of it again. selected sentence: I told my friends the story. <br><br>
+				<br> 이야기: 엄마가 구석에 있는 무서운 집에 대한 이야기를 해주셨어요. 나는 친구들에게 그 이야기를 들려주었다. 우리는 집을 찾으러 갔다. 우리는 집 안으로 들어갔고 그곳에 사는 광대를 보고 무서웠습니다. 우리는 집으로 돌아가 다시는 그 일에 대해 말하지 않겠다고 약속했습니다. 선택한 문장: 나는 친구들에게 그 이야기를 들려주었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> I told my friends a story >Causes/Enables> My friends listened to the story <br><br>
+				<br> 나는 친구에게 이야기를 들려주었다>원인/가능>친구가 그 이야기를 들었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Natalie's favorite movie is The Wizard of Oz. Natalie has seen it so many times that she knows the entire script! It is hard to watch the movie with her because she recites every part. I asked her politely to quiet down. She got angry and stormed away. selected sentence: Natalie's favorite movie is The Wizard of Oz. <br><br>
+				<br> 줄거리: Natalie가 가장 좋아하는 영화는 The Wizard of Oz입니다. Natalie는 그것을 너무 많이 보았기 때문에 그녀는 전체 대본을 알고 있습니다! 그녀가 모든 부분을 암송하기 때문에 그녀와 함께 영화를 보는 것은 어렵다. 나는 그녀에게 정중하게 조용히 해달라고 부탁했다. 그녀는 화를 내며 달려갔다. 선택한 문장: Natalie가 가장 좋아하는 영화는 The Wizard of Oz입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> Natalie loves The Wizard of Oz >Causes/Enables> Natalie watches The Wizard of Oz <br><br>
+				<br> Natalie는 The Wizard of Oz를 사랑합니다. >원인/활성화> Natalie는 The Wizard of Oz를 시청합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Nevin was fed up with his couch. He went to the store to get a new one. The salesman was very nice to him. Nevin got a great deal. Nevin is very happy with his new couch. selected sentence: He went to the store to get a new one. <br><br>
+				<br> 줄거리: 네빈은 소파에 싫증이 났습니다. 그는 새 것을 사러 가게에 갔다. 그 세일즈맨은 그에게 매우 친절했습니다. 네빈은 많은 것을 얻었습니다. Nevin은 그의 새 소파에 매우 만족합니다. 선택한 문장: 그는 새 것을 사러 가게에 갔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> Nevin goes to get a couch >Causes/Enables> Nevin gets a couch <br><br>
+				<br> Nevin은 소파를 가지러 갑니다 >원인/활성화> Nevin은 소파를 얻습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Nevin was fed up with his couch. He went to the store to get a new one. The salesman was very nice to him. Nevin got a great deal. Nevin is very happy with his new couch. selected sentence: He went to the store to get a new one. <br><br>
+				<br> 줄거리: 네빈은 소파에 싫증이 났습니다. 그는 새 것을 사러 가게에 갔다. 그 세일즈맨은 그에게 매우 친절했습니다. 네빈은 많은 것을 얻었습니다. Nevin은 그의 새 소파에 매우 만족합니다. 선택한 문장: 그는 새 것을 사러 가게에 갔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> Nevin goes to the store >Causes/Enables> The salesman is nice to Nevin <br><br>
+				<br> 네빈이 가게에 간다 >원인/활성화> 세일즈맨이 네빈에게 친절하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: One day the Smither family decided to go on vacation to Hawaii. First they boarded the plane. Then the plane took them to Hawaii. When they got off they went to their hotel. They were ready to have fun! selected sentence: They were ready to have fun! <br><br>
+				<br> 줄거리: 어느 날 Smither 가족은 하와이로 휴가를 가기로 결정했습니다. 먼저 그들은 비행기를 탔다. 그런 다음 비행기는 그들을 하와이로 데려갔습니다. 그들이 내리자 그들은 호텔로 갔다. 그들은 즐길 준비가 되어 있었습니다! 선택한 문장: 그들은 즐길 준비가 되었습니다! <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> The Smithers are ready to have fun >Causes/Enables> The Smithers have fun <br><br>
+				<br> The Smithers are ready to have fun >원인/활성화> The Smithers have fun <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Our neighbors down the hall had a very noisy party. One of the guests passed out in front of my door. When I asked him to leave he swore at me. I called the police. The guest left before the police came. selected sentence: When I asked him to leave he swore at me. <br><br>
+				<br> 이야기: 복도 아래에 있는 우리 이웃들은 매우 시끄러운 파티를 열었습니다. 손님 중 한 명이 내 문 앞에서 기절했습니다. 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했다. 나는 경찰을 불렀다. 손님은 경찰이 오기 전에 떠났다. 선택된 문장: 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> I ask him to leave >Causes/Enables> He leaves <br><br>
+				<br> 나는 그에게 떠나라고 요청>원인/가능>그는 떠난다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Our neighbors down the hall had a very noisy party. One of the guests passed out in front of my door. When I asked him to leave he swore at me. I called the police. The guest left before the police came. selected sentence: When I asked him to leave he swore at me. <br><br>
+				<br> 이야기: 복도 아래에 있는 우리 이웃들은 매우 시끄러운 파티를 열었습니다. 손님 중 한 명이 내 문 앞에서 기절했습니다. 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했다. 나는 경찰을 불렀다. 손님은 경찰이 오기 전에 떠났다. 선택된 문장: 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> I ask him to leave >Causes/Enables> He swears at me <br><br>
+				<br> 나는 그에게 떠나라고 요청합니다>원인/가능> 그는 나에게 욕을 합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Roxy's home is filled with clutter. Things are getting so bad that she can't even see her couch anymore. She knows that she needs to do Something about her clutter. So she makes a plan to get rid of 2,000 items every day for a week. Roxy's house is much cleaner one week later. selected sentence: She knows that she needs to do Something about her clutter. <br><br>
+				<br> 줄거리: 록시의 집은 잡동사니로 가득 차 있다. 상황이 너무 나빠져서 그녀는 더 이상 소파도 볼 수 없습니다. 그녀는 자신의 잡동사니에 대해 뭔가 조치를 취해야 한다는 것을 알고 있습니다. 그래서 그녀는 일주일 동안 매일 2,000개의 물건을 버릴 계획을 세웁니다. Roxy의 집은 일주일 후 훨씬 깨끗해졌습니다. 선택한 문장: 그녀는 자신의 잡동사니에 대해 뭔가 조치를 취해야 한다는 것을 알고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> Roxy knows she needs to do Something >Causes/Enables> Roxy does Something <br><br>
+				<br> Roxy는 자신이 무언가를 해야 함을 알고 있음 >원인/활성화> Roxy는 무언가를 함 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Roxy's home is filled with clutter. Things are getting so bad that she can't even see her couch anymore. She knows that she needs to do Something about her clutter. So she makes a plan to get rid of 2,000 items every day for a week. Roxy's house is much cleaner one week later. selected sentence: She knows that she needs to do Something about her clutter. <br><br>
+				<br> 줄거리: 록시의 집은 잡동사니로 가득 차 있다. 상황이 너무 나빠져서 그녀는 더 이상 소파도 볼 수 없습니다. 그녀는 자신의 잡동사니에 대해 뭔가 조치를 취해야 한다는 것을 알고 있습니다. 그래서 그녀는 일주일 동안 매일 2,000개의 물건을 버릴 계획을 세웁니다. Roxy의 집은 일주일 후 훨씬 깨끗해졌습니다. 선택한 문장: 그녀는 자신의 잡동사니에 대해 뭔가 조치를 취해야 한다는 것을 알고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> Roxy wants to clean her home >Causes/Enables> Roxy gets rid of items <br><br>
+				<br> Roxy는 집 청소를 원합니다 >원인/활성화> Roxy는 항목을 제거합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Ryan's dad was trying to teach him to hit a ball with a bat. He would throw the ball gently. Ryan would try to hit the ball. They did this for a long time. Finally, Ryan hit the ball high into the air. selected sentence: Ryan's dad was trying to teach him to hit a ball with a bat. <br><br>
+				<br> 이야기: Ryan의 아버지는 Ryan에게 방망이로 공을 치는 법을 가르치려고 했습니다. 그는 공을 부드럽게 던질 것입니다. Ryan은 공을 치려고 할 것입니다. 그들은 오랫동안 이것을했습니다. 마지막으로 Ryan은 공을 공중으로 높이 쳤습니다. 선택한 문장: Ryan의 아버지는 Ryan에게 방망이로 공을 치는 법을 가르치려고 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> Ryan's dad tries to teach Ryan >Causes/Enables> Ryan's dad teaches Ryan <br><br>
+				<br> 라이언의 아빠가 라이언을 가르치려고 함 >원인/활성화> 라이언의 아빠가 라이언을 가르치기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: SARAH GOT INTO AN ACCIDENT ON NEW YEAR'S EVE. SHE SLID ON THE HIGHWAY AND HIT THE CAR NEXT TO HER. THEY BOTH SLID INTO THE GUARDRAIL. NO ONE WAS HURT BOTH CARS WERE TOTALLED. selected sentence: THEY BOTH SLID INTO THE GUARDRAIL. <br><br>
+				<br> 이야기: SARAH는 새해 전야에 사고를 당했습니다. 그녀는 고속도로에서 미끄러져 옆에 있던 차를 들이받았습니다. 둘 다 가드레일로 미끄러졌습니다. 아무도 다치지 않았습니다. 두 대의 차가 총에 맞았습니다. 선택한 문장: THEY BOTH SLID INTO THE GUARDRAIL. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> They both slid into the guardrail >Causes/Enables> Both cars were totalled <br><br>
+				<br> 둘 다 가드레일로 미끄러졌습니다. >원인/활성화> 두 차량 모두 총에 맞았습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Stephen got up in front of his class. He had recently used the bathroom. He saw kids laughing. He looked down at his fly. His fly was wide open! selected sentence: He looked down at his fly. <br><br>
+				<br> 이야기: Stephen은 반 학생들 앞에서 일어났습니다. 그는 최근에 화장실을 사용했습니다. 그는 아이들이 웃는 것을 보았다. 그는 파리를 내려다보았다. 그의 파리는 활짝 열려 있었다! 선택된 문장: 그는 파리를 내려다보았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> Stephen looks at his fly >Causes/Enables> Stephen sees his fly is down <br><br>
+				<br> Stephen은 자신의 파리를 봅니다 >원인/활성화> Stephen은 자신의 파리가 쓰러진 것을 봅니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tabitha woke up late to work one morning. She rushed around and got dressed. She called ahead letting her boss know she was on her way. Tabitha pulled in to her work and noticed she forgot to fix her hair. She quickly matted it down and told everyone she was having a bad day. selected sentence: She rushed around and got dressed. <br><br>
+				<br> 스토리: Tabitha는 어느 날 아침 늦게 일어나 일했습니다. 그녀는 서둘러 옷을 입었습니다. 그녀는 미리 전화를 걸어 상사에게 가는 중임을 알렸습니다. Tabitha는 그녀의 일에 차를 세우고 그녀가 머리를 고치는 것을 잊었다는 것을 알아차렸습니다. 그녀는 재빨리 그것을 내려놓고 모두에게 그녀가 나쁜 하루를 보내고 있다고 말했습니다. 선택한 문장: 그녀는 서둘러 옷을 입었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> Tabitha gets dressed >Causes/Enables> Tabitha goes to work <br><br>
+				<br> 타비타 옷입기 >원인/가능> 타비타 출근 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: That summer, the new girl was invited to a pool party. It was at the house of the girl who had vomited on her first day. She had grown to really like her. They played and laughed all day at the party. They became best friends by the end of the day. selected sentence: She had grown to really like her. <br><br>
+				<br> 줄거리: 그해 여름, 새로 온 소녀는 수영장 파티에 초대받았다. 첫날 토한 소녀의 집이었다. 그녀는 그녀를 정말 좋아하게 되었습니다. 그들은 파티에서 하루 종일 놀고 웃었다. 그들은 하루가 끝날 무렵 가장 친한 친구가 되었습니다. 선택한 문장: 그녀는 그녀를 정말 좋아하게 되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> She has grown to really like her >Causes/Enables> They become best friends <br><br>
+				<br> 그녀는 그녀를 정말 좋아하게 되었습니다. >원인/활성화> 그들은 가장 친한 친구가 됩니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: That summer, the new girl was invited to a pool party. It was at the house of the girl who had vomited on her first day. She had grown to really like her. They played and laughed all day at the party. They became best friends by the end of the day. selected sentence: She had grown to really like her. <br><br>
+				<br> 줄거리: 그해 여름, 새로 온 소녀는 수영장 파티에 초대받았다. 첫날 토한 소녀의 집이었다. 그녀는 그녀를 정말 좋아하게 되었습니다. 그들은 파티에서 하루 종일 놀고 웃었다. 그들은 하루가 끝날 무렵 가장 친한 친구가 되었습니다. 선택한 문장: 그녀는 그녀를 정말 좋아하게 되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> The new girl grows to like the girl >Causes/Enables> The girl and the new girl become best friends <br><br>
+				<br> 새로운 여자는 그 여자를 좋아하게 된다 >원인/활성화> 여자와 새로운 여자는 가장 친한 친구가 된다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: The kids went out in the rain. They become very wet. One of the kids got too cold. The kids went back inside. They all dried off. selected sentence: They become very wet. <br><br>
+				<br> 줄거리: 아이들은 비를 맞으며 나갔다. 그들은 매우 젖어 있습니다. 아이들 중 한 명이 너무 추워졌습니다. 아이들은 다시 안으로 들어갔다. 모두 말랐습니다. 선택된 문장: 그들은 매우 젖어 있다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> The kids get wet >Causes/Enables> one of the kids gets cold <br><br>
+				<br> 아이들이 젖다 >원인/가능> 아이들 중 한 명이 감기에 걸리다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: There was a mess on the sidewalk. It was the soda her sister spilled. Ants were everywhere. Gina's father didn't care who made the mess. It was Gina's job to clean up. selected sentence: It was the soda her sister spilled. <br><br>
+				<br> 이야기: 보도에 난장판이 있었다. 언니가 쏟은 탄산음료였다. 개미는 어디에나 있었다. Gina의 아버지는 누가 엉망으로 만들었는지 상관하지 않았습니다. 청소는 지나의 몫이었다. 선택된 문장: 그것은 그녀의 여동생이 쏟은 탄산음료였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> Her sister spills soda on the sidewalk >Causes/Enables> The soda attracts ants <br><br>
+				<br> 그녀의 여동생이 보도에 탄산음료를 쏟다 >원인/활성화> 탄산음료가 개미를 유인합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: There was a young child. The young child lived playing dolls. The Barbie doll was her favorite. One day she misbehaved and her mother took the Barbie away. She was very sad all day because of the toy missing. selected sentence: There was a young child. <br><br>
+				<br> 줄거리: 어린아이가 있었습니다. 어린아이는 인형놀이를 하며 살았다. 바비 인형은 그녀가 가장 좋아했습니다. 어느 날 그녀는 잘못 행동했고 그녀의 어머니는 바비 인형을 데려갔습니다. 그녀는 장난감이 없어서 하루 종일 매우 슬펐습니다. 선택된 문장: 어린아이가 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> A young child was there >Causes/Enables> The young child loved to play with dolls <br><br>
+				<br> 어린아이가 있었다 >원인/가능> 어린아이가 인형놀이를 좋아함 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tim wanted to drive badly. He attended a driving school. There, they taught him how to drive well. Then he went to take his road test. He passed it on the very first try! selected sentence: Then he went to take his road test. <br><br>
+				<br> 이야기: Tim은 운전을 심하게 하고 싶었습니다. 그는 운전 학교에 다녔습니다. 그곳에서 그들은 그에게 운전을 잘하는 법을 가르쳤습니다. 그런 다음 그는 도로 시험을 보러 갔다. 그는 첫 번째 시도에서 그것을 통과했습니다! 선택된 문장: 그런 다음 그는 도로주행 시험을 보러 갔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> Tim takes his road test >Causes/Enables> Tim passes his road test <br><br>
+				<br> 팀이 도로 테스트를 받습니다 >원인/활성화> 팀이 도로 테스트를 통과함 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tina was going to make Phil a cooked meal. She never cooked for him before. She finally got the ingredients ready to cook. When she was done he tasted it. He loved it. selected sentence: Tina was going to make Phil a cooked meal. <br><br>
+				<br> 줄거리: Tina는 Phil을 요리한 음식으로 만들려고 했습니다. 그녀는 전에 그를 위해 요리를 한 적이 없습니다. 그녀는 마침내 요리할 재료를 준비했습니다. 그녀가 끝났을 때 그는 그것을 맛 보았습니다. 그는 그것을 좋아했습니다. 선택한 문장: Tina는 Phil을 요리된 식사로 만들려고 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Tina decides to cook >Causes/Enables> Tina cooks <br><br>
+				<br> Tina가 요리하기로 결정 >Causes/Enables> Tina cooks <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tom was at a party. Everybody was dancing but him. He didn't know how to dance. A cute girl took him by the hand and made him dance. Tom started to dance with her and liked it. selected sentence: Everybody was dancing but him. <br><br>
+				<br> 이야기: Tom은 파티에 있었습니다. 모두가 춤을 추고 있었지만 그를 제외하고. 그는 춤출 줄 몰랐다. 귀여운 소녀가 그의 손을 잡고 춤을 추게 만들었습니다. Tom은 그녀와 춤을 추기 시작했고 그것을 좋아했습니다. 선택한 문장: 그를 제외한 모든 사람이 춤을 추고 있었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> Everyone else at the party is dancing except for Tom >Causes/Enables> A cute girl makes Tom dance with her <br><br>
+				<br> 파티에 있는 모든 사람들이 Tom을 제외하고 춤을 춥니다. >원인/활성화> 귀여운 소녀가 Tom을 그녀와 함께 춤추게 합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tom was at a party. Everybody was dancing but him. He didn't know how to dance. A cute girl took him by the hand and made him dance. Tom started to dance with her and liked it. selected sentence: Everybody was dancing but him. <br><br>
+				<br> 이야기: Tom은 파티에 있었습니다. 모두가 춤을 추고 있었지만 그를 제외하고. 그는 춤출 줄 몰랐다. 귀여운 소녀가 그의 손을 잡고 춤을 추게 만들었습니다. Tom은 그녀와 춤을 추기 시작했고 그것을 좋아했습니다. 선택한 문장: 그를 제외한 모든 사람이 춤을 추고 있었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> Tom doesn't dance at the party >Causes/Enables> A girl makes Tom dance <br><br>
+				<br> 톰은 파티에서 춤을 추지 않는다 >원인/활성화> 소녀가 톰을 춤추게 한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tom was enemies with another student. They always fought during recess. One day the fight was exhausting for both of them. The looked at each other and laughed. They decided it was worth it to fight ever again. selected sentence: Tom was enemies with another student. <br><br>
+				<br> 이야기: 톰은 다른 학생과 적이었습니다. 그들은 쉬는 시간에 항상 싸웠다. 어느 날 싸움은 두 사람 모두에게 지쳤습니다. 서로를 바라보며 웃었다. 그들은 다시 싸울 가치가 있다고 결정했습니다. 선택한 문장: Tom은 다른 학생과 적이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> Tom was enemies with student >Causes/Enables> Tom made peace with student <br><br>
+				<br> 톰은 학생과 적이었다 >원인/활성화> 톰이 학생과 평화를 이루다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tom was on his middle school basketball team. He wanted to be on his high school team in the following year. He attended a summer basketball camp. He improved his skills at the camp. He made his high school basketball team. selected sentence: He wanted to be on his high school team in the following year. <br><br>
+				<br> 줄거리: Tom은 중학교 농구팀에 속해 있었습니다. 그는 다음 해에 고등학교 팀에 들어가고 싶었습니다. 그는 여름 농구 캠프에 참석했습니다. 그는 캠프에서 실력을 향상했습니다. 그는 고등학교 농구팀을 만들었다. 선택한 문장: 그는 다음 해에 고등학교 팀에 들어가고 싶었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> Tom wants to join the team >Causes/Enables> Tom joins the team <br><br>
+				<br> Tom이 팀에 합류하기를 원함 >원인/활성화> Tom이 팀에 합류 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tony swung on the swing. He went really high. His glasses began to slide. They fell off. He picked them out. selected sentence: His glasses began to slide. <br><br>
+				<br> 줄거리: 토니가 그네를 탔다. 그는 정말 높이 갔다. 그의 안경이 미끄러지기 시작했다. 그들은 떨어졌다. 그는 그들을 골랐다. 선택된 문장: 그의 안경이 미끄러지기 시작했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> His glasses begin to slide >Causes/Enables> They fall off <br><br>
+				<br> 안경이 미끄러지기 시작 >원인/활성화> 떨어짐 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tony swung on the swing. He went really high. His glasses began to slide. They fell off. He picked them out. selected sentence: His glasses began to slide. <br><br>
+				<br> 줄거리: 토니가 그네를 탔다. 그는 정말 높이 갔다. 그의 안경이 미끄러지기 시작했다. 그들은 떨어졌다. 그는 그들을 골랐다. 선택된 문장: 그의 안경이 미끄러지기 시작했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> Tony's glasses begin to slide >Causes/Enables> Tony's glasses fall off <br><br>
+				<br> 토니의 안경이 미끄러지기 시작 > 원인/가능 > 토니의 안경이 떨어짐 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: We went to the zoo in Naples. They had Giraffe you could feed there. We paid the three dollars and got pieces of lettuce. We stuck it out and the giraffes ate it. We had so much fun and would love to go back. selected sentence: We went to the zoo in Naples. <br><br>
+				<br> 스토리: 우리는 나폴리에 있는 동물원에 갔어요. 그곳에서 먹이를 줄 수 있는 기린이 있었습니다. 우리는 3달러를 지불하고 양상추 조각을 얻었습니다. 우리는 그것을 내밀었고 기린이 그것을 먹었습니다. 우리는 너무 즐거웠고 돌아가고 싶습니다. 선택된 문장: 우리는 나폴리에 있는 동물원에 갔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> We go to the zoo in Naples >Causes/Enables> We have so much fun <br><br>
+				<br> 우리는 나폴리에 있는 동물원에 간다 >원인/가능> 우리는 너무 재미있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: We would go to my grandpas property every summer. We would play baseball with our cousins. We would spend all afternoon out there. It was so much fun even though it was 2 on 2. It is one of my favorite childhood memories. selected sentence: It is one of my favorite childhood memories. <br><br>
+				<br> story: 우리는 매년 여름 할아버지 댁에 갔습니다. 우리는 사촌들과 야구를 할 것입니다. 우리는 오후 내내 밖에서 보낼 것입니다. 2대2인데도 너무 재밌었어요. 제가 가장 좋아하는 어린 시절 추억 중 하나입니다. 선택한 문장: 그것은 내가 가장 좋아하는 어린 시절의 추억 중 하나입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> Playing baseball with my cousins is a favorite childhood memory for me >Causes/Enables> I tell people about playing baseball with my cousins <br><br>
+				<br> 사촌들과 야구를 하는 것은 나에게 가장 좋아하는 어린 시절의 기억 >원인/가능> 나는 사람들에게 사촌들과 야구를 한 것에 대해 이야기한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Whitney was meeting her friend at a Mexican restaurant for dinner. She got to the restaurant first. She went ahead and ordered a drink. Brooke called and asked where she was. Whitney was at the wrong restaurant. selected sentence: She got to the restaurant first. <br><br>
+				<br> 줄거리: Whitney는 저녁 식사를 위해 멕시코 식당에서 친구를 만나고 있었습니다. 그녀는 먼저 식당에 도착했다. 그녀는 계속해서 술을 주문했습니다. Brooke는 전화를 걸어 그녀가 어디에 있는지 물었습니다. 휘트니는 레스토랑을 잘못 찾았습니다. 선택한 문장: 그녀는 식당에 먼저 도착했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> Whitney gets to the restaurant >Causes/Enables> Whitney places an order <br><br>
+				<br> 휘트니가 레스토랑에 도착 >원인/활성화> 휘트니가 주문 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Whitney was meeting her friend at a Mexican restaurant for dinner. She got to the restaurant first. She went ahead and ordered a drink. Brooke called and asked where she was. Whitney was at the wrong restaurant. selected sentence: She got to the restaurant first. <br><br>
+				<br> 줄거리: Whitney는 저녁 식사를 위해 멕시코 식당에서 친구를 만나고 있었습니다. 그녀는 먼저 식당에 도착했다. 그녀는 계속해서 술을 주문했습니다. Brooke는 전화를 걸어 그녀가 어디에 있는지 물었습니다. 휘트니는 레스토랑을 잘못 찾았습니다. 선택한 문장: 그녀는 식당에 먼저 도착했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> Whitney got to the restaurant >Causes/Enables> Whitney ordered a drink <br><br>
+				<br> Whitney got to the restaurant >원인/활성화> Whitney가 음료를 주문했습니다. <br><br>
+			</td>
+		</tr>
+	</table>

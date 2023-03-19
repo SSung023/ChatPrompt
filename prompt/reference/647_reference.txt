@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> this book introduced shakespeare to ovid; it was a fine selection of his writing. <br><br>
+				<br> 이 책은 셰익스피어를 ovid에 소개했습니다. 그의 글의 훌륭한 선택이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> his writing <br><br>
+				<br> 그의 글 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> madonna fired her trainer because she couldn't stand her boyfriend. <br><br>
+				<br> 마돈나는 남자 친구를 참을 수 없어 트레이너를 해고했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> her boyfriend <br><br>
+				<br> 그녀의 남자 친구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> adam can't leave work here until bob arrives to replace him. if bob had left home for work on time, he would be gone by this time. <br><br>
+				<br> Adam은 Bob이 그를 대신하기 위해 도착할 때까지 여기서 일을 떠날 수 없습니다. 밥이 제 시간에 일하기 위해 집을 나갔다면 그는 지금쯤 떠났을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> he would be gone <br><br>
+				<br> 그는 떠났을 것이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> adam can't leave work here until bob arrives to replace him. if bob had left home for work on time, he would be here by this time. <br><br>
+				<br> Adam은 Bob이 그를 대신하기 위해 도착할 때까지 여기서 일을 떠날 수 없습니다. 밥이 정시에 일하기 위해 집을 나갔다면 그는 지금쯤 여기에 도착했을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> he would be here <br><br>
+				<br> 그는 여기있을 것입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> alice looked for her friend jade in the crowd. since she always has good luck, alice spotted her quickly. <br><br>
+				<br> 앨리스는 군중 속에서 그녀의 친구 옥을 찾았습니다. 그녀는 항상 운이 좋기 때문에 Alice는 그녀를 빨리 발견했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> she always has good luck. <br><br>
+				<br> 그녀는 항상 행운을 빕니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> alice looked for her friend jade in the crowd. since she always wears a red turban, alice spotted her quickly. <br><br>
+				<br> 앨리스는 군중 속에서 그녀의 친구 옥을 찾았습니다. 그녀는 항상 빨간 터번을 쓰고 있었기 때문에 앨리스는 그녀를 재빨리 발견했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> she always wears a red turban <br><br>
+				<br> 그녀는 항상 빨간 터번을 착용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why she was behaving so strangely. <br><br>
+				<br> 앨리스는 그녀의 딸이 파티에서 잡담하는 것을 미친 듯이 막았고, 우리는 그녀가 왜 그렇게 이상하게 행동하는지 궁금해했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> she was behaving so strangely. <br><br>
+				<br> 그녀는 너무 이상하게 행동했습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> although they ran at about the same speed, sue beat sally because she had such a bad start. <br><br>
+				<br> 그들은 거의 같은 속도로 달렸지만, 그녀가 너무 나쁜 출발을 했기 때문에 고소가 샐리를 이겼습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> she had such a bad start. <br><br>
+				<br> 그녀는 시작이 좋지 않았습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> although they ran at about the same speed, sue beat sally because she had such a good start. <br><br>
+				<br> 그들은 거의 같은 속도로 달렸지만, 그녀가 좋은 출발을 했기 때문에 고소가 샐리를 이겼습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> she had such a good start. <br><br>
+				<br> 그녀는 좋은 출발을 했습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ann asked mary what time the library closes, because she had forgotten. <br><br>
+				<br> Ann은 도서관이 몇 시에 문을 닫는지 Mary에게 물었습니다. 잊어버렸기 때문입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> she had forgotten. <br><br>
+				<br> 그녀는 잊고 있었다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> anna did a lot better than her good friend lucy on the test because she had studied so hard. <br><br>
+				<br> 안나는 열심히 공부했기 때문에 그녀의 좋은 친구 루시보다 시험에서 훨씬 더 잘했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> she had studied so hard. <br><br>
+				<br> 그녀는 너무 열심히 공부했다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> anne gave birth to a daughter last month. she is a very charming baby. <br><br>
+				<br> 앤은 지난달에 딸을 낳았다. 그녀는 매우 매력적인 아기입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> she is a very charming baby. <br><br>
+				<br> 그녀는 매우 매력적인 아기입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> anne gave birth to a daughter last month. she is a very charming woman. <br><br>
+				<br> 앤은 지난달에 딸을 낳았다. 그녀는 매우 매력적인 여성입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> she is a very charming woman. <br><br>
+				<br> 그녀는 매우 매력적인 여성입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> archaeologists have concluded that humans lived in laputa 20,000 years ago. they hunted for deer on the river banks. <br><br>
+				<br> 고고학자들은 인간이 20,000년 전에 라퓨타에 살았다고 결론지었습니다. 그들은 강둑에서 사슴을 사냥했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> they hunted for deer <br><br>
+				<br> 그들은 사슴을 사냥했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> archaeologists have concluded that humans lived in laputa 20,000 years ago. they hunted for evidence on the river banks. <br><br>
+				<br> 고고학자들은 인간이 20,000년 전에 라퓨타에 살았다고 결론지었습니다. 그들은 강둑에서 증거를 찾았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> they hunted for evidence <br><br>
+				<br> 그들은 증거를 찾았다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> as andrea in the crop duster passed over susan, she could see the landing strip. <br><br>
+				<br> 농작물 살포기를 탄 안드레아가 수잔 위를 지나가자 활주로가 보였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> she could see <br><br>
+				<br> 그녀는 볼 수 있었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> as ollie carried tommy up the long winding steps, his legs ached. <br><br>
+				<br> 긴 구불구불한 계단을 올리가 토미를 업고 올라갈 때 그의 다리가 아팠다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> his legs ached. <br><br>
+				<br> 다리가 아팠다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> as ollie carried tommy up the long winding steps, his legs dangled. <br><br>
+				<br> Ollie가 긴 구불구불한 계단을 올라갈 때 Tommy의 다리가 늘어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> his legs dangled. <br><br>
+				<br> 그의 다리가 매달려 있었다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> at the loebner competition the judges couldn't figure out which respondents were the chatbots because they were so advanced. <br><br>
+				<br> Loebner 경진대회에서 심사위원들은 챗봇이 너무 발전했기 때문에 어떤 응답자가 챗봇인지 알아낼 수 없었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> they were so advanced. <br><br>
+				<br> 그들은 너무 발전했습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> at the loebner competition the judges couldn't figure out which respondents were the chatbots because they were so stupid. <br><br>
+				<br> Loebner 대회에서 심사위원들은 너무 멍청해서 어떤 응답자가 챗봇인지 알아낼 수 없었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> they were so stupid. <br><br>
+				<br> 그들은 너무 어리석었다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> beth didn't get angry with sally, who had cut her off, because she stopped and counted to ten. <br><br>
+				<br> Beth는 그녀의 말을 끊은 Sally에게 화를 내지 않았습니다. 왜냐하면 그녀는 멈추고 10까지 세었기 때문입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> she stopped <br><br>
+				<br> 그녀는 멈췄다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bill passed the gameboy to john because his turn was over. <br><br>
+				<br> Bill은 그의 차례가 끝났기 때문에 게임보이를 John에게 넘겼습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> his turn <br><br>
+				<br> 그의 차례 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bill passed the half-empty plate to john because he was full. <br><br>
+				<br> Bill은 John이 배가 불렀기 때문에 반쯤 비어 있는 접시를 John에게 넘겼습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> he was full. <br><br>
+				<br> 그는 꽉 찼습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bill passed the half-empty plate to john because he was hungry. <br><br>
+				<br> Bill은 배가 고파서 John에게 반쯤 비어 있는 접시를 건넸습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> he was hungry <br><br>
+				<br> 그는 배가 고팠다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> billy cried because toby wouldn't accept his toy. <br><br>
+				<br> Billy는 Toby가 그의 장난감을 받아들이지 않기 때문에 울었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> his toy <br><br>
+				<br> 그의 장난감 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob collapsed on the sidewalk. soon he saw carl coming to help. he was very concerned. <br><br>
+				<br> bob은 보도에서 쓰러졌습니다. 곧 그는 칼이 도우러 오는 것을 보았다. 그는 매우 염려했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> he was very concerned <br><br>
+				<br> 그는 매우 걱정했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob collapsed on the sidewalk. soon he saw carl coming to help. he was very ill. <br><br>
+				<br> bob은 보도에서 쓰러졌습니다. 곧 그는 칼이 도우러 오는 것을 보았다. 그는 매우 아팠습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> he was very ill <br><br>
+				<br> 그는 매우 아팠다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob paid for charlie's college education, but now charlie acts as though it never happened. he is very hurt. <br><br>
+				<br> 밥은 찰리의 대학 교육비를 지불했지만 이제 찰리는 그런 일이 없었던 것처럼 행동합니다. 그는 매우 다쳤습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> he is very hurt. <br><br>
+				<br> 그는 매우 다쳤습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob paid for charlie's college education, but now charlie acts as though it never happened. he is very ungrateful. <br><br>
+				<br> 밥은 찰리의 대학 교육비를 지불했지만 이제 찰리는 그런 일이 없었던 것처럼 행동합니다. 그는 매우 배은망덕합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> he is very ungrateful. <br><br>
+				<br> 그는 매우 배은망덕합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob paid for charlie's college education. he is very generous. <br><br>
+				<br> 밥은 찰리의 대학 교육비를 지불했습니다. 그는 매우 관대합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> he is very generous. <br><br>
+				<br> 그는 매우 관대합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob paid for charlie's college education. he is very grateful. <br><br>
+				<br> 밥은 찰리의 대학 교육비를 지불했습니다. 그는 매우 감사합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> he is very grateful. <br><br>
+				<br> 그는 매우 감사합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob was playing cards with adam and was way ahead. if adam hadn't had a sudden run of good luck, he would have lost. <br><br>
+				<br> bob은 Adam과 카드 놀이를 하고 있었고 훨씬 앞서 있었습니다. 아담이 갑자기 운이 따르지 않았다면 그는 졌을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> he would have lost. <br><br>
+				<br> 그는 잃었을 것입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bob was playing cards with adam and was way ahead. if adam hadn't had a sudden run of good luck, he would have won. <br><br>
+				<br> bob은 Adam과 카드 놀이를 하고 있었고 훨씬 앞서 있었습니다. Adam이 갑자기 운이 따르지 않았다면 그는 이겼을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> he would have won. <br><br>
+				<br> 그는 이겼을 것입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> carol believed that rebecca suspected that she had stolen the watch. <br><br>
+				<br> Carol은 레베카가 자신이 시계를 훔쳤다고 의심했다고 믿었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> she had stolen the watch. <br><br>
+				<br> 그녀는 시계를 훔쳤다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> dan had to stop bill from toying with the injured bird. he is very compassionate. <br><br>
+				<br> Dan은 Bill이 다친 새와 장난치는 것을 막아야 했습니다. 그는 매우 동정심이 많습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> he is very compassionate. <br><br>
+				<br> 그는 매우 동정심이 많습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> dan had to stop bill from toying with the injured bird. he is very cruel. <br><br>
+				<br> Dan은 Bill이 다친 새와 장난치는 것을 막아야 했습니다. 그는 매우 잔인합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> he is very cruel. <br><br>
+				<br> 그는 매우 잔인합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> dan took the rear seat while bill claimed the front because his "dibs!" was slow. <br><br>
+				<br> 댄은 뒷좌석에 앉았고 빌은 "딥스!" 느렸다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> his "dibs!" <br><br>
+				<br> 그의 "딥!" <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> dr. adams informed kate that she had cancer and presented several options for future treatment. <br><br>
+				<br> 박사. Adams는 Kate에게 그녀가 암에 걸렸다고 알리고 향후 치료를 위한 몇 가지 옵션을 제시했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> she had cancer <br><br>
+				<br> 그녀는 암에 걸렸다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> dr. adams informed kate that she had retired and presented several options for future treatment. <br><br>
+				<br> 박사. Adams는 Kate에게 그녀가 은퇴했다고 알리고 향후 치료를 위한 몇 가지 옵션을 제시했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> she had retired <br><br>
+				<br> 그녀는 은퇴했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> during a game of tag, ethan chased luke because he was "it". <br><br>
+				<br> 태그 게임 중에 ethan은 그가 "그것"이었기 때문에 luke를 쫓았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> he was "it". <br><br>
+				<br> 그는 "그것"이었습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> emma did not pass the ball to janie although she saw that she was open. <br><br>
+				<br> 엠마는 자신이 열려 있는 것을 보았지만 제니에게 공을 패스하지 않았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> she saw <br><br>
+				<br> 그녀는 보았다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> emma did not pass the ball to janie although she was open. <br><br>
+				<br> 엠마는 열려있지만 제니에게 공을 패스하지 않았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> she was open <br><br>
+				<br> 그녀는 열려 있었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> emma's mother had died long ago, and her education had been managed by an excellent woman as governess. <br><br>
+				<br> 엠마의 어머니는 오래 전에 돌아가셨고 그녀의 교육은 가정교사로서 훌륭한 여성에 의해 관리되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> her education <br><br>
+				<br> 그녀의 교육 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> emma's mother had died long ago, and her place had been taken by an excellent woman as governess. <br><br>
+				<br> 엠마의 어머니는 오래 전에 돌아가셨고, 그녀의 자리는 훌륭한 여성 가정교사가 차지했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> her place <br><br>
+				<br> 그녀의 장소 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. next time, we should make fewer of them . <br><br>
+				<br> 모두가 오트밀 쿠키를 정말 좋아했습니다. 소수의 사람들만이 초콜릿 칩 쿠키를 좋아했습니다. 다음에는 더 적게 만들어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> fewer of them <br><br>
+				<br> 그들 중 적은 수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. next time, we should make more of them . <br><br>
+				<br> 모두가 오트밀 쿠키를 정말 좋아했습니다. 소수의 사람들만이 초콜릿 칩 쿠키를 좋아했습니다. 다음에, 우리는 그것들을 더 많이 만들어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> more of them <br><br>
+				<br> 그들 중 더 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> frank felt vindicated when his longtime rival bill revealed that he was the winner of the competition. <br><br>
+				<br> 프랭크는 그의 오랜 경쟁자인 Bill이 자신이 대회의 승자라는 사실을 밝혔을 때 자신의 정당성을 인정받았다고 느꼈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> he was the winner <br><br>
+				<br> 그는 승자였다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> frank was upset with tom because the toaster he had bought from him didn't work. <br><br>
+				<br> 프랭크는 톰에게서 산 토스터가 작동하지 않아서 톰에게 화를 냈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> he had bought <br><br>
+				<br> 그는 샀다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> frank was upset with tom because the toaster he had sold him didn't work. <br><br>
+				<br> 프랭크는 그가 팔았던 토스터가 작동하지 않았기 때문에 톰에게 화를 냈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> he had sold <br><br>
+				<br> 그는 팔았다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred and alice had very warm down coats, but they were not enough for the cold in alaska. <br><br>
+				<br> fred와 alice는 매우 따뜻한 다운 코트를 가지고 있었지만 알래스카의 추위에는 충분하지 않았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> they were not enough <br><br>
+				<br> 그들은 충분하지 않았다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred and alice had very warm down coats, but they were not prepared for the cold in alaska. <br><br>
+				<br> fred와 alice는 매우 따뜻한 다운 코트를 가지고 있었지만 알래스카의 추위에 대비하지 않았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> they were not prepared <br><br>
+				<br> 그들은 준비되지 않았습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred covered his eyes with his hands, because the wind was blowing sand around. he lowered them when the wind stopped. <br><br>
+				<br> 바람이 모래를 날리고 있었기 때문에 프레드는 손으로 눈을 가렸다. 바람이 그쳤을 때 그는 그들을 낮추었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> lowered them <br><br>
+				<br> 그들을 낮췄다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred covered his eyes with his hands, because the wind was blowing sand around. he opened them when the wind stopped. <br><br>
+				<br> 바람이 모래를 날리고 있었기 때문에 프레드는 손으로 눈을 가렸다. 바람이 멈췄을 때 그는 그것들을 열었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> opened them <br><br>
+				<br> 그것들을 열었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred is the only man alive who still remembers my father as an infant. when fred first saw my father, he was twelve months old. <br><br>
+				<br> 프레드는 아직 어린 시절 아버지를 기억하는 유일한 생존자입니다. 프레드가 아버지를 처음 보았을 때 아버지는 생후 12개월이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> he was twelve months old. <br><br>
+				<br> 그는 12개월이었다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred is the only man alive who still remembers my father as an infant. when fred first saw my father, he was twelve years old. <br><br>
+				<br> 프레드는 아직 어린 시절 아버지를 기억하는 유일한 생존자입니다. 프레드가 아버지를 처음 보았을 때 아버지는 열두 살이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> he was twelve years old. <br><br>
+				<br> 그는 열두 살이었습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred is the only man still alive who remembers my great-grandfather. he is a remarkable man. <br><br>
+				<br> 프레드는 제 증조할아버지를 기억하는 유일한 생존자입니다. 그는 놀라운 사람입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> he is a remarkable man. <br><br>
+				<br> 그는 놀라운 사람입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred is the only man still alive who remembers my great-grandfather. he was a remarkable man. <br><br>
+				<br> 프레드는 제 증조할아버지를 기억하는 유일한 생존자입니다. 그는 놀라운 사람이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> he was a remarkable man. <br><br>
+				<br> 그는 놀라운 사람이었습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred was supposed to run the dishwasher, but he put it off, because he wanted to watch tv. but the show turned out to be boring, so he changed his mind and turned it off. <br><br>
+				<br> fred는 식기세척기를 가동해야 했지만 TV를 보고 싶어서 미뤘습니다. 하지만 쇼가 지루해져서 마음을 바꿔서 껐다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> turned it off <br><br>
+				<br> 껐다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred was supposed to run the dishwasher, but he put it off, because he wanted to watch tv. but the show turned out to be boring, so he changed his mind and turned it on. <br><br>
+				<br> fred는 식기세척기를 가동해야 했지만 TV를 보고 싶어서 미뤘습니다. 하지만 쇼가 지루해서 마음을 바꿔서 틀었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> turned it on <br><br>
+				<br> 켰다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred watched tv while george went out to buy groceries. after an hour he got back. <br><br>
+				<br> 조지가 식료품을 사러 나가는 동안 프레드는 TV를 보았다. 한 시간 후에 그는 돌아왔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> he got back. <br><br>
+				<br> 그는 돌아왔다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> fred watched tv while george went out to buy groceries. after an hour he got up. <br><br>
+				<br> 조지가 식료품을 사러 나가는 동안 프레드는 TV를 보았다. 한 시간 후에 그는 일어났다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> he got up. <br><br>
+				<br> 그가 일어났다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> george got free tickets to the play, but he gave them to eric, because he was not particularly eager to see it. <br><br>
+				<br> 조지는 그 연극의 공짜표를 받았지만 특별히 그것을 보고 싶어하지 않았기 때문에 에릭에게 그 표를 주었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> he was not particularly eager <br><br>
+				<br> 그는 특별히 열망하지 않았다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> george got free tickets to the play, but he gave them to eric, even though he was particularly eager to see it. <br><br>
+				<br> 조지는 그 연극의 공짜 표를 얻었지만, 그가 특히 그것을 보고 싶어했음에도 불구하고 그는 그 표를 에릭에게 주었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> he was particularly eager <br><br>
+				<br> 그는 특히 열심이었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> grace was happy to trade me her sweater for my jacket. she thinks it looks dowdy on her. <br><br>
+				<br> Grace는 그녀의 스웨터를 내 재킷으로 바꿔주어서 기뻤습니다. 그녀는 그것이 그녀에게 멍청해 보인다고 생각합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> it looks dowdy on her. <br><br>
+				<br> 그것은 그녀에게 초라해 보인다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> grace was happy to trade me her sweater for my jacket. she thinks it looks great on her. <br><br>
+				<br> Grace는 그녀의 스웨터를 내 재킷으로 바꿔주어서 기뻤습니다. 그녀는 그것이 그녀에게 멋져 보인다고 생각합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> it looks great on her. <br><br>
+				<br> 그녀에게 멋져 보인다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i can't cut that tree down with that axe; it is too small. <br><br>
+				<br> 나는 그 도끼로 그 나무를 베지 못한다. 너무 작습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> it is too small. <br><br>
+				<br> 너무 작습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i can't cut that tree down with that axe; it is too thick. <br><br>
+				<br> 나는 그 도끼로 그 나무를 베지 못한다. 너무 두껍습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> it is too thick. <br><br>
+				<br> 너무 두껍습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i couldn't find a spoon, so i tried using a pen to stir my coffee. but that turned out to be a bad idea, because it got full of coffee. <br><br>
+				<br> 숟가락이 없어서 펜으로 커피를 저어보았습니다. 그러나 그것은 나쁜 생각으로 판명되었습니다. 왜냐하면 그것은 커피로 가득 찼기 때문입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> it got full of coffee. <br><br>
+				<br> 커피가 가득해졌습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i couldn't find a spoon, so i tried using a pen to stir my coffee. but that turned out to be a bad idea, because it got full of ink. <br><br>
+				<br> 숟가락이 없어서 펜으로 커피를 저어보았습니다. 그러나 그것은 나쁜 생각으로 판명되었습니다. 잉크가 가득 차버렸기 때문입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> it got full of ink. <br><br>
+				<br> 잉크가 가득 찼습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i couldn't put the pot on the shelf because it was too high. <br><br>
+				<br> 냄비가 너무 높아서 선반에 놓을 수 없었어요. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> it was too high. <br><br>
+				<br> 너무 높았다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i couldn't put the pot on the shelf because it was too tall. <br><br>
+				<br> 냄비가 너무 커서 선반에 놓을 수 없었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> it was too tall. <br><br>
+				<br> 키가 너무 컸다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i poured water from the bottle into the cup until it was empty. <br><br>
+				<br> 나는 병의 물을 컵이 비워질 때까지 부었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> it was empty <br><br>
+				<br> 그것은 비어 있었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i poured water from the bottle into the cup until it was full. <br><br>
+				<br> 나는 병의 물을 컵이 가득 찰 때까지 부었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> it was full <br><br>
+				<br> 꽉 찼다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i put the butterfly wing on the table and it broke. <br><br>
+				<br> 나는 나비 날개를 탁자 위에 올려놓았는데 부러졌다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> it broke. <br><br>
+				<br> 그것은 부러졌다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i put the cake away in the refrigerator. it has a lot of butter in it. <br><br>
+				<br> 나는 케이크를 냉장고에 넣었다. 그것은 그것에 많은 버터를 가지고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> it has a lot of butter <br><br>
+				<br> 버터가 많이 들어있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i put the cake away in the refrigerator. it has a lot of leftovers in it. <br><br>
+				<br> 나는 케이크를 냉장고에 넣었다. 그 안에 남은 음식이 많이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> it has a lot of leftovers <br><br>
+				<br> 그것은 많은 잔재물을 가지고 있습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i saw jim yelling at some guy in a military uniform with a huge red beard. i don't know who he was, but he looked very unhappy. <br><br>
+				<br> 나는 짐이 거대한 빨간 수염을 가진 군복을 입은 어떤 남자에게 고함치는 것을 보았다. 나는 그가 누군지 모르지만 그는 매우 불행해 보였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> who he was <br><br>
+				<br> 그가 누구였는지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i saw jim yelling at some guy in a military uniform with a huge red beard. i don't know why he was, but he looked very unhappy. <br><br>
+				<br> 나는 짐이 거대한 빨간 수염을 가진 군복을 입은 어떤 남자에게 고함치는 것을 보았다. 왜 그랬는지 모르겠지만 그는 매우 불행해 보였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> why he was <br><br>
+				<br> 그가 왜 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i stuck a pin through a carrot. when i pulled the pin out, it had a hole. <br><br>
+				<br> 나는 당근에 핀을 꽂았다. 핀을 뽑았더니 구멍이 났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> it had a hole <br><br>
+				<br> 구멍이 있었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i stuck a pin through a carrot. when i pulled the pin out, it left a hole. <br><br>
+				<br> 나는 당근에 핀을 꽂았다. 핀을 뽑았더니 구멍이 생겼습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> it left a hole <br><br>
+				<br> 그것은 구멍을 남겼다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i took the water bottle out of the backpack so that it would be handy. <br><br>
+				<br> 나는 그것이 편리하도록 배낭에서 물병을 꺼냈다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> it would be handy <br><br>
+				<br> 그것은 편리 할 것입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i took the water bottle out of the backpack so that it would be lighter. <br><br>
+				<br> 나는 더 가벼워지기 위해 배낭에서 물병을 꺼냈다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> it would be lighter <br><br>
+				<br> 더 가벼울 것입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like light bulbs. <br><br>
+				<br> 레몬 나무에 레몬이 있는 과수원 그림을 그려보려 했는데 레몬이 전구처럼 나왔네요. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> they came out <br><br>
+				<br> 그들은 나왔다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i used an old rag to clean the knife, and then i put it in the drawer. <br><br>
+				<br> 나는 낡은 헝겊을 사용하여 칼을 닦은 다음 서랍에 넣었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> put it in the drawer. <br><br>
+				<br> 서랍에 넣어. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i used an old rag to clean the knife, and then i put it in the trash. <br><br>
+				<br> 나는 오래된 헝겊을 사용하여 칼을 닦은 다음 쓰레기통에 넣었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> put it in the trash. <br><br>
+				<br> 쓰레기통에 버리십시오. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and i couldn't get it in. <br><br>
+				<br> 열쇠로 자물쇠를 열려고 했으나 누군가가 열쇠 구멍을 껌으로 채워넣어 들어갈 수 없었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> i couldn't get it in. <br><br>
+				<br> 나는 그것을 들어갈 수 없었다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and i couldn't get it out. <br><br>
+				<br> 열쇠로 자물쇠를 열려고 했는데 누군가가 열쇠 구멍에 껌을 채워넣어 빼낼 수가 없었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> i couldn't get it out. <br><br>
+				<br> 나는 그것을 꺼낼 수 없었다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i'm sure that my map will show this building; it is very famous. <br><br>
+				<br> 내 지도에 이 건물이 표시될 것이라고 확신합니다. 매우 유명합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> it is very famous <br><br>
+				<br> 그것은 매우 유명하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> i'm sure that my map will show this building; it is very good. <br><br>
+				<br> 내 지도에 이 건물이 표시될 것이라고 확신합니다. 아주 좋습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> it is very good <br><br>
+				<br> 아주 좋다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> if the con artist has succeeded in fooling sam, he would have gotten a lot of money. <br><br>
+				<br> 사기꾼이 샘을 속이는 데 성공했다면 많은 돈을 벌었을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> he would have gotten a lot of money. <br><br>
+				<br> 그는 많은 돈을 벌었을 것입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> if the con artist has succeeded in fooling sam, he would have lost a lot of money. <br><br>
+				<br> 사기꾼이 Sam을 속이는 데 성공했다면 많은 돈을 잃었을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> he would have lost a lot of money. <br><br>
+				<br> 그는 많은 돈을 잃었을 것입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> in july, kamtchatka declared war on yakutsk. since yakutsk's army was much better equipped and ten times larger, they were defeated within weeks. <br><br>
+				<br> 7월에 캄차카는 야쿠츠크에 전쟁을 선포했다. 야쿠츠크의 군대는 장비가 훨씬 더 좋고 열 배나 더 컸기 때문에 몇 주 안에 패배했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> they were defeated <br><br>
+				<br> 그들은 패배했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> in july, kamtchatka declared war on yakutsk. since yakutsk's army was much better equipped and ten times larger, they were victorious within weeks. <br><br>
+				<br> 7월에 캄차카는 야쿠츠크에 전쟁을 선포했다. 야쿠츠크의 군대는 훨씬 더 좋은 장비를 갖추고 있었고 10배나 더 컸기 때문에 그들은 몇 주 안에 승리를 거두었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> they were victorious <br><br>
+				<br> 그들은 승리했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> in the middle of the outdoor concert, the rain started falling, but it continued until 10. <br><br>
+				<br> 야외공연 중간에 비가 내리기 시작했는데 10시까지 계속되었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> it continued <br><br>
+				<br> 그것은 계속되었다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> in the storm, the tree fell down and crashed through the roof of my house. now, i have to get it removed. <br><br>
+				<br> 폭풍 속에서 나무가 쓰러져 우리 집 지붕을 뚫고 부서졌습니다. 이제 제거해야합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> get it removed. <br><br>
+				<br> 그것을 제거하십시오. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> in the storm, the tree fell down and crashed through the roof of my house. now, i have to get it repaired. <br><br>
+				<br> 폭풍 속에서 나무가 쓰러져 우리 집 지붕을 뚫고 부서졌습니다. 이제 수리를 받아야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> get it repaired. <br><br>
+				<br> 수리하십시오. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> it was a summer afternoon, and the dog was sitting in the middle of the lawn. after a while, it got up and moved to a spot under the tree, because it was cooler. <br><br>
+				<br> 여름날 오후, 개는 잔디밭 한가운데에 앉아 있었다. 잠시 후, 그것은 더 시원했기 때문에 일어나 나무 아래로 이동했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> it was cooler <br><br>
+				<br> 그것은 더 시원했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> it was a summer afternoon, and the dog was sitting in the middle of the lawn. after a while, it got up and moved to a spot under the tree, because it was hot. <br><br>
+				<br> 여름날 오후, 개는 잔디밭 한가운데에 앉아 있었다. 잠시 후에 그것은 뜨거워서 일어나 나무 아래로 옮겼습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> it was hot <br><br>
+				<br> 그것은 뜨거웠다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> jackson was greatly influenced by arnold, though he lived two centuries earlier. <br><br>
+				<br> 잭슨은 2세기 전에 살았지만 아놀드의 영향을 많이 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> he lived two centuries earlier. <br><br>
+				<br> 그는 2세기 전에 살았습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> jackson was greatly influenced by arnold, though he lived two centuries later. <br><br>
+				<br> 잭슨은 2세기 후에 살았지만 아놀드의 영향을 많이 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> he lived two centuries later. <br><br>
+				<br> 그는 2세기 후에 살았습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> james asked robert for a favor but he refused. <br><br>
+				<br> James는 Robert에게 부탁을 했지만 거절했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> he refused. <br><br>
+				<br> 그는 거절했다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> james asked robert for a favor but he was refused. <br><br>
+				<br> James는 Robert에게 부탁을 했지만 거절당했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> he was refused. <br><br>
+				<br> 그는 거절당했습니다. <br><br>
+			</td>
+		</tr>
+	</table>

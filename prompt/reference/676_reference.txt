@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Harry glanced again at the raw looking thing that trembled and choked in the shadow beneath the distant chair.', Argument/Subject 1: 'Harry', Argument/Subject 2: 'raw looking thing' <br><br>
+				<br> 문장: '해리는 멀리 있는 의자 아래 그림자 속에서 질식하며 떨고 있는 날것처럼 보이는 것을 다시 한 번 흘끗 보았다. ', 인수/주제 1: '해리', 인수/주제 2: '날 것 같은 것' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> glance <br><br>
+				<br> 섬광 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Question: 'Dumbledore beamed at Harry, and Dumbledore's voice sounded loud and strong in his ears.', Argument/Subject 1: 'Dumbledore', Argument/Subject 2: 'Harry' <br><br>
+				<br> 질문: '덤블도어가 해리에게 환하게 웃었고 덤블도어의 목소리가 그의 귀에 크고 강하게 들렸습니다. ', 인수/주제 1: '덤블도어', 인수/주제 2: '해리' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> beam <br><br>
+				<br> 빔 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Mohandas Karamchand Gandhi was born in Porbandar, Gujarat India', Argument/Subject 1: 'Mohandas Karamchand Gandhi', Argument/Subject 2: 'Porabandar' <br><br>
+				<br> 문장: '모한다스 카람찬드 간디는 인도 구자라트의 포르반다르에서 태어났다', 인수/주제 1: '모한다스 카람찬드 간디', 인수/주제 2: '포라반다르' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> be bear <br><br>
+				<br> 곰이되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: '1598 - King Henry IV of France issues the Edict of Nantes , allowing freedom of religion to the Huguenots .', Argument/Subject 1: 'king henry iv', Argument/Subject 2: 'nante' <br><br>
+				<br> 문장: '1598 - 프랑스의 앙리 4세 왕이 낭트 칙령을 발표하여 위그노 교도들에게 종교의 자유를 허용했습니다. ', 인수/주제 1: '헨리 4세 왕', 인수/주제 2: '난테' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> issue edict of <br><br>
+				<br> 의 칙령을 내리다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: '2. We call to mind that in the preceding books the reader has been urged to study the whole of that blasphemous manifesto , and mark how it is animated throughout by the one aim of propagating the belief that our Lord Jesus Christ is neither God , nor Son of God .', Argument/Subject 1: 'lord jesus christ', Argument/Subject 2: 'god' <br><br>
+				<br> 문장: '2. 우리는 앞선 책들에서 독자들이 그 불경스러운 선언문 전체를 연구하도록 촉구받았고, 우리 주 예수 그리스도가 하나님도 아니고 하나님의 아들도 아니라는 믿음을 전파하려는 하나의 목적에 의해 전체적으로 어떻게 활기를 띠고 있는지 주목해야 한다는 점을 상기합니다. 하나님 . ', 인수/주제 1: '주 예수 그리스도', 인수/주제 2: '신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> be son of <br><br>
+				<br> ~의 아들이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'AP - The White House says President Barack Obama wants assurances from Pakistani leaders that a newly freed Pakistani scientist accused of leaking atomic secrets was not involved in such behavior .', Argument/Subject 1: 'obama', Argument/Subject 2: 'white house' <br><br>
+				<br> 문장: 'AP-백악관은 버락 오바마 대통령이 파키스탄 지도자들로부터 핵 비밀 유출 혐의로 기소된 새로 석방된 파키스탄 과학자가 그러한 행동에 관여하지 않았다는 확신을 원한다고 밝혔습니다. ', 인수/주제 1: '오바마', 인수/주제 2: '백악관' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> say at <br><br>
+				<br> 에서 말하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Adobe and the Adobe logo are either registered trademarks or trademarks of the Adobe System Incorporated in the United States and/or other countries .', Argument/Subject 1: 'adobe', Argument/Subject 2: 'adobe system' <br><br>
+				<br> 문장: 'Adobe 및 Adobe 로고는 미국 및/또는 기타 국가에서 Adobe System Incorporated의 등록 상표 또는 상표입니다. ', 인수/주제 1: 'adobe', 인수/주제 2: 'adobe 시스템' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> be trademark of <br><br>
+				<br> ~의 상표가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'After Jesus arrived in Jerusalem , He continued to warn the Jews of coming judgment on those who rejected Him .', Argument/Subject 1: 'jesus', Argument/Subject 2: 'jerusalem' <br><br>
+				<br> 문장: '예수님이 예루살렘에 도착한 후, 그분은 자신을 거부하는 자들에게 다가올 심판에 대해 유대인들에게 계속 경고하셨습니다. ', 인수/주제 1: '예수', 인수/주제 2: '예루살렘' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> arrive at <br><br>
+				<br> 도착 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'After these things God tested Abraham and said to him , " Abraham ! "', Argument/Subject 1: 'god', Argument/Subject 2: 'abraham' <br><br>
+				<br> 문장: '이 일 후에 하나님이 아브라함을 시험하시며 그에게 이르시되 아브라함아! "', 인수/주제 1: '신', 인수/주제 2: 'abraham' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> test <br><br>
+				<br> 시험 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Allegan General Hospital is accredited by the Joint Commission on Accreditation of Healthcare Organizations .', Argument/Subject 1: 'hospital', Argument/Subject 2: 'join commission' <br><br>
+				<br> 문장: 'Allegan General Hospital은 의료 기관 인증 합동 위원회의 인증을 받았습니다. ', 인수/주제 1: '병원', 인수/주제 2: '커미션 가입' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> be accredit by <br><br>
+				<br> 인가를 받다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Also among the guests : Former Assembly Speaker Fabian Nuz , MTA board member Richard Katz , City Councilman Jack Weiss , public works Commissioner Cynthia Ruiz , Los Angeles Dodgers owner Frank McCourt , campaign strategist Ace Smith , MWD board member Jesus Quinonez , fundraiser Ari Swiller , labor chief Maria Elena Durazo .', Argument/Subject 1: 'frank mccourt', Argument/Subject 2: 'lo angele dodger' <br><br>
+				<br> 문장: '게스트 중: Fabian Nuz 전 하원의장, Richard Katz 시의원, Jack Weiss 시의원, Cynthia Ruiz 공공사업 국장, Los Angeles Dodgers 구단주 Frank McCourt, 캠페인 전략가 Ace Smith, MWD 이사 Jesus Quinonez, 모금 행사자 Ari Swiller , 노동 대표 Maria Elena Durazo . ', 인수/주제 1: 'frank mccourt', 인수/주제 2: 'lo angele dodger' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> be owner of <br><br>
+				<br> ~의 주인이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Although ridiculed , he was close , as the New York Giants beat the New England Patriots 17 - 14 .', Argument/Subject 1: 'giant', Argument/Subject 2: 'patriot' <br><br>
+				<br> 문장: '조소를 받았지만 뉴욕 자이언츠가 뉴잉글랜드 패트리어츠를 17-14로 이겼을 때 그는 가까운 사이였습니다. ', 인수/주제 1: '거인', 인수/주제 2: '애국자' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> beat <br><br>
+				<br> 이기다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Around 80 per cent of Australians speak like Nicole Kidman with what is known as a British received accent or general Australian English .', Argument/Subject 1: 'australian', Argument/Subject 2: 'english' <br><br>
+				<br> 문장: '호주인의 약 80%가 Nicole Kidman처럼 영국식 악센트 또는 일반 호주식 영어로 말합니다. ', 인수/주제 1: 'australian', 인수/주제 2: 'english' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> speak <br><br>
+				<br> 말하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'As Dream Resort & Spa is located at Pranburi , it 's retreat yourself calmly by white sand and clear ...', Argument/Subject 1: 'spa', Argument/Subject 2: 'pranburus' <br><br>
+				<br> 문장: 'Dream Resort & Spa는 Pranburi에 위치하므로 백사장과 맑은 물가에서 조용히 휴식을 취하십시오...', 인수/주제 1: 'spa', 인수/주제 2: 'pranburus' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> be locate in <br><br>
+				<br> 에 위치하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'As many of us move forward from Windows XP or prior beta versions of Windows Vista to the final RTM version , I thought this little tip / secret might be in order .', Argument/Subject 1: 'window vista', Argument/Subject 2: 'window' <br><br>
+				<br> 문장: '많은 사람들이 Windows XP 또는 이전 베타 버전의 Windows Vista에서 최종 RTM 버전으로 이동함에 따라 이 작은 팁/비밀이 필요하다고 생각했습니다. ', 인수/주제 1: 'window vista', 인수/주제 2: 'window' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> be version of <br><br>
+				<br> 의 버전이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Awad added that Muslims revere Jesus as a prophet of God and called on Christian leaders to join in his defense .', Argument/Subject 1: 'jesus', Argument/Subject 2: 'god' <br><br>
+				<br> 문장: 'Awad는 무슬림이 예수를 하나님의 예언자로 존경하고 기독교 지도자들에게 그의 변호에 동참할 것을 촉구했다고 덧붙였습니다. ', 인수/주제 1: '예수', 인수/주제 2: '신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> be prophet of <br><br>
+				<br> 의 예언자가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Bill Murray provides the voice for Garfield .', Argument/Subject 1: 'bill murray', Argument/Subject 2: 'garfield' <br><br>
+				<br> 문장: 'Bill Murray는 Garfield의 목소리를 제공합니다. ', 인수/주제 1: 'bill murray', 인수/주제 2: 'garfield' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> provide voice of <br><br>
+				<br> ~의 목소리를 내다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Cape Town : In his opening address to this Fifth ordinary Session of CISSA Conference , our Minister for Intelligence Services , Ronnie Kasrils , referred ...', Argument/Subject 1: 'ronnie kasril', Argument/Subject 2: 'intelligence' <br><br>
+				<br> 문장: '케이프 타운: CISSA 회의의 제5차 정기 회의 개회 연설에서 우리 정보부 장관 Ronnie Kasrils는 ...', 인수/주제 1: 'ronnie kasril', 인수/주제 2: ' 지능' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> be minister for <br><br>
+				<br> 목사가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Company , LLP is a Certified Public Accounting firm founded in Niagara Falls , New York providing services to clients throughout Western New York and Southern Ontario with a tradition of excellence and long-standing commitment to civic and community involvement .', Argument/Subject 1: 'service', Argument/Subject 2: 'southern' <br><br>
+				<br> 문장: 'Company, LLP는 뉴욕주 나이아가라 폴스에 설립된 공인 회계사로 뉴욕주 서부와 온타리오 남부 전역의 고객에게 우수한 전통과 시민 및 지역사회 참여에 대한 오랜 헌신을 바탕으로 서비스를 제공합니다. ', 인수/주제 1: 'service', 인수/주제 2: 'southern' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> be provide by <br><br>
+				<br> ~에 의해 제공되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Conference held in Atlanta , GA , June 2003 .', Argument/Subject 1: 'conference', Argument/Subject 2: 'atlanta' <br><br>
+				<br> 문장: '2003년 6월 조지아주 애틀랜타에서 개최된 회의. ', 인수/주제 1: '회의', 인수/주제 2: 'atlanta' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> be hold in <br><br>
+				<br> 참다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'David Hampton Pryor was born in Camden , Arkansas , August 29 , 1934 , the son of William Edgar and Susan Newton Pryor .', Argument/Subject 1: 'pryor', Argument/Subject 2: 'camden' <br><br>
+				<br> 문장: 'David Hampton Pryor는 1934년 8월 29일 아칸소주 캠든에서 William Edgar와 Susan Newton Pryor의 아들로 태어났습니다. ', 인수/주제 1: 'pryor', 인수/주제 2: 'camden' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> be bear in <br><br>
+				<br> 참다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Democratic Sen. Hillary Clinton is losing ground to Sen. Barack Obama in a national CNN/Opinion Research Corp. poll released on the eve of critical Su...', Argument/Subject 1: 'obama', Argument/Subject 2: 'clinton' <br><br>
+				<br> 문장: '민주 상원의원 힐러리 클린턴은 비판적인 가결 직전에 발표된 전국 CNN/오피니언 리서치 코퍼레이션 여론조사에서 버락 오바마 상원의원에게 지지를 잃고 있습니다...', 인수/주제 1: '오바마', 인수/주제 2: '클린턴' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> lose to <br><br>
+				<br> ~에게 지다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Dutch is the Germanic language spoken in Holland .', Argument/Subject 1: 'dutch', Argument/Subject 2: 'holland' <br><br>
+				<br> 문장: '네덜란드어는 네덜란드에서 사용되는 게르만어입니다. ', 인수/주제 1: '네덜란드어', 인수/주제 2: '네덜란드' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> be language of <br><br>
+				<br> 의 언어이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Elected Chairman of the new Community Council was Michael Collins , vice Chairman Vikki Evans , Secretary Geraldine Camier , assistant Secretary Caroline Sheehan , Treasurer Ellen Scully , assistant treasurer Denis O Neill and PRO Pat McCarthy .', Argument/Subject 1: 'council', Argument/Subject 2: 'chairman' <br><br>
+				<br> 문장: '새 지역사회 위원회의 선출된 의장은 Michael Collins , 부회장 Vikki Evans , 비서 Geraldine Camier , 비서관 Caroline Sheehan , 재무보좌관 Ellen Scully , 재무보보 Denis O Neill 및 PRO Pat McCarthy 였습니다. ', 인수/주제 1: '의회', 인수/주제 2: '의장' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> elect <br><br>
+				<br> 선택된 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Eternal life is knowing the only true God and Jesus Christ whom He has sent .', Argument/Subject 1: 'jesus', Argument/Subject 2: 'god' <br><br>
+				<br> 문장: '영생은 유일하신 참 하나님과 그의 보내신 자 예수 그리스도를 아는 것이니 . ', 인수/주제 1: '예수', 인수/주제 2: '신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> be send from <br><br>
+				<br> 에서 보내다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Even way back in September 1939 when Neville Chamberlain announced that Britain had declared war on Germany , the British people had immeadiate visions of German bombers coming over the Channel and bombing the cities , they thought of thousands of German paratroopers landing in the countryside , they visualised thousands of tanks and guns being shipped across the Channel .', Argument/Subject 1: 'britain', Argument/Subject 2: 'germany' <br><br>
+				<br> 문장: '1939년 9월 Neville Chamberlain이 영국이 독일에 전쟁을 선포했다고 발표했을 때에도 영국 국민은 독일 폭격기가 해협을 넘어 도시를 폭격하는 광경을 즉시 보았고 수천 명의 독일 공수부대가 시골에 상륙했다고 생각했습니다. , 그들은 해협을 가로질러 수송되는 수천 대의 탱크와 대포를 시각화했습니다. ', 인수/주제 1: '영국', 인수/주제 2: '독일' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> declare war on <br><br>
+				<br> 전쟁을 선포하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Ford was smart to sell off Jaguar and Land Rover to Tata Motors , even though they sold both brands for less than what they paid to purchase Land Rover .', Argument/Subject 1: 'land rover', Argument/Subject 2: 'ford' <br><br>
+				<br> 문장: 'Ford는 Jaguar와 Land Rover를 Tata Motors에 매각한 것이 영리했습니다. 비록 그들이 Land Rover를 구입하기 위해 지불한 것보다 더 적은 가격에 두 브랜드를 모두 팔았지만 말입니다. ', 인수/주제 1: 'land rover', 인수/주제 2: 'ford' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> be sell to <br><br>
+				<br> 팔다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Freenode provides free IRC servers for open source projects .', Argument/Subject 1: 'irc', Argument/Subject 2: 'freenode' <br><br>
+				<br> 문장: 'Freenode는 오픈 소스 프로젝트를 위한 무료 IRC 서버를 제공합니다. ', 인수/주제 1: 'irc', 인수/주제 2: 'freenode' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> be provide on <br><br>
+				<br> 제공하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'God speaks of the well-known character of Job .', Argument/Subject 1: 'god', Argument/Subject 2: 'job' <br><br>
+				<br> 문장: '하나님은 잘 알려진 욥의 성격에 대해 말씀하십니다. ', 인수/주제 1: '신', 인수/주제 2: '직업' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> speak to <br><br>
+				<br> 말하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'God told Abraham his descendents would be more numerous than the stars in the sky .', Argument/Subject 1: 'god', Argument/Subject 2: 'abraham' <br><br>
+				<br> 문장: '하나님은 아브라함에게 그의 후손이 하늘의 별보다 많을 것이라고 말씀하셨습니다. ', 인수/주제 1: '신', 인수/주제 2: 'abraham' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> tell <br><br>
+				<br> 말하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'God will deal directly with the army that invades Israel , but only after His wrath is first vented on a completely global scale by shaking the entire earth .', Argument/Subject 1: 'god', Argument/Subject 2: 'israel' <br><br>
+				<br> 문장: '하나님은 이스라엘을 침략하는 군대를 직접 다루실 것이지만, 온 땅을 뒤흔들며 완전히 세계적인 규모로 그의 진노가 먼저 발산된 후에야 . ', 인수/주제 1: '신', 인수/주제 2: '이스라엘' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> deal with <br><br>
+				<br> 다루다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Grace and Mercy are gifts dispensed by God , but too many " Christians " believe and act today as if the Law was done away with and they can conform their lives with the images of the world and become more like the world instead of conforming to the image of Christ .', Argument/Subject 1: 'grace', Argument/Subject 2: 'god' <br><br>
+				<br> 문장: '은혜와 자비는 하나님이 주신 선물이지만 너무 많은 "기독교인"이 오늘날 율법이 폐지된 것처럼 믿고 행동하며 세상의 이미지에 따라 그들의 삶을 일치시킬 수 있고 대신 세상과 같이 될 수 있습니다. 그리스도의 형상을 닮음 . ', 인수/주제 1: '은혜', 인수/주제 2: '신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> be gift of <br><br>
+				<br> ~의 선물이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Haiyin sport Hotel is a Two-star hotel inclusive of eating , living , shopping and entertainment , It is located in downtown centers -- Dongshan district Jiaochang West Road , near China Plaza , popular fashion ,Di Wang Plaza , mausoleums close proximity ....', Argument/Subject 1: 'hotel', Argument/Subject 2: 'china' <br><br>
+				<br> 문장: 'Haiyin 스포츠 호텔은 식사, 생활, 쇼핑 및 엔터테인먼트를 포함하는 2성급 호텔입니다. 시내 중심가인 Dongshan 지구 Jiaochang West Road에 위치하고 있으며, China Plaza 근처, 인기 있는 패션, Di Wang Plaza, 영묘와 가깝습니다. ....', 인수/주제 1: '호텔', 인수/주제 2: '중국' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> be locate in <br><br>
+				<br> 에 위치하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Herod Antipas hears about Jesus of Nazareth going around curing the deaf and the dumb , and making the lame to walk and the blind to see and all of this , and he is quite excited and interested : but when the messenger says ' ...', Argument/Subject 1: 'herod', Argument/Subject 2: 'jesus' <br><br>
+				<br> 문장: '헤롯 안티파스가 나사렛 예수께서 두루 다니시며 귀머거리와 벙어리를 고치시며 앉은뱅이를 걷게 하시며 맹인을 보게 하시는 일과 이 모든 일을 듣고 심히 기뻐하며 흥미를 보이다 그러나 사자가 말하니' ..', 인수/주제 1: 'herod', 인수/주제 2: '예수' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> hear of <br><br>
+				<br> 듣다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Hyatt Regency Xi'an Hotel in China is ideally located within the ancient walls of historic Xian city centre .', Argument/Subject 1: 'hotel', Argument/Subject 2: 'china' <br><br>
+				<br> 문장: '중국의 하얏트 리젠시 시안 호텔은 유서 깊은 시안 도심의 고대 성벽 내에 이상적으로 위치해 있습니다. ', 인수/주제 1: '호텔', 인수/주제 2: '중국' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> be locate in <br><br>
+				<br> 에 위치하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'I live in Schaumburg which is a suburb of Chicago .', Argument/Subject 1: 'schaumburg', Argument/Subject 2: 'chicago' <br><br>
+				<br> 문장: '나는 시카고 교외인 Schaumburg에 살고 있습니다. ', 인수/주제 1: 'schaumburg', 인수/주제 2: 'chicago' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> be suburb of <br><br>
+				<br> 교외에 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'I never could understand why it was that the Romans killed Jesus , who everyone said was good .', Argument/Subject 1: 'roman', Argument/Subject 2: 'jesus' <br><br>
+				<br> 문장: '왜 로마인들이 모두가 좋다고 말하는 예수를 죽였는지 도무지 이해할 수 없었습니다. ', 인수/주제 1: '로마', 인수/주제 2: '예수' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> kill <br><br>
+				<br> 죽이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'I think of the Japanese bombing Pearl Harbor .', Argument/Subject 1: 'japanese', Argument/Subject 2: 'pearl harbor' <br><br>
+				<br> 문장: '나는 일본의 진주만 폭격을 생각한다. ', 인수/주제 1: 'japanese', 인수/주제 2: '진주만' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> bomb <br><br>
+				<br> 폭탄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'If the Senate refuses to pass a Bill passed by the House of Representatives three times , then the Governor General , if so advised by the ministers , may dissolve the Senate and the House of Representatives simultaneously which will result in the election of a new House and Senate .', Argument/Subject 1: 'bill', Argument/Subject 2: 'senate' <br><br>
+				<br> 선고: '하원에서 통과된 법안이 상원에서 세 번 통과되지 않으면 총독은 각료의 권고에 따라 상원과 하원을 동시에 해산할 수 있습니다. 새 하원과 상원. ', 인수/주제 1: '법안', 인수/주제 2: '상원의원' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> pass <br><br>
+				<br> 통과하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'In June , President Bush signed the new act , often referred to as the most significant change in mine safety legislation in almost 30 years .', Argument/Subject 1: 'act', Argument/Subject 2: 'bush' <br><br>
+				<br> 문장: '6월에 부시 대통령은 종종 거의 30년 만에 광산 안전 법률에서 가장 중대한 변화로 언급되는 새로운 법안에 서명했습니다. ', 인수/주제 1: 'act', 인수/주제 2: 'bush' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> be sign by <br><br>
+				<br> 서명하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'In late January 2006 , at a meeting of the consultative National Employment Council , the Federation of Greek Industries placed on the table a series of demands on pay and regulation of the labour market and industrial relations .', Argument/Subject 1: 'council', Argument/Subject 2: 'january' <br><br>
+				<br> 문장: '2006년 1월 말, 전국고용협의회(National Employment Council) 자문 회의에서 그리스 산업 연합(Federation of Greek Industries)은 급여와 노동 시장 및 노사 관계 규제에 대한 일련의 요구 사항을 테이블에 올렸습니다. ', 인수/주제 1: 'council', 인수/주제 2: '1월' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> meet in <br><br>
+				<br> 만나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'In the event that the President does not appoint a Editor , the Secretary shall serve as Editor .', Argument/Subject 1: 'editor', Argument/Subject 2: 'president' <br><br>
+				<br> 문장: '회장이 편집자를 임명하지 않는 경우 서기가 편집자로 봉사합니다. ', 인수/주제 1: '편집자', 인수/주제 2: '대통령' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> be appoint by <br><br>
+				<br> 에 의해 임명되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Interment will follow at the Maple Grove Cemetery in Seminole , under the direction of Swearingen Funeral Home of Seminole .', Argument/Subject 1: 'interment', Argument/Subject 2: 'maple grove cemetery' <br><br>
+				<br> 문장: '세미놀의 메이플 그로브 공동묘지에서 세미놀의 스웨어링겐 장례식장의 지시에 따라 매장될 것입니다. ', 논거/주제 1: '간섭', 논거/주제 2: '단풍숲 공동묘지' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> follow at <br><br>
+				<br> 팔로우 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Islam can preach that Christ is not the son of God but rather a messenger , blaspheming Christianity in the process , yet no Christian jihadists kill Muslim people or incite terrorism .', Argument/Subject 1: 'christ', Argument/Subject 2: 'god' <br><br>
+				<br> 문장: '이슬람은 그리스도가 하나님의 아들이 아니라 메신저라고 설교할 수 있으며 그 과정에서 기독교를 모독하지만 기독교 지하디스트는 무슬림을 죽이거나 테러를 선동하지 않습니다. ', 인수/주제 1: '그리스도', 인수/주제 2: '신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> be son of <br><br>
+				<br> ~의 아들이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'It runs either on Mac OS and Windows computers .', Argument/Subject 1: 'window', Argument/Subject 2: 'mac' <br><br>
+				<br> 문장: 'Mac OS 및 Windows 컴퓨터에서 실행됩니다. ', 인수/주제 1: 'window', 인수/주제 2: 'mac' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> run on <br><br>
+				<br> 계속되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'John Kampfner is the political editor of the New Statesman and the first edition of the book was based on 60 interviews with senior ministers , advisers and civil servants from across government as well as key players in US , Europe , Russia , Middle East , UN and Nato .', Argument/Subject 1: 'john kampfner', Argument/Subject 2: 'new statesman' <br><br>
+				<br> 문장: 'John Kampfner는 New Statesman의 정치 편집자이며 이 책의 초판은 미국, 유럽, 러시아, 중동의 주요 관계자뿐만 아니라 정부 전반의 고위 장관, 고문 및 공무원과의 60개 인터뷰를 기반으로 했습니다. , 유엔과 나토. ', 인수/주제 1: 'john kampfner', 인수/주제 2: '새로운 정치가' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> be editor of <br><br>
+				<br> 의 편집자가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Judas was the apostle who betrayed Jesus for money .', Argument/Subject 1: 'juda', Argument/Subject 2: 'jesus' <br><br>
+				<br> 문장: '유다는 돈 때문에 예수님을 배반한 사도였습니다. ', 인수/주제 1: '유다', 인수/주제 2: '예수' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> betray <br><br>
+				<br> 무심코 드러내다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Kent Keating has served as Chairman of the Board since Seevast 's inception in 2006 .', Argument/Subject 1: 'board', Argument/Subject 2: 'chairman' <br><br>
+				<br> 문장: 'Kent Keating은 2006년 Seevast가 설립된 이후 이사회 의장을 역임했습니다. ', 주장/주제 1: '이사회', 주장/주제 2: '의장' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> have <br><br>
+				<br> 가지다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Liberia primary language is English , which is taught in the school system .', Argument/Subject 1: 'english', Argument/Subject 2: 'liberium' <br><br>
+				<br> 문장: '라이베리아의 기본 언어는 학교 시스템에서 가르치는 영어입니다. ', 인수/주제 1: 'english', 인수/주제 2: 'liberium' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> be language of <br><br>
+				<br> 의 언어이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Located in the Apulia region of southern Italy , in the small town of Alberobello , Hotel Airone is a recently built property offering impeccable service and ample , fully appointed accommodations .', Argument/Subject 1: 'apulium', Argument/Subject 2: 'italy' <br><br>
+				<br> 문장: '이탈리아 남부 Apulia 지역의 Alberobello라는 작은 마을에 위치한 Hotel Airone은 흠 잡을 데 없는 서비스와 넉넉하고 완비된 숙박 시설을 제공하는 최근에 지어진 숙박 시설입니다. ', 인수/주제 1: 'apulium', 인수/주제 2: '이탈리아' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> be region of <br><br>
+				<br> ~의 지역이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'MDS Nordion is headquartered in Ottawa , Ontario , with additional facilities in Quebec , British Columbia , Hong Kong , Japan , and Belgium .', Argument/Subject 1: 'md nordion', Argument/Subject 2: 'ottawa' <br><br>
+				<br> 문장: 'MDS Nordion은 온타리오주 오타와에 본사가 있으며 퀘벡, 브리티시 컬럼비아, 홍콩, 일본 및 벨기에에 추가 시설이 있습니다. ', 인수/주제 1: 'md nordion', 인수/주제 2: 'ottawa' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> be headquarter in <br><br>
+				<br> 에 본부가 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Merrill Lynch has been bought out by Bank of America .', Argument/Subject 1: 'bank of america', Argument/Subject 2: 'merrill lynch' <br><br>
+				<br> 문장: '메릴린치는 Bank of America에 매각되었습니다. ', 인수/주제 1: 'bank of America', 인수/주제 2: '메릴린치' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> be buy <br><br>
+				<br> 사다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Minnesota Valley Country Club is located at 6300 Auto Club Road in Bloomington .', Argument/Subject 1: 'minnesota', Argument/Subject 2: 'bloomington' <br><br>
+				<br> 문장: '미네소타 밸리 컨트리 클럽은 블루밍턴의 6300 Auto Club Road에 있습니다. ', 인수/주제 1: 'minnesota', 인수/주제 2: 'bloomington' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> be locate in <br><br>
+				<br> 에 위치하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'My goal is to debut the new version at the SHOT Show in Orlando , with a big book signing and general revel .', Argument/Subject 1: 'show', Argument/Subject 2: 'orlando' <br><br>
+				<br> 문장: '내 목표는 올랜도의 SHOT Show에서 큰 책 사인회와 일반적인 환호와 함께 새 버전을 데뷔하는 것입니다. ', 인수/주제 1: 'show', 인수/주제 2: 'orlando' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> debut in <br><br>
+				<br> 에 데뷔 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'New Highlight Video Posted on Youtube .....', Argument/Subject 1: 'video', Argument/Subject 2: 'youtube' <br><br>
+				<br> 문장: '유튜브에 올라온 새로운 하이라이트 영상.....', 주장/주제 1: '동영상', 주장/주제 2: 'youtube' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> post at <br><br>
+				<br> 에 게시 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'One of them ours company , have been export to many countries like United State , Japan , Australia , China , even Europe and Africa countries .', Argument/Subject 1: 'unite state', Argument/Subject 2: 'europe' <br><br>
+				<br> 문장: '우리 회사 중 하나는 미국, 일본, 호주, 중국, 심지어 유럽 및 아프리카 국가와 같은 많은 국가에 수출되었습니다. ', 인수/주제 1: '단일 국가', 인수/주제 2: '유럽' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> export to <br><br>
+				<br> 수출하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Page 49 In 1997 , W3C Specs CAF GFF Read CrackBerry Blog Index Library digital cameras software Books Poetry Computers SoftwareCasa Reviews Ringtones Software It 's Not Included Did I have or get updates out the geodetic azimuth software cd label and scenes .', Argument/Subject 1: 'digital', Argument/Subject 2: 'review' <br><br>
+				<br> 문장: '페이지 49 1997년에 W3C Specs CAF GFF 읽기 CrackBerry 블로그 색인 라이브러리 디지털 카메라 소프트웨어 책 시 컴퓨터 SoftwareCasa 리뷰 벨소리 소프트웨어 포함되지 않음 측지 방위각 소프트웨어 CD 레이블 및 장면에서 업데이트를 받았거나 받았습니까? ', 주장/주제 1: '디지털', 주장/주제 2: '리뷰' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> camera <br><br>
+				<br> 카메라 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Paper presented at the Babson College Kauffman Foundation Entrepreneurship Research Conference 2003 , Wellesley , MA.', Argument/Subject 1: 'paper', Argument/Subject 2: 'conference' <br><br>
+				<br> 문장: 'Babson College Kauffman Foundation Entrepreneurship Research Conference 2003에서 발표된 논문, Wellesley, MA. ', 논거/주제 1: '논문', 논거/주제 2: '회의' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> present at <br><br>
+				<br> 현재 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Paper presented at the Inaugural Conference of the International Family Aggression Society , Preston , UK: University of Central Lancashire .', Argument/Subject 1: 'paper', Argument/Subject 2: 'conference' <br><br>
+				<br> 문장: '국제 가족 침략 학회 창립 회의에서 발표된 논문, 영국 프레스톤: 센트럴 랭커셔 대학교. ', 논거/주제 1: '논문', 논거/주제 2: '회의' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> present to <br><br>
+				<br> 현재까지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Paper presented at the Third Applied Aerodynamics Conference of the American Institute of Aeronautics and Astronautics , Colorado Springs , Colo. , 14-16 October 1985 .', Argument/Subject 1: 'paper', Argument/Subject 2: 'conference' <br><br>
+				<br> 문장: '1985년 10월 14-16일 콜로라도 스프링스에서 열린 미국 항공우주학회의 제3차 응용 공기역학 회의에서 발표된 논문. ', 논거/주제 1: '논문', 논거/주제 2: '회의' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> present to <br><br>
+				<br> 현재까지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Paper presented at the annual conference of the International Communication Association , Albuquerque , NM.', Argument/Subject 1: 'paper', Argument/Subject 2: 'international communication association' <br><br>
+				<br> 문장: '미국 뉴멕시코 주 앨버커키에서 열린 국제 커뮤니케이션 협회 연례 회의에서 발표된 논문. ', 주장/주제 1: '논문', 주장/주제 2: '국제 커뮤니케이션 협회' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> present to <br><br>
+				<br> 현재까지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Paper presented for the National Education Administration Higher Education Annual Conference , San Antonio , TX .', Argument/Subject 1: 'paper', Argument/Subject 2: 'conference' <br><br>
+				<br> 문장: '텍사스 주 샌안토니오에서 열린 국립 교육청 고등 교육 연례 회의에 발표된 논문. ', 논거/주제 1: '논문', 논거/주제 2: '회의' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> present at <br><br>
+				<br> 현재 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Paul habitually made specific requests to God : " I keep asking that the God of our Lord Jesus Christ , the glorious Father , may give you the Spirit of wisdom and revelation , so that you may know him better .', Argument/Subject 1: 'god', Argument/Subject 2: 'christ' <br><br>
+				<br> 문장: '바울은 습관적으로 하나님께 구체적으로 구했습니다. ', 인수/주제 1: '신', 인수/주제 2: '그리스도' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> be father of <br><br>
+				<br> ~의 아버지가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Perhaps Apple should learn from Microsoft , which listened to its customers and will be selling Windows XP for six months longer than previously announced , due to anemic uptake of Windows Vista .', Argument/Subject 1: 'apple', Argument/Subject 2: 'microsoft' <br><br>
+				<br> 문장: '어쩌면 Apple은 고객의 의견에 귀를 기울이고 Windows Vista의 빈약한 활용으로 인해 이전에 발표한 것보다 6개월 더 Windows XP를 판매하게 될 Microsoft로부터 교훈을 얻어야 할 것입니다. ', 인수/주제 1: 'apple', 인수/주제 2: 'microsoft' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> learn from <br><br>
+				<br> ~으로부터 배우다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'President elect Barack Obama appointed Rep. Rahm Emanuel as his future White House Chief of Staff .', Argument/Subject 1: 'president', Argument/Subject 2: 'obama' <br><br>
+				<br> 문장: '버락 오바마 대통령 당선자는 람 엠마누엘 의원을 미래의 백악관 비서실장으로 임명했습니다. ', 인수/주제 1: '대통령', 인수/주제 2: 'obama' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> elect <br><br>
+				<br> 선택된 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Quinlan Abrioux is a boutique civil litigation firm located in Vancouver , British Columbia focusing on all aspects of insurance law .', Argument/Subject 1: 'vancouver', Argument/Subject 2: 'british columbium' <br><br>
+				<br> 문장: 'Quinlan Abrioux는 보험법의 모든 측면에 초점을 맞춘 브리티시 컬럼비아 주 밴쿠버에 위치한 부티크 민사 소송 회사입니다. ', 인수/주제 1: '밴쿠버', 인수/주제 2: '브리티시 컬럼비아' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> be locate in <br><br>
+				<br> 에 위치하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Registration for New Year Five students of Arabic Schools will begin on January 7th .', Argument/Subject 1: 'registration', Argument/Subject 2: 'january' <br><br>
+				<br> 문장: '아랍 학교의 신입생 5명 등록이 1월 7일부터 시작됩니다. ', 인수/주제 1: '등록', 인수/주제 2: '1월' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> begin in <br><br>
+				<br> ~에서 시작하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Rte 95 North to Topsfield Bear left onto Rte 1 South , Danvers .', Argument/Subject 1: 'bear', Argument/Subject 2: 'north' <br><br>
+				<br> 문장: Rte 95 North to Topsfield Bear 좌회전 Rte 1 South , Danvers . ', 인수/주제 1: '곰', 인수/주제 2: 'north' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> leave on <br><br>
+				<br> 떠나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Services offered include Web Design , Development and Management , Internet Marketing , E- Commerce , among other IT Solutions .', Argument/Subject 1: 'service', Argument/Subject 2: 'web design' <br><br>
+				<br> 문장: '제공되는 서비스에는 웹 디자인, 개발 및 관리, 인터넷 마케팅, 전자 상거래, 기타 IT 솔루션이 포함됩니다. ', 주장/주제 1: '서비스', 주장/주제 2: '웹 디자인' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> include <br><br>
+				<br> 포함하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Spain declared war with Britain in June 1779 and as a result of the ensuing treaty , British West Florida Became Spanish West Florida .', Argument/Subject 1: 'britain', Argument/Subject 2: 'spain' <br><br>
+				<br> 문장: '스페인은 1779년 6월 영국과의 전쟁을 선포했고 이어지는 조약의 결과로 영국 서부 플로리다는 스페인 서부 플로리다가 되었습니다. ', 인수/주제 1: 'britain', 인수/주제 2: 'spain' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> declare war on <br><br>
+				<br> 전쟁을 선포하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Stella Luca salon is a full service salon , located in Winter Park Florida , Orlando Florida .', Argument/Subject 1: 'orlando', Argument/Subject 2: 'florida' <br><br>
+				<br> 문장: '스텔라 루카 살롱은 플로리다 올랜도 윈터 파크 플로리다에 위치한 풀 서비스 살롱입니다. ', 인수/주제 1: 'orlando', 인수/주제 2: '플로리다' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> be locate in <br><br>
+				<br> 에 위치하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Summary : Today , Kalypso Media is pleased to release a teaser of the strategy title Sins of a Solar Empire , the best selling USA PC product developed by Ironclad Games .', Argument/Subject 1: 'product', Argument/Subject 2: 'usa' <br><br>
+				<br> 문장: '요약: 오늘 Kalypso Media는 전략 타이틀인 Sins of a Solar Empire의 티저를 공개하게 된 것을 기쁘게 생각합니다. 이 게임은 Ironclad Games가 개발한 미국의 베스트셀러 PC 제품입니다. ', 인수/주제 1: '제품', 인수/주제 2: 'usa' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> be sell to <br><br>
+				<br> 팔다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Taipei City is the provisional capital of the Republic of China and the largest city in Taiwan .', Argument/Subject 1: 'taipeus', Argument/Subject 2: 'republic of china' <br><br>
+				<br> 문장: '타이베이시는 중화민국의 임시 수도이자 대만에서 가장 큰 도시입니다. ', 인수/주제 1: 'taipeus', 인수/주제 2: 'republic of china' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> be capital of <br><br>
+				<br> 의 수도이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Take for example the Gospel of Philip wherein it says that Mary was the favorite disciple of Jesus , so much so that he used to kiss her on the mouth even in public .', Argument/Subject 1: 'philip', Argument/Subject 2: 'jesus' <br><br>
+				<br> 문장: '예를 들어 빌립의 복음서를 보면 마리아가 예수의 총애를 받는 제자였기 때문에 공개석상에서도 그녀의 입에 입맞춤을 했다고 합니다. ', 인수/주제 1: 'philip', 인수/주제 2: 'jesus' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> say to <br><br>
+				<br> ~에게 말하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Tata Motors is part of Tata Group , India 's oldest and largest conglomerate .', Argument/Subject 1: 'ta motor', Argument/Subject 2: 'ta group' <br><br>
+				<br> 문장: 'Tata Motors는 인도에서 가장 오래되고 가장 큰 대기업인 Tata Group의 일부입니다. ', 인수/주제 1: 'ta motor', 인수/주제 2: 'ta group' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> be part of <br><br>
+				<br> 의 일부가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Board of Trustees of the Friends of Northwest Park is a group of up to 27 dedicated and involved individuals , one-third of whom are elected each year to a three-year term .', Argument/Subject 1: 'trustee', Argument/Subject 2: 'board' <br><br>
+				<br> 문장: 'Northwest Park의 친구들의 이사회는 최대 27명의 헌신적이고 관련된 개인으로 구성된 그룹이며, 그 중 1/3은 매년 3년 임기로 선출됩니다. ', 인수/주제 1: '수탁자', 인수/주제 2: '판' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> be elect by <br><br>
+				<br> 에 의해 선출되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Building and Operating Committee recommends that the Board of Directors approve the design and location of five bus stops , changes to multiple crosswalks , and related pedestrian safety improvements , all located in the vicinity of the Golden Gate Bridge Toll Plaza .', Argument/Subject 1: 'committee', Argument/Subject 2: 'board' <br><br>
+				<br> 문장: '건물 및 운영 위원회는 이사회가 버스 정류장 5곳의 설계 및 위치, 다중 횡단보도 변경 및 관련 보행자 안전 개선을 승인할 것을 권장합니다. 모두 금문교 요금소 근처에 있습니다. ', 주장/주제 1: '위원', 주장/주제 2: '판' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> recommend to <br><br>
+				<br> 에게 추천하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Chairman of the company , the Group Chief Executive and other board members will attend if requested by the committee .', Argument/Subject 1: 'chairman', Argument/Subject 2: 'board' <br><br>
+				<br> 문장: '위원회의 요청이 있는 경우 회사 회장, 그룹 최고 경영자 및 기타 이사회 구성원이 참석합니다. ', 인수/주제 1: '의장', 인수/주제 2: '이사회' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> be member of <br><br>
+				<br> 회원이되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Committee also recommended the costs associated with reprinting the City Management History Book might be reimbursed in part or total by the Texas Foundation for Local Government , depending on the decision of the Foundation Board .', Argument/Subject 1: 'committee', Argument/Subject 2: 'board' <br><br>
+				<br> 문장: '위원회는 또한 재단 위원회의 결정에 따라 지방 정부를 위한 텍사스 재단이 도시 관리 역사 책을 재인쇄하는 것과 관련된 비용의 일부 또는 전체를 상환할 수 있다고 권고했습니다. ', 주장/주제 1: '위원', 주장/주제 2: '판' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> recommend to <br><br>
+				<br> 에게 추천하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Conference will be held in June 06-08 , 2008 .', Argument/Subject 1: 'conference', Argument/Subject 2: 'june' <br><br>
+				<br> 문장: '회의는 2008년 6월 6-08일에 개최됩니다. ', 인수/주제 1: '회의', 인수/주제 2: 'june' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> be hold in <br><br>
+				<br> 참다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Council of the Society met on January 30th , February 20th , March 26th , May 28th , June 25th , July 30th , August 27th , September 24th , October 29th and November 26th .', Argument/Subject 1: 'council', Argument/Subject 2: 'march' <br><br>
+				<br> 문장: '학회 평의회는 1월 30일, 2월 20일, 3월 26일, 5월 28일, 6월 25일, 7월 30일, 8월 27일, 9월 24일, 10월 29일 및 11월 26일에 만났습니다. ', 인수/주제 1: 'council', 인수/주제 2: 'march' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> meet in <br><br>
+				<br> 만나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Democrats have been in control of Congress for the past two years and our country has gone down the tubes .', Argument/Subject 1: 'democrat', Argument/Subject 2: 'congress' <br><br>
+				<br> 문장: '민주당은 지난 2년 동안 의회를 장악했고 우리나라는 혼란에 빠졌습니다. ', 인수/주제 1: '민주당', 인수/주제 2: '의회' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> control <br><br>
+				<br> 제어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Jews have rejected Jesus as the Messiah , therefore they have rejected the true God .', Argument/Subject 1: 'jew', Argument/Subject 2: 'messiah' <br><br>
+				<br> 문장: '유대인들은 예수를 메시아로 거부했기 때문에 참 하느님을 거부했습니다. ', 인수/주제 1: '유태인', 인수/주제 2: '메시아' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> reject <br><br>
+				<br> 거부하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Pastor is a man of God who speaks Jesus in a powerful way each night and weekend as he works at Home Depot the rest of the week .', Argument/Subject 1: 'jesus', Argument/Subject 2: 'god' <br><br>
+				<br> 문장: '목사는 주중에 홈디포에서 일하면서 매일 밤과 주말에 강력하게 예수님을 말하는 하나님의 사람입니다. ', 인수/주제 1: '예수', 인수/주제 2: '신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> be speak of <br><br>
+				<br> 말하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Red Sox are another Boston team finding recent success , winning the World Series after almost 100 years of frustration .', Argument/Subject 1: 'red sox', Argument/Subject 2: 'world series' <br><br>
+				<br> 문장: '레드삭스는 거의 100년의 좌절 끝에 월드 시리즈에서 우승하며 최근 성공을 거둔 또 다른 보스턴 팀입니다. ', 인수/주제 1: '레드삭스', 인수/주제 2: '월드 시리즈' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> win <br><br>
+				<br> 이기다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The Sign Language Club will meet in the new cafeteria on Tuesdays after school .', Argument/Subject 1: 'club', Argument/Subject 2: 'tuesday' <br><br>
+				<br> 문장: '수화 동아리는 화요일 방과 후 새 카페테리아에서 모입니다. ', 인수/주제 1: 'club', 인수/주제 2: '화요일' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> meet on <br><br>
+				<br> 만나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The U.S. entered World War II after the Japanese bombing of Pearl Harbor ( Dec.', Argument/Subject 1: 'japanese', Argument/Subject 2: 'pearl harbor' <br><br>
+				<br> 문장: '미국은 일본의 진주만 폭격(12월) 이후 제2차 세계대전에 참전했습니다.', 인수/주제 1: 'japanese', 인수/주제 2: '진주만' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> bomb <br><br>
+				<br> 폭탄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The first shipment of 93 aircraft were shipped the day before England and France declared war on Germany and ended up spending a month in impound in Canada .', Argument/Subject 1: 'england', Argument/Subject 2: 'germany' <br><br>
+				<br> 문장: '영국과 프랑스가 독일에 전쟁을 선포하기 전날 93대의 항공기가 첫 번째로 선적되었고 결국 캐나다에 압수되어 한 달을 보냈습니다. ', 인수/주제 1: '영국', 인수/주제 2: '독일' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> declare war on <br><br>
+				<br> 전쟁을 선포하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The grace that is given to us for the forgiveness of sins when we repent and turn to Jesus Christ who was the son of GOD and who died for us - perfect though HE was - HE took all of our places if we BELIEVE and accept this .', Argument/Subject 1: 'jesus', Argument/Subject 2: 'god' <br><br>
+				<br> 문장: '우리가 회개하고 하나님의 아들이시며 우리를 위해 죽으신 예수 그리스도께 돌이킬 때 죄의 용서를 위해 우리에게 주어지는 은혜 - 그는 완전하셨지만 - 우리가 믿고 이것을 받아들이십시오. ', 인수/주제 1: '예수', 인수/주제 2: '신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> be son of <br><br>
+				<br> ~의 아들이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The next Board meeting will be Thursday September 25 , 2008 at 9: :00 a.m.', Argument/Subject 1: 'board', Argument/Subject 2: 'september' <br><br>
+				<br> 문장: '다음 이사회는 2008년 9월 25일 목요일 오전 9시입니다.', 주장/주제 1: '이사회', 주장/주제 2: '9월' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> meet in <br><br>
+				<br> 만나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'The zodiac sign of Perry Smith is Taurus .', Argument/Subject 1: 'taurus', Argument/Subject 2: 'zodiac' <br><br>
+				<br> 문장: 'Perry Smith의 조디악 표지판은 황소 자리입니다. ', 인수/주제 1: 'taurus', 인수/주제 2: '12궁도' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> be sign of <br><br>
+				<br> ~의 징표가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'This happens every day throughout the country and in large California cities such as San Francisco , San Diego and Los Angeles .', Argument/Subject 1: 'lo angele', Argument/Subject 2: 'californium' <br><br>
+				<br> 문장: '이는 전국적으로 그리고 샌프란시스코, 샌디에고, 로스앤젤레스와 같은 캘리포니아 대도시에서 매일 발생합니다. ', 인수/주제 1: 'lo angele', 인수/주제 2: 'californium' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> be city in <br><br>
+				<br> 도시에있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'This itinerary takes you from the historic cities of Edinburgh and Striling to the magnificent Highlands and Glens of Scotland to visit the lands of your ancestors .', Argument/Subject 1: 'edinburgh', Argument/Subject 2: 'scotland' <br><br>
+				<br> 문장: '이 여정은 역사적인 도시인 에딘버러와 스트릴링에서 조상의 땅을 방문하기 위해 스코틀랜드의 장엄한 하이랜드와 글렌으로 안내합니다. ', 인수/주제 1: 'edinburgh', 인수/주제 2: '스코틀랜드' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> be city in <br><br>
+				<br> 도시에있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'This just and good God , the Father of our Lord Jesus Christ , Himself gave This also is a part of the Church 's teaching , that the world was made and took We 're going to need God and His Church .', Argument/Subject 1: 'god', Argument/Subject 2: 'christ' <br><br>
+				<br> 문장: '이 의로우시고 선하신 하나님, 우리 주 예수 그리스도의 아버지께서 친히 주신 이것 또한 교회의 가르침의 일부이며, 세상이 만들어지고 취해졌다 우리는 하나님과 그의 교회가 필요합니다. ', 인수/주제 1: '신', 인수/주제 2: '그리스도' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> be father of <br><br>
+				<br> ~의 아버지가 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'We are concerned that the ordinance undermines the right to freedom of assembly enshrined in the Constitution of the Kyrgyz Republic and in international law .', Argument/Subject 1: 'constitution', Argument/Subject 2: 'republic' <br><br>
+				<br> 문장: '우리는 이 조례가 키르기즈 공화국 헌법과 국제법에 명시된 집회의 자유에 대한 권리를 침해하는 것을 우려합니다. ', 인수/주제 1: '헌법', 인수/주제 2: '공화국' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> be law of <br><br>
+				<br> ~의 법이 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'When Congress passed the US PATRIOT Act and granted federal authorities the unheard of power to enter libraries and question people , it was done so with the promise that such power would never be abused .', Argument/Subject 1: 'congress', Argument/Subject 2: 'patriot act' <br><br>
+				<br> 문장: '의회가 미국 애국법(US PATRIOT Act)을 통과시키고 연방 당국에 도서관에 들어가 사람들에게 질문할 수 있는 전례 없는 권한을 부여했을 때, 그것은 그러한 권한이 결코 남용되지 않을 것이라는 약속과 함께 이루어졌습니다. ', 주장/주제 1: '국회', 주장/주제 2: '애국 행위' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> pass <br><br>
+				<br> 통과하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'When the SEZ Act 2005 was passed in Parliament all parties of diverse hues , in a unique show of solidarity , showed complete consensus .', Argument/Subject 1: 'act', Argument/Subject 2: 'parliament' <br><br>
+				<br> 문장: '2005년 경제특구법이 의회에서 통과되었을 때 다양한 색깔의 모든 정당이 독특한 연대를 보여 완전한 합의를 보였습니다. ', 인수/주제 1: '행위', 인수/주제 2: '의회' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> be pass by <br><br>
+				<br> 지나가다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Why did God send the Holy Spirit on Sunday ?', Argument/Subject 1: 'god', Argument/Subject 2: 'spirit' <br><br>
+				<br> 문장: '하나님은 왜 일요일에 성령을 보내셨는가? ', 인수/주제 1: '신', 인수/주제 2: '정신' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> send <br><br>
+				<br> 보내다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'With 297 electoral votes under his belt and only 270 needed to win , Barack Obama is projected the next president of the United States of America .', Argument/Subject 1: 'obama', Argument/Subject 2: 'unite state of america' <br><br>
+				<br> 문장: '297명의 선거인단이 그의 벨트 아래에 있고 270명만이 승리하는 데 필요한 버락 오바마는 미합중국의 차기 대통령으로 예상됩니다. ', 인수/주제 1: 'Obama', 인수/주제 2: 'Unite State of America' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> be president of <br><br>
+				<br> ~의 회장이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'With the Remote Abstract Window Toolkit , you can run Java AWT graphical programs without making any changes on AS/400 and display the graphics remotely .', Argument/Subject 1: 'java', Argument/Subject 2: 'window' <br><br>
+				<br> 문장: 'Remote Abstract Window Toolkit을 사용하면 AS/400을 변경하지 않고 Java AWT 그래픽 프로그램을 실행하고 그래픽을 원격으로 표시할 수 있습니다. ', 인수/주제 1: 'java', 인수/주제 2: 'window' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> run on <br><br>
+				<br> 계속되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'With the exception of some violence by Chinese police against two Japanese journalists in the faraway Xinjiang region of northwest China , there were no serious troubles related to media coverage or newspaper production during the Games .', Argument/Subject 1: 'xinjiang', Argument/Subject 2: 'china' <br><br>
+				<br> 선고: '중국 북서부의 먼 신장 지역에서 일본 언론인 2명에 대한 중국 경찰의 일부 폭력을 제외하고는 올림픽 기간 동안 언론 보도나 신문 제작과 관련된 심각한 문제는 없었습니다. ', 인수/주제 1: '신장', 인수/주제 2: '중국' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> be region in <br><br>
+				<br> 지역에 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Xena propped herself up on one elbow and looked back at Gabrielle .', Argument/Subject 1: 'gabrielle', Argument/Subject 2: 'xena' <br><br>
+				<br> 문장: 'Xena는 한쪽 팔꿈치로 몸을 지탱하고 Gabrielle을 돌아보았습니다. ', 인수/주제 1: 'gabrielle', 인수/주제 2: 'xena' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> look up at <br><br>
+				<br> 올려다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'Xena sighed and looked around for Gabrielle , who was much better at this sort of thing .', Argument/Subject 1: 'gabrielle', Argument/Subject 2: 'xena' <br><br>
+				<br> 문장: 'Xena는 한숨을 쉬고 이런 종류의 일을 훨씬 더 잘하는 Gabrielle을 둘러 보았습니다. ', 인수/주제 1: 'gabrielle', 인수/주제 2: 'xena' <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> look up at <br><br>
+				<br> 올려다 <br><br>
+			</td>
+		</tr>
+	</table>

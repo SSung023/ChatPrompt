@@ -27,3 +27,1790 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: I submitted the hit. The hit was approved, and then I was paid. <br><br>
+				<br> 패시지: 히트작을 제출했습니다. 조회가 승인된 후 지급되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> approved <br><br>
+				<br> 승인 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: He was caught in the snow storm. <br><br>
+				<br> 통로: 그는 눈보라에 휩싸였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> storm <br><br>
+				<br> 폭풍 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: He is on the east coast. <br><br>
+				<br> 항로: 그는 동해안에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> is <br><br>
+				<br> ~이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: He wanted to finish the task. <br><br>
+				<br> Passage: 그는 작업을 끝내고 싶었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> wanted <br><br>
+				<br> 원하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: If he works hard, then he will finish the task. <br><br>
+				<br> Passage: 그가 열심히 일하면 그는 그 일을 끝낼 것이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> finish <br><br>
+				<br> 마치다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "As Iraqis step up, the coalition forces can step back and ultimately, come home. That's what the president said from the very beginning." <br><br>
+				<br> 패시지: "이라크인들이 나서면 연합군은 물러서서 궁극적으로 집으로 돌아올 수 있습니다. 대통령이 처음부터 그렇게 말했다"고 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> beginning <br><br>
+				<br> 시작 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "As Iraqis step up, the coalition forces can step back and ultimately, come home. That's what the president said from the very beginning." <br><br>
+				<br> 패시지: "이라크인들이 나서면 연합군은 물러서서 궁극적으로 집으로 돌아올 수 있습니다. 대통령이 처음부터 그렇게 말했다"고 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> come <br><br>
+				<br> 오다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "As Iraqis step up, the coalition forces can step back and ultimately, come home. That's what the president said from the very beginning." <br><br>
+				<br> 패시지: "이라크인들이 나서면 연합군은 물러서서 궁극적으로 집으로 돌아올 수 있습니다. 대통령이 처음부터 그렇게 말했다"고 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "As Iraqis step up, the coalition forces can step back and ultimately, come home. That's what the president said from the very beginning." <br><br>
+				<br> 패시지: "이라크인들이 나서면 연합군은 물러서서 궁극적으로 집으로 돌아올 수 있습니다. 대통령이 처음부터 그렇게 말했다"고 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> step <br><br>
+				<br> 단계 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "But if I score it is because everyone is doing a good job and maybe their defence is tired. Sheva, Salomon Kalou and Arjen all did well. <br><br>
+				<br> 패시지: "하지만 내가 득점했다면 모두가 잘하고 있고 수비가 지쳤기 때문일 수 있습니다. Sheva, Salomon Kalou 및 Arjen 모두 잘했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> defence <br><br>
+				<br> 방어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "But if I score it is because everyone is doing a good job and maybe their defence is tired. Sheva, Salomon Kalou and Arjen all did well. <br><br>
+				<br> 패시지: "하지만 내가 득점했다면 모두가 잘하고 있고 수비가 지쳤기 때문일 수 있습니다. Sheva, Salomon Kalou 및 Arjen 모두 잘했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> did <br><br>
+				<br> 했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "But if I score it is because everyone is doing a good job and maybe their defence is tired. Sheva, Salomon Kalou and Arjen all did well. <br><br>
+				<br> 패시지: "하지만 내가 득점했다면 모두가 잘하고 있고 수비가 지쳤기 때문일 수 있습니다. Sheva, Salomon Kalou 및 Arjen 모두 잘했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> doing <br><br>
+				<br> 행위 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "But if I score it is because everyone is doing a good job and maybe their defence is tired. Sheva, Salomon Kalou and Arjen all did well. <br><br>
+				<br> 패시지: "하지만 내가 득점했다면 모두가 잘하고 있고 수비가 지쳤기 때문일 수 있습니다. Sheva, Salomon Kalou 및 Arjen 모두 잘했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> is <br><br>
+				<br> ~이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "But if I score it is because everyone is doing a good job and maybe their defence is tired. Sheva, Salomon Kalou and Arjen all did well. <br><br>
+				<br> 패시지: "하지만 내가 득점했다면 모두가 잘하고 있고 수비가 지쳤기 때문일 수 있습니다. Sheva, Salomon Kalou 및 Arjen 모두 잘했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> score <br><br>
+				<br> 점수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Democratic processes in the republic will become more dynamic, as we will have the power body crowning the republican statehood," Alkhanov said. Alkhanov wanted the new parliament to convene as soon as possible to adopt laws. <br><br>
+				<br> Passage: Alkhanov는 "공화국의 민주적 과정은 더욱 역동적이 될 것입니다. Alkhanov는 새 의회가 가능한 한 빨리 소집되어 법률을 채택하기를 원했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> adopt <br><br>
+				<br> 입양하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Democratic processes in the republic will become more dynamic, as we will have the power body crowning the republican statehood," Alkhanov said. Alkhanov wanted the new parliament to convene as soon as possible to adopt laws. <br><br>
+				<br> Passage: Alkhanov는 "공화국의 민주적 과정은 더욱 역동적이 될 것입니다. Alkhanov는 새 의회가 가능한 한 빨리 소집되어 법률을 채택하기를 원했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> become <br><br>
+				<br> ~이 되다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Democratic processes in the republic will become more dynamic, as we will have the power body crowning the republican statehood," Alkhanov said. Alkhanov wanted the new parliament to convene as soon as possible to adopt laws. <br><br>
+				<br> Passage: Alkhanov는 "공화국의 민주적 과정은 더욱 역동적이 될 것입니다. Alkhanov는 새 의회가 가능한 한 빨리 소집되어 법률을 채택하기를 원했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> convene <br><br>
+				<br> 소집하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Democratic processes in the republic will become more dynamic, as we will have the power body crowning the republican statehood," Alkhanov said. Alkhanov wanted the new parliament to convene as soon as possible to adopt laws. <br><br>
+				<br> Passage: Alkhanov는 "공화국의 민주적 과정은 더욱 역동적이 될 것입니다. Alkhanov는 새 의회가 가능한 한 빨리 소집되어 법률을 채택하기를 원했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> crowning <br><br>
+				<br> 더할 나위 없는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Democratic processes in the republic will become more dynamic, as we will have the power body crowning the republican statehood," Alkhanov said. Alkhanov wanted the new parliament to convene as soon as possible to adopt laws. <br><br>
+				<br> Passage: Alkhanov는 "공화국의 민주적 과정은 더욱 역동적이 될 것입니다. Alkhanov는 새 의회가 가능한 한 빨리 소집되어 법률을 채택하기를 원했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> have <br><br>
+				<br> 가지다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Democratic processes in the republic will become more dynamic, as we will have the power body crowning the republican statehood," Alkhanov said. Alkhanov wanted the new parliament to convene as soon as possible to adopt laws. <br><br>
+				<br> Passage: Alkhanov는 "공화국의 민주적 과정은 더욱 역동적이 될 것입니다. Alkhanov는 새 의회가 가능한 한 빨리 소집되어 법률을 채택하기를 원했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Democratic processes in the republic will become more dynamic, as we will have the power body crowning the republican statehood," Alkhanov said. Alkhanov wanted the new parliament to convene as soon as possible to adopt laws. <br><br>
+				<br> Passage: Alkhanov는 "공화국의 민주적 과정은 더욱 역동적이 될 것입니다. Alkhanov는 새 의회가 가능한 한 빨리 소집되어 법률을 채택하기를 원했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> wanted <br><br>
+				<br> 원하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "He will be happy if Laila claims her 22nd victory," she added. <br><br>
+				<br> Passage: "Laila가 22번째 우승을 차지하면 그는 기뻐할 것입니다."라고 그녀는 덧붙였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> added <br><br>
+				<br> 추가 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "He will be happy if Laila claims her 22nd victory," she added. <br><br>
+				<br> Passage: "Laila가 22번째 우승을 차지하면 그는 기뻐할 것입니다."라고 그녀는 덧붙였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> be <br><br>
+				<br> BE <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "He will be happy if Laila claims her 22nd victory," she added. <br><br>
+				<br> Passage: "Laila가 22번째 우승을 차지하면 그는 기뻐할 것입니다."라고 그녀는 덧붙였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> claims <br><br>
+				<br> 주장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "He will be happy if Laila claims her 22nd victory," she added. <br><br>
+				<br> Passage: "Laila가 22번째 우승을 차지하면 그는 기뻐할 것입니다."라고 그녀는 덧붙였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> victory <br><br>
+				<br> 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I don't often use that word but then it is not very often that you get to meet one," he said. A book of memoirs and photographs from the climb by Mr Lowe, which he worked on with Dr Lewis-Jones, is due to be published in May. <br><br>
+				<br> 패시지: "나는 그 단어를 자주 사용하지 않지만 그런 단어를 만나는 일은 그리 흔하지 않습니다."라고 그는 말했습니다. 루이스-존스 박사와 함께 작업한 로우 씨의 등반 사진과 회고록이 5월에 출판될 예정입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> climb <br><br>
+				<br> 오르다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I don't often use that word but then it is not very often that you get to meet one," he said. A book of memoirs and photographs from the climb by Mr Lowe, which he worked on with Dr Lewis-Jones, is due to be published in May. <br><br>
+				<br> 패시지: "나는 그 단어를 자주 사용하지 않지만 그런 단어를 만나는 일은 그리 흔하지 않습니다."라고 그는 말했습니다. 루이스-존스 박사와 함께 작업한 로우 씨의 등반 사진과 회고록이 5월에 출판될 예정입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> is <br><br>
+				<br> ~이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I don't often use that word but then it is not very often that you get to meet one," he said. A book of memoirs and photographs from the climb by Mr Lowe, which he worked on with Dr Lewis-Jones, is due to be published in May. <br><br>
+				<br> 패시지: "나는 그 단어를 자주 사용하지 않지만 그런 단어를 만나는 일은 그리 흔하지 않습니다."라고 그는 말했습니다. 루이스-존스 박사와 함께 작업한 로우 씨의 등반 사진과 회고록이 5월에 출판될 예정입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> meet <br><br>
+				<br> 만나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I don't often use that word but then it is not very often that you get to meet one," he said. A book of memoirs and photographs from the climb by Mr Lowe, which he worked on with Dr Lewis-Jones, is due to be published in May. <br><br>
+				<br> 패시지: "나는 그 단어를 자주 사용하지 않지만 그런 단어를 만나는 일은 그리 흔하지 않습니다."라고 그는 말했습니다. 루이스-존스 박사와 함께 작업한 로우 씨의 등반 사진과 회고록이 5월에 출판될 예정입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> published <br><br>
+				<br> 출판 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I don't often use that word but then it is not very often that you get to meet one," he said. A book of memoirs and photographs from the climb by Mr Lowe, which he worked on with Dr Lewis-Jones, is due to be published in May. <br><br>
+				<br> 패시지: "나는 그 단어를 자주 사용하지 않지만 그런 단어를 만나는 일은 그리 흔하지 않습니다."라고 그는 말했습니다. 루이스-존스 박사와 함께 작업한 로우 씨의 등반 사진과 회고록이 5월에 출판될 예정입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I don't often use that word but then it is not very often that you get to meet one," he said. A book of memoirs and photographs from the climb by Mr Lowe, which he worked on with Dr Lewis-Jones, is due to be published in May. <br><br>
+				<br> 패시지: "나는 그 단어를 자주 사용하지 않지만 그런 단어를 만나는 일은 그리 흔하지 않습니다."라고 그는 말했습니다. 루이스-존스 박사와 함께 작업한 로우 씨의 등반 사진과 회고록이 5월에 출판될 예정입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> use <br><br>
+				<br> 사용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I don't often use that word but then it is not very often that you get to meet one," he said. A book of memoirs and photographs from the climb by Mr Lowe, which he worked on with Dr Lewis-Jones, is due to be published in May. <br><br>
+				<br> 패시지: "나는 그 단어를 자주 사용하지 않지만 그런 단어를 만나는 일은 그리 흔하지 않습니다."라고 그는 말했습니다. 루이스-존스 박사와 함께 작업한 로우 씨의 등반 사진과 회고록이 5월에 출판될 예정입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> worked <br><br>
+				<br> 일했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> Defending <br><br>
+				<br> 방어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> beat <br><br>
+				<br> 이기다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> believes <br><br>
+				<br> 믿는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> billing <br><br>
+				<br> 청구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> brush <br><br>
+				<br> 브러시 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> live <br><br>
+				<br> 살다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> pose <br><br>
+				<br> 포즈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> threat <br><br>
+				<br> 위협 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I need to brush up on my technique and tactics quickly to live up to my billing as the number one player in Asia," said Azlan who was a bronze medallist in Busan. Defending champion Ong Beng Hee, who beat Mansoor Zaman four years ago, believes the Pakistanis, once the kings of the sport, will again pose a threat. <br><br>
+				<br> 패시지: 부산 동메달리스트였던 아즐란은 "아시아 1위라는 명성에 걸맞게 기술과 전술을 빨리 연마해야 한다"고 말했다. 4년 전 만수르 자만을 이긴 디펜딩 챔피언 옹 벵희는 한때 스포츠의 제왕이었던 파키스탄이 다시 위협이 될 것이라고 믿고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> was <br><br>
+				<br> ~였다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> agreement <br><br>
+				<br> 합의 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> expedite <br><br>
+				<br> 촉진하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> issues <br><br>
+				<br> 문제 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> like <br><br>
+				<br> 좋다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> outstanding <br><br>
+				<br> 뛰어난 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> process <br><br>
+				<br> 프로세스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> resolving <br><br>
+				<br> 해결 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> separate <br><br>
+				<br> 분리된 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "I would like to underline that we must expedite the process of resolving few outstanding issues that separate us from the final agreement on SAFTA," Singh said. <br><br>
+				<br> Passage: "SAFTA에 대한 최종 합의에서 우리를 분리시키는 몇 가지 미결 문제를 해결하는 과정을 촉진해야 한다는 점을 강조하고 싶습니다."라고 Singh은 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> underline <br><br>
+				<br> 밑줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "If we can prevent mother-to-child transmission and treat children then we're going to be able to allow (infected) mothers to raise their children to the age of 15", he told AFP. <br><br>
+				<br> Passage: "모자간 전염을 예방하고 어린이를 치료할 수 있다면 (감염된) 어머니가 자녀를 15세까지 키우도록 허용할 수 있을 것입니다."라고 그는 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> allow <br><br>
+				<br> 허용하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "If we can prevent mother-to-child transmission and treat children then we're going to be able to allow (infected) mothers to raise their children to the age of 15", he told AFP. <br><br>
+				<br> Passage: "모자간 전염을 예방하고 어린이를 치료할 수 있다면 (감염된) 어머니가 자녀를 15세까지 키우도록 허용할 수 있을 것입니다."라고 그는 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> be <br><br>
+				<br> BE <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "If we can prevent mother-to-child transmission and treat children then we're going to be able to allow (infected) mothers to raise their children to the age of 15", he told AFP. <br><br>
+				<br> Passage: "모자간 전염을 예방하고 어린이를 치료할 수 있다면 (감염된) 어머니가 자녀를 15세까지 키우도록 허용할 수 있을 것입니다."라고 그는 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> prevent <br><br>
+				<br> 예방하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "If we can prevent mother-to-child transmission and treat children then we're going to be able to allow (infected) mothers to raise their children to the age of 15", he told AFP. <br><br>
+				<br> Passage: "모자간 전염을 예방하고 어린이를 치료할 수 있다면 (감염된) 어머니가 자녀를 15세까지 키우도록 허용할 수 있을 것입니다."라고 그는 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> raise <br><br>
+				<br> 들어올리다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "If we can prevent mother-to-child transmission and treat children then we're going to be able to allow (infected) mothers to raise their children to the age of 15", he told AFP. <br><br>
+				<br> Passage: "모자간 전염을 예방하고 어린이를 치료할 수 있다면 (감염된) 어머니가 자녀를 15세까지 키우도록 허용할 수 있을 것입니다."라고 그는 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> told <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "If we can prevent mother-to-child transmission and treat children then we're going to be able to allow (infected) mothers to raise their children to the age of 15", he told AFP. <br><br>
+				<br> Passage: "모자간 전염을 예방하고 어린이를 치료할 수 있다면 (감염된) 어머니가 자녀를 15세까지 키우도록 허용할 수 있을 것입니다."라고 그는 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> transmission <br><br>
+				<br> 전염 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "If we can prevent mother-to-child transmission and treat children then we're going to be able to allow (infected) mothers to raise their children to the age of 15", he told AFP. <br><br>
+				<br> Passage: "모자간 전염을 예방하고 어린이를 치료할 수 있다면 (감염된) 어머니가 자녀를 15세까지 키우도록 허용할 수 있을 것입니다."라고 그는 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> treat <br><br>
+				<br> 대하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> aimed <br><br>
+				<br> 조준 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> enrichment <br><br>
+				<br> 풍부하게 함 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> interview <br><br>
+				<br> 회견 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> pass <br><br>
+				<br> 통과하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> persuading <br><br>
+				<br> 설득 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> predicting <br><br>
+				<br> 예측 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> revised <br><br>
+				<br> 개정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> stopped <br><br>
+				<br> 중지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> submitted <br><br>
+				<br> 제출된 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> suspend <br><br>
+				<br> 유예하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> told <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "It's a good resolution," Rice told AFP in an exclusive interview after a revised draft resolution was submitted to the full Security Council at UN headquarters in New York earlier Monday. Rice said she was "optimistic" the resolution aimed at persuading Iran to suspend uranium enrichment would pass soon, though she stopped short of predicting a final vote before the end of the year. <br><br>
+				<br> 패시지: 라이스는 월요일 아침 뉴욕에 있는 유엔 본부에서 전체 안보리에 수정된 결의안 초안이 제출된 후 AFP와의 독점 인터뷰에서 "좋은 결의안입니다"라고 말했습니다. 라이스 장관은 이란이 우라늄 농축을 중단하도록 설득하기 위한 결의안이 곧 통과될 것이라고 "낙관적"이라고 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> vote <br><br>
+				<br> 투표 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The German minister is ready to embrace some of the British package, which he considers to be too broad. He is ready to make proposals," Breton said. <br><br>
+				<br> Passage: "독일 장관은 너무 광범위하다고 생각하는 영국 패키지의 일부를 받아들일 준비가 되어 있습니다. 그는 제안을 할 준비가 되어 있습니다." 브르통이 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> considers <br><br>
+				<br> 고려하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The German minister is ready to embrace some of the British package, which he considers to be too broad. He is ready to make proposals," Breton said. <br><br>
+				<br> Passage: "독일 장관은 너무 광범위하다고 생각하는 영국 패키지의 일부를 받아들일 준비가 되어 있습니다. 그는 제안을 할 준비가 되어 있습니다." 브르통이 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> embrace <br><br>
+				<br> 포옹하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The German minister is ready to embrace some of the British package, which he considers to be too broad. He is ready to make proposals," Breton said. <br><br>
+				<br> Passage: "독일 장관은 너무 광범위하다고 생각하는 영국 패키지의 일부를 받아들일 준비가 되어 있습니다. 그는 제안을 할 준비가 되어 있습니다." 브르통이 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> is <br><br>
+				<br> ~이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The German minister is ready to embrace some of the British package, which he considers to be too broad. He is ready to make proposals," Breton said. <br><br>
+				<br> Passage: "독일 장관은 너무 광범위하다고 생각하는 영국 패키지의 일부를 받아들일 준비가 되어 있습니다. 그는 제안을 할 준비가 되어 있습니다." 브르통이 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> make <br><br>
+				<br> 만들다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The German minister is ready to embrace some of the British package, which he considers to be too broad. He is ready to make proposals," Breton said. <br><br>
+				<br> Passage: "독일 장관은 너무 광범위하다고 생각하는 영국 패키지의 일부를 받아들일 준비가 되어 있습니다. 그는 제안을 할 준비가 되어 있습니다." 브르통이 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The Shiites have more seats than they deserve and because of this there has been state terrorism and killings," charged Mekky Latif, an election observer in Fallujah. The first task of the new parliament will be to appoint a president and two vice presidents. <br><br>
+				<br> Passage: "시아파는 정당한 것보다 더 많은 의석을 가지고 있으며 이로 인해 국가 테러와 살인이 발생했습니다."라고 Fallujah의 선거 참관인 Mekky Latif는 비난했습니다. 새 의회의 첫 번째 과제는 대통령 1명과 부통령 2명을 임명하는 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> appoint <br><br>
+				<br> 정하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The Shiites have more seats than they deserve and because of this there has been state terrorism and killings," charged Mekky Latif, an election observer in Fallujah. The first task of the new parliament will be to appoint a president and two vice presidents. <br><br>
+				<br> Passage: "시아파는 정당한 것보다 더 많은 의석을 가지고 있으며 이로 인해 국가 테러와 살인이 발생했습니다."라고 Fallujah의 선거 참관인 Mekky Latif는 비난했습니다. 새 의회의 첫 번째 과제는 대통령 1명과 부통령 2명을 임명하는 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> charged <br><br>
+				<br> 청구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The Shiites have more seats than they deserve and because of this there has been state terrorism and killings," charged Mekky Latif, an election observer in Fallujah. The first task of the new parliament will be to appoint a president and two vice presidents. <br><br>
+				<br> Passage: "시아파는 정당한 것보다 더 많은 의석을 가지고 있으며 이로 인해 국가 테러와 살인이 발생했습니다."라고 Fallujah의 선거 참관인 Mekky Latif는 비난했습니다. 새 의회의 첫 번째 과제는 대통령 1명과 부통령 2명을 임명하는 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> deserve <br><br>
+				<br> ~ 받을 만하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The Shiites have more seats than they deserve and because of this there has been state terrorism and killings," charged Mekky Latif, an election observer in Fallujah. The first task of the new parliament will be to appoint a president and two vice presidents. <br><br>
+				<br> Passage: "시아파는 정당한 것보다 더 많은 의석을 가지고 있으며 이로 인해 국가 테러와 살인이 발생했습니다."라고 Fallujah의 선거 참관인 Mekky Latif는 비난했습니다. 새 의회의 첫 번째 과제는 대통령 1명과 부통령 2명을 임명하는 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> have <br><br>
+				<br> 가지다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The Shiites have more seats than they deserve and because of this there has been state terrorism and killings," charged Mekky Latif, an election observer in Fallujah. The first task of the new parliament will be to appoint a president and two vice presidents. <br><br>
+				<br> Passage: "시아파는 정당한 것보다 더 많은 의석을 가지고 있으며 이로 인해 국가 테러와 살인이 발생했습니다."라고 Fallujah의 선거 참관인 Mekky Latif는 비난했습니다. 새 의회의 첫 번째 과제는 대통령 1명과 부통령 2명을 임명하는 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> killings <br><br>
+				<br> 살인 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The Shiites have more seats than they deserve and because of this there has been state terrorism and killings," charged Mekky Latif, an election observer in Fallujah. The first task of the new parliament will be to appoint a president and two vice presidents. <br><br>
+				<br> Passage: "시아파는 정당한 것보다 더 많은 의석을 가지고 있으며 이로 인해 국가 테러와 살인이 발생했습니다."라고 Fallujah의 선거 참관인 Mekky Latif는 비난했습니다. 새 의회의 첫 번째 과제는 대통령 1명과 부통령 2명을 임명하는 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> task <br><br>
+				<br> 일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The Shiites have more seats than they deserve and because of this there has been state terrorism and killings," charged Mekky Latif, an election observer in Fallujah. The first task of the new parliament will be to appoint a president and two vice presidents. <br><br>
+				<br> Passage: "시아파는 정당한 것보다 더 많은 의석을 가지고 있으며 이로 인해 국가 테러와 살인이 발생했습니다."라고 Fallujah의 선거 참관인 Mekky Latif는 비난했습니다. 새 의회의 첫 번째 과제는 대통령 1명과 부통령 2명을 임명하는 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> terrorism <br><br>
+				<br> 테러 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The exectuive committee, chaired by Abbas, decided to call on Abbas to hold early parliamentary and presidential elections," executive committee member Saleh Rafaat told AFP. <br><br>
+				<br> Passage: "압바스가 의장을 맡은 집행위원회는 압바스에게 조기 총선과 대선을 요구하기로 결정했습니다." 집행위원 살레 라파트가 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> call <br><br>
+				<br> 부르다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The exectuive committee, chaired by Abbas, decided to call on Abbas to hold early parliamentary and presidential elections," executive committee member Saleh Rafaat told AFP. <br><br>
+				<br> Passage: "압바스가 의장을 맡은 집행위원회는 압바스에게 조기 총선과 대선을 요구하기로 결정했습니다." 집행위원 살레 라파트가 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> chaired <br><br>
+				<br> 의장을 맡은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The exectuive committee, chaired by Abbas, decided to call on Abbas to hold early parliamentary and presidential elections," executive committee member Saleh Rafaat told AFP. <br><br>
+				<br> Passage: "압바스가 의장을 맡은 집행위원회는 압바스에게 조기 총선과 대선을 요구하기로 결정했습니다." 집행위원 살레 라파트가 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> decided <br><br>
+				<br> 결정했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The exectuive committee, chaired by Abbas, decided to call on Abbas to hold early parliamentary and presidential elections," executive committee member Saleh Rafaat told AFP. <br><br>
+				<br> Passage: "압바스가 의장을 맡은 집행위원회는 압바스에게 조기 총선과 대선을 요구하기로 결정했습니다." 집행위원 살레 라파트가 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> elections <br><br>
+				<br> 선거 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The exectuive committee, chaired by Abbas, decided to call on Abbas to hold early parliamentary and presidential elections," executive committee member Saleh Rafaat told AFP. <br><br>
+				<br> Passage: "압바스가 의장을 맡은 집행위원회는 압바스에게 조기 총선과 대선을 요구하기로 결정했습니다." 집행위원 살레 라파트가 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> hold <br><br>
+				<br> 잡고 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The exectuive committee, chaired by Abbas, decided to call on Abbas to hold early parliamentary and presidential elections," executive committee member Saleh Rafaat told AFP. <br><br>
+				<br> Passage: "압바스가 의장을 맡은 집행위원회는 압바스에게 조기 총선과 대선을 요구하기로 결정했습니다." 집행위원 살레 라파트가 AFP에 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> told <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The modalities of that are going to be a point of discussion with us, with the Lebanese, with the Security Council," Ereli said. <br><br>
+				<br> 항로: "그 양식은 우리, 레바논, 안보리와 논의의 쟁점이 될 것입니다."라고 Ereli는 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> be <br><br>
+				<br> BE <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The modalities of that are going to be a point of discussion with us, with the Lebanese, with the Security Council," Ereli said. <br><br>
+				<br> 항로: "그 양식은 우리, 레바논, 안보리와 논의의 쟁점이 될 것입니다."라고 Ereli는 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> discussion <br><br>
+				<br> 논의 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The modalities of that are going to be a point of discussion with us, with the Lebanese, with the Security Council," Ereli said. <br><br>
+				<br> 항로: "그 양식은 우리, 레바논, 안보리와 논의의 쟁점이 될 것입니다."라고 Ereli는 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The next qualitative step will be when the (UN) secretary-general issues invitations to the direct talks," one western diplomat said. <br><br>
+				<br> 항로: “다음 질적 단계는 (유엔) 사무총장이 직접회담 초청장을 발부하는 것”이라고 한 서방 외교관은 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> invitations <br><br>
+				<br> 초대장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The next qualitative step will be when the (UN) secretary-general issues invitations to the direct talks," one western diplomat said. <br><br>
+				<br> 항로: “다음 질적 단계는 (유엔) 사무총장이 직접회담 초청장을 발부하는 것”이라고 한 서방 외교관은 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> issues <br><br>
+				<br> 문제 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The next qualitative step will be when the (UN) secretary-general issues invitations to the direct talks," one western diplomat said. <br><br>
+				<br> 항로: “다음 질적 단계는 (유엔) 사무총장이 직접회담 초청장을 발부하는 것”이라고 한 서방 외교관은 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The next qualitative step will be when the (UN) secretary-general issues invitations to the direct talks," one western diplomat said. <br><br>
+				<br> 항로: “다음 질적 단계는 (유엔) 사무총장이 직접회담 초청장을 발부하는 것”이라고 한 서방 외교관은 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> step <br><br>
+				<br> 단계 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The next qualitative step will be when the (UN) secretary-general issues invitations to the direct talks," one western diplomat said. <br><br>
+				<br> 항로: “다음 질적 단계는 (유엔) 사무총장이 직접회담 초청장을 발부하는 것”이라고 한 서방 외교관은 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> talks <br><br>
+				<br> 회담 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The non-food operations were largely Mr. Lortie's creation {and} his strategy didn't work," said Steven Holt, a financial analyst with Midland Doherty Ltd. Provigo's profit record over the past two years tarnished the company's and Mr. Lortie's reputations. <br><br>
+				<br> Passage: Midland Doherty Ltd.의 재무 분석가인 Steven Holt는 "비식품 사업은 주로 Mr. Lortie의 창작물이었고 {그리고} 그의 전략은 효과가 없었습니다."라고 말했습니다. 지난 2년 동안 Provigo의 수익 기록은 회사와 Mr. 로티의 평판. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> creation <br><br>
+				<br> 창조 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The non-food operations were largely Mr. Lortie's creation {and} his strategy didn't work," said Steven Holt, a financial analyst with Midland Doherty Ltd. Provigo's profit record over the past two years tarnished the company's and Mr. Lortie's reputations. <br><br>
+				<br> Passage: Midland Doherty Ltd.의 재무 분석가인 Steven Holt는 "비식품 사업은 주로 Mr. Lortie의 창작물이었고 {그리고} 그의 전략은 효과가 없었습니다."라고 말했습니다. 지난 2년 동안 Provigo의 수익 기록은 회사와 Mr. 로티의 평판. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> operations <br><br>
+				<br> 작업 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The non-food operations were largely Mr. Lortie's creation {and} his strategy didn't work," said Steven Holt, a financial analyst with Midland Doherty Ltd. Provigo's profit record over the past two years tarnished the company's and Mr. Lortie's reputations. <br><br>
+				<br> Passage: Midland Doherty Ltd.의 재무 분석가인 Steven Holt는 "비식품 사업은 주로 Mr. Lortie의 창작물이었고 {그리고} 그의 전략은 효과가 없었습니다."라고 말했습니다. 지난 2년 동안 Provigo의 수익 기록은 회사와 Mr. 로티의 평판. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> record <br><br>
+				<br> 기록 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The non-food operations were largely Mr. Lortie's creation {and} his strategy didn't work," said Steven Holt, a financial analyst with Midland Doherty Ltd. Provigo's profit record over the past two years tarnished the company's and Mr. Lortie's reputations. <br><br>
+				<br> Passage: Midland Doherty Ltd.의 재무 분석가인 Steven Holt는 "비식품 사업은 주로 Mr. Lortie의 창작물이었고 {그리고} 그의 전략은 효과가 없었습니다."라고 말했습니다. 지난 2년 동안 Provigo의 수익 기록은 회사와 Mr. 로티의 평판. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> said <br><br>
+				<br> 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The non-food operations were largely Mr. Lortie's creation {and} his strategy didn't work," said Steven Holt, a financial analyst with Midland Doherty Ltd. Provigo's profit record over the past two years tarnished the company's and Mr. Lortie's reputations. <br><br>
+				<br> Passage: Midland Doherty Ltd.의 재무 분석가인 Steven Holt는 "비식품 사업은 주로 Mr. Lortie의 창작물이었고 {그리고} 그의 전략은 효과가 없었습니다."라고 말했습니다. 지난 2년 동안 Provigo의 수익 기록은 회사와 Mr. 로티의 평판. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> strategy <br><br>
+				<br> 전략 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The non-food operations were largely Mr. Lortie's creation {and} his strategy didn't work," said Steven Holt, a financial analyst with Midland Doherty Ltd. Provigo's profit record over the past two years tarnished the company's and Mr. Lortie's reputations. <br><br>
+				<br> Passage: Midland Doherty Ltd.의 재무 분석가인 Steven Holt는 "비식품 사업은 주로 Mr. Lortie의 창작물이었고 {그리고} 그의 전략은 효과가 없었습니다."라고 말했습니다. 지난 2년 동안 Provigo의 수익 기록은 회사와 Mr. 로티의 평판. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> tarnished <br><br>
+				<br> 변색된 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 104 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "The non-food operations were largely Mr. Lortie's creation {and} his strategy didn't work," said Steven Holt, a financial analyst with Midland Doherty Ltd. Provigo's profit record over the past two years tarnished the company's and Mr. Lortie's reputations. <br><br>
+				<br> Passage: Midland Doherty Ltd.의 재무 분석가인 Steven Holt는 "비식품 사업은 주로 Mr. Lortie의 창작물이었고 {그리고} 그의 전략은 효과가 없었습니다."라고 말했습니다. 지난 2년 동안 Provigo의 수익 기록은 회사와 Mr. 로티의 평판. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 104 <br><br>
+			</td>
+			<td>
+				<br> work <br><br>
+				<br> 일하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 105 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Passage: "Their response came very late," an official from a Shiite party, the Supreme Council for the Islamic Revolution in Iraq (SCIRI), said in disgust. One policeman who was there, guarding a bank, said he felt helpless even though he was armed. <br><br>
+				<br> 항로: 이라크 이슬람 혁명 최고위원회(SCIRI)의 한 시아파 정당 관계자는 "그들의 반응은 매우 늦게 나왔다"고 혐오스럽게 말했다. 은행을 지키던 한 경찰관은 무장을 하고 있음에도 무력감을 느꼈다고 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 105 <br><br>
+			</td>
+			<td>
+				<br> armed <br><br>
+				<br> 무장 <br><br>
+			</td>
+		</tr>
+	</table>

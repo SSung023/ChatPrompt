@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'breakfast and a glass of milk is on the table'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '아침과 우유 한 잔이 식탁 위에 있다'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> breakfast a glass of milk is on table <br><br>
+				<br> 아침 우유 한 잔이 탁자 위에 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'truck with bed full of wood and a teddy bear'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '침대가 나무로 가득 찬 트럭과 테디베어'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> truck bed of and a teddy <br><br>
+				<br> 트럭 침대와 테디 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a airplane that is flying over a runway'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '활주로 위를 날고 있는 비행기'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> a airplane that flying over a runway <br><br>
+				<br> 활주로 위를 나는 비행기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a backpack sits next to a laptop and some other supplies'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '백팩은 노트북과 기타 용품 옆에 있습니다.' 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> a backpack to a laptop and other supplies <br><br>
+				<br> 노트북 및 기타 용품에 배낭 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball batter up to plate about to hit the ball'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '공을 치기 위해 타석까지 올라간 야구 타자'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> a baseball batter plate about hit the ball <br><br>
+				<br> 공을 치는 야구 타자판 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player is swinging and about to run'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '야구 선수가 휘두르며 뛰려고 한다'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> a baseball player swinging and about run <br><br>
+				<br> 스윙하고 뛰는 야구 선수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a batter is waiting to step up to the plate'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '타자가 타석에 오르기 위해 기다리고 있다'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> a batter is waiting to up to the plate <br><br>
+				<br> 타자는 접시까지 기다리고 있습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a batter with batting helmet getting ready to hit'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '안타를 준비하는 타격 헬멧을 쓴 타자'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> a batter with batting helmet getting ready to <br><br>
+				<br> 타격 헬멧을 쓴 타자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beach with many umbrellas and some chairs'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '많은 파라솔과 의자가 있는 해변'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> a beach with many umbrellas some chairs <br><br>
+				<br> 파라솔과 의자가 많은 해변 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful brown horse is peaking her head through the fence'. Remove all words of length '9' in the given sentence. <br><br>
+				<br> 문장: '아름다운 갈색 말이 담장 너머로 머리를 뾰족하게 내밀고 있다'. 주어진 문장에서 길이가 '9'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> a brown horse is peaking her head through the fence <br><br>
+				<br> 갈색 말이 울타리를 통해 그녀의 머리를 뾰족하게 하고 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful woman holding a piece of cake wearing a purple sweater'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '보라색 스웨터를 입고 케이크 한 조각을 들고 있는 아름다운 여성'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> a beautiful woman holding a piece of wearing a purple sweater <br><br>
+				<br> 보라색 스웨터를 입고 조각을 들고 아름다운 여자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom with a large bed and a fireplace'. Remove all words of length '9' in the given sentence. <br><br>
+				<br> 문장: '큰 침대와 벽난로가 있는 침실'. 주어진 문장에서 길이가 '9'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> a bedroom with a large bed and a <br><br>
+				<br> 큰 침대가 있는 침실과 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bicyclist riding a bike down a residential street'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '자전거를 타고 주거지 거리를 내려가는 자전거 타는 사람'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> a bicyclist a bike down a residential <br><br>
+				<br> 자전거를 타는 사람 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bird that is sitting in the road'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '길에 앉아 있는 새'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> a bird that sitting the road <br><br>
+				<br> 길가에 앉은 새 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white picture of a white and black man on a phone'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '휴대폰에 있는 백인과 흑인의 흑백 사진'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> a black and white of a white and black man on a phone <br><br>
+				<br> 흑인과 백인 전화에 백인과 흑인 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black bear standing in water and holding the back of a boat'. Remove all words of length '8' in the given sentence. <br><br>
+				<br> 문장: '흑곰이 물 속에 서서 배의 등을 잡고 있다'. 주어진 문장에서 길이가 '8'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> a black bear in water and holding the back of a boat <br><br>
+				<br> 물속에 있는 흑곰과 배의 뒤를 잡고 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat eats food out of a white bowl on the floor'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '검은 고양이가 바닥에 있는 하얀 그릇에서 음식을 먹는다'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> a black cat eats food out a white bowl the floor <br><br>
+				<br> 검은 고양이가 흰 그릇 바닥에서 음식을 먹는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat is sitting on the lid of a toilet in a bathroom'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '검은 고양이가 화장실 변기 뚜껑에 앉아 있다'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> a black cat is sitting on the lid of a in a bathroom <br><br>
+				<br> 검은 고양이가 욕실의 뚜껑에 앉아 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat sitting next to tobacco products and a suitcase'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '담배 제품과 여행 가방 옆에 앉아 있는 검은 고양이'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> a black cat sitting next tobacco products and a suitcase <br><br>
+				<br> 담배 제품과 여행 가방 옆에 앉아 있는 검은 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue and yellow jet flying past the golden gate bridge'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '금문교를 지나는 파란색과 노란색 제트기'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> a and yellow jet flying the golden bridge <br><br>
+				<br> 황금 다리를 비행하는 노란색 제트기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blurry photo of someone standing on a boat in the distance'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '멀리 배 위에 서 있는 누군가의 흐릿한 사진'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> a blurry of someone standing on a boat in the distance <br><br>
+				<br> 멀리서 보트에 서있는 누군가의 흐릿한 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy lies prone on a surfboard in a wave'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '소년이 파도 속에서 서핑보드에 엎드려 있다'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> a boy prone on a surfboard in a <br><br>
+				<br> 서핑 보드에 경향이 소년 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a broken up toilet on the sidewalk'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '보도에 고장난 변기'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> broken up toilet on the sidewalk <br><br>
+				<br> 보도에 깨진 화장실 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bronze statue sits in front of a brick building'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '벽돌 건물 앞에 동상이 앉아 있다'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> a bronze statue in front of a brick building <br><br>
+				<br> 벽돌 건물 앞의 동상 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown and white horse photobombs a picture of two people'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '갈색과 백마가 두 사람의 사진을 폭파한다'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> brown and white horse photobombs picture of two people <br><br>
+				<br> 갈색과 흰색 말 photobombs 두 사람의 사진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown cat sits in the window of a brown brick building'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '갈색 고양이가 갈색 벽돌 건물의 창가에 앉아 있다'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> a brown cat in the window of a brown brick building <br><br>
+				<br> 갈색 벽돌 건물의 창문에 있는 갈색 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown retriever dog with a pink frisbee in her mouth'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '분홍색 원반을 입에 물고 있는 갈색 리트리버 개'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> a brown retriever with a pink frisbee in mouth <br><br>
+				<br> 핑크 프리스비를 입에 물고 있는 갈색 리트리버 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a building with a large clocked built on the outside of it'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '외부에 큰 시계탑이 세워진 건물'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> a building a large clocked built on the outside of it <br><br>
+				<br> 건물 외부에 지어진 큰 시계 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of oranges stacked up on and displayed for sale'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '오렌지 한 다발을 쌓아서 판매용으로 진열하다'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> a bunch of oranges stacked up on displayed sale <br><br>
+				<br> 진열된 판매에 쌓인 오렌지 다발 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat laying down on a pillow on a couch'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '소파 위 베개에 누워 있는 고양이'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> cat laying down on pillow on couch <br><br>
+				<br> 소파에 베개에 누워 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat looks out from under a blue blanket'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '푸른 담요 아래에서 밖을 내다보는 고양이'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> a cat looks out from under a blue <br><br>
+				<br> 고양이는 파란색 아래에서 밖을 내다 본다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat playing with a stuffed animal on the floor'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '바닥에서 박제 동물을 가지고 노는 고양이'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> a playing with a stuffed animal on floor <br><br>
+				<br> 바닥에 박제 동물을 가지고 노는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting on top of a blanket on a bed'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '침대 위 이불 위에 앉아 있는 고양이'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> a cat on top of a on a bed <br><br>
+				<br> 침대 위의 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting outside on a blue chair'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '푸른 의자에 밖에 앉아 있는 고양이'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> a cat on a blue chair <br><br>
+				<br> 파란 의자에 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat that i sleeping on a pile of junk'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '쓰레기 더미 위에서 자고 있는 고양이'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> a that i sleeping on a pile of junk <br><br>
+				<br> 내가 쓰레기 더미에서 자고 있다는 것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child swinging at a tennis ball thrown by a man from across the net'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '네트 건너편에서 남자가 던진 테니스 공을 휘두르는 아이'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> a child swinging at a tennis thrown by a man across the net <br><br>
+				<br> 남자가 네트 너머로 던진 테니스에서 스윙하는 아이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a city street at night with people crossing it'. Remove all words of length '8' in the given sentence. <br><br>
+				<br> 문장: '사람들이 건너는 밤의 도시 거리'. 주어진 문장에서 길이가 '8'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> a city street at night with people it <br><br>
+				<br> 사람들과 밤에 도시 거리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock on a street post with a name above it'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '위에 이름이 있는 가로등의 시계'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> a clock on a post with a name above it <br><br>
+				<br> 위에 이름이 있는 게시물의 시계 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock on the side of the street with a street map'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '거리 지도가 있는 길가에 있는 시계'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> a clock on the of the street a street map <br><br>
+				<br> 거리의 시계 거리 지도 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock tower on an old red brick building'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '오래된 붉은 벽돌 건물에 시계탑'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> a clock tower old red brick building <br><br>
+				<br> 시계탑 오래된 붉은 벽돌 건물 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock tower with gold numbers sitting on top of a building'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '건물 꼭대기에 금색 숫자가 있는 시계탑'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> a clock tower with gold numbers sitting on of a building <br><br>
+				<br> 건물 위에 금색 숫자가 있는 시계탑 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a toilet with a box on top near a wall'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '벽 가까이 위에 상자가 있는 변기 클로즈업'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> a close a toilet with a box top near a wall <br><br>
+				<br> 벽 근처에 박스 탑이 있는 가까운 변기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a zebra in a field'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: 'a close up of a zebra in a field'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> a up of a in a <br><br>
+				<br> 최대 한 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of an elephant walking on a dirt ground'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '흙바닥 위를 걷는 코끼리의 클로즈업'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> a close up of an elephant walking on a dirt <br><br>
+				<br> 흙 위를 걷는 코끼리의 클로즈업 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a closeup of two zebras standing near each other'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '서로 가까이 서 있는 두 얼룩말의 근접 촬영'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> a of two zebras standing near each other <br><br>
+				<br> 서로 가까이 서 있는 두 얼룩말 중 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a collection of vegetables are lying on a table'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '야채 모음이 탁자 위에 놓여 있다'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> a collection vegetables are lying a table <br><br>
+				<br> 컬렉션 야채는 테이블에 누워있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a computer is sitting on a messy desk with flowers'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '컴퓨터가 꽃이 있는 지저분한 책상 위에 앉아 있다'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> a computer sitting a messy desk with flowers <br><br>
+				<br> 꽃이 있는 지저분한 책상에 앉아 있는 컴퓨터 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a computer mouse keyboard and various office items on a desk'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '컴퓨터 마우스 키보드와 책상 위의 각종 사무용품'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> a computer mouse keyboard and various items on a desk <br><br>
+				<br> 컴퓨터 마우스 키보드 및 책상 위의 다양한 항목 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple guys on motorcycle riding down the road'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '길을 달리는 오토바이를 탄 커플'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> couple guys on motorcycle riding down the road <br><br>
+				<br> 도로를 타고 오토바이에 몇 사람 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of giraffe standing next to a small wooden tree'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '작은 나무 옆에 서 있는 기린 부부'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> a of giraffe standing next to a small tree <br><br>
+				<br> 작은 나무 옆에 서 있는 기린 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of giraffe standing on top of a grass covered field'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '풀로 뒤덮인 들판 위에 서 있는 기린 한 쌍'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> a of giraffe standing on top of a grass covered field <br><br>
+				<br> 풀 덮힌 들판 위에 서 있는 기린 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of laptops sitting on a table'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '테이블 위에 앉아 있는 노트북 몇 대'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> a couple laptops sitting a table <br><br>
+				<br> 테이블에 앉아 있는 몇 대의 노트북 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of people sitting next to each other on a bench'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '벤치에 나란히 앉아 있는 두 사람'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> a couple of people next to each other on a bench <br><br>
+				<br> 벤치에 서로 옆에 몇 사람 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of skis sticking out of a snow covered ground'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '눈 덮인 땅에서 튀어나온 두 개의 스키'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> a couple of sticking out of a covered ground <br><br>
+				<br> 덮인 땅에서 튀어 나온 커플 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of slices of pizza that are in a box'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '상자에 들어 있는 피자 두 조각'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> a of of pizza that are in a box <br><br>
+				<br> 상자에 있는 피자 한 조각 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of women together who are eating'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '함께 식사를 하고 있는 두 명의 여성'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> a of women together who are <br><br>
+				<br> 함께 있는 여성들의 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of zebra standing on top of a lush green field'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '무성한 녹색 들판 위에 서 있는 얼룩말 커플'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> a of zebra standing on top of a lush green field <br><br>
+				<br> 무성한 녹색 들판 위에 얼룩말 서 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a crowd of young children sitting down at a white table sharing a meal'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '하얀 식탁에 앉아 식사를 나누는 어린 아이들의 무리'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> a crowd young children sitting down a white table sharing a meal <br><br>
+				<br> 흰색 테이블에 앉아 식사를 나누는 군중 어린 아이들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a desktop computer monitor sitting on top of a desk next to a red bottle of water'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '빨간색 물병 옆 책상 위에 놓인 데스크탑 컴퓨터 모니터'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> a computer on top of a desk next to a red bottle of water <br><br>
+				<br> 빨간 물병 옆 책상 위의 컴퓨터 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a desktop computer sitting on top of a wooden desk'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '나무 책상 위에 놓인 데스크탑 컴퓨터'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> a desktop computer sitting on of a wooden desk <br><br>
+				<br> 나무 책상 위에 앉아 있는 데스크톱 컴퓨터 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dinning area with table chairs and a refrigerator'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '테이블 의자와 냉장고가 있는 식사 공간'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> a dinning area with table chairs a refrigerator <br><br>
+				<br> 테이블 의자가 있는 식사 공간 냉장고 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dinning room with green chairs and a table with flowers on it'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '녹색 의자와 꽃이 놓인 테이블이 있는 식당'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> a dinning room with chairs and a with flowers on it <br><br>
+				<br> 의자가 있는 식당과 꽃이 있는 식당 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dirty and very dark and scary kitchen'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '더럽고 매우 어둡고 무서운 부엌'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> a dirty very dark scary kitchen <br><br>
+				<br> 더러운 매우 어두운 무서운 부엌 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog laying on top of a blanket on a bed'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '침대 위 이불 위에 누워있는 개'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> a laying on of a blanket on a <br><br>
+				<br> 위에 담요를 깔고 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog on the grass holding a frisbee'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '프리스비를 들고 잔디 위의 개'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> a dog the grass holding a frisbee <br><br>
+				<br> 개는 프리스비를 들고 잔디 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog sitting on a bench outside a shop'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '가게 밖 벤치에 앉아 있는 개'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> a dog on a bench a shop <br><br>
+				<br> 상점 벤치에 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog that is running with a frisbee in its mouth'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '원반을 입에 물고 달리는 개'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> a dog is running a frisbee in its mouth <br><br>
+				<br> 개가 입에 프리스비를 물고 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog that is siting in a microwave'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '전자레인지에 앉아있는 개'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> a dog that is in a microwave <br><br>
+				<br> 전자레인지에 있는 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog with a long tail is laying in a chair'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '긴 꼬리를 가진 개가 의자에 누워 있다'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> a dog with a long tail laying a chair <br><br>
+				<br> 긴 꼬리를 가진 개는 의자에 누워 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a double decker city bus turning a corner'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '모퉁이를 도는 2층 시내버스'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> a double decker bus turning a corner <br><br>
+				<br> 모퉁이를 돌고 있는 2층 버스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a female baseball player unleashes a hit and goes for the run'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '여자 야구 선수가 안타를 날리고 뛰다'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> female baseball player unleashes hit and goes for the run <br><br>
+				<br> 안타를 날리고 뛰는 여자 야구 선수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a female tennis player playing a game of tennis'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '테니스 게임을 하는 여자 테니스 선수'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> female tennis player playing game of tennis <br><br>
+				<br> 테니스의 여성 테니스 선수 재생 게임 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a few big elephants that are in the middle of people'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '사람들 사이에 있는 몇 마리의 큰 코끼리'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> a few big elephants are in the middle of people <br><br>
+				<br> 몇 마리의 큰 코끼리가 사람들의 한가운데에 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a few large animals in a desert with a sky background'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '하늘을 배경으로 사막에 있는 몇 마리의 큰 동물'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> few large animals in desert with sky background <br><br>
+				<br> 하늘 배경으로 사막에 있는 몇 가지 큰 동물 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fire hydrant on a sidewalk in front of a brick building'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '벽돌 건물 앞 인도의 소화전'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> a fire hydrant a sidewalk front a brick building <br><br>
+				<br> 소화전 보도 앞 벽돌 건물 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a focaccia bread is topped with tomatoes peppers and zucchini'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '포카치아 빵에 토마토 고추와 애호박을 얹었다'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> a focaccia is topped with tomatoes peppers and zucchini <br><br>
+				<br> focaccia는 토마토 고추와 호박을 얹은 것입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fullfigured woman sitting on top of the washer'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '세탁기 위에 앉아 있는 완전한 여성'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> a fullfigured woman on top of the washer <br><br>
+				<br> 세탁기 위에 전신 여성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gathering of people talking with wine glasses in the foreground'. Remove all words of length '10' in the given sentence. <br><br>
+				<br> 문장: '포그라운드에서 와인 잔을 들고 이야기하는 사람들의 모임'. 주어진 문장에서 길이가 '10'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> a gathering of people talking with wine glasses in the <br><br>
+				<br> 와인잔을 들고 이야기하는 사람들의 모임 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gentleman listening to his radio pulling a suitcase in the sun'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '태양 아래에서 여행 가방을 끄는 라디오를 듣고 있는 신사'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> a gentleman listening to his pulling a suitcase in the sun <br><br>
+				<br> 한 신사가 태양 아래에서 여행가방을 당기는 소리를 듣고 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giant red teddy bear with a black hat sits among red and black decorations'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '빨간색과 검은색 장식 사이에 검은색 모자를 쓴 거대한 빨간색 테디베어가 앉아 있다'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> a red bear with a hat sits red and decorations <br><br>
+				<br> 모자를 쓴 붉은 곰이 빨간색으로 장식되어 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a glazed donut on tissue paper on a tile surface'. Remove all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '타일 표면의 티슈 페이퍼에 유약을 바른 도넛'. 주어진 문장에서 길이가 '6'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> a donut on paper on a tile surface <br><br>
+				<br> 타일 표면에 종이에 도넛 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gourmet pizza dish on a pizza platter with one slice missing'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '한 조각이 빠진 피자 플래터에 고급 피자 요리'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> a gourmet pizza dish on a pizza platter with slice missing <br><br>
+				<br> 슬라이스가 없는 피자 플래터에 고급 피자 요리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a grey and white cat laying on top of a box'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '상자 위에 누워 있는 회색과 흰색 고양이'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> a grey and cat laying on top of a box <br><br>
+				<br> 상자 위에 누워 회색과 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of boats with colorful flags at docked'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '정박한 다채로운 깃발이 달린 보트 그룹'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> a group boats with colorful flags docked <br><br>
+				<br> 화려한 깃발이 달린 단체 보트가 정박해 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of buses sit on the side of a hill'. Remove all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '한 무리의 버스가 언덕 옆에 앉아 있다'. 주어진 문장에서 길이가 '3'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> a group of buses on side of a hill <br><br>
+				<br> 언덕 옆에 버스 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of four military airplanes in a flight formation'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '편대 편대에 있는 4대의 군용기 그룹'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> a of four military airplanes in a flight formation <br><br>
+				<br> 편대를 이루고 있는 4대의 군용기 중 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of men hang out together'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '한 무리의 남자들이 함께 어울린다'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> a group of men out together <br><br>
+				<br> 한 무리의 남자들이 함께 외출하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people are next to a double decker bus'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '한 무리의 사람들이 2층 버스 옆에 있다'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> group of people are next to double decker bus <br><br>
+				<br> 사람들의 그룹은 더블 데커 버스 옆에 있습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people standing on the beach flying a kite'. Remove all words of length '8' in the given sentence. <br><br>
+				<br> 문장: '해변에 서서 연을 날리는 무리'. 주어진 문장에서 길이가 '8'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> a group of people on the beach flying a kite <br><br>
+				<br> 해변에서 연을 날리는 한 무리의 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people waiting to board a double decker bus'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '이층 버스에 탑승하기 위해 기다리는 사람들의 그룹'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> a group of people to board a double decker bus <br><br>
+				<br> 2층 버스에 탑승하는 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people walking outside of a building with a clock tower in the background'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '시계탑을 배경으로 건물 밖을 걷는 사람들'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> a group of people of a building with a clock tower in the background <br><br>
+				<br> 배경에 시계탑이 있는 건물의 한 무리의 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of zebra walking across a dry landscape'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '마른 풍경을 가로질러 걷는 얼룩말 무리'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> a of walking across a dry landscape <br><br>
+				<br> 메마른 풍경을 걷는 것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy wearing a suit in a hotel room'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '호텔 방에서 양복을 입은 남자'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> a guy a suit in a hotel room <br><br>
+				<br> 호텔 방에서 정장을 입은 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a herd of elephant walking along a river underneath a rail bridge'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '철교 아래 강을 따라 걷는 코끼리 떼'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> a herd elephant walking along a river underneath a rail bridge <br><br>
+				<br> 철교 아래 강을 따라 걷는 무리 코끼리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a hooded person sits in the dark next to a laptop'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '두건을 쓴 사람이 어둠 속에서 노트북 옆에 앉아 있다'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> a hooded person sits the dark next a laptop <br><br>
+				<br> 두건을 쓴 사람이 노트북 옆에 어둠 속에 앉아 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a horse grazing on a lush green hillside'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '푸른 언덕에서 풀을 뜯고 있는 말'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> a horse on a lush green hillside <br><br>
+				<br> 무성한 녹색 언덕 위의 말 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a keyboard with red and black letters sitting next to each other'. Remove all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '빨간색과 검은색 문자가 나란히 있는 키보드'. 주어진 문장에서 길이가 '7'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> a keyboard with red and black next to each other <br><br>
+				<br> 빨간색과 검은색이 나란히 있는 키보드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen area with a stove and various pots and pans'. Remove all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '스토브와 다양한 냄비와 프라이팬이 있는 주방 공간'. 주어진 문장에서 길이가 '4'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> a kitchen a stove and various and <br><br>
+				<br> 주방 스토브 및 다양한 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen with a green oven pink refrigerator microwave and sink'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '그린 오븐 핑크 냉장고 전자레인지와 싱크대가 있는 주방'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> a kitchen with a oven pink refrigerator microwave and sink <br><br>
+				<br> 오븐 핑크 냉장고 전자레인지와 싱크대가 있는 주방 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen with a stove and refrigerator on a tile floor'. Remove all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '타일 바닥에 스토브와 냉장고가 있는 부엌'. 주어진 문장에서 길이가 '2'인 단어를 모두 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> a kitchen with a stove and refrigerator a tile floor <br><br>
+				<br> 스토브와 냉장고가 있는 주방 타일 바닥 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen with builtin cupboards and a white sink'. Remove all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '빌트인 찬장과 흰색 싱크대가 있는 주방'. 주어진 문장에서 길이가 '5'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> a kitchen with builtin cupboards and a sink <br><br>
+				<br> 빌트인 찬장과 싱크대가 있는 주방 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitten is sitting on the floor next to a shoe'. Remove all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '새끼 고양이가 신발 옆 바닥에 앉아 있다'. 주어진 문장에서 길이가 '1'인 모든 단어를 제거합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> kitten is sitting on the floor next to shoe <br><br>
+				<br> 새끼 고양이가 신발 옆 바닥에 앉아 있다 <br><br>
+			</td>
+		</tr>
+	</table>

@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['238', 'h', '92', 'U', '2799'] <br><br>
+				<br> ['238', 'h', '92', 'U', '2799'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['789', 'l', '2, 'E', 'n', '67'] <br><br>
+				<br> ['789', 'l', '2, 'E', 'n', '67'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> Numbers and Alphabets are Tied <br><br>
+				<br> 숫자와 알파벳이 묶여있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['X', 'h', '3', 'M', '27'] <br><br>
+				<br> ['X', 'h', '3', 'M', '27'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1', '1471', '1235', '533', 'p', '5363', 'u', '5361', '4173', 'c', 'y'] <br><br>
+				<br> ['1', '1471', '1235', '533', 'p', '5363', 'u', '5361', '4173', 'c', 'y'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1001', '4847', 'v', '9739', 'l', 'p', 'X', '779', '2397', '8887', '2627', 'e', '6841', 'R', 'G', '3505', 'S', 'W', 'C', '9391', 'X', '7789', 'b', '7019', '5037', '6821', 'k', 'h', '6345', '8395', 't', 'g', 'x', '273', '1373', 'S', 'K', '2135', '3789', 'p', 'G', '391', '4901', '9903'] <br><br>
+				<br> ['1001', '4847', 'v', '9739', 'l', 'p', 'X', '779', '2397', '8887', '2627', 'e', ' 6841', 'R', 'G', '3505', 'S', 'W', 'C', '9391', 'X', '7789', 'b', '7019', '5037' , '6821', 'k', 'h', '6345', '8395', 't', 'g', 'x', '273', '1373', 'S', 'K', ' 2135', '3789', '피', '지', '391', '4901', '9903'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['103', '1629', '1799'] <br><br>
+				<br> ['103', '1629', '1799'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1067', '4269', '4241', '7779', '4741', '7127', 'g', 'h', '5397', 'N', 'g', 'L', '6251', 'O', 'F', 'Z', 'z', '4457', 'I', '3261', '8871', 's', 'T', '4455', 'Y', '7115', '4955', 'h', '6339', '5955', 'H', '4505', 'G'] <br><br>
+				<br> ['1067', '4269', '4241', '7779', '4741', '7127', 'g', 'h', '5397', 'N', 'g', 'L', ' 6251', 'O', 'F', 'Z', 'z', '4457', 'I', '3261', '8871', 's', 'T', '4455', 'Y' , '7115', '4955', 'h', '6339', '5955', 'ㅁ', '4505', '지'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1097', 'J', 'O', 'C', '5933', '6405', 'J', '8997', 's', '1815', 'l'] <br><br>
+				<br> ['1097', 'J', 'O', 'C', '5933', '6405', 'J', '8997', 's', '1815', 'l'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1133', '4315', '8201', 'Q', '6799', 'y', 'h', '6933', 'W', 'D', 'M', '917', '3663', '3193'] <br><br>
+				<br> ['1133', '4315', '8201', 'Q', '6799', 'y', 'h', '6933', 'W', 'D', 'M', '917', ' 3663', '3193'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1151', '5693'] <br><br>
+				<br> ['1151', '5693'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1169', '8821'] <br><br>
+				<br> ['1169', '8821'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1221', 'H', 't', '9111', 'Q', '7981', 'x', '2435', '571', '9773', '5423', '5241', '5515', 'c', '5249', 'a', 'R'] <br><br>
+				<br> ['1221', 'H', 't', '9111', 'Q', '7981', 'x', '2435', '571', '9773', '5423', '5241', ' 5515', '씨', '5249', '아', '알'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1269', 'O', '1711', '8913', 'u', '5223', '5043', '7833', '9731', '583', '253', '3161', '2887', 'S', 'h', '9621', '5897', 'g', '7523', '1327', 's', '7093', '3111', 'i'] <br><br>
+				<br> ['1269', 'O', '1711', '8913', 'u', '5223', '5043', '7833', '9731', '583', '253', '3161', ' 2887', 'S', 'h', '9621', '5897', 'g', '7523', '1327', 's', '7093', '3111', 'i'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1289', '3011'] <br><br>
+				<br> ['1289', '3011'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['135', 'j', '4513', '6861', 'o', 'i', 'r', 'l', 'O', '8377', 'G', 'h', '6721', '1917', '6935', 't', '7965', 'w', '7695', '2565', '2291', 'h', 'R', '1147', '1377', '9635', 'S', '4935', 'Z', '6399', '1289', 'M', 'X', '8789', 'U', '7889', 'v', '7107', 'b', 'X'] <br><br>
+				<br> ['135', 'j', '4513', '6861', 'o', 'i', 'r', 'l', 'O', '8377', 'G', 'h', ' 6721', '1917', '6935', 't', '7965', 'w', '7695', '2565', '2291', 'h', 'R', '1147', '1377' , '9635', 'S', '4935', 'Z', '6399', '1289', 'M', 'X', '8789', 'U', '7889', 'v', ' 7107', '비', '엑스'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> Numbers and Alphabets are Tied <br><br>
+				<br> 숫자와 알파벳이 묶여있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1363', 'm', '3987', '1431', '8787', 'j', '2011', 'X', '2215', 'v', '1045', '6495', 'D', '2017', 'O', 'o', '295', 'G', 'N', '9683', 'U', 'P', '8471', 'l', '4075', '7391', '7113', 'C', '9299', '4859', 'i', '6827', 'n', '6141', 'M', 'p', 'j', 'u', 'p', '8501', '7247', '1973', 'b', 'N', 'S', 's', '7477', '2011', '8857'] <br><br>
+				<br> ['1363', 'm', '3987', '1431', '8787', 'j', '2011', 'X', '2215', 'v', '1045', '6495', ' D', '2017', 'O', 'o', '295', 'G', 'N', '9683', 'U', 'P', '8471', 'l', '4075' , '7391', '7113', 'C', '9299', '4859', 'i', '6827', 'n', '6141', 'M', 'p', 'j', ' u', 'p', '8501', '7247', '1973', 'b', 'N', 'S', 's', '7477', '2011', '8857'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1379', '639', 'R', 'T', '6543', 'a', '9715', 'A', 'Z', '8261', '8443', '5631', 'L', '9243', '6349', 'o', 'B', 'A', '3517', 'G', '4711', '1273', '7271', 'K', 'x', 'b', '1313', '9377', 'j', '4865', '75'] <br><br>
+				<br> ['1379', '639', 'R', 'T', '6543', 'a', '9715', 'A', 'Z', '8261', '8443', '5631', ' L', '9243', '6349', 'o', 'B', 'A', '3517', 'G', '4711', '1273', '7271', 'K', 'x' , 'b', '1313', '9377', 'j', '4865', '75'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1389', '9551', '5793', 'W', 'Q', '2803', 'b', 'g', 'z', '8419', '5109', '945'] <br><br>
+				<br> ['1389', '9551', '5793', 'W', 'Q', '2803', 'b', 'g', 'z', '8419', '5109', '945'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1393', '5959', '4735', 'M', '4327', 'M', '6763', '3569', '3599', '7793', 'x', '7425', 'h', '1519', 'A', 'F', '5561', '6959', 'l', '7629', 'f', '1611', 'x', 'F', '4233'] <br><br>
+				<br> ['1393', '5959', '4735', 'M', '4327', 'M', '6763', '3569', '3599', '7793', 'x', '7425', ' h', '1519', 'A', 'F', '5561', '6959', 'l', '7629', 'f', '1611', 'x', 'F', '4233' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1427', 'P', '6695', '4145', 'A', '4931', 'M', '9373', '5217', '3885', 'g', '5545', 'i', '8783', '5175', 'J', '3425', 'r', 'i', '619', '4213', 'X', '8591', '3665', '5549', '2117', 'X', '3687', '2703', '4681', '8981', 'A', '3301', '6343', 's', 's', 'c', '6739', 'E', '6859', '7575', 'K', 'p'] <br><br>
+				<br> ['1427', 'P', '6695', '4145', 'A', '4931', 'M', '9373', '5217', '3885', 'g', '5545', ' i', '8783', '5175', 'J', '3425', 'r', 'i', '619', '4213', 'X', '8591', '3665', '5549' , '2117', 'X', '3687', '2703', '4681', '8981', 'A', '3301', '6343', 's', 's', 'c', ' 6739', 'E', '6859', '7575', 'K', 'p'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1475', 'M', '6495', 'A', 'X', 'H', '8541', 'X', '9369', 'I', 'P', 'E', '7637', 'V', '2807', '9423', '2151', 'N', '9823', '8921', 'H', 'X', '7543'] <br><br>
+				<br> ['1475', 'M', '6495', 'A', 'X', 'H', '8541', 'X', '9369', 'I', 'P', 'E', ' 7637', 'V', '2807', '9423', '2151', 'N', '9823', '8921', 'H', 'X', '7543'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1519', '2985', '4099', '8979', 'c', 'i', 'O', '8953', '8385', '8913', 'T', '1615', 'o', '7881', 's', 'z', '4829', 'q', '1569', 'r', '4423', 'v', 'V', 'h', '7233', '6111'] <br><br>
+				<br> ['1519', '2985', '4099', '8979', 'c', 'i', 'O', '8953', '8385', '8913', 'T', '1615', ' o', '7881', 's', 'z', '4829', 'q', '1569', 'r', '4423', 'v', 'V', 'h', '7233' , '6111'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1585', '1235', '2769', 'r', '8045', 'E', 'X', '6955', '6879'] <br><br>
+				<br> ['1585', '1235', '2769', 'r', '8045', 'E', 'X', '6955', '6879'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1597', '2859', '2931', '2303', 'q', '2619', 'b', 'p', 'c', '887', '8241', '7537', 'q'] <br><br>
+				<br> ['1597', '2859', '2931', '2303', 'q', '2619', 'b', 'p', 'c', '887', '8241', '7537', ' 큐'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1599', '5419', '2397', '185', 'b', 's', '1961', '2629', '2893', 'q', 'I', '5187', '9871', '9565', '2595', '723', '1615', 'B', 'G'] <br><br>
+				<br> ['1599', '5419', '2397', '185', 'b', 's', '1961', '2629', '2893', 'q', 'I', '5187', ' 9871', '9565', '2595', '723', '1615', '비', '지'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1609', '2495'] <br><br>
+				<br> ['1609', '2495'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1725', '6609', '27', '6045', '4871'] <br><br>
+				<br> ['1725', '6609', '27', '6045', '4871'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1729', 'p', 'i', '1785', 'Q', 'h', '6005', '9221', 'b', 'W', 'I', '8569'] <br><br>
+				<br> ['1729', 'p', 'i', '1785', 'Q', 'h', '6005', '9221', 'b', 'W', 'I', '8569'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1739', '129', 'M', '7575', '9373', '6063', '2963', '6509', '8715', 'C', 'v', 'q', '3631', '2353', 'Y', 'E', 'c'] <br><br>
+				<br> ['1739', '129', 'M', '7575', '9373', '6063', '2963', '6509', '8715', 'C', 'v', 'q', ' 3631', '2353', 'Y', 'E', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1775', '1739', '995', '6371', '8285', '5745', '6427'] <br><br>
+				<br> ['1775', '1739', '995', '6371', '8285', '5745', '6427'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1827', '8883', '4789', '2441'] <br><br>
+				<br> ['1827', '8883', '4789', '2441'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1843', '7669', 'c', '9727', 'n', '3167', 'c', 'B', 'l', '4101', 'J', 'M', 'f', '3263', '739', 'q', 'i', 'W', '8933', '8797', '3589', '2307', '3185', '9211', 'X', 'u', 'z', '2909', 't'] <br><br>
+				<br> ['1843', '7669', 'c', '9727', 'n', '3167', 'c', 'B', 'l', '4101', 'J', 'M', ' f', '3263', '739', 'q', 'i', 'W', '8933', '8797', '3589', '2307', '3185', '9211', 'X' , 'u', 'z', '2909', 't'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1851', '3609', '991'] <br><br>
+				<br> ['1851', '3609', '991'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1861', '4629', 'q', '111', '2301', '5925', 'y', '5499', 'a', '1151', '4965', '29', '3389', '6199', '5305', 'E', 'M', '6733', '117', '5401'] <br><br>
+				<br> ['1861', '4629', 'q', '111', '2301', '5925', 'y', '5499', 'a', '1151', '4965', '29', ' 3389', '6199', '5305', 'E', 'M', '6733', '117', '5401'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1865', 'N', '4803', 'g', 'M', '3459', 'k', '3469', 'L', 'y', 's', '6627'] <br><br>
+				<br> ['1865', 'N', '4803', 'g', 'M', '3459', 'k', '3469', 'L', 'y', 's', '6627'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['189', 'A', 'h', 'F', '9423', '4563', '5421', 'B', 'V', 'w', '8555'] <br><br>
+				<br> ['189', 'A', 'h', 'F', '9423', '4563', '5421', 'B', 'V', 'w', '8555'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1895', '9985'] <br><br>
+				<br> ['1895', '9985'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1919', '8491'] <br><br>
+				<br> ['1919', '8491'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1965', '7555', '6495', '807', '7583', '5381', '8103', 'L', '8717', '6709', 'd', 'M', 'U', 'r', '1565', '411', '6871', 'A', 'I', 'v', '2307', 'k', 'a', '5841', '5771', 'c', 'H', 'U', '2313', 'q', 'I', '1859', '1367', 'B', 'z', '2801', 'H', '5161', '2707', 'i'] <br><br>
+				<br> ['1965', '7555', '6495', '807', '7583', '5381', '8103', 'L', '8717', '6709', 'd', 'M', ' U', 'r', '1565', '411', '6871', 'A', 'I', 'v', '2307', 'k', 'a', '5841', '5771' , 'c', 'H', 'U', '2313', 'q', 'I', '1859', '1367', 'B', 'z', '2801', 'H', ' 5161', '2707', '나'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1987', '287', '9425', '6911', '2499', '3195', '6277', '8797', 'b', '3089', 'a', 'q', 'm', '617', '1711', 'p', 'P', '1403', '5473', 'i', '6663', '829'] <br><br>
+				<br> ['1987', '287', '9425', '6911', '2499', '3195', '6277', '8797', 'b', '3089', 'a', 'q', ' m', '617', '1711', 'p', 'P', '1403', '5473', 'i', '6663', '829'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1993', 'o', 'C', '7023', '5083', '7313', 'E'] <br><br>
+				<br> ['1993', 'o', 'C', '7023', '5083', '7313', 'E'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2071', '5431'] <br><br>
+				<br> ['2071', '5431'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2143', '6427'] <br><br>
+				<br> ['2143', '6427'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2231', '1707', 'j', 'p', '4329', '4237', '5413', '3015', '9631', 'C', '4723', '1379', '4729', 'v', 'K', '3211', 'k', '6561', 'o', 'H'] <br><br>
+				<br> ['2231', '1707', 'j', 'p', '4329', '4237', '5413', '3015', '9631', 'C', '4723', '1379', ' 4729', 'v', 'K', '3211', 'k', '6561', 'o', 'H'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2237', '5911', 'k', 'v', '4461', 'D', '3181', '4589', 'D', 'm', '8313', 'k', '1511', 'B', 'L', '783', 'j', 'C', 'B', 'y', 'x', '7329', 'f', 'A', 'L', 'g', 'c', 'i', '2813', 'q', '689', 'P', '8185', '7981'] <br><br>
+				<br> ['2237', '5911', 'k', 'v', '4461', 'D', '3181', '4589', 'D', 'm', '8313', 'k', ' 1511', 'B', 'L', '783', 'j', 'C', 'B', 'y', 'x', '7329', 'f', 'A', 'L' , 'g', 'c', 'i', '2813', 'q', '689', 'P', '8185', '7981'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2299', '4611'] <br><br>
+				<br> ['2299', '4611'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2307', 'i', 'f', 'w', '3355', 'e', 'b', '5501', '9401', '779', '7363', 'X', 'w', '2161', 'o', '6291', 'I', '6401'] <br><br>
+				<br> ['2307', 'i', 'f', 'w', '3355', 'e', 'b', '5501', '9401', '779', '7363', 'X', ' w', '2161', 'o', '6291', '나', '6401'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> Numbers and Alphabets are Tied <br><br>
+				<br> 숫자와 알파벳이 묶여있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2311', '6745', '8565', '9449'] <br><br>
+				<br> ['2311', '6745', '8565', '9449'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2327', '7627', 'X', '6769', 'j', 'H', 'b', 'P', '3251', '6713', '3743', 'f', 'd', 'c', 'k', 'A', '9163', '2363', 'r', 'a', 'x', '1325'] <br><br>
+				<br> ['2327', '7627', 'X', '6769', 'j', 'H', 'b', 'P', '3251', '6713', '3743', 'f', ' d', 'c', 'k', 'A', '9163', '2363', 'r', 'a', 'x', '1325'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['233', 'r', 't', 'w', '3853', '9751', '8743', 'e', 'p', '6935', '5169', '5215', 'y', '5175', 'y', 'v', '7277', '3237', '6253', 'g', '6281', 'o', '7853', 's', '7549'] <br><br>
+				<br> ['233', 'r', 't', 'w', '3853', '9751', '8743', 'e', 'p', '6935', '5169', '5215', ' y', '5175', 'y', 'v', '7277', '3237', '6253', 'g', '6281', 'o', '7853', 's', '7549' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2337', '1219', 'O', 'B', '7077', 'U', '4513', 'U', '5959', '9099', 'Y', 'K', '4993', 'Y', 'i', '2795', 'N', 'q', 't', 'B', '763', '9539', '149', 'X', '391', '9837', 'U', 'K', '5075', 'H', 'o', 'A', '8307', '425', 'X', '193', '5269', '4299', '481', '2299', '87'] <br><br>
+				<br> ['2337', '1219', 'O', 'B', '7077', 'U', '4513', 'U', '5959', '9099', 'Y', 'K', ' 4993', 'Y', 'i', '2795', 'N', 'q', 't', 'B', '763', '9539', '149', 'X', '391' , '9837', 'U', 'K', '5075', 'H', 'o', 'A', '8307', '425', 'X', '193', '5269', ' 4299', '481', '2299', '87'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2395', '8071', '7823', '9639', '3323', '3911', 'u', '9991', 'c', '5021', '275', 't', 's', 'W', 'k', '7175', 'w', 't', 'O', 'M', 'r', '6863', 'N', '345', 'm', 'Y', 'N', 'A', '1339', '9885', 'l', 'I', 'z', 'Y', 'A', '2183', 'F', 'L'] <br><br>
+				<br> ['2395', '8071', '7823', '9639', '3323', '3911', 'u', '9991', 'c', '5021', '275', 't', ' s', 'W', 'k', '7175', 'w', 't', 'O', 'M', 'r', '6863', 'N', '345', 'm' , 'Y', 'N', 'A', '1339', '9885', 'l', 'I', 'z', 'Y', 'A', '2183', 'F', ' 엘'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2397', '9929', 'J', '535', '7175', 'U', 'D', 'Q', 'l', 'T', '8297', 'W', '3221', '1673', '8021'] <br><br>
+				<br> ['2397', '9929', 'J', '535', '7175', 'U', 'D', 'Q', 'l', 'T', '8297', 'W', ' 3221', '1673', '8021'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2427', '9219', '889'] <br><br>
+				<br> ['2427', '9219', '889'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2429', '5571', '8095', '1605', '7465', 'g', '6029', 'E', '8983', '6721', 'f', 'X', '8131', '3623', '1571', '1885', '4447', 'i', '5439', '4023', 'c', '6529', '51', '4183', '325', '2677', '1767', 'D', '3765', '4069', 'B', '4529', 'W', 'F', 'J', '787', '2929', 's', '4223', 'w', '9857', 'X', '4385', '765', 'V', 'b', 'R'] <br><br>
+				<br> ['2429', '5571', '8095', '1605', '7465', 'g', '6029', 'E', '8983', '6721', 'f', 'X', ' 8131', '3623', '1571', '1885', '4447', 'i', '5439', '4023', 'c', '6529', '51', '4183', '325' , '2677', '1767', 'D', '3765', '4069', 'B', '4529', 'W', 'F', 'J', '787', '2929', ' s', '4223', 'w', '9857', 'X', '4385', '765', 'V', 'b', 'R'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2451', 'b', 'F', '5533', '2887', '779', '7377'] <br><br>
+				<br> ['2451', 'b', 'F', '5533', '2887', '779', '7377'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2473', 'Q', '9243', '595', 'N', '5367', '753', '3525', '9867', '9125', '237', 'l', '3859', '3093', '7903', '1381', '9907', '9727', '5245', 'q', '4709', 'u', 'G', 'a'] <br><br>
+				<br> ['2473', 'Q', '9243', '595', 'N', '5367', '753', '3525', '9867', '9125', '237', 'l', ' 3859', '3093', '7903', '1381', '9907', '9727', '5245', 'q', '4709', 'u', 'G', 'a'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2473', 'd', 'w', '9715', 'M', '7317', 'b', 'J', '7969', '2305', '9175', 'e', 'h', '175', 'H', '6553', '6067', 'm', 'Z', '1443', '9877', '6651', '2153', '3637', 'P', '6607'] <br><br>
+				<br> ['2473', 'd', 'w', '9715', 'M', '7317', 'b', 'J', '7969', '2305', '9175', 'e', ' h', '175', 'H', '6553', '6067', 'm', 'Z', '1443', '9877', '6651', '2153', '3637', 'P' , '6607'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2507', '2505', 'u', '505', 'f'] <br><br>
+				<br> ['2507', '2505', 'u', '505', '에프'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2525', 'S', '161', 'w', '5981', 'n', '7471', 'v', 'a', '7775', '1207', '4201', '1309', '119', 'i', '5751', '5895', 'F', 'k', 'i', '7357', '6399', 'x', '4683', '2369', 'j', '1289', 'a', 'B', 'T', 'b', '3241', '3713', '4925', '5445', 'e', '633', '6119', '9923', '6661', '9817', '9505', 'f', 'Z', '31', '7321', 'i', '1803', 'd', '1257'] <br><br>
+				<br> ['2525', 'S', '161', 'w', '5981', 'n', '7471', 'v', 'a', '7775', '1207', '4201', ' 1309', '119', 'i', '5751', '5895', 'F', 'k', 'i', '7357', '6399', 'x', '4683', '2369' , 'j', '1289', 'a', 'B', 'T', 'b', '3241', '3713', '4925', '5445', 'e', '633', ' 6119', '9923', '6661', '9817', '9505', 'f', 'Z', '31', '7321', 'i', '1803', 'd', '1257' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['253', 'z', 'L', 'x', 'l', '8175', '9607', 'm', '3785', '3869', 'q', '1463', 'J', 'M', '2953', 'F', 'f', '5599', '465', '821', 'N', '9293', '8047', '7725', 'U', 'S', 'w', '7219', 'i', '4219', '4429', 'l', 'C', '6791', 'U', 'D', 'l', 'v', '1813', '2009', 'k', '9301', '2623', '737', 'K', 'k', 'w', 'p', 'X'] <br><br>
+				<br> ['253', 'z', 'L', 'x', 'l', '8175', '9607', 'm', '3785', '3869', 'q', '1463', ' J', 'M', '2953', 'F', 'f', '5599', '465', '821', 'N', '9293', '8047', '7725', 'U' , 'S', 'w', '7219', 'i', '4219', '4429', 'l', 'C', '6791', 'U', 'D', 'l', ' v', '1813', '2009', 'k', '9301', '2623', '737', 'K', 'k', 'w', 'p', 'X'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2537', 'R'] <br><br>
+				<br> ['2537', 'R'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> Numbers and Alphabets are Tied <br><br>
+				<br> 숫자와 알파벳이 묶여있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2553', '755', '4477', '2571', '305', '633', '7763', '3859', '1645', '2567', '2327'] <br><br>
+				<br> ['2553', '755', '4477', '2571', '305', '633', '7763', '3859', '1645', '2567', '2327'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2559', '6005'] <br><br>
+				<br> ['2559', '6005'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2639', '4443', '1509', '3975', '6729', '5967', '2321', '9479', '4701', '8583'] <br><br>
+				<br> ['2639', '4443', '1509', '3975', '6729', '5967', '2321', '9479', '4701', '8583'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2693', 'T', 'f', 'd', '7127', 's', '2787', 'W', 'm', 'z', 'X', 'r', '6583', 'C', 'L', 'n', 'c', '6831', 'l', '7083', 'h', '2465', 'V', '493', 's', '6157', 'n', '1201', '9823', 'F', '7597', '7921', 'C', '4811', '9023', 'w', '2953', 'z', '5829', 'l', '9903', 'K', '4655', 'L', 'W', '9289'] <br><br>
+				<br> ['2693', 'T', 'f', 'd', '7127', 's', '2787', 'W', 'm', 'z', 'X', 'r', ' 6583', 'C', 'L', 'n', 'c', '6831', 'l', '7083', 'h', '2465', 'V', '493', 's' , '6157', 'n', '1201', '9823', 'F', '7597', '7921', 'C', '4811', '9023', 'w', '2953', ' z', '5829', 'l', '9903', 'K', '4655', 'L', 'W', '9289'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['273', 'X', '5973', 'C', '4349', 'H', '9983', 'B', 'D', '6017', 'S', 'B', '9761', 'H', 'Q', '1293', 'e', 'C', '5919', 'c', '3787', '9429', 'Y', '2167', 'y', '8309', 'x', '869', 'q', '8465', 'm', 'V', 's', 'y', '3813', 'g', 'o', '785', '9081', '9915', '551', '6697', '8009', 'q', '535', '3081'] <br><br>
+				<br> ['273', 'X', '5973', 'C', '4349', 'H', '9983', 'B', 'D', '6017', 'S', 'B', ' 9761', 'H', 'Q', '1293', 'e', 'C', '5919', 'c', '3787', '9429', 'Y', '2167', 'y' , '8309', 'x', '869', 'q', '8465', 'm', 'V', 's', 'y', '3813', 'g', 'o', ' 785', '9081', '9915', '551', '6697', '8009', 'q', '535', '3081'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> Numbers and Alphabets are Tied <br><br>
+				<br> 숫자와 알파벳이 묶여있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2731', '9815', '361', '357', 'f', 'G', '5563', '8939', 'y', '741', '7205', 'z', 'i', '1251', '8853', '1829', 'T', '6101', 'r', '8401', 'V', '9813', '359', 't', 'N', 'G', 'A', 'L', '3667', 'H', '7477', 'T', 'y', 'S', 't', 'j', 'u', '8317', '2599', '2433', 'k', 'Y', '6517', '919', '1161', '1977'] <br><br>
+				<br> ['2731', '9815', '361', '357', 'f', 'G', '5563', '8939', 'y', '741', '7205', 'z', ' i', '1251', '8853', '1829', 'T', '6101', 'r', '8401', 'V', '9813', '359', 't', 'N' , 'G', 'A', 'L', '3667', 'H', '7477', 'T', 'y', 'S', 't', 'j', 'u', ' 8317', '2599', '2433', '케이', '와이', '6517', '919', '1161', '1977'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2767', '9553', '637', 'w', '2997', '8897', 'k', '1771', 'Z', '9439', 'Q', 'Z', 'O', '245', 'h', 'j', 'V', '6403', 'l', '6663', 'e', 'Z', '6709', '7657', '9457', '7135', 'Y', 'C', '6459', 'f', 'V', '6609', 't', '6553', '3711', '3201', 'E', 'd', '7125'] <br><br>
+				<br> ['2767', '9553', '637', 'w', '2997', '8897', 'k', '1771', 'Z', '9439', 'Q', 'Z', ' O', '245', 'h', 'j', 'V', '6403', 'l', '6663', 'e', 'Z', '6709', '7657', '9457' , '7135', 'Y', 'C', '6459', 'f', 'V', '6609', 't', '6553', '3711', '3201', 'E', ' 디', '7125'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2819', 'y', '5775', '1613', '1225', 'o', '2225', '6307', '5343', 'a', '3143', 'V', 'E', '1587', '1539', 'U', '3733', 'j', 'b', 'i', '7091', '9139', 'G', 's', 'd', 'W', 'k', 'c', '5321', '3991', '1147', '1549', 'c', 'M', '4169'] <br><br>
+				<br> ['2819', 'y', '5775', '1613', '1225', 'o', '2225', '6307', '5343', 'a', '3143', 'V', ' E', '1587', '1539', 'U', '3733', 'j', 'b', 'i', '7091', '9139', 'G', 's', 'd' , 'W', 'k', 'c', '5321', '3991', '1147', '1549', 'c', 'M', '4169'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2879', 'x', '939', 'e', '5351', 'B', '2301', 'z', 'H', 'T', '3171', '5193', '8069'] <br><br>
+				<br> ['2879', 'x', '939', 'e', '5351', 'B', '2301', 'z', 'H', 'T', '3171', '5193', ' 8069'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2915', 'F', 'L', 'q', '3217', 'p', '7919', 'W', 'D', '3297', 'O', 'c', '2763', '8237', 'D', '7191', 'f', '5995', 'g', '8699', 'H', '8335', 'F', 'N', 'N', '6177', 'P', 'C', '4207', '1273', 'Q', '4921', 'V', 'd', '2197'] <br><br>
+				<br> ['2915', 'F', 'L', 'q', '3217', 'p', '7919', 'W', 'D', '3297', 'O', 'c', ' 2763', '8237', 'D', '7191', 'f', '5995', 'g', '8699', 'H', '8335', 'F', 'N', 'N' , '6177', 'P', 'C', '4207', '1273', 'Q', '4921', 'V', 'd', '2197'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2927', '7919', '9747', '9739', 'm', '2855', '5037', '9001', '5611', 'J', 'x', '7077', 'Q', '995', '8915', 'm', 'n', 'm', '6391', '5225'] <br><br>
+				<br> ['2927', '7919', '9747', '9739', 'm', '2855', '5037', '9001', '5611', 'J', 'x', '7077', ' Q', '995', '8915', 'm', 'n', 'm', '6391', '5225'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['293', '6829', '1775', '3037'] <br><br>
+				<br> ['293', '6829', '1775', '3037'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3057', '3993', 'J', 'K', '4815', '8933', 'v', '2903', 'h', 'S', 'C', '5843', '2337', 'J', '7583', 'E', '7393', '2567', 'H', 'R', 'O', 'S', '9563', '4213', 'Q', '3437', '1795', '8769', 'j', '859', '3973', '9765', '269', '9647', '8399'] <br><br>
+				<br> ['3057', '3993', 'J', 'K', '4815', '8933', 'v', '2903', 'h', 'S', 'C', '5843', ' 2337', 'J', '7583', 'E', '7393', '2567', 'H', 'R', 'O', 'S', '9563', '4213', 'Q' , '3437', '1795', '8769', 'j', '859', '3973', '9765', '269', '9647', '8399'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3057', 'g', '9619', 'L', '7127', '1643', '6875', '3997', '5149', 'J', 'Z', '5469', 'g', '7989', '7805', 'F', 'H', '6147', 'E', 'l', '9973', '7141', 'P', 'l', 'v', '9085', '6803', '5137', '6297', '685', '625', '2939', 'Y', '7999', 'V', 'F', 'w', 'D', '3491', 'K', '1143', 'i', 'F', 'w', '671'] <br><br>
+				<br> ['3057', 'g', '9619', 'L', '7127', '1643', '6875', '3997', '5149', 'J', 'Z', '5469', ' g', '7989', '7805', 'F', 'H', '6147', 'E', 'l', '9973', '7141', 'P', 'l', 'v' , '9085', '6803', '5137', '6297', '685', '625', '2939', 'Y', '7999', 'V', 'F', 'w', ' D', '3491', 'K', '1143', 'i', 'F', 'w', '671'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3059', 'M', 's', '3637', '723', '8365', '4105', '8415', 'c', '845', '4859', 'B', 'h', 't', '3951', '1145', '8385', '7013', '255', '4913', 'h', '809', 'o', 'g', 'Q', '1973', 'H', '2155', '7383', 'z', '7823', 'u', '3645', '6133', 'H', 'i', '473'] <br><br>
+				<br> ['3059', 'M', 's', '3637', '723', '8365', '4105', '8415', 'c', '845', '4859', 'B', ' h', 't', '3951', '1145', '8385', '7013', '255', '4913', 'h', '809', 'o', 'g', 'Q' , '1973', 'H', '2155', '7383', 'z', '7823', 'u', '3645', '6133', 'H', 'i', '473'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3063', 'L', '2977', '4419', 'S', 'n', '347', 't', 'q', 'J', 'X', '5637', '2449', 'l', 'L', 'l', '2939', '7169', '5351', 'e', '8971', 'I', '7757', '5375', '53', '5705', '871', '5149', '7437', 'U', '4569', '7301', 'F', '8247', '3145', 'N', '7453', '3533', 'J', '6825', 'K'] <br><br>
+				<br> ['3063', 'L', '2977', '4419', 'S', 'n', '347', 't', 'q', 'J', 'X', '5637', ' 2449', 'l', 'L', 'l', '2939', '7169', '5351', 'e', '8971', '나', '7757', '5375', '53' , '5705', '871', '5149', '7437', 'U', '4569', '7301', '에프', '8247', '3145', '엔', '7453', ' 3533', 'J', '6825', 'K'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3083', 'B', 'm', 'r', '519', 'g', '7533', '5957', '4293', '6401', '1101', '6925', 'E', '3039', '5421', 'b', '8965', 'T', 'B', '9081'] <br><br>
+				<br> ['3083', 'B', 'm', 'r', '519', 'g', '7533', '5957', '4293', '6401', '1101', '6925', ' E', '3039', '5421', 'b', '8965', 'T', 'B', '9081'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3119', 'v', 'I', 'S', '8481', 'F', 'R', '7565', '4465', 'n', '6031', 'V'] <br><br>
+				<br> ['3119', 'v', 'I', 'S', '8481', 'F', 'R', '7565', '4465', 'n', '6031', 'V'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3141', '1013', '9847', '6127', 'G', 'J', '791', 'o', '8095', 'a', '6859', 'G', 'm', 'm', 'z', 'C', 'a', 'U', 'R', 'I', '6513', 'q', 'p', '4799', '7559', 'z', 'C', '7237', 'P'] <br><br>
+				<br> ['3141', '1013', '9847', '6127', 'G', 'J', '791', 'o', '8095', 'a', '6859', 'G', ' m', 'm', 'z', 'C', 'a', 'U', 'R', 'I', '6513', 'q', 'p', '4799', '7559' , 'z', 'C', '7237', 'P'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3253', '8019', 'g', '6679', 'o', 'W', 'T', '3213', 'r', '1801', '7157', '9391', '579', 'l', '4689', 'X', 'Q', 'l', 'E', '2975', '8147', '9501', '3773', 'd', '173', '7091', 'a', '9531', 'Z', 'x', 'N', 'q', 'l', 'F', 'J', '9337', '9709', 'e', '4515', 'V', '4307', '1939', '3493', '1291', 'B', '781', 'e', '5363', '2519', 'V'] <br><br>
+				<br> ['3253', '8019', 'g', '6679', 'o', 'W', 'T', '3213', 'r', '1801', '7157', '9391', ' 579', 'l', '4689', 'X', 'Q', 'l', 'E', '2975', '8147', '9501', '3773', 'd', '173' , '7091', 'a', '9531', 'Z', 'x', 'N', 'q', 'l', 'F', 'J', '9337', '9709', ' e', '4515', 'V', '4307', '1939', '3493', '1291', 'B', '781', 'e', '5363', '2519', 'V' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3295', '7153', 'y', 'h', '3', '9475', 'A', 'V', 'q', 'Q', '3119', '7903', 'r', 'A', '5963', '2491', 'N', '393', 'Q', 'C', '6405', '6693', '531', '73', 'v', 'T', '5591', 'T', '1137', '7933', '5757', 'k', 'c', 'Q', '303', '3057', '2069', 'C', '3255', 'T', '3157', 'h', 'L'] <br><br>
+				<br> ['3295', '7153', 'y', 'h', '3', '9475', 'A', 'V', 'q', 'Q', '3119', '7903', ' r', 'A', '5963', '2491', 'N', '393', 'Q', 'C', '6405', '6693', '531', '73', 'v' , 'T', '5591', 'T', '1137', '7933', '5757', 'k', 'c', 'Q', '303', '3057', '2069', ' C', '3255', 'T', '3157', 'h', 'L'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3359', '1715', '9845'] <br><br>
+				<br> ['3359', '1715', '9845'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3383', 'e', '3205', 'T', '6059', 'B', '1961'] <br><br>
+				<br> ['3383', 'e', '3205', 'T', '6059', 'B', '1961'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3395', 'f', '5233', 'F', '5555', '5169', '6905', '1211', 'O', '4341', '7115', '237', 'v', 'r', 'i', '8843', '907', '8381', 'x', '643', 'D', '9283', '907', '753', 'd', 'o', 'A', 'u', 'l', 'S', 'b', 'f', 'P', 'Q', 'T', 'B', '113', 'h', '9861', '9867', '3031', 'A', 'R', '4383', 'M', 'Q', '2035', 'z', 'z'] <br><br>
+				<br> ['3395', '에프', '5233', '에프', '5555', '5169', '6905', '1211', 'O', '4341', '7115', '237', ' v', 'r', 'i', '8843', '907', '8381', 'x', '643', 'D', '9283', '907', '753', 'd' , 'o', 'A', 'u', 'l', 'S', 'b', 'f', 'P', 'Q', 'T', 'B', '113', ' h', '9861', '9867', '3031', 'A', 'R', '4383', 'M', 'Q', '2035', 'z', 'z'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3405', '1193'] <br><br>
+				<br> ['3405', '1193'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3413', 'I', '8483', '4241', '9931', 'b', '3211', 'a', '2023', '73', '63', '3299', 'd', '7207', 'O', '8483', '8559', 'u', 'E', '4483', 'J', 'h', 't', '7705', 'S', '4521', 'f', 'n', '841', 'p', '1875', '8271', '291', 'T', 'D', 't', 'L', 'I', 'e', '1913', '4413', '9347', '1901', 'u', '4677', '8615', '1449', '3263'] <br><br>
+				<br> ['3413', 'I', '8483', '4241', '9931', 'b', '3211', 'a', '2023', '73', '63', '3299', ' d', '7207', 'O', '8483', '8559', 'u', 'E', '4483', 'J', 'h', 't', '7705', 'S' , '4521', 'f', 'n', '841', 'p', '1875', '8271', '291', 'T', 'D', 't', 'L', ' I', 'e', '1913', '4413', '9347', '1901', 'u', '4677', '8615', '1449', '3263'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3427', 'L', '2369', 'U', '5841', 'y', 'l', '8701', 'm', 'b', '1167', '7189', '6851', '8071', 'v', 'z', '9563', '2241', 'S', 'u', '5425', '5713', 'n', 'P', '8101', 'h', 'B', 'Y', 'H', '559', '1021', '5957', '2281', 'F', '7021', '1819', '1745'] <br><br>
+				<br> ['3427', 'L', '2369', 'U', '5841', 'y', 'l', '8701', 'm', 'b', '1167', '7189', ' 6851', '8071', 'v', 'z', '9563', '2241', 'S', 'u', '5425', '5713', 'n', 'P', '8101' , 'h', 'B', 'Y', 'H', '559', '1021', '5957', '2281', 'F', '7021', '1819', '1745'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3431', '6363', 'H', '3835', '6463', 'r', '1301', '7753', '6963', 'H', '5121', 'I', 'P', 'B', 'R', 'X', '9435', '9317', '9923', '1049', 'd', '937', '1851', 'G', 'l', 'd'] <br><br>
+				<br> ['3431', '6363', 'H', '3835', '6463', 'r', '1301', '7753', '6963', 'H', '5121', '나', ' P', 'B', 'R', 'X', '9435', '9317', '9923', '1049', 'd', '937', '1851', 'G', 'l' , '디'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3439', 'H', '6197', 'm', '2959', '9179', '637', '1453', 'p'] <br><br>
+				<br> ['3439', 'H', '6197', 'm', '2959', '9179', '637', '1453', 'p'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3447', '1249', '4847', '2577', 'a', '1543', '6623', 'z', '7541', 'h', 'L', 'v', 'a', 'O', '4681', '2151', 'U', '4215', '3493', '4567', 'R', '3451', '9021'] <br><br>
+				<br> ['3447', '1249', '4847', '2577', 'a', '1543', '6623', 'z', '7541', 'h', 'L', 'v', ' ', 'O', '4681', '2151', 'U', '4215', '3493', '4567', 'R', '3451', '9021'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3469', '6963', 'I', '8791', '2421', '6935', '9001', 'z', '3263', '5843', '8227', 'O'] <br><br>
+				<br> ['3469', '6963', '나', '8791', '2421', '6935', '9001', 'z', '3263', '5843', '8227', 'O'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3471', '7735', '6619', '371', '1115', '1169'] <br><br>
+				<br> ['3471', '7735', '6619', '371', '1115', '1169'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3499', 'f', 'b', 'E'] <br><br>
+				<br> ['3499', '에프', '비', '이'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3521', '311', '951', '839', 'V', 'a', 'x', '7103', 'L', 'X', 'v', 'w', 'Q', '8735', '4207'] <br><br>
+				<br> ['3521', '311', '951', '839', 'V', 'a', 'x', '7103', 'L', 'X', 'v', 'w', ' 큐', '8735', '4207'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3525', '6103', '5147', 'X'] <br><br>
+				<br> ['3525', '6103', '5147', 'X'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3549', '4421', 'l', 'W', 'g', '6563', 'N', 'g', '7563', '2061', '51', 'o', 'S', '495', 'D', '3949', 'R', '7185', 'v', 'Q', '5677', 'b', 'V', '7759', '4133', '6155', 'M', 'l', '6409', 'p', 't', 'r', '8563', '5775', '8899', 'o', 'I', '5237', 'w', 's', 'p', 'X', 'G', '6517', 'Z', '5381'] <br><br>
+				<br> ['3549', '4421', 'l', 'W', 'g', '6563', 'N', 'g', '7563', '2061', '51', 'o', ' S', '495', 'D', '3949', 'R', '7185', 'v', 'Q', '5677', 'b', 'V', '7759', '4133' , '6155', 'M', 'l', '6409', 'p', 't', 'r', '8563', '5775', '8899', 'o', '나', ' 5237', 'w', 's', 'p', 'X', 'G', '6517', 'Z', '5381'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3575', '7167', 'C', '2185', 'W', '7849', 'w', '2171', '5831', 'c', 'v', 'z', 'K', 'r', '1837', '861', 'x', '8141', 'k', 'i', 'H', 'W', 'y', 'm', '7071'] <br><br>
+				<br> ['3575', '7167', 'C', '2185', 'W', '7849', 'w', '2171', '5831', 'c', 'v', 'z', ' K', 'r', '1837', '861', 'x', '8141', 'k', 'i', 'H', 'W', 'y', 'm', '7071' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3577', '9089', 'r', '2701', 'e', 'w', '8059', 'O', 'F', '7149', '2271', 'k', '4411', '4705', 't', 'Y', '6991', '6189', '5253', 'w', 'Z', 'f', '4983', 'A', 'A', 'E', '8087', 'k', '4353', '4219', 'g', 'U', '7119', 'J', '5197', '6185', '725', 'r', '635', '809', '1619', '689', '169', 'L', 'M', 'u', '1255'] <br><br>
+				<br> ['3577', '9089', 'r', '2701', 'e', 'w', '8059', 'O', 'F', '7149', '2271', 'k', ' 4411', '4705', 't', 'Y', '6991', '6189', '5253', 'w', 'Z', 'f', '4983', 'A', 'A' , 'E', '8087', 'k', '4353', '4219', 'g', 'U', '7119', 'J', '5197', '6185', '725', ' r', '635', '809', '1619', '689', '169', 'L', 'M', 'u', '1255'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3587', 'S', '5919', 'Z', 'Y', 'e', '1629', '3513', '6905'] <br><br>
+				<br> ['3587', 'S', '5919', 'Z', 'Y', 'e', '1629', '3513', '6905'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> Numbers Win <br><br>
+				<br> 숫자 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3623', '9885', '7585', '7989', '8807', 'U', '2965', 'c', 'M', 'b', 'i', 'o', '4553', 'w', '3905', '5171', 'a', 'Y', 'j', 'k', '2525', '8735', '4141', '3611', 'K', 'D', '7201', 'o', 'T', '8179', 'R', 'c', 'd'] <br><br>
+				<br> ['3623', '9885', '7585', '7989', '8807', 'U', '2965', 'c', 'M', 'b', 'i', 'o', ' 4553', 'w', '3905', '5171', 'a', 'Y', 'j', 'k', '2525', '8735', '4141', '3611', 'K' , 'D', '7201', 'o', 'T', '8179', 'R', 'c', 'd'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3637', 'G', '3541', 'g', 'r', 'm', 'l', '8817', 'L', '9937', 'm', 'G', 't', 'K', 'W', '181', '6445', 'm', 'R', 'V', 'I', '4385', 'y', '459', 'U', '2565', 'l', 'X', '7617', '411', 'L', '8061', 'u', '4745', '5447', '2089', '6387', 'b', '2955', 'F'] <br><br>
+				<br> ['3637', 'G', '3541', 'g', 'r', 'm', 'l', '8817', 'L', '9937', 'm', 'G', ' t', 'K', 'W', '181', '6445', 'm', 'R', 'V', 'I', '4385', 'y', '459', 'U' , '2565', 'l', 'X', '7617', '411', 'L', '8061', 'u', '4745', '5447', '2089', '6387', ' b', '2955', '에프'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> Alphabets Win <br><br>
+				<br> 알파벳 승리 <br><br>
+			</td>
+		</tr>
+	</table>

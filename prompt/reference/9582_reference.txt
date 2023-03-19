@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Aromi is an English restaurant in the city centre. <br><br>
+				<br> Aromi는 도심에 있는 영국식 레스토랑입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> name[Aromi], eatType[restaurant], food[English], area[city centre] <br><br>
+				<br> name[아로미], eatType[레스토랑], food[영어], area[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating. <br><br>
+				<br> The Rice Boat는 Express by Holiday Inn 근처 도심에 위치한 저렴한 인도 레스토랑입니다. 가족 친화적이며 고객 평가가 가장 높습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn] <br><br>
+				<br> 이름[The Rice Boat], food[Indian], priceRange[저렴함], 고객 평가[5/5], area[도심], familyFriendly[yes], near[Express by Holiday Inn] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 'The Eagle' is a kid-friendly French coffee shop. It is a reasonably priced place with high quality reviews. It is located near Burger King in the city center. <br><br>
+				<br> 'The Eagle'은 어린이 친화적인 프렌치 커피숍입니다. 고품격 후기가 있는 합리적인 가격의 곳입니다. 시내 중심에 있는 버거킹 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> name[The Eagle], eatType[coffee shop], food[French], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[yes], near[Burger King] <br><br>
+				<br> name[The Eagle], eatType[커피숍], food[French], priceRange[£20-25], 고객 평점[높음], area[도심], familyFriendly[yes], near[버거킹] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 'The Wrestlers' is an Italian place with average customer reviews and reasonable prices, but it is not child-friendly. <br><br>
+				<br> The Wrestlers'는 평균적인 고객 리뷰와 합리적인 가격을 제공하는 이탈리아 식당이지만 어린이 친화적이지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> name[The Wrestlers], food[Italian], priceRange[moderate], customer rating[3 out of 5], familyFriendly[no] <br><br>
+				<br> name[The Wrestlers], food[Italian], priceRange[보통], 고객 평가[3/5], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 5 out 5 is the rating you get when you dine at The Rice Boat. Located near Riverside this child friendly Japanese restaurant is exceptional. <br><br>
+				<br> 5점 만점에 5점은 더 라이스 보트에서 식사할 때 받는 평점입니다. 리버사이드 근처에 위치한 이 어린이 친화적인 일식 레스토랑은 예외적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> name[The Rice Boat], food[Japanese], customer rating[5 out of 5], area[riverside], familyFriendly[yes] <br><br>
+				<br> 이름[The Rice Boat], 음식[일본어], 고객 평가[5점 만점에 5점], 지역[강변], 가족친절함[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 5 out of 5 people rated The Punter, a French coffee shop as cheap. It is a family friendly coffee shop and located near Café Sicilia. <br><br>
+				<br> 5명 중 5명이 프랑스 커피숍인 The Punter를 저렴하다고 평가했습니다. 가족 친화적 인 커피 숍이며 Café Sicilia 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> name[The Punter], eatType[coffee shop], food[French], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes], near[Café Sicilia] <br><br>
+				<br> name[The Punter], eatType[커피숍], food[French], priceRange[저렴함], 고객 평가[5/5], familyFriendly[yes], near[Café Sicilia] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 5 out of 5 stars from its customers, Aromi is a children friendly, French coffee shop by the river. <br><br>
+				<br> 고객으로부터 별 5개 중 5개를 받은 Aromi는 어린이 친화적인 강가의 프렌치 커피숍입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> name[Aromi], eatType[coffee shop], food[French], customer rating[5 out of 5], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[아로미], eatType[커피숍], food[French], 고객 평가[5/5], area[강변], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 3 out 5 rating Japanese restaurant in the riverside area is The Waterman. They are not kid friendly but have a price range of 20 - 25 pounds. <br><br>
+				<br> 강변 지역에 있는 일식 레스토랑은 5점 만점에 3점 만점에 The Waterman입니다. 아이들에게 친숙하지는 않지만 가격대는 20~25파운드입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> name[The Waterman], food[Japanese], priceRange[£20-25], customer rating[3 out of 5], area[riverside], familyFriendly[no] <br><br>
+				<br> name[The Waterman], 음식[일본어], priceRange[£20-25], 고객 평가[3/5], 지역[리버사이드], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A Cheap restaurant with a customer Rating of 5 out of 5 is The Rice Boat, near to the Rainbow Vegetarian Café. <br><br>
+				<br> 고객 평점이 5점 만점에 5점인 싸구려 레스토랑 Rainbow Vegetarian Café 근처에 있는 The Rice Boat입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> name[The Rice Boat], priceRange[cheap], customer rating[5 out of 5], near[Rainbow Vegetarian Café] <br><br>
+				<br> 이름[밥배], 가격대[저렴함], 고객평점[5점 만점], 주변[무지개채식카페] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A French coffee shop, The Punter, is not family-friendly, provides average service at less than £20 near Café Sicilia <br><br>
+				<br> 프랑스 커피숍인 The Punter는 가족 친화적이지 않으며 Café Sicilia 근처에서 평균 £20 미만의 서비스를 제공합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> name[The Punter], eatType[coffee shop], food[French], priceRange[less than £20], customer rating[average], familyFriendly[no], near[Café Sicilia] <br><br>
+				<br> name[The Punter], eatType[커피숍], food[French], priceRange[20파운드 미만], 고객 평가[평균], familyFriendly[no], near[Café Sicilia] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A French place named The Vaults costs £20-25, and yes, it is kid friendly. <br><br>
+				<br> The Vaults라는 이름의 프랑스 장소는 £20-25이며, 네, 어린이 친화적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> name[The Vaults], food[French], priceRange[£20-25], familyFriendly[yes] <br><br>
+				<br> name[The Vaults], food[French], priceRange[£20-25], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A French restaurant named Loch Fyne have a moderate price range, but is not welcoming towards kids <br><br>
+				<br> Loch Fyne이라는 이름의 프랑스 레스토랑은 가격대가 적당하지만 아이들을 환영하지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> name[Loch Fyne], eatType[restaurant], food[French], priceRange[moderate], familyFriendly[no] <br><br>
+				<br> name[Loch Fyne], eatType[레스토랑], food[프랑스어], priceRange[보통], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A French restaurant that is priced between 20-25 euros with an average customer rating with a location in the center of the city is The Phoenix. <br><br>
+				<br> 도심 한가운데 위치하며 평균 고객 평점이 20-25유로 사이인 프렌치 레스토랑은 The Phoenix입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> name[The Phoenix], food[French], priceRange[£20-25], customer rating[3 out of 5], area[city centre] <br><br>
+				<br> name[The Phoenix], food[French], priceRange[£20-25], 고객 평점[3/5], 지역[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A Japanese coffee shop Aromi is in the riverside area that is children friendly with high customer rating <br><br>
+				<br> 일본식 커피숍 아로미는 고객 평가가 높은 어린이 친화적인 강변 지역에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> name[Aromi], eatType[coffee shop], food[Japanese], customer rating[high], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[아로미], eatType[커피숍], food[일식], 고객평점[높음], area[강변], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A Japanese cuisine served by The Golden Curry near Café Rouge in the city centre <br><br>
+				<br> 도심 속 카페루즈 근처 더골든카레가 제공하는 일본요리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Curry], food[Japanese], customer rating[low], area[city centre], familyFriendly[no], near[Café Rouge] <br><br>
+				<br> 이름[더 골든카레], 음식[일식], 고객평점[낮음], 지역[도심], 가족친절[없음], 주변[카페루즈] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A Japanese food restaurant in the city centre area is called The Phoenix, they serve Japanese food with a lower customer rating. The prices are more than £30. <br><br>
+				<br> 도심 지역의 일식 레스토랑은 The Phoenix라고 불리며 고객 평가가 낮은 일식을 제공합니다. 가격은 £ 30 이상입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> name[The Phoenix], food[Japanese], priceRange[more than £30], customer rating[low], area[city centre] <br><br>
+				<br> name[The Phoenix], 음식[일본어], priceRange[30파운드 이상], 고객 평점[낮음], 지역[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A Japanese food restaurant that rates 5 out of 5 is Loch Fyne which is near The Rice Boat in the riverside area. <br><br>
+				<br> 5점 만점에 5점을 주는 일식 레스토랑은 강변 지역의 The Rice Boat 근처에 있는 Loch Fyne입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> name[Loch Fyne], food[Japanese], customer rating[5 out of 5], area[riverside], near[The Rice Boat] <br><br>
+				<br> 이름[Loch Fyne], 음식[일본어], 고객 평가[5/5], 지역[강변], 주변[The Rice Boat] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A Japanese pub called Giraffe in the riverside area. It is not family-friendly, <br><br>
+				<br> 강변 지역에 있는 기린이라는 일본식 선술집. 가족용은 아니지만, <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> name[Giraffe], eatType[pub], food[Japanese], area[riverside], familyFriendly[no] <br><br>
+				<br> name[Giraffe], eatType[pub], food[일본어], area[강변], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A Japanese restaurant called Loch Fyne, is not family-friendly. <br><br>
+				<br> Loch Fyne이라는 일식 레스토랑은 가족 친화적이지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> name[Loch Fyne], eatType[restaurant], food[Japanese], familyFriendly[no] <br><br>
+				<br> name[Loch Fyne], eatType[레스토랑], food[일본어], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap English food place in riverside is Blue Spice. <br><br>
+				<br> 강변에 있는 저렴한 영국식 음식점은 블루 스파이스입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> name[Blue Spice], food[English], priceRange[cheap], area[riverside] <br><br>
+				<br> name[Blue Spice], food[English], priceRange[저렴한], area[강변] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap Italian pub, The Cambridge Blue is located near Café Brazil. <br><br>
+				<br> 저렴한 이탈리안 펍인 The Cambridge Blue는 Café Brazil 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> name[The Cambridge Blue], eatType[pub], food[Italian], priceRange[cheap], near[Café Brazil] <br><br>
+				<br> name[The Cambridge Blue], eatType[pub], food[Italian], priceRange[저렴한], near[Café Brazil] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap coffee shop near Café Sicilia is The Punter. It is not family Friendly . <br><br>
+				<br> Café Sicilia 근처의 저렴한 커피숍은 The Punter입니다. 그것은 가족 친화적이지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> name[The Punter], eatType[coffee shop], food[Italian], priceRange[less than £20], customer rating[low], familyFriendly[no], near[Café Sicilia] <br><br>
+				<br> name[The Punter], eatType[커피숍], food[Italian], priceRange[less than £20], 고객 평가[낮음], familyFriendly[no], near[Café Sicilia] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap family Friendly Indian called Strada near Rainbow Vegetarian Café with a average customer rating. <br><br>
+				<br> 평균 고객 등급을 가진 Rainbow Vegetarian Café 근처의 Strada라는 저렴한 가족 친화적 인도인. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> name[Strada], food[Indian], priceRange[cheap], customer rating[average], familyFriendly[yes], near[Rainbow Vegetarian Café] <br><br>
+				<br> 이름[스트라다], 음식[인도식], 가격대[저렴함], 고객평점[평균], 가족친화적[예], 주변[무지개채식카페] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap family friendly coffee shop The Punter is near Café Sicilia and provides take out. <br><br>
+				<br> 가족 친화적인 저렴한 커피숍 The Punter는 Café Sicilia 근처에 있으며 테이크아웃 서비스를 제공합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> name[The Punter], eatType[coffee shop], food[Italian], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Café Sicilia] <br><br>
+				<br> name[The Punter], eatType[커피숍], food[Italian], priceRange[under than £20], 고객 평점[낮음], familyFriendly[yes], near[Café Sicilia] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap family friendly pub on the riverside is The Olive Grove. <br><br>
+				<br> 강변에 있는 저렴한 가족 친화적인 펍은 The Olive Grove입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> name[The Olive Grove], eatType[pub], priceRange[less than £20], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[The Olive Grove], eatType[pub], priceRange[$20 미만], area[리버사이드], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap family friendly restaurant that serves Indian food in the area is called Loch Fyne <br><br>
+				<br> 이 지역에서 인도 음식을 제공하는 저렴한 가족 친화적 레스토랑은 Loch Fyne입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> name[Loch Fyne], eatType[restaurant], food[Indian], priceRange[cheap], familyFriendly[yes] <br><br>
+				<br> name[Loch Fyne], eatType[레스토랑], food[Indian], priceRange[저렴한], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap hotel near Cambridge is Fitzbillies, part of the chain called Express by Holiday Inn. This hotel was rated 5 out of 5. <br><br>
+				<br> Cambridge 근처의 저렴한 호텔은 Express by Holiday Inn이라는 체인의 일부인 Fitzbillies입니다. 이 호텔은 5점 만점에 5점을 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> name[Fitzbillies], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes], near[Express by Holiday Inn] <br><br>
+				<br> 이름[Fitzbillies], priceRange[저렴함], 고객 평가[5점 만점에 5점], familyFriendly[예], 가까운[Express by Holiday Inn] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap place to eat in the city centre is The Phoenix. It's a French restaurant and has a customer rating of 5 out of 5. <br><br>
+				<br> 도심에서 저렴하게 먹을 수 있는 곳은 The Phoenix입니다. 프렌치 레스토랑이며 고객 평점은 5점 만점에 5점입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> name[The Phoenix], food[French], priceRange[cheap], customer rating[5 out of 5], area[city centre] <br><br>
+				<br> 이름[The Phoenix], 음식[프랑스어], priceRange[저렴함], 고객 평점[5점 만점에 5점], 지역[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap restaurant near All Bar One is Green Man. It is located on the riverside, serves Italian food, and is family friendly. <br><br>
+				<br> All Bar One 근처의 저렴한 레스토랑은 Green Man입니다. 강변에 위치하고 있으며 이탈리아 음식을 제공하며 가족 친화적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> name[Green Man], food[Italian], priceRange[cheap], area[riverside], familyFriendly[yes], near[All Bar One] <br><br>
+				<br> name[Green Man], food[Italian], priceRange[cheap], area[riverside], familyFriendly[yes], near[All Bar One] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap, Chinese food place located near The Bakers is called The Golden Curry and is family friendly. <br><br>
+				<br> The Bakers 근처에 위치한 저렴한 중식당은 The Golden Curry라고 불리며 가족 친화적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Curry], food[Chinese], priceRange[cheap], familyFriendly[yes], near[The Bakers] <br><br>
+				<br> name[The Golden Curry], food[Chinese], priceRange[저렴함], familyFriendly[yes], near[The Bakers] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cheap, family friendly restaurant, Clowns, is near Café Sicilia. <br><br>
+				<br> 저렴하고 가족 친화적인 레스토랑인 Clowns는 Café Sicilia 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> name[Clowns], priceRange[cheap], familyFriendly[yes], near[Café Sicilia] <br><br>
+				<br> name[Clowns], priceRange[저렴함], familyFriendly[yes], near[Café Sicilia] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A child friendly English restaurant but with a high price range is Loch Fyne. <br><br>
+				<br> 어린이 친화적인 영국식 레스토랑이지만 가격대가 높은 로크 파인(Loch Fyne)입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> name[Loch Fyne], eatType[restaurant], food[English], priceRange[high], familyFriendly[yes] <br><br>
+				<br> name[Loch Fyne], eatType[레스토랑], food[영어], priceRange[high], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A child friendly fast food place is The Golden Curry, however it has a low customer rating. <br><br>
+				<br> 어린이 친화적인 패스트푸드점은 The Golden Curry이지만 고객 평가가 낮습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Curry], food[Fast food], customer rating[low], familyFriendly[yes] <br><br>
+				<br> name[골든카레], food[패스트푸드], 고객평점[낮음], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A child friendly restaurant Cocum has a 1 out of 5 customer rating. <br><br>
+				<br> 어린이 친화적인 레스토랑 Cocum은 고객 평점이 5점 만점에 1점입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> name[Cocum], eatType[restaurant], customer rating[1 out of 5], familyFriendly[yes] <br><br>
+				<br> 이름[Cocum], eatType[레스토랑], 고객 평가[1/5], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A child friendly restaurant called Cocum is 3 out of 5. <br><br>
+				<br> Cocum이라는 어린이 친화적인 식당은 5점 만점에 3점입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> name[Cocum], eatType[restaurant], customer rating[3 out of 5], familyFriendly[yes] <br><br>
+				<br> 이름[Cocum], eatType[레스토랑], 고객 평가[5점 중 3점], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A child friendly restaurant that has English food is Loch Fyne. <br><br>
+				<br> 영국 음식을 제공하는 어린이 친화적 레스토랑은 Loch Fyne입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> name[Loch Fyne], eatType[restaurant], food[English], familyFriendly[yes] <br><br>
+				<br> name[Loch Fyne], eatType[레스토랑], food[영어], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A child friendly restaurant with high prices is Travellers Rest Beefeater. <br><br>
+				<br> 가격이 높은 어린이 친화적 레스토랑은 Travelers Rest Beefeater입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> name[Travellers Rest Beefeater], eatType[restaurant], priceRange[high], familyFriendly[yes] <br><br>
+				<br> name[Travellers Rest Beefeater], eatType[레스토랑], priceRange[높음], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A children friendly coffee shop located in the riverside area near Café Sicilia, The Dumpling Tree has prices more than £30. <br><br>
+				<br> Café Sicilia 근처 강변 지역에 위치한 어린이 친화적인 커피숍인 The Dumpling Tree의 가격은 £30 이상입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> name[The Dumpling Tree], eatType[coffee shop], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Café Sicilia] <br><br>
+				<br> name[The Dumpling Tree], eatType[커피숍], priceRange[more than £30], area[강변], familyFriendly[yes], near[Café Sicilia] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A children friendly pub near Ranch with an average customer rating is named The Cricketers. <br><br>
+				<br> 평균적인 고객 평가를 받은 Ranch 근처의 어린이 친화적인 펍의 이름은 The Cricketers입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> name[The Cricketers], eatType[pub], customer rating[average], familyFriendly[yes], near[Ranch] <br><br>
+				<br> name[The Cricketers], eatType[pub], 고객 평가[평균], familyFriendly[yes], near[Ranch] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A children friendly restaurant named The Wrestlers that serves French food. In the city centre area is a coffee shop with a price range of more than 30. It is near Raja Indian Cuisine. <br><br>
+				<br> 프랑스 음식을 제공하는 The Wrestlers라는 어린이 친화적 레스토랑. 도심 지역에는 가격대가 30이 넘는 커피숍이 있다. Raja Indian Cuisine 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> name[The Wrestlers], eatType[coffee shop], food[French], priceRange[more than £30], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine] <br><br>
+				<br> name[The Wrestlers], eatType[커피숍], food[French], priceRange[30파운드 이상], area[도심], familyFriendly[yes], near[Raja Indian Cuisine] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop called The Mill is located near The Sorrento. <br><br>
+				<br> The Mill이라는 커피숍은 The Sorrento 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> name[The Mill], eatType[coffee shop], food[Fast food], priceRange[high], area[riverside], near[The Sorrento] <br><br>
+				<br> name[더밀], eatType[커피숍], food[패스트푸드], priceRange[high], area[강변], near[The Sorrento] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop called Wildwood with a price range below L20 serves French cuisine and is located near Ranch. Customers give this establishment a low rating. <br><br>
+				<br> 랜치 근처에 위치한 Wildwood라는 커피숍은 L20 이하의 가격대로 프랑스 요리를 제공합니다. 고객은 이 시설에 낮은 점수를 부여합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> name[Wildwood], eatType[coffee shop], food[French], priceRange[less than £20], customer rating[low], near[Ranch] <br><br>
+				<br> name[와일드우드], eatType[커피숍], food[프랑스어], priceRange[20파운드 미만], 고객 평점[낮음], 주변[목장] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop located near the Riverside area Fitzbillies is in the low price range and customers have rated it poorly. Its name is Fitzbillies. <br><br>
+				<br> Riverside 지역인 Fitzbillies 근처에 위치한 한 커피숍은 가격대가 낮고 고객 평가가 좋지 않습니다. 그 이름은 Fitzbillies입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> name[Fitzbillies], eatType[coffee shop], food[Fast food], priceRange[less than £20], customer rating[low], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[Fitzbillies], eatType[커피숍], food[패스트푸드], priceRange[20파운드 미만], 고객 평점[낮음], 지역[리버사이드], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop located on the riverside called The Golden Palace, has a 5 out of 5 customer rating. its price range are fairly cheap for it's excellent Fast food. <br><br>
+				<br> The Golden Palace라는 강변에 위치한 커피숍은 고객 평점이 5점 만점에 5점입니다. 그것의 가격대는 훌륭한 패스트 푸드이기 때문에 상당히 저렴합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Palace], eatType[coffee shop], food[Fast food], priceRange[cheap], customer rating[5 out of 5], area[riverside] <br><br>
+				<br> name[금궁], eatType[커피숍], food[패스트푸드], priceRange[저렴], 고객 평가[5/5], area[리버사이드] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop that has a rating of 1 out of 5 is called The Golden Palace. They have French food for moderate prices. They recently moved to city centre. <br><br>
+				<br> 5점 만점에 1점을 받은 커피숍을 The Golden Palace라고 합니다. 적당한 가격에 프랑스 음식을 먹을 수 있습니다. 그들은 최근 도심으로 이사했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Palace], eatType[coffee shop], food[French], priceRange[moderate], customer rating[1 out of 5], area[city centre] <br><br>
+				<br> name[The Golden Palace], eatType[커피숍], food[French], priceRange[보통], 고객 평가[1/5], area[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop that is children friendly and serves Italian food is The Cricketers. It has an average customer rating and is near The Portland Arms. <br><br>
+				<br> 어린이 친화적이고 이탈리아 음식을 제공하는 커피숍은 The Cricketers입니다. 평균 고객 등급을 가지고 있으며 The Portland Arms 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> name[The Cricketers], eatType[coffee shop], food[Italian], customer rating[average], familyFriendly[yes], near[The Portland Arms] <br><br>
+				<br> name[The Cricketers], eatType[커피숍], food[Italian], 고객 평가[평균], familyFriendly[yes], near[The Portland Arms] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop that is kid friendly near Raja Indian Cuisine named The Wrestlers in the riverside area has a price range of more than £30 that serves Italian food. <br><br>
+				<br> 강변 지역에 있는 The Wrestlers라는 이름의 Raja Indian Cuisine 근처에 있는 어린이 친화적인 커피숍은 이탈리아 음식을 제공하는 £30 이상의 가격대를 가지고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> name[The Wrestlers], eatType[coffee shop], food[Italian], priceRange[more than £30], area[riverside], familyFriendly[yes], near[Raja Indian Cuisine] <br><br>
+				<br> name[The Wrestlers], eatType[커피숍], food[Italian], priceRange[30파운드 이상], area[강변], familyFriendly[yes], near[Raja 인도 요리] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop that serves French food and highly rated is Browns Cambridge. It is not family-friendly, but it is by the riverside near Crowne Plaza Hotel. <br><br>
+				<br> 프랑스 음식을 제공하고 높은 평가를 받는 커피숍은 Browns Cambridge입니다. 가족 친화적이지는 않지만 크라운 플라자 호텔 근처 강변에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> name[Browns Cambridge], eatType[coffee shop], food[French], customer rating[5 out of 5], area[riverside], familyFriendly[no], near[Crowne Plaza Hotel] <br><br>
+				<br> name[Browns Cambridge], eatType[커피숍], food[French], 고객 평가[5/5], 지역[강변], familyFriendly[no], near[크라운 플라자 호텔] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coffee shop that serves Japanese food is Cotto. It has cheap prices but a low customer rating. It is located in the center of the city near The Portland Arms. <br><br>
+				<br> 일본 음식을 제공하는 커피숍은 Cotto입니다. 가격은 저렴하지만 고객 평가는 낮습니다. 그것은 The Portland Arms 근처의 도시 중심에 위치하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> name[Cotto], eatType[coffee shop], food[Japanese], priceRange[less than £20], customer rating[low], area[city centre], near[The Portland Arms] <br><br>
+				<br> name[Cotto], eatType[커피숍], food[일본어], priceRange[20파운드 미만], 고객 평점[낮음], 지역[도심], 인근[The Portland Arms] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly Chinese restaurant near Ranch is called Cotto. <br><br>
+				<br> Ranch 근처에 있는 가족 친화적인 중식당은 Cotto입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> name[Cotto], food[Chinese], customer rating[average], familyFriendly[yes], near[Ranch] <br><br>
+				<br> 이름[코또], 음식[중국], 고객평점[보통], 가족친절[예], 주변[목장] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly Indian restaurant riverside is the Green Man. It is inexpensive and located near All Bar One. <br><br>
+				<br> 강변에 있는 가족 친화적인 인도 레스토랑은 Green Man입니다. 저렴하고 All Bar One 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> name[Green Man], food[Indian], priceRange[cheap], area[riverside], familyFriendly[yes], near[All Bar One] <br><br>
+				<br> name[Green Man], food[Indian], priceRange[저렴한], area[강변], familyFriendly[yes], near[All Bar One] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly Indian restaurant with an average customer rating is The Golden Curry. <br><br>
+				<br> 평균적인 고객 평가를 받은 가족 친화적인 인도 레스토랑은 The Golden Curry입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Curry], food[Indian], customer rating[average], familyFriendly[yes] <br><br>
+				<br> name[골든카레], food[인도식], 고객평점[평균], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly coffee shop names The Cricketers serves French food. It has a low customer rating and is located near The Portland Arms. <br><br>
+				<br> The Cricketers라는 이름의 가족 친화적인 커피숍은 프랑스 음식을 제공합니다. 고객 평가가 낮고 The Portland Arms 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> name[The Cricketers], eatType[coffee shop], food[French], customer rating[low], familyFriendly[yes], near[The Portland Arms] <br><br>
+				<br> name[The Cricketers], eatType[커피숍], food[French], 고객 평가[낮음], familyFriendly[yes], near[The Portland Arms] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly coffee shop, with prices under £20 and located near The Bakers. Named Giraffe, it has been rated law by customers. <br><br>
+				<br> £20 미만의 가격으로 The Bakers 근처에 위치한 가족 친화적인 커피숍입니다. Giraffe라는 이름으로 고객들로부터 법으로 평가되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> name[Giraffe], eatType[coffee shop], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[The Bakers] <br><br>
+				<br> name[Giraffe], eatType[커피숍], priceRange[20파운드 미만], 고객 평가[낮음], familyFriendly[yes], near[The Bakers] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly place located on the Riverside near All Bar One called Green Man has cheap prices. <br><br>
+				<br> Green Man이라는 All Bar One 근처의 Riverside에 위치한 가족 친화적인 장소는 가격이 저렴합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> name[Green Man], food[Japanese], priceRange[cheap], area[riverside], familyFriendly[yes], near[All Bar One] <br><br>
+				<br> 이름[그린맨], 음식[일본어], 가격범위[저렴함], 지역[강변], 가족친화적[예], 주변[올바원] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly place that serves fast food for less than 20 pounds is Green Man. Located near All Bar One in the riverside area. <br><br>
+				<br> 20파운드 미만의 패스트푸드를 제공하는 가족 친화적인 장소는 Green Man입니다. 강변 지역의 All Bar One 근처에 위치하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> name[Green Man], food[Fast food], priceRange[less than £20], area[riverside], familyFriendly[yes], near[All Bar One] <br><br>
+				<br> name[Green Man], food[Fast food], priceRange[less than £20], area[riverside], familyFriendly[yes], near[All Bar One] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A family friendly pub in the riverside area, the Giraffe also offers Chinese food. <br><br>
+				<br> 강변 지역에 있는 가족 친화적인 펍인 The Giraffe는 중국 음식도 제공합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> name[Giraffe], eatType[pub], food[Chinese], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[Giraffe], eatType[pub], food[중국어], area[강변], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A fast food coffee shop near Burger King and in the city centre is The Eagle. It has a high customer rating and a price range between £20-25, and it is not kid friendly. <br><br>
+				<br> 버거킹 근처와 도심에 있는 패스트푸드 커피숍은 The Eagle입니다. 고객 평가가 높고 가격대가 £20-25 사이이며 어린이에게 친숙하지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> name[The Eagle], eatType[coffee shop], food[Fast food], priceRange[£20-25], customer rating[high], area[city centre], familyFriendly[no], near[Burger King] <br><br>
+				<br> name[The Eagle], eatType[커피숍], food[패스트푸드], priceRange[£20-25], 고객 평점[높음], area[도심], familyFriendly[no], near[버거킹] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A fast food pub near The Portland Arms would be the kids friendly place called The Dumpling Tree <br><br>
+				<br> The Portland Arms 근처의 패스트 푸드 펍은 The Dumpling Tree라는 어린이 친화적 인 장소입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> name[The Dumpling Tree], eatType[pub], food[Fast food], familyFriendly[yes], near[The Portland Arms] <br><br>
+				<br> name[The Dumpling Tree], eatType[pub], food[패스트 푸드], familyFriendly[yes], near[The Portland Arms] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A fast food restaurant, The Rice Boat is located in the city centre. <br><br>
+				<br> 패스트푸드 레스토랑인 The Rice Boat는 도심에 위치해 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> name[The Rice Boat], food[Fast food], area[city centre] <br><br>
+				<br> 이름[The Rice Boat], food[패스트푸드], area[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A five out of five restaurant serving English food if the Loch Fyne which is in the city centre near The Rice Boat. <br><br>
+				<br> The Rice Boat 근처 도심에 있는 Loch Fyne의 경우 영국 음식을 제공하는 5개 레스토랑 중 5개입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> name[Loch Fyne], food[English], customer rating[5 out of 5], area[city centre], near[The Rice Boat] <br><br>
+				<br> 이름[Loch Fyne], 음식[영문], 고객평점[5점 만점에 5점], 지역[도심], 주변[The Rice Boat] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A good Fast food restaurant is The Phoenix with a high costumer rating and low prices starting at £20-25. Located in city centre. <br><br>
+				<br> 좋은 패스트푸드 레스토랑은 고객 평가가 높고 가격이 £20-25부터 시작하는 저렴한 The Phoenix입니다. 도심에 위치. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> name[The Phoenix], food[Fast food], priceRange[£20-25], customer rating[high], area[city centre] <br><br>
+				<br> name[The Phoenix], food[Fast food], priceRange[£20-25], 고객 평점[높음], area[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A good choice for Chinese food is The Wrestlers. It is children-friendly, with high customer ratings and with prices ranging around £30. <br><br>
+				<br> 중국 음식의 좋은 선택은 The Wrestlers입니다. 어린이 친화적이고 고객 평가가 높으며 가격은 £30 정도입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> name[The Wrestlers], food[Chinese], priceRange[more than £30], customer rating[high], familyFriendly[yes] <br><br>
+				<br> name[The Wrestlers], food[Chinese], priceRange[more than £30], 고객 평점[high], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A good coffee shop that received a customer rating of 5 out of 5 is The Eagle. It is in the riverside area near the Burger King. It costs more than 30 pounds and is kid friendly. <br><br>
+				<br> 고객 평점 5점 만점에 5점을 받은 좋은 커피숍은 The Eagle입니다. 버거킹 근처 강변 지역에 있습니다. 비용은 30 파운드 이상이며 어린이 친화적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> name[The Eagle], eatType[coffee shop], food[French], priceRange[more than £30], customer rating[5 out of 5], area[riverside], familyFriendly[yes], near[Burger King] <br><br>
+				<br> name[더 이글], eatType[커피숍], food[프랑스어], priceRange[30파운드 이상], 고객 평점[5점 만점에 5점], 지역[강변], familyFriendly[예], near[버거킹] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A great restaurant near the riverside is Blue Spice. <br><br>
+				<br> 강변 근처의 훌륭한 레스토랑은 Blue Spice입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> name[Blue Spice], priceRange[cheap], area[riverside] <br><br>
+				<br> name[Blue Spice], priceRange[저가], area[리버사이드] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high costing restaurant with an average rating is The Twenty Two. It is near The Rice Boat in the riverside area, and it is kid friendly. <br><br>
+				<br> 평균 등급의 고비용 레스토랑은 The Twenty Two입니다. 강변 지역의 The Rice Boat 근처에 있으며 어린이 친화적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> name[The Twenty Two], priceRange[high], customer rating[average], area[riverside], familyFriendly[yes], near[The Rice Boat] <br><br>
+				<br> name[이십이], priceRange[high], 고객평점[평균], area[강변], familyFriendly[yes], near[쌀배] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high priced Italian restaurant and coffee shop that is children friendly is called The Wrestlers. It is in the city centre near Raja Indian Cuisine. <br><br>
+				<br> 아이들에게 친숙한 고가의 이탈리안 레스토랑과 커피숍은 The Wrestlers라고 불립니다. 그것은 Raja Indian Cuisine 근처의 도심에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> name[The Wrestlers], eatType[coffee shop], food[Italian], priceRange[high], area[city centre], familyFriendly[yes], near[Raja Indian Cuisine] <br><br>
+				<br> name[The Wrestlers], eatType[커피숍], food[Italian], priceRange[high], area[도심], familyFriendly[yes], near[Raja Indian Cuisine] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high priced pub serving fast food with an average customer rating is called Wildwood. <br><br>
+				<br> 평균적인 고객 평가로 패스트푸드를 제공하는 고가의 펍을 Wildwood라고 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> name[Wildwood], eatType[pub], food[Fast food], priceRange[high], customer rating[average] <br><br>
+				<br> name[Wildwood], eatType[pub], food[패스트푸드], priceRange[high], 고객평점[average] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high priced restaurant near the river is Alimentum. This is a five star restaurant located next to Yippee Noodle Bar. <br><br>
+				<br> 강 근처의 고가 식당은 Alimentum입니다. Yippee Noodle Bar 옆에 위치한 5성급 레스토랑입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> name[Alimentum], food[Fast food], priceRange[more than £30], customer rating[high], area[riverside], near[Yippee Noodle Bar] <br><br>
+				<br> name[Alimentum], food[패스트푸드], priceRange[more than £30], 고객평점[높음], area[강변], near[Yippee Noodle Bar] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high-priced Italian food coffee shop, The Punter has a low customer rating, is children friendly and is located near Café Sicilia. <br><br>
+				<br> 고가의 이탈리안 푸드 커피숍인 더 펀터는 고객 평가가 낮고, 어린이 친화적이며 Café Sicilia 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> name[The Punter], eatType[coffee shop], food[Italian], priceRange[high], customer rating[1 out of 5], familyFriendly[yes], near[Café Sicilia] <br><br>
+				<br> name[The Punter], eatType[커피숍], food[Italian], priceRange[high], 고객 평가[1/5], familyFriendly[yes], near[Café Sicilia] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high-priced child friendly fast food place near riverside is Alimentum. <br><br>
+				<br> 강변 근처에 있는 고가의 어린이 친화적인 패스트푸드점은 Alimentum입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> name[Alimentum], food[Fast food], priceRange[high], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[Alimentum], food[패스트푸드], priceRange[high], area[riverside], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high-priced restaurant that is also family friendly is The Vaults. They serve British-style food. <br><br>
+				<br> 가족 친화적인 고가 레스토랑은 The Vaults입니다. 그들은 영국식 음식을 제공합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> name[The Vaults], food[English], priceRange[high], familyFriendly[yes] <br><br>
+				<br> name[The Vaults], food[English], priceRange[high], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A kid friendly coffee shop is Cocum, offering high customer ratings and £30 dining options. <br><br>
+				<br> 어린이 친화적인 커피숍인 Cocum은 높은 고객 평가와 £30의 식사 옵션을 제공합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> name[Cocum], eatType[coffee shop], food[English], priceRange[more than £30], customer rating[high], familyFriendly[yes] <br><br>
+				<br> name[코쿰], eatType[커피숍], food[영어], priceRange[30파운드 이상], 고객 평가[높음], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A low customer rated fast food and coffee shop, Browns Cambridge, is family friendly and is near Crown Plaza Hotel in riverside <br><br>
+				<br> 고객 평가가 낮은 패스트푸드 및 커피숍인 Browns Cambridge는 가족 친화적이며 강변의 Crown Plaza Hotel 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> name[Browns Cambridge], eatType[coffee shop], food[Fast food], customer rating[low], area[riverside], familyFriendly[yes], near[Crowne Plaza Hotel] <br><br>
+				<br> name[Browns Cambridge], eatType[커피숍], food[패스트푸드], 고객 평가[낮음], area[강변], familyFriendly[yes], near[크라운 플라자 호텔] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A low priced Italian restaurant located in the centre of the city near All Bar One, Green Man is not family-friendly. <br><br>
+				<br> 도심 한가운데 All Bar One 근처에 위치한 저렴한 이탈리안 레스토랑인 Green Man은 가족 친화적이지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> name[Green Man], food[Italian], priceRange[less than £20], area[city centre], familyFriendly[no], near[All Bar One] <br><br>
+				<br> name[Green Man], food[Italian], priceRange[less than £20], area[city centre], familyFriendly[no], near[All Bar One] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A low priced restaurant called The Vaults is suitable for families. <br><br>
+				<br> The Vaults라는 저렴한 레스토랑은 가족에게 적합합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> name[The Vaults], food[French], priceRange[less than £20], familyFriendly[yes] <br><br>
+				<br> name[The Vaults], food[French], priceRange[£20 미만], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A low-rated Indian coffee shop, named Clowns, is situated in the city centre near Clare Hall. <br><br>
+				<br> Clowns라는 낮은 등급의 인도 커피숍은 Clare Hall 근처의 도심에 위치하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> name[Clowns], eatType[coffee shop], food[Indian], customer rating[low], area[city centre], near[Clare Hall] <br><br>
+				<br> name[광대], eatType[커피숍], food[인디언], 고객 평가[낮음], 지역[도심], 주변[클레어홀] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A medium priced burger restaurant called Alimentum is a great venue for families. <br><br>
+				<br> Alimentum이라는 중간 가격대의 버거 레스토랑은 가족을 위한 훌륭한 장소입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> name[Alimentum], food[Fast food], priceRange[moderate], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[Alimentum], food[패스트푸드], priceRange[보통], area[강변], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A moderate priced restaurant, Giraffe, is near The Six Bells. <br><br>
+				<br> 적당한 가격의 레스토랑인 Giraffe는 The Six Bells 근처에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> name[Giraffe], eatType[restaurant], priceRange[moderate], near[The Six Bells] <br><br>
+				<br> name[Giraffe], eatType[레스토랑], priceRange[보통], near[The Six Bells] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A moderately price Indian pub in riverside is called The Mill. <br><br>
+				<br> 강변에 있는 적당한 가격의 인디언 펍인 더 밀(The Mill). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> name[The Mill], eatType[pub], food[Indian], priceRange[moderate], area[riverside] <br><br>
+				<br> name[The Mill], eatType[pub], food[Indian], priceRange[보통], area[리버사이드] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A moderately priced Chinese restaurant near All Bar One called Midsummer House with an average rating. <br><br>
+				<br> Midsummer House라는 All Bar One 근처의 적당한 가격의 중식당은 평균 평점을 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> name[Midsummer House], food[Chinese], priceRange[moderate], customer rating[3 out of 5], near[All Bar One] <br><br>
+				<br> name[한여름집], food[중국], priceRange[보통], 고객평점[5점 만점에 3점], 가까운[All Bar One] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A none family-friendly fast food place called The Golden Curry with a low customer rating. <br><br>
+				<br> 고객 평가가 낮은 The Golden Curry라는 가족 친화적이지 않은 패스트푸드점. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Curry], food[Fast food], customer rating[low], familyFriendly[no] <br><br>
+				<br> name[골든카레], food[패스트푸드], 고객평점[낮음], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A professionally priced eatery by the river that serves English cuisine and has an average atmosphere is called The Phoenix. <br><br>
+				<br> 영국 요리를 제공하고 평균적인 분위기를 지닌 전문 가격의 강가 식당을 The Phoenix라고합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> name[The Phoenix], food[English], priceRange[high], customer rating[average], area[riverside] <br><br>
+				<br> name[The Phoenix], food[영문], priceRange[high], 고객평점[average], area[riverside] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A pub in the riverside area, The Mill offers Chinese food for less than £20. <br><br>
+				<br> 강변 지역의 펍인 The Mill은 £20 미만의 중국 음식을 제공합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> name[The Mill], eatType[pub], food[Chinese], priceRange[less than £20], area[riverside] <br><br>
+				<br> name[The Mill], eatType[pub], food[Chinese], priceRange[£20 미만], area[강변] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A pub named Zizzi has a customer rating of 3 out of 5, serves French cuisine, and is kid friendly. <br><br>
+				<br> Zizzi라는 이름의 펍은 고객 평점이 5점 만점에 3점이며 프랑스 요리를 제공하며 어린이 친화적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> name[Zizzi], eatType[pub], food[French], customer rating[3 out of 5], familyFriendly[yes] <br><br>
+				<br> name[Zizzi], eatType[pub], food[French], 고객 평가[3/5], familyFriendly[예] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A pub near Café Brazil with low prices is The Cambridge Blue. <br><br>
+				<br> 저렴한 가격의 Café Brazil 근처의 펍은 The Cambridge Blue입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> name[The Cambridge Blue], eatType[pub], food[Indian], priceRange[£20-25], near[Café Brazil] <br><br>
+				<br> name[The Cambridge Blue], eatType[pub], food[Indian], priceRange[£20-25], near[Café Brazil] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A pub that is not children friendly is Cocum. The customer rating is 5 out of 5 and the price range is more than 30. <br><br>
+				<br> 어린이 친화적이지 않은 술집은 Cocum입니다. 고객 평가는 5점 만점에 5점이며 가격대는 30점 이상입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> name[Cocum], eatType[pub], priceRange[more than £30], customer rating[5 out of 5], familyFriendly[no] <br><br>
+				<br> name[Cocum], eatType[pub], priceRange[£30 이상], 고객 평점[5점 만점에 5점], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A pub with a moderate price range serves Fast food and is called The Mill and is on the riverside. <br><br>
+				<br> 적당한 가격대의 패스트 푸드를 제공하는 The Mill이라는 펍이 강변에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> name[The Mill], eatType[pub], food[Fast food], priceRange[moderate], area[riverside] <br><br>
+				<br> name[The Mill], eatType[pub], food[패스트푸드], priceRange[보통], area[리버사이드] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant called Browns Cambridge sells average Chinese food at an moderate price. <br><br>
+				<br> Browns Cambridge라는 레스토랑은 평균적인 중국 음식을 적당한 가격에 판매합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> name[Browns Cambridge], food[Chinese], priceRange[moderate], customer rating[3 out of 5] <br><br>
+				<br> 이름[Browns Cambridge], 음식[중국어], priceRange[보통], 고객 평가[3/5] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant called The Mill, can be found near the riverside next to The Rice Boat. <br><br>
+				<br> The Rice Boat 옆 강변 근처에 The Mill이라는 레스토랑이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> name[The Mill], eatType[restaurant], area[riverside], near[The Rice Boat] <br><br>
+				<br> name[The Mill], eatType[식당], area[강변], near[The Rice Boat] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant in the city centre with a low customer rating is called The Golden Palace. <br><br>
+				<br> 고객 평가가 낮은 도심의 레스토랑을 The Golden Palace라고 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Palace], eatType[restaurant], customer rating[low], area[city centre] <br><br>
+				<br> name[황금궁], eatType[레스토랑], 고객 평가[낮음], 지역[도심] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant in the riverside area, The Phoenix, offers English food in the lower price range but has a low customer rating. <br><br>
+				<br> 강변에 위치한 레스토랑 더피닉스는 저렴한 가격대에 영국음식을 맛볼 수 있지만 고객평점은 낮다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> name[The Phoenix], food[English], priceRange[less than £20], customer rating[low], area[riverside] <br><br>
+				<br> name[The Phoenix], food[English], priceRange[less than £20], 고객 평점[low], area[riverside] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant named The Golden Curry is located near The Bakers. It has Indian food and is not kid friendly with a moderate price range <br><br>
+				<br> The Bakers 근처에 The Golden Curry라는 레스토랑이 있습니다. 그것은 인도 음식을 가지고 있으며 적당한 가격대로 아이들에게 친숙하지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Curry], food[Indian], priceRange[moderate], familyFriendly[no], near[The Bakers] <br><br>
+				<br> name[The Golden Curry], food[Indian], priceRange[moderate], familyFriendly[no], near[The Bakers] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant that serves English food and is children friendly named The Wrestlers, has a high price range and customer rating of 1 out of 5. <br><br>
+				<br> The Wrestlers라는 이름의 영국식 음식과 어린이 친화적인 레스토랑은 높은 가격대와 5점 만점에 1점의 고객 평점을 자랑합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> name[The Wrestlers], food[English], priceRange[high], customer rating[1 out of 5], familyFriendly[yes] <br><br>
+				<br> name[The Wrestlers], food[English], priceRange[high], 고객 평가[1/5], familyFriendly[yes] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant that serves average-rate English food is The Cambridge Blue. <br><br>
+				<br> 평균적인 영국 음식을 제공하는 레스토랑은 The Cambridge Blue입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> name[The Cambridge Blue], eatType[restaurant], food[English], customer rating[average] <br><br>
+				<br> name[The Cambridge Blue], eatType[레스토랑], food[영어], 고객 평가[average] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant which provides affordable food is The Golden Palace. <br><br>
+				<br> 저렴한 음식을 제공하는 레스토랑은 The Golden Palace입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> name[The Golden Palace], eatType[restaurant], priceRange[£20-25] <br><br>
+				<br> name[The Golden Palace], eatType[레스토랑], priceRange[£20-25] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A restaurant with a price range greater than £30 that serves English food is The Dumpling Tree. <br><br>
+				<br> 영국 음식을 제공하는 £30 이상의 가격 범위를 가진 레스토랑은 The Dumpling Tree입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> name[The Dumpling Tree], eatType[restaurant], food[English], priceRange[more than £30] <br><br>
+				<br> name[The Dumpling Tree], eatType[레스토랑], food[영어], priceRange[more than £30] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A somewhat more pricey choice for Indian food is The Plough. It is a children-friendly pub, located near Café Rouge. <br><br>
+				<br> 인도 음식에 대한 다소 비싼 선택은 The Plough입니다. 카페 루즈 근처에 위치한 어린이 친화적인 펍입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> name[The Plough], eatType[pub], food[Indian], priceRange[high], familyFriendly[yes], near[Café Rouge] <br><br>
+				<br> name[The Plough], eatType[pub], food[Indian], priceRange[high], familyFriendly[yes], near[카페 루즈] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A top rated pub eatery called Aromi is situated by the riverside <br><br>
+				<br> Aromi라는 최고급 술집 식당은 강변에 위치하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> name[Aromi], eatType[pub], customer rating[5 out of 5], area[riverside], familyFriendly[no] <br><br>
+				<br> 이름[Aromi], eatType[pub], 고객 평점[5점 만점에 5점], area[리버사이드], familyFriendly[no] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A very cool restaurant of sushi called Alimentum its located near Yippee Noodle Bar <br><br>
+				<br> Yippee Noodle Bar 근처에 위치한 Alimentum이라는 매우 멋진 스시 레스토랑 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> name[Alimentum], food[Japanese], priceRange[more than £30], customer rating[5 out of 5], area[riverside], near[Yippee Noodle Bar] <br><br>
+				<br> 이름[Alimentum], 음식[일본어], 가격범위[30파운드 이상], 고객 평가[5점 만점에 5점], 지역[강변], 주변[Yippee Noodle Bar] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Adult only expensive riverside area restaurant The Rice Boat features great Italian food and is close to the Express by Holiday Inn <br><br>
+				<br> 성인 전용 고가 강변 레스토랑 The Rice Boat는 훌륭한 이탈리아 요리를 제공하며 Express by Holiday Inn과 가깝습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> name[The Rice Boat], food[Italian], priceRange[more than £30], customer rating[high], area[riverside], familyFriendly[no], near[Express by Holiday Inn] <br><br>
+				<br> 이름[The Rice Boat], food[Italian], priceRange[more than £30], 고객 평점[높음], area[강변], familyFriendly[no], near[Express by Holiday Inn] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Alimentum a kid friendly Italian restaurant moderate prices in riverside. <br><br>
+				<br> Alimentum은 강변에 있는 적당한 가격의 어린이 친화적인 이탈리안 레스토랑입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> name[Alimentum], food[Italian], priceRange[moderate], area[riverside], familyFriendly[yes] <br><br>
+				<br> name[Alimentum], food[Italian], priceRange[moderate], area[riverside], familyFriendly[yes] <br><br>
+			</td>
+		</tr>
+	</table>

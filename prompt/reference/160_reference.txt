@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'group of motorcycle motorists trying to merge into traffic'. Replace the letter 'o' with 'n' in the sentence. <br><br>
+				<br> 문장: '차량에 합류하려는 오토바이 운전자 그룹'. 문장에서 문자 'o'를 'n'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> grnup nf mntnrcycle mntnrists trying tn merge intn traffic <br><br>
+				<br> grnup nf mntnrcycle mntnrists 시도 tn 병합 intn 트래픽 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'there are many boats that are in this water'. Replace the letter 'a' with 'z' in the sentence. <br><br>
+				<br> 문장: '이 물에는 많은 배가 있다'. 문장에서 문자 'a'를 'z'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> there zre mzny bozts thzt zre in this wzter <br><br>
+				<br> 이 wzter에 zre mzny bozts thzt zre가 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a banana, cookies, ruler, and other healthy food sitting on a plate'. Replace the letter 't' with 's' in the sentence. <br><br>
+				<br> 문장: '접시 위에 놓인 바나나, 쿠키, 자 및 기타 건강에 좋은 음식'. 문장에서 문자 't'를 's'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> a banana, cookies, ruler, and osher healshy food sissing on a plase <br><br>
+				<br> 플라세에 놓인 바나나, 쿠키, 자, 건강에 좋은 음식 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player taking a swing at a ball'. Replace the letter 'n' with 'l' in the sentence. <br><br>
+				<br> 문장: '공을 스윙하는 야구 선수'. 문장에서 문자 'n'을 'l'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> a baseball player takilg a swilg at a ball <br><br>
+				<br> 야구 선수가 공을 휘둘러 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player taking a swing at a ball'. Replace the letter 't' with 'g' in the sentence. <br><br>
+				<br> 문장: '공을 스윙하는 야구 선수'. 문장에서 문자 't'를 'g'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> a baseball player gaking a swing ag a ball <br><br>
+				<br> 공을 스윙하는 야구 선수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player up to bat that just hit the ball'. Replace the letter 'r' with 'o' in the sentence. <br><br>
+				<br> 문장: '방금 공을 친 야구 선수'. 문장에서 문자 'r'을 'o'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> a baseball playeo up to bat that just hit the ball <br><br>
+				<br> 방금 공을 쳤던 배트까지 야구 플레이어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a sink, toilet and a shower'. Replace the letter 'a' with 'v' in the sentence. <br><br>
+				<br> 문장: '세면대, 변기, 샤워기가 있는 욕실'. 문장에서 문자 'a'를 'v'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> v bvthroom with v sink, toilet vnd v shower <br><br>
+				<br> v 세면대, 화장실 vnd v 샤워기가 있는 bvthroom <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a batter on the batting mark and a catcher behind him at he plate'. Replace the letter 'a' with 'x' in the sentence. <br><br>
+				<br> 문장: '타석에 있는 타자와 타석에서 그 뒤에 있는 포수'. 문장에서 문자 'a'를 'x'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> x bxtter on the bxtting mxrk xnd x cxtcher behind him xt he plxte <br><br>
+				<br> x bxtter on the bxtting mxrk xnd x cxtcher 뒤에 xt he plxte <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bowl of cut up banana slices sits on a counter top'. Replace the letter 'e' with 'n' in the sentence. <br><br>
+				<br> 문장: '잘린 바나나 조각 한 그릇이 카운터 위에 놓여 있습니다.' 문장에서 문자 'e'를 'n'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> a bowl of cut up banana slicns sits on a countnr top <br><br>
+				<br> 자른 바나나 조각 한 그릇이 countnr 상단에 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy getting ready to catch a frisbee'. Replace the letter 't' with 'g' in the sentence. <br><br>
+				<br> 문장: '프리스비를 잡으려고 준비하는 소년'. 문장에서 문자 't'를 'g'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> a boy gegging ready go cagch a frisbee <br><br>
+				<br> 소년 gegging 준비 이동 cagch 프리스비 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a buffet with a lot of different foods some on skewers'. Replace the letter 'o' with 'f' in the sentence. <br><br>
+				<br> 문장: '꼬챙이에 다양한 음식이 있는 뷔페'. 문장에서 문자 'o'를 'f'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> a buffet with a lft ff different fffds sfme fn skewers <br><br>
+				<br> lft ff 다른 fffds sfme fn 꼬치가 있는 뷔페 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a car drives through a street in a suburban neighborhood'. Replace the letter 'r' with 'f' in the sentence. <br><br>
+				<br> 문장: '차가 교외 동네의 거리를 지나간다'. 문장에서 문자 'r'을 'f'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> a caf dfives thfough a stfeet in a subufban neighbofhood <br><br>
+				<br> 교외의 이웃에 있는 카페 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cargo train that is traveling down some tracks'. Replace the letter 's' with 'b' in the sentence. <br><br>
+				<br> 문장: '어떤 선로를 타고 내려가는 화물열차'. 문장에서 문자 's'를 'b'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> a cargo train that ib traveling down bome trackb <br><br>
+				<br> 트랙을 따라 내려가는 화물열차 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a city street scene on a bridge with a bus on the road and pedestrians on the side'. Replace the letter 'p' with 'a' in the sentence. <br><br>
+				<br> 문장: '도로에는 버스가 있고 옆에는 보행자가 있는 다리 위의 도시 거리 풍경'. 문장에서 문자 'p'를 'a'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> a city street scene on a bridge with a bus on the road and aedestrians on the side <br><br>
+				<br> 도로에는 버스가 있고 측면에는 보행자가 있는 다리 위의 도시 거리 풍경 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a small bird on a rock'. Replace the letter 'l' with 'p' in the sentence. <br><br>
+				<br> 문장: 'a close up of a small bird on a rock'. 문장에서 문자 'l'을 'p'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> a cpose up of a smapp bird on a rock <br><br>
+				<br> 바위 위의 스켑 새의 포즈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cluster of boats and yachts gathered beneath a vibrant sunset sky'. Replace the letter 't' with 'r' in the sentence. <br><br>
+				<br> 문장: '활기찬 노을 하늘 아래 모인 보트와 요트의 무리'. 문장에서 문자 't'를 'r'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> a clusrer of boars and yachrs garhered benearh a vibranr sunser sky <br><br>
+				<br> 멧돼지와 yachrs의 clusrer는 vibranr sunser 하늘 아래에 garhered <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a collage of cats interacting with and sitting on bicycles'. Replace the letter 'g' with 'o' in the sentence. <br><br>
+				<br> 문장: '자전거와 상호 작용하고 자전거에 앉아있는 고양이의 콜라주'. 문장에서 문자 'g'를 'o'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> a collaoe of cats interactino with and sittino on bicycles <br><br>
+				<br> 고양이의 collaoe는 자전거와 상호 작용하고 sittino <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a counter top that has some food on top'. Replace the letter 'a' with 'h' in the sentence. <br><br>
+				<br> 문장: '위에 약간의 음식이 있는 조리대'. 문장에서 문자 'a'를 'h'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> h counter top thht hhs some food on top <br><br>
+				<br> h 카운터 탑 thht hhs 위에 약간의 음식 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of cats laying on top of a bed'. Replace the letter 'o' with 'k' in the sentence. <br><br>
+				<br> 문장: '침대 위에 누워 있는 고양이 두 마리'. 문장에서 문자 'o'를 'k'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> a ckuple kf cats laying kn tkp kf a bed <br><br>
+				<br> a ckuple kf 고양이 누워 kn tkp kf 침대 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of elephants standing in the middle of a forest'. Replace the letter 'e' with 'n' in the sentence. <br><br>
+				<br> 문장: '숲 한가운데 서 있는 코끼리 두 마리'. 문장에서 문자 'e'를 'n'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> a coupln of nlnphants standing in thn middln of a fornst <br><br>
+				<br> fornst의 thn middln에 서 있는 nlnphants의 coupln <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of teddy bears sitting on either side of a christmas tree'. Replace the letter 'l' with 'e' in the sentence. <br><br>
+				<br> 문장: '크리스마스 트리 양쪽에 앉아 있는 테디베어 커플'. 문장에서 문자 'l'을 'e'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> a coupee of teddy bears sitting on either side of a christmas tree <br><br>
+				<br> 크리스마스 트리 양쪽에 앉아 있는 테디베어 쿠페 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow and calf stand together in a field'. Replace the letter 'e' with 'w' in the sentence. <br><br>
+				<br> 문장: '소와 송아지가 함께 들판에 서 있다'. 문장에서 문자 'e'를 'w'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> a cow and calf stand togwthwr in a fiwld <br><br>
+				<br> 암소와 송아지가 필드에서 togwthwr 서 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a digital fireplace glowing near a bed with white sheets and a puppy'. Replace the letter 'a' with 'f' in the sentence. <br><br>
+				<br> 문장: '하얀 시트와 강아지가 있는 침대 근처에서 빛나는 디지털 벽난로'. 문장에서 문자 'a'를 'f'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> f digitfl fireplfce glowing nefr f bed with white sheets fnd f puppy <br><br>
+				<br> f digitfl fireplfce 빛나는 nefr f 흰색 시트가 있는 침대 fnd f 강아지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog standing near a potted plant outside'. Replace the letter 'a' with 'j' in the sentence. <br><br>
+				<br> 문장: '밖에 있는 화분 근처에 서 있는 개'. 문장에서 문자 'a'를 'j'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> j dog stjnding nejr j potted pljnt outside <br><br>
+				<br> j dog stjnding nejr j potted pjnt 외부 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fire hydrant on the ground near some bushes'. Replace the letter 'a' with 's' in the sentence. <br><br>
+				<br> 문장: '덤불 근처 땅에 있는 소화전'. 문장에서 문자 'a'를 's'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> s fire hydrsnt on the ground nesr some bushes <br><br>
+				<br> s 화재 hydrsnt 지상 nesr 일부 덤불 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fleet of small boats is moored in the water near a scattering of lobster traps markers'. Replace the letter 'r' with 'b' in the sentence. <br><br>
+				<br> 문장: '소형 보트 함대가 랍스터 트랩 마커가 흩어져 있는 물 근처에 정박해 있습니다.' 문장에서 문자 'r'을 'b'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> a fleet of small boats is moobed in the wateb neab a scattebing of lobsteb tbaps mabkebs <br><br>
+				<br> 랍스테브 tbaps mabkebs의 scattebing wateb neab에 작은 보트의 선단 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gate with a stop sign blocking the road'. Replace the letter 'h' with 'y' in the sentence. <br><br>
+				<br> 문장: '도로를 막고 있는 정지 표지판이 있는 문'. 문장에서 문자 'h'를 'y'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> a gate wity a stop sign blocking tye road <br><br>
+				<br> 도로를 막고 있는 정지 표지판이 있는 게이트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of guys each with a skateboard'. Replace the letter 'u' with 'd' in the sentence. <br><br>
+				<br> 문장: '스케이트보드를 가진 남자들의 그룹'. 문장에서 문자 'u'를 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> a grodp of gdys each with a skateboard <br><br>
+				<br> 각각 스케이트보드를 든 gdys의 grodp <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people in street below traffic lights by buildings'. Replace the letter 'u' with 'd' in the sentence. <br><br>
+				<br> 문장: '건물 옆 신호등 아래 거리에 있는 한 무리의 사람들'. 문장에서 문자 'u'를 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> a grodp of people in street below traffic lights by bdildings <br><br>
+				<br> bdildings에 의해 신호등 아래 거리에 있는 사람들의 grodp <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people walking on a sandy beach holding surfboards'. Replace the letter 'y' with 'c' in the sentence. <br><br>
+				<br> 문장: '서프보드를 들고 모래사장을 걷는 사람들'. 문장에서 문자 'y'를 'c'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> a group of people walking on a sandc beach holding surfboards <br><br>
+				<br> 서핑보드를 들고 모래사장을 걷고 있는 한 무리의 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of teddy bears in a basket in a house'. Replace the letter 's' with 'j' in the sentence. <br><br>
+				<br> 문장: '집 안 바구니에 담긴 테디베어 무리'. 문장에서 문자 's'를 'j'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> a group of teddy bearj in a bajket in a houje <br><br>
+				<br> houje의 bajket에있는 테디 베어 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of young people are posing and smiling on the beach'. Replace the letter 'n' with 'g' in the sentence. <br><br>
+				<br> 문장: '한 무리의 젊은이들이 해변에서 포즈를 취하고 웃고 있다'. 문장에서 문자 'n'을 'g'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> a group of yougg people are posigg agd smiligg og the beach <br><br>
+				<br> 한 무리의 yougg 사람들이 해변에서 포즈를 취하고 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a halved banana on a plate with other fruit'. Replace the letter 'i' with 'r' in the sentence. <br><br>
+				<br> 문장: '다른 과일과 함께 접시에 담긴 반으로 자른 바나나'. 문장에서 문자 'i'를 'r'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> a halved banana on a plate wrth other frurt <br><br>
+				<br> 다른 frurt wrth 접시에 반으로 자른 바나나 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large commercial plane with a flower on the tail'. Replace the letter 'l' with 'e' in the sentence. <br><br>
+				<br> 문장: '꼬리에 꽃이 달린 대형 상업용 비행기'. 문장에서 문자 'l'을 'e'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> a earge commerciae peane with a feower on the taie <br><br>
+				<br> a earge commerciae peane with a feower on the taie <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large herd of zebras are grazing in front of a rock formation'. Replace the letter 'n' with 'q' in the sentence. <br><br>
+				<br> 문장: '큰 얼룩말 무리가 암석 앞에서 풀을 뜯고 있다'. 문장에서 문자 'n'을 'q'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> a large herd of zebras are graziqg iq froqt of a rock formatioq <br><br>
+				<br> 얼룩말의 큰 무리는 바위 formatioq의 graziqg iq froqt입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lone cow is looking at the camera in the middle of the field'. Replace the letter 'o' with 'f' in the sentence. <br><br>
+				<br> 문장: '들판 한가운데서 외로운 소가 카메라를 보고 있다'. 문장에서 문자 'o'를 'f'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> a lfne cfw is lffking at the camera in the middle ff the field <br><br>
+				<br> lfne cfw는 필드 중간에 있는 카메라에서 lffking하고 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and a woman embrace in front of a group of trees'. Replace the letter 'a' with 't' in the sentence. <br><br>
+				<br> 문장: '한 남자와 여자가 한 무리의 나무 앞에서 포옹한다'. 문장에서 문자 'a'를 't'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> t mtn tnd t womtn embrtce in front of t group of trees <br><br>
+				<br> t mtn tnd t womtn embrtce 앞의 t 나무 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and girl are playing video games'. Replace the letter 'g' with 'e' in the sentence. <br><br>
+				<br> 문장: '남자와 여자가 비디오 게임을 하고 있다'. 문장에서 문자 'g'를 'e'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> a man and eirl are playine video eames <br><br>
+				<br> a man and eirl are playine 비디오 임스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man flying through the air while riding a skateboard'. Replace the letter 'n' with 'p' in the sentence. <br><br>
+				<br> 문장: '스케이트보드를 타면서 공중을 나는 남자'. 문장에서 문자 'n'을 'p'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> a map flyipg through the air while ridipg a skateboard <br><br>
+				<br> 스케이트보드를 타면서 공중으로 날아가는 지도 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man has his wet suit rolled down and rides his bike while holding a skateboard on the road'. Replace the letter 'i' with 'y' in the sentence. <br><br>
+				<br> 문장: '한 남자가 잠수복을 벗고 길에서 스케이트보드를 들고 자전거를 탄다'. 문장에서 문자 'i'를 'y'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> a man has hys wet suyt rolled down and rydes hys byke whyle holdyng a skateboard on the road <br><br>
+				<br> a man has hys wet suyt roll down and rydes hys byke Whyle holdyng a skateboard on the road <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding an umbrella in the rain at a foot ball game'. Replace the letter 'a' with 'f' in the sentence. <br><br>
+				<br> 문장: '족구장에서 빗속에서 우산을 들고 있는 남자'. 문장에서 문자 'a'를 'f'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> f mfn holding fn umbrellf in the rfin ft f foot bfll gfme <br><br>
+				<br> f mfn rfin ft f 발 bfll gfme에 fn umbrellf를 들고 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a car bites into a frosted doughnut'. Replace the letter 'a' with 'v' in the sentence. <br><br>
+				<br> 문장: '차에 탄 남자가 반투명 도넛을 깨물다'. 문장에서 문자 'a'를 'v'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> v mvn in v cvr bites into v frosted doughnut <br><br>
+				<br> v mvn in v cvr bites into v 프로스티드 도넛 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man on a beach holding a surfboard'. Replace the letter 'b' with 'n' in the sentence. <br><br>
+				<br> 문장: '해변에서 서핑보드를 들고 있는 남자'. 문장에서 문자 'b'를 'n'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> a man on a neach holding a surfnoard <br><br>
+				<br> 서프노드를 들고 있는 해변의 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man on a bicycle has an old fashion vehicle behind him'. Replace the letter 'h' with 'p' in the sentence. <br><br>
+				<br> 문장: '자전거를 탄 남자가 그의 뒤에 구식 차량을 가지고 있다'. 문장에서 문자 'h'를 'p'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> a man on a bicycle pas an old faspion vepicle bepind pim <br><br>
+				<br> 자전거를 탄 남자가 핌을 뒤쫓는 낡은 패션 차량을 지나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man reading a newspaper while on a train next to bicycles'. Replace the letter 'i' with 'y' in the sentence. <br><br>
+				<br> 문장: '자전거 옆에서 기차를 타면서 신문을 읽는 남자'. 문장에서 문자 'i'를 'y'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> a man readyng a newspaper whyle on a trayn next to bycycles <br><br>
+				<br> bycycles 옆에 있는 쟁반에 신문 와일을 준비하는 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding a wave on top of a surfboard'. Replace the letter 'd' with 'z' in the sentence. <br><br>
+				<br> 문장: '서프보드 위에서 파도를 타는 남자'. 문장에서 문자 'd'를 'z'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> a man rizing a wave on top of a surfboarz <br><br>
+				<br> 서프보드 위에서 파도를 타는 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding skis down a snow covered ski slope'. Replace the letter 'o' with 'c' in the sentence. <br><br>
+				<br> 문장: '눈 덮인 스키 슬로프에서 스키를 타는 남자'. 문장에서 문자 'o'를 'c'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> a man riding skis dcwn a sncw ccvered ski slcpe <br><br>
+				<br> 스키를 타는 남자 dcwn a sncw ccvered ski slcpe <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding skis on top of a snow covered slope'. Replace the letter 'p' with 'i' in the sentence. <br><br>
+				<br> 문장: '눈 덮인 슬로프 위에서 스키를 타는 남자'. 문장에서 문자 'p'를 'i'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> a man riding skis on toi of a snow covered sloie <br><br>
+				<br> 눈 덮인 슬로이의 토이에서 스키를 타는 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man sis with his head in his hands with a cell phone to his ear'. Replace the letter 'a' with 'r' in the sentence. <br><br>
+				<br> 문장: '휴대전화를 귀에 대고 머리를 손에 쥔 남자 누나'. 문장에서 문자 'a'를 'r'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> r mrn sis with his herd in his hrnds with r cell phone to his err <br><br>
+				<br> r mrn sis는 그의 err에 r 휴대 전화로 그의 hrnds에 그의 무리와 함께 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man sitting on a motorcycle in the desert'. Replace the letter 'd' with 'j' in the sentence. <br><br>
+				<br> 문장: '사막에서 오토바이에 앉아있는 남자'. 문장에서 문자 'd'를 'j'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> a man sitting on a motorcycle in the jesert <br><br>
+				<br> jesert에서 오토바이에 앉아 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man smiles while talking on the phone'. Replace the letter 'n' with 'o' in the sentence. <br><br>
+				<br> 문장: '남자가 전화하면서 웃는다'. 문장에서 문자 'n'을 'o'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> a mao smiles while talkiog oo the phooe <br><br>
+				<br> oo the phooe에 대해 이야기하면서 웃는 마오 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a monkey teddy bear below a regular teddy bear'. Replace the letter 't' with 'o' in the sentence. <br><br>
+				<br> 문장: '일반 테디베어 아래 원숭이 테디베어'. 문장에서 문자 't'를 'o'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> a monkey oeddy bear below a regular oeddy bear <br><br>
+				<br> 일반 오에디베어 아래 원숭이 오에디베어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a mouse sitting on a book under an illustration of a tree'. Replace the letter 't' with 'h' in the sentence. <br><br>
+				<br> 문장: '나무 그림 아래 책 위에 앉아 있는 쥐'. 문장에서 문자 't'를 'h'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> a mouse sihhing on a book under an illushrahion of a hree <br><br>
+				<br> Hree의 illushrahion 아래에서 책에 마우스 sihhing <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a person scooping from a large pot of soup on the stove into a soup bowl'. Replace the letter 'a' with 'x' in the sentence. <br><br>
+				<br> 문장: '난로 위의 큰 냄비에서 국그릇에 국그릇을 떠내는 사람'. 문장에서 문자 'a'를 'x'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> x person scooping from x lxrge pot of soup on the stove into x soup bowl <br><br>
+				<br> x 사람 x lxrge 난로 위의 수프 냄비에서 x 수프 그릇으로 퍼내기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a person squatting down operating a cell phone'. Replace the letter 'n' with 'g' in the sentence. <br><br>
+				<br> 문장: '쪼그리고 앉아 휴대폰을 조작하는 사람'. 문장에서 문자 'n'을 'g'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> a persog squattigg dowg operatigg a cell phoge <br><br>
+				<br> persog squattigg dowg operatigg a cell phoge <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a picture of a table in a very nice room'. Replace the letter 'u' with 'd' in the sentence. <br><br>
+				<br> 문장: '아주 좋은 방에 있는 테이블 사진'. 문장에서 문자 'u'를 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> a pictdre of a table in a very nice room <br><br>
+				<br> 아주 좋은 방에 테이블의 pictdre <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a picture of a vase with three flowers in it'. Replace the letter 'e' with 'i' in the sentence. <br><br>
+				<br> 문장: '세 개의 꽃이 담긴 꽃병 그림'. 문장에서 문자 'e'를 'i'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> a picturi of a vasi with thrii flowirs in it <br><br>
+				<br> 그것에 thrii flowirs와 vasi의 picturi <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a red and black passenger train sitting on the track'. Replace the letter 'n' with 'd' in the sentence. <br><br>
+				<br> 문장: '선로에 앉아 있는 빨간색과 검은색 여객 열차'. 문장에서 문자 'n'을 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> a red add black passedger traid sittidg od the track <br><br>
+				<br> 빨간색 추가 검은색 passger traid sittidg od the track <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a red double decker bus with a busted out window crashing into a large truck'. Replace the letter 'r' with 'o' in the sentence. <br><br>
+				<br> 문장: '창문이 깨진 빨간 2층 버스가 대형 트럭과 충돌'. 문장에서 문자 'r'을 'o'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> a oed double deckeo bus with a busted out window coashing into a laoge touck <br><br>
+				<br> 라오지 톡(laoge touck)으로 달려가는 깨진 창문이 있는 oed double deckeo 버스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a red fire extinguisher across a street from two silver sedans'. Replace the letter 'e' with 'w' in the sentence. <br><br>
+				<br> 문장: '두 대의 은색 세단에서 길 건너 빨간 소화기'. 문장에서 문자 'e'를 'w'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> a rwd firw wxtinguishwr across a strwwt from two silvwr swdans <br><br>
+				<br> 두 개의 silvwr swdans에서 strwwt를 가로지르는 rwd firw wxtinguishwr <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a replica of london's big ben sitting in a plaza'. Replace the letter 'a' with 'g' in the sentence. <br><br>
+				<br> 문장: '광장에 앉아 있는 런던 빅 벤의 복제품'. 문장에서 문자 'a'를 'g'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> g replicg of london's big ben sitting in g plgzg <br><br>
+				<br> g plgzg에 앉아 있는 런던 빅 벤의 g 복제 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a road sign for the state of virginia sitting on the side of a road'. Replace the letter 'h' with 't' in the sentence. <br><br>
+				<br> 문장: '길가에 앉아 있는 버지니아 주의 도로 표지판'. 문장에서 문자 'h'를 't'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> a road sign for tte state of virginia sitting on tte side of a road <br><br>
+				<br> 도로 옆에 앉아 있는 버지니아 주의 도로 표지판 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a room with couches, tables and potted plant'. Replace the letter 'l' with 'w' in the sentence. <br><br>
+				<br> 문장: '소파, 테이블, 화분이 있는 방'. 문장에서 문자 'l'을 'w'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> a room with couches, tabwes and potted pwant <br><br>
+				<br> 소파, tabwes 및 화분에 담긴 pwant가 있는 방 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a shore is littered with a few birds as the ocean sits in the distance'. Replace the letter 'n' with 'i' in the sentence. <br><br>
+				<br> 문장: '바다가 멀리 떨어져 있기 때문에 해안에는 몇 마리의 새가 산재해 있다'. 문장에서 문자 'n'을 'i'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> a shore is littered with a few birds as the oceai sits ii the distaice <br><br>
+				<br> oceai가 distaice에 앉아 있기 때문에 해안은 몇 마리의 새들로 가득 차 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a sign that says "love tress" is stabled to a tree'. Replace the letter 'a' with 'y' in the sentence. <br><br>
+				<br> 문장: ''사랑 머릿단'이라는 표지판이 나무에 고정되어 있습니다.' 문장에서 문자 'a'를 'y'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> y sign thyt syys "love tress" is stybled to y tree <br><br>
+				<br> y 기호 thyt syys "love tress"는 y 나무에 스타일이 지정됩니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a small boy with a skateboard in the house'. Replace the letter 'o' with 'i' in the sentence. <br><br>
+				<br> 문장: '집에 스케이트보드가 있는 작은 소년'. 문장에서 문자 'o'를 'i'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> a small biy with a skatebiard in the hiuse <br><br>
+				<br> hiuse에 skatebiard와 작은 biy <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a small propeller plane getting ready to take off from an airport'. Replace the letter 'o' with 'd' in the sentence. <br><br>
+				<br> 문장: '공항에서 이륙을 준비하는 작은 프로펠러 비행기'. 문장에서 문자 'o'를 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> a small prdpeller plane getting ready td take dff frdm an airpdrt <br><br>
+				<br> 작은 prdpeller 비행기 준비 td dff frdm an airpdrt <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a smiling man stands in the dirty playing with a frisbee'. Replace the letter 'a' with 'c' in the sentence. <br><br>
+				<br> 문장: '미소 짓는 남자가 원반을 가지고 노는 더러운 곳에 서 있다'. 문장에서 문자 'a'를 'c'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> c smiling mcn stcnds in the dirty plcying with c frisbee <br><br>
+				<br> c frisbee와 함께 더러운 plcying에서 c 웃는 mcn stcnds <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a statue of a baseball player swinging a bat'. Replace the letter 'e' with 'w' in the sentence. <br><br>
+				<br> 문장: '방망이를 휘두르는 야구 선수의 동상'. 문장에서 문자 'e'를 'w'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> a statuw of a baswball playwr swinging a bat <br><br>
+				<br> 방망이를 휘두르는 baswball playwr의 동상 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a subway car is coming down the tracks'. Replace the letter 'n' with 'z' in the sentence. <br><br>
+				<br> 문장: '지하철 차량이 선로를 따라 내려오고 있다'. 문장에서 문자 'n'을 'z'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> a subway car is comizg dowz the tracks <br><br>
+				<br> 지하철 차량은 트랙을 다우즈합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a tall vase with sunflowers next to a bottled drink'. Replace the letter 's' with 'b' in the sentence. <br><br>
+				<br> 문장: '병 음료수 옆에 해바라기가 있는 키 큰 꽃병'. 문장에서 문자 's'를 'b'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> a tall vabe with bunflowerb next to a bottled drink <br><br>
+				<br> 병 음료 옆에 번플라워가 있는 키 큰 vabe <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a television standing against the wall of a living room'. Replace the letter 'o' with 'm' in the sentence. <br><br>
+				<br> 문장: '거실 벽에 기대어 서 있는 텔레비전'. 문장에서 문자 'o'를 'm'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> a televisimn standing against the wall mf a living rmmm <br><br>
+				<br> 살아있는 rmmm mf 벽에 서있는 televisimn <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a tennis player runs towards the ball during a match'. Replace the letter 'a' with 'm' in the sentence. <br><br>
+				<br> 문장: '경기 중에 테니스 선수가 공을 향해 달려갑니다'. 문장에서 문자 'a'를 'm'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> m tennis plmyer runs towmrds the bmll during m mmtch <br><br>
+				<br> m 테니스 선수는 m mmtch 동안 bmll을 towmrds 실행합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a two layer cake with animal decorations and signs'. Replace the letter 'h' with 'j' in the sentence. <br><br>
+				<br> 문장: '동물 장식과 표지판이 있는 2단 케이크'. 문장에서 문자 'h'를 'j'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> a two layer cake witj animal decorations and signs <br><br>
+				<br> 동물 장식과 표지판이 있는 2단 케이크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a white and blue plate with raw and fried plantains.'. Replace the letter 'n' with 'd' in the sentence. <br><br>
+				<br> 문장: '날것과 튀긴 질경이가 있는 흰색과 파란색 접시.'. 문장에서 문자 'n'을 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> a white add blue plate with raw add fried pladtaids. <br><br>
+				<br> 원시 추가 튀긴 pladtaids 흰색 추가 블루 접시. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a white icing cake adorned with red raspberries has a pink lit candle in the middle of it'. Replace the letter 'i' with 'b' in the sentence. <br><br>
+				<br> 문장: '빨간 라즈베리로 장식된 흰색 아이싱 케이크의 중앙에는 분홍빛 촛불이 있습니다'. 문장에서 문자 'i'를 'b'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> a whbte bcbng cake adorned wbth red raspberrbes has a pbnk lbt candle bn the mbddle of bt <br><br>
+				<br> whbte bcbng 케이크 장식 wbth 빨간색 raspberrbes에는 pbnk lbt 촛불 bn bt의 mbddle이 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a white sink and toilet in a room'. Replace the letter 'o' with 'c' in the sentence. <br><br>
+				<br> 문장: '방 안의 하얀 세면대와 변기'. 문장에서 문자 'o'를 'c'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> a white sink and tcilet in a rccm <br><br>
+				<br> rccm의 흰색 싱크대 및 tcilet <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a white surfboard flying over a wave in the ocean'. Replace the letter 'o' with 'x' in the sentence. <br><br>
+				<br> 문장: '바다의 파도 위로 날아가는 하얀 서핑보드'. 문장에서 문자 'o'를 'x'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> a white surfbxard flying xver a wave in the xcean <br><br>
+				<br> a white surfbxard flying xver a wave in the xcean <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a white toilet sitting inside of a bath tub'. Replace the letter 't' with 'r' in the sentence. <br><br>
+				<br> 문장: '욕조 안에 있는 하얀 변기'. 문장에서 문자 't'를 'r'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> a whire roiler sirring inside of a barh rub <br><br>
+				<br> barh rub 내부의 whire roiler sirring <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a woman is taking a photo of cherry blossom tree'. Replace the letter 'a' with 'm' in the sentence. <br><br>
+				<br> 문장: '여자가 벚꽃나무 사진을 찍고 있다'. 문장에서 문자 'a'를 'm'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> m wommn is tmking m photo of cherry blossom tree <br><br>
+				<br> mwommn is tmking m 벚꽃 나무 사진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a woman sitting on top of a bed with a laptop computer'. Replace the letter 'o' with 'm' in the sentence. <br><br>
+				<br> 문장: '노트북 컴퓨터로 침대 위에 앉아 있는 여자'. 문장에서 문자 'o'를 'm'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> a wmman sitting mn tmp mf a bed with a laptmp cmmputer <br><br>
+				<br> wmman 앉아 mn tmp mf laptmp cmmputer가 있는 침대 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a woman walking in the sand with a colorful bird kite'. Replace the letter 'n' with 'k' in the sentence. <br><br>
+				<br> 문장: '화려한 새 연을 안고 모래 위를 걷는 여인'. 문장에서 문자 'n'을 'k'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> a womak walkikg ik the sakd with a colorful bird kite <br><br>
+				<br> a womak walkikg ik the sakd with a 다채로운 새 연 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a yellow and black street sing on a sidewalk'. Replace the letter 'w' with 'r' in the sentence. <br><br>
+				<br> 문장: 'a yellow and black street sing on a sidewalk'. 문장에서 문자 'w'를 'r'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> a yellor and black street sing on a sideralk <br><br>
+				<br> 옐러와 블랙 스트리트가 사이드랙에서 노래를 부른다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a yellow fire hydrant sitting on the sidewalk'. Replace the letter 'o' with 'd' in the sentence. <br><br>
+				<br> 문장: '보도에 앉아 있는 노란색 소화전'. 문장에서 문자 'o'를 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> a yelldw fire hydrant sitting dn the sidewalk <br><br>
+				<br> 보도 dn 앉아 yuldw 소화전 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a young man is riding his skateboard past a construction zone'. Replace the letter 'a' with 'y' in the sentence. <br><br>
+				<br> 문장: '젊은이가 스케이트보드를 타고 공사장을 지나고 있다'. 문장에서 문자 'a'를 'y'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> y young myn is riding his skyteboyrd pyst y construction zone <br><br>
+				<br> y young myn은 그의 skyteboyrd pyst y 건설 구역을 타고 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a young man kicking a soccer ball around a field'. Replace the letter 'r' with 'b' in the sentence. <br><br>
+				<br> 문장: '운동장에서 축구공을 차는 청년'. 문장에서 문자 'r'을 'b'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> a young man kicking a socceb ball abound a field <br><br>
+				<br> 축구 공을 차는 젊은이가 들판에 가득하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a young man walking along a river bank near a woman riding a surfboard'. Replace the letter 'o' with 'm' in the sentence. <br><br>
+				<br> 문장: '서프보드를 타는 여성 근처에서 강둑을 따라 걷고 있는 청년'. 문장에서 문자 'o'를 'm'으로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> a ymung man walking almng a river bank near a wmman riding a surfbmard <br><br>
+				<br> 서프보드를 타고 있는 wmman 근처의 강둑을 걷고 있는 ymung 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'an animal sits inside of a bag on a chair'. Replace the letter 'a' with 'z' in the sentence. <br><br>
+				<br> 문장: '동물이 가방 안에 의자에 앉아 있다'. 문장에서 문자 'a'를 'z'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> zn znimzl sits inside of z bzg on z chzir <br><br>
+				<br> zn znimzl은 z chzir의 z bzg 안에 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'an man and a young girl on a motorcycle'. Replace the letter 'a' with 'v' in the sentence. <br><br>
+				<br> 문장: '오토바이를 탄 남자와 어린 소녀'. 문장에서 문자 'a'를 'v'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> vn mvn vnd v young girl on v motorcycle <br><br>
+				<br> vn mvn vnd v 어린 소녀 on v 오토바이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'an old looking train going down the road'. Replace the letter 'l' with 'h' in the sentence. <br><br>
+				<br> 문장: '길을 내려가는 낡아 보이는 기차'. 문장에서 문자 'l'을 'h'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> an ohd hooking train going down the road <br><br>
+				<br> 길을 따라가는 ohd hooking train <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'an ornate canopy bed with white pillows and green sheets'. Replace the letter 'n' with 'l' in the sentence. <br><br>
+				<br> 문장: '하얀 베개와 녹색 시트가 있는 화려한 캐노피 침대'. 문장에서 문자 'n'을 'l'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> al orlate calopy bed with white pillows ald greel sheets <br><br>
+				<br> 흰색 베개가 있는 al orlate calopy 침대 ald greel 시트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'black birds on a wood fence near the ocean'. Replace the letter 's' with 'c' in the sentence. <br><br>
+				<br> 문장: '바다 근처 나무 울타리에 검은 새'. 문장에서 문자 's'를 'c'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> black birdc on a wood fence near the ocean <br><br>
+				<br> 바다 근처 나무 울타리에 검은 새 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'broccoli just beginning to bud open and blossom'. Replace the letter 'o' with 'g' in the sentence. <br><br>
+				<br> 문장: '싹이 트고 꽃이 피기 시작한 브로콜리'. 문장에서 문자 'o'를 'g'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> brgccgli just beginning tg bud gpen and blgssgm <br><br>
+				<br> brgccgli 막 시작 tg 버드 gpen 및 blgssgm <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'bull on a busy street in a marketplace'. Replace the letter 'a' with 'k' in the sentence. <br><br>
+				<br> 문장: '장터 번화한 거리의 황소'. 문장에서 문자 'a'를 'k'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> bull on k busy street in k mkrketplkce <br><br>
+				<br> mkrketplkce의 k 바쁜 거리에 황소 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'cross shaped shadow being cast on a laptop computer'. Replace the letter 'a' with 'v' in the sentence. <br><br>
+				<br> 문장: '노트북 컴퓨터에 드리워지는 십자가 모양의 그림자'. 문장에서 문자 'a'를 'v'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> cross shvped shvdow being cvst on v lvptop computer <br><br>
+				<br> 교차 shvped shvdow는 v lvptop 컴퓨터에서 cvst가 됩니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'four people ride on top of an elephant'. Replace the letter 'o' with 'd' in the sentence. <br><br>
+				<br> 문장: '네 사람이 코끼리 위에 탄다'. 문장에서 문자 'o'를 'd'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> fdur pedple ride dn tdp df an elephant <br><br>
+				<br> fdur pedple ride dn tdp df 코끼리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'lots of sugar coated doughnuts stacked in a bin'. Replace the letter 'a' with 'v' in the sentence. <br><br>
+				<br> 문장: '통에 쌓인 많은 설탕 코팅 도넛'. 문장에서 문자 'a'를 'v'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> lots of sugvr covted doughnuts stvcked in v bin <br><br>
+				<br> 많은 sugvr covted donuts stvcked in v bin <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'many suitcases on the ground in a room'. Replace the letter 'n' with 'y' in the sentence. <br><br>
+				<br> 문장: '방의 바닥에 많은 여행 가방'. 문장에서 문자 'n'을 'y'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> mayy suitcases oy the grouyd iy a room <br><br>
+				<br> Mayy 여행 가방 oy the grouyd iy a room <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'people getting on a bus in england near a town'. Replace the letter 'l' with 'r' in the sentence. <br><br>
+				<br> 문장: '마을 근처 영국에서 버스를 타는 사람들'. 문장에서 문자 'l'을 'r'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> peopre getting on a bus in engrand near a town <br><br>
+				<br> 마을 근처의 engrand에서 버스를 타는 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'red bananas and sliced apples sit on a carving board'. Replace the letter 't' with 'h' in the sentence. <br><br>
+				<br> 문장: '빨간 바나나와 얇게 썬 사과가 조각판 위에 놓여 있다'. 문장에서 문자 't'를 'h'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> red bananas and sliced apples sih on a carving board <br><br>
+				<br> 빨간 바나나와 얇게 썬 사과 조각 보드에 sih <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'several people ride across the water in a white boat'. Replace the letter 'e' with 'g' in the sentence. <br><br>
+				<br> 문장: '여러 사람이 하얀 배를 타고 물을 건너다'. 문장에서 문자 'e'를 'g'로 바꾸십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> sgvgral pgoplg ridg across thg watgr in a whitg boat <br><br>
+				<br> Whitg 보트에서 thg watgr에 걸쳐 sgvgral pgoplg ridgeg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'small bus parked on the side of a train station area'. Replace the letter 'a' with 'v' in the sentence. <br><br>
+				<br> 문장: '기차역 옆에 주차된 소형 버스'. 문장에서 문자 'a'를 'v'로 바꿉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> smvll bus pvrked on the side of v trvin stvtion vrev <br><br>
+				<br> v trvin stvtion vrev의 측면에 있는 smvll 버스 pvrked <br><br>
+			</td>
+		</tr>
+	</table>

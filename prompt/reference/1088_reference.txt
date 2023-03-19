@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1,2,3,4,5] <br><br>
+				<br> [1,2,3,4,5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> [120, 60, 40, 30, 24] <br><br>
+				<br> [120, 60, 40, 30, 24] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3,5,7,8] <br><br>
+				<br> [3,5,7,8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> [280, 168, 120, 105] <br><br>
+				<br> [280, 168, 120, 105] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [0, 1, 3, 14, 7, 10, 6, 2] <br><br>
+				<br> [0, 1, 3, 14, 7, 10, 6, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> [35280, 0, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [35280, 0, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [0, 13, 11, 4, 14, 6, 2, 1] <br><br>
+				<br> [0, 13, 11, 4, 14, 6, 2, 1] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> [96096, 0, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [96096, 0, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [0, 13, 6, 3, 9, 12, 7, 11] <br><br>
+				<br> [0, 13, 6, 3, 9, 12, 7, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> [1945944, 0, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [1945944, 0, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [0, 14, 1, 12, 2, 4, 10, 7] <br><br>
+				<br> [0, 14, 1, 12, 2, 4, 10, 7] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> [94080, 0, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [94080, 0, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [0, 14, 6, 12, 4, 8, 11, 5] <br><br>
+				<br> [0, 14, 6, 12, 4, 8, 11, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> [1774080, 0, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [1774080, 0, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [0, 8, 12, 5, 1, 13, 11, 14] <br><br>
+				<br> [0, 8, 12, 5, 1, 13, 11, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> [960960, 0, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [960960, 0, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [0, 9, 12, 6, 5, 1, 10, 14] <br><br>
+				<br> [0, 9, 12, 6, 5, 1, 10, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> [453600, 0, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [453600, 0, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 10, 13, 8, 6, 12, 9, 14] <br><br>
+				<br> [1, 10, 13, 8, 6, 12, 9, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> [9434880, 943488, 725760, 1179360, 1572480, 786240, 1048320, 673920] <br><br>
+				<br> [9434880, 943488, 725760, 1179360, 1572480, 786240, 1048320, 673920] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 11, 6, 10, 4, 5, 14, 7] <br><br>
+				<br> [1, 11, 6, 10, 4, 5, 14, 7] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> [1293600, 117600, 215600, 129360, 323400, 258720, 92400, 184800] <br><br>
+				<br> [1293600, 117600, 215600, 129360, 323400, 258720, 92400, 184800] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 11, 7, 5, 6, 3, 12, 0] <br><br>
+				<br> [1, 11, 7, 5, 6, 3, 12, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 83160] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 83160] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 12, 0, 10, 13, 5, 8, 4] <br><br>
+				<br> [1, 12, 0, 10, 13, 5, 8, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 249600, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 249600, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 12, 8, 13, 2, 9, 7, 11] <br><br>
+				<br> [1, 12, 8, 13, 2, 9, 7, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> [1729728, 144144, 216216, 133056, 864864, 192192, 247104, 157248] <br><br>
+				<br> [1729728, 144144, 216216, 133056, 864864, 192192, 247104, 157248] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 4, 10, 3, 13, 2, 0, 11] <br><br>
+				<br> [1, 4, 10, 3, 13, 2, 0, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 34320, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 34320, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 4, 10, 7, 12, 2, 8, 0] <br><br>
+				<br> [1, 4, 10, 7, 12, 2, 8, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 53760] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 53760] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 6, 2, 10, 9, 5, 11, 8] <br><br>
+				<br> [1, 6, 2, 10, 9, 5, 11, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> [475200, 79200, 237600, 47520, 52800, 95040, 43200, 59400] <br><br>
+				<br> [475200, 79200, 237600, 47520, 52800, 95040, 43200, 59400] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 9, 6, 0, 8, 3, 13, 14] <br><br>
+				<br> [1, 9, 6, 0, 8, 3, 13, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 235872, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 235872, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 0, 3, 4, 2, 8, 14, 13] <br><br>
+				<br> [10, 0, 3, 4, 2, 8, 14, 13] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> [0, 349440, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 349440, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 0, 3, 8, 11, 1, 12, 6] <br><br>
+				<br> [10, 0, 3, 8, 11, 1, 12, 6] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> [0, 190080, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 190080, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1, 7, 9, 0, 11, 14, 5] <br><br>
+				<br> [10, 1, 7, 9, 0, 11, 14, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 485100, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 0, 485100, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 11, 7, 6, 8, 2, 0, 3] <br><br>
+				<br> [10, 11, 7, 6, 8, 2, 0, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 221760, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 221760, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 14, 7, 1, 2, 5, 0, 3] <br><br>
+				<br> [10, 14, 7, 1, 2, 5, 0, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 29400, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 29400, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 2, 0, 14, 5, 12, 1, 8] <br><br>
+				<br> [10, 2, 0, 14, 5, 12, 1, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 134400, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 134400, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 8, 12, 1, 3, 6, 2, 0] <br><br>
+				<br> [10, 8, 12, 1, 3, 6, 2, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 34560] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 34560] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 8, 13, 7, 9, 1, 2, 12] <br><br>
+				<br> [10, 8, 13, 7, 9, 1, 2, 12] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> [157248, 196560, 120960, 224640, 174720, 1572480, 786240, 131040] <br><br>
+				<br> [157248, 196560, 120960, 224640, 174720, 1572480, 786240, 131040] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 8, 14, 0, 11, 3, 5, 2] <br><br>
+				<br> [10, 8, 14, 0, 11, 3, 5, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 369600, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 369600, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 8, 14, 5, 12, 2, 3, 9] <br><br>
+				<br> [10, 8, 14, 5, 12, 2, 3, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> [362880, 453600, 259200, 725760, 302400, 1814400, 1209600, 403200] <br><br>
+				<br> [362880, 453600, 259200, 725760, 302400, 1814400, 1209600, 403200] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 9, 3, 12, 0, 14, 6, 4] <br><br>
+				<br> [10, 9, 3, 12, 0, 14, 6, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 1088640, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 0, 1088640, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 10, 8, 13, 3, 1, 0, 4] <br><br>
+				<br> [11, 10, 8, 13, 3, 1, 0, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 137280, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 137280, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 10, 8, 9, 4, 12, 14, 13] <br><br>
+				<br> [11, 10, 8, 9, 4, 12, 14, 13] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> [6289920, 6918912, 8648640, 7687680, 17297280, 5765760, 4942080, 5322240] <br><br>
+				<br> [6289920, 6918912, 8648640, 7687680, 17297280, 5765760, 4942080, 5322240] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 10, 8, 9, 4, 3, 1, 2] <br><br>
+				<br> [11, 10, 8, 9, 4, 3, 1, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> [17280, 19008, 23760, 21120, 47520, 63360, 190080, 95040] <br><br>
+				<br> [17280, 19008, 23760, 21120, 47520, 63360, 190080, 95040] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 12, 3, 8, 6, 9, 1, 0] <br><br>
+				<br> [11, 12, 3, 8, 6, 9, 1, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 171072] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 171072] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 13, 12, 6, 3, 10, 0, 5] <br><br>
+				<br> [11, 13, 12, 6, 3, 10, 0, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 1544400, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 1544400, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 2, 0, 14, 13, 10, 12, 4] <br><br>
+				<br> [11, 2, 0, 14, 13, 10, 12, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 1921920, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 1921920, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 3, 13, 1, 8, 10, 5, 6] <br><br>
+				<br> [11, 3, 13, 1, 8, 10, 5, 6] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> [93600, 343200, 79200, 1029600, 128700, 102960, 205920, 171600] <br><br>
+				<br> [93600, 343200, 79200, 1029600, 128700, 102960, 205920, 171600] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 7, 10, 4, 9, 3, 12, 6] <br><br>
+				<br> [11, 7, 10, 4, 9, 3, 12, 6] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> [544320, 855360, 598752, 1496880, 665280, 1995840, 498960, 997920] <br><br>
+				<br> [544320, 855360, 598752, 1496880, 665280, 1995840, 498960, 997920] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 8, 1, 10, 14, 3, 0, 5] <br><br>
+				<br> [11, 8, 1, 10, 14, 3, 0, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 184800, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 184800, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 0, 11, 10, 9, 2, 1, 5] <br><br>
+				<br> [12, 0, 11, 10, 9, 2, 1, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> [0, 118800, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 118800, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 0, 6, 11, 7, 2, 1, 5] <br><br>
+				<br> [12, 0, 6, 11, 7, 2, 1, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> [0, 55440, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 55440, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 1, 11, 2, 3, 7, 13, 6] <br><br>
+				<br> [12, 1, 11, 2, 3, 7, 13, 6] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> [36036, 432432, 39312, 216216, 144144, 61776, 33264, 72072] <br><br>
+				<br> [36036, 432432, 39312, 216216, 144144, 61776, 33264, 72072] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 11, 4, 2, 9, 6, 14, 8] <br><br>
+				<br> [12, 11, 4, 2, 9, 6, 14, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> [532224, 580608, 1596672, 3193344, 709632, 1064448, 456192, 798336] <br><br>
+				<br> [532224, 580608, 1596672, 3193344, 709632, 1064448, 456192, 798336] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 4, 0, 6, 2, 3, 5, 9] <br><br>
+				<br> [12, 4, 0, 6, 2, 3, 5, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 77760, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 77760, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 4, 7, 1, 13, 5, 0, 2] <br><br>
+				<br> [12, 4, 7, 1, 13, 5, 0, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 43680, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 43680, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 5, 11, 0, 13, 10, 7, 8] <br><br>
+				<br> [12, 5, 11, 0, 13, 10, 7, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 4804800, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 4804800, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 5, 13, 7, 6, 1, 4, 0] <br><br>
+				<br> [12, 5, 13, 7, 6, 1, 4, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 131040] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 131040] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 7, 2, 13, 11, 6, 5, 0] <br><br>
+				<br> [12, 7, 2, 13, 11, 6, 5, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 720720] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 720720] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 7, 4, 1, 8, 2, 10, 9] <br><br>
+				<br> [12, 7, 4, 1, 8, 2, 10, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> [40320, 69120, 120960, 483840, 60480, 241920, 48384, 53760] <br><br>
+				<br> [40320, 69120, 120960, 483840, 60480, 241920, 48384, 53760] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 9, 7, 10, 14, 11, 5, 0] <br><br>
+				<br> [12, 9, 7, 10, 14, 11, 5, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 5821200] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 5821200] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 11, 8, 14, 6, 5, 4, 3] <br><br>
+				<br> [13, 11, 8, 14, 6, 5, 4, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> [443520, 524160, 720720, 411840, 960960, 1153152, 1441440, 1921920] <br><br>
+				<br> [443520, 524160, 720720, 411840, 960960, 1153152, 1441440, 1921920] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 12, 0, 4, 14, 2, 7, 6] <br><br>
+				<br> [13, 12, 0, 4, 14, 2, 7, 6] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 733824, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 733824, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 12, 11, 2, 5, 8, 3, 9] <br><br>
+				<br> [13, 12, 11, 2, 5, 8, 3, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> [285120, 308880, 336960, 1853280, 741312, 463320, 1235520, 411840] <br><br>
+				<br> [285120, 308880, 336960, 1853280, 741312, 463320, 1235520, 411840] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 12, 5, 0, 4, 9, 10, 3] <br><br>
+				<br> [13, 12, 5, 0, 4, 9, 10, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 842400, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 842400, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 5, 6, 7, 4, 8, 14, 10] <br><br>
+				<br> [13, 5, 6, 7, 4, 8, 14, 10] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> [940800, 2446080, 2038400, 1747200, 3057600, 1528800, 873600, 1223040] <br><br>
+				<br> [940800, 2446080, 2038400, 1747200, 3057600, 1528800, 873600, 1223040] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 6, 3, 2, 8, 12, 4, 11] <br><br>
+				<br> [13, 6, 3, 2, 8, 12, 4, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> [152064, 329472, 658944, 988416, 247104, 164736, 494208, 179712] <br><br>
+				<br> [152064, 329472, 658944, 988416, 247104, 164736, 494208, 179712] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 6, 11, 4, 14, 10, 0] <br><br>
+				<br> [13, 9, 6, 11, 4, 14, 10, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 4324320] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 4324320] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [14, 11, 10, 1, 12, 6, 7, 2] <br><br>
+				<br> [14, 11, 10, 1, 12, 6, 7, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> [110880, 141120, 155232, 1552320, 129360, 258720, 221760, 776160] <br><br>
+				<br> [110880, 141120, 155232, 1552320, 129360, 258720, 221760, 776160] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [14, 2, 4, 8, 6, 11, 1, 9] <br><br>
+				<br> [14, 2, 4, 8, 6, 11, 1, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> [38016, 266112, 133056, 66528, 88704, 48384, 532224, 59136] <br><br>
+				<br> [38016, 266112, 133056, 66528, 88704, 48384, 532224, 59136] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [14, 4, 3, 6, 10, 12, 11, 2] <br><br>
+				<br> [14, 4, 3, 6, 10, 12, 11, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> [190080, 665280, 887040, 443520, 266112, 221760, 241920, 1330560] <br><br>
+				<br> [190080, 665280, 887040, 443520, 266112, 221760, 241920, 1330560] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2, 1, 14, 7, 5, 12, 11, 0] <br><br>
+				<br> [2, 1, 14, 7, 5, 12, 11, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 129360] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 129360] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2, 13, 8, 14, 7, 12, 0, 5] <br><br>
+				<br> [2, 13, 8, 14, 7, 12, 0, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 1223040, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 1223040, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2, 14, 7, 3, 11, 10, 5, 9] <br><br>
+				<br> [2, 14, 7, 3, 11, 10, 5, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> [1455300, 207900, 415800, 970200, 264600, 291060, 582120, 323400] <br><br>
+				<br> [1455300, 207900, 415800, 970200, 264600, 291060, 582120, 323400] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2, 3, 14, 13, 9, 1, 4, 0] <br><br>
+				<br> [2, 3, 14, 13, 9, 1, 4, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 39312] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 39312] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2, 6, 9, 7, 11, 4, 5, 8] <br><br>
+				<br> [2, 6, 9, 7, 11, 4, 5, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> [665280, 221760, 147840, 190080, 120960, 332640, 266112, 166320] <br><br>
+				<br> [665280, 221760, 147840, 190080, 120960, 332640, 266112, 166320] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2, 7, 14, 3, 12, 0, 6, 4] <br><br>
+				<br> [2, 7, 14, 3, 12, 0, 6, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 169344, 0, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 169344, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 0, 1, 4, 5, 7, 13, 6] <br><br>
+				<br> [3, 0, 1, 4, 5, 7, 13, 6] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> [0, 32760, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 32760, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 0, 14, 2, 5, 4, 11, 9] <br><br>
+				<br> [3, 0, 14, 2, 5, 4, 11, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> [0, 166320, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 166320, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 1, 12, 8, 10, 2, 4, 11] <br><br>
+				<br> [3, 1, 12, 8, 10, 2, 4, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> [84480, 253440, 21120, 31680, 25344, 126720, 63360, 23040] <br><br>
+				<br> [84480, 253440, 21120, 31680, 25344, 126720, 63360, 23040] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 1, 9, 13, 10, 14, 2, 8] <br><br>
+				<br> [3, 1, 9, 13, 10, 14, 2, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> [262080, 786240, 87360, 60480, 78624, 56160, 393120, 98280] <br><br>
+				<br> [262080, 786240, 87360, 60480, 78624, 56160, 393120, 98280] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 11, 1, 12, 8, 14, 13, 5] <br><br>
+				<br> [3, 11, 1, 12, 8, 14, 13, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> [960960, 262080, 2882880, 240240, 360360, 205920, 221760, 576576] <br><br>
+				<br> [960960, 262080, 2882880, 240240, 360360, 205920, 221760, 576576] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 11, 9, 7, 10, 13, 8, 14] <br><br>
+				<br> [3, 11, 9, 7, 10, 13, 8, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> [10090080, 2751840, 3363360, 4324320, 3027024, 2328480, 3783780, 2162160] <br><br>
+				<br> [10090080, 2751840, 3363360, 4324320, 3027024, 2328480, 3783780, 2162160] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 4, 0, 1, 14, 2, 11, 9] <br><br>
+				<br> [3, 4, 0, 1, 14, 2, 11, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 33264, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 33264, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 4, 0, 12, 11, 7, 10, 2] <br><br>
+				<br> [3, 4, 0, 12, 11, 7, 10, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 221760, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 221760, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 4, 13, 0, 14, 12, 5, 9] <br><br>
+				<br> [3, 4, 13, 0, 14, 12, 5, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 1179360, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 1179360, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 4, 7, 11, 13, 9, 12, 8] <br><br>
+				<br> [3, 4, 7, 11, 13, 9, 12, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> [3459456, 2594592, 1482624, 943488, 798336, 1153152, 864864, 1297296] <br><br>
+				<br> [3459456, 2594592, 1482624, 943488, 798336, 1153152, 864864, 1297296] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 5, 13, 7, 6, 11, 14, 8] <br><br>
+				<br> [3, 5, 13, 7, 6, 11, 14, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> [3363360, 2018016, 776160, 1441440, 1681680, 917280, 720720, 1261260] <br><br>
+				<br> [3363360, 2018016, 776160, 1441440, 1681680, 917280, 720720, 1261260] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 5, 8, 11, 12, 6, 7, 4] <br><br>
+				<br> [3, 5, 8, 11, 12, 6, 7, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> [887040, 532224, 332640, 241920, 221760, 443520, 380160, 665280] <br><br>
+				<br> [887040, 532224, 332640, 241920, 221760, 443520, 380160, 665280] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 6, 2, 7, 9, 10, 11, 14] <br><br>
+				<br> [3, 6, 2, 7, 9, 10, 11, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> [1164240, 582120, 1746360, 498960, 388080, 349272, 317520, 249480] <br><br>
+				<br> [1164240, 582120, 1746360, 498960, 388080, 349272, 317520, 249480] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [3, 7, 5, 13, 0, 9, 14, 12] <br><br>
+				<br> [3, 7, 5, 13, 0, 9, 14, 12] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 2063880, 0, 0, 0] <br><br>
+				<br> [0, 0, 0, 0, 2063880, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 1, 14, 7, 10, 5, 11, 2] <br><br>
+				<br> [4, 1, 14, 7, 10, 5, 11, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> [107800, 431200, 30800, 61600, 43120, 86240, 39200, 215600] <br><br>
+				<br> [107800, 431200, 30800, 61600, 43120, 86240, 39200, 215600] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 10, 12, 2, 13, 5, 1, 8] <br><br>
+				<br> [4, 10, 12, 2, 13, 5, 1, 8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> [124800, 49920, 41600, 249600, 38400, 99840, 499200, 62400] <br><br>
+				<br> [124800, 49920, 41600, 249600, 38400, 99840, 499200, 62400] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 12, 14, 6, 7, 8, 2, 0] <br><br>
+				<br> [4, 12, 14, 6, 7, 8, 2, 0] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 0, 0, 451584] <br><br>
+				<br> [0, 0, 0, 0, 0, 0, 0, 451584] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 13, 3, 5, 1, 7, 14, 10] <br><br>
+				<br> [4, 13, 3, 5, 1, 7, 14, 10] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> [191100, 58800, 254800, 152880, 764400, 109200, 54600, 76440] <br><br>
+				<br> [191100, 58800, 254800, 152880, 764400, 109200, 54600, 76440] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 13, 7, 6, 12, 8, 3, 1] <br><br>
+				<br> [4, 13, 7, 6, 12, 8, 3, 1] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> [157248, 48384, 89856, 104832, 52416, 78624, 209664, 628992] <br><br>
+				<br> [157248, 48384, 89856, 104832, 52416, 78624, 209664, 628992] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 14, 12, 13, 2, 3, 8, 5] <br><br>
+				<br> [4, 14, 12, 13, 2, 3, 8, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> [524160, 149760, 174720, 161280, 1048320, 698880, 262080, 419328] <br><br>
+				<br> [524160, 149760, 174720, 161280, 1048320, 698880, 262080, 419328] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 2, 5, 3, 1, 10, 7, 11] <br><br>
+				<br> [4, 2, 5, 3, 1, 10, 7, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> [23100, 46200, 18480, 30800, 92400, 9240, 13200, 8400] <br><br>
+				<br> [23100, 46200, 18480, 30800, 92400, 9240, 13200, 8400] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 5, 6, 11, 12, 9, 2, 14] <br><br>
+				<br> [4, 5, 6, 11, 12, 9, 2, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> [997920, 798336, 665280, 362880, 332640, 443520, 1995840, 285120] <br><br>
+				<br> [997920, 798336, 665280, 362880, 332640, 443520, 1995840, 285120] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 9, 12, 14, 5, 6, 8, 2] <br><br>
+				<br> [4, 9, 12, 14, 5, 6, 8, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> [725760, 322560, 241920, 207360, 580608, 483840, 362880, 1451520] <br><br>
+				<br> [725760, 322560, 241920, 207360, 580608, 483840, 362880, 1451520] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [4, 9, 6, 8, 12, 2, 3, 11] <br><br>
+				<br> [4, 9, 6, 8, 12, 2, 3, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> [342144, 152064, 228096, 171072, 114048, 684288, 456192, 124416] <br><br>
+				<br> [342144, 152064, 228096, 171072, 114048, 684288, 456192, 124416] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [5, 0, 14, 9, 6, 3, 10, 13] <br><br>
+				<br> [5, 0, 14, 9, 6, 3, 10, 13] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> [0, 1474200, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 1474200, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [5, 10, 13, 8, 3, 4, 7, 11] <br><br>
+				<br> [5, 10, 13, 8, 3, 4, 7, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> [960960, 480480, 369600, 600600, 1601600, 1201200, 686400, 436800] <br><br>
+				<br> [960960, 480480, 369600, 600600, 1601600, 1201200, 686400, 436800] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [5, 11, 3, 10, 6, 9, 2, 12] <br><br>
+				<br> [5, 11, 3, 10, 6, 9, 2, 12] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> [427680, 194400, 712800, 213840, 356400, 237600, 1069200, 178200] <br><br>
+				<br> [427680, 194400, 712800, 213840, 356400, 237600, 1069200, 178200] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [5, 6, 0, 3, 7, 12, 4, 11] <br><br>
+				<br> [5, 6, 0, 3, 7, 12, 4, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 332640, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 332640, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [5, 6, 9, 10, 2, 14, 3, 4] <br><br>
+				<br> [5, 6, 9, 10, 2, 14, 3, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> [181440, 151200, 100800, 90720, 453600, 64800, 302400, 226800] <br><br>
+				<br> [181440, 151200, 100800, 90720, 453600, 64800, 302400, 226800] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [5, 8, 7, 10, 9, 1, 13, 6] <br><br>
+				<br> [5, 8, 7, 10, 9, 1, 13, 6] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> [393120, 245700, 280800, 196560, 218400, 1965600, 151200, 327600] <br><br>
+				<br> [393120, 245700, 280800, 196560, 218400, 1965600, 151200, 327600] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [5, 8, 7, 13, 9, 0, 3, 11] <br><br>
+				<br> [5, 8, 7, 13, 9, 0, 3, 11] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 0, 0, 0, 1081080, 0, 0] <br><br>
+				<br> [0, 0, 0, 0, 0, 1081080, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [6, 0, 2, 5, 4, 12, 11, 9] <br><br>
+				<br> [6, 0, 2, 5, 4, 12, 11, 9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> [0, 285120, 0, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 285120, 0, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [6, 1, 7, 2, 10, 4, 9, 12] <br><br>
+				<br> [6, 1, 7, 2, 10, 4, 9, 12] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> [60480, 362880, 51840, 181440, 36288, 90720, 40320, 30240] <br><br>
+				<br> [60480, 362880, 51840, 181440, 36288, 90720, 40320, 30240] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [6, 12, 9, 2, 8, 4, 11, 3] <br><br>
+				<br> [6, 12, 9, 2, 8, 4, 11, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> [228096, 114048, 152064, 684288, 171072, 342144, 124416, 456192] <br><br>
+				<br> [228096, 114048, 152064, 684288, 171072, 342144, 124416, 456192] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [6, 13, 0, 8, 1, 11, 9, 2] <br><br>
+				<br> [6, 13, 0, 8, 1, 11, 9, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> [0, 0, 123552, 0, 0, 0, 0, 0] <br><br>
+				<br> [0, 0, 123552, 0, 0, 0, 0, 0] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [6, 13, 10, 11, 14, 8, 7, 4] <br><br>
+				<br> [6, 13, 10, 11, 14, 8, 7, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> [4484480, 2069760, 2690688, 2446080, 1921920, 3363360, 3843840, 6726720] <br><br>
+				<br> [4484480, 2069760, 2690688, 2446080, 1921920, 3363360, 3843840, 6726720] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [6, 14, 5, 10, 1, 2, 13, 3] <br><br>
+				<br> [6, 14, 5, 10, 1, 2, 13, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> [54600, 23400, 65520, 32760, 327600, 163800, 25200, 109200] <br><br>
+				<br> [54600, 23400, 65520, 32760, 327600, 163800, 25200, 109200] <br><br>
+			</td>
+		</tr>
+	</table>

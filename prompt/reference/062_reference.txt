@@ -27,3 +27,566 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat 5 times hello world <br><br>
+				<br> Hello World 5회 반복 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> hello world hello world hello world hello world hello world <br><br>
+				<br> 안녕 세계 안녕 세계 안녕 세계 안녕 세계 안녕 세계 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> repeat the word cat four times. After the second time, also say the word meow. <br><br>
+				<br> 고양이라는 단어를 네 번 반복하세요. 두 번째 이후에도 야옹이라는 단어를 말하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> cat cat meow cat cat <br><br>
+				<br> 고양이 고양이 야옹 고양이 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat the word dog four times, but halfway through replace it with `woof' <br><br>
+				<br> dog라는 단어를 네 번 반복하되 중간에 'woof'로 바꾸세요. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> dog dog woof dog dog <br><br>
+				<br> 개 개 멍멍 개 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A strawberry has three leaves. Say wish I had some chocolate for every odd leaf <br><br>
+				<br> 딸기에는 세 개의 잎이 있습니다. 이상한 잎사귀마다 초콜릿이 있었으면 좋겠다고 말해 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> wish I had some chocolate wish I had some chocolate <br><br>
+				<br> 초콜릿이 있었으면 좋겠다 초콜릿이 있었으면 좋겠다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A watermelon has seven seeds. Repeat they're delicious once for every seed <br><br>
+				<br> 수박에는 일곱 개의 씨가 있습니다. 모든 씨앗에 대해 한 번씩 맛있다고 반복합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> they're delicious they're delicious they're delicious they're delicious they're delicious they're delicious they're delicious <br><br>
+				<br> 맛있어 맛있어 맛있어 맛있어 맛있어 맛있어 맛있어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Output carbon pricing is an four times, but in the middle also say interesting concept <br><br>
+				<br> 출력탄소가격은 4배인데 중간에 재미있는 컨셉도 말함 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> carbon pricing is an carbon pricing is an interesting concept carbon pricing is an carbon pricing is an <br><br>
+				<br> 탄소 가격은 탄소 가격입니다 흥미로운 개념입니다 탄소 가격은 탄소 가격입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Print logic eleven times, but after the 3rd and 8th also say true <br><br>
+				<br> 논리를 11번 인쇄하지만 3번째와 8번째 이후에도 참이라고 말합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> logic logic logic true logic logic logic logic logic true logic logic logic <br><br>
+				<br> 논리 논리 논리 참 논리 논리 논리 논리 참 논리 논리 논리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat all the world seven times, and after every second time add is a stage. <br><br>
+				<br> 온 세상을 일곱 번 반복하고, 매 두 번째마다 추가하면 스테이지가 추가됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> all the world all the world is a stage all the world all the world is a stage all the world all the world is a stage all the world <br><br>
+				<br> 온 세상 온 세상이 무대 온 세상 온 세상이 무대 온 세상 온 세상이 무대 온 세상 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat cat five times. After each time, also say mouse <br><br>
+				<br> 고양이를 다섯 번 반복하십시오. 매번 마우스라고 말하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> cat mouse cat mouse cat mouse cat mouse cat mouse <br><br>
+				<br> 고양이 마우스 고양이 마우스 고양이 마우스 고양이 마우스 고양이 마우스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat cheese seven times; every third say whiz <br><br>
+				<br> 치즈를 일곱 번 반복하십시오. 3분의 1마다 위즈 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> cheese cheese cheese whiz cheese cheese cheese whiz cheese <br><br>
+				<br> 치즈 치즈 치즈 휘즈 치즈 치즈 치즈 휘즈 치즈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat historic church building twice, but after every word also say wow <br><br>
+				<br> 역사적인 교회 건물을 두 번 반복하되 모든 단어가 끝날 때마다 "와우"라고 말하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> historic wow church wow building wow historic wow church wow building wow <br><br>
+				<br> 역사적인 와우 교회 와우 빌딩 와우 역사적인 와우 교회 와우 빌딩 와우 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat squiggly line twice after the phrase can you draw <br><br>
+				<br> can you draw 문구 뒤에 구불구불한 선을 두 번 반복합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> can you draw squiggly line squiggly line <br><br>
+				<br> 구불구불한 선 구불구불한 선을 그릴 수 있나요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Repeat the phrase all cars eat gas four times. On the odd times, drop words that start with vowels <br><br>
+				<br> 모든 자동차는 가스를 먹는다는 문구를 네 번 반복합니다. 이상한 시간에 모음으로 시작하는 단어를 삭제하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> cars gas all cars eat gas cars gas all cars eat gas <br><br>
+				<br> 자동차 가스 모든 자동차는 가스를 먹는다 자동차 가스 모든 자동차는 가스를 먹는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Say hungry three times, then hippo two times, then feed me four times <br><br>
+				<br> 배고프다라고 세 번 말하고 하마를 두 번 말하고 네 번 먹여라. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> hungry hungry hungry hippo hippo feed me feed me feed me feed me <br><br>
+				<br> 배고픈 배고픈 배고픈 하마 하마 날 먹여줘 날 먹여줘 날 먹여줘 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Say the botanical gardens are five times. If the time divides evenly by two add beautiful, or by three add wonderful. Otherwise say great. <br><br>
+				<br> 식물원이 다섯 번이라고 해. 시간을 균등하게 나누면 2로 나누면 아름다움을 더하고 3으로 나누면 경이로움을 더합니다. 그렇지 않으면 훌륭하다고 말하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> the botanical gardens are great the botanical gardens are beautiful the botanical gardens are wonderful the botanical gardens are beautiful the botanical gardens are great <br><br>
+				<br> 식물원 멋져요 식물원 멋져요 식물원 멋져요 식물원 멋져요 식물원 멋져요 식물원 멋져요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Say the botanical gardens are five times. If the time divides evenly by two add beautiful, or by three add wonderful. Otherwise say great. <br><br>
+				<br> 식물원이 다섯 번이라고 해. 시간을 균등하게 나누면 2로 나누면 아름다움을 더하고 3으로 나누면 경이로움을 더합니다. 그렇지 않으면 훌륭하다고 말하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 식물원이 다섯 번이라고 해. 시간을 균등하게 나누면 2로 나누면 아름다움을 더하고 3으로 나누면 경이로움을 더합니다. 그렇지 않으면 훌륭하다고 말하십시오. <br><br>
+				<br> 식물원이 다섯 번이라고 해. 시간을 균등하게 나누면 2로 나누면 아름다움을 더하고 3으로 나누면 경이로움을 더합니다. 그렇지 않으면 훌륭하다고 말하십시오. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Say the days of the week but only the weekend days, two times <br><br>
+				<br> 요일은 말하고 주말만 말해 두 번 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Saturday Sunday Saturday Sunday <br><br>
+				<br> 토요일 일요일 토요일 일요일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Say the letters of the alphabet in capital letters, but only the odd ones <br><br>
+				<br> 알파벳의 글자를 대문자로 말하되 홀수만 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> A C E G I K M O Q S U W Y <br><br>
+				<br> A C E G I K M O Q S U W Y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Seven times please repeat The School of Music <br><br>
+				<br> 7번 반복해주세요 The School of Music <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> The School of Music The School of Music The School of Music The School of Music The School of Music The School of Music The School of Music <br><br>
+				<br> 음악 학교 음악 학교 음악 학교 음악 학교 음악 학교 음악 학교 음악 학교 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Three times please repeat The School of Music, and before the first time say Who plays the bass loud? <br><br>
+				<br> The School of Music을 세 번 반복하고 처음 말하기 전에 누가 베이스를 크게 연주합니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> Who plays the bass loud? The School of Music The School of Music The School of Music <br><br>
+				<br> 누가 베이스를 크게 연주합니까? 음악대학 음악대학 음악대학 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Twice repeat inhabitants in the urban area and then three times live in walking distance <br><br>
+				<br> 두 번은 도시 지역에 거주하고 세 번은 도보 거리에 거주합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> inhabitants in the urban area inhabitants in the urban area live in walking distance live in walking distance live in walking distance <br><br>
+				<br> 도시 지역 거주자 도시 지역 거주자는 도보 거리에 거주합니다 도보 거리에 거주합니다 도보 거리에 거주합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ask a genus of plants in what family? four times. after the fourth time say The happy family <br><br>
+				<br> 어떤 가족의 식물 속을 묻습니까? 네번. 네 번째로 말한 후 행복한 가족 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> a genus of plants in what family? a genus of plants in what family? a genus of plants in what family? a genus of plants in what family? The happy family <br><br>
+				<br> 어떤 가족의 식물 속? 어떤 가족의 식물 속? 어떤 가족의 식물 속? 어떤 가족의 식물 속? 행복한 가족 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> output if you teach a person to fish you will three times <br><br>
+				<br> 사람에게 낚시하는 법을 가르치면 세 번 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> if you teach a person to fish you will if you teach a person to fish you will if you teach a person to fish you will <br><br>
+				<br> 물고기 잡는 법을 가르친다면 물고기 잡는 법을 가르친다면 물고기 잡는 법을 가르칠 것이다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> repeat a woodchuck chucks lots of wood two times, but replace lots with five pounds the first time and two tons the second time <br><br>
+				<br> 우드척이 많은 양의 나무를 두 번 던지지만 처음에는 5파운드, 두 번째에는 2톤으로 교체합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> a woodchuck chucks five pounds of wood a woodchuck chucks two tons of wood <br><br>
+				<br> 우드척은 5파운드의 나무를 던집니다. 우드척은 2톤의 나무를 던집니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> repeat election to the council three times, but after every other word say cool <br><br>
+				<br> 시의회에 선거를 세 번 반복하지만 한 마디 한 마디 할 때마다 쿨하다고 말하십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> election to cool the council cool election to cool the council cool election to cool the council cool <br><br>
+				<br> 의회를 식히는 선거 멋진 의회를 식히는 선거 의회를 식히는 선거 멋진 의회를 식히는 선거 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> repeat the phrase the administrative district three times, and say the phrase hello world after the second time <br><br>
+				<br> 행정 구역을 세 번 반복하고 두 번째 후에는 Hello World를 말합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> the administrative district the administrative district hello world the administrative district <br><br>
+				<br> 행정구역 행정구역 헬로월드 행정구역 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> repeat whole note quarter note quarter note quarter note twice <br><br>
+				<br> 온음표 4분음표 4분음표 4분음표 두 번 반복 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> whole note quarter note quarter note quarter note whole note quarter note quarter note quarter note <br><br>
+				<br> 전체 음표 4분 음표 4분 음표 4분 음표 전체 음표 4분 음표 4분 음표 4분 음표 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> say all work and no play makes three times, but every even time add Jack and odd time add Jill <br><br>
+				<br> 일만 하고 놀지 않으면 3번이 된다고 말하지만, 짝수일 때마다 Jack을 추가하고 홀수일 때 Jill을 추가합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> all work and no play makes Jill all work and no play makes Jack all work and no play makes Jill <br><br>
+				<br> 일만 하고 놀지 않으면 Jill이 일하게 되고 놀지 않으면 Jack이 일하게 되고 놀지 않으면 Jill이 됩니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> say fish are healthy twice <br><br>
+				<br> 물고기는 건강에 두 번 말한다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> fish are healthy fish are healthy <br><br>
+				<br> 생선이 건강하다 생선이 건강하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> say hello world five times, but don't say world every even time <br><br>
+				<br> Hello world를 다섯 번 말하지만 매번 world라고 말하지는 마세요. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> hello world hello hello world hello hello world <br><br>
+				<br> 안녕 세상 안녕 안녕 세상 안녕 안녕 세상 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> say pickup a pound of green beans twice, replacing a pound with a bunch for even times and a handful for odd <br><br>
+				<br> 녹두 1파운드를 두 번 집으라고 말하세요. 짝수일 때는 파운드를 다발로, 홀수일 때는 한줌으로 바꾸세요. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> pickup a handful of green beans pickup a bunch of green beans <br><br>
+				<br> 녹두 한 움큼 줍기 초록 콩 한 뭉치 줍기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> say python twice and data once, and then repeat all of this three times. <br><br>
+				<br> 파이썬을 두 번, 데이터를 한 번 말한 다음 이 모든 것을 세 번 반복합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> python python data python python data python python data <br><br>
+				<br> 파이썬 파이썬 데이터 파이썬 파이썬 데이터 파이썬 파이썬 데이터 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> say the village has a population five times, and after odd times add larger than California <br><br>
+				<br> 마을의 인구가 5배이고 이상한 시간이 지나면 캘리포니아보다 더 많아진다고 말합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> the village has a population larger than California the village has a population the village has a population larger than California the village has a population the village has a population larger than California <br><br>
+				<br> 마을의 인구가 캘리포니아보다 많습니다. 마을의 인구가 많습니다. 마을의 인구가 캘리포니아보다 많습니다. 마을의 인구가 많습니다. 마을의 인구가 캘리포니아보다 많습니다. <br><br>
+			</td>
+		</tr>
+	</table>

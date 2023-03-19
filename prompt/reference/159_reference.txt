@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a red bus goes down the street beside a yellow building', Sentence2: 'the colorfully decorated living room has a retro style chair in it'. Is the frequency of the word 'beside' in two sentences equal? <br><br>
+				<br> Sentence1: '빨간색 버스가 노란 건물 옆 길을 갑니다', Sentence2: '다채롭게 꾸며진 거실에는 복고 스타일의 의자가 있습니다'. 두 문장에서 'beside'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man riding a wave on top of a surfboard', Sentence2: 'a sandwich sitting on top of a frying pan'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '서프보드 위에서 파도를 타는 남자', Sentence2: '프라이팬 위에 앉아 있는 샌드위치'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a baseball player holding a bat on a field', Sentence2: 'this is a man on a board in the water'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '필드에서 배트를 들고 있는 야구 선수', Sentence2: '물 속에서 보드 위에 있는 남자입니다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a batter has swung at the ball while the crowd is watching', Sentence2: 'a person standing with video game remotes in hand'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '관중이 지켜보는 동안 타자가 공을 휘둘렀다', Sentence2: '비디오 게임 리모컨을 손에 들고 서 있는 사람'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a beautiful well lit bedroom with a bed in the middle', Sentence2: 'a man wearing glasses a white dress shirt and a tie'. Is the frequency of the word 'in' in two sentences equal? <br><br>
+				<br> Sentence1: '가운데 침대가 있는 조명이 아름다운 아름다운 침실', Sentence2: '안경을 쓴 남자, 흰색 와이셔츠와 넥타이'. 두 문장에서 'in'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bed room has red and white bedding and a decoration on the wall', Sentence2: 'the young skateboarders sit around the top of the platform'. Is the frequency of the word 'the' in two sentences equal? <br><br>
+				<br> Sentence1: '침실에는 빨간색과 흰색 침구가 있고 벽에 장식이 있습니다', Sentence2: '젊은 스케이트보더들이 플랫폼 꼭대기에 앉아 있습니다.' 두 문장에서 'the'라는 단어의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bedroom has two beds and containers for storage', Sentence2: 'a town street has people on the sidewalks and a bus on the road'. Is the frequency of the word 'and' in two sentences equal? <br><br>
+				<br> Sentence1: '침실에는 2개의 침대와 보관용 컨테이너가 있습니다.', Sentence2: '도시 거리에는 인도에 사람이 있고 도로에는 버스가 있습니다.' 두 문장에서 'and'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a big tower that has a clock on top', Sentence2: 'a boy holding his skateboard behind his head resting on his shoulders'. Is the frequency of the word 'holding' in two sentences equal? <br><br>
+				<br> Sentence1: '상단에 시계가 있는 큰 탑', Sentence2: '어깨에 기대어 머리 뒤로 스케이트보드를 들고 있는 소년'. 두 문장에서 'holding'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a big tower that has a clock on top', Sentence2: 'a boy holding his skateboard behind his head resting on his shoulders'. Is the frequency of the word 'top' in two sentences equal? <br><br>
+				<br> Sentence1: '상단에 시계가 있는 큰 탑', Sentence2: '어깨에 기대어 머리 뒤로 스케이트보드를 들고 있는 소년'. 두 문장에서 'top'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bird sits on a computer keyboard at a desk', Sentence2: 'two women in a kitche with a little brown and white dog'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '책상에 있는 컴퓨터 키보드에 새가 앉아 있다', Sentence2: '작은 갈색과 흰색 개가 있는 부엌에 있는 두 여자'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bird sits on a computer keyboard at a desk', Sentence2: 'two women in a kitche with a little brown and white dog'. Is the frequency of the word 'desk' in two sentences equal? <br><br>
+				<br> Sentence1: '책상에 있는 컴퓨터 키보드에 새가 앉아 있다', Sentence2: '작은 갈색과 흰색 개가 있는 부엌에 있는 두 여자'. 두 문장에서 'desk'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bird with a fuzzy top knot sitting on a branch', Sentence2: 'a man wearing a tie already is draped with another tie'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '나뭇가지에 보송보송한 매듭을 한 새가 나뭇가지에 앉아 있다', Sentence2: '넥타이를 매고 있는 남자는 이미 다른 넥타이를 매고 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bird with a fuzzy top knot sitting on a branch', Sentence2: 'a man wearing a tie already is draped with another tie'. Is the frequency of the word 'man' in two sentences equal? <br><br>
+				<br> Sentence1: '나뭇가지에 보송보송한 매듭을 한 새가 나뭇가지에 앉아 있다', Sentence2: '넥타이를 매고 있는 남자는 이미 다른 넥타이를 매고 있다'. 두 문장에서 'man'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bird with a fuzzy top knot sitting on a branch', Sentence2: 'a man wearing a tie already is draped with another tie'. Is the frequency of the word 'with' in two sentences equal? <br><br>
+				<br> Sentence1: '나뭇가지에 보송보송한 매듭을 한 새가 나뭇가지에 앉아 있다', Sentence2: '넥타이를 매고 있는 남자는 이미 다른 넥타이를 매고 있다'. 두 문장에서 'with'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a black and white photo of a bus', Sentence2: 'in an old black and white photo men are riding horses'. Is the frequency of the word 'and' in two sentences equal? <br><br>
+				<br> Sentence1: '버스의 흑백 사진', Sentence2: '오래된 흑백 사진에서 남자는 말을 타고 있다'. 두 문장에서 'and'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a black and white photo of a bus', Sentence2: 'in an old black and white photo men are riding horses'. Is the frequency of the word 'are' in two sentences equal? <br><br>
+				<br> Sentence1: '버스의 흑백 사진', Sentence2: '오래된 흑백 사진에서 남자는 말을 타고 있다'. 두 문장에서 'are'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a black goat wearing a red collar with bells is stopped and staring for a picture', Sentence2: 'train cars sit on a track adjacent to thick trees'. Is the frequency of the word 'red' in two sentences equal? <br><br>
+				<br> Sentence1: '종이 달린 빨간 목걸이를 한 검은 염소가 멈추고 사진을 응시하고 있습니다.' 두 문장에서 '빨간색'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a boy playing with the scooter and wear a set of protect hard', Sentence2: 'a frowning woman holding a piece of pizza in her right hand'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '스쿠터를 가지고 노는 소년과 하드 프로텍트 세트를 착용', Sentence2: '오른손에 피자 조각을 들고 찌푸린 여자'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bride is standing on the grass under an umbrella', Sentence2: 'a dog sits next to bathtub in a bathroom'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '신부가 우산 아래 풀밭에 서 있다', Sentence2: '화장실 욕조 옆에 개가 앉아 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bunch of people gathering inside of a room', Sentence2: 'a pile of hamburgers is shown in black and white'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '방 안에 모인 사람들', Sentence2: '햄버거 더미가 흑백으로 표시됩니다.' 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bunch of surfers hitting a wave on a surfboard', Sentence2: 'a living room complete with a couch sliding door and a window'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '서핑보드에서 파도를 치는 서퍼 무리', Sentence2: '소파 슬라이딩 도어와 창문이 있는 거실'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a bunch of surfers hitting a wave on a surfboard', Sentence2: 'a living room complete with a couch sliding door and a window'. Is the frequency of the word 'window' in two sentences equal? <br><br>
+				<br> Sentence1: '서핑보드에서 파도를 치는 서퍼 무리', Sentence2: '소파 슬라이딩 도어와 창문이 있는 거실'. 두 문장에서 'window'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a car and a bus are merging into traffic together', Sentence2: 'a dessert has icing and other toppings on it'. Is the frequency of the word 'and' in two sentences equal? <br><br>
+				<br> Sentence1: '자동차와 버스가 교통으로 합류하고 있습니다.', Sentence2: '디저트에는 아이싱과 기타 토핑이 있습니다.' 두 문장에서 'and'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a car and a bus are merging into traffic together', Sentence2: 'the young skateboarders sit around the top of the platform'. Is the frequency of the word 'into' in two sentences equal? <br><br>
+				<br> Sentence1: '자동차와 버스가 교통으로 합류하고 있습니다.', Sentence2: '젊은 스케이트보더들이 플랫폼 꼭대기에 앉아 있습니다.' 두 문장에서 'into'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a cat laying on its arm looking at a mirror', Sentence2: 'a beautiful woman holding a tennis racquet on a tennis court'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '거울을 바라보며 팔짱을 낀 고양이', Sentence2: '테니스 코트에서 테니스 라켓을 들고 있는 아름다운 여성'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a cat laying on its arm looking at a mirror', Sentence2: 'a beautiful woman holding a tennis racquet on a tennis court'. Is the frequency of the word 'on' in two sentences equal? <br><br>
+				<br> Sentence1: '거울을 바라보며 팔짱을 낀 고양이', Sentence2: '테니스 코트에서 테니스 라켓을 들고 있는 아름다운 여성'. 두 문장에서 'on'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a cat looking inside of a barn door', Sentence2: 'a boy holding his skateboard behind his head resting on his shoulders'. Is the frequency of the word 'behind' in two sentences equal? <br><br>
+				<br> Sentence1: '헛간 문 안을 들여다보는 고양이', Sentence2: '어깨에 기대어 머리 뒤로 스케이트보드를 들고 있는 소년'. 두 문장에서 'behind'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a cat looking inside of a barn door', Sentence2: 'a boy holding his skateboard behind his head resting on his shoulders'. Is the frequency of the word 'holding' in two sentences equal? <br><br>
+				<br> Sentence1: '헛간 문 안을 들여다보는 고양이', Sentence2: '어깨에 기대어 머리 뒤로 스케이트보드를 들고 있는 소년'. 두 문장에서 'holding'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a church with some tents with items for sale in front of it', Sentence2: 'a tall bird stands near the edge of a river'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '그 앞에 판매용 물건이 있는 천막이 있는 교회', Sentence2: '강가에 키 큰 새가 서 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a church with some tents with items for sale in front of it', Sentence2: 'a tall bird stands near the edge of a river'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '그 앞에 판매용 물건이 있는 천막이 있는 교회', Sentence2: '강가에 키 큰 새가 서 있다'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a city street with traffic at a stoplight', Sentence2: 'a giraffe at the zoo standing near a fence and a tree'. Is the frequency of the word 'at' in two sentences equal? <br><br>
+				<br> Sentence1: '신호등에서 교통량이 많은 도시 거리', Sentence2: '울타리와 나무 근처에 서 있는 동물원의 기린'. 두 문장에서 단어 'at'의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a city street with traffic at a stoplight', Sentence2: 'a giraffe at the zoo standing near a fence and a tree'. Is the frequency of the word 'with' in two sentences equal? <br><br>
+				<br> Sentence1: '신호등에서 교통량이 많은 도시 거리', Sentence2: '울타리와 나무 근처에 서 있는 동물원의 기린'. 두 문장에서 'with'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a clock tower in front of some buildings', Sentence2: 'a man stands in front of some railroad tracks'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '어떤 건물 앞의 시계탑', Sentence2: '어떤 철로 앞에 한 남자가 서 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a clock tower in front of some buildings', Sentence2: 'a man stands in front of some railroad tracks'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '어떤 건물 앞의 시계탑', Sentence2: '어떤 철로 앞에 한 남자가 서 있다'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a clock tower in front of some buildings', Sentence2: 'there are two boys playing soccer with a woman'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '몇몇 빌딩 앞의 시계탑', Sentence2: '남자 둘이 여자와 축구를 하고 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a clock tower view from the bottom of the tower', Sentence2: 'two people with skateboards one is doing a jump'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '타워 아래에서 본 시계탑 전망', Sentence2: '스케이트보드를 탄 두 사람, 한 사람은 점프를 하고 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a close up of a baseball player putting on a helmet', Sentence2: 'a man standing in the rain with an umbrella'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '헬멧을 쓰고 있는 야구 선수의 클로즈업', Sentence2: '우산을 들고 빗속에 서 있는 남자'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a close up of two laptops near one another', Sentence2: 'a woman is checking the setting of her dinner table'. Is the frequency of the word 'laptops' in two sentences equal? <br><br>
+				<br> Sentence1: '서로 가까이 있는 두 대의 노트북 클로즈업', Sentence2: '여자가 식탁의 설정을 확인하고 있습니다.' 두 문장에서 '노트북'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a collection of food is sitting on a counter', Sentence2: 'a green ventura fwy sign next to a street'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '음식 모음이 카운터에 앉아 있습니다.', Sentence2: '거리 옆에 있는 녹색 벤츄라 fwy 표지판'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of giraffes stand next to each other', Sentence2: 'a group of yellow traffic signals sitting next to each other'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '기린 두 마리가 나란히 서 있다', Sentence2: '노란색 신호등이 나란히 앉아 있다'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of men standing next to each other on a tennis court', Sentence2: 'a man laying on a bed on top of his stomach'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '테니스 코트에서 나란히 서 있는 두 남자', Sentence2: '배 위에 침대에 누워 있는 남자'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of people that are skiing down a snowy hill', Sentence2: 'a batter has swung at the ball while the crowd is watching'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '눈 덮인 언덕에서 스키를 타고 내려가는 두 사람', Sentence2: '관중이 지켜보는 동안 타자가 공을 휘둘렀다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of pizzas baking inside of an oven', Sentence2: 'a group of men riding a large red bike down a street'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '오븐 안에서 굽고 있는 두 개의 피자', Sentence2: '커다란 빨간 자전거를 타고 길을 따라 내려가는 한 무리의 남자들'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of pizzas baking inside of an oven', Sentence2: 'skateboarder with a black helmet and flannel shirt skateboards while another person takes a photograph'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '오븐 안에서 굽는 피자 두어 개', Sentence2: '다른 사람이 사진을 찍는 동안 검은색 헬멧과 플란넬 셔츠 스케이트보드를 타는 스케이트보더'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of small dogs sit in a basket on a bike', Sentence2: 'a teddy bear on a chair in front of a bookshelf'. Is the frequency of the word 'bear' in two sentences equal? <br><br>
+				<br> Sentence1: '작은 개 두어 마리가 자전거 바구니에 앉아 있다', Sentence2: '책장 앞 의자에 곰 인형'. 두 문장에서 '곰'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of small dogs sit in a basket on a bike', Sentence2: 'a teddy bear on a chair in front of a bookshelf'. Is the frequency of the word 'in' in two sentences equal? <br><br>
+				<br> Sentence1: '작은 개 두어 마리가 자전거 바구니에 앉아 있다', Sentence2: '책장 앞 의자에 곰 인형'. 두 문장에서 'in'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple of small dogs sit in a basket on a bike', Sentence2: 'a teddy bear on a chair in front of a bookshelf'. Is the frequency of the word 'on' in two sentences equal? <br><br>
+				<br> Sentence1: '작은 개 두어 마리가 자전거 바구니에 앉아 있다', Sentence2: '책장 앞 의자에 곰 인형'. 두 문장에서 'on'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a couple sits in separate parts of the bedroom working on their laptops', Sentence2: 'a bamboo basket sitting on top of a bicycles handle bars'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '한 부부가 침실의 별도 공간에 앉아 노트북 작업을 하고 있습니다.', Sentence2: '자전거 핸들 바 위에 놓인 대나무 바구니'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a desk with a laptop next to a cutting board', Sentence2: 'a flock of birds some on the ground others are perched on a park bench'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '도마 옆에 노트북이 있는 책상', Sentence2: '땅에 있는 새 떼, 공원 벤치에 앉아 있는 새 떼'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a desk with a laptop next to a cutting board', Sentence2: 'a flock of birds some on the ground others are perched on a park bench'. Is the frequency of the word 'are' in two sentences equal? <br><br>
+				<br> Sentence1: '도마 옆에 노트북이 있는 책상', Sentence2: '땅에 있는 새 떼, 공원 벤치에 앉아 있는 새 떼'. 두 문장에서 'are'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a desk with a monitor a keyboard and mouse', Sentence2: 'a tow truck parked near a fence in a lot'. Is the frequency of the word 'in' in two sentences equal? <br><br>
+				<br> Sentence1: '모니터와 키보드, 마우스가 있는 책상', Sentence2: '주변 울타리 근처에 주차된 견인차'. 두 문장에서 'in'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a dog is seated in a dog bed on a wood floor with a rug nearby', Sentence2: 'a ski boarder is airborne on a snow covered slope'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '개는 근처에 러그가 깔린 나무 바닥의 개 침대에 앉아 있습니다.', Sentence2: '스키 보더는 눈 덮인 슬로프에서 공중에 떠 있습니다.' 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a dog is seated in a dog bed on a wood floor with a rug nearby', Sentence2: 'a ski boarder is airborne on a snow covered slope'. Is the frequency of the word 'is' in two sentences equal? <br><br>
+				<br> Sentence1: '개는 근처에 러그가 깔린 나무 바닥의 개 침대에 앉아 있습니다.', Sentence2: '스키 보더는 눈 덮인 슬로프에서 공중에 떠 있습니다.' 두 문장에서 'is'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a dog is seated in a dog bed on a wood floor with a rug nearby', Sentence2: 'a ski boarder is airborne on a snow covered slope'. Is the frequency of the word 'on' in two sentences equal? <br><br>
+				<br> Sentence1: '개는 근처에 러그가 깔린 나무 바닥의 개 침대에 앉아 있습니다.', Sentence2: '스키 보더는 눈 덮인 슬로프에서 공중에 떠 있습니다.' 두 문장에서 'on'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a driver holds the wheel of the vehicle with one hand while text messaging on a mobile phone with the other', Sentence2: 'three oranges and a banana in the shape of a smile'. Is the frequency of the word 'the' in two sentences equal? <br><br>
+				<br> Sentence1: '운전자는 한 손으로 차량의 운전대를 잡고 다른 한 손으로는 휴대폰으로 문자 메시지를 주고받습니다.', Sentence2: '미소 모양의 오렌지 3개와 바나나'. 두 문장에서 'the'라는 단어의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a feminine shirtless man holding a bottle of wine in the kitchen with the refrigerator open', Sentence2: 'a train that is passing by in the day time'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '옷을 벗고 냉장고를 열어둔 부엌에서 와인병을 들고 있는 여성스러운 남자', Sentence2: '낮에 지나가는 기차'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a feminine shirtless man holding a bottle of wine in the kitchen with the refrigerator open', Sentence2: 'a train that is passing by in the day time'. Is the frequency of the word 'in' in two sentences equal? <br><br>
+				<br> Sentence1: '옷을 벗고 냉장고를 열어둔 부엌에서 와인병을 들고 있는 여성스러운 남자', Sentence2: '낮에 지나가는 기차'. 두 문장에서 'in'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a giraffe at the zoo standing near a fence and a tree', Sentence2: 'a rooster is in the middle of a grassy area'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '울타리와 나무 근처에 서 있는 동물원의 기린', Sentence2: '풀밭 한가운데 수탉이 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a giraffe at the zoo standing near a fence and a tree', Sentence2: 'a rooster is in the middle of a grassy area'. Is the frequency of the word 'the' in two sentences equal? <br><br>
+				<br> Sentence1: '울타리와 나무 근처에 서 있는 동물원의 기린', Sentence2: '풀밭 한가운데 수탉이 있다'. 두 문장에서 'the'라는 단어의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a giraffe is standing near some type of advertising sign', Sentence2: 'this is a tray with food and a drink on it'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '기린이 일종의 광고 표지판 근처에 서 있습니다.', Sentence2: '이것은 음식과 음료가 담긴 쟁반입니다.' 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a giraffe is standing near some type of advertising sign', Sentence2: 'this is a tray with food and a drink on it'. Is the frequency of the word 'is' in two sentences equal? <br><br>
+				<br> Sentence1: '기린이 일종의 광고 표지판 근처에 서 있습니다.', Sentence2: '이것은 음식과 음료가 담긴 쟁반입니다.' 두 문장에서 'is'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a green and yellow train traveling down a train track', Sentence2: 'two dogs are wearing bonnets tied to a pole'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '기차 선로를 따라 내려가는 녹색과 노란색 기차', Sentence2: '두 마리의 개가 기둥에 묶인 모자를 쓰고 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a green slope is full of canoes up on the grass', Sentence2: 'a girl sitting at a table with several plates of food around her'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '녹색 슬로프는 풀밭 위의 카누로 가득 차 있습니다', Sentence2: '여러 접시의 음식을 주위에 두고 테이블에 앉아 있는 소녀'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a green slope is full of canoes up on the grass', Sentence2: 'a girl sitting at a table with several plates of food around her'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '녹색 슬로프는 풀밭 위의 카누로 가득 차 있습니다', Sentence2: '여러 접시의 음식을 주위에 두고 테이블에 앉아 있는 소녀'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a green ventura fwy sign next to a street', Sentence2: 'a beautiful young lady holding a tennis racquet on top of a court'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '거리 옆에 있는 녹색 벤추라 fwy 표지판', Sentence2: '코트 위에 테니스 라켓을 들고 있는 아름다운 젊은 여성'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of elephants are gathered on the dry banks of a riverbed', Sentence2: 'a sandwich on a green plate with a knife about to cut into it'. Is the frequency of the word 'on' in two sentences equal? <br><br>
+				<br> Sentence1: '한 무리의 코끼리가 강바닥의 마른 둑에 모여 있다', Sentence2: '칼로 자르려고 하는 녹색 접시 위의 샌드위치'. 두 문장에서 'on'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of elephants are gathered on the dry banks of a riverbed', Sentence2: 'a sandwich on a green plate with a knife about to cut into it'. Is the frequency of the word 'plate' in two sentences equal? <br><br>
+				<br> Sentence1: '한 무리의 코끼리가 강바닥의 마른 둑에 모여 있다', Sentence2: '칼로 자르려고 하는 녹색 접시 위의 샌드위치'. 두 문장에서 'plate'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of girls with umbrellas in the sand', Sentence2: 'two people playing video games with remote controls'. Is the frequency of the word 'playing' in two sentences equal? <br><br>
+				<br> Sentence1: '모래에서 우산을 든 소녀 그룹', Sentence2: '리모컨으로 비디오 게임을 하는 두 사람'. 두 문장에서 'playing'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of girls with umbrellas in the sand', Sentence2: 'two people playing video games with remote controls'. Is the frequency of the word 'with' in two sentences equal? <br><br>
+				<br> Sentence1: '모래에서 우산을 든 소녀 그룹', Sentence2: '리모컨으로 비디오 게임을 하는 두 사람'. 두 문장에서 'with'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of people walking around a public space', Sentence2: 'a table with a bowl of pasta and a bowl of salad'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '공공 공간을 돌아다니는 사람들', Sentence2: '파스타 한 그릇과 샐러드 한 그릇이 있는 테이블'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of people walking around a public space', Sentence2: 'a table with a bowl of pasta and a bowl of salad'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '공공 공간을 돌아다니는 사람들', Sentence2: '파스타 한 그릇과 샐러드 한 그릇이 있는 테이블'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of people walking down a street', Sentence2: 'a green and yellow train traveling down a train track'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '길을 걷고 있는 사람들', Sentence2: '기차 선로를 따라 이동하는 녹색과 노란색 기차'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of people watch another group with an elephant', Sentence2: 'a knife on a handcrafted wooden cutting board'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '일군의 사람들이 코끼리와 함께 또 다른 일행을 지켜보고 있다', Sentence2: '손으로 만든 나무 도마 위의 칼'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of people watch another group with an elephant', Sentence2: 'a knife on a handcrafted wooden cutting board'. Is the frequency of the word 'an' in two sentences equal? <br><br>
+				<br> Sentence1: '일군의 사람들이 코끼리와 함께 또 다른 일행을 지켜보고 있다', Sentence2: '손으로 만든 나무 도마 위의 칼'. 두 문장에서 'an'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a group of yellow traffic signals sitting next to each other', Sentence2: 'people shaking hands across a tennis net while other couples play behind them'. Is the frequency of the word 'of' in two sentences equal? <br><br>
+				<br> Sentence1: '서로 옆에 앉아 있는 노란색 교통 신호 그룹', Sentence2: '테니스 네트를 가로질러 악수하는 사람들과 그 뒤에서 다른 커플이 플레이하는 동안'. 두 문장에서 'of'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a isle with a bike parked in it', Sentence2: 'a male skateboarder in a black shirt is skating'. Is the frequency of the word 'in' in two sentences equal? <br><br>
+				<br> Sentence1: '자전거가 주차된 섬', Sentence2: '검은 셔츠를 입은 남자 스케이트보더가 스케이트를 타고 있다'. 두 문장에서 'in'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a isle with a bike parked in it', Sentence2: 'a male skateboarder in a black shirt is skating'. Is the frequency of the word 'with' in two sentences equal? <br><br>
+				<br> Sentence1: '자전거가 주차된 섬', Sentence2: '검은 셔츠를 입은 남자 스케이트보더가 스케이트를 타고 있다'. 두 문장에서 'with'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a kitchen area with purple walls and black cabinets', Sentence2: 'a tray with four different types of food'. Is the frequency of the word 'with' in two sentences equal? <br><br>
+				<br> Sentence1: '보라색 벽과 검은색 캐비닛이 있는 주방 공간', Sentence2: '4가지 종류의 음식이 담긴 쟁반'. 두 문장에서 'with'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a kitchen has been organized with many appliances', Sentence2: 'a knife on a handcrafted wooden cutting board'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '많은 가전제품으로 주방이 정리되어 있습니다.', Sentence2: '손으로 만든 나무 도마 위의 칼'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a large brown bull standing behind a metal fence', Sentence2: 'a person holds a ring up to their face'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '금속 울타리 뒤에 서 있는 큰 갈색 황소', Sentence2: '사람이 반지를 얼굴에 대고 있다'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a large jet parked near a building with cars in the foreground', Sentence2: 'a giraffe lies down in a caged area while two small animals sit on his head'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '전경에 자동차가 있는 건물 근처에 주차된 대형 제트기', Sentence2: '기린이 우리에 갇힌 공간에 누워 있고 두 마리의 작은 동물이 그의 머리에 앉아 있습니다.' 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a large jet parked near a building with cars in the foreground', Sentence2: 'a giraffe lies down in a caged area while two small animals sit on his head'. Is the frequency of the word 'in' in two sentences equal? <br><br>
+				<br> Sentence1: '전경에 자동차가 있는 건물 근처에 주차된 대형 제트기', Sentence2: '기린이 우리에 갇힌 공간에 누워 있고 두 마리의 작은 동물이 그의 머리에 앉아 있습니다.' 두 문장에서 'in'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a little boy and girl sitting at a table eating some food', Sentence2: 'this is how a lunch break took place many years ago'. Is the frequency of the word 'and' in two sentences equal? <br><br>
+				<br> Sentence1: '어린 소년과 소녀가 식탁에 앉아 음식을 먹고 있습니다.', Sentence2: '몇 년 전 점심 시간은 이렇게 생겼습니다.' 두 문장에서 'and'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a living area with people sitting on couch next to bookshelf', Sentence2: 'this is a tray with food and a drink on it'. Is the frequency of the word 'and' in two sentences equal? <br><br>
+				<br> Sentence1: '사람들이 책장 옆 소파에 앉아 있는 거실', Sentence2: '음식과 음료가 담긴 쟁반입니다'. 두 문장에서 'and'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a living area with people sitting on couch next to bookshelf', Sentence2: 'this is a tray with food and a drink on it'. Is the frequency of the word 'on' in two sentences equal? <br><br>
+				<br> Sentence1: '사람들이 책장 옆 소파에 앉아 있는 거실', Sentence2: '음식과 음료가 담긴 쟁반입니다'. 두 문장에서 'on'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a living room complete with a couch sliding door and a window', Sentence2: 'a man with a pointer in front of a class'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '소파 미닫이 문과 창문이 있는 거실', Sentence2: '교실 앞에서 포인터를 들고 있는 남자'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a living room complete with a couch sliding door and a window', Sentence2: 'a man with a pointer in front of a class'. Is the frequency of the word 'window' in two sentences equal? <br><br>
+				<br> Sentence1: '소파 미닫이 문과 창문이 있는 거실', Sentence2: '교실 앞에서 포인터를 들고 있는 남자'. 두 문장에서 'window'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a living room complete with a couch sliding door and a window', Sentence2: 'a man with a pointer in front of a class'. Is the frequency of the word 'with' in two sentences equal? <br><br>
+				<br> Sentence1: '소파 미닫이 문과 창문이 있는 거실', Sentence2: '교실 앞에서 포인터를 들고 있는 남자'. 두 문장에서 'with'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a living room complete with a couch sliding door and a window', Sentence2: 'a yellow city bus driving on the street'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '소파 슬라이딩 도어와 창문이 있는 거실', Sentence2: '길을 달리는 노란색 시내버스'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a living room complete with a couch sliding door and a window', Sentence2: 'a yellow city bus driving on the street'. Is the frequency of the word 'and' in two sentences equal? <br><br>
+				<br> Sentence1: '소파 슬라이딩 도어와 창문이 있는 거실', Sentence2: '길을 달리는 노란색 시내버스'. 두 문장에서 'and'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man catches a wave while surfing the ocean', Sentence2: 'glazed donuts regular donuts pies and other desserts in a show case'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: 'a man catch a wave while surfing the ocean', Sentence2: '글레이즈드 도넛 일반 도넛 파이 및 기타 디저트 쇼 케이스'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man holding a basketball in his hands in the dark', Sentence2: 'a living room with a green chair next to the window'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '어둠 속에서 손에 농구공을 들고 있는 남자', Sentence2: '창문 옆에 녹색 의자가 있는 거실'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man holding a basketball in his hands in the dark', Sentence2: 'a living room with a green chair next to the window'. Is the frequency of the word 'man' in two sentences equal? <br><br>
+				<br> Sentence1: '어둠 속에서 손에 농구공을 들고 있는 남자', Sentence2: '창문 옆에 녹색 의자가 있는 거실'. 두 문장에서 'man'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man holding a basketball in his hands in the dark', Sentence2: 'a living room with a green chair next to the window'. Is the frequency of the word 'the' in two sentences equal? <br><br>
+				<br> Sentence1: '어둠 속에서 손에 농구공을 들고 있는 남자', Sentence2: '창문 옆에 녹색 의자가 있는 거실'. 두 문장에서 'the'라는 단어의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man holding a basketball in his hands in the dark', Sentence2: 'a living room with a green chair next to the window'. Is the frequency of the word 'window' in two sentences equal? <br><br>
+				<br> Sentence1: '어둠 속에서 손에 농구공을 들고 있는 남자', Sentence2: '창문 옆에 녹색 의자가 있는 거실'. 두 문장에서 'window'라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man holding a tennis ball and a racquet', Sentence2: 'a simple kitchen with fridge microwave sink and kitchen table set'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '테니스공과 라켓을 들고 있는 남자', Sentence2: '냉장고 전자레인지 싱크대와 식탁 세트가 있는 간소한 주방'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man holding a tennis racquet standing on a tennis court', Sentence2: 'a boy holding his skateboard behind his head resting on his shoulders'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '테니스 코트에 서있는 테니스 라켓을 들고 있는 남자', Sentence2: '어깨에 기대어 머리 뒤로 스케이트보드를 들고 있는 소년'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man holding a tennis racquet standing on a tennis court', Sentence2: 'a boy holding his skateboard behind his head resting on his shoulders'. Is the frequency of the word 'holding' in two sentences equal? <br><br>
+				<br> Sentence1: '테니스 코트에 서있는 테니스 라켓을 들고 있는 남자', Sentence2: '어깨에 기대어 머리 뒤로 스케이트보드를 들고 있는 소년'. 두 문장에서 'holding'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man in a vest standing in a bathroom', Sentence2: 'a street sign slightly bent toward the right'. Is the frequency of the word 'man' in two sentences equal? <br><br>
+				<br> Sentence1: '조끼를 입은 남자가 욕실에 서 있다', Sentence2: '오른쪽으로 약간 구부러진 도로 표지판'. 두 문장에서 'man'이라는 단어의 빈도가 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man in a vest standing in a bathroom', Sentence2: 'two plates on a table with some little sandwiches on them'. Is the frequency of the word 'two' in two sentences equal? <br><br>
+				<br> Sentence1: '조끼를 입은 남자가 화장실에 서 있다', Sentence2: '작은 샌드위치가 올려진 테이블 위의 접시 두 개'. 두 문장에서 'two'라는 단어의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man is swinging a tennis racket in the air', Sentence2: 'an elephants foot with what appears to be a sandal on'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '한 남자가 공중에서 테니스 라켓을 휘두르고 있다', Sentence2: '샌달을 신고 있는 것처럼 보이는 코끼리 발'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence1: 'a man riding a wave on top of a surfboard', Sentence2: 'a sandwich sitting on top of a frying pan'. Is the frequency of the word 'a' in two sentences equal? <br><br>
+				<br> Sentence1: '서프보드 위에서 파도를 타는 남자', Sentence2: '프라이팬 위에 앉아 있는 샌드위치'. 두 문장에서 단어 'a'의 빈도는 같은가요? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr>
+	</table>

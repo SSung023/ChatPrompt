@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large group of bananas proped up on several bicycles'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '많은 바나나 무리가 여러 대의 자전거에 올라탔다'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'not many people are attending this tennis match'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: '많은 사람들이 이 테니스 시합에 참석하지 않습니다'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baby sheep feeding on a adult sheep in a field'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '들판에서 어른 양을 잡아먹는 아기 양'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player taking a swing at a ball'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '공을 스윙하는 야구 선수'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player taking a swing at a ball'. Find frequency of the letter 'l' <br><br>
+				<br> 문장: '공을 스윙하는 야구 선수'. 문자 'l'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a toilet and a bath tub'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '화장실과 욕조가 있는 욕실'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a white toilet sitting next to a sink under a mirror'. Find frequency of the letter 'o' <br><br>
+				<br> 문장: '거울 아래 세면대 옆에 흰색 변기가 있는 욕실'. 문자 'o'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with all tiles fallen off the walls'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: '모든 타일이 벽에서 떨어진 욕실'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a batter hits the ball with his bat'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '타자가 방망이로 공을 친다'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful young woman hitting a tennis ball with a racquet'. Find frequency of the letter 'y' <br><br>
+				<br> 문장: '라켓으로 테니스 공을 치는 아름다운 젊은 여성'. 문자 'y'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a biplane flying low over a planted field'. Find frequency of the letter 'w' <br><br>
+				<br> 문장: '심은 들판 위를 낮게 날고 있는 복엽기'. 문자 'w'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white cat bats at its reflection in a mirror'. Find frequency of the letter 'n' <br><br>
+				<br> 문장: '검은색과 흰색 고양이가 거울에 비친 자신의 모습을 보고 있다'. 문자 'n'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white dog playing with a pair of scissors'. Find frequency of the letter 'f' <br><br>
+				<br> 문장: '가위를 가지고 노는 흑백 개'. 문자 'f'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white train passing near a red and white gate'. Find frequency of the letter 'p' <br><br>
+				<br> 문장: '빨간색과 흰색의 문 근처를 지나가는 흑백 열차'. 문자 'p'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white young cat stands in the driver's seat window of a commercial van'. Find frequency of the letter 'm' <br><br>
+				<br> 문장: '상업용 밴의 운전석 창가에 검은색과 흰색의 새끼 고양이가 서 있다'. 문자 'm'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black bird that is sitting on a branch'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '가지에 앉아 있는 검은 새'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black bull lays outside in the snow'. Find frequency of the letter 'l' <br><br>
+				<br> 문장: '검은 황소가 눈 속에 누워 있다'. 문자 'l'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat lying in an empty suitcase peers out over the edge of the suitcase'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '빈 여행 가방에 누워있는 검은 고양이가 여행 가방 가장자리 너머를 내다본다'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 7 <br><br>
+				<br> 7 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black steam engine sits on some train tracks on display'. Find frequency of the letter 'o' <br><br>
+				<br> 문장: '검은색 증기 기관이 전시된 일부 기차 선로에 앉아 있다'. 문자 'o'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blocked-off urban city block with pedestrians walking down sidewalks on either side'. Find frequency of the letter 'i' <br><br>
+				<br> 문장: '보행자가 양쪽에서 보도를 걷고 있는 차단된 도시 블록'. 문자 'i'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 7 <br><br>
+				<br> 7 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue dumpster filled with dead rotten bananas'. Find frequency of the letter 'n' <br><br>
+				<br> 문장: '죽은 썩은 바나나로 가득 찬 파란 쓰레기통'. 문자 'n'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bottle of wine and a wine glass on a table'. Find frequency of the letter 's' <br><br>
+				<br> 문장: '테이블 위의 와인 한 병과 와인 잔'. 문자 's'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy doing a trick on a skateboard over a rail'. Find frequency of the letter 'y' <br><br>
+				<br> 문장: '레일 위에서 스케이트보드를 타고 묘기를 부리는 소년'. 문자 'y'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy is tilting his skateboard up at the top of a skateboard ramp'. Find frequency of the letter 'o' <br><br>
+				<br> 문장: '소년이 스케이트보드 경사로 꼭대기에서 스케이트보드를 기울이고 있다'. 문자 'o'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown animal behind a glass wall on a water tank'. Find frequency of the letter 'r' <br><br>
+				<br> 문장: '물탱크 위 유리벽 뒤에 있는 갈색 동물'. 문자 'r'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brownie dwarfs a small plastic automobile decoration'. Find frequency of the letter 'd' <br><br>
+				<br> 문장: '브라우니는 작은 플라스틱 자동차 장식을 왜소하게 만든다'. 문자 'd'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of sheep are standing in a group'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: '한 무리의 양이 떼를 지어 서 있다'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of stuffed animals that are on a dresser'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '서랍장에 있는 박제된 동물들'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bus and cars are on a street with a traffic light'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '신호등이 있는 거리에 버스와 자동차가 있다'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 7 <br><br>
+				<br> 7 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bus with two floors belonging to london country'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '런던 컨트리에 속한 2층짜리 버스'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a business bus parked near a building'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '건물 근처에 주차된 비즈니스 버스'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cake in the shape of a toilet with andy 50 today written on it'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: 'andy 50 today가 적힌 변기 모양의 케이크'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat has a surprised look as it sits on the top of a bookshelf with books on the first and second shelf'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '첫 번째와 두 번째 선반에 책이 있는 책장 위에 고양이가 앉아 놀란 표정을 짓고 있다'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 7 <br><br>
+				<br> 7 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat lays next to the keyboard of a laptop'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '노트북 키보드 옆에 고양이가 누워 있다'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat lays on top of an open and turned on laptop computer'. Find frequency of the letter 'p' <br><br>
+				<br> 문장: '고양이가 열려 있고 켜진 노트북 위에 누워 있다'. 문자 'p'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat that is standing next to an open suitcase'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '열린 여행가방 옆에 서 있는 고양이'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child flies his kite on the beach'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: '아이가 해변에서 연을 날린다'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child on a small lap top sitting out in the open outdoors'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '열린 야외에 앉아 있는 작은 노트북 위의 아이'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a classic motorcycle is parked in a driveway'. Find frequency of the letter 'c' <br><br>
+				<br> 문장: '클래식 오토바이가 진입로에 주차되어 있습니다'. 문자 'c'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a small car with a dog inside'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '안에 개가 있는 작은 차의 클로즈업'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a zebra with plant life all around'. Find frequency of the letter 'o' <br><br>
+				<br> 문장: '사방에 식물이 있는 얼룩말의 클로즈업'. 문자 'o'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of fruit made of stitched cotton'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '수직면으로 만든 과일 클로즈업'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a collection of folded dollar bills, multicolored ear plugs, toothbrushes, pills and spoons neatly arranged in rows'. Find frequency of the letter 'u' <br><br>
+				<br> 문장: '접힌 달러 지폐, 여러 가지 색의 귀마개, 칫솔, 알약, 숟가락이 가지런히 가지런히 배열된 모음'. 문자 'u'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a commuter train travels past an empty train station'. Find frequency of the letter 'l' <br><br>
+				<br> 문장: '통근열차가 텅 빈 기차역을 지나간다'. 문자 'l'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple is cutting in to a cake at a wedding'. Find frequency of the letter 'd' <br><br>
+				<br> 문장: '한 커플이 결혼식에서 케이크를 자르고 있다'. 문자 'd'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of birds perched on top of a tree branch'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '나뭇가지 위에 앉은 두 마리의 새'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of men riding motorcycles down a street'. Find frequency of the letter 'o' <br><br>
+				<br> 문장: '오토바이를 타고 거리를 달리는 두 남자'. 문자 'o'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of men riding on the back of bikes'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '자전거 뒤에 타고 있는 두 남자'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of toothbrushes that are on a table'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: '탁자 위에 놓인 칫솔 두어 개'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple walking their dog on a dirty street'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '더러운 거리에서 개를 산책시키는 부부'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cup of coffee and a banana are setting on this desk'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '커피 한 잔과 바나나가 이 책상 위에 놓여 있다'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a desk with a keyboard and a monitor on it'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '키보드와 모니터가 있는 책상'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog is walking by a building in black and white'. Find frequency of the letter 'd' <br><br>
+				<br> 문장: '개가 흑백으로 된 건물 옆을 걷고 있다'. 문자 'd'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog laying under a blanket in a bed'. Find frequency of the letter 'n' <br><br>
+				<br> 문장: '침대에서 담요 아래 누워 있는 개'. 문자 'n'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog looking ahead with a stoic look in a car seat'. Find frequency of the letter 'r' <br><br>
+				<br> 문장: '카시트에서 금욕적인 표정으로 앞을 내다보는 개'. 문자 'r'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog suspended in mid air catching a frisbee'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '프리스비를 잡는 공중에 매달린 개'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a double decker bus parked by a sidewalk'. Find frequency of the letter 'k' <br><br>
+				<br> 문장: '보도 옆에 주차된 2층 버스'. 문자 'k'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a double-decker bus makes its way down a snowy street'. Find frequency of the letter 'd' <br><br>
+				<br> 문장: '이층 버스가 눈 덮인 길을 가고 있다'. 문자 'd'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a family is in the kitchen preparing a meal'. Find frequency of the letter 'n' <br><br>
+				<br> 문장: '한 가족이 부엌에서 식사를 준비하고 있다'. 문자 'n'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a family sitting in a garden eating cookies'. Find frequency of the letter 'n' <br><br>
+				<br> 문장: '쿠키를 먹고 있는 정원에 앉아 있는 가족'. 문자 'n'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a female skateboarder is in mid air doing a trick'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '여자 스케이트보더가 공중에서 묘기를 부리고 있다'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a few people are standing on the beach flying a kite'. Find frequency of the letter 'o' <br><br>
+				<br> 문장: '몇몇 사람들이 연을 날리며 해변에 서 있다'. 문자 'o'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a free-standing bathroom near an open door and table'. Find frequency of the letter 's' <br><br>
+				<br> 문장: '열린 문과 테이블 근처에 독립된 욕실'. 문자 's'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe is outside eating grass from a field'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '기린이 들판에서 풀을 뜯어먹고 있다'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe standing in the dirt near some rocks'. Find frequency of the letter 'n' <br><br>
+				<br> 문장: '바위 근처 흙 속에 서 있는 기린'. 문자 'n'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a graffiti filled restroom with three urinals and a toilet'. Find frequency of the letter 'f' <br><br>
+				<br> 문장: '3개의 소변기와 화장실이 있는 낙서로 가득 찬 화장실'. 문자 'f'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gray cat sitting on a desk looking into a mirror'. Find frequency of the letter 'k' <br><br>
+				<br> 문장: '거울을 들여다보며 책상 위에 앉아 있는 회색 고양이'. 문자 'k'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gray elephant is in a grassy field'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '회색 코끼리가 풀밭에 있다'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of cows in a fenced in field'. Find frequency of the letter 'd' <br><br>
+				<br> 문장: '울타리 쳐진 들판에 있는 소 떼'. 문자 'd'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of cows that are standing in the grass'. Find frequency of the letter 'g' <br><br>
+				<br> 문장: '풀밭에 서 있는 소 떼'. 문자 'g'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of forks going toward a cake on a plate'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '접시 위의 케이크를 향해 가는 포크의 무리'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of giraffes standing in a grassy area next to a pond'. Find frequency of the letter 'r' <br><br>
+				<br> 문장: '연못 옆 잔디밭에 서 있는 기린 떼'. 문자 'r'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of matching single- and double-decker busses sit in a field'. Find frequency of the letter 'd' <br><br>
+				<br> 문장: '한 무리의 1층 및 2층 버스가 들판에 앉아 있다'. 문자 'd'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of men in a field playing baseball'. Find frequency of the letter 'u' <br><br>
+				<br> 문장: '야구를 하고 있는 들판에 있는 한 무리의 남자들'. 문자 'u'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people and many suitcases in a room'. Find frequency of the letter 's' <br><br>
+				<br> 문장: '한 방에 있는 한 무리의 사람들과 많은 여행 가방'. 문자 's'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people sitting and standing on a horse sleigh'. Find frequency of the letter 'p' <br><br>
+				<br> 문장: '말 썰매에 앉아서 서있는 사람들의 무리'. 문자 'p'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people snowshoeing through a snowy trail'. Find frequency of the letter 'r' <br><br>
+				<br> 문장: '눈 덮인 오솔길을 스노우슈잉하는 사람들'. 문자 'r'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people walk outside in the rain with umbrellas'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '일군의 사람들이 우산을 들고 비를 맞으며 바깥을 걷고 있다'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of skinny cows gaze on brown grass'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '마른 소 떼가 갈색 풀밭을 응시한다'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of three buses driving down a highway'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '고속도로를 달리는 세 대의 버스 그룹'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of three stuffed animals sitting on a counter'. Find frequency of the letter 's' <br><br>
+				<br> 문장: '카운터에 앉아 있는 세 마리의 박제 동물 그룹'. 문자 's'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy preforming a skateboard trick at a skate park'. Find frequency of the letter 'm' <br><br>
+				<br> 문장: '스케이트 공원에서 스케이트보드 묘기를 부리는 남자'. 문자 'm'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy with glasses shows off his wii remote'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: '안경을 쓴 남자가 Wii 리모컨을 과시하다'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a ham sandwich on a place with a green salad'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '그린 샐러드가 있는 장소에 햄 샌드위치'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 8 <br><br>
+				<br> 8 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a horse is pulling a cart with barrels of beer on it'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '말이 맥주 통을 싣고 카트를 끌고 있다'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a keychain with a little bear hanging from a key in the door'. Find frequency of the letter 'f' <br><br>
+				<br> 문장: '작은 곰이 문 열쇠에 매달려 있는 열쇠고리'. 문자 'f'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen containing a refrigerator and a stove'. Find frequency of the letter 'c' <br><br>
+				<br> 문장: '냉장고와 스토브가 있는 부엌'. 문자 'c'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen counter next to a stove and oven'. Find frequency of the letter 'n' <br><br>
+				<br> 문장: '스토브와 오븐 옆에 있는 주방 조리대'. 문자 'n'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitten is sitting on the floor next to a shoe'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '새끼 고양이가 신발 옆 바닥에 앉아 있다'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lady is in the snow on her snow board'. Find frequency of the letter 'i' <br><br>
+				<br> 문장: '한 여인이 스노우 보드 위에 눈 속에 있다'. 문자 'i'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lady is standing on a stool while someone lifts from underneath a large suitcase'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '누군가가 큰 여행 가방 아래에서 들어 올리는 동안 한 여성이 의자에 서 있습니다.' 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 7 <br><br>
+				<br> 7 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lady taking a picture of orange colored roses'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '주황색 장미 사진 찍는 아줌마'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a laptop on top of a steel over'. Find frequency of the letter 'r' <br><br>
+				<br> 문장: '스틸오버 위에 노트북'. 문자 'r'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large blue toilet sitting on a tiled bathroom floor'. Find frequency of the letter 'i' <br><br>
+				<br> 문장: '타일로 마감된 욕실 바닥에 놓인 커다란 파란색 변기'. 문자 'i'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large brown bear standing next to another bear'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '다른 곰 옆에 서 있는 큰 불곰'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large buffalo walking down a side walk'. Find frequency of the letter 'a' <br><br>
+				<br> 문장: '옆길을 걷고 있는 큰 버팔로'. 문자 'a'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large clock tower with a clock on it's face'. Find frequency of the letter 'h' <br><br>
+				<br> 문장: '얼굴에 시계가 있는 큰 시계탑'. 문자 'h'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large gathering of people at an indoor event'. Find frequency of the letter 'e' <br><br>
+				<br> 문장: '실내 행사에 사람들이 많이 모인다'. 문자 'e'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large mirror sitting on a subway platform'. Find frequency of the letter 'b' <br><br>
+				<br> 문장: '지하철 승강장에 앉아 있는 큰 거울'. 문자 'b'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large standing clock near a boardwalk and the water'. Find frequency of the letter 'w' <br><br>
+				<br> 문장: '보드워크와 물가 근처에 있는 큰 시계'. 문자 'w'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a little girl using a smart phone while sitting on a chair'. Find frequency of the letter 't' <br><br>
+				<br> 문장: '의자에 앉아 스마트폰을 사용하는 어린 소녀'. 문자 't'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a little girl with a snack laughing on a bench'. Find frequency of the letter 'w' <br><br>
+				<br> 문장: '벤치에서 웃고 있는 간식을 들고 있는 어린 소녀'. 문자 'w'의 빈도 찾기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr>
+	</table>

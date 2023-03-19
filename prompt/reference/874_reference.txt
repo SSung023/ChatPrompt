@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Rope and its Usage <br><br>
+				<br> 로프와 그 사용법 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Rope <br><br>
+				<br> 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In this chapter are described the various types of rope with which a seaman works, and the manner in which he uses them. <br><br>
+				<br> 이 장에서는 선원이 사용하는 다양한 유형의 로프와 사용 방법에 대해 설명합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> the various types of rope <br><br>
+				<br> 다양한 종류의 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coir rope is the weakest of all cordage, but it has the advantage of being so light that it floats on water. <br><br>
+				<br> 코이어 로프는 모든 밧줄 중에서 가장 약하지만 매우 가벼워 물에 뜰 수 있다는 장점이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> A coir rope <br><br>
+				<br> 야자 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A rogue's yarn is also used in commercially manufactured rope to indicate the type of fibre, its quality, and perhaps the particular manufacturer. <br><br>
+				<br> 도적의 털실은 섬유의 종류, 품질, 특정 제조업체를 나타내기 위해 상업적으로 제조된 로프에도 사용됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> A rogue's yarn <br><br>
+				<br> 도적의 털실 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> All three should be spread about one-third of the boat's length apart. <br><br>
+				<br> 3개 모두 보트 길이의 1/3 정도 떨어져 있어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> All three <br><br>
+				<br> 세 개 모두 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> American hemp is about equal to European hemp, but is not used by the Admiralty. <br><br>
+				<br> 미국산 대마는 유럽산 대마와 비슷하지만 해군성은 사용하지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> American hemp <br><br>
+				<br> 미국 대마 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> As the rope is laid up its length contracts like a coiled spring, giving it a certain elasticity. <br><br>
+				<br> 로프를 쌓아 올리면 코일 스프링처럼 길이가 수축되어 일정한 탄성을 갖게 됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> its length <br><br>
+				<br> 그것의 길이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Because it is not so reliable as manila it is not used for boats, falls, slings or for any purpose where the parting of the rope may endanger life. <br><br>
+				<br> 마닐라만큼 신뢰할 수 없기 때문에 보트, 폭포, 슬링 또는 로프가 끊어지면 생명을 위협할 수 있는 용도로 사용되지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> it <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONSTRUCTION AND CHARACTERISTICS OF VEGETABLE FIBRE CORDAGE. <br><br>
+				<br> 식물성 섬유 코르디지의 구성 및 특성. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> VEGETABLE FIBRE CORDAGE <br><br>
+				<br> 식물성 섬유 코르디지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Coir rope. <br><br>
+				<br> 야자 로프. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> Coir rope <br><br>
+				<br> 야자 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Commercially manufactured manila ropes over 2 inches in circumference and complying with the specification of the British Standards Institution are identified as follows: Grade I, 'Special', one black rogue's yarn in three strands; Grade II, 'Standard', one black rogue's yarn in two strands; Grade III, 'Merchant', one black rogue's yarn in one strand. <br><br>
+				<br> 둘레가 2인치 이상이고 British Standards Institution의 사양을 준수하는 상업적으로 제조된 마닐라 로프는 다음과 같이 식별됩니다. 등급 II, '표준', 두 가닥으로 된 검은 도적의 털실 1개; 3등급, '상인', 검은 도적의 털실 한 가닥. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> Commercially manufactured manila ropes over 2 inches in circumference and complying with the specification of the British Standards Institution <br><br>
+				<br> 상업적으로 제조된 마닐라 로프 둘레가 2인치 이상이고 영국 표준 기관의 사양을 준수합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Construction and characteristics of man-made fibre cordage. <br><br>
+				<br> 인조섬유끈의 구조와 특성. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> man-made fibre cordage <br><br>
+				<br> 인조 섬유 끈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Construction and characteristics of wire rope. <br><br>
+				<br> 와이어로프의 구조와 특성. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> wire rope <br><br>
+				<br> 와이어 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Construction and types. <br><br>
+				<br> 건설 및 유형. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> Construction <br><br>
+				<br> 건설 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Direction of the lay and description. <br><br>
+				<br> 레이 및 설명의 방향. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> the lay <br><br>
+				<br> 평신도 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Four-stranded (rot-proofed manila or sisal) rope, laid up round a heart or centre made of the same material, is known as shroud-laid rope. <br><br>
+				<br> 4가닥(부패 방지 마닐라 또는 사이잘) 로프는 동일한 재료로 만든 심장 또는 중심 주위에 포개어 슈라우드 레이드 로프로 알려져 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> Four-stranded (rot-proofed manila or sisal) rope <br><br>
+				<br> 네 가닥(부패 방지 마닐라 또는 사이잘) 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Furthermore, cable-laid rope, being more solid in construction, is more resistant to chafe and does not absorb water so readily as hawser-laid rope. <br><br>
+				<br> 더욱이, 구조상 더 견고한 케이블 레이드 로프는 쓸림에 더 강하고 호저 레이드 로프만큼 쉽게 물을 흡수하지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> cable-laid rope <br><br>
+				<br> 케이블 레이드 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> General characteristics. <br><br>
+				<br> 일반적 특성. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> General characteristics. <br><br>
+				<br> 일반적 특성. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> HANDLING BOATS IN SURF. <br><br>
+				<br> 서핑에서 보트 취급. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> BOATS <br><br>
+				<br> 보트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hammock lashing. <br><br>
+				<br> 해먹 채찍질. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> Hammock lashing <br><br>
+				<br> 해먹 래싱 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Handling hawsers. <br><br>
+				<br> 호저 다루기. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> hawsers <br><br>
+				<br> 뱃사공 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Handling of man-made fibre cordage. <br><br>
+				<br> 인조 섬유 밧줄의 취급. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> man-made fibre cordage <br><br>
+				<br> 인조 섬유 끈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Handling of vegetable fibre cordage. <br><br>
+				<br> 식물성 섬유 밧줄 취급. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> vegetable fibre cordage <br><br>
+				<br> 식물성 섬유 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Handling of wire rope. <br><br>
+				<br> 와이어로프 취급. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> wire rope <br><br>
+				<br> 와이어 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hemp is heavier than manila and the best quality is stronger than the manila supplied to the Royal Navy. <br><br>
+				<br> 대마는 마닐라보다 무겁고 최고의 품질은 영국 해군에 공급되는 마닐라보다 강합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> Hemp <br><br>
+				<br> 마 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hemp is very much softer than the other fibres described above. <br><br>
+				<br> 대마는 위에서 설명한 다른 섬유보다 훨씬 부드럽습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> Hemp <br><br>
+				<br> 마 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hemp rope. <br><br>
+				<br> 대마 로프. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> Hemp rope <br><br>
+				<br> 대마 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In a normal right-handed rope the fibres are spun right-handed to form yarns <br><br>
+				<br> 일반 오른손잡이용 로프에서 섬유는 오른 손잡이용으로 회전하여 실을 형성합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> a normal right-handed rope <br><br>
+				<br> 일반 오른손 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In particularly rough weather, the ship's side should be well fendered. <br><br>
+				<br> 특히 악천후 시에는 배의 측면을 잘 보호해야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> the ship's side <br><br>
+				<br> 배 쪽 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In some countries, and commercially in Great Britain, cordage is sometimes measured by its diameter. <br><br>
+				<br> 일부 국가와 영국에서는 상업적으로 끈을 직경으로 측정하는 경우가 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> cordage <br><br>
+				<br> 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In the Royal Navy cordage is described by reference to the circumference of the rope measured in inches and to the material from which it is made-for example, 4Â½-inch manila. <br><br>
+				<br> 왕립 해군에서 밧줄은 인치 단위로 측정된 밧줄의 둘레와 로프가 만들어지는 재료(예: 4½인치 마닐라)를 참조하여 설명됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> cordage <br><br>
+				<br> 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In the Royal Navy hawser-laid rope is normally laid up right-handed; that is the strands twist away from the eye in a right-handed spiral, as in fig. 6.2. <br><br>
+				<br> 왕립 해군에서 밧줄은 일반적으로 오른 손잡이로 눕혀집니다. 즉, 그림에서와 같이 오른쪽 나선형으로 가닥이 눈에서 멀어집니다. 6.2. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> hawser-laid rope <br><br>
+				<br> 굵은 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In the rope trade, right-hand lay is described as Z twist and left-hand lay as S twist, the letters indicating the direction of the lay when the rope is viewed from above. <br><br>
+				<br> 로프 무역에서 오른손 레이는 Z 트위스트, 왼손 레이는 S 트위스트로 기술되며, 문자는 로프를 위에서 보았을 때의 방향을 나타냅니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> right-hand lay <br><br>
+				<br> 오른손잡이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Indian Hemp is not reliable for cordage. <br><br>
+				<br> 인도 대마는 밧줄로 신뢰할 수 없습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> Indian Hemp <br><br>
+				<br> 인도 대마 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is grown in Kenya, Tanganyika, Haiti and Java and, when new and untreated, is hairy and of a pale straw colour. <br><br>
+				<br> 케냐, 탕가니카, 아이티, 자바에서 재배되며 새것으로 처리되지 않은 경우 털이 많고 옅은 밀짚색입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is impervious to saIt water, and so it is very suitable for slings, falls, berthing hawsers and tow- ropes. <br><br>
+				<br> 해수에 영향을 받지 않으므로 슬링, 폭포, 접안 호저 및 견인 로프에 매우 적합합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is marked with a red rogue's yarn in each strand. <br><br>
+				<br> 각 가닥에 빨간색 도적의 실이 표시되어 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is obviously important to keep her bilges clear of rocks or large stones. <br><br>
+				<br> 빌지에 바위나 큰 돌이 없도록 하는 것이 분명히 중요합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> her bilges <br><br>
+				<br> 그녀의 빌지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is somewhat weaker than three-stranded rope of a similar size, but is less liable to stretch. <br><br>
+				<br> 비슷한 크기의 세 가닥 로프보다 다소 약하지만 잘 늘어나지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is used for shrouds and stays of small craft and is supplied in coils of 120 fathoms. <br><br>
+				<br> 소형 선박의 슈라우드 및 스테이에 사용되며 120패덤의 코일로 공급됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is used in the Royal Navy only for small lines and small stuff. <br><br>
+				<br> 그것은 작은 줄과 작은 물건에만 왕립 해군에서 사용됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It is very hairy, and brown in colour. <br><br>
+				<br> 매우 털이 많고 갈색입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It should therefore be examined frequently for signs of deterioration. <br><br>
+				<br> 따라서 악화 징후가 있는지 자주 검사해야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Italian hemp is the strongest vegetable fibre used in rope making. <br><br>
+				<br> 이탈리아 대마는 로프 제조에 사용되는 가장 강력한 식물성 섬유입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Italian hemp <br><br>
+				<br> 이탈리아 대마 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Its wearing qualities are about the same as those of manila, but it is far more flexible. <br><br>
+				<br> 그것의 착용 품질은 마닐라와 거의 동일하지만 훨씬 더 유연합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> It <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Junk and rounding are supplied for lashings and other securings where the use of good rope is not necessary. <br><br>
+				<br> 정크 및 라운딩은 좋은 로프를 사용할 필요가 없는 래싱 및 기타 고정 장치에 제공됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> Junk and rounding <br><br>
+				<br> 정크 및 반올림 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Left-handed ropes, in which each component is made in exactly the opposite direction, are found in commercial practice; but the only left-handed cordage supplied to the Royal Navy - and that in very small quantities - is hammock Iashing and marline. <br><br>
+				<br> 각 구성 요소가 정확히 반대 방향으로 만들어진 왼손잡이 로프는 상업적 관행에서 발견됩니다. 그러나 영국 해군에 공급되는 유일한 왼손잡이 끈은 매우 소량으로 해먹 Iashing과 marline입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> Left-handed ropes <br><br>
+				<br> 왼손잡이용 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> MATERIALS USED. <br><br>
+				<br> 사용된 재료. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> MATERIALS USED <br><br>
+				<br> 사용된 재료 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Man-made braided cordage is also used where flexibility, strength and durability are needed, such as in safety nets of carriers and in signal halyards. <br><br>
+				<br> 인조 꼰 끈은 캐리어의 안전망, 신호장 등 유연성, 강도, 내구성이 필요한 곳에도 사용된다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> Man-made braided cordage <br><br>
+				<br> 인공 꼰 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Manila cable-laid rope is supplied in coils of 100 fathoms. <br><br>
+				<br> 마닐라 케이블 레이드 로프는 100패덤의 코일로 공급됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Manila cable-laid rope <br><br>
+				<br> 마닐라 케이블 레이드 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Manila hawser-laid rope is supplied to the Royal Navy in coils of 120 fathoms, and it is marked with one red rogue's yarn in each of two strands. <br><br>
+				<br> 마닐라 밧줄은 120패덤 코일 형태로 왕립 해군에 공급되며, 두 가닥 각각에 붉은 도적의 털실이 하나씩 표시되어 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> Manila hawser-laid rope <br><br>
+				<br> 마닐라 굵은 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Manila rope. <br><br>
+				<br> 마닐라 로프. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> Manila rope <br><br>
+				<br> 마닐라 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> New Zealand and St. Helena hemps are not true hemps like Italian, but produce hard fibres similar to those of sisal. <br><br>
+				<br> 뉴질랜드와 세인트헬레나 대마는 이탈리아와 같은 진정한 대마는 아니지만 사이잘삼과 유사한 단단한 섬유를 생산합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> New Zealand and St. Helena hemps <br><br>
+				<br> 뉴질랜드 및 세인트 헬레나 대마 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> New and untreated hemp rope is hard, smooth, pale grey in colour and of a lighter shade than manila but darker than sisal. <br><br>
+				<br> 처리되지 않은 새 대마 로프는 단단하고 매끄럽고 옅은 회색이며 마닐라보다 밝은 색조이지만 사이 잘삼보다 어둡습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> New and untreated hemp rope <br><br>
+				<br> 새롭고 가공되지 않은 대마 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> New sisal rope is as strong as a second-grade manila, but it is less flexible, durable and resistant to wear and weather. <br><br>
+				<br> 새로운 사이잘 로프는 2급 마닐라만큼 강하지만 유연성과 내구성이 떨어지고 내마모성과 내후성이 떨어집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> New sisal rope <br><br>
+				<br> 새로운 사이 잘삼 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Next, a certain number of yarns are twisted together to form strands which, at the Admiralty Ropery, Chatham, are usually 150 fathoms in length when completed. <br><br>
+				<br> 다음으로 일정 수의 실을 함께 꼬아서 가닥을 형성합니다. 채텀의 Admiralty Ropery에서는 완료 시 길이가 보통 150패덤이 됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> a certain number of yarns <br><br>
+				<br> 일정한 수의 실 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> On no account must stage lashing be used for paint ship stages. <br><br>
+				<br> 도색 선박 단계에는 어떠한 경우에도 단계 래싱을 사용해서는 안 됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> stage lashing <br><br>
+				<br> 무대 매질 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> One must learn to interpret these characteristics. <br><br>
+				<br> 이러한 특성을 해석하는 방법을 배워야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> these characteristics <br><br>
+				<br> 이러한 특성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Rope under load will tend to twist in the opposite direction to that of its lay and thereby tend to unlay itself, but it should regain its normal form when slack. <br><br>
+				<br> 하중을 받는 로프는 놓인 방향과 반대 방향으로 꼬이는 경향이 있으므로 풀어지는 경향이 있지만 느슨해지면 정상적인 형태로 회복되어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> Rope under load <br><br>
+				<br> 하중을 받는 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Rope which is continually subjected to heat and damp - when in the tropics, for example - will lose its elasticity and strength sooner than rope used under normal conditions of temperature and humidity. <br><br>
+				<br> 지속적으로 열과 습기에 노출되는 로프(예: 열대 지방)는 정상적인 온도 및 습도 조건에서 사용되는 로프보다 더 빨리 탄력성과 강도를 잃습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Rope <br><br>
+				<br> 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Ropes are made from vegetable fibres each of which is only between two and four feet long, and the first process is to comb these fibres out in a long, even ribbon, as shown in an exaggerated form in fig. 6-1. <br><br>
+				<br> 로프는 각각 길이가 2~4피트에 불과한 식물성 섬유로 만들어지며, 첫 번째 공정은 그림에서 과장된 형태로 표시된 것처럼 이 섬유를 길고 고른 리본으로 빗질하는 것입니다. 6-1. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Ropes <br><br>
+				<br> 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Rot-proofing neither weakens the rope nor increases its weight, but makes it watertight to the extent that, when wet, it absorbs hardly any water and is nearly as light and as easily handled as when it is dry. <br><br>
+				<br> 썩음 방지 처리는 로프를 약화시키거나 무게를 증가시키지는 않지만 젖었을 때 물을 거의 흡수하지 않고 건조할 때와 거의 동일하게 가볍고 쉽게 취급할 수 있도록 방수 기능을 제공합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> Rot-proofing <br><br>
+				<br> 썩음 방지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Rot-proofing was discontinued in 1963, because rot-proofed cordage has deteriorated in hot and humid conditions. <br><br>
+				<br> 1963년에 부패 방지 밧줄이 덥고 습한 조건에서 열화되었기 때문에 부패 방지가 중단되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> Rot-proofing <br><br>
+				<br> 썩음 방지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sailors originally named the directions from the winds that they distinguished. <br><br>
+				<br> 선원들은 원래 그들이 구분하는 바람의 방향에 이름을 붙였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> the directions <br><br>
+				<br> 방향 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sisal hawser-laid rope is supplied to the Royal Navy in coils of 120 fathoms <br><br>
+				<br> 사이살삼 로프는 120패덤 코일 형태로 영국 해군에 공급됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> Sisal hawser-laid rope <br><br>
+				<br> 사이 잘삼 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sisal rope. <br><br>
+				<br> 사이 잘삼 로프. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> Sisal rope <br><br>
+				<br> 사이 잘삼 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> St. Helena and India. <br><br>
+				<br> 세인트 헬레나와 인도. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> St. Helena and India. <br><br>
+				<br> 세인트 헬레나와 인도. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Such a rope is weaker than a hawser-laid rope of equal size, but by reason of its construction it is more elastic and is therefore used where elasticity is the chief requirement, as in towing. <br><br>
+				<br> 이러한 로프는 동일한 크기의 굵은 로프보다 약하지만 구조상 더 탄력적이므로 견인과 같이 탄성이 주요 요구 사항인 경우에 사용됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> Such a rope <br><br>
+				<br> 그런 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The crew then leave the boat and she is hoisted inboard. <br><br>
+				<br> 그런 다음 승무원은 배를 떠나 그녀를 배 안으로 끌어 올립니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> the boat <br><br>
+				<br> 보트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The direction of the lay can also be seen at a glance when the rope is viewed from above, as illustrated in fig. 6-5 (i). <br><br>
+				<br> 포설 방향도 그림과 같이 로프를 위에서 보면 한눈에 알 수 있다. 6-5 (i). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> The direction of the lay <br><br>
+				<br> 레이의 방향 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The fibre selected, therefore, depends on the use for which the rope is intended. <br><br>
+				<br> 따라서 선택한 섬유는 로프의 용도에 따라 다릅니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> The fibre selected <br><br>
+				<br> 선택한 섬유 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The harder the twist given to the strands in laying, the shorter will be the resultant rope-in practice, three strands of I50fathoms lay up into a rope about 120 fathoms in length - and a rope is said to be hard-laid or soft-laid. <br><br>
+				<br> 120패덤 길이의 로프에 150패덤 3가닥을 포설하면 로프가 단단하거나 부드럽다고 합니다. 놓다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> the twist <br><br>
+				<br> 트위스트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The length of a rope is measured in fathoms. <br><br>
+				<br> 로프의 길이는 패덤으로 측정됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> The length of a rope <br><br>
+				<br> 로프의 길이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The number and size of the yarns required to make each strand depends on the size of the rope it is intended to make. <br><br>
+				<br> 각 스트랜드를 만드는 데 필요한 실의 수와 크기는 만들려는 로프의 크기에 따라 다릅니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> the yarns <br><br>
+				<br> 원사 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The older and more worn the rope, the less elasticity it will possess and the weaker it will become. <br><br>
+				<br> 로프가 오래되고 마모될수록 탄력성이 떨어지고 약해집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> the rope <br><br>
+				<br> 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The quality of the finished rope depends upon the thorough cleaning of the fibre during this stripping process. <br><br>
+				<br> 완성된 로프의 품질은 이 스트리핑 과정에서 섬유를 철저히 청소하는 데 달려 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> the finished rope <br><br>
+				<br> 완성된 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The quality varies greatly with the soil in which it is grown, and for purposes of Admiralty specification it is graded for quality in the order Italian, European, New Zealand and St. <br><br>
+				<br> 품질은 재배되는 토양에 따라 크게 달라지며 해군성 사양의 목적에 따라 이탈리아, 유럽, 뉴질랜드, 세인트루이스 순으로 등급이 매겨집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> it <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The ribbons are then twisted up into yarns, and the twist given binds the fibres firmly together so that they hold by friction when the yarn is subjected to strain. <br><br>
+				<br> 그런 다음 리본을 꼬아 실로 만들고 주어진 꼬임으로 섬유가 단단히 결합되어 실이 변형될 때 마찰에 의해 고정됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> The ribbons <br><br>
+				<br> 리본 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The rope is flexible, durable, strong, and stands up well to wear and weather. <br><br>
+				<br> 로프는 유연하고 내구성이 강하며 강하고 마모와 날씨에 잘 견딥니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> The rope <br><br>
+				<br> 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The rope will stretch under load, but may be expected to regain its normal length when slack, provided that the load applied is well within the breaking strength of the rope; <br><br>
+				<br> 로프는 하중이 가해지면 늘어나지만, 적용된 하중이 로프의 파단 강도 범위 내에 있는 경우 느슨해지면 정상 길이로 돌아올 것으로 예상할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> The rope <br><br>
+				<br> 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The ropes supplied to the Royal Navy are made from various kinds of vegetable fibre which may differ in strength, weight, flexibility, hardness or resistance to wear, elasticity, resistance to weather, or behaviour when wet. <br><br>
+				<br> 영국 해군에 공급되는 로프는 강도, 무게, 유연성, 경도 또는 내마모성, 탄성, 내후성 또는 젖었을 때의 행동이 다를 수 있는 다양한 종류의 식물성 섬유로 만들어집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> The ropes <br><br>
+				<br> 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The shorter the length of the fibres the harder this twist must be to give the necessary strength to the yarn. <br><br>
+				<br> 섬유의 길이가 짧을수록 실에 필요한 강도를 부여하기 위해 이 꼬임이 더 어려워집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> the yarn <br><br>
+				<br> 실 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The size of a strand is that of the rope from which it was taken <br><br>
+				<br> 가닥의 크기는 그것이 취해진 로프의 크기입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> The size of a strand <br><br>
+				<br> 가닥의 크기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The sternsheetsman has to tend it. <br><br>
+				<br> sternsheetsman은 그것을 돌봐야합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> The sternsheetsman <br><br>
+				<br> 스턴시트맨 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The strands tend to unlay unless the end of the rope is whipped (i,e, firmly bound) with twine. <br><br>
+				<br> 로프의 끝이 노끈으로 채찍질(즉, 단단히 묶임)되지 않으면 가닥이 풀리는 경향이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> The strands <br><br>
+				<br> 가닥 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Then it is laid over the two foremost thwarts. <br><br>
+				<br> 그런 다음 맨 앞의 두 장애물 위에 놓입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> it <br><br>
+				<br> 그것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This is in relation to the direction in which the shore lies. <br><br>
+				<br> 이것은 해안이 있는 방향과 관련이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> the shore <br><br>
+				<br> 해안 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This is made from sisal laid up left-handed because when used for lashing up with a marline hitch it is less likely to unlay than a right- handed rope. <br><br>
+				<br> 이것은 마린 히치로 매는 데 사용할 때 오른손잡이용 로프보다 풀릴 가능성이 적기 때문에 왼손잡이용 사이잘삼으로 만들어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> This <br><br>
+				<br> 이것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This is made from tow, or from condemned cordage picked to pieces. <br><br>
+				<br> 이것은 견인 또는 조각난 비난 된 밧줄로 만들어집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> This <br><br>
+				<br> 이것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This process is called 'laying' and is always carried out in the opposite direction to that used in the previous stage of twisting the strands; it is, moreover, distinct from the simple spin or twist and is twofold, in that: <br><br>
+				<br> 이 과정을 '놓기'라고 하며 항상 가닥을 꼬는 이전 단계에서 사용된 것과 반대 방향으로 수행됩니다. 더욱이 그것은 단순한 스핀이나 트위스트와 구별되며 두 가지입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> This process <br><br>
+				<br> 이 과정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This process is known as 'spinning', and the yarns are said to be spun left- or right-handed, according to the direction of twist. <br><br>
+				<br> 이 과정을 '방적'이라고 하며 꼬임 방향에 따라 실을 좌회전 또는 우회전한다고 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> This process <br><br>
+				<br> 이 과정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This rope is made from the fibre of the abaca plant, which is grown extensively in the Philippine Islands and shipped from the port of Manila (whence its name), and also in Central America, Sumatra and Borneo. <br><br>
+				<br> 이 로프는 필리핀 제도에서 광범위하게 재배되고 마닐라 항구(이름에서 유래)와 중앙 아메리카, 수마트라, 보르네오에서 운송되는 아바카 식물의 섬유로 만들어집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> This rope <br><br>
+				<br> 이 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This rope is made from the fibres in the husks of coconuts grown in Ceylon. <br><br>
+				<br> 이 로프는 실론에서 자란 코코넛 껍질의 섬유로 만들어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> This rope <br><br>
+				<br> 이 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This rope is made from the fibres of the stems of the hemp plant which is grown in many parts of the world, but notably in Italy, Russia, China, U.S.A., New Zealand, St. <br><br>
+				<br> 이 로프는 세계 여러 곳에서 자라는 대마 식물의 줄기 섬유로 만들어졌지만 특히 이탈리아, 러시아, 중국, 미국, 뉴질랜드, 세인트루이스에서 재배됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> This rope <br><br>
+				<br> 이 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This rope is made from the leaves of the Agave sisalana plant, which is a member of the cactus family. <br><br>
+				<br> 이 밧줄은 선인장과에 속하는 Agave sisalana 식물의 잎으로 만들어집니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> This rope <br><br>
+				<br> 이 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This should be secured in the stern-sheets of the first boat. <br><br>
+				<br> 이것은 첫 번째 보트의 선미 시트에 고정되어야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> This <br><br>
+				<br> 이것 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This stage is known as 'twisting the strands', and again, the twist can be left- or right-handed. <br><br>
+				<br> 이 단계는 '가닥 꼬기'로 알려져 있으며 다시 꼬기는 왼손잡이 또는 오른손잡이가 될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> This stage <br><br>
+				<br> 이 단계 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Though it is not necessary to go deeply into the process of ropemaking, an elementary knowledge of its principles is desirable. <br><br>
+				<br> 로프 제작 과정에 깊이 들어갈 필요는 없지만 그 원리에 대한 기본적인 지식은 바람직합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> the process of ropemaking <br><br>
+				<br> 밧줄을 만드는 과정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Three hawser-laid ropes each of 120 fathoms, laid up together in the opposite direction to that of their own lay, will form a cable-laid rope, 100 fathoms in length. <br><br>
+				<br> 각각 120패덤의 3개의 굵은 로프를 자신의 로프와 반대 방향으로 함께 포개면 길이가 100패덤인 케이블 레이드 로프를 형성합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> Three hawser-laid ropes <br><br>
+				<br> 밧줄 세 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Three or four strands are now made up into a left- or right-handed rope. <br><br>
+				<br> 이제 3개 또는 4개의 가닥이 왼손 또는 오른손 로프로 구성됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> Three or four strands <br><br>
+				<br> 3개 또는 4개 가닥 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Three strands so laid up constitute a hawser-laid rope, which is the type of cordage most commonly used. <br><br>
+				<br> 이렇게 세 가닥을 엮어 만든 로프는 가장 일반적으로 사용되는 밧줄 유형입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> Three strands <br><br>
+				<br> 세 가닥 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> To assist in distinguishing the different types of cordage a coloured jute yarn known as a rogue's yarn is woven into the strands of each type of rope manufactured at the Admiralty Ropery. <br><br>
+				<br> 다양한 유형의 끈을 구별하는 데 도움이 되도록 Rogue's Yarn으로 알려진 유색 황마 원사가 Admiralty Ropery에서 제조된 각 유형의 로프 가닥으로 짜여져 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> the different types of cordage <br><br>
+				<br> 다양한 종류의 끈 <br><br>
+			</td>
+		</tr>
+	</table>

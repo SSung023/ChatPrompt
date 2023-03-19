@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It was followed by Denmark, Norway, Germany, France, Greece, Luxembourg, Spain, Britain, the United States, Iceland, Belgium, Italy, Portugal and Turkey. NATO decided at last year's Madrid summit to (invite) the three eastern European countries to start accession talks. Verb: invite <br><br>
+				<br> 덴마크, 노르웨이, 독일, 프랑스, 그리스, 룩셈부르크, 스페인, 영국, 미국, 아이슬란드, 벨기에, 이탈리아, 포르투갈, 터키가 그 뒤를 이었습니다. NATO는 작년 마드리드 정상회담에서 동유럽 3개국을 (초청) 가입 협상을 시작하기로 결정했습니다. 동사: 초대하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In Washington today, the Federal Aviation Administration (released) air traffic control tapes from the night the TWA Flight eight hundred went down. Verb: released <br><br>
+				<br> 오늘 워싱턴에서 연방 항공국(연방 항공국)은 TWA 800편이 추락한 밤의 항공 교통 관제 테이프를 공개했습니다. 동사: 풀다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> We will act again if we have evidence he is (rebuilding) his weapons of mass destruction capabilities, senior officials say. In a bit of television diplomacy, Iraq’s deputy foreign minister responded from Baghdad in less than one hour. Verb: rebuilding <br><br>
+				<br> 그가 대량살상무기 능력을 (재구축)하고 있다는 증거가 있다면 우리는 다시 행동할 것이라고 고위 관리들은 말했습니다. 약간의 텔레비전 외교에서 이라크 외무부 차관은 바그다드에서 한 시간도 채 안되어 응답했습니다. 동사: 재건하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ( 0735 GMT ) Friday, toppling a crowded building toward the embassy and a street packed with cars, trucks and buses. At least 75 people were killed and 1,643 wounded there, Red Cross and ambulance officials (said). Verb: said <br><br>
+				<br> ( 0735 GMT ) 금요일, 대사관과 자동차, 트럭, 버스로 가득 찬 거리를 향해 붐비는 건물을 무너뜨리고 있습니다. 그곳에서 최소 75명이 사망하고 1,643명이 부상했다고 적십자사와 구급차 관계자들이 말했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A decade ago, the military planning of Poland, Hungary and the Czech Republic was built around the possibility of a ground assault toward the west. As NATO allies, the goal (is) much smaller armies capable of meeting a variety of contingencies. Verb: is <br><br>
+				<br> 10년 전, 폴란드, 헝가리, 체코 공화국의 군사 계획은 서쪽을 향한 지상 공격의 가능성을 중심으로 구축되었습니다. NATO 동맹국으로서 목표는 다양한 우발 상황에 대처할 수 있는 훨씬 더 작은 군대입니다. 동사: is <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A spokeswoman for Crum amp Forster said employees were told early this week that numerous staff functions for the personal insurance lines were going to be centralized as a cost-cutting move. She said the move would result in a after-tax charge of less than $4 million to be (spread) over the next three quarters. Verb: spread <br><br>
+				<br> Crum amp Forster의 대변인은 이번 주 초 직원들에게 개인 보험 라인의 수많은 직원 기능이 비용 절감 조치로 중앙 집중화될 것이라는 말을 들었다고 말했습니다. 그녀는 이번 조치로 인해 향후 3분기 동안 400만 달러 미만의 세후 비용이 부과될 것이라고 말했습니다. 동사: 퍼지다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> American strategists are calculating, though, that the trade sanctions -- enforced by an effective though perhaps undeclared naval blockade -- will hold tightly enough to convince Iraq that it will lose in the long run by simply standing pat. At that point, rather than (go) through the humiliation of backing out of Kuwait, the Iraqis might well conclude that they need to lash out in some way to shake things up. Verb: go <br><br>
+				<br> 그러나 미국의 전략가들은 아마도 선언되지는 않았지만 효과적일 수도 있는 해상 봉쇄에 의해 시행되는 무역 제재가 이라크가 단순히 두드리는 것만으로 장기적으로 패배할 것이라고 확신할 수 있을 만큼 충분히 강력하게 유지될 것이라고 계산하고 있습니다. 그 시점에서 이라크인들은 쿠웨이트에서 물러나는 굴욕을 겪기보다는 상황을 뒤흔들기 위해 어떤 식으로든 공격을 가할 필요가 있다고 결론을 내릴 수 있습니다. 동사: 가다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Among the first three former Warsaw Pact countries to accede to NATO on Friday were also Poland and the Czech Republic. The ambassadors of Hungary, Poland and the Czech Republic issued a joint statement Friday saying the three countries' entry into NATO will (consolidate) Europe's security and help eliminate threats to it. Verb: consolidate <br><br>
+				<br> 금요일에 NATO에 처음으로 가입한 이전 바르샤바 조약 국가 3개국 중에는 폴란드와 체코도 있었습니다. 헝가리, 폴란드, 체코 대사는 금요일 3개국의 나토 가입이 유럽의 안보를 강화하고 위협을 제거하는 데 도움이 될 것이라고 공동 성명을 발표했습니다. 동사: 통합하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Another suspect is awaiting extradition from Britain. The FBI says Bin Laden (is) the leader of a terrorist organization known as Al-Aqeda, The Base. Verb: is <br><br>
+				<br> 또 다른 용의자는 영국에서 인도를 기다리고 있습니다. FBI는 Bin Laden이 The Base인 Al-Aqeda로 알려진 테러 조직의 지도자라고 밝혔습니다. 동사: is <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Arson and bombings at clinics have become so common that many no longer make the national news. It is bad enough that conservatives in Congress and in state legislatures are working to (dismantle) reproductive rights by banning certain procedures, such as so-called partial birth abortion, and by requiring waiting periods and parental consent before an abortion can be obtained. Verb: dismantle <br><br>
+				<br> 진료소에서의 방화와 폭격이 너무 흔해져서 많은 사람들이 더 이상 전국적인 뉴스를 만들지 않습니다. 의회와 주 의회의 보수주의자들이 소위 부분 출산 낙태와 같은 특정 절차를 금지하고 낙태를 하기 전에 대기 기간과 부모의 동의를 요구함으로써 생식권을 (해체)하기 위해 노력하고 있는 것은 충분히 나쁩니다. 동사: 해체하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> As NATO allies, the goal is much smaller armies capable of meeting a variety of contingencies. The State Department (says) the three new members enhance NATO's ability to fulfill its core mission of collective defense, respond to a range of security challenges and reduce the possibility of another major conflict in Europe of the kind that has claimed so many American lives. Verb: says <br><br>
+				<br> NATO 동맹국으로서 목표는 다양한 우발 상황에 대처할 수 있는 훨씬 더 작은 군대입니다. 국무부는 세 명의 새 회원이 집단 방어라는 핵심 임무를 수행하고 다양한 안보 도전에 대응하며 유럽에서 수많은 미국인의 생명을 앗아간 또 다른 주요 분쟁의 가능성을 줄이는 NATO의 능력을 향상시킨다고 말합니다. 동사: 말한다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> At least 82 were killed and more than 1,700 injured, officials said as dawn broke Saturday. Dozens of people were still missing, however, and the death toll was expected to rise, they (said). Verb: said <br><br>
+				<br> 적어도 82명이 사망하고 1,700명 이상이 부상했다고 관계자들이 토요일 새벽이 밝았을 때 말했습니다. 그러나 아직 수십 명이 실종돼 있어 사망자는 더 늘어날 것으로 예상됐다고 그들은 말했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Besides meeting the immediate physical and emotional needs of bombing victims, the United States will consider helping set up a disaster response center in Kenya, Satcher said. In addition to providing assistance using resources of the U.S. Department of Health and Human Services, Satcher (said) he will report to Congress on additional needs. Verb: said <br><br>
+				<br> 폭격 피해자들의 즉각적인 신체적, 정서적 필요를 충족시키는 것 외에도 미국은 케냐에 재난 대응 센터를 설립하는 것을 도울 것이라고 Satcher는 말했습니다. 미국 보건 복지부의 자원을 사용하여 지원을 제공하는 것 외에도 Satcher는 추가 요구 사항을 의회에 보고할 것이라고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bin Laden and Kopp are the 455th and 456th persons to be placed on the FBI's most wanted list, which began in 1950. Since then, 427 fugitives have been taken into custody or located, 133 of them as a result of citizen assistance, the FBI (said). Verb: said <br><br>
+				<br> 빈 라덴과 콥은 1950년부터 시작된 FBI의 긴급 수배자 명단에 오른 455번째와 456번째 인물이다. 그 이후로 427명의 도망자를 구금하거나 위치를 찾았고, 이 중 133명은 시민 지원의 결과라고 FBI는 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bushnell continued with her duties throughout the subsequent search and rescue at the blast scene, memorials for those slain, and the relocation to a temporary embassy. Kimotho, who was hospitalized with a head wound, (said) he and Bushnell had been talking about the slated visit of U.S. Commerce Secretary William Daley in September. Verb: said <br><br>
+				<br> Bushnell은 폭발 현장에서의 후속 수색 및 구조, 사망한 사람들을 위한 추모비, 임시 대사관으로 이전하는 동안 그녀의 임무를 계속했습니다. 머리에 상처를 입고 입원한 Kimotho는 그와 Bushnell이 9월에 예정된 William Daley 미국 상무 장관의 방문에 대해 이야기하고 있었다고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bushnell continued with her duties throughout the subsequent search and rescue at the blast scene, memorials for those slain, and the relocation to a temporary embassy. Kimotho, who was hospitalized with a head wound, said he and Bushnell had been (talking) about the slated visit of U.S. Commerce Secretary William Daley in September. Verb: talking <br><br>
+				<br> Bushnell은 폭발 현장에서의 후속 수색 및 구조, 사망한 사람들을 위한 추모비, 임시 대사관으로 이전하는 동안 그녀의 임무를 계속했습니다. 머리에 상처를 입고 입원한 Kimotho는 자신과 Bushnell이 9월로 예정된 William Daley 미국 상무 장관의 방문에 대해 (이야기하고) 있었다고 말했습니다. 동사: 이야기하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> But the decision by District Attorney Frank C. Clark to begin presenting evidence to a state grand jury suggests that he has amassed enough material to support a criminal indictment for homicide. We've gotten to the point where we know what we want to (introduce) before a grand jury, Clark said in a telephone interview Monday. Verb: introduce <br><br>
+				<br> 그러나 Frank C. Clark 지방 검사가 주 대배심에 증거를 제시하기로 한 결정은 그가 살인에 대한 형사 기소를 뒷받침하기에 충분한 자료를 축적했음을 시사합니다. 클라크는 월요일 전화 인터뷰에서 대배심 앞에서 우리가 무엇을 소개하고 싶은지 알게 된 시점에 이르렀다고 말했습니다. 동사: 소개하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> But they report a number of worried calls from prospective travelers, many of them alarmed by the possibility of more terrorist attacks in the region. People have been calling, and we've been reassuring them that we do n't see further problems, (said) Mary Mkimbo, a spokeswoman in New York for the Kenya Tourist Office. Verb: said <br><br>
+				<br> 그러나 그들은 잠재적인 여행자들로부터 많은 걱정스러운 전화를 받고 있으며, 그들 중 많은 사람들이 이 지역에서 더 많은 테러 공격의 가능성에 대해 경고하고 있습니다. 사람들은 전화를 걸었고 우리는 더 이상의 문제가 없다고 그들을 안심시켰습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Calling the mother of Elian Gonzalez an excellent girl, President Fidel Castro said Friday she had been practically kidnapped by the boyfriend who perished along with her on the boat wreck her 6-year-old son survived. Castro's remarks to a conference of economists were aimed at those who say that Elian should remain in the United States because his mother (sacrificed) his life to take her to freedom, a vision he called a cliche. Verb: sacrificed <br><br>
+				<br> Elian Gonzalez의 어머니를 훌륭한 소녀라고 부르는 Fidel Castro 대통령은 금요일 그녀가 6살 된 아들이 살아남은 보트 난파선에서 그녀와 함께 사망한 남자 친구에게 거의 납치되었다고 말했습니다. 경제학자 회의에서 카스트로의 발언은 엘리안이 어머니를 자유로 데려가기 위해 목숨을 바쳤기 때문에 엘리안이 미국에 남아 있어야 한다고 말하는 사람들을 겨냥한 것이었습니다. 동사: 희생하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Castro attended a rally Thursday by media workers at Havana's Palace of Conventions to demand Gonzalez's return. For weeks the communist government has (held) such rallies almost daily. Verb: held <br><br>
+				<br> 카스트로는 목요일 곤잘레스의 귀환을 요구하기 위해 아바나의 컨벤션 궁전에서 열린 미디어 노동자들의 집회에 참석했습니다. 몇 주 동안 공산주의 정부는 거의 매일 그러한 집회를 (개최)했습니다. 동사: 개최 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Dr. Barnett Slepian was killed in his kitchen by a sniper's bullet last fall. Investigators said Friday they found a rifle (buried) near his home in the Buffalo suburb of Amherst. Verb: buried <br><br>
+				<br> Barnett Slepian 박사는 지난 가을 부엌에서 저격수의 총탄에 맞아 사망했습니다. 수사관들은 금요일 그들이 Amherst의 Buffalo 교외에 있는 그의 집 근처에서 (매장된) 라이플을 발견했다고 말했습니다. 동사: 매장하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> During the time of the broadcast on Sunday, family members and Elian were outside the home of Lazaro Gonzalez and did not publicly comment after the show. Protesters, however, (dismissed) Juan Miguel's comments as either selfish or the words of Fidel Castro. Verb: dismissed <br><br>
+				<br> 일요일 방송 시간 동안 가족과 Elian은 Lazaro Gonzalez의 집 밖에 있었고 방송 후 공개적으로 언급하지 않았습니다. 그러나 시위대는 후안 미구엘의 발언을 이기적이거나 피델 카스트로의 발언이라고 (일축)했습니다. 동사: 기각 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Elian's relatives have cared for him since November, when he was found clinging to an inner tube in the Florida Straits. His mother and 10 other people (fleeing) Cuba drowned when their boat sank. Verb: fleeing <br><br>
+				<br> Elian의 친척들은 그가 플로리다 해협에서 내부 튜브에 매달린 채 발견된 11월부터 그를 돌봐 왔습니다. 그의 어머니와 10명의 다른 사람들(도망) 쿠바는 배가 침몰했을 때 익사했습니다. 동사: 도망치다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FBI agents, meanwhile, pushed ahead with their all-out investigation into the bombings. Contrary to other reports, the FBI and Kenyan police (said) Monday that a suspect who was returned from Pakistan had not admitted any role in the crimes or implicated anyone else after three days of questioning. Verb: said <br><br>
+				<br> 한편 FBI 요원들은 폭격에 대한 전면적인 조사를 추진했습니다. 다른 보도와 달리 FBI와 케냐 경찰은 월요일 파키스탄에서 돌아온 용의자가 3일 간의 심문 끝에 범죄에 어떤 역할도 인정하지 않았거나 다른 사람을 연루시키지 않았다고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FBI agents, meanwhile, pushed ahead with their all-out investigation into the bombings. Contrary to other reports, the FBI and Kenyan police said Monday that a suspect who was returned from Pakistan had not admitted any role in the crimes or (implicated) anyone else after three days of questioning. Verb: implicated <br><br>
+				<br> 한편 FBI 요원들은 폭격에 대한 전면적인 조사를 추진했습니다. 다른 보도와 달리 FBI와 케냐 경찰은 월요일 파키스탄에서 돌아온 용의자가 3일 간의 심문 끝에 범죄에 어떤 역할도 인정하지 않았으며 다른 사람도 (연루된) 사람이 없다고 밝혔습니다. 동사: 연루된 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Finally today, we learned that the space agency has finally taken a giant leap forward. Air Force Lieutenant Colonel Eileen Collins will be (named) commander of the Space Shuttle Columbia for a mission in December. Verb: named <br><br>
+				<br> 마침내 오늘 우리는 우주국이 드디어 거대한 도약을 했다는 사실을 알게 되었습니다. 미 공군 중령 에일린 콜린스(Eileen Collins)가 12월 임무를 위해 컬럼비아 우주왕복선의 사령관이 될 것입니다. 동사: 명명된 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Five Iraqis, whose names were not disclosed, also were deported, the newspaper said. It (gave) no reason for the expulsions and Tanzania's criminal investigation and immigration departments could not be reached for comment. Verb: gave <br><br>
+				<br> 이름이 공개되지 않은 이라크인 5명도 추방됐다고 신문은 전했다. 추방 이유가 없었고 탄자니아의 범죄 수사 및 이민 부서에 의견을 구할 수 없었습니다. 동사: 주다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> For e-commerce to flourish with full-blown end-to-end business transactions, strategic planning which incorporates both business and technology plans that are complementary is necessary for an organisation to see feasible returns on investment. Intranets, through the use of Internet technology, are positioned as a platform for companies to optimise, expand and (transform) new channels of business. Verb: transform <br><br>
+				<br> 완전한 종단 간 비즈니스 트랜잭션으로 전자 상거래가 번성하려면 조직이 실현 가능한 투자 수익을 보기 위해 보완적인 비즈니스 및 기술 계획을 모두 통합하는 전략 계획이 필요합니다. 인터넷 기술을 사용하는 인트라넷은 기업이 새로운 비즈니스 채널을 최적화, 확장 및 (변형)하는 플랫폼으로 자리 잡고 있습니다. 동사: 변형하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Good for Attorney General Janet Reno for the sensible opinion she rendered in the case of Elian Gonzalez. Some semblance of constitutional order was necessary after a Miami judge turned legal logic on its head in an effort to route to her family court his Florida relatives' appeal to (keep) the 6-year-old in the United States. Verb: keep <br><br>
+				<br> Elian Gonzalez의 경우에 현명한 의견을 제시한 Janet Reno 법무장관에게 좋습니다. 마이애미 판사가 미국에 있는 6세 아이에 대한 플로리다 친척의 항소를 그녀의 가정 법원으로 전달하기 위해 법적 논리를 뒤집은 후에 약간의 헌법적 질서가 필요했습니다. 동사: 지키다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> He also urged Albright to tell Americans that Tanzania is safe and they should continue visiting and investing in the country. Albright told the foreign minister the American people share in the profound sorrow of the Tanzanians and (said) the United States will maintain its presence throughout Africa and throughout the world. Verb: said <br><br>
+				<br> 그는 또한 Albright에게 미국인들에게 탄자니아는 안전하며 탄자니아를 계속 방문하고 투자해야 한다고 말하라고 촉구했습니다. 올브라이트는 외무장관에게 미국 국민은 탄자니아인의 깊은 슬픔을 공유하고 있으며 미국은 아프리카 전역과 전 세계에 주둔을 유지할 것이라고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> He cannot decide for himself. The one that (decides) for him is me, his father. Verb: decides <br><br>
+				<br> 그는 스스로 결정할 수 없습니다. 그를 위해 (결정하는) 사람은 그의 아버지인 나다. 동사: 결정하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> He has been staying with relatives in Miami who do not want to send him back to Cuba. The U.S. Immigration and Naturalization Service had ruled that Elian must be returned to his father, Juan Miguel Gonzalez, and (set) Friday as the deadline for his repatriation to Cuba. Verb: set <br><br>
+				<br> 그는 자신을 쿠바로 돌려보내고 싶어하지 않는 마이애미의 친척들과 함께 지내고 있습니다. 미국 이민귀화국은 엘리안이 그의 아버지인 후안 미구엘 곤잘레스에게 돌아가야 한다고 판결했고 금요일을 쿠바로 송환 마감일로 정했습니다. 동사: 설정하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> He placed the blame on Lazaro Rafael Munero, who apparently organized the ill-fated journey on which Elian's mother Elisabeth Brotons and 10 other people -- including Munero -- died. Castro called Munero -- who reportedly drove a taxi and engaged in unofficial businesses in the Cuban city of Cardenas -- a ruffian on whom Cuban police had (amassed) 100 pages of reports. Verb: amassed <br><br>
+				<br> 그는 Elian의 어머니 Elisabeth Brotons와 Munero를 포함한 10명의 다른 사람들이 사망한 불운한 여정을 조직한 것으로 보이는 Lazaro Rafael Munero를 비난했습니다. 카스트로는 택시를 운전하고 쿠바의 카르데나스 시에서 비공식 사업에 종사하는 것으로 알려진 무네로를 쿠바 경찰이 100페이지 분량의 보고서를 (집합)한 악한이라고 불렀습니다. 동사: 모였다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> He wanted to reunite with his son -- but not in Cuba, Cid said. She said she and other family members had (spoken) to Elian's father by phone both before and after the mother perished. Verb: spoken <br><br>
+				<br> 그는 아들과 재회하고 싶었지만 쿠바에서는 아니었다고 Cid는 말했습니다. 그녀는 어머니가 세상을 떠나기 전과 후에 그녀와 다른 가족들이 엘리안의 아버지와 전화 통화를 했다고 말했습니다. 동사: 말하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> However, the Cuban exile community called for more civil disobedience. About 100 protesters (marched) in front of the federal building in Orlando on Friday night, waving Cuban and American flags and chanting Cuba libre and long live the USA. Verb: marched <br><br>
+				<br> 그러나 쿠바 망명 공동체는 더 많은 시민 불복종을 요구했습니다. 금요일 밤 약 100명의 시위대(행진)가 올랜도의 연방 건물 앞에서 쿠바와 미국 국기를 흔들며 쿠바 자유와 미국 만세를 외쳤습니다. 동사: 행진하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> I formally object to the legal moves made or being made by those who are arbitrarily retaining Elian, Gonzalez said in the letter, dated Monday. In the letter, Gonzalez (said) he does not recognize the jurisdiction of the U.S. court system, which is weighing an attempt by Elian's Miami relatives to block his return to Cuba. Verb: said <br><br>
+				<br> Gonzalez는 월요일 날짜의 편지에서 Elian을 독단적으로 유지하는 사람들이 행한 법적 조치에 공식적으로 반대한다고 말했습니다. 편지에서 Gonzalez는 Elian의 마이애미 친척이 쿠바로의 귀국을 막으려는 시도를 저울질하는 미국 법원 시스템의 관할권을 인정하지 않는다고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In Havana, Elian's father joined President Fidel Castro on Thursday in a packed auditorium in what has become a daily public rally to press for the boy's return. Speaker after speaker (denounced) the United States and extolled the virtues of Cuba's communist revolution. Verb: denounced <br><br>
+				<br> 아바나에서 엘리안의 아버지는 목요일 피델 카스트로 대통령과 함께 꽉 찬 강당에서 소년의 귀환을 촉구하는 매일 공개 집회가 되었습니다. 연사들은 연이어 미국을 (비난하고) 쿠바 공산주의 혁명의 미덕을 극찬했습니다. 동사: 비난하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In addition to providing assistance using resources of the U.S. Department of Health and Human Services, Satcher said he will report to Congress on additional needs. U.S. President Bill Clinton has (requested) dlrs 50 million in emergency assistance funding from Congress for Tanzania and Kenya. Verb: requested <br><br>
+				<br> Satcher는 미국 보건 복지부의 자원을 사용하여 지원을 제공하는 것 외에도 추가 요구 사항에 대해 의회에 보고할 것이라고 말했습니다. 빌 클린턴 미국 대통령은 탄자니아와 케냐에 대한 의회의 긴급 지원 자금으로 5천만 달러를 요청했습니다. 동사: 요청하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> It was definitely a bomb, said a U.S. Embassy official in Nairobi, who refused to identify himself. You can see a huge crater behind the building, and a bomb went off at the embassy in Tanzania at the same time, he (said). Verb: said <br><br>
+				<br> 자신의 신원을 밝히기를 거부한 나이로비 주재 미국 대사관 관계자는 분명히 폭탄이었다고 말했습니다. 건물 뒤에 거대한 분화구가 보이는데, 동시에 탄자니아 주재 대사관에도 폭탄이 터졌다”고 말했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Kopp's 1987 Chevrolet Cavalier was discovered last month at Newark, N.J., International Airport, the FBI said. The car had been in the long-term lot for about two weeks, (said) Greg Trevor, a spokesman for the Port Authority of New York and New Jersey. Verb: said <br><br>
+				<br> 콥의 1987년식 쉐보레 카발리에가 지난달 뉴저지주 뉴어크 국제공항에서 발견됐다고 FBI가 밝혔다. 뉴욕 뉴저지 항만청 대변인 Greg Trevor는 차량이 약 2주 동안 장기 주차장에 있었다고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Kopp's stepmother, who married Kopp's father when Kopp was in his 30s, said Thursday from her home in Irving, Texas : I would like to see him come forward and clear his name if he's not guilty, and if he's guilty, to contact a priest and make his amends with society, face what he did. Kopp (is) now the second anti-abortion activist being sought by the FBI as a suspect in a fatal attack. Verb: is <br><br>
+				<br> 콥이 30대일 때 콥의 아버지와 결혼한 계모는 목요일 텍사스 어빙에 있는 그녀의 집에서 말했습니다. 사회와 화해하고 그가 한 일을 직시하십시오. Kopp은 이제 FBI가 치명적인 공격의 용의자로 찾고 있는 두 번째 낙태 반대 활동가입니다. 동사: is <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Last week, FBI Director Louis Freeh, on an official visit to Mexico, asked Mexican authorities to join the hunt for Kopp, federal officials have said. They believe Kopp was driven to Mexico by a female friend after the shooting, and have a trail of her credit card receipts leading to Mexico, the federal officials have (said). Verb: said <br><br>
+				<br> 지난 주 멕시코를 공식 방문한 루이스 프리 FBI 국장은 멕시코 당국에 콥 수색에 동참할 것을 요청했다고 연방 관리들이 말했습니다. 그들은 Kopp이 총격 사건 이후 여자 친구에 의해 멕시코로 차를 몰고 갔고 멕시코로 이어지는 그녀의 신용 카드 영수증의 흔적을 가지고 있다고 연방 관리들이 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> MALAYSIA's aggressive move into the information age could not come in a more opportune time. With the convergence of communications and information technologies ( IT ) coupled with the coming of age for the Internet and its related technologies, the stage is set for Malaysians to seize the chance to (transform) into a knowledge society and become worthy opponents / players in the global market space. Verb: transform <br><br>
+				<br> MALAYSIA의 정보화 시대로의 공격적인 움직임은 이보다 더 적절한 시기에 올 수 없습니다. 인터넷 및 관련 기술의 시대가 도래함에 따라 통신 및 정보 기술(IT)의 융합으로 말레이시아인들이 지식 사회로 (변형) 기회를 포착하고 글로벌 시장 공간. 동사: 변형하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Meanwhile, the U.S. hopes, economic sanctions and an international arms embargo will remain in effect until Iraq pays war reparations to Kuwait to cover war damages. That would undermine any chances of (rebuilding) either Iraq or its armed forces in short order as long as Saddam Hussein remains in power. Verb: rebuilding <br><br>
+				<br> 한편 미국은 이라크가 전쟁 피해를 충당하기 위해 쿠웨이트에 전쟁 배상금을 지불할 때까지 경제 제재와 국제 무기 금수 조치가 유효하기를 희망합니다. 그것은 사담 후세인이 집권하는 한 단기간에 이라크나 그 군대를 (재건) 가능성을 약화시킬 것입니다. 동사: 재건하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Media reports in Tanzania have said the ingredients for the bombs had originated in the Middle East and were transferred by sea via the Comoro Islands to Tanzania. Reports in Kenya (said) the components of the bomb that exploded in Nairobi were transported by road from Tanzania to Kenya. Verb: said <br><br>
+				<br> 탄자니아의 언론 보도에 따르면 폭탄의 재료는 중동에서 유래했으며 바다를 통해 코모로 제도를 거쳐 탄자니아로 옮겨졌습니다. 케냐의 보도에 따르면 나이로비에서 폭발한 폭탄의 구성 요소는 탄자니아에서 케냐로 육로로 운송되었습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> NAIROBI, Kenya ( AP ) _ Suspected bombs exploded outside the U.S. embassies in the Kenyan and Tanzanian capitals Friday, (killing) dozens of people, witnesses said. Verb: killing <br><br>
+				<br> 케냐 나이로비(AP) _ 금요일 케냐와 탄자니아 수도의 미국 대사관 밖에서 의심되는 폭탄이 폭발해 수십 명이 사망했다고 목격자들이 말했다. 동사: 죽이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> NAIROBI, Kenya ( AP ) _ Suspected bombs exploded outside the U.S. embassies in the Kenyan and Tanzanian capitals Friday, killing dozens of people, witnesses (said). Verb: said <br><br>
+				<br> 케냐 나이로비(AP) _ 금요일 케냐와 탄자니아 수도의 미국 대사관 밖에서 의심되는 폭탄이 폭발해 수십 명이 사망했다고 목격자들이 말했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> No enforcement action was ever announced by the INS, he said. Alarcon, former Cuban ambassador to the United Nations, dismissed suggestions by some U.S. politicians and Elian's relatives in Miami that Elian's father travel from Cardenas, Cuba, to Miami to (pick) up the boy. Verb: pick <br><br>
+				<br> INS에 의해 집행 조치가 발표된 적이 없다고 그는 말했습니다. 전 UN 주재 쿠바 대사인 Alarcon은 Elian의 아버지가 소년을 (데리러) 쿠바의 Cardenas에서 마이애미로 여행한다는 일부 미국 정치인과 Elian의 마이애미 친척들의 제안을 일축했습니다. 동사: 고르다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Not even the Pentagon can handle these kids, he joked. We are hoping that they (get) their visas. Verb: get <br><br>
+				<br> 펜타곤도 이 아이들을 감당할 수 없다”고 농담했다. 우리는 그들이 비자를 받기를 바라고 있습니다. 동사: 얻다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Nothing is certain concerning his return to Cuba, said a government communique, read Wednesday night at a pro-Elian rally attended by President Fidel Castro. Cuban exiles in Miami will now proceed with all their resources to impede or (delay) the decision by the Immigration and Naturalization Service. Verb: delay <br><br>
+				<br> 수요일 밤 피델 카스트로 대통령이 참석한 친 엘리안 집회에서 읽은 정부 성명서는 그의 쿠바 귀국에 대해 확실한 것은 없다고 말했습니다. 마이애미에 있는 쿠바 망명자들은 이제 이민귀화국의 결정을 방해하거나 지연시키기 위해 모든 자원을 동원할 것입니다. 동사: 지연 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Officials in the two African countries are counting on substantial compensation along with assurances of aid for the governments, whose key tourism industries were dealt a blow by the bombings. But Tanzanian Foreign Minister Jakaya Kikwete, speaking at a joint news conference with Albright, (said) there are no ill feelings in Tanzania toward Americans because of their handling of the rescue, as there are among some Kenyans. Verb: said <br><br>
+				<br> 두 아프리카 국가의 관리들은 주요 관광 산업이 폭격으로 타격을 입은 정부에 대한 원조 보장과 함께 상당한 보상을 기대하고 있습니다. 그러나 Jakaya Kikwete 탄자니아 외무장관은 Albright와의 공동 기자 회견에서 (일부 케냐인들처럼) 미국인들이 구출을 처리했기 때문에 탄자니아에서는 나쁜 감정이 없다고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> On Aug. 7, Bushnell, Trade Minister Joseph Kimotho and others had just ended a news conference in a building adjacent to the embassy. They were talking when the bomb went off, (killing) 247 people and wounding more than 5,000 others. Verb: killing <br><br>
+				<br> 8월 7일, Bushnell, Joseph Kimotho 통상장관 등은 대사관 옆 건물에서 막 기자회견을 마쳤습니다. 그들은 폭탄이 터졌을 때 247명을 (죽이고) 5,000명 이상이 다쳤을 때 이야기를 나누었습니다. 동사: 죽이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> On Sunday, Tanzanian police and FBI agents said they had made extraordinary discoveries, having determined what the Dar es Salaam bomb was made of and who carried it to the embassy. They refused to (provide) details. Verb: provide <br><br>
+				<br> 일요일 탄자니아 경찰과 FBI 요원들은 다르에스살람 폭탄이 무엇으로 만들어졌고 누가 그것을 대사관으로 가져갔는지 알아내면서 놀라운 발견을 했다고 말했습니다. 그들은 세부 사항을 제공하기를 거부했습니다. 동사: 제공하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Only the government of the United States can decide if it prefers this variant, continued the letter, which Castro read on a state television station broadcast. Gonzalez for months refused requests by Elian's Miami relatives to go to the United States to (claim) the boy. Verb: claim <br><br>
+				<br> 미국 정부만이 이 변형을 선호하는지 결정할 수 있다고 카스트로는 국영 텔레비전 방송국 방송에서 읽은 편지를 계속했습니다. Gonzalez는 Elian의 마이애미 친척이 소년을 (청구)하기 위해 미국으로 가라는 요청을 몇 달 동안 거부했습니다. 동사: 주장하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Philippine President Joseph Estrada on Tuesday condemned the bombings of the U.S. embassies in Kenya and Tanzania and offered condolences to the victims and their families. We extend our heartfelt sympathies to the victims of these outrages and to their families in Kenya, Tanzania and the United States, Estrada (said) in a statement. Verb: said <br><br>
+				<br> 조셉 에스트라다 필리핀 대통령은 화요일 케냐와 탄자니아 주재 미국 대사관 폭탄 테러를 규탄하고 희생자들과 그 가족들에게 애도를 표했습니다. 우리는 이러한 분노의 희생자들과 케냐, 탄자니아, 미국에 있는 그들의 가족들에게 진심 어린 위로를 전합니다. Estrada는 성명을 통해 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Police kept watch outside and about 25 undercover police were scattered throughout the crowd. Security (is) tight, said Marilynn Buckham, of Buffalo Gyn Womanservices, a sponsor of the ceremony. Verb: is <br><br>
+				<br> 경찰은 밖에서 감시를 계속했고 약 25명의 잠복 경찰이 군중 곳곳에 흩어져 있었습니다. 행사 후원사인 Buffalo Gyn Womanservices의 Marilynn Buckham은 보안이 철저하다고 말했습니다. 동사: is <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Preliminary DNA tests link a missing anti-abortion activist to a strand of hair found near where a sniper shot and killed a Buffalo, N.Y., doctor who performed abortions, a law enforcement official said Friday. The first round of DNA tests on the hair at the FBI Laboratory here established a high probability it came from the same person as a hair found in a New Jersey home where James C. Kopp, a 44-year-old anti-abortion protester, lived last year, the official (said). Verb: said <br><br>
+				<br> 예비 DNA 검사는 실종된 낙태 반대 활동가를 저격수가 낙태 시술을 한 뉴욕주 버팔로 의사를 사살한 곳 근처에서 발견된 머리카락과 관련이 있다고 법 집행관이 금요일 말했습니다. 이곳 FBI 연구소의 머리카락에 대한 1차 DNA 검사는 44세의 낙태 반대 시위자인 제임스 C. 콥이 뉴저지의 한 집에서 발견된 머리카락과 동일한 사람에게서 나왔을 가능성이 높다는 것을 입증했습니다. 작년에 살았다고 관계자는 말했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Rep. Dan Burton, R-Ind., said he subpoenaed 6-year-old Elian to testify before the Committee on Government Reform on Feb. 10, so he remains in the country while the courts consider his case. About 100 supporters (cheered) wildly as Elian -- holding the subpoena in front of his face while being held aloft by a relative -- appeared outside the house where he has been staying with relatives. Verb: cheered <br><br>
+				<br> R-Ind.의 Dan Burton 하원의원은 2월 10일 정부 개혁 위원회에서 증언하기 위해 6세 Elian을 소환했으며 법원이 그의 사건을 심의하는 동안 그는 미국에 남아 있다고 말했습니다. 소환장을 얼굴 앞에 들고 있는 엘리안이 친지의 손에 들어 올려진 채 그의 집 밖에 나타나자 100여명의 지지자들(환호)이 열광했다. 동사: 환호하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Retaliating 13 days after the deadly embassy bombings in East Africa, U.S. forces Thursday launched cruise missile strikes against alleged terrorist camps in Afghanistan and a chemical plant in Sudan. Countries have the right to defend themselves and their citizens against terrorism and New Zealand appreciates and understands the steps the United States has taken, McKinnon (said). Verb: said <br><br>
+				<br> 동아프리카 주재 대사관 폭탄 테러가 발생한 지 13일 만에 미군은 목요일 아프가니스탄의 테러리스트 캠프와 수단의 화학 공장에 대한 순항 미사일 공격을 시작했습니다. 국가는 테러로부터 자신과 시민을 방어할 권리가 있으며 뉴질랜드는 미국이 취한 조치를 높이 평가하고 이해한다고 McKinnon은 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Saddam said he sought to turn the gulf into a lake of peace free of foreign fleets and forces that harbor ill intentions against us. In other developments : The Pentagon said that Defense Secretary Dick Cheney is (considering) urging Bush to order a national callup of armed forces reserves for active duty because of the drain on units sending soldiers abroad. Verb: considering <br><br>
+				<br> 사담은 만을 우리에 대한 나쁜 의도를 품고 있는 외국 함대와 세력이 없는 평화의 호수로 바꾸려고 노력했다고 말했습니다. 다른 전개 상황: 펜타곤은 딕 체니 국방장관이 해외에 군인을 파견하는 부대의 고갈 때문에 부시에게 현역 예비군 소집 명령을 촉구할 것을 (고려하고) 촉구하고 있다고 말했습니다. 동사: 고려하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sinn Fein chairman Mitchell McLaughlin says the party will challenge the move by legal means if they have to. We're going to (fight) it. Verb: fight <br><br>
+				<br> Sinn Fein의 Mitchell McLaughlin 회장은 정당이 필요하다면 법적 수단으로 이의를 제기할 것이라고 말했습니다. 우리는 (싸울) 것입니다. 동사: 싸우다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Slepian was killed by a single gunshot fired from a wooded area through a window of his home. Kopp purports to be a devout Roman Catholic, and the majority of jobs he has (held) over the past 20 years have been related to the anti-abortion movement, the U.S. Justice Department said last year. Verb: held <br><br>
+				<br> Slepian은 그의 집 창문을 통해 숲이 우거진 지역에서 발사된 한 발의 총성에 의해 사망했습니다. 콥은 독실한 로마 카톨릭 신자라고 자처하며 지난 20년 동안 그가 맡은 직업의 대부분은 낙태 반대 운동과 관련이 있다고 지난해 미 법무부가 밝혔다. 동사: 개최 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Slepian was killed by a single gunshot fired from a wooded area through a window of his home. Prior to the Slepian's shooting, Kopp had traveled the country and world, authorities (said). Verb: said <br><br>
+				<br> Slepian은 그의 집 창문을 통해 숲이 우거진 지역에서 발사된 한 발의 총성에 의해 사망했습니다. Slepian의 총격 전에 Kopp는 국가와 세계를 여행했다고 당국은 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> State Department international security director Dave Carpenter said that placing Bin Laden on the most-wanted list underscores the unwavering commitment by the United States to fight terrorism. The FBI continues to receive threats from individuals and organizations with ties to Bin Laden, Freeh (said). Verb: said <br><br>
+				<br> 데이브 카펜터 국무부 국제안보국장은 빈 라덴을 지명 수배 명단에 올린 것은 미국이 테러리즘과 싸우겠다는 확고한 의지를 강조한다고 말했습니다. FBI는 Bin Laden, Freeh와 관련된 개인 및 조직으로부터 계속해서 위협을 받고 있습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Steven Goldstein, the campaign spokesman for Spitzer, was less reticent. Eliot is (going) to make a huge priority of this, Goldstein said. Verb: going <br><br>
+				<br> Spitzer의 캠페인 대변인인 Steven Goldstein은 덜 과묵했습니다. 골드스타인은 엘리엇이 이것에 큰 우선순위를 둘 것이라고 말했다. 동사: 가다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Support for the bill has been waning. Reno has already met with Lazaro Gonzalez's lawyer and a Catholic nun from Miami who oppose his return to Cuba, as well as with Elian's two grandmothers from Cuba, who (want) him returned. Verb: want <br><br>
+				<br> 법안에 대한 지지도가 약해지고 있습니다. Reno는 이미 Lazaro Gonzalez의 변호사와 그가 쿠바로 돌아가는 것을 반대하는 마이애미 출신의 가톨릭 수녀, 그리고 그가 돌아오기를 (원하는) 쿠바에서 온 Elian의 두 할머니를 만났습니다. 동사: 원하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Suspected bombs exploded outside the U.S. embassies in the Kenyan and Tanzanian capitals Friday, killing dozens of people, witnesses said. The American ambassador to Kenya was among hundreds injured, a local TV (said). Verb: said <br><br>
+				<br> 금요일 케냐와 탄자니아 수도의 미국 대사관 밖에서 의심되는 폭탄이 폭발하여 수십 명이 사망했다고 목격자들이 말했습니다. 수백 명의 부상자 중에는 케냐 주재 미국 대사도 포함돼 있다고 현지 TV는 전했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Tanzania expelled five Iraqis and a Libyan who were questioned by the FBI and police in connection of the bombing of two U.S. embassies in East Africa last month, a newspaper reported Friday. Immigration officials escorted the Libyan, Atif Issa Enhamed, to the airport and put him on a flight to an undisclosed Middle East destination, (said) Uhuru, or Freedom, a Swahili newspaper owned by the ruling Chama Cha Mapinduzi party. Verb: said <br><br>
+				<br> 탄자니아가 지난달 동아프리카 주재 미국 대사관 2곳을 폭파한 사건과 관련해 FBI와 경찰의 심문을 받은 이라크인 5명과 리비아인 1명을 추방했다고 한 신문이 금요일 보도했습니다. 이민국 관리들은 리비아인 Atif Issa Enhamed를 공항까지 에스코트하고 그를 미공개 중동 행 비행기에 태웠습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Terrorist bombings at U.S. embassies in Kenya and Tanzania blew apart buildings and buses, trapping people under slabs of concrete and twisted steel that rescuers cleared with cranes, blow torches and bare hands. At least 82 were killed and more than 1,700 injured, officials (said) as dawn broke Saturday. Verb: said <br><br>
+				<br> 케냐와 탄자니아에 있는 미국 대사관에 대한 테러리스트의 폭격으로 건물과 버스가 산산조각이 나고 구조대원들이 크레인과 횃불을 불고 맨손으로 제거한 콘크리트 슬래브와 뒤틀린 강철 아래에 사람들이 갇혔습니다. 적어도 82명이 사망하고 1,700명 이상이 부상당했다고 관리들은 토요일 새벽이 밝았을 때 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The American ambassador to Kenya was among hundreds injured, a local TV said. It was definitely a bomb, (said) a U.S. Embassy official in Nairobi, who refused to identify himself. Verb: said <br><br>
+				<br> 케냐 주재 미국 대사는 수백 명의 부상자 중 한 명이라고 현지 TV가 전했습니다. 자신의 신원을 밝히기를 거부한 나이로비 주재 미국 대사관 관리는 분명히 폭탄이었다고 (말했다). 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The Aug. 7, 1998, bombings killed more than 200 people, including 12 Americans. It (is) the largest reward the government has ever offered for a fugitive. Verb: is <br><br>
+				<br> 1998년 8월 7일 폭격으로 미국인 12명을 포함해 200명 이상이 사망했다. 그것은 정부가 도망자에게 제공한 것 중 가장 큰 보상입니다. 동사: is <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The FBI is conducting further DNA tests of the hair found outside Dr. Slepian's home. This more extensive set of tests could enable officials to declare an absolute match between the two hair strands, the first law enforcement official (said). Verb: said <br><br>
+				<br> FBI는 Dr. Slepian의 집 밖에서 발견된 머리카락에 대해 추가 DNA 검사를 수행하고 있습니다. 이 보다 광범위한 테스트 세트는 공무원들이 두 머리카락 사이의 절대적인 일치를 선언할 수 있게 해줄 것이라고 최초의 법 집행관이 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The FBI put alleged terrorist mastermind Osama Bin Laden and anti-abortion activist and accused doctor killer James Charles Kopp on the bureau's list of the Ten Most Wanted fugitives Monday. FBI Director Louis Freeh (said) the U.S. government is offering a reward of up to $5 million for information that leads to the arrest and conviction of Bin Laden, indicted as the architect of the twin bombings of American embassies in Kenya and Tanzania. Verb: said <br><br>
+				<br> FBI는 월요일 테러리스트 주모자 오사마 빈 라덴과 낙태 반대 운동가이자 고발된 의사 살인범 제임스 찰스 코프를 지명 수배자 10인 명단에 올렸다. 루이스 프리(Louis Freeh) FBI 국장은 미국 정부가 케냐와 탄자니아 주재 미국 대사관에 대한 쌍둥이 폭탄 테러의 설계자로 기소된 빈 라덴의 체포 및 유죄 판결로 이어지는 정보에 대해 최대 500만 달러의 현상금을 제공할 것이라고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The FBI says Bin Laden is the leader of a terrorist organization known as Al-Aqeda, The Base. Kopp wears eyeglasses, walks with a slight limp, (is) 5 feet, 10 inches tall and weighs 150 to 175 pounds. Verb: is <br><br>
+				<br> FBI는 빈 라덴이 알-아케다, 더 베이스로 알려진 테러 조직의 지도자라고 밝혔습니다. 콥은 안경을 쓰고 약간 다리를 절며 걸으며 키는 5피트 10인치, 몸무게는 150~175파운드입니다. 동사: is <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The Immigration and Naturalization Service has ruled in favor of the father's request that the boy be returned to him in Cuba, but that decision was put on hold while the Miami relatives battle in federal court to keep him in this country. Holder said that INS acted appropriately but now that we have this new information, we'll have to look at it, and see, like I (said), what steps if any are appropriate. Verb: said <br><br>
+				<br> 이민귀화국(Immigration and Naturalization Service)은 소년을 쿠바로 돌려보내 달라는 아버지의 요청에 찬성하는 판결을 내렸지만 마이애미 친척들이 소년을 이 나라에 머물게 하기 위해 연방 법원에서 싸우는 동안 그 결정은 보류되었습니다. Holder는 INS가 적절하게 행동했지만 이제 우리는 이 새로운 정보를 얻었으므로 그것을 살펴보고 내가 (말한) 것처럼 어떤 조치가 적절한지 확인해야 할 것이라고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The almost simultaneous attacks Aug. 7 at the U.S. embassies in Nairobi, Kenya, and Dar es Salaam, Tanzania, killed 257 people and injured more than 5,500. The incidents of Aug. 7 underscore that terrorists know no boundaries, and that the suppression of international terrorism, the arrest, the conviction and the punishment of its perpetrators are essential to the maintenance of international peace and security, (said) the U.S. Deputy Ambassador Peter Burleigh. Verb: said <br><br>
+				<br> 8월 7일 케냐의 나이로비와 탄자니아의 다르에스살람에 있는 미국 대사관에 대한 거의 동시다발적인 공격으로 257명이 사망하고 5,500명 이상이 부상당했습니다. 8월 7일의 사건은 테러리스트들이 국경을 모른다는 것과 국제 테러리즘의 진압, 체포, 유죄 판결 및 가해자에 대한 처벌이 국제 평화와 안보를 유지하는 데 필수적이라는 것을 강조한다고 미국 부대사가 말했습니다. 피터 벌리. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The blast in Nairobi occurred at almost exactly the same moment as an explosion ripped through the American Embassy in Tanzania's commercial capital Dar es Salaam. The death toll in the Tanzania blast, initially 10, has risen to 12, hospital officials and family members (said) Wednesday. Verb: said <br><br>
+				<br> 나이로비에서의 폭발은 탄자니아의 상업 수도인 다르에스살람에 있는 미국 대사관을 찢은 폭발과 거의 같은 순간에 발생했습니다. 탄자니아 폭발로 인한 사망자 수는 당초 10명에서 12명으로 늘어났다고 수요일 병원 관계자와 가족이 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The bomb blast has not generated any hatred against... Americans in Tanzania, he (said). Verb: said <br><br>
+				<br> 폭탄 폭발은 탄자니아에 있는 미국인들에 대한 어떤 증오도 일으키지 않았습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The bomb outside the U.S. Embassy in Tanzania was so powerful that it shook furniture in homes a mile away. But the solid construction of the Israeli-built embassy may have prevented the carnage of a similar bomb in Kenya, an official (said) Saturday. Verb: said <br><br>
+				<br> 탄자니아 주재 미국 대사관 밖의 폭탄은 1마일 떨어진 집의 가구를 흔들릴 정도로 위력이 컸다. 그러나 이스라엘이 건설한 대사관의 견고한 건설은 케냐에서 유사한 폭탄의 대학살을 막을 수 있었을 것이라고 토요일 관리가 (말했습니다) 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The case of Elian is for today's youth what 40 years of the blockade, armed invasions, sabotage and attempts to kill President Fidel Castro were for earlier generations, said Cuban journalist Luis Baez, who has written several books about Cuban emigration to the United States. After the rally, state television showed the Cuban exiles in the streets of Miami -- some of them carrying signs demanding Freedom for Elian, the same battle cry regularly (chanted) during rallies on this side of the Florida Straits. Verb: chanted <br><br>
+				<br> 미국으로의 쿠바 이민에 관한 몇 권의 책을 저술한 쿠바 언론인 Luis Baez는 Elian의 경우는 40년 동안의 봉쇄, 무장 침략, 사보타주, 피델 카스트로 대통령 암살 시도가 이전 세대를 위한 것이었던 오늘날의 젊은이들을 위한 것이라고 말했습니다. 집회가 끝난 후, 국영 텔레비전은 마이애미의 거리에 있는 쿠바 망명자들을 보여주었습니다. 그들 중 일부는 플로리다 해협 이쪽에서 집회가 열리는 동안 정기적으로 동일한 전투 함성을 외치는 엘리안의 자유를 요구하는 팻말을 들고 있었습니다. 동사: 노래하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The concern in Cuba always has been that if Gonzalez goes he will immediately become involved in political and legal problems that will prevent his speedy return. Elian's paternal grandmother, Mariela, told reporters that she was willing to go to Miami to retrieve her grandson if it was (assured) to her that she could pick him up and return immediately to Cuba without become embroiled in legal or political problems. Verb: assured <br><br>
+				<br> 쿠바의 우려는 항상 Gonzalez가 떠나면 그의 빠른 복귀를 방해하는 정치적, 법적 문제에 즉시 연루될 것이라는 점이었습니다. Elian의 외할머니인 Mariela는 기자들에게 그녀가 손자를 데리러 법적 또는 정치적 문제에 휘말리지 않고 즉시 쿠바로 돌아갈 수 있다는 것이 (확신된다면) 손자를 되찾기 위해 기꺼이 마이애미에 갈 것이라고 말했습니다. 동사: 확신하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The creator of an anti-abortion Web site found to be a threat to abortion providers says a decision to shut the site down is just a temporary setback. Neal Horsley (said) Friday that he would seek a new Internet service for his Nuremburg Files site, which was the focus of a federal court trial that led to a $107 million verdict this week in favor of abortion providers. Verb: said <br><br>
+				<br> 낙태 제공자에게 위협이 되는 것으로 밝혀진 낙태 방지 웹 사이트의 제작자는 사이트를 폐쇄하기로 한 결정은 일시적인 차질일 뿐이라고 말합니다. Neal Horsley는 금요일에 자신의 Nuremburg Files 사이트를 위한 새로운 인터넷 서비스를 찾을 것이라고 말했습니다. 이 사이트는 이번 주에 낙태 제공자들에게 유리한 1억 7백만 달러의 판결을 이끌어낸 연방 법원 재판의 초점이었습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The creator of an anti-abortion Web site found to be a threat to abortion providers says a decision to shut the site down is just a temporary setback. Neal Horsley (said) Friday that he would seek a new Internet service for his Nuremburg Files site, which was the focus of a federal court trial that led to a $107 million verdict this week in favor of abortion providers. Verb: said <br><br>
+				<br> 낙태 제공자에게 위협이 되는 것으로 밝혀진 낙태 방지 웹 사이트의 제작자는 사이트를 폐쇄하기로 한 결정은 일시적인 차질일 뿐이라고 말합니다. Neal Horsley는 금요일에 자신의 Nuremburg Files 사이트를 위한 새로운 인터넷 서비스를 찾을 것이라고 말했습니다. 이 사이트는 이번 주에 낙태 제공자들에게 유리한 1억 7백만 달러의 판결을 이끌어낸 연방 법원 재판의 초점이었습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 낙태 제공자에게 위협이 되는 것으로 밝혀진 낙태 방지 웹 사이트의 제작자는 사이트를 폐쇄하기로 한 결정은 일시적인 차질일 뿐이라고 말합니다. Neal Horsley는 금요일에 자신의 Nuremburg Files 사이트를 위한 새로운 인터넷 서비스를 찾을 것이라고 말했습니다. 이 사이트는 이번 주에 낙태 제공자들에게 유리한 1억 7백만 달러의 판결을 이끌어낸 연방 법원 재판의 초점이었습니다. 동사: 말했다 <br><br>
+				<br> 낙태 제공자에게 위협이 되는 것으로 밝혀진 낙태 방지 웹 사이트의 제작자는 사이트를 폐쇄하기로 한 결정은 일시적인 차질일 뿐이라고 말합니다. Neal Horsley는 금요일에 자신의 Nuremburg Files 사이트를 위한 새로운 인터넷 서비스를 언급했습니다. 이 사이트는 이번 주에 낙태 제공자들에게 유리한 1억 7백만 달러의 판결을 이끌어낸 연방 법원 재판의 초점이었습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The decision touched off protests in the Cuban-American community. Burton, the committee's chairman, (said) in a release he issued a subpoena to Elian Gonzalez to ensure that no precipitous action is taken until the Florida State court in Miami can adequately address the Gonzalez case. Verb: said <br><br>
+				<br> 이 결정은 쿠바계 미국인 사회에서 항의를 불러일으켰습니다. 위원회 위원장인 Burton은 석방에서 Elian Gonzalez에게 소환장을 발부하여 마이애미에 있는 플로리다 주 법원이 Gonzalez 사건을 적절하게 처리할 수 있을 때까지 성급한 조치를 취하지 않도록 했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The group would be ready to leave for the United States as soon as Tuesday, Castro said. Gonzalez said he would go (get) his son alone if U.S. authorities promised they would turn Elian over to him immediately and allow them to fly back to Cuba right away, Castro said Sunday. Verb: get <br><br>
+				<br> 그룹은 빠르면 화요일 미국으로 떠날 준비가 될 것이라고 카스트로가 말했습니다. Gonzalez는 미국 당국이 Elian을 즉시 그에게 넘겨주고 즉시 쿠바로 돌아갈 수 있도록 허용하겠다고 약속하면 아들을 혼자 갈 것이라고 말했습니다. Castro는 일요일 말했습니다. 동사: 얻다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The gun was sent to the FBI laboratory in Washington to determine whether it was used to kill Slepian. If it ('s) not too badly rusted, they may be able to match the bullet back to the weapon, said Walter Rowe, forensics sciences professor at George Washington University. Verb:'s <br><br>
+				<br> 총은 Slepian을 죽이는 데 사용되었는지 여부를 확인하기 위해 워싱턴의 FBI 연구소로 보내졌습니다. 심하게 녹슬지 않았다면 총알을 다시 무기와 일치시킬 수 있을 것이라고 George Washington University의 법의학 교수인 Walter Rowe는 말했습니다. 동사:'s <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The head of the FBI investigation in Dar es Salaam, Kenneth Piernick, said the bureau has questioned more than 100 people there, but indicated that most of the interrogations had led nowhere. Right now my evidence is scant, and I'm not going to draw conclusions based on that, he (said). Verb: said <br><br>
+				<br> 다르에스살람의 FBI 수사 책임자인 케네스 피어닉은 FBI가 그곳에서 100명 이상을 심문했지만 대부분의 심문이 소용이 없었다고 밝혔습니다. 지금 내 증거가 부족하고 그것에 근거하여 결론을 내리지 않을 것이라고 그는 말했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The president responded, " Everything, everything. " While shying away from actually using the word " blockade, " Mr. Bush acknowledged that the U.S. and others were trying to block (shipping) to Iraq. Verb: shipping <br><br>
+				<br> 대통령은 "모든 것, 모든 것"이라고 답했다. 실제로 '봉쇄'라는 단어를 사용하는 것을 꺼리면서도 부시 대통령은 미국 등이 이라크로의 (선적) 차단을 시도하고 있음을 인정했다. 동사: 배송 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The suspected car bombings occurred 700 kilometers ( 450 miles ) from each other but just minutes apart on Friday, turning busy streets in two African capitals into bloody piles of concrete and knots of steel. This appears to have been a very well-coordinated, very well-planned attack _ clearly not the work of amateurs, U.S. National Security Council spokesman P.J. Crowley (said) in Washington. Verb: said <br><br>
+				<br> 의심되는 자동차 폭탄 테러는 서로 700km(450마일) 떨어진 곳에서 발생했지만 금요일 불과 몇 분 간격으로 두 아프리카 수도의 번잡한 거리를 피 묻은 콘크리트 더미와 강철 매듭으로 만들었습니다. 이것은 매우 잘 조직되고 매우 잘 계획된 공격인 것으로 보입니다. 분명히 아마추어의 작업이 아닙니다. 미국 국가안보회의(NSC) 대변인 P.J. Crowley는 워싱턴에서 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The team planned to leave Nairobi on Thursday for Dar es Salaam. Besides meeting the immediate physical and emotional needs of bombing victims, the United States will consider helping set up a disaster response center in Kenya, Satcher (said). Verb: said <br><br>
+				<br> 팀은 목요일 나이로비를 떠나 다르에스살람으로 갈 계획이었습니다. 폭격 피해자의 즉각적인 신체적, 정서적 필요를 충족시키는 것 외에도 미국은 케냐에 재난 대응 센터를 설립하는 것을 도울 것이라고 Satcher는 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The victims in Nairobi, Kenya, numbered 213, including 12 Americans. Eleven people, none of them Americans, (died) in the blast in Dar-es-Salaam, Tanzania. Verb: died <br><br>
+				<br> 케냐 나이로비의 희생자는 미국인 12명을 포함해 213명이다. 탄자니아의 Dar-es-Salaam에서 발생한 폭발로 11명이 사망했는데 미국인은 아무도 없었습니다. 동사: 죽었다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> There was no immediate response from the U.S. government to the request. It was likely to be (opposed) by Elian's Miami relatives, who are fighting to keep the boy in the United States and who have said they think Gonzalez is being controlled by Fidel Castro's government. Verb: opposed <br><br>
+				<br> 요청에 대한 미국 정부의 즉각적인 응답은 없었습니다. 곤잘레스가 피델 카스트로 정부의 통제를 받고 있다고 생각하며 소년을 미국에 머물게 하기 위해 싸우고 있는 엘리안의 마이애미 친척들이 (반대할) 가능성이 높았습니다. 동사: 반대하다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> These bombings will not cause America to back down or retreat, she declared. The head of the FBI investigation in Dar es Salaam, Kenneth Piernick, (said) the bureau has questioned more than 100 people there, but indicated that most of the interrogations had led nowhere. Verb: said <br><br>
+				<br> 그녀는 이러한 폭격으로 미국이 물러서거나 후퇴하지 않을 것이라고 선언했습니다. 케네스 피에르닉(Kenneth Piernick) 다르에스살람의 FBI 수사 책임자는 FBI가 그곳에서 100명 이상을 심문했지만 대부분의 심문이 아무 소용이 없었다고 밝혔습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> They believe Kopp was driven to Mexico by a female friend after the shooting, and have a trail of her credit card receipts leading to Mexico, the federal officials have said. In addition, a Customs Service videotape from a border crossing point shows the woman's car returning from Mexico, these officials (said). Verb: said <br><br>
+				<br> 그들은 콥이 총격 사건 이후 여자 친구에 의해 멕시코로 차를 몰고 갔고 그녀의 신용카드 영수증이 멕시코로 가는 흔적을 가지고 있다고 믿고 있다고 연방 관리들은 말했습니다. 또한 국경 검문소에서 찍은 세관원 비디오테이프에는 멕시코에서 돌아오는 여성의 차가 나온다고 이 관리들은 말했다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> They were talking when the bomb went off, killing 247 people and wounding more than 5,000 others. On Wednesday, Bushnell and Kimotho met again to (finish) their discussion, Bushnell told Kenya Television. Verb: finish <br><br>
+				<br> 폭탄이 터져 247명이 사망하고 5,000명 이상이 부상당했을 때 그들은 대화를 나누었습니다. 수요일에 Bushnell과 Kimotho는 토론을 끝내기 위해 다시 만났습니다. Bushnell은 케냐 텔레비전에 말했습니다. 동사: 끝내다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This is child abuse and mistreatment, what they're doing to this boy, Gonzalez said on CBS's 60 Minutes. The way they're abusing him, turning him against his father... he's suffering more here amongst them than he suffered in the sea. Gonzalez said he did n't believe a much-publicized video taped at the relatives' home in which his son said he did n't want to (go). Verb: go <br><br>
+				<br> 곤잘레스는 CBS의 60분 방송에서 "이것은 아동학대와 부당대우"라고 말했다. 그들이 그를 학대하고 아버지에게 등을 돌리게 하는 방식... 그는 바다에서 겪었던 것보다 여기에서 그들 사이에서 더 많은 고통을 받고 있습니다. Gonzalez는 그의 아들이 가고 싶지 않다고 말하는 친척 집에서 녹화된 널리 알려진 비디오를 믿지 않는다고 말했습니다. 동사: 가다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> This more extensive set of tests could enable officials to declare an absolute match between the two hair strands, the first law enforcement official said. Ultimately, we would need to have a hair taken directly from Kopp himself to establish conclusively the hair from scene (is) his, the official added. Verb: is <br><br>
+				<br> 이 보다 광범위한 테스트 세트를 통해 공무원은 두 머리카락이 완전히 일치한다고 선언할 수 있다고 첫 번째 법 집행관이 말했습니다. 궁극적으로 현장의 머리카락이 그의 것이라는 결론을 내리기 위해서는 Kopp 자신에게서 직접 머리카락을 가져와야 한다고 관계자는 덧붙였습니다. 동사: is <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> To get him. Nothing more, she (said). Verb: said <br><br>
+				<br> 그를 잡기 위해. 더 이상 아무것도, 그녀는 (말했다). 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> U.S. authorities scheduled a news conference for later today in New York. The Cape Argus newspaper reported today that a Tanzanian man was (arrested), and that authorities were searching for accomplices. Verb: arrested <br><br>
+				<br> 미국 당국은 오늘 오후 뉴욕에서 기자회견을 가질 예정입니다. 케이프 아르거스 신문은 오늘 탄자니아인 한 남자가 체포되었고 당국이 공범자를 찾고 있다고 보도했습니다. 동사: 체포되다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> WASHINGTON ( AP ) -- Preliminary DNA tests link a missing anti-abortion activist to a strand of hair found near where a sniper shot and killed a Buffalo, N.Y., doctor who performed abortions, a law enforcement official (said) Friday. Verb: said <br><br>
+				<br> 워싱턴 (AP) -- 예비 DNA 검사는 저격수가 뉴욕주 버팔로에서 낙태 시술을 한 의사를 쏴 죽인 곳 근처에서 발견된 머리카락 한 가닥과 실종된 낙태 반대 활동가를 연결한다고 금요일 법 집행관이 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> WELLINGTON, New Zealand ( AP ) _ The United States had the right to defend its citizens against terrorist actions, New Zealand (said) Friday in response to U.S. missile attacks on alleged terrorist sites in Sudan and Afghanistan. Verb: said <br><br>
+				<br> 웰링턴, 뉴질랜드 (AP) _ 미국은 수단과 아프가니스탄의 테러리스트 사이트에 대한 미국의 미사일 공격에 대응하여 금요일 테러 행위로부터 시민을 보호할 권리가 있다고 뉴질랜드가 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> While state-run television broadcast footage of Cuban exiles protesting in Miami against the repatriation of Elian Gonzalez, the Cuban government urged its people to keep up their own demonstrations to ensure the boy's return. The unusual airing of protests against President Fidel Castro appeared aimed at (warning) Cuban citizens that South Florida exiles could still force the reversal of the U.S. government's decision to return Gonzalez to Cuba. Verb: warning <br><br>
+				<br> 쿠바 망명자들이 마이애미에서 엘리안 곤잘레스의 송환에 반대하는 시위를 벌이는 국영 텔레비전 방송 영상이 나오는 동안, 쿠바 정부는 국민들에게 소년의 귀환을 보장하기 위해 시위를 계속할 것을 촉구했습니다. 피델 카스트로 대통령에 대한 이례적인 항의방송은 쿠바 시민들을 겨냥해 플로리다 남부 망명자들이 여전히 곤잘레스를 쿠바로 돌려보내려는 미국 정부의 결정을 뒤집을 수 있다고 경고하는 것으로 보입니다. 동사: 경고 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> With their membership secure, they also can participate in planning for the NATO summit in April. Scharping, ending a two-day visit, (said) Poland was well prepared to join the alliance. Verb: said <br><br>
+				<br> 회원 자격이 확보되면 4월 나토 정상회의 기획에도 참여할 수 있다. 이틀 간의 방문을 마친 샤핑은 폴란드가 동맹에 가입할 준비가 잘 되어 있다고 말했습니다. 동사: 말했다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr>
+	</table>

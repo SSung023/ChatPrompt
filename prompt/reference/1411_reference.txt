@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The nickname of the team of University of Nebraska at Omaha is mavericks. <br><br>
+				<br> 오마하에 있는 네브래스카 대학교 팀의 별명은 매버릭스입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> University of Nebraska <br><br>
+				<br> 네브래스카 대학교 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Jose Panganiban has an area of exactly 214.44 sq. km. <br><br>
+				<br> Jose Panganiban의 면적은 정확히 214.44제곱미터입니다. km. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> Jose Panganiban <br><br>
+				<br> 호세 판가니반 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The municipality Santa Elena has an area of exactly 199.35 sq. km. <br><br>
+				<br> 시정촌 Santa Elena의 면적은 정확히 199.35제곱미터입니다. km. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> Santa Elena <br><br>
+				<br> 산타 엘레나 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '" A Wizard of Mars was Published in the United States ". <br><br>
+				<br> '"A Wizard of Mars가 미국에서 출판되었습니다." <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> A Wizard of Mars <br><br>
+				<br> 화성의 마법사 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '" cult of personality " is from 2007 <br><br>
+				<br> '"개성 숭배"는 2007년부터 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> cult of personality <br><br>
+				<br> 성격 숭배 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"AIP Adv." is the abbreviation of AIP Advances. <br><br>
+				<br> '"AIP Adv." AIP Advances의 약자입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> AIP Advances <br><br>
+				<br> AIP 발전 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Abh.Math.Semin.Univ.Hambg" is the abbreviation for Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg. <br><br>
+				<br> '"Abh.Math.Semin.Univ.Hambg"는 Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg의 약자입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg <br><br>
+				<br> Abhandlungen aus dem Mathematischen Seminar der Universität 함부르크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Black Rose" was produced by Joe Buhdha. <br><br>
+				<br> '"Black Rose"는 Joe Buhdha가 제작했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> Black Rose <br><br>
+				<br> 블랙 로즈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Mayor" is the title of the leader in Atlantic City, New Jersey. <br><br>
+				<br> '"시장"은 뉴저지주 애틀랜틱시티의 지도자 직함입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> Atlantic City, New Jersey <br><br>
+				<br> 뉴저지주 애틀랜틱시티 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"blood out have 20.94 million U.S. viewers. <br><br>
+				<br> '"Blood Out은 미국에서 2094만 명의 시청자를 보유하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> blood out <br><br>
+				<br> 피를 흘리다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"forced entry" had 14.59 million U.S. viewers. <br><br>
+				<br> '강제입국'의 미국 시청자 수는 1459만 명이었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> forced entry <br><br>
+				<br> 강제입국 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"report 4407: heart no choice for the donor" was filmed on july / aug. 1968. <br><br>
+				<br> '"제보 4407: 기증자에게 심장은 선택권이 없다"는 7/8월에 촬영되었습니다. 1968. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> report 4407: heart no choice for the donor <br><br>
+				<br> 보고서 4407: 심장 기증자를 위한 선택권 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"shattered have 17.93 million U.S. viewers. <br><br>
+				<br> '"산산이 부서진 미국 시청자 수는 1,793만 명입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> shattered <br><br>
+				<br> 부서진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"tori tortures teacher was watched by 3.8 million US viewers. <br><br>
+				<br> '"토리고문교사는 미국 시청자 380만 명이 시청했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> tori tortures teacher <br><br>
+				<br> 토리 고문 교사 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ''08/26'' is the runway name at Al Asad Airbase. <br><br>
+				<br> '08/26''은 알 아사드 공군기지의 활주로 이름입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> Al Asad Airbase <br><br>
+				<br> 알 아사드 공군기지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 0.26% of the Kazakh population doesn't have a known religion. <br><br>
+				<br> 카자흐스탄 인구의 0.26%는 알려진 종교가 없습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> Kazakh <br><br>
+				<br> 카자흐어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/26 is the runway name of Alderney Airport. <br><br>
+				<br> 08/26은 Alderney 공항의 활주로 이름입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Alderney Airport <br><br>
+				<br> 올더니 공항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1 Group is based 29 august <br><br>
+				<br> 1그룹은 8월 29일 기준 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1 year Kindergarten is legally required in Zug. <br><br>
+				<br> 1년 유치원은 추크에서 법적으로 요구됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> Zug <br><br>
+				<br> 추크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1. FC Köln has 50000 members. <br><br>
+				<br> 1. FC Köln에는 50000명의 회원이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 1. FC Köln <br><br>
+				<br> 1. FC 쾰른 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1. FC Köln were in the 2014–15 Bundesliga season. <br><br>
+				<br> 1. FC Köln은 2014-15 분데스리가 시즌에 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 1. FC Köln <br><br>
+				<br> 1. FC 쾰른 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1.1% of the population in Senneville, Quebec spoke Polish as their mother tongue <br><br>
+				<br> 퀘벡주 세네빌 인구의 1.1%가 폴란드어를 모국어로 사용했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> Polish <br><br>
+				<br> 광택 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1.5 million U.S. audiences watched The Road to Damascus <br><br>
+				<br> 150만 명의 미국 시청자가 The Road to Damascus를 시청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> The Road to Damascus <br><br>
+				<br> 다메섹으로 가는 길 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1.7 square kilometres is the area of water in Auburn, Alabama. <br><br>
+				<br> 1.7평방 킬로미터는 앨라배마 주 오번의 물 면적입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> Auburn, Alabama <br><br>
+				<br> 오번, 앨라배마 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1010 students are enrolled at Juanita. <br><br>
+				<br> 1010명의 학생들이 Juanita에 등록되어 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> Juanita <br><br>
+				<br> 후아니타 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 103 Colmore Row is located in Birmingham. <br><br>
+				<br> 103 Colmore Row는 버밍엄에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 103 Colmore Row <br><br>
+				<br> 103 콜모어 로우 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 103 Colmore Row is located on Colmore Row, Birmingham, England. <br><br>
+				<br> 103 Colmore Row는 영국 버밍엄의 Colmore Row에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 103 Colmore Row <br><br>
+				<br> 103 콜모어 로우 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 103 Colmore Row was completed in 1976. <br><br>
+				<br> 103 Colmore Row는 1976년에 완공되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 103 Colmore Row <br><br>
+				<br> 103 콜모어 로우 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 108 St Georges Terrace cost 120 million Australian dollars. <br><br>
+				<br> 108 St Georges Terrace 비용은 1억 2천만 호주 달러입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 108 St Georges Terrace <br><br>
+				<br> 108 세인트 조지 테라스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 108 St Georges Terrace has a floor count of 50. <br><br>
+				<br> 108 St Georges Terrace의 층수는 50층입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 108 St Georges Terrace <br><br>
+				<br> 108 세인트 조지 테라스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 108 St Georges Terrace was completed in 1988. <br><br>
+				<br> 108 St Georges Terrace는 1988년에 완공되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 108 St Georges Terrace <br><br>
+				<br> 108 세인트 조지 테라스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 11 Diagonal Street has 20 floors. <br><br>
+				<br> 11 Diagonal Street는 20층입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 11 Diagonal Street <br><br>
+				<br> 11 대각선 거리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 11 Diagonal Street has a floor area of 1200 square metres. <br><br>
+				<br> 11 Diagonal Street의 바닥 면적은 1200제곱미터입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 11 Diagonal Street <br><br>
+				<br> 11 대각선 거리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 11 Diagonal Street is in Johannesburg. <br><br>
+				<br> 11 Diagonal Street는 요하네스버그에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 11 Diagonal Street <br><br>
+				<br> 11 대각선 거리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 11th Mississippi Infantry Monument's location is Adams County, Pennsylvania. <br><br>
+				<br> 11th Mississippi Infantry Monument의 위치는 펜실베니아 주 Adams County입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 11th Mississippi Infantry Monument <br><br>
+				<br> 제11 미시시피 보병 기념비 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 12L/30R is the runway name of Ashgabat International Airport. <br><br>
+				<br> 12L/30R은 Ashgabat 국제 공항의 활주로 이름입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> Ashgabat International Airport <br><br>
+				<br> 아시가바트 국제공항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 12R/30L is the runway name of the Ashgabat International Airport. <br><br>
+				<br> 12R/30L은 Ashgabat 국제 공항의 활주로 이름입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> Ashgabat International Airport <br><br>
+				<br> 아시가바트 국제공항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 13 = 2^3 + 5 0001101 1/128 <br><br>
+				<br> 13 = 2^3 + 5 0001101 1/128 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 13 = 2^3 + 5 <br><br>
+				<br> 13 = 2^3 + 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 130,000,000 people speak Punjabi in 2001 <br><br>
+				<br> 2001년에 1억 3000만 명이 펀자브어를 사용합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> Punjabi <br><br>
+				<br> 펀잡어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1424 students attent Mercer Island institution. <br><br>
+				<br> 1424명의 학생들이 Mercer Island 기관에 다닙니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> Mercer Island <br><br>
+				<br> 머서 아일랜드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 14th Lok Sabha had a vote swing of 1.69. <br><br>
+				<br> 14대 Lok Sabha는 1.69의 득표율을 기록했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 14th Lok Sabha <br><br>
+				<br> 14대 로크 사바 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 14th New Jersey Volunteer Infantry Monument was founded 1907-07-11. <br><br>
+				<br> 1907년 7월 11일에 제14 뉴저지 자원봉사 보병 기념비가 설립되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 14th New Jersey Volunteer Infantry Monument <br><br>
+				<br> 14 뉴저지 자원 봉사 보병 기념비 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis can be located by it's ISBN number "978-1-4165-4253-7". <br><br>
+				<br> 1634: 바이에른 위기는 ISBN 번호 "978-1-4165-4253-7"로 찾을 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Bavarian Crisis <br><br>
+				<br> 1634년: 바이에른 위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis has 448 pages. <br><br>
+				<br> 1634년: 바이에른 위기는 448쪽입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Bavarian Crisis <br><br>
+				<br> 1634년: 바이에른 위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis is available in print form. <br><br>
+				<br> 1634년: The Bavarian Crisis가 인쇄된 형태로 제공됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Bavarian Crisis <br><br>
+				<br> 1634년: 바이에른 위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis is written in English. <br><br>
+				<br> 1634년: The Bavarian Crisis가 영어로 작성되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Bavarian Crisis <br><br>
+				<br> 1634년: 바이에른 위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis was preceded by 1634: The Baltic War. <br><br>
+				<br> 1634년: 바이에른 위기는 1634년: 발트해 전쟁에 선행되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Bavarian Crisis <br><br>
+				<br> 1634년: 바이에른 위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis was preceded by Grantville Gazette II. <br><br>
+				<br> 1634년: 바이에른 위기는 Grantville Gazette II에 의해 선행되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Bavarian Crisis <br><br>
+				<br> 1634년: 바이에른 위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis was preceded by Grantville Gazette III. <br><br>
+				<br> 1634년: 바이에른 위기는 Grantville Gazette III에 의해 선행되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Bavarian Crisis <br><br>
+				<br> 1634년: 바이에른 위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Bavarian Crisis was written prior to "Ring of Fire II". <br><br>
+				<br> 1634년: The Bavarian Crisis는 "Ring of Fire II" 이전에 작성되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Ring of Fire II <br><br>
+				<br> 불의 고리 II <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Galileo Affair was followed by 1634: The Ram Rebellion. <br><br>
+				<br> 1634년: 갈릴레오 사건에 이어 1634년: 숫양 반란이 이어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Galileo Affair <br><br>
+				<br> 1634: 갈릴레오 사건 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Ram Rebellion was written by Eric Flint, Virginia DeMarce, et al. <br><br>
+				<br> 1634: The Ram Rebellion은 Eric Flint, Virginia DeMarce 등이 저술했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Ram Rebellion <br><br>
+				<br> 1634: 숫양 반란 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1634: The Ram Rebellion was written by Virginia DeMarce. <br><br>
+				<br> 1634: The Ram Rebellion은 Virginia DeMarce에 의해 작성되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 1634: The Ram Rebellion <br><br>
+				<br> 1634: 숫양 반란 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1944 Basketball Great Midwest tournament results <br><br>
+				<br> 1944 농구 그레이트 미드웨스트 토너먼트 결과 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> Great Midwest <br><br>
+				<br> 중서부 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1964 Wichita Falls Tornado happened in Wichita Falls, Texas. <br><br>
+				<br> 1964년 위치타 폭포 토네이도는 텍사스 위치타 폭포에서 발생했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 1964 Wichita Falls Tornado <br><br>
+				<br> 1964 위치타 폴스 토네이도 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1968 in Japanese football Player Yoshitada Yamaguchi total is 19(0) <br><br>
+				<br> 1968년 일본 축구 선수 야마구치 요시타다 합계는 19(0) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> Yoshitada Yamaguchi <br><br>
+				<br> 야마구치 요시타다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1972 Minnesota Vikings season 4th week October 8 <br><br>
+				<br> 1972년 미네소타 바이킹스 시즌 4주차 10월 8일 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1973 was the start date for the building at 103 Colmore Row. <br><br>
+				<br> 1973년은 103 Colmore Row에 있는 건물의 시작일이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 103 Colmore Row <br><br>
+				<br> 103 콜모어 로우 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1979 Cal State Fullerton Titans baseball team date is April 13. The Overall Record is 33-7-1, <br><br>
+				<br> 1979년 Cal State Fullerton Titans 야구팀 날짜는 4월 13일입니다. 전체 기록은 33-7-1, <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> April 13 <br><br>
+				<br> 4월 13일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1989 Formula One season: Rd is 8 , Dateis 16 July. <br><br>
+				<br> 1989 포뮬러 원 시즌: Rd는 8, Dateis는 7월 16일입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 8 <br><br>
+				<br> 8 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1991's tour was known as the Marlboro Tour <br><br>
+				<br> 1991년 투어는 말보로 투어로 알려졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 1991 <br><br>
+				<br> 1991 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1997–98 Svenska Cupen: Tie no is 52, Home team is IFK Hjo (WC) <br><br>
+				<br> 1997–98 Svenska Cupen: 동점 번호는 52, 홈 팀은 IFK Hjo(WC) <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 52 <br><br>
+				<br> 52 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2,000 winning have 6th as the division. <br><br>
+				<br> 2,000승은 6위를 디비전으로 하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 6th <br><br>
+				<br> 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2/2 are in the county where G. Hager received 19 (20%) votes. <br><br>
+				<br> 2/2는 G. Hager가 19(20%) 표를 얻은 카운티에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 2/2 <br><br>
+				<br> 2/2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 20 Fenchurch Street has a floor area of 62145.3 square metres. <br><br>
+				<br> 20 Fenchurch Street의 연면적은 62145.3제곱미터입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 20 Fenchurch Street <br><br>
+				<br> 20 펜처치 스트리트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 20 Fenchurch Street is located in London. <br><br>
+				<br> 20 Fenchurch Street는 런던에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 20 Fenchurch Street <br><br>
+				<br> 20 펜처치 스트리트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 20 Fenchurch Street was completed in April of 2014. <br><br>
+				<br> 20 Fenchurch Street는 2014년 4월에 완공되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 20 Fenchurch Street <br><br>
+				<br> 20 펜처치 스트리트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 20 Fenchurch Street was designed by the architect Rafael Viñoly. <br><br>
+				<br> 20 Fenchurch Street는 건축가 Rafael Viñoly가 설계했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 20 Fenchurch Street <br><br>
+				<br> 20 펜처치 스트리트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 200 Public Square has a floor area of 111484 square metres. <br><br>
+				<br> 200 퍼블릭 스퀘어의 바닥 면적은 111484제곱미터입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 200 Public Square <br><br>
+				<br> 200 광장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 200 Public Square is located at Public Square, Cleveland. <br><br>
+				<br> 200 Public Square는 클리블랜드의 Public Square에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 200 Public Square <br><br>
+				<br> 200 광장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 200 Public Square is located in Cleveland, Ohio 44114. <br><br>
+				<br> 200 Public Square는 44114 오하이오주 클리블랜드에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 200 Public Square <br><br>
+				<br> 200 광장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 200 Public Square is located in the United States. <br><br>
+				<br> 200 Public Square는 미국에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 200 Public Square <br><br>
+				<br> 200 광장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2000 Úrvalsdeild team name is Stjarnan and played is 18. <br><br>
+				<br> 2000 Úrvalsdeild 팀 이름은 Stjarnan이고 경기는 18입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> Stjarnan <br><br>
+				<br> 스타르난 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2007–08 Football League Championship team name is Sheffield United .The Position in table is 16th. <br><br>
+				<br> 2007–08 풋볼 리그 챔피언십 팀 이름은 Sheffield United입니다. 표의 순위는 16위입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> Sheffield United <br><br>
+				<br> 셰필드 유나이티드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2009 New York Titans season game is 8 and record is 5-3 <br><br>
+				<br> 2009 New York Titans 시즌 경기는 8전 전적은 5승 3패 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 8 <br><br>
+				<br> 8 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2011–12 Costa Rican Primera División season,CS Herediano lived in Heredia <br><br>
+				<br> 2011–12 Costa Rican Primera División 시즌, CS Herediano는 Heredia에서 살았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> CS Herediano <br><br>
+				<br> CS 헤레디아노 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2013 BWF Super Series going 2nd tour at January 20 <br><br>
+				<br> 2013년 1월 20일 BWF 슈퍼시리즈 2차 투어 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 22 games played with 17 won. <br><br>
+				<br> 17원으로 22경기를 치렀다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 22 tournaments were played in 2007. <br><br>
+				<br> 2007년에는 22개의 토너먼트가 열렸습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 2007 <br><br>
+				<br> 2007 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 22.0 was played by team milwaukee <br><br>
+				<br> 22.0은 밀워키 팀이 플레이했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 239,666 passangers were handled through Bristol Airport. <br><br>
+				<br> 239,666명의 승객이 브리스톨 공항을 통해 처리되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> Bristol <br><br>
+				<br> 브리스톨 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 250 Delaware Avenue cost 110 million dollars. <br><br>
+				<br> 250 Delaware Avenue 비용은 1억 1천만 달러입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 250 Delaware Avenue <br><br>
+				<br> 250 델라웨어 애비뉴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 250 Delaware Avenue has 12 floors. <br><br>
+				<br> 250 Delaware Avenue는 12층입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 250 Delaware Avenue <br><br>
+				<br> 250 델라웨어 애비뉴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 250 Delaware Avenue has a floor area of 30843.8 square metres. <br><br>
+				<br> 250 Delaware Avenue의 연면적은 30843.8제곱미터입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 250 Delaware Avenue <br><br>
+				<br> 250 델라웨어 애비뉴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 250 Delaware Avenue is a location in Buffalo, New York. <br><br>
+				<br> 250 Delaware Avenue는 뉴욕 주 버팔로에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 250 Delaware Avenue <br><br>
+				<br> 250 델라웨어 애비뉴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 250 Delaware Avenue is located in the United States. <br><br>
+				<br> 250 Delaware Avenue는 미국에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 250 Delaware Avenue <br><br>
+				<br> 250 델라웨어 애비뉴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 26 Applications in season 2004-05 <br><br>
+				<br> 2004-05 시즌에 26개 지원 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 2004-05 <br><br>
+				<br> 2004-05 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 26 August 1933 Plymouth Argyle <br><br>
+				<br> 1933년 8월 26일 플리머스 아가일 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 26 August 1933 <br><br>
+				<br> 1933년 8월 26일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 290,000 cards were issued with stamp set Royal Wedding (The Princess Anne) <br><br>
+				<br> 로열 웨딩(The Princess Anne) 스탬프 세트로 290,000장의 카드가 발행되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> Royal Wedding (The Princess Anne) <br><br>
+				<br> 왕실 결혼식(앤 공주) <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2be TV network is in Belgium <br><br>
+				<br> 2be TV 네트워크는 벨기에에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> Belgium <br><br>
+				<br> 벨기에 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 2nd Amendment was a Jive Records song. <br><br>
+				<br> 2nd Amendment는 Jive Records의 노래였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 2nd Amendment <br><br>
+				<br> 수정헌법 2조 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 3 Years of Kindergarten is provided in Ticino. <br><br>
+				<br> Ticino에서는 유치원 3년이 제공됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Ticino <br><br>
+				<br> 티치노 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 3.31 million U.S. audiences watched Babylon <br><br>
+				<br> 331만 명의 미국 관객이 바빌론을 시청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> Babylon <br><br>
+				<br> 바빌론 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 300 North LaSalle is in Illinois. <br><br>
+				<br> 300 North LaSalle는 일리노이주에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 300 North LaSalle <br><br>
+				<br> 300 노스 라살 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 300 North LaSalle was completed in 2009. <br><br>
+				<br> 300 North LaSalle은 2009년에 완공되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 300 North LaSalle <br><br>
+				<br> 300 노스 라살 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 320 South Boston Building was formerly called the Exchange National Bank Building. <br><br>
+				<br> 320 South Boston Building은 이전에 Exchange National Bank Building이라고 불렸습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 320 South Boston Building <br><br>
+				<br> 320 사우스 보스턴 빌딩 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 33 candidates were elected in the 1977 election. <br><br>
+				<br> 1977년 선거에서 33명의 후보자가 선출되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 1977 <br><br>
+				<br> 1977 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 334 people participated in the 2009 World Series of Poker Europe <br><br>
+				<br> 2009년 World Series of Poker Europe에 334명이 참가했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 2009 <br><br>
+				<br> 2009 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 3Arena is located at North Wall, Dublin. <br><br>
+				<br> 3Arena는 더블린의 North Wall에 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 3Arena <br><br>
+				<br> 3아레나 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 3XN was the architect of the AC Hotel Bella Sky Copenhagen. <br><br>
+				<br> 3XN은 AC Hotel Bella Sky Copenhagen의 건축가였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> AC Hotel Bella Sky Copenhagen <br><br>
+				<br> AC 호텔 벨라 스카이 코펜하겐 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 4.0 was on May 25. <br><br>
+				<br> 4.0은 5월 25일이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 4000ft is the runway length at Angola International Airport. <br><br>
+				<br> 4000ft는 앙골라 국제 공항의 활주로 길이입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> Angola International Airport <br><br>
+				<br> 앙골라 국제공항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 4th Pride of Britain Awards had an audience of 6.06 million viewers. <br><br>
+				<br> 제4회 Pride of Britain Awards는 606만 명의 시청자를 모았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> 4th Pride of Britain Awards <br><br>
+				<br> 제4회 영국의 프라이드 어워드 <br><br>
+			</td>
+		</tr>
+	</table>

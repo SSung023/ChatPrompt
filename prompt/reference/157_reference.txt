@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a white cat on a desk near a computer monitor'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '컴퓨터 모니터 근처 책상 위의 흰 고양이'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 16 <br><br>
+				<br> 16 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a white cat on a desk near a computer monitor'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '컴퓨터 모니터 근처 책상 위의 흰 고양이'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 20 <br><br>
+				<br> 20 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a air plane from france at a air port '. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '공항에서 프랑스에서 온 비행기'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a airplane on the runway with its steps down'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '계단이 내려가 활주로에 있는 비행기'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baby boy with a banana in his mouth'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '바나나를 입에 물고 있는 아기'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baby boy with a banana in his mouth'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '바나나를 입에 물고 있는 아기'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baby girl sleep on a couch with a stuffed animal in her hand'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '한 여자 아기가 손에 박제 동물을 안고 소파에서 잠을 잔다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a base ball player is throwing the ball'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '야구 선수가 공을 던지고 있다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 21 <br><br>
+				<br> 21 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player in action throwing a ball'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '공을 던지는 야구 선수'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player in action throwing a ball'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '공을 던지는 야구 선수'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 14 <br><br>
+				<br> 14 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player pitching a ball on a baseball field'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '야구장에서 공을 던지는 야구 선수'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 27 <br><br>
+				<br> 27 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player pitching a ball on a baseball field'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '야구장에서 공을 던지는 야구 선수'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player standing nest to a base on a field'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '필드의 베이스에 둥지를 틀고 있는 야구 선수'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 25 <br><br>
+				<br> 25 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player standing nest to a base on a field'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '필드의 베이스에 둥지를 틀고 있는 야구 선수'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball team meets at the pitcher's mound to talk'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '야구팀이 투수 마운드에서 만나 이야기를 나눕니다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> 26 <br><br>
+				<br> 26 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball team meets at the pitcher's mound to talk'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '야구팀이 투수 마운드에서 만나 이야기를 나눕니다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 16 <br><br>
+				<br> 16 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom area with a toilet, counter and blue walls'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '화장실, 카운터 및 파란색 벽이 있는 욕실 공간'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom area with a toilet, counter and blue walls'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '화장실, 카운터 및 파란색 벽이 있는 욕실 공간'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom stall with a toilet and the stall door open'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '화장실이 있고 화장실 문이 열려 있는 화장실 칸막이'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a toilet and a bath tub'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '화장실과 욕조가 있는 욕실'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a white toilet sitting next to a sink under a mirror'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '거울 아래 세면대 옆에 흰색 변기가 있는 욕실'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 33 <br><br>
+				<br> 33 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a white toilet sitting next to a sink under a mirror'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '거울 아래 세면대 옆에 흰색 변기가 있는 욕실'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with brick walls, a toilet and sink'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '벽돌 벽, 변기와 세면대가 있는 욕실'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful blond standing on a bed as a man lays in it'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '남자가 침대에 누워 있을 때 침대 위에 서 있는 아름다운 금발'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 25 <br><br>
+				<br> 25 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful blond standing on a bed as a man lays in it'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '남자가 침대에 누워 있을 때 침대 위에 서 있는 아름다운 금발'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful woman stirring a pot of cooking food with a spoon'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '요리하는 냄비를 숟가락으로 휘젓는 아름다운 여인'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 28 <br><br>
+				<br> 28 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful woman stirring a pot of cooking food with a spoon'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '요리하는 냄비를 숟가락으로 휘젓는 아름다운 여인'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful young woman hitting a tennis ball with a racquet'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '라켓으로 테니스 공을 치는 아름다운 젊은 여성'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 21 <br><br>
+				<br> 21 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautifully appointed bathroom with classic color and amenities'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '클래식한 색상과 어메니티를 갖춘 아름답게 꾸며진 욕실'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom with a bookcase and a double bed'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '책장과 더블 침대가 있는 침실'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 16 <br><br>
+				<br> 16 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bicycle is placed behind an open door'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '열린 문 뒤에 자전거가 놓여 있다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a big pot with broccoli and noodles in it sitting on a stove'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '브로콜리와 국수가 들어 있는 큰 냄비가 난로 위에 놓여 있다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 29 <br><br>
+				<br> 29 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of a bathroom window'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '화장실 창문의 흑백 사진'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of a bathroom window'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '화장실 창문의 흑백 사진'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 14 <br><br>
+				<br> 14 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of a man fixing another mans tie'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '한 남자가 다른 남자의 넥타이를 고쳐주는 흑백 사진'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 27 <br><br>
+				<br> 27 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of a man fixing another mans tie'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '한 남자가 다른 남자의 넥타이를 고쳐주는 흑백 사진'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of a rustic living room'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '소박한 거실의 흑백 사진'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 23 <br><br>
+				<br> 23 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat and a white dog lay on a couch'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '검은 고양이와 흰 개가 소파에 누워 있다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat looking out the window at a black bird'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '검은 새를 창밖으로 바라보는 검은 고양이'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 25 <br><br>
+				<br> 25 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat looking out the window at a black bird'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '검은 새를 창밖으로 바라보는 검은 고양이'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 15 <br><br>
+				<br> 15 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black motorcycle is parked some leaves dirt and trees'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '검은색 오토바이가 흙과 나무를 남기고 주차되어 있습니다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 29 <br><br>
+				<br> 29 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black motorcycle is parked some leaves dirt and trees'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '검은색 오토바이가 흙과 나무를 남기고 주차되어 있습니다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black train and orange train cars on tracks'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '트랙 위의 검은색 기차와 오렌지색 기차'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue bus driving down a road next to a lush green field'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '무성한 녹색 들판 옆 길을 달리는 파란 버스'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 27 <br><br>
+				<br> 27 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bowl of oranges, lemons and a single red pepper'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '오렌지 한 그릇, 레몬, 빨간 고추 한 개'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy biting into a hot dog with onion rings on a bun'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '빵에 양파 링을 얹은 핫도그를 물고 있는 소년'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy is holding a stacked identical pictures creating alter effects'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '소년이 변경 효과를 만드는 동일한 그림을 쌓아두고 있습니다.' 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 36 <br><br>
+				<br> 36 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy is holding a stacked identical pictures creating alter effects'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '소년이 변경 효과를 만드는 동일한 그림을 쌓아두고 있습니다.' 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy messily eating a powdered doughnut at a table'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '테이블에서 가루 도넛을 어지럽게 먹는 소년'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy on a snowboard at the top of a hill'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '언덕 꼭대기에서 스노보드를 타는 소년'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy on a snowboard at the top of a hill'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '언덕 꼭대기에서 스노보드를 타는 소년'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bride and groom on their cell phones'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '신랑 신부가 휴대전화로'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brightly colored, flowery tie is pulled from the closet'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '옷장에서 밝은 색의 꽃무늬 넥타이를 꺼냅니다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 31 <br><br>
+				<br> 31 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brightly colored, flowery tie is pulled from the closet'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '옷장에서 밝은 색의 꽃무늬 넥타이를 꺼냅니다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 16 <br><br>
+				<br> 16 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a broken blue umbrella lying on the street'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '거리에 놓여 있는 부서진 파란 우산'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown bear in the middle of grass with trees in the background'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '배경에 나무가 있는 잔디 한가운데에 있는 갈색 곰'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown horse is on the grass with two people'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '갈색 말이 두 사람과 함께 풀밭에 있다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of bananas are sitting on the stand'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '바나나 다발이 스탠드에 앉아 있습니다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of bottles are in the fridge'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '한 무리의 병이 냉장고에 있다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of different foods sitting in and on dishes on a table'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '탁자 위의 접시 안팎에 놓인 여러 가지 음식'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 31 <br><br>
+				<br> 31 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of scissors are on the table'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '가위 한 다발이 탁자 위에 있다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of scissors are on the table'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '가위 한 다발이 탁자 위에 있다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of scooters parked in rows together'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '일렬로 주차된 스쿠터 한 무리'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 23 <br><br>
+				<br> 23 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of stuff iis on a kitchen counter'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '부엌 조리대 위에 물건이 잔뜩 있다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of vases sitting in a circle'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '원 안에 놓여 있는 꽃병 다발'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cake with a frosting baseball bat and catchers mitt'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '프로스팅 야구 방망이와 포수 미트가 있는 케이크'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 29 <br><br>
+				<br> 29 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cake with a frosting baseball bat and catchers mitt'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '프로스팅 야구 방망이와 포수 미트가 있는 케이크'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 15 <br><br>
+				<br> 15 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a car sitting on a train carriage on the tracks'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '선로 위의 기차 객차에 앉아 있는 자동차'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 23 <br><br>
+				<br> 23 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat and a person in the background'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '고양이와 배경의 사람'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat holding a persons hand as they use a mouse'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '마우스를 사용하면서 사람의 손을 잡고 있는 고양이'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 16 <br><br>
+				<br> 16 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting down outside next to a bike'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '바깥에서 자전거 옆에 앉아 있는 고양이'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting down outside next to a bike'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '바깥에서 자전거 옆에 앉아 있는 고양이'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 14 <br><br>
+				<br> 14 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat that is laying down on a couch'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '소파에 누워 있는 고양이'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat that is sitting next to a backpack'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '배낭 옆에 앉아 있는 고양이'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 21 <br><br>
+				<br> 21 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat with its head in a small purse'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '작은 지갑에 머리를 넣은 고양이'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a ceramic figurine featuring a teddy bear playing dress-up'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '옷 입히기 놀이를 하는 테디베어가 등장하는 도자기 조각상'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 29 <br><br>
+				<br> 29 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a ceramic figurine featuring a teddy bear playing dress-up'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '옷 입히기 놀이를 하는 테디베어가 등장하는 도자기 조각상'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 20 <br><br>
+				<br> 20 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a city street filled with lots of traffic driving under traffic lights'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '신호등 아래에서 운전하는 많은 차량으로 가득 찬 도시 거리'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 41 <br><br>
+				<br> 41 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a city street with a lot of people riding scooters under strung decorations'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '많은 사람들이 매달린 장식 아래에서 스쿠터를 타는 도시의 거리'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 39 <br><br>
+				<br> 39 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a city street with a lot of people riding scooters under strung decorations'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '많은 사람들이 매달린 장식 아래에서 스쿠터를 타는 도시의 거리'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clean bathroom with toilet and shower is completely white'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '화장실과 샤워기가 있는 깨끗한 욕실은 완전히 하얗다'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock tower next to a building with a painted mural on it'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '벽화가 그려진 건물 옆에 있는 시계탑'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 28 <br><br>
+				<br> 28 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock tower next to a building with a painted mural on it'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '벽화가 그려진 건물 옆에 있는 시계탑'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a banana on a bed'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: 'a close up of a banana on a bed'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a banana on a bed'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: 'a close up of a banana on a bed'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a monkey eating a banana'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '바나나를 먹는 원숭이의 클로즈업'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 15 <br><br>
+				<br> 15 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a person wearing a shirt and tie'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '셔츠와 넥타이를 매고 있는 사람의 클로즈업'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 20 <br><br>
+				<br> 20 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a street sign with people walking near by'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '근처에서 걷는 사람들이 있는 거리 표지판의 클로즈업'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 27 <br><br>
+				<br> 27 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close-up of a cow's head with a ring through its nose'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '코에 고리가 있는 소 머리의 클로즈업'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a colorful arrangement of chills and lemons are in a basket'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '오한과 레몬의 다채로운 배열은 바구니에 있습니다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 30 <br><br>
+				<br> 30 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couch and a table in a small room'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '작은 방에 있는 소파와 탁자'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of brown teddy bears standing around drums'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '드럼 주위에 서 있는 두 마리의 갈색 테디베어'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 28 <br><br>
+				<br> 28 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of brown teddy bears standing around drums'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '드럼 주위에 서 있는 두 마리의 갈색 테디베어'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> 15 <br><br>
+				<br> 15 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of kids holding nintendo wii controllers while standing in a room'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '방에 서서 nintendo wii 컨트롤러를 들고 있는 두 명의 아이들'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of kids standing on top of a grass covered field'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '풀로 뒤덮인 들판 위에 서 있는 두 아이'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 28 <br><br>
+				<br> 28 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of road signs with a white work truck'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '흰색 작업 트럭이 있는 도로 표지판 두 개'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 23 <br><br>
+				<br> 23 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of yellow and silver airplanes sitting on top of a field'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '들판 위에 앉아 있는 노란색과 은색 비행기 두 대'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 31 <br><br>
+				<br> 31 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of yellow and silver airplanes sitting on top of a field'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '들판 위에 앉아 있는 노란색과 은색 비행기 두 대'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow standing in a foggy grass field'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '안개 낀 풀밭에 서 있는 소'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow standing next to a fence with cows'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '소와 함께 울타리 옆에 서 있는 소'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 21 <br><br>
+				<br> 21 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow standing next to a fence with cows'. Count the number of vowels in the given sentence. <br><br>
+				<br> 문장: '소와 함께 울타리 옆에 서 있는 소'. 주어진 문장에서 모음의 수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow standing right in front of the camera and looking at it'. Count the number of consonants in the given sentence. <br><br>
+				<br> 문장: '소가 카메라 바로 앞에 서서 바라보고 있다'. 주어진 문장에서 자음의 수를 세십시오. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 31 <br><br>
+				<br> 31 <br><br>
+			</td>
+		</tr>
+	</table>

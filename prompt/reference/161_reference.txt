@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'two gray birds standing in a green field'. How many words contain the letter 'a' in the sentence. <br><br>
+				<br> 문장: '푸른 들판에 서 있는 두 마리의 회색 새'. 문장에서 문자 'a'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'produce on white table cloth including potatoes and strawberries'. How many words contain the letter 'v' in the sentence. <br><br>
+				<br> 문장 : '감자, 딸기 등 흰 식탁보에 농산물'. 문장에서 문자 'v'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball game showing a player taking a lead off of first base'. How many words contain the letter 'y' in the sentence. <br><br>
+				<br> 문장: '1루에서 선두를 달리는 선수를 보여주는 야구 경기'. 문장에 문자 'y'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player gets ready to strike a ball'. How many words contain the letter 'y' in the sentence. <br><br>
+				<br> 문장: '야구 선수가 공을 칠 준비를 한다'. 문장에 문자 'y'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player steps up to the plate'. How many words contain the letter 'y' in the sentence. <br><br>
+				<br> 문장: '야구 선수가 타석에 오른다'. 문장에 문자 'y'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom sink under a large mirror next to a yellow wall'. How many words contain the letter 'y' in the sentence. <br><br>
+				<br> 문장: '노란색 벽 옆 큰 거울 아래 세면대'. 문장에 문자 'y'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a fancy toilet in the corner'. How many words contain the letter 'j' in the sentence. <br><br>
+				<br> 문장: '구석에 멋진 변기가 있는 화장실'. 문장에서 문자 'j'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a tub a sink and a window'. How many words contain the letter 't' in the sentence. <br><br>
+				<br> 문장: '욕조와 세면대, 창문이 있는 욕실'. 문장에서 문자 't'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a batter sings his bat at a baseball game'. How many words contain the letter 'h' in the sentence. <br><br>
+				<br> 문장: '타자는 야구 경기에서 배트를 노래한다'. 문장에서 문자 'h'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beautiful woman holding a pink frosted cake'. How many words contain the letter 'q' in the sentence. <br><br>
+				<br> 문장: '핑크 프로스트 케이크를 들고 있는 아름다운 여성'. 문장에서 문자 'q'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom complete with a bed dresser and ceiling fan'. How many words contain the letter 'm' in the sentence. <br><br>
+				<br> 문장: '침대 서랍장과 천장 선풍기가 있는 침실'. 문장에서 문자 'm'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bird flying over the water in the ocean shore'. How many words contain the letter 'o' in the sentence. <br><br>
+				<br> 문장: '바닷가에서 물 위를 나는 새'. 문장에서 문자 'o'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white dog sleeps in front of a blue door'. How many words contain the letter 'w' in the sentence. <br><br>
+				<br> 문장: '검은색과 흰색의 개가 파란 문 앞에서 잔다'. 문장에서 문자 'w'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white image of the baseball team'. How many words contain the letter 'w' in the sentence. <br><br>
+				<br> 문장: '야구팀의 흑백 이미지'. 문장에서 문자 'w'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of a man fixing another mans tie'. How many words contain the letter 'x' in the sentence. <br><br>
+				<br> 문장: '한 남자가 다른 남자의 넥타이를 고쳐주는 흑백 사진'. 문장에 문자 'x'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black bear sits on a stump behind black barbed wire'. How many words contain the letter 'p' in the sentence. <br><br>
+				<br> 문장: '검은 철조망 뒤의 그루터기에 흑곰이 앉아 있다'. 문장에서 문자 'p'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue and yellow double decker bus next to a building'. How many words contain the letter 'r' in the sentence. <br><br>
+				<br> 문장: '건물 옆에 있는 파란색과 노란색의 2층 버스'. 문장에 문자 'r'이 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue bicycle parked by a metal gate'. How many words contain the letter 'a' in the sentence. <br><br>
+				<br> 문장: '금속 문 옆에 주차된 파란색 자전거'. 문장에서 문자 'a'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue double decked bus passing by some trees'. How many words contain the letter 'k' in the sentence. <br><br>
+				<br> 문장: '어떤 나무들 사이를 지나가는 파란 2층 버스'. 문장에서 문자 'k'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bowl with apples and a bowl with bananas'. How many words contain the letter 'n' in the sentence. <br><br>
+				<br> 문장: '사과가 담긴 그릇과 바나나가 담긴 그릇'. 문장에서 문자 'n'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy messily eating a powdered doughnut at a table'. How many words contain the letter 'n' in the sentence. <br><br>
+				<br> 문장: '테이블에서 가루 도넛을 어지럽게 먹는 소년'. 문장에서 문자 'n'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brightly colored bird sitting on a tree branch'. How many words contain the letter 'c' in the sentence. <br><br>
+				<br> 문장: '나뭇가지에 앉아 있는 밝은 색의 새'. 문장에서 문자 'c'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown cat sitting on a white bathroom vanity'. How many words contain the letter 'n' in the sentence. <br><br>
+				<br> 문장: '하얀 욕실 세면대 위에 앉아 있는 갈색 고양이'. 문장에서 문자 'n'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown horse is running in the dirt'. How many words contain the letter 'c' in the sentence. <br><br>
+				<br> 문장: '갈색 말이 흙에서 달리고 있다'. 문장에서 문자 'c'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of sheep are standing in a pin'. How many words contain the letter 'b' in the sentence. <br><br>
+				<br> 문장: '양 무리가 핀에 서 있다'. 문장에서 문자 'b'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a camera some buildings some men and a motorcycle'. How many words contain the letter 't' in the sentence. <br><br>
+				<br> 문장: '카메라 어떤 건물 어떤 남자와 오토바이'. 문장에서 문자 't'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat gives itself a bath on the hood of a car'. How many words contain the letter 'y' in the sentence. <br><br>
+				<br> 문장: '고양이는 차 보닛에서 목욕을 한다'. 문장에 문자 'y'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat is hiding under a bed beside a throw rug'. How many words contain the letter 'o' in the sentence. <br><br>
+				<br> 문장: '고양이가 깔개 옆 침대 밑에 숨어 있다'. 문장에서 문자 'o'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat is sitting in an umbrella which sits on a rug'. How many words contain the letter 'e' in the sentence. <br><br>
+				<br> 문장: '양탄자 위에 놓인 우산 속에 고양이가 앉아 있다'. 문장에서 문자 'e'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat laying on top of a brick bucket'. How many words contain the letter 'h' in the sentence. <br><br>
+				<br> 문장: '벽돌 양동이 위에 누워 있는 고양이'. 문장에서 문자 'h'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting on a wooden chair look at the camera'. How many words contain the letter 'd' in the sentence. <br><br>
+				<br> 문장: '나무 의자에 앉아 있는 고양이가 카메라를 쳐다본다'. 문장에서 문자 'd'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat with a collar sitting by a woman'. How many words contain the letter 'm' in the sentence. <br><br>
+				<br> 문장: '여자 옆에 앉아 있는 목줄 달린 고양이'. 문장에서 문자 'm'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a chef cooking in a kitchen with kitchen accessories'. How many words contain the letter 'w' in the sentence. <br><br>
+				<br> 문장: '주방 소품으로 주방에서 요리하는 요리사'. 문장에서 문자 'w'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child is eating out of a cup with a spoon'. How many words contain the letter 'l' in the sentence. <br><br>
+				<br> 문장: '아이가 숟가락으로 컵을 떠먹고 있다'. 문장에서 문자 'l'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock set in a wall with many windows'. How many words contain the letter 'l' in the sentence. <br><br>
+				<br> 문장: '창문이 많은 벽에 설치된 시계'. 문장에서 문자 'l'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock tower near a busy city street'. How many words contain the letter 'a' in the sentence. <br><br>
+				<br> 문장: '분주한 도시 거리 근처의 시계탑'. 문장에서 문자 'a'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close shot of a lot of broccoli potatoes and apples'. How many words contain the letter 'q' in the sentence. <br><br>
+				<br> 문장: '많은 브로콜리 감자와 사과의 클로즈 샷'. 문장에서 문자 'q'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a crosswalk sign in the middle of the road'. How many words contain the letter 'p' in the sentence. <br><br>
+				<br> 문장: '길 한복판에 있는 횡단보도 표지판의 클로즈업'. 문장에서 문자 'p'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a god laying on a remote'. How many words contain the letter 'v' in the sentence. <br><br>
+				<br> 문장: '리모콘 위에 누워 있는 신의 클로즈업'. 문장에서 문자 'v'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of two containers of food with fruits'. How many words contain the letter 'z' in the sentence. <br><br>
+				<br> 문장: '과일을 담은 음식 두 용기의 클로즈업'. 문장에 문자 'z'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of people carrying luggage through the snow'. How many words contain the letter 'u' in the sentence. <br><br>
+				<br> 문장: '눈 속에서 짐을 나르는 두 사람'. 문장에 문자 'u'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of people riding skis and a snowboard'. How many words contain the letter 'r' in the sentence. <br><br>
+				<br> 문장: '스키와 스노보드를 타는 두 사람'. 문장에 문자 'r'이 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of people with backpacks riding bicycles down a road'. How many words contain the letter 'h' in the sentence. <br><br>
+				<br> 문장: '가방을 메고 자전거를 타고 길을 따라가는 두 사람'. 문장에서 문자 'h'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of pictures of a cat sleeping on a hair brush'. How many words contain the letter 'l' in the sentence. <br><br>
+				<br> 문장: '머리 빗 위에서 잠든 고양이 사진 몇 장'. 문장에서 문자 'l'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of zebra standing next to each other on a field'. How many words contain the letter 'l' in the sentence. <br><br>
+				<br> 문장: '들판에 서로 옆에 서 있는 얼룩말 커플'. 문장에서 문자 'l'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of zebra standing next to each other on a field'. How many words contain the letter 's' in the sentence. <br><br>
+				<br> 문장: '들판에 서로 옆에 서 있는 얼룩말 커플'. 문장에서 문자 's'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple waling down a path in the rain covered by an umbrella'. How many words contain the letter 'j' in the sentence. <br><br>
+				<br> 문장: '우산에 싸인 빗속에서 길을 걷는 커플'. 문장에서 문자 'j'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow standing in the grass with a tag in its ear'. How many words contain the letter 'm' in the sentence. <br><br>
+				<br> 문장: '귀에 꼬리표를 달고 풀밭에 서 있는 소'. 문장에서 문자 'm'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a crowded baseball stadium with baseball players on the field'. How many words contain the letter 'y' in the sentence. <br><br>
+				<br> 문장: '필드에 야구 선수들로 붐비는 야구 경기장'. 문장에 문자 'y'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a delicious ham set in the kitchen on the stove'. How many words contain the letter 'e' in the sentence. <br><br>
+				<br> 문장: '주방의 난로 위의 맛있는 햄 세트'. 문장에서 문자 'e'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a display of a sandwich and a pickle on a plate'. How many words contain the letter 'f' in the sentence. <br><br>
+				<br> 문장: '접시 위의 샌드위치와 피클 디스플레이'. 문장에 문자 'f'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog and a cat laying on a blanket together'. How many words contain the letter 'g' in the sentence. <br><br>
+				<br> 문장: '개와 고양이가 함께 이불 위에 누워 있다'. 문장에서 문자 'g'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a family standing on a beach looking over the water while one sets up a large umbrella'. How many words contain the letter 'r' in the sentence. <br><br>
+				<br> 문장: '커다란 우산을 펴고 바다를 바라보며 바닷가에 서 있는 가족'. 문장에 문자 'r'이 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fire hydrant wrapped in red white and blue ribbon outside a beauty salon'. How many words contain the letter 'c' in the sentence. <br><br>
+				<br> 문장: '미용실 밖에 있는 빨간색 흰색과 파란색 리본으로 감싼 소화전'. 문장에서 문자 'c'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fishing boat moving through the water of a harbor'. How many words contain the letter 'e' in the sentence. <br><br>
+				<br> 문장 : '항구의 물을 통해 이동하는 어선'. 문장에서 문자 'e'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe grazing in pen next to a tree trunk'. How many words contain the letter 'v' in the sentence. <br><br>
+				<br> 문장: '나무줄기 옆 펜에서 풀을 뜯고 있는 기린'. 문장에서 문자 'v'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a girl laying on a couch with a bird on her head'. How many words contain the letter 'v' in the sentence. <br><br>
+				<br> 문장: '머리에 새를 이고 소파에 누워 있는 소녀'. 문장에서 문자 'v'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of attractive young women sitting at a table next to a man'. How many words contain the letter 'm' in the sentence. <br><br>
+				<br> 문장: '남자 옆 테이블에 앉아 있는 매력적인 젊은 여성 그룹'. 문장에서 문자 'm'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of cattle grazing in a field near a road'. How many words contain the letter 'l' in the sentence. <br><br>
+				<br> 문장: '도로 근처 들판에서 풀을 뜯고 있는 소 떼'. 문장에서 문자 'l'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of giraffes standing in a grassy area next to a pond'. How many words contain the letter 'k' in the sentence. <br><br>
+				<br> 문장: '연못 옆 잔디밭에 서 있는 기린 떼'. 문장에서 문자 'k'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of oranges stacked on top each other'. How many words contain the letter 'a' in the sentence. <br><br>
+				<br> 문장: '서로 위에 쌓인 오렌지 그룹'. 문장에서 문자 'a'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people dressed professionally outside'. How many words contain the letter 'j' in the sentence. <br><br>
+				<br> 문장: '밖에서 전문적으로 옷을 입은 사람들의 그룹'. 문장에서 문자 'j'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people skiing down the case of a ski slope'. How many words contain the letter 'r' in the sentence. <br><br>
+				<br> 문장: '스키 슬로프에서 스키를 타고 내려가는 사람들의 무리'. 문장에 문자 'r'이 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people waiting along side a train track for a train'. How many words contain the letter 'f' in the sentence. <br><br>
+				<br> 문장: '철로 옆에서 기차를 기다리는 사람들'. 문장에 문자 'f'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of skiers practice going down a small hill'. How many words contain the letter 'i' in the sentence. <br><br>
+				<br> 문장: '한 무리의 스키어들이 작은 언덕을 내려가는 연습을 한다'. 문장에서 문자 'i'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of trucks some carrying sheds and houses are lined up'. How many words contain the letter 'z' in the sentence. <br><br>
+				<br> 문장: '창고와 집을 나르는 트럭 무리가 줄지어 서 있다'. 문장에 문자 'z'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of zebras that is standing in the grass'. How many words contain the letter 'l' in the sentence. <br><br>
+				<br> 문장: '풀밭에 서 있는 얼룩말 무리'. 문장에서 문자 'l'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a herd of sheep moving with a group of people in the background'. How many words contain the letter 'e' in the sentence. <br><br>
+				<br> 문장: '뒤에 한 무리의 사람들과 함께 움직이는 양 떼'. 문장에서 문자 'e'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a hot dog on a plate with chips'. How many words contain the letter 'n' in the sentence. <br><br>
+				<br> 문장: '칩이 있는 접시 위의 핫도그'. 문장에서 문자 'n'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kid standing in front of a batch of glazed donuts'. How many words contain the letter 's' in the sentence. <br><br>
+				<br> 문장: '글레이즈드 도넛 앞에 서 있는 아이'. 문장에서 문자 's'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kid with a bat in their hand swinging at a ball on top of a red and white fire hydrant'. How many words contain the letter 'x' in the sentence. <br><br>
+				<br> 문장: '손에 방망이를 들고 빨간색과 흰색 소화전 위에서 공을 휘두르는 아이'. 문장에 문자 'x'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lady and a man on a motorcycle'. How many words contain the letter 'o' in the sentence. <br><br>
+				<br> 문장: '오토바이를 탄 여성과 남성'. 문장에서 문자 'o'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large commercial plane with a flower on the tail'. How many words contain the letter 'l' in the sentence. <br><br>
+				<br> 문장: '꼬리에 꽃이 달린 대형 상업용 비행기'. 문장에서 문자 'l'을 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large delta jetliner sitting on top of an airport runway'. How many words contain the letter 'e' in the sentence. <br><br>
+				<br> 문장: '공항 활주로 위에 앉아 있는 대형 델타 제트 여객기'. 문장에서 문자 'e'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large square pizza sitting on top of a wooden table'. How many words contain the letter 'i' in the sentence. <br><br>
+				<br> 문장: '나무 탁자 위에 놓인 커다란 네모난 피자'. 문장에서 문자 'i'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a larger dog and a smaller dog pull at a frisbee'. How many words contain the letter 'o' in the sentence. <br><br>
+				<br> 문장: '큰 개와 작은 개가 프리스비를 잡아당긴다'. 문장에서 문자 'o'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a little boy showing a young girl how to balance herself on a skate board'. How many words contain the letter 'e' in the sentence. <br><br>
+				<br> 문장: '어린 소녀에게 스케이트 보드 위에서 균형을 잡는 방법을 보여주는 어린 소년'. 문장에서 문자 'e'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a little giraffe standing and staring at something'. How many words contain the letter 'k' in the sentence. <br><br>
+				<br> 문장: '서서 무언가를 응시하는 작은 기린'. 문장에서 문자 'k'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lone cow is looking at the camera in the middle of the field'. How many words contain the letter 'w' in the sentence. <br><br>
+				<br> 문장: '들판 한가운데서 외로운 소가 카메라를 보고 있다'. 문장에서 문자 'w'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lone zebra standing in a dirt field'. How many words contain the letter 'k' in the sentence. <br><br>
+				<br> 문장: '흙밭에 서 있는 외로운 얼룩말'. 문장에서 문자 'k'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and a small kid play a video game'. How many words contain the letter 'v' in the sentence. <br><br>
+				<br> 문장: '한 남자와 작은 아이가 비디오 게임을 한다'. 문장에서 문자 'v'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and two boys with a dog on a motorcycle and side cart'. How many words contain the letter 'u' in the sentence. <br><br>
+				<br> 문장: '오토바이와 사이드 카트에 개를 탄 남자와 두 소년'. 문장에 문자 'u'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man coming out of a bathroom standing near a woman brushing her teeth'. How many words contain the letter 'w' in the sentence. <br><br>
+				<br> 문장: '화장실에서 나오는 한 남자가 이를 닦는 여자 옆에 서 있다'. 문장에서 문자 'w'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man flying through the air while riding a skateboard'. How many words contain the letter 'p' in the sentence. <br><br>
+				<br> 문장: '스케이트보드를 타면서 공중을 나는 남자'. 문장에서 문자 'p'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding a long piece of bread with melted cheese on it'. How many words contain the letter 'h' in the sentence. <br><br>
+				<br> 문장: '치즈가 녹은 긴 빵 조각을 들고 있는 남자'. 문장에서 문자 'h'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding a tennis racquet on top of a tennis court'. How many words contain the letter 'v' in the sentence. <br><br>
+				<br> 문장: '테니스 코트 위에서 테니스 라켓을 들고 있는 남자'. 문장에서 문자 'v'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a leans forward and ties a bow tie'. How many words contain the letter 'u' in the sentence. <br><br>
+				<br> 문장: '남자가 앞으로 몸을 기울여 나비넥타이를 매다'. 문장에 문자 'u'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man is riding on a surfboard at the beach'. How many words contain the letter 'a' in the sentence. <br><br>
+				<br> 문장: '한 남자가 해변에서 서핑보드를 타고 있다'. 문장에서 문자 'a'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man is skiing on a steep snowy mountain'. How many words contain the letter 's' in the sentence. <br><br>
+				<br> 문장: '한 남자가 가파른 눈 덮인 산에서 스키를 타고 있다'. 문장에서 문자 's'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man on a baseball field swinging a bat'. How many words contain the letter 's' in the sentence. <br><br>
+				<br> 문장: '야구장에서 방망이를 휘두르는 남자'. 문장에서 문자 's'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man on a bicycle transporting many branches of green bananas'. How many words contain the letter 'x' in the sentence. <br><br>
+				<br> 문장: '많은 녹색 바나나 가지를 운반하는 자전거를 탄 남자'. 문장에 문자 'x'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man on a skateboard jumping onto a concrete bench'. How many words contain the letter 'i' in the sentence. <br><br>
+				<br> 문장: '콘크리트 벤치 위로 점프하는 스케이트보드 위의 남자'. 문장에서 문자 'i'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man on skis walking down a runway'. How many words contain the letter 'i' in the sentence. <br><br>
+				<br> 문장: '스키를 타고 활주로를 걷고 있는 남자'. 문장에서 문자 'i'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding a surfboard on top of a wave'. How many words contain the letter 'd' in the sentence. <br><br>
+				<br> 문장: '파도 위에서 서핑보드를 타는 남자'. 문장에서 문자 'd'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding a wave on top of a surfboard'. How many words contain the letter 'x' in the sentence. <br><br>
+				<br> 문장: '서프보드 위에서 파도를 타는 남자'. 문장에 문자 'x'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding skis down a snow covered slope'. How many words contain the letter 'j' in the sentence. <br><br>
+				<br> 문장: '눈 덮인 슬로프에서 스키를 타는 남자'. 문장에서 문자 'j'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding skis down a snow covered slope'. How many words contain the letter 'x' in the sentence. <br><br>
+				<br> 문장: '눈 덮인 슬로프에서 스키를 타는 남자'. 문장에 문자 'x'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding skis on top of a snow covered slope'. How many words contain the letter 't' in the sentence. <br><br>
+				<br> 문장: '눈 덮인 슬로프 위에서 스키를 타는 남자'. 문장에서 문자 't'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man riding skis on top of a snow covered slope'. How many words contain the letter 'z' in the sentence. <br><br>
+				<br> 문장: '눈 덮인 슬로프 위에서 스키를 타는 남자'. 문장에 문자 'z'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man sits in a chair drinking out of a glass'. How many words contain the letter 'f' in the sentence. <br><br>
+				<br> 문장: '한 남자가 의자에 앉아 유리잔으로 술을 마시고 있다'. 문장에 문자 'f'가 포함된 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man sitting on a bench in front of a bunch of pigeons'. How many words contain the letter 's' in the sentence. <br><br>
+				<br> 문장: '비둘기 떼 앞 벤치에 앉아 있는 남자'. 문장에서 문자 's'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man standing on a field while holding a red frisbee'. How many words contain the letter 'v' in the sentence. <br><br>
+				<br> 문장: '빨간 프리스비를 들고 들판에 서 있는 남자'. 문장에서 문자 'v'를 포함하는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 0 <br><br>
+				<br> 0 <br><br>
+			</td>
+		</tr>
+	</table>

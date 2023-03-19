@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 10/05/1847, input_format=dd/mm/yyyy <br><br>
+				<br> 1847년 10월 5일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 05/10/1847 <br><br>
+				<br> 05/10/1847 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/18/1602, input_format=mm/dd/yyyy <br><br>
+				<br> 1602년 2월 18일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 18/02/1602 <br><br>
+				<br> 18/02/1602 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/06/1886, input_format=dd/mm/yyyy <br><br>
+				<br> 1886년 1월 6일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 06/01/1886 <br><br>
+				<br> 06/01/1886 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/06/1964, input_format=mm/dd/yyyy <br><br>
+				<br> 1964년 1월 6일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 06/01/1964 <br><br>
+				<br> 06/01/1964 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/07/1673, input_format=mm/dd/yyyy <br><br>
+				<br> 1673년 1월 7일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> 07/01/1673 <br><br>
+				<br> 07/01/1673 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/09/1723, input_format=dd/mm/yyyy <br><br>
+				<br> 1723년 1월 9일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 09/01/1723 <br><br>
+				<br> 09/01/1723 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/10/1668, input_format=mm/dd/yyyy <br><br>
+				<br> 1668년 1월 10일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 10/01/1668 <br><br>
+				<br> 10/01/1668 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/11/1868, input_format=mm/dd/yyyy <br><br>
+				<br> 1868년 1월 11일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 11/01/1868 <br><br>
+				<br> 11/01/1868 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/12/1680, input_format=mm/dd/yyyy <br><br>
+				<br> 1680년 1월 12일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 12/01/1680 <br><br>
+				<br> 12/01/1680 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/12/1894, input_format=mm/dd/yyyy <br><br>
+				<br> 1894년 1월 12일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 12/01/1894 <br><br>
+				<br> 12/01/1894 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/15/1758, input_format=mm/dd/yyyy <br><br>
+				<br> 1758년 1월 15일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 15/01/1758 <br><br>
+				<br> 15/01/1758 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 01/29/1618, input_format=mm/dd/yyyy <br><br>
+				<br> 1618년 1월 29일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> 29/01/1618 <br><br>
+				<br> 29/01/1618 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/02/1621, input_format=dd/mm/yyyy <br><br>
+				<br> 1621년 2월 2일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 02/02/1621 <br><br>
+				<br> 02/02/1621 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/03/1727, input_format=dd/mm/yyyy <br><br>
+				<br> 1727년 2월 3일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 03/02/1727 <br><br>
+				<br> 03/02/1727 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/03/1869, input_format=dd/mm/yyyy <br><br>
+				<br> 1869년 2월 3일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> 03/02/1869 <br><br>
+				<br> 03/02/1869 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/06/1633, input_format=mm/dd/yyyy <br><br>
+				<br> 1633년 2월 6일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 06/02/1633 <br><br>
+				<br> 06/02/1633 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/07/1660, input_format=mm/dd/yyyy <br><br>
+				<br> 1660년 2월 7일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> 07/02/1660 <br><br>
+				<br> 07/02/1660 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/07/1740, input_format=mm/dd/yyyy <br><br>
+				<br> 1740년 2월 7일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 07/02/1740 <br><br>
+				<br> 07/02/1740 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/11/1610, input_format=dd/mm/yyyy <br><br>
+				<br> 1610년 2월 11일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 11/02/1610 <br><br>
+				<br> 11/02/1610 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/12/1622, input_format=dd/mm/yyyy <br><br>
+				<br> 1622년 2월 12일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 12/02/1622 <br><br>
+				<br> 12/02/1622 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/12/1630, input_format=mm/dd/yyyy <br><br>
+				<br> 1630년 2월 12일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 12/02/1630 <br><br>
+				<br> 12/02/1630 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/13/1985, input_format=mm/dd/yyyy <br><br>
+				<br> 1985년 2월 13일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 13/02/1985 <br><br>
+				<br> 13/02/1985 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/18/1935, input_format=mm/dd/yyyy <br><br>
+				<br> 1935년 2월 18일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 18/02/1935 <br><br>
+				<br> 18/02/1935 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/20/1893, input_format=mm/dd/yyyy <br><br>
+				<br> 1893년 2월 20일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 20/02/1893 <br><br>
+				<br> 20/02/1893 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/23/1608, input_format=mm/dd/yyyy <br><br>
+				<br> 1608년 2월 23일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 23/02/1608 <br><br>
+				<br> 23/02/1608 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/23/1825, input_format=mm/dd/yyyy <br><br>
+				<br> 1825년 2월 23일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 23/02/1825 <br><br>
+				<br> 23/02/1825 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/25/1638, input_format=mm/dd/yyyy <br><br>
+				<br> 1638년 2월 25일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 25/02/1638 <br><br>
+				<br> 25/02/1638 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 02/29/1652, input_format=mm/dd/yyyy <br><br>
+				<br> 1652년 2월 29일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 29/02/1652 <br><br>
+				<br> 29/02/1652 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 03/02/2015, input_format=dd/mm/yyyy <br><br>
+				<br> 2015년 3월 2일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 02/03/2015 <br><br>
+				<br> 02/03/2015 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 03/07/1937, input_format=dd/mm/yyyy <br><br>
+				<br> 1937년 3월 7일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 07/03/1937 <br><br>
+				<br> 07/03/1937 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 03/11/1954, input_format=mm/dd/yyyy <br><br>
+				<br> 1954년 3월 11일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 11/03/1954 <br><br>
+				<br> 11/03/1954 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 03/12/1794, input_format=mm/dd/yyyy <br><br>
+				<br> 1794년 3월 12일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 12/03/1794 <br><br>
+				<br> 12/03/1794 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 03/13/1991, input_format=mm/dd/yyyy <br><br>
+				<br> 1991년 3월 13일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 13/03/1991 <br><br>
+				<br> 13/03/1991 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 03/15/1977, input_format=mm/dd/yyyy <br><br>
+				<br> 1977년 3월 15일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 15/03/1977 <br><br>
+				<br> 15/03/1977 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 03/26/1836, input_format=mm/dd/yyyy <br><br>
+				<br> 1836년 3월 26일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 26/03/1836 <br><br>
+				<br> 26/03/1836 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/02/1792, input_format=dd/mm/yyyy <br><br>
+				<br> 1792년 4월 2일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 02/04/1792 <br><br>
+				<br> 02/04/1792 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/03/1719, input_format=mm/dd/yyyy <br><br>
+				<br> 1719년 4월 3일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 03/04/1719 <br><br>
+				<br> 03/04/1719 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/05/1749, input_format=dd/mm/yyyy <br><br>
+				<br> 1749년 4월 5일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 05/04/1749 <br><br>
+				<br> 05/04/1749 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/05/1894, input_format=mm/dd/yyyy <br><br>
+				<br> 1894년 4월 5일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 05/04/1894 <br><br>
+				<br> 05/04/1894 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/06/1711, input_format=dd/mm/yyyy <br><br>
+				<br> 1711년 4월 6일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 06/04/1711 <br><br>
+				<br> 06/04/1711 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/12/1748, input_format=dd/mm/yyyy <br><br>
+				<br> 1748년 4월 12일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 12/04/1748 <br><br>
+				<br> 12/04/1748 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/13/1824, input_format=mm/dd/yyyy <br><br>
+				<br> 1824년 4월 13일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 13/04/1824 <br><br>
+				<br> 13/04/1824 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/17/1955, input_format=mm/dd/yyyy <br><br>
+				<br> 1955년 4월 17일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 17/04/1955 <br><br>
+				<br> 17/04/1955 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/22/1805, input_format=mm/dd/yyyy <br><br>
+				<br> 1805년 4월 22일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 22/04/1805 <br><br>
+				<br> 22/04/1805 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/24/1708, input_format=mm/dd/yyyy <br><br>
+				<br> 1708년 4월 24일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 24/04/1708 <br><br>
+				<br> 24/04/1708 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/25/1796, input_format=mm/dd/yyyy <br><br>
+				<br> 1796년 4월 25일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 25/04/1796 <br><br>
+				<br> 25/04/1796 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/25/1845, input_format=mm/dd/yyyy <br><br>
+				<br> 1845년 4월 25일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 25/04/1845 <br><br>
+				<br> 25/04/1845 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/26/1748, input_format=mm/dd/yyyy <br><br>
+				<br> 1748년 4월 26일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 26/04/1748 <br><br>
+				<br> 26/04/1748 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/26/1907, input_format=mm/dd/yyyy <br><br>
+				<br> 1907년 4월 26일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 26/04/1907 <br><br>
+				<br> 26/04/1907 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 04/30/1744, input_format=mm/dd/yyyy <br><br>
+				<br> 1744년 4월 30일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 30/04/1744 <br><br>
+				<br> 30/04/1744 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 05/03/2006, input_format=dd/mm/yyyy <br><br>
+				<br> 2006년 5월 3일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 03/05/2006 <br><br>
+				<br> 03/05/2006 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 05/04/1855, input_format=mm/dd/yyyy <br><br>
+				<br> 1855년 5월 4일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 04/05/1855 <br><br>
+				<br> 04/05/1855 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 05/08/1891, input_format=mm/dd/yyyy <br><br>
+				<br> 1891년 5월 8일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 08/05/1891 <br><br>
+				<br> 08/05/1891 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 05/08/1993, input_format=mm/dd/yyyy <br><br>
+				<br> 1993년 5월 8일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 08/05/1993 <br><br>
+				<br> 08/05/1993 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 05/13/1838, input_format=mm/dd/yyyy <br><br>
+				<br> 1838년 5월 13일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 13/05/1838 <br><br>
+				<br> 13/05/1838 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 05/15/1874, input_format=mm/dd/yyyy <br><br>
+				<br> 1874년 5월 15일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 15/05/1874 <br><br>
+				<br> 15/05/1874 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 05/23/1758, input_format=mm/dd/yyyy <br><br>
+				<br> 1758년 5월 23일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 23/05/1758 <br><br>
+				<br> 23/05/1758 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/02/1852, input_format=mm/dd/yyyy <br><br>
+				<br> 1852년 6월 2일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 02/06/1852 <br><br>
+				<br> 02/06/1852 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/02/1897, input_format=mm/dd/yyyy <br><br>
+				<br> 1897년 6월 2일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 02/06/1897 <br><br>
+				<br> 02/06/1897 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/05/1822, input_format=mm/dd/yyyy <br><br>
+				<br> 1822년 6월 5일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 05/06/1822 <br><br>
+				<br> 05/06/1822 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/07/1721, input_format=dd/mm/yyyy <br><br>
+				<br> 1721년 6월 7일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 07/06/1721 <br><br>
+				<br> 07/06/1721 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/07/1950, input_format=dd/mm/yyyy <br><br>
+				<br> 1950년 6월 7일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 07/06/1950 <br><br>
+				<br> 07/06/1950 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/10/1720, input_format=dd/mm/yyyy <br><br>
+				<br> 1720년 6월 10일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 10/06/1720 <br><br>
+				<br> 10/06/1720 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/16/1660, input_format=mm/dd/yyyy <br><br>
+				<br> 1660년 6월 16일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 16/06/1660 <br><br>
+				<br> 16/06/1660 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/19/1888, input_format=mm/dd/yyyy <br><br>
+				<br> 1888년 6월 19일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 19/06/1888 <br><br>
+				<br> 19/06/1888 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/22/1981, input_format=mm/dd/yyyy <br><br>
+				<br> 1981년 6월 22일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 22/06/1981 <br><br>
+				<br> 22/06/1981 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/23/1995, input_format=mm/dd/yyyy <br><br>
+				<br> 1995년 6월 23일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 23/06/1995 <br><br>
+				<br> 23/06/1995 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/25/1853, input_format=mm/dd/yyyy <br><br>
+				<br> 1853년 6월 25일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 25/06/1853 <br><br>
+				<br> 25/06/1853 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 06/26/1865, input_format=mm/dd/yyyy <br><br>
+				<br> 1865년 6월 26일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 26/06/1865 <br><br>
+				<br> 26/06/1865 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/03/1699, input_format=mm/dd/yyyy <br><br>
+				<br> 1699년 7월 3일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 03/07/1699 <br><br>
+				<br> 03/07/1699 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/08/2003, input_format=dd/mm/yyyy <br><br>
+				<br> 2003년 7월 8일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 08/07/2003 <br><br>
+				<br> 08/07/2003 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/10/1622, input_format=mm/dd/yyyy <br><br>
+				<br> 1622년 7월 10일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 10/07/1622 <br><br>
+				<br> 10/07/1622 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/10/1630, input_format=dd/mm/yyyy <br><br>
+				<br> 1630년 7월 10일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 10/07/1630 <br><br>
+				<br> 10/07/1630 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/10/1731, input_format=dd/mm/yyyy <br><br>
+				<br> 1731년 7월 10일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 10/07/1731 <br><br>
+				<br> 10/07/1731 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/11/1677, input_format=dd/mm/yyyy <br><br>
+				<br> 1677년 7월 11일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 11/07/1677 <br><br>
+				<br> 11/07/1677 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/12/1668, input_format=dd/mm/yyyy <br><br>
+				<br> 1668년 7월 12일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 12/07/1668 <br><br>
+				<br> 12/07/1668 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/14/1786, input_format=mm/dd/yyyy <br><br>
+				<br> 1786년 7월 14일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 14/07/1786 <br><br>
+				<br> 14/07/1786 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/21/1845, input_format=mm/dd/yyyy <br><br>
+				<br> 1845년 7월 21일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 21/07/1845 <br><br>
+				<br> 21/07/1845 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 07/23/1915, input_format=mm/dd/yyyy <br><br>
+				<br> 1915년 7월 23일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 23/07/1915 <br><br>
+				<br> 23/07/1915 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/01/1912, input_format=mm/dd/yyyy <br><br>
+				<br> 1912년 8월 1일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 01/08/1912 <br><br>
+				<br> 01/08/1912 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/02/1746, input_format=dd/mm/yyyy <br><br>
+				<br> 1746년 8월 2일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> 02/08/1746 <br><br>
+				<br> 02/08/1746 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/04/1628, input_format=dd/mm/yyyy <br><br>
+				<br> 1628년 8월 4일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 04/08/1628 <br><br>
+				<br> 04/08/1628 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/04/1750, input_format=dd/mm/yyyy <br><br>
+				<br> 1750년 8월 4일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 04/08/1750 <br><br>
+				<br> 04/08/1750 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/05/1922, input_format=mm/dd/yyyy <br><br>
+				<br> 1922년 8월 5일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 05/08/1922 <br><br>
+				<br> 05/08/1922 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/08/1625, input_format=dd/mm/yyyy <br><br>
+				<br> 1625년 8월 8일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 08/08/1625 <br><br>
+				<br> 08/08/1625 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/09/1851, input_format=dd/mm/yyyy <br><br>
+				<br> 1851년 8월 9일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 09/08/1851 <br><br>
+				<br> 09/08/1851 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/12/1951, input_format=dd/mm/yyyy <br><br>
+				<br> 1951년 8월 12일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 12/08/1951 <br><br>
+				<br> 12/08/1951 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/21/2016, input_format=mm/dd/yyyy <br><br>
+				<br> 2016년 8월 21일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 21/08/2016 <br><br>
+				<br> 21/08/2016 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/29/1775, input_format=mm/dd/yyyy <br><br>
+				<br> 1775년 8월 29일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 29/08/1775 <br><br>
+				<br> 29/08/1775 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 08/31/2018, input_format=mm/dd/yyyy <br><br>
+				<br> 2018년 8월 31일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 31/08/2018 <br><br>
+				<br> 31/08/2018 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 09/02/1772, input_format=mm/dd/yyyy <br><br>
+				<br> 1772년 9월 2일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 02/09/1772 <br><br>
+				<br> 02/09/1772 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 09/03/1616, input_format=dd/mm/yyyy <br><br>
+				<br> 1616년 9월 3일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 03/09/1616 <br><br>
+				<br> 03/09/1616 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 09/06/1907, input_format=mm/dd/yyyy <br><br>
+				<br> 1907년 9월 6일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> 06/09/1907 <br><br>
+				<br> 06/09/1907 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 09/10/1610, input_format=mm/dd/yyyy <br><br>
+				<br> 1610년 9월 10일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 10/09/1610 <br><br>
+				<br> 10/09/1610 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 09/13/1836, input_format=mm/dd/yyyy <br><br>
+				<br> 1836년 9월 13일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 13/09/1836 <br><br>
+				<br> 13/09/1836 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 09/14/1656, input_format=mm/dd/yyyy <br><br>
+				<br> 1656년 9월 14일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 14/09/1656 <br><br>
+				<br> 14/09/1656 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 09/16/1877, input_format=mm/dd/yyyy <br><br>
+				<br> 1877년 9월 16일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 16/09/1877 <br><br>
+				<br> 16/09/1877 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 10/01/1676, input_format=mm/dd/yyyy <br><br>
+				<br> 1676년 10월 1일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 01/10/1676 <br><br>
+				<br> 01/10/1676 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 10/02/2010, input_format=mm/dd/yyyy <br><br>
+				<br> 2010년 10월 2일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 02/10/2010 <br><br>
+				<br> 02/10/2010 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 10/03/1753, input_format=dd/mm/yyyy <br><br>
+				<br> 1753년 10월 3일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 03/10/1753 <br><br>
+				<br> 03/10/1753 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 10/10/1889, input_format=mm/dd/yyyy <br><br>
+				<br> 1889년 10월 10일, input_format=mm/dd/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 10/10/1889 <br><br>
+				<br> 10/10/1889 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 10/11/1629, input_format=dd/mm/yyyy <br><br>
+				<br> 1629년 10월 11일, input_format=dd/mm/yyyy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 11/10/1629 <br><br>
+				<br> 11/10/1629 <br><br>
+			</td>
+		</tr>
+	</table>

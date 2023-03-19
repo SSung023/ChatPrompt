@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Rita loved riding her bike down the trails of the state park. While she was riding, she came across a bear. She immediately hit a side path. She pedaled as fast as she could out of the state park. Rita will now only go on the trails when she is with friends. selected sentence: Rita will now only go on the trails when she is with friends. <br><br>
+				<br> 이야기: Rita는 자전거를 타고 주립 공원의 오솔길을 따라 내려가는 것을 좋아했습니다. 말을 타고 가다가 곰을 만났습니다. 그녀는 즉시 옆길을 쳤다. 그녀는 주립 공원에서 최대한 빨리 페달을 밟았습니다. Rita는 이제 친구들과 있을 때만 트레일을 갑니다. 선택한 문장: Rita는 이제 친구들과 있을 때만 트레일을 갑니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Rita feel(s) scared >Motivates> Rita will only go on the trails with her friends <br><br>
+				<br> Rita는 겁을 먹고 >동기를 부여합니다> Rita는 친구들과만 트레일을 갈 것입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Today I have been working on the alphabet with my son. He has learned the first three letters. Today we are working on the fourth and fifth letters. He has been a little frustrated, but he keep on trying. By the end of the day he had learned the new letters. selected sentence: Today we are working on the fourth and fifth letters. <br><br>
+				<br> story: 오늘 저는 아들과 함께 알파벳을 공부하고 있습니다. 그는 처음 세 글자를 배웠습니다. 오늘 우리는 네 번째와 다섯 번째 글자를 연구하고 있습니다. 그는 약간 좌절했지만 계속 노력하고 있습니다. 하루가 끝날 무렵 그는 새로운 편지를 배웠습니다. 선택된 문장: 오늘 우리는 네 번째와 다섯 번째 글자를 연구하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> I want(s) to work >Motivates> I work <br><br>
+				<br> 나는 일하고 싶다 > 동기 부여 > 나는 일한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: A man loved milk so much he bought his own cow. The cow made so much milk that the man sold off the extra. With the extra money the man bought another cow. Now the man used some of the extra milk to buy a gold watch. Every time he checked his watch he thanked his cows for the milk. selected sentence: With the extra money the man bought another cow. <br><br>
+				<br> 줄거리: 한 남자가 우유를 너무 좋아해서 자신의 소를 샀습니다. 소가 우유를 너무 많이 만들어서 그 남자는 남은 우유를 팔았습니다. 여분의 돈으로 그 남자는 다른 소를 샀습니다. 이제 그 남자는 여분의 우유 중 일부를 사용하여 금시계를 샀습니다. 그는 시계를 확인할 때마다 젖소들에게 우유를 준 것에 감사했습니다. 선택된 문장: 남자는 여분의 돈으로 다른 소를 샀다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> The man wants profit >Motivates> He buys another cow. <br><br>
+				<br> 남자는 이익을 원한다 >동기 부여> 그는 다른 소를 산다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: A new chick fil a opened right on the street. Lucy couldn't wait to go to it. Lucy walked right in and ordered. She got the crispy chicken. When she tasted it it was amazing. selected sentence: Lucy walked right in and ordered. <br><br>
+				<br> story: 새로운 병아리필라가 길가에 문을 열었습니다. Lucy는 그곳에 가기를 기다릴 수 없었습니다. Lucy는 바로 들어가서 주문했습니다. 그녀는 바삭한 치킨을 얻었다. 그녀가 그것을 맛 보았을 때 그것은 훌륭했습니다. 선택한 문장: Lucy가 바로 들어와 주문했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> Lucy feel(s) curiosity >Motivates> Lucy walks into chick fil a <br><br>
+				<br> Lucy는 호기심을 느끼고 >동기를 부여합니다> Lucy walks into chick fil a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: A new chick fil a opened right on the street. Lucy couldn't wait to go to it. Lucy walked right in and ordered. She got the crispy chicken. When she tasted it it was amazing. selected sentence: Lucy walked right in and ordered. <br><br>
+				<br> story: 새로운 병아리필라가 길가에 문을 열었습니다. Lucy는 그곳에 가기를 기다릴 수 없었습니다. Lucy는 바로 들어가서 주문했습니다. 그녀는 바삭한 치킨을 얻었다. 그녀가 그것을 맛 보았을 때 그것은 훌륭했습니다. 선택한 문장: Lucy가 바로 들어와 주문했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> Lucy feel(s) excited >Motivates> Lucy walked into the new chick fil a to get food <br><br>
+				<br> Lucy는 흥분을 느낍니다(들) >동기 부여> Lucy는 음식을 얻기 위해 새로운 병아리 필라에 들어갔습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Alex was on a gameshow. He was so excited he kept forgetting to buzz in. Even though he knew the answers, he fell very behind. At the end of the show, he was in last place. He felt ashamed, having embarrassed himself like that. selected sentence: He was so excited he kept forgetting to buzz in. <br><br>
+				<br> 이야기: Alex는 게임 쇼에 있었습니다. 그는 너무 흥분해서 윙윙거리는 소리를 잊고 있었다. 그는 답을 알고 있었음에도 불구하고 매우 뒤처졌습니다. 쇼가 끝날 무렵 그는 꼴찌였다. 그런 자신을 부끄럽게 여겨 부끄러워했다. 선택한 문장: 그는 너무 흥분해서 전화하는 것을 계속 잊었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Alex feel(s) excited >Motivates> Alex kept forgetting to buzz in <br><br>
+				<br> 알렉스는 신이 난다 >동기 부여> 알렉스는 계속 연락하는 것을 잊었습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Alex was on a gameshow. He was so excited he kept forgetting to buzz in. Even though he knew the answers, he fell very behind. At the end of the show, he was in last place. He felt ashamed, having embarrassed himself like that. selected sentence: He was so excited he kept forgetting to buzz in. <br><br>
+				<br> 이야기: Alex는 게임 쇼에 있었습니다. 그는 너무 흥분해서 윙윙거리는 소리를 잊고 있었다. 그는 답을 알고 있었음에도 불구하고 매우 뒤처졌습니다. 쇼가 끝날 무렵 그는 꼴찌였다. 그런 자신을 부끄럽게 여겨 부끄러워했다. 선택한 문장: 그는 너무 흥분해서 전화하는 것을 계속 잊었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> alex feel(s) excited >Motivates> alex forgets to buzz in <br><br>
+				<br> alex 느낌(들) 흥분 >동기 부여> alex는 윙윙거리는 것을 잊었습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Amy and her rottweiler Spot were at the park. Amy was on her roller blades as she held Spot's leash. Spot began to pick up speed and jog. Spot pulled Amy into the grass pulling her to the ground. Amy decided not to walk Spot on roller blades again. selected sentence: Spot began to pick up speed and jog. <br><br>
+				<br> 이야기: Amy와 그녀의 로트와일러 스팟이 공원에 있었습니다. Amy는 Spot의 목줄을 잡고 롤러 블레이드 위에 있었습니다. Spot은 속도를 높이고 조깅하기 시작했습니다. Spot은 Amy를 풀밭으로 끌어당겨 땅바닥으로 끌어당겼습니다. Amy는 다시 롤러 블레이드를 타고 Spot을 걷지 않기로 결정했습니다. 선택한 문장: Spot이 속도를 높이고 조깅하기 시작했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> Spot like(s) going fast >Motivates> Spot picks up speed <br><br>
+				<br> 빠르게 가는 것과 같은 스팟 >동기 부여> 스팟이 속도를 높입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Amy and her rottweiler Spot were at the park. Amy was on her roller blades as she held Spot's leash. Spot began to pick up speed and jog. Spot pulled Amy into the grass pulling her to the ground. Amy decided not to walk Spot on roller blades again. selected sentence: Spot began to pick up speed and jog. <br><br>
+				<br> 이야기: Amy와 그녀의 로트와일러 스팟이 공원에 있었습니다. Amy는 Spot의 목줄을 잡고 롤러 블레이드 위에 있었습니다. Spot은 속도를 높이고 조깅하기 시작했습니다. Spot은 Amy를 풀밭으로 끌어당겨 땅바닥으로 끌어당겼습니다. Amy는 다시 롤러 블레이드를 타고 Spot을 걷지 않기로 결정했습니다. 선택한 문장: Spot이 속도를 높이고 조깅하기 시작했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> Spot want(s) to pick up speed >Motivates> Spot picks up speed <br><br>
+				<br> Spot이 속도를 높이고 싶어함>동기 부여> Spot이 속도를 높임 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Andrew realizes he has never been to his local park. He puts on his running shoes and walks over to the park. At the park he sees many other people walking and running. He decides to visit the park more often. Andrew is happy that he has visited his local park. selected sentence: He decides to visit the park more often. <br><br>
+				<br> 줄거리: Andrew는 자신이 동네 공원에 가본 적이 없다는 것을 깨닫습니다. 그는 운동화를 신고 공원으로 걸어갑니다. 공원에서 그는 걷고 뛰는 다른 많은 사람들을 봅니다. 그는 공원을 더 자주 방문하기로 결정합니다. Andrew는 지역 공원을 방문한 것을 기쁘게 생각합니다. 선택한 문장: 그는 공원을 더 자주 방문하기로 결정합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> Andrew like(s) the park >Motivates> Andrew decides to go <br><br>
+				<br> Andrew는 공원을 좋아합니다 >동기 부여> Andrew는 가기로 결정합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Anna went to church and enjoyed the sermon. But then they began to pass the collection plate. Anna realized she had forgotten her money! She had to let the plate skip over her. Anna's cheeks burned with embarrassment. selected sentence: Anna went to church and enjoyed the sermon. <br><br>
+				<br> 이야기: Anna는 교회에 가서 설교를 즐겼습니다. 그러나 그들은 수집 판을 통과하기 시작했습니다. Anna는 돈을 잊었다는 것을 깨달았습니다! 그녀는 접시가 그녀를 건너뛰게 해야 했다. 안나의 뺨이 부끄러움으로 달아올랐다. 선택한 문장: Anna는 교회에 가서 설교를 즐겼습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> Anna like(s) church >Motivates> Anna goes to church <br><br>
+				<br> Anna like(s) church >Motivates> Anna는 교회에 간다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Anne liked to bake. She bought a new pie pan for baking pies. She planned on using it a lot this fall. When it was time to test it out, she couldn't find it. Her son had taken it and used it in the sandbox! selected sentence: Her son had taken it and used it in the sandbox! <br><br>
+				<br> 이야기: Anne은 굽는 것을 좋아했습니다. 그녀는 파이를 굽기 위해 새 파이 팬을 샀습니다. 그녀는 이번 가을에 그것을 많이 사용할 계획이었습니다. 그것을 시험해 볼 시간이 되었을 때, 그녀는 그것을 찾을 수 없었습니다. 그녀의 아들이 그것을 가져다가 샌드박스에서 사용했습니다! 선택한 문장: 그녀의 아들이 그것을 가져다가 샌드박스에서 사용했습니다! <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> Anne's son want(s) to take the pan >Motivates> Anne's son takes the pan <br><br>
+				<br> Anne의 아들이 팬을 차지하기를 원함>동기 부여> Anne의 아들이 팬을 차지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Anne liked to bake. She bought a new pie pan for baking pies. She planned on using it a lot this fall. When it was time to test it out, she couldn't find it. Her son had taken it and used it in the sandbox! selected sentence: Her son had taken it and used it in the sandbox! <br><br>
+				<br> 이야기: Anne은 굽는 것을 좋아했습니다. 그녀는 파이를 굽기 위해 새 파이 팬을 샀습니다. 그녀는 이번 가을에 그것을 많이 사용할 계획이었습니다. 그것을 시험해 볼 시간이 되었을 때, 그녀는 그것을 찾을 수 없었습니다. 그녀의 아들이 그것을 가져다가 샌드박스에서 사용했습니다! 선택한 문장: 그녀의 아들이 그것을 가져다가 샌드박스에서 사용했습니다! <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> Her son want(s) toys >Motivates> Her son takes the pie pan for playing in the sandbox <br><br>
+				<br> 그녀의 아들은 장난감을 원합니다 >동기 부여> 그녀의 아들은 샌드박스에서 놀기 위해 파이 팬을 가져갑니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Ari always loved going to the zoo. Even when he was a young boy he would beg to go. One day in high school the students could make a field trip. Ari decided he would bring his school to the zoo. Everyone had fun at the zoo. selected sentence: Ari decided he would bring his school to the zoo. <br><br>
+				<br> 줄거리: 아리는 항상 동물원에 가는 것을 좋아했습니다. 그가 어린 소년이었을 때에도 그는 가고 싶어했습니다. 어느 날 고등학교에서 학생들은 견학을 할 수 있었습니다. Ari는 자신의 학교를 동물원에 데려가기로 결정했습니다. 모두가 동물원에서 즐거웠습니다. 선택한 문장: Ari는 학교를 동물원에 데려오기로 결정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> Ari like(s) the zoo >Motivates> Ari decides to bring his school to the zoo <br><br>
+				<br> Ari는 동물원을 좋아합니다. >동기 부여> Ari는 학교를 동물원에 데려오기로 결정합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Being a flower girl was a big responsibility. Nancy had to make the petals last all the way down the aisle. She carefully sprinkled the petals as she walked. The aisle was perfect for the bride. She had done a good job! selected sentence: The aisle was perfect for the bride. <br><br>
+				<br> 스토리: 꽃파는 아가씨가 되는 것은 큰 책임이었습니다. Nancy는 꽃잎이 통로를 따라 내려가는 내내 지속되도록 만들어야 했습니다. 그녀는 걸으면서 조심스럽게 꽃잎을 뿌렸다. 통로는 신부에게 완벽했습니다. 그녀는 좋은 일을 했다! 선택한 문장: 통로는 신부에게 완벽했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> Nancy want(s) to do a good job >Motivates> The aisle was perfect for the bride <br><br>
+				<br> 낸시는 일을 잘하고 싶다 >동기 부여> 통로가 신부에게 딱 맞았다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Ben's mom was on her way out of the house. She left him with a list of chores to complete that day. Ben put off the list all day until time was almost out. Quickly he rushed to finish the list of chores. Luckily he got everything done just in time for her return. selected sentence: Ben's mom was on her way out of the house. <br><br>
+				<br> 이야기: Ben의 엄마는 집을 나가는 중이었습니다. 그녀는 그에게 그날 완료해야 할 집안일 목록을 남겼습니다. Ben은 시간이 거의 다 될 때까지 하루 종일 목록을 연기했습니다. 재빨리 그는 집안일 목록을 끝내기 위해 서둘렀다. 운 좋게도 그는 그녀의 귀환 시간에 맞춰 모든 것을 끝냈습니다. 선택된 문장: Ben의 엄마는 집에서 나가는 중이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> Ben's mom want(s) to go Somewhere >Motivates> Ben's mom is on her way out of the house <br><br>
+				<br> Ben의 엄마는 어딘가에 가고 싶어합니다. >동기 부여> Ben의 엄마는 집을 나가는 중입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Billy decided he wanted to make a robot. He worked for many months to get it just right. Once finished, he wanted to show it off. Billy took the robot to school to show his friends and teachers. When he turned the robot on, it exploded in flames. selected sentence: Billy decided he wanted to make a robot. <br><br>
+				<br> 이야기: Billy는 로봇을 만들고 싶다고 결심했습니다. 그는 그것을 제대로 하기 위해 여러 달 동안 일했습니다. 끝나면 보여주고 싶었다. Billy는 친구와 선생님을 보여주기 위해 로봇을 학교에 데려갔습니다. 그가 로봇을 켜자 화염에 휩싸였습니다. 선택한 문장: Billy는 로봇을 만들고 싶다고 결정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Billy like(s) robots >Motivates> Billy decides to make a robot <br><br>
+				<br> Billy like(s) robots >Motivates> Billy는 로봇을 만들기로 결정합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Billy loved being active. He did fifty push ups a day. Until one day he hurt his arm. He was very sad. However, he decided to work out his legs to stay in shape. selected sentence: Billy loved being active. <br><br>
+				<br> 스토리: Billy는 활동적인 것을 좋아했습니다. 그는 하루에 팔굽혀펴기를 50번 했다. 어느 날 그는 팔을 다쳤습니다. 그는 매우 슬펐습니다. 그러나 그는 몸매를 유지하기 위해 다리 운동을 하기로 결정했습니다. 선택한 문장: Billy는 활동적인 것을 좋아했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> Billy like(s) the feeling of physical activity >Motivates> Billy loves being active <br><br>
+				<br> Billy는 신체 활동의 느낌을 좋아합니다 >동기 부여> Billy는 활동적인 것을 좋아합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Billy loved being active. He did fifty push ups a day. Until one day he hurt his arm. He was very sad. However, he decided to work out his legs to stay in shape. selected sentence: Billy loved being active. <br><br>
+				<br> 스토리: Billy는 활동적인 것을 좋아했습니다. 그는 하루에 팔굽혀펴기를 50번 했다. 어느 날 그는 팔을 다쳤습니다. 그는 매우 슬펐습니다. 그러나 그는 몸매를 유지하기 위해 다리 운동을 하기로 결정했습니다. 선택한 문장: Billy는 활동적인 것을 좋아했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> Billy wants good health >Motivates> Billy loved being active <br><br>
+				<br> Billy는 건강을 원합니다> 동기 부여> Billy는 활동적인 것을 좋아했습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Billy was nervous about going to the school Christmas dance. He even had to wear a tie! His father insisted he wear a bright green tie with candy canes on it. Shortly after Billy got to the dance a pretty girl came up. She said she liked his tie! selected sentence: His father insisted he wear a bright green tie with candy canes on it. <br><br>
+				<br> 줄거리: Billy는 학교 크리스마스 댄스에 가는 것에 대해 긴장했습니다. 그는 심지어 넥타이를 매야 했다! 그의 아버지는 사탕 지팡이가 달린 밝은 녹색 넥타이를 매라고 주장했습니다. Billy가 춤을 추고 얼마 지나지 않아 예쁜 소녀가 나타났습니다. 그녀는 그의 넥타이가 마음에 든다고 했어요! 선택한 문장: 그의 아버지는 사탕 지팡이가 달린 밝은 녹색 넥타이를 매라고 주장했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> His father feel(s) festive >Motivates> His father insists Billy wear a Christmas tie <br><br>
+				<br> 그의 아버지는 축제를 느낀다 >동기 부여한다> 그의 아버지는 빌리에게 크리스마스 넥타이를 매라고 주장한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Bob left his bedroom and a familiar smell greeted him. He walked down the hallway, following the scent. The smell was coming from the kitchen. Grandma had just pulled a hot tray out of the stove. She made the best biscuits. selected sentence: Bob left his bedroom and a familiar smell greeted him. <br><br>
+				<br> 이야기: Bob은 침실을 떠났고 익숙한 냄새가 그를 맞이했습니다. 냄새를 따라 복도를 걸었다. 부엌에서 냄새가 났습니다. 할머니는 방금 난로에서 뜨거운 쟁반을 꺼내셨습니다. 그녀는 최고의 비스킷을 만들었습니다. 선택한 문장: Bob은 침실을 떠났고 익숙한 냄새가 그를 맞이했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> Bob want(s) to get out of his bedroom >Motivates> Bob leaves his bedroom <br><br>
+				<br> Bob은 침실에서 나가고 싶어합니다. >동기 부여> Bob이 침실을 떠납니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Bob left his bedroom and a familiar smell greeted him. He walked down the hallway, following the scent. The smell was coming from the kitchen. Grandma had just pulled a hot tray out of the stove. She made the best biscuits. selected sentence: Bob left his bedroom and a familiar smell greeted him. <br><br>
+				<br> 이야기: Bob은 침실을 떠났고 익숙한 냄새가 그를 맞이했습니다. 냄새를 따라 복도를 걸었다. 부엌에서 냄새가 났습니다. 할머니는 방금 난로에서 뜨거운 쟁반을 꺼내셨습니다. 그녀는 최고의 비스킷을 만들었습니다. 선택한 문장: Bob은 침실을 떠났고 익숙한 냄새가 그를 맞이했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> Bob want(s) to leave >Motivates> Bob leaves <br><br>
+				<br> 밥이 떠나고 싶어 >동기 부여> 밥이 떠남 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Bob was trying to buy a house and was talking to a seller. He pointed out that the counters looked to be in bad shape. The seller said the owners actually had bought a new counter. They just hadn't had time to put it in. Bob was happy to hear this. selected sentence: Bob was trying to buy a house and was talking to a seller. <br><br>
+				<br> 이야기: Bob은 집을 사려고 했고 판매자와 이야기하고 있었습니다. 그는 카운터의 상태가 좋지 않은 것으로 보인다고 지적했습니다. 판매자는 소유자가 실제로 새 카운터를 구입했다고 말했습니다. 그들은 그것을 넣을 시간이 없었습니다. 밥은 이 말을 듣고 기뻤습니다. 선택한 문장: Bob은 집을 사려고 했고 판매자와 이야기하고 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> Bob want(s) belonging >Motivates> Bob wants to buy a house <br><br>
+				<br> Bob은 소속감을 원합니다 >동기 부여> Bob은 집을 사고 싶어합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Bob was trying to buy a house and was talking to a seller. He pointed out that the counters looked to be in bad shape. The seller said the owners actually had bought a new counter. They just hadn't had time to put it in. Bob was happy to hear this. selected sentence: Bob was trying to buy a house and was talking to a seller. <br><br>
+				<br> 이야기: Bob은 집을 사려고 했고 판매자와 이야기하고 있었습니다. 그는 카운터의 상태가 좋지 않은 것으로 보인다고 지적했습니다. 판매자는 소유자가 실제로 새 카운터를 구입했다고 말했습니다. 그들은 그것을 넣을 시간이 없었습니다. 밥은 이 말을 듣고 기뻤습니다. 선택한 문장: Bob은 집을 사려고 했고 판매자와 이야기하고 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> Bob want(s) to buy a new hoouse >Motivates> Bob is trying to buy a new house <br><br>
+				<br> Bob은 새 집을 사고 싶어합니다. >동기 부여> Bob은 새 집을 사려고 합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Bob went to the park with his dog Spot. He picked up a stick off the ground. Spot looked up at his owner expectantly. After some teasing, Bob threw the stick across the grass. Spot happily chased after it. selected sentence: Spot looked up at his owner expectantly. <br><br>
+				<br> 이야기: Bob은 그의 개 Spot과 함께 공원에 갔다. 그는 땅에서 막대기를 집어 들었다. 스팟은 기대에 찬 표정으로 주인을 올려다보았다. 약간의 놀림 끝에 Bob은 막대기를 풀밭에 던졌습니다. 스팟은 행복하게 그것을 쫓았습니다. 선택한 문장: 스팟은 기대에 차서 주인을 올려다보았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> Spot want(s) to play >Motivates> Spot looks up at Bob <br><br>
+				<br> 스팟이 놀고 싶어함>동기 유발> 스팟이 밥을 올려다봄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Charles thought it would be fun to wash the family dog. As long as the dog didn't shake water on him, this would be cute. Charles put their dog in the tub and rinsed him with warm water. The dog didn't shake. Charles lathered the dog and then he shook soap everywhere. selected sentence: The dog didn't shake. <br><br>
+				<br> 이야기: Charles는 가족 개를 씻기는 것이 재미있을 것이라고 생각했습니다. 개가 그에게 물을 흔들지 않는 한 이것은 귀여울 것입니다. Charles는 개를 욕조에 넣고 따뜻한 물로 헹구었습니다. 개는 흔들리지 않았다. Charles는 개에게 거품을 낸 다음 사방에 비누를 흔들었습니다. 선택된 문장: 개가 흔들리지 않았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> The dog feel(s) relaxed >Motivates> The dog doesn't shake <br><br>
+				<br> 개가 편안함 >동기 부여> 개가 흔들리지 않음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Daniel was doing laundry. He got done with one load and ran out of detergent. He had to run to the store to get more. Daniel did just that and replaced it within minutes. He was able to finish doing laundry. selected sentence: Daniel did just that and replaced it within minutes. <br><br>
+				<br> 줄거리: 다니엘은 빨래를 하고 있었습니다. 그는 한 번의 작업을 마치고 세제가 떨어졌습니다. 그는 더 사러 가게로 달려가야 했다. Daniel은 그렇게 했고 몇 분 안에 교체했습니다. 그는 빨래를 마칠 수 있었다. 선택한 문장: Daniel이 바로 그렇게 했고 몇 분 안에 교체했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> Daniel want(s) clean clothes >Motivates> Daniel replaces the detergent <br><br>
+				<br> 다니엘은 깨끗한 옷을 원한다 >동기 부여> 다니엘은 세제를 교체한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Donald was yelling very loudly. The babysitter was upset by all the noise. The babysitter told Donald he could have a donut if he calmed down. Donald decided to stop yelling. He was rewarded for his good behavior. selected sentence: Donald was yelling very loudly. <br><br>
+				<br> 이야기: Donald는 매우 큰 소리를 지르고 있었다. 베이비 시터는 모든 소음에 화를 냈습니다. 베이비시터는 Donald에게 진정하면 도넛을 먹을 수 있다고 말했습니다. Donald는 소리를 지르지 않기로 결정했습니다. 그는 그의 좋은 행동에 대해 보상을 받았습니다. 선택된 문장: Donald는 매우 크게 소리를 지르고 있었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> Donald feels aggression >Motivates> Donald yells loudly <br><br>
+				<br> 도날드가 공격성을 느끼다 >동기 부여하다> 도날드가 크게 소리를 지른다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Emily was asleep in bed when a fire broke out from her lamp. She had just woken up when the fire spread to her arm. She screamed in pain and then dropped to the ground to roll. Luckily the fire was put out but not before leaving a bad burn. Emily had a lot of pain in her arm for months after. selected sentence: Emily was asleep in bed when a fire broke out from her lamp. <br><br>
+				<br> 이야기: 에밀리는 침대에서 잠이 들었을 때 램프에서 불이 났습니다. 불이 그녀의 팔에 번졌을 때 그녀는 방금 깨어났습니다. 그녀는 고통에 비명을 지르더니 바닥에 쓰러져 구르게 되었습니다. 다행히 불은 꺼졌지만 심한 화상을 남기기 전에는 꺼지지 않았습니다. Emily는 그 후 몇 달 동안 팔에 많은 고통을 겪었습니다. 선택한 문장: Emily는 램프에서 불이 났을 때 침대에서 자고 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> Emily feel(s) tired >Motivates> Emily is asleep <br><br>
+				<br> 에밀리는 피곤함을 느낀다 > 동기를 부여한다 > 에밀리는 자고 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Fred wanted ice cream. He drove to an ice cream shop. He ordered two scoops of chocolate. On top, he asked for some candy bits. He took his ice cream and ate it. selected sentence: On top, he asked for some candy bits. <br><br>
+				<br> 이야기: Fred는 아이스크림을 원했습니다. 그는 아이스크림 가게로 차를 몰고 갔다. 그는 초콜릿 두 스쿱을 주문했다. 맨 위에 그는 약간의 사탕을 요구했습니다. 그는 아이스크림을 가져다가 먹었다. 선택한 문장: 맨 위에 그는 약간의 사탕을 요청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> Fred want(s) andybits >Motivates> Fred asks for candy bits <br><br>
+				<br> Fred는 andybits >Motivates> Fred가 사탕 조각을 요구합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Garrett got a flat tire. He pulled over. People asked him to help. He told them to keep driving. He fixed the tire himself. selected sentence: People asked him to help. <br><br>
+				<br> 이야기: Garrett의 타이어가 펑크났습니다. 그는 차를 세웠다. 사람들은 그에게 도움을 요청했습니다. 그는 그들에게 계속 운전하라고 말했습니다. 그는 타이어를 직접 고쳤습니다. 선택한 문장: 사람들이 그에게 도움을 요청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> People feel(s) curiosity >Motivates> People ask to help him <br><br>
+				<br> 사람들은 호기심을 느끼고 > 동기를 부여합니다 > 사람들이 그를 도와달라고 요청합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Garrett got a flat tire. He pulled over. People asked him to help. He told them to keep driving. He fixed the tire himself. selected sentence: People asked him to help. <br><br>
+				<br> 이야기: Garrett의 타이어가 펑크났습니다. 그는 차를 세웠다. 사람들은 그에게 도움을 요청했습니다. 그는 그들에게 계속 운전하라고 말했습니다. 그는 타이어를 직접 고쳤습니다. 선택한 문장: 사람들이 그에게 도움을 요청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> The people want(s) to help Garrett >Motivates> The people ask if Garrett wants help <br><br>
+				<br> 사람들은 Garrett을 돕기를 원합니다 >동기 부여> 사람들은 Garrett이 도움을 원하는지 묻습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Greg loved to ride his skateboard at the skateboard park. He decided to build his own skateboard ramp to use at home. After he finished the ramp, he stood at the top on his skateboard. The ramp was so high that Greg got scared. He was embarrassed that he couldn't skate down his ramp. selected sentence: After he finished the ramp, he stood at the top on his skateboard. <br><br>
+				<br> 이야기: Greg는 스케이트보드 공원에서 스케이트보드 타는 것을 좋아했습니다. 그는 집에서 사용할 자신만의 스케이트보드 경사로를 만들기로 결정했습니다. 경사로를 완주한 후 그는 스케이트보드를 타고 정상에 섰습니다. 경사로가 너무 높아서 Greg는 겁을 먹었습니다. 그는 경사로에서 스케이트를 타지 못하는 것이 부끄러웠습니다. 선택된 문장: 그가 경사로를 마친 후, 그는 스케이트보드의 정상에 섰습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> Greg want(s) to build the ramp >Motivates> Greg builds the ramp <br><br>
+				<br> 그렉이 경사로 건설을 원함 >동기 부여> 그렉이 경사로 건설 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Hallie woke up. She was not feeling well. She got mad when she had to miss school. Hallie went back to sleep. When she woke up she felt much better. selected sentence: She got mad when she had to miss school. <br><br>
+				<br> 이야기: 할리가 일어났습니다. 그녀는 기분이 좋지 않았습니다. 그녀는 학교를 결석해야 했을 때 화를 냈습니다. 할리는 다시 잠이 들었다. 그녀가 일어났을 때 그녀는 기분이 훨씬 좋아졌습니다. 선택한 문장: 그녀는 학교를 결석해야 했을 때 화를 냈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> Hallie feel(s) sick >Motivates> Hallie gets mad <br><br>
+				<br> Hallie는 기분이 나쁩니다> 동기 부여> Hallie는 화를냅니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I have a new favorite show on television. The show is on every weekend and I never miss it. This week I have to be out of town for my job. I asked Jerry if he could record the show for me. He said he will and I can't wait to get back from my work function. selected sentence: The show is on every weekend and I never miss it. <br><br>
+				<br> 이야기: 텔레비전에서 가장 좋아하는 새로운 프로그램이 있습니다. 쇼는 매주 주말에 있고 나는 그것을 놓치지 않습니다. 이번 주에는 일 때문에 외출해야 합니다. 나는 Jerry에게 나를 위해 쇼를 녹화할 수 있는지 물었다. 그는 그가 할 것이라고 말했고 나는 내 업무 기능에서 돌아오기를 기다릴 수 없습니다. 선택한 문장: 쇼는 매주 주말에 있고 절대 놓치지 않습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> I like(s) watching the show >Motivates> I watch the show <br><br>
+				<br> 나는 쇼를 보는 것을 좋아한다 >동기 부여> 나는 쇼를 본다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I let all my dogs out back in the morning. About an hour later I went out there to check on them. They were missing! I went out front to look for them. They were all there by the front door. selected sentence: I let all my dogs out back in the morning. <br><br>
+				<br> 이야기: 나는 아침에 모든 개를 돌려보냈다. 약 한 시간 후에 나는 그들을 확인하기 위해 거기에 갔다. 그들은 실종되었습니다! 나는 그들을 찾기 위해 앞으로 나갔다. 그들은 모두 정문 옆에 있었습니다. 선택한 문장: 나는 아침에 모든 개를 돌려보냈다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> I feel(s) caring >Motivates> i let the dogs outside <br><br>
+				<br> 나는 배려를 느낀다>동기> 나는 개를 밖으로 내보낸다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I once bought myself a basketball because I loved to play. I use to take that basketball everywhere. The basketball was like my best friend. I had it for three years. So when I lost the basketball I was very sad like I lost a friend. selected sentence: I use to take that basketball everywhere. <br><br>
+				<br> 줄거리: 한때 농구를 좋아해서 농구공을 샀습니다. 나는 그 농구공을 어디든지 가져가곤 했다. 농구는 내 가장 친한 친구 같았습니다. 나는 3년 동안 그것을 가지고 있었다. 그래서 농구공을 잃었을 때 친구를 잃은 것처럼 너무 슬펐어요. 선택한 문장: 나는 그 농구공을 어디든 가지고 다닙니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> I like(s) the basketball >Motivates> I take the basketball everywhere <br><br>
+				<br> I like(s) the basketball >Motivates> 나는 어디든 농구공을 가지고 다닌다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I wanted some shelf space. I had found tons of dvds but nowhere to put them. I was starting to get very annoyed. I finally pushed all my stuffed animals off a shelf. I used it for the DVD collection instead. selected sentence: I finally pushed all my stuffed animals off a shelf. <br><br>
+				<br> 이야기: 나는 약간의 선반 공간을 원했습니다. 나는 수많은 DVD를 찾았지만 어디에도 둘 수 없었습니다. 나는 몹시 짜증이 나기 시작했다. 나는 마침내 모든 박제 동물을 선반에서 밀어 냈습니다. 대신 DVD 컬렉션에 사용했습니다. 선택한 문장: 나는 마침내 모든 박제 동물을 선반에서 밀어냈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> I want(s) some shelf space >Motivates> I finally push all my stuffed animals off a shelf <br><br>
+				<br> 나는 약간의 선반 공간을 원합니다 >동기 부여> 드디어 내 모든 박제 동물을 선반에서 밀어냅니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I was watching TV one night. I was very hungry and decided I needed to eat. I went to the kitchen to cook Something. I found a package of broccoli & beef to cook. I made the meal and enjoyed it. selected sentence: I was very hungry and decided I needed to eat. <br><br>
+				<br> 이야기: 나는 어느 날 밤 TV를 보고 있었다. 나는 매우 배가 고파서 먹기로 결정했습니다. 뭔가를 요리하기 위해 부엌에 갔다. 요리할 브로콜리와 쇠고기 패키지를 찾았습니다. 식사를 만들어 맛있게 먹었습니다. 선택한 문장: 나는 매우 배가 고파서 먹어야겠다고 결정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> I feel(s) hungry >Motivates> I decide to eat <br><br>
+				<br> 배가 고파 >동기 부여>먹기로 결정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I was watching the Red Sox on tv yesterday afternoon. In the second inning I went out to sit on the bench. I got to talking to some neighbors. By the time I got back the game was in the ninth inning. I watched the Red Sox lose in the ninth, and was mad. selected sentence: In the second inning I went out to sit on the bench. <br><br>
+				<br> 줄거리: 어제 오후에 TV에서 Red Sox를 보고 있었어요. 2회에 나는 벤치에 앉으러 나갔다. 나는 몇몇 이웃들과 이야기를 나누게 되었다. 내가 돌아왔을 때는 경기가 9회말이었다. 나는 레드삭스가 9회에 지는 것을 보고 화가 났다. 선택된 문장: 2회에 나는 벤치에 앉으러 나갔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> I want(s) fresh air >Motivates> I sits on the bench outside <br><br>
+				<br> 나는 신선한 공기를 원한다 > 동기를 부여한다 > 나는 밖에 있는 벤치에 앉아 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I went on a plane yesterday. As I got on it Something happened. We had to turn back. A fire came about. It was scary. selected sentence: I went on a plane yesterday. <br><br>
+				<br> 줄거리: 나는 어제 비행기를 탔다. 탔을 때 무슨 일이 일어났습니다. 우리는 돌아서야 했다. 화재가 발생했습니다. 무서웠다. 선택한 문장: 나는 어제 비행기를 탔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> I want(s) to travel >Motivates> I go on a plane <br><br>
+				<br> 여행하고 싶다 >동기>비행기에 가요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: I've always wanted to do over a hundred push ups. Right now I can do about fifty. I worked at it for months, doing some everyday. I also got plenty of rest and ate all good food. A few months later I reached my goal! selected sentence: I also got plenty of rest and ate all good food. <br><br>
+				<br> 스토리: 저는 항상 100개 이상의 푸시업을 하고 싶었습니다. 지금은 50개 정도 할 수 있습니다. 나는 몇 달 동안 매일 일했습니다. 푹 쉬고 맛있는 것도 다 먹었다. 몇 달 후 나는 목표를 달성했습니다! 선택한 문장: 나도 푹 쉬고 맛있는 거 다 먹었어. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> I want(s) fitness >Motivates> I eat healthy food <br><br>
+				<br> 나는 피트니스를 원한다 > 동기를 부여한다 > 나는 건강한 음식을 먹는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Ike often liked to take walks alone. During one walk, he heard a cry come from the inside of an alley. Ike went to investigate and saw a small cat. He gave it some dried fish and pet it as it purred. Now, sometimes on his walks, the cat follows Ike around. selected sentence: Ike often liked to take walks alone. <br><br>
+				<br> 줄거리: Ike는 종종 혼자 산책하는 것을 좋아했습니다. 어느 날 그는 골목 안쪽에서 외치는 소리를 들었다. Ike는 조사하러 갔고 작은 고양이를 보았습니다. 그는 건어물을 주었고 가르랑거리는 동안 쓰다듬어 주었습니다. 이제 가끔 산책을 할 때 고양이가 아이크를 따라다닙니다. 선택한 문장: Ike는 종종 혼자 산책하는 것을 좋아했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> Ike like(s) solitude >Motivates> Ike likes to take a walk alone <br><br>
+				<br> 고독을 좋아하는 아이크 >동기 부여> 아이크는 혼자 산책하는 것을 좋아한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: It was Kelly's first violin recital. She got very nervous. She made sure she practiced well. When she went on stage she did a good job. The audience roared in applause. selected sentence: She made sure she practiced well. <br><br>
+				<br> 줄거리: 켈리의 첫 바이올린 독주회였습니다. 그녀는 매우 긴장했습니다. 그녀는 연습을 잘 했는지 확인했다. 그녀가 무대에 올랐을 때 그녀는 좋은 일을 했다. 청중은 박수를 보냈다. 선택한 문장: 그녀는 연습을 잘 했는지 확인했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Kelly want(s) to do well >Motivates> Kelly practices <br><br>
+				<br> 켈리는 잘하고 싶어 >동기 부여> 켈리 관행 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: It was a hot day at Tim's house. The air conditioner broke. Tim was very hot. He had an idea. He decided to cool off at the beach. selected sentence: He had an idea. <br><br>
+				<br> 스토리: 팀의 집은 더운 날이었습니다. 에어컨이 고장났습니다. 팀은 매우 뜨거웠습니다. 그는 생각이 있었다. 그는 해변에서 더위를 식히기로 했다. 선택한 문장: 그는 아이디어가 있었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> He feel(s) inventive >Motivates> He has an idea <br><br>
+				<br> 그는 창의적이라고 느낀다 > 동기를 부여한다 > 그는 아이디어가 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep. selected sentence: Finally he becomes tired and falls asleep. <br><br>
+				<br> 이야기: 우리 집에서 취침 시간이었습니다. 세 아이 중 두 아이는 베개를 치고 잠이 듭니다. 세 번째는 트러블 메이커입니다. 두 시간 동안 그는 계속해서 침대에서 일어나 놀고 싶어합니다. 마침내 그는 피곤해지고 잠이 든다. 선택한 문장: 마침내 그는 피곤해지고 잠이 든다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> A kid feel(s) sleepy >Motivates> A kid falls asleep <br><br>
+				<br> 아이가 졸리다 >동기 부여> 아이가 잠이 든다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Janie had a dog named Max. Max was a very needy dog who never liked to be left alone. Every day when Janie went to work, Max would get very sad. Max would sit by the door all day long until Janie got home. When she finally got home, Max the needy dog would be happy again. selected sentence: Max would sit by the door all day long until Janie got home. <br><br>
+				<br> 이야기: Janie에게는 Max라는 개가 있었습니다. Max는 혼자 있는 것을 결코 좋아하지 않는 매우 궁핍한 개였습니다. 매일 Janie가 일하러 갈 때마다 Max는 매우 슬펐습니다. Max는 Janie가 집에 올 때까지 하루 종일 문 옆에 앉아 있었습니다. 그녀가 마침내 집에 돌아왔을 때, 궁핍한 개 Max는 다시 행복할 것입니다. 선택한 문장: Max는 Janie가 집에 올 때까지 하루 종일 문 옆에 앉아 있었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> Max feel(s) lonely >Motivates> Max sits by the door until Janie gets home <br><br>
+				<br> Max는 외롭다고 >동기를 부여합니다> Max는 Janie가 집에 도착할 때까지 문 옆에 앉아 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jeff loved the moonlight. He sat by the window every night. One day the moon did not come out. Jeff was sad. He drew the moon on the wall and was happy from then on. selected sentence: Jeff loved the moonlight. <br><br>
+				<br> 이야기: Jeff는 달빛을 사랑했습니다. 그는 매일 밤 창가에 앉았다. 어느 날 달이 뜨지 않았다. 제프는 슬펐다. 그는 벽에 달을 그렸고 그때부터 행복했습니다. 선택한 문장: Jeff는 달빛을 사랑했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> Jeff like(s) beauty >Motivates> Jeff loves the moonlight <br><br>
+				<br> Jeff는 아름다움을 좋아합니다> 동기 부여> Jeff는 달빛을 좋아합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jeff tried out for the high school football team. Jeff wanted to play quarterback. Three other quarterbacks tried out for the team as well. Jeff made the team and competed to be the starter. Jeff was named the starting quarterback. selected sentence: Three other quarterbacks tried out for the team as well. <br><br>
+				<br> 이야기: Jeff는 고등학교 미식축구팀에 지원했습니다. Jeff는 쿼터백을 하고 싶었습니다. 세 명의 다른 쿼터백도 팀을 위해 시도했습니다. Jeff는 팀을 구성하고 스타터가 되기 위해 경쟁했습니다. Jeff는 선발 쿼터백으로 지명되었습니다. 선택된 문장: 세 명의 다른 쿼터백도 팀을 위해 시도되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> Three others want(s) competition >Motivates> Three others try out to be quarterback of the football team <br><br>
+				<br> 다른 세 명은 경쟁을 원합니다 >동기 부여> 다른 세 명은 축구 팀의 쿼터백이 되려고 합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jennifer was at the store. She had a bunch of coupons and her list was built around them. She spent nearly an hour clearing her cart. At check out, she learned that her coupons had expired. Her entire plan was ruined and she had to put the food back. selected sentence: She had a bunch of coupons and her list was built around them. <br><br>
+				<br> 이야기: 제니퍼가 가게에 있었어요. 그녀는 많은 쿠폰을 가지고 있었고 그녀의 목록은 그것들을 중심으로 작성되었습니다. 그녀는 카트를 치우는데 거의 한 시간을 보냈습니다. 계산할 때 그녀는 쿠폰이 만료되었음을 알게 되었습니다. 그녀의 전체 계획은 망가졌고 그녀는 음식을 다시 넣어야 했습니다. 선택한 문장: 그녀는 많은 쿠폰을 가지고 있었고 그녀의 목록은 그것들을 중심으로 작성되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Jennifer want(s) to save money >Motivates> Jennifer has coupons for items on her shopping list <br><br>
+				<br> 제니퍼는 돈을 절약하고 싶다 >동기 부여> 제니퍼는 쇼핑 목록에 있는 항목에 대한 쿠폰을 가지고 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jenny was starting Kindergarten today. She told her mom she was excited, but Jenny was shaking. She wouldn't leave the van, but her mom made her. One Jenny got to school she was very shy. Eventually she opened up, and made lots of friends on her first day. selected sentence: Eventually she opened up, and made lots of friends on her first day. <br><br>
+				<br> 이야기: 제니는 오늘 유치원을 시작했습니다. 그녀는 엄마에게 신난다고 말했지만 제니는 떨고 있었다. 그녀는 밴을 떠나지 않았지만 그녀의 엄마가 그녀를 만들었습니다. 한 Jenny는 학교에 갔고 그녀는 매우 수줍음이 많았습니다. 결국 그녀는 마음을 열었고 첫날에 많은 친구를 사귀었습니다. 선택한 문장: 결국 그녀는 마음을 열고 첫날에 많은 친구를 사귀었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> Jenny like(s) making friends >Motivates> Jenny makes friends <br><br>
+				<br> Jenny는 친구 사귀는 것을 좋아합니다>동기를 부여합니다> Jenny는 친구를 사귀게 됩니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jerry got lost during the walk to his last period. He didn't know where to find the class and ended up moving in a circle. Someone was kind enough to show where he needed to go. Since the bell is going to ring in several seconds, he speed walked. However, he was late to the class. selected sentence: He didn't know where to find the class and ended up moving in a circle. <br><br>
+				<br> 줄거리: Jerry는 마지막 생리를 하러 가는 길에 길을 잃었습니다. 그는 반을 어디서 찾아야 할지 몰라 결국 원을 그리며 움직였다. 누군가 그가 가야 할 곳을 보여줄만큼 친절했습니다. 종소리가 몇 초 후에 울릴 것이기 때문에 그는 속력을 내며 걸었다. 그러나 그는 수업에 늦었다. 선택한 문장: 그는 수업을 어디서 찾아야 할지 몰라 결국 원을 그리며 움직였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> Jerry feel(s) confused >Motivates> He moves in a circle <br><br>
+				<br> Jerry는 혼란스러워 >동기 부여> 그는 원을 그리며 움직인다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Jessie had just arrived at school. She saw that not a lot of people were there. She realized that today there was no school due to testing. She was supposed to call her dad to pick her up. Instead, she decided to go out and hang out with friends. selected sentence: She realized that today there was no school due to testing. <br><br>
+				<br> 줄거리: Jessie는 방금 학교에 도착했습니다. 그녀는 그곳에 사람이 많지 않다는 것을 알았다. 그녀는 오늘 시험 때문에 학교가 없다는 것을 깨달았습니다. 그녀는 그녀를 데리러 가기 위해 아빠에게 전화해야했습니다. 대신 그녀는 밖에 나가서 친구들과 어울리기로 결정했습니다. 선택한 문장: 그녀는 오늘 시험 때문에 학교가 없다는 것을 깨달았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> She feel(s) curiosity about why no one is at school >Motivates> She realizes there is no school <br><br>
+				<br> 그녀는 왜 아무도 학교에 없는지에 대한 호기심을 느낀다 >동기 부여한다> 그녀는 학교가 없다는 것을 깨닫는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Joe got a call about the car he was trying to sell. The caller asked Joe to meet him Somewhere to buy the car. Joe drove over to meet him right away. The guy offered Joe half the price that Joe asked. Joe said some dirty words to him and drove off. selected sentence: Joe got a call about the car he was trying to sell. <br><br>
+				<br> 이야기: Joe는 판매하려는 자동차에 대한 전화를 받았습니다. 전화를 건 사람은 Joe에게 차를 사기 위해 어딘가에서 만나자고 요청했습니다. Joe는 즉시 그를 만나기 위해 운전했습니다. 그 남자는 Joe가 요청한 가격의 절반을 Joe에게 제안했습니다. Joe는 그에게 더러운 말을하고 차를 몰았습니다. 선택한 문장: Joe는 판매하려는 자동차에 대한 전화를 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> Someone want(s) to buy Joe's car >Motivates> Joe gets a call about the car he is trying to sell <br><br>
+				<br> 누군가가 Joe의 차를 사고 싶어합니다 > 동기 부여 > Joe는 판매하려는 자동차에 대한 전화를 받습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Joe got a call about the car he was trying to sell. The caller asked Joe to meet him Somewhere to buy the car. Joe drove over to meet him right away. The guy offered Joe half the price that Joe asked. Joe said some dirty words to him and drove off. selected sentence: Joe got a call about the car he was trying to sell. <br><br>
+				<br> 이야기: Joe는 판매하려는 자동차에 대한 전화를 받았습니다. 전화를 건 사람은 Joe에게 차를 사기 위해 어딘가에서 만나자고 요청했습니다. Joe는 즉시 그를 만나기 위해 운전했습니다. 그 남자는 Joe가 요청한 가격의 절반을 Joe에게 제안했습니다. Joe는 그에게 더러운 말을하고 차를 몰았습니다. 선택한 문장: Joe는 판매하려는 자동차에 대한 전화를 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> The caller wants Joe's car >Motivates> Joe gets a call about the car he is selling <br><br>
+				<br> 전화를 건 사람은 Joe의 차를 원합니다 >동기 부여> Joe는 그가 판매하는 자동차에 대한 전화를 받습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Joey was in a rush to leave the house for work. He rushed down the steps, and fell to the bottom. Joey's leg was broken in three places. He needed to call an ambulance. Joey is going to miss plenty of work while in the hospital. selected sentence: He needed to call an ambulance. <br><br>
+				<br> 줄거리: Joey는 일을 위해 서둘러 집을 나섰습니다. 그는 계단을 급히 내려가 바닥에 쓰러졌다. Joey의 다리는 세 곳에서 부러졌습니다. 그는 구급차를 불러야 했습니다. Joey는 병원에 있는 동안 많은 일을 놓칠 것입니다. 선택한 문장: 그는 구급차를 불러야 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> Joey wants healing >Motivates> Joey had to call an ambulance <br><br>
+				<br> Joey는 치유를 원합니다>Motivates> Joey는 구급차를 불러야했습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: June's husband noticed that she vacuumed every day. He surprised her with a robot vacuum to do the job. June put up her trusty vacuum and let the robot go to work. But she soon realized she missed the daily chore. When her husband was at work, June short-circuited the robot. selected sentence: When her husband was at work, June short-circuited the robot. <br><br>
+				<br> 줄거리: June의 남편은 그녀가 매일 진공 청소기로 청소하는 것을 알아차렸습니다. 그는 로봇 청소기로 그녀를 놀라게 했다. June은 그녀의 믿음직한 진공 청소기를 설치하고 로봇이 일을 시작하도록 했습니다. 그러나 그녀는 곧 그녀가 일상적인 집안일을 놓쳤다는 것을 깨달았습니다. 남편이 직장에 있을 때 June은 로봇을 단락시켰습니다. 선택한 문장: 남편이 직장에 있을 때 June은 로봇을 단락시켰습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> June want(s) to short-circuit >Motivates> June short-circuits <br><br>
+				<br> 6월 단락을 원함 >동기 부여> 6월 단락 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate was chosen to be in the school play. She came down with the flu a week before the play. Kate was worried she would miss the play. She went to the doctor and got a shot. Kate was better in time for the play. selected sentence: She went to the doctor and got a shot. <br><br>
+				<br> 줄거리: 케이트는 학교 연극에 출연하도록 선택되었습니다. 그녀는 연극 일주일 전에 독감에 걸렸다. 케이트는 연극을 놓칠까봐 걱정했다. 그녀는 의사에게 가서 주사를 맞았습니다. Kate는 연극 시간에 더 잘 맞았습니다. 선택한 문장: 그녀는 의사에게 가서 주사를 맞았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> Kate want(s) to be healthy >Motivates> Kate gets a shot <br><br>
+				<br> Kate는 건강하기를 원합니다. >동기 부여> Kate가 주사를 맞습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate was cooking dinner. Her husband got home from work. He tried to sneak up and hug her. Kate had a knife in her hand and stabbed him by accident. She had to call 911 for help. selected sentence: She had to call 911 for help. <br><br>
+				<br> 이야기: 케이트는 저녁을 요리하고 있었습니다. 그녀의 남편은 직장에서 집에 돌아왔다. 그는 몰래 다가가 그녀를 껴안으려 했다. 케이트는 손에 칼을 들고 있었는데 실수로 그를 찔렀다. 그녀는 911에 도움을 요청해야 했습니다. 선택한 문장: 그녀는 911에 도움을 요청해야 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> Kate feel(s) scared >Motivates> Kate calls 911 for help <br><br>
+				<br> 케이트가 무서워 >동기 부여> 케이트는 911에 도움을 요청합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate was cooking dinner. Her husband got home from work. He tried to sneak up and hug her. Kate had a knife in her hand and stabbed him by accident. She had to call 911 for help. selected sentence: She had to call 911 for help. <br><br>
+				<br> 이야기: 케이트는 저녁을 요리하고 있었습니다. 그녀의 남편은 직장에서 집에 돌아왔다. 그는 몰래 다가가 그녀를 껴안으려 했다. 케이트는 손에 칼을 들고 있었는데 실수로 그를 찔렀다. 그녀는 911에 도움을 요청해야 했습니다. 선택한 문장: 그녀는 911에 도움을 요청해야 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Kate want(s) an ambulance >Motivates> Kate calls 911 <br><br>
+				<br> Kate는 구급차를 원합니다 > 동기 부여 > Kate는 911에 전화합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate's friend Tom was in a band. She went to see them play. She thought his friend Jake was hot. They caught eyes but got lost in the crowd. She figured she would never see him again. selected sentence: She figured she would never see him again. <br><br>
+				<br> 이야기: Kate의 친구 Tom은 밴드에 속해 있었습니다. 그녀는 그들의 경기를 보러 갔다. 그녀는 그의 친구 Jake가 섹시하다고 생각했습니다. 그들은 눈에 띄었지만 군중 속에서 길을 잃었습니다. 그녀는 그를 다시는 볼 수 없을 것이라고 생각했습니다. 선택한 문장: 그녀는 그를 다시는 볼 수 없을 것이라고 생각했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Kate feel(s) pessimism >Motivates> Kate figures she'll never see Jake again <br><br>
+				<br> Kate는 비관론을 느낀다 > 동기 > Kate는 Jake를 다시는 볼 수 없을 것이라고 생각합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kate's friend Tom was in a band. She went to see them play. She thought his friend Jake was hot. They caught eyes but got lost in the crowd. She figured she would never see him again. selected sentence: She figured she would never see him again. <br><br>
+				<br> 이야기: Kate의 친구 Tom은 밴드에 속해 있었습니다. 그녀는 그들의 경기를 보러 갔다. 그녀는 그의 친구 Jake가 섹시하다고 생각했습니다. 그들은 눈에 띄었지만 군중 속에서 길을 잃었습니다. 그녀는 그를 다시는 볼 수 없을 것이라고 생각했습니다. 선택한 문장: 그녀는 그를 다시는 볼 수 없을 것이라고 생각했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> Kate feel(s) pessimistic >Motivates> Kate figures she will never see Jake again <br><br>
+				<br> Kate는 비관적이라고 느끼고 >동기를 부여합니다> Kate는 Jake를 다시는 볼 수 없을 것이라고 생각합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kay wanted to knit a sweater. She had no clue how to knit so she looked it up on Youtube. The video she watched made it look easy to do. Kay began to knit but it wasn't going very well. Kay eventually gave up and bought a sweater instead. selected sentence: Kay eventually gave up and bought a sweater instead. <br><br>
+				<br> 이야기: Kay는 스웨터를 짜고 싶었습니다. 그녀는 뜨개질 방법에 대한 단서가 없었기 때문에 YouTube에서 찾았습니다. 그녀가 본 비디오는 그것을 하기 쉽게 만들었다. Kay는 뜨개질을 시작했지만 잘 풀리지 않았습니다. 케이는 결국 포기하고 대신 스웨터를 샀다. 선택된 문장: 케이는 결국 포기하고 대신 스웨터를 샀다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> Kay feel(s) cold >Motivates> Kay buys a new sweater <br><br>
+				<br> Kay는 춥다고 느낍니다 >동기 부여> Kay는 새 스웨터를 구입합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Kevin bought a new truck. It was snowing and he wanted to try his all wheel drive. He tried to go up a hill. He kept sliding regardless of what he tried. It was more ice than snow and too slippery even for his truck. selected sentence: Kevin bought a new truck. <br><br>
+				<br> 이야기: Kevin은 새 트럭을 샀습니다. 눈이 내리고 있었고 그는 사륜구동을 시도하고 싶었습니다. 그는 언덕을 오르려고 했다. 그는 무엇을 시도하든 관계없이 계속 미끄러졌습니다. 눈보다 얼음이 더 많았고 그의 트럭에도 너무 미끄러웠습니다. 선택한 문장: Kevin은 새 트럭을 샀습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> Kevin want(s) a truck >Motivates> Kevin buys a truck <br><br>
+				<br> Kevin은 트럭을 원합니다 >동기 부여> Kevin은 트럭을 구입합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Lacy and Karen got in a fight. They did not talk to each other for two days. They both got very lonely. One day, Lacy apologized. Karen apologized too so they could be friends again. selected sentence: They both got very lonely. <br><br>
+				<br> 줄거리: Lacy와 Karen이 싸웠습니다. 그들은 이틀 동안 서로 말을 하지 않았다. 둘 다 매우 외로워졌습니다. 어느 날 Lacy는 사과했습니다. Karen도 다시 친구가 될 수 있도록 사과했습니다. 선택된 문장: 그들은 둘 다 매우 외로워졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> They want(s) friendship >Motivates> They get lonely <br><br>
+				<br> 그들은 우정을 원한다 > 동기를 부여한다 > 그들은 외로워진다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Lucy was feeling exhausted. She woke up early. She took coffee but that didn't help. She also had Chinese food. She was so tired she passed out. selected sentence: She was so tired she passed out. <br><br>
+				<br> 이야기: Lucy는 지쳤습니다. 그녀는 일찍 일어났다. 그녀는 커피를 마셨지만 소용이 없었다. 그녀는 또한 중국 음식을 먹었습니다. 그녀는 너무 피곤해서 기절했습니다. 선택한 문장: 그녀는 너무 피곤해서 기절했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> Lucy feel(s) exhausted >Motivates> Lucy passes out <br><br>
+				<br> Lucy는 지쳤다고 느낀다 > 동기 부여 > Lucy 기절 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Mark liked a girl. Mark was afraid the girl didn't feel the same. So on valentines day he asked her to be his. She told him she would love to be with him. They kissed and became a couple on valentine's day. selected sentence: So on valentines day he asked her to be his. <br><br>
+				<br> 이야기: Mark는 여자를 좋아했습니다. Mark는 그 소녀가 같은 느낌을 받지 못할까 봐 걱정했습니다. 그래서 발렌타인 데이에 그는 그녀에게 자신의 것이 되라고 요청했습니다. 그녀는 그와 함께 있고 싶다고 말했습니다. 그들은 발렌타인 데이에 키스하고 커플이 되었습니다. 선택한 문장: 그래서 발렌타인 데이에 그는 그녀에게 자신의 것이 되라고 요청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> Mark want(s) love >Motivates> Mark asks the girl to be his Valentine <br><br>
+				<br> Mark는 사랑을 원합니다 > 동기 부여 > Mark는 소녀에게 자신의 발렌타인이 되어달라고 요청합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Mark liked a girl. Mark was afraid the girl didn't feel the same. So on valentines day he asked her to be his. She told him she would love to be with him. They kissed and became a couple on valentine's day. selected sentence: So on valentines day he asked her to be his. <br><br>
+				<br> 이야기: Mark는 여자를 좋아했습니다. Mark는 그 소녀가 같은 느낌을 받지 못할까 봐 걱정했습니다. 그래서 발렌타인 데이에 그는 그녀에게 자신의 것이 되라고 요청했습니다. 그녀는 그와 함께 있고 싶다고 말했습니다. 그들은 발렌타인 데이에 키스하고 커플이 되었습니다. 선택한 문장: 그래서 발렌타인 데이에 그는 그녀에게 자신의 것이 되라고 요청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> Mark want(s) romance >Motivates> Mark asks a girl to date Mark <br><br>
+				<br> Mark는 로맨스를 원합니다>동기 부여> Mark는 소녀에게 Mark를 요청합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Martha always wanted to be a good baker. She watched a TV show on how to bake bread and tried it on her own. She ended up baking her first loaf of bread a week later. The loaf ended up coming out burnt. Her mom yelled at her and told her not to bake bread ever again. selected sentence: Martha always wanted to be a good baker. <br><br>
+				<br> 이야기: Martha는 항상 좋은 제빵사가 되고 싶었습니다. 그녀는 빵을 굽는 방법에 대한 TV 프로그램을 보고 스스로 그것을 시도했습니다. 그녀는 일주일 후에 첫 번째 빵 덩어리를 구웠습니다. 빵은 결국 타버렸습니다. 그녀의 엄마는 그녀에게 소리를 지르며 다시는 빵을 굽지 말라고 말했습니다. 선택한 문장: Martha는 항상 좋은 제빵사가 되고 싶었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> Martha like(s) baking >Motivates> Martha wants to be a good baker <br><br>
+				<br> Martha는 베이킹을 좋아합니다. >동기 부여> Martha는 훌륭한 제빵사가 되고 싶어합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Maxine had tried eating tuna before but had never eaten salmon. Her friends told her that salmon was delicious and she should try it. One day she visited Washington State to try Pacific salmon. She loved how it tasted. From that day forward, salmon was Maxine's favorite fish. selected sentence: Maxine had tried eating tuna before but had never eaten salmon. <br><br>
+				<br> 줄거리: Maxine은 참치를 먹어본 적이 있지만 연어는 먹어본 적이 없습니다. 그녀의 친구들은 그녀에게 연어가 맛있으니 꼭 먹어봐야 한다고 말했습니다. 어느 날 그녀는 태평양 연어를 맛보기 위해 워싱턴 주를 방문했습니다. 그녀는 그 맛을 좋아했습니다. 그날부터 연어는 Maxine이 가장 좋아하는 생선이었습니다. 선택한 문장: Maxine은 전에 참치를 먹어본 적이 있지만 연어는 먹어본 적이 없습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> Maxine feel(s) nervous >Motivates> Maxine doesn't eat salmon <br><br>
+				<br> Maxine은 긴장을 느낍니다. >동기 부여> Maxine은 연어를 먹지 않습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Michael kept a pet rock and took it on walks every day. He would pretend to have adventures with it on the walk. His neighbors found the adventures entertaining to watch. Some of them would even walk with him with their own pet rocks. One day a neighbor even gave him a second rock! selected sentence: He would pretend to have adventures with it on the walk. <br><br>
+				<br> 이야기: Michael은 애완용 돌을 키우고 매일 산책을 했습니다. 그는 산책 중에 그것과 함께 모험을 하는 척할 것입니다. 그의 이웃들은 모험을 보는 재미를 느꼈습니다. 그들 중 일부는 애완용 돌을 가지고 그와 함께 걷기도 했습니다. 어느 날 이웃이 그에게 두 번째 돌을 주기까지 했습니다! 선택한 문장: 그는 산책하면서 모험을 하는 척할 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> Michael want(s) fun >Motivates> Michael pretends with his pet rock <br><br>
+				<br> Michael은 재미를 원하고 >동기를 부여합니다> Michael은 애완용 돌로 척합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My friend and I went to a mine. We dug holes everywhere looking for rocks. We found different versions of tourmaline. We collected them in a bag. We brought the rocks home to our collection. selected sentence: We dug holes everywhere looking for rocks. <br><br>
+				<br> 이야기: 내 친구와 나는 광산에 갔다. 우리는 바위를 찾기 위해 사방에 구멍을 팠습니다. 다른 버전의 전기석을 찾았습니다. 가방에 모았습니다. 우리는 수집품으로 돌을 집으로 가져왔습니다. 선택한 문장: 우리는 바위를 찾기 위해 사방에 구멍을 팠습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> My friend and I want(s) to find rocks >Motivates> My friend and I look for rocks <br><br>
+				<br> 친구와 나는 바위를 찾고 싶다 >동기> 친구와 나는 바위를 찾는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My kitchen was filling up with trash. I picked up a bag to carry it to my trash can. I began to walk down my driveway with the bag. Suddenly, the bag ripped and trash fell everywhere. I cleaned up the spilled trash and put it in the trash can. selected sentence: I picked up a bag to carry it to my trash can. <br><br>
+				<br> 이야기: 내 부엌은 쓰레기로 가득 차 있었습니다. 나는 그것을 쓰레기통으로 옮기기 위해 가방을 집어 들었다. 나는 가방을 들고 차도를 걷기 시작했다. 갑자기 가방이 찢어지고 쓰레기가 사방에 떨어졌습니다. 나는 흘린 쓰레기를 치우고 쓰레기통에 넣었다. 선택한 문장: 나는 쓰레기통에 담기 위해 가방을 집어 들었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> I want(s) cleanliness >Motivates> I takes a bag of trash to the trash can <br><br>
+				<br> 나는 청결함을 원한다 >동기 부여한다> 나는 쓰레기봉투를 쓰레기통에 버린다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My kitchen was filling up with trash. I picked up a bag to carry it to my trash can. I began to walk down my driveway with the bag. Suddenly, the bag ripped and trash fell everywhere. I cleaned up the spilled trash and put it in the trash can. selected sentence: I picked up a bag to carry it to my trash can. <br><br>
+				<br> 이야기: 내 부엌은 쓰레기로 가득 차 있었습니다. 나는 그것을 쓰레기통으로 옮기기 위해 가방을 집어 들었다. 나는 가방을 들고 차도를 걷기 시작했다. 갑자기 가방이 찢어지고 쓰레기가 사방에 떨어졌습니다. 나는 흘린 쓰레기를 치우고 쓰레기통에 넣었다. 선택한 문장: 나는 쓰레기통에 담기 위해 가방을 집어 들었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> I want(s) to pick up the bag >Motivates> I pick up the bag <br><br>
+				<br> 가방을 줍고 싶다 >동기> 가방을 줍다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My uncle owns a lake house. He invited us to go out last weekend. Everyone had a fun time playing on the boat and grilling out. I got a bit too sunburn. Other than that it was a great time with good people. selected sentence: He invited us to go out last weekend. <br><br>
+				<br> 이야기: 삼촌은 호숫가 집을 소유하고 있습니다. 그는 지난 주말에 우리를 외출에 초대했습니다. 모두가 보트에서 놀고 굽는 즐거운 시간을 보냈습니다. 나는 너무 햇볕에 화상을 입었습니다. 그것 말고는 좋은 사람들과 좋은 시간이었습니다. 선택한 문장: 그는 지난 주말에 우리를 외출에 초대했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> My uncle like(s) family >Motivates> My uncle invites us to the lake house <br><br>
+				<br> 삼촌이 좋아하는 가족>동기>삼촌이 우리를 호숫가 집에 초대한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: My uncle owns a lake house. He invited us to go out last weekend. Everyone had a fun time playing on the boat and grilling out. I got a bit too sunburn. Other than that it was a great time with good people. selected sentence: He invited us to go out last weekend. <br><br>
+				<br> 이야기: 삼촌은 호숫가 집을 소유하고 있습니다. 그는 지난 주말에 우리를 외출에 초대했습니다. 모두가 보트에서 놀고 굽는 즐거운 시간을 보냈습니다. 나는 너무 햇볕에 화상을 입었습니다. 그것 말고는 좋은 사람들과 좋은 시간이었습니다. 선택한 문장: 그는 지난 주말에 우리를 외출에 초대했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> My uncle like(s) inviting us >Motivates> My uncle invites us <br><br>
+				<br> 삼촌이 우리를 초대하는 것을 좋아합니다 >동기 부여> 삼촌이 우리를 초대합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Neil took a ferry to the island of Tasmania. There he admired the beautiful beaches. The sands were white and lovely. But try as he might, Neil missed seeing one thing. He could not find any Tasmanian devils! selected sentence: There he admired the beautiful beaches. <br><br>
+				<br> 줄거리: 닐은 페리를 타고 타즈매니아 섬으로 갔습니다. 그곳에서 그는 아름다운 해변에 감탄했습니다. 모래는 하얗고 아름다웠다. 하지만 아무리 노력해도 닐은 한 가지를 놓쳤습니다. 그는 어떤 태즈메이니아 데블도 찾을 수 없었습니다! 선택한 문장: 그곳에서 그는 아름다운 해변에 감탄했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> Neil want(s) to admire >Motivates> Neil admires <br><br>
+				<br> Neil은 존경하고 싶어합니다 >동기 부여> Neil은 존경합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Neil took a ferry to the island of Tasmania. There he admired the beautiful beaches. The sands were white and lovely. But try as he might, Neil missed seeing one thing. He could not find any Tasmanian devils! selected sentence: There he admired the beautiful beaches. <br><br>
+				<br> 줄거리: 닐은 페리를 타고 타즈매니아 섬으로 갔습니다. 그곳에서 그는 아름다운 해변에 감탄했습니다. 모래는 하얗고 아름다웠다. 하지만 아무리 노력해도 닐은 한 가지를 놓쳤습니다. 그는 어떤 태즈메이니아 데블도 찾을 수 없었습니다! 선택한 문장: 그곳에서 그는 아름다운 해변에 감탄했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 줄거리: 닐은 페리를 타고 타즈매니아 섬으로 갔습니다. 그곳에서 그는 아름다운 해변에 감탄했습니다. 모래는 하얗고 아름다웠다. 하지만 아무리 노력해도 닐은 한 가지를 놓쳤습니다. 그는 어떤 태즈메이니아 데블도 찾을 수 없었습니다! 선택한 문장: 그곳에서 그는 아름다운 해변에 감탄했습니다. <br><br>
+				<br> 줄거리: 닐은 페리를 타고 타즈매니아 섬으로 갔습니다. 그곳에서 그는 아름다운 해변에 감탄했습니다. 모래는 하얗고 아름다웠다. 하지만 아무리 노력해도 닐은 한 가지를 놓쳤습니다. 그는 어떤 태즈메이니아 데블도 찾을 수 없었습니다! 선택한 문장: 그곳에서 그는 아름다운 해변에 감탄했습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Neil was visiting the city of Hamburg. He could not wait to go to the Hamburg fair! He went to the fairgrounds and bought a ticket. Then he went in and rode rides and played games. Neil loved the Hamburg fair very much! selected sentence: Then he went in and rode rides and played games. <br><br>
+				<br> 줄거리: 닐은 함부르크를 방문하고 있었습니다. 그는 함부르크 박람회에 가기를 기다릴 수 없었습니다! 그는 박람회장에 가서 표를 샀다. 그런 다음 그는 안으로 들어가 놀이기구를 타고 게임을 했습니다. Neil은 함부르크 박람회를 매우 좋아했습니다! 선택된 문장: 그런 다음 그는 들어가서 놀이기구를 타고 게임을 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> Neil want(s) enjoyment >Motivates> Neil rides rides <br><br>
+				<br> Neil은 즐거움을 원합니다 >동기 부여> Neil rides rides <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: One of our favorite places to visit as a family is New York City. Once, we only had a day to visit, so we did a lot in a short time. We started out with a ride on the Staten Island Ferry. Then, we made our way all the way up to Central Park. By the time we had to leave, everyone was exhausted. selected sentence: One of our favorite places to visit as a family is New York City. <br><br>
+				<br> story: 가족이 함께 방문하기 가장 좋아하는 장소 중 하나는 뉴욕입니다. 한 번은 방문할 날이 하루 밖에 없었기 때문에 짧은 시간에 많은 일을 했습니다. 우리는 Staten Island Ferry를 타는 것으로 시작했습니다. 그런 다음 우리는 센트럴 파크까지 계속 나아갔습니다. 우리가 떠날 즈음에는 모두 지쳐 있었다. 선택한 문장: 가족이 방문하기 가장 좋아하는 장소 중 하나는 뉴욕시입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> We like(s) New York City >Motivates> We like visiting New York City <br><br>
+				<br> 우리는 뉴욕을 좋아합니다 >동기 부여> 우리는 뉴욕을 방문하는 것을 좋아합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: One of our favorite places to visit as a family is New York City. Once, we only had a day to visit, so we did a lot in a short time. We started out with a ride on the Staten Island Ferry. Then, we made our way all the way up to Central Park. By the time we had to leave, everyone was exhausted. selected sentence: One of our favorite places to visit as a family is New York City. <br><br>
+				<br> story: 가족이 함께 방문하기 가장 좋아하는 장소 중 하나는 뉴욕입니다. 한 번은 방문할 날이 하루 밖에 없었기 때문에 짧은 시간에 많은 일을 했습니다. 우리는 Staten Island Ferry를 타는 것으로 시작했습니다. 그런 다음 우리는 센트럴 파크까지 계속 나아갔습니다. 우리가 떠날 즈음에는 모두 지쳐 있었다. 선택한 문장: 가족이 방문하기 가장 좋아하는 장소 중 하나는 뉴욕시입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> We like(s) travel >Motivates> We love to visit New York City <br><br>
+				<br> 우리는 여행을 좋아합니다 >동기 부여> 우리는 뉴욕을 방문하는 것을 좋아합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: One time, my friend showed me his really cool telescope. We looked at planets and stars at night. I saw him a few days later and asked if I could look through it again. He told me that he sold it to a friend. I was disappointed, but I found out my parents bought it for me. selected sentence: I saw him a few days later and asked if I could look through it again. <br><br>
+				<br> story: 한번은 친구가 정말 멋진 망원경을 보여줬어요. 우리는 밤에 행성과 별을 보았습니다. 나는 며칠 후에 그를 보고 다시 살펴볼 수 있는지 물었다. 친구에게 팔았다고 합니다. 나는 실망했지만 부모님이 나를 위해 그것을 사셨다는 것을 알게되었습니다. 선택한 문장: 나는 며칠 후에 그를 보고 다시 살펴볼 수 있는지 물었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> I want(s) to look through the telescope again >Motivates> I ask if I can look through the telescope again <br><br>
+				<br> 망원경을 다시 보고 싶다 >동기> 망원경을 다시 볼 수 있냐고 묻는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Our neighbors down the hall had a very noisy party. One of the guests passed out in front of my door. When I asked him to leave he swore at me. I called the police. The guest left before the police came. selected sentence: When I asked him to leave he swore at me. <br><br>
+				<br> 이야기: 복도 아래에 있는 우리 이웃들은 매우 시끄러운 파티를 열었습니다. 손님 중 한 명이 내 문 앞에서 기절했습니다. 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했다. 나는 경찰을 불렀다. 손님은 경찰이 오기 전에 떠났다. 선택된 문장: 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> I feel annoyed >Motivates> I ask him to leave <br><br>
+				<br> 짜증난다>동기>그에게 나가달라고 한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Our neighbors down the hall had a very noisy party. One of the guests passed out in front of my door. When I asked him to leave he swore at me. I called the police. The guest left before the police came. selected sentence: When I asked him to leave he swore at me. <br><br>
+				<br> 이야기: 복도 아래에 있는 우리 이웃들은 매우 시끄러운 파티를 열었습니다. 손님 중 한 명이 내 문 앞에서 기절했습니다. 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했다. 나는 경찰을 불렀다. 손님은 경찰이 오기 전에 떠났다. 선택된 문장: 내가 그에게 떠나라고 요청했을 때 그는 나에게 욕을 했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> The guest feel(s) mad >Motivates> The guest swears <br><br>
+				<br> 손님이 화를 낸다 >동기 부여하다> 손님이 욕한다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Paul realizes he is almost out of shampoo one day in the shower. The next day he drives to a store to buy more of it. However, when he gets to the store, he realizes he forgot his wallet. He has to drive back home in order to get money. Finally he returns to the store with money to buy the shampoo. selected sentence: The next day he drives to a store to buy more of it. <br><br>
+				<br> 줄거리: 폴은 어느 날 샤워를 하다가 샴푸가 거의 다 떨어졌다는 사실을 깨닫습니다. 다음날 그는 그것을 더 사러 가게로 차를 몰고 갑니다. 그러나 그가 가게에 도착했을 때 그는 지갑을 잊었다는 것을 깨닫습니다. 그는 돈을 벌기 위해 차를 타고 집으로 돌아가야 합니다. 마침내 그는 샴푸를 사기 위해 돈을 가지고 가게로 돌아온다. 선택한 문장: 다음 날 그는 그것을 더 사러 가게로 차를 몰고 갑니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> Paul want(s) to buy more >Motivates> Paul goes to buy more <br><br>
+				<br> 폴이 더 사고 싶어 >동기 부여>폴이 더 사고 싶어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Rachel was lying in bed, scared of the dark. She tried to calm down and go to sleep. She was just too scared, and jumped out of bed. She decided to sneak into her sister's room. She quietly crept in and then laid on the floor and fell asleep. selected sentence: She was just too scared, and jumped out of bed. <br><br>
+				<br> 줄거리: Rachel은 어둠이 무서워 침대에 누워 있었습니다. 그녀는 진정하고 자려고 노력했습니다. 그녀는 너무 무서워서 침대에서 벌떡 일어났습니다. 그녀는 언니의 방에 몰래 들어가기로 결정했습니다. 그녀는 조용히 살금살금 들어와 바닥에 누워 잠이 들었다. 선택한 문장: 그녀는 너무 무서워서 침대에서 뛰어내렸습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> Rachel want(s) to jump >Motivates> Rachel jumps <br><br>
+				<br> 레이첼은 점프하고 싶다 > 동기 부여 > 레이첼 점프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Sam was running as fast as he could. He already passed 2 people. He had 3 more to pass. He was almost there. Sam was near the finish line. selected sentence: He was almost there. <br><br>
+				<br> 이야기: Sam은 최대한 빨리 달리고 있었습니다. 그는 이미 2 명을 통과했습니다. 그는 3번을 더 통과해야 했습니다. 그는 거의 다 왔습니다. Sam은 결승선 근처에 있었습니다. 선택된 문장: 그는 거의 다 왔습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> Sam want(s) success >Motivates> Sam is near finish line <br><br>
+				<br> Sam은 성공을 원합니다 >동기 부여> Sam은 결승선에 가까워졌습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Shay and the girls decided to take a trip. She wanted to take a girls trip to Miami. The girls got together and went for a week. They had a great time. At the end of the trip they didn't want to leave. selected sentence: They had a great time. <br><br>
+				<br> 줄거리: 셰이와 소녀들은 여행을 가기로 했다. 그녀는 마이애미로 여자 여행을 가고 싶었습니다. 소녀들은 모여 일주일 동안 갔다. 그들은 즐거운 시간을 보냈습니다. 여행이 끝날 무렵 그들은 떠나고 싶지 않았습니다. 선택한 문장: 그들은 즐거운 시간을 보냈습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> Shay and the girls like(s) Miami >Motivates> Shay and the girls have fun <br><br>
+				<br> Shay and the girls like(s) Miami >동기 부여> Shay and the girls have fun <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: She left the bag in the bathroom. She had set it on the floor. She forgot where she put it. She looked everywhere for it. She finally found it. selected sentence: She looked everywhere for it. <br><br>
+				<br> 줄거리: 그녀는 화장실에 가방을 두고 왔다. 그녀는 그것을 바닥에 놓았습니다. 그녀는 그것을 어디에 두었는지 잊었습니다. 그녀는 그것을 찾기 위해 모든 곳을 찾았습니다. 그녀는 마침내 그것을 찾았습니다. 선택한 문장: 그녀는 모든 곳에서 그것을 찾았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> She want(s) her bag >Motivates> She looks everywhere for the bag <br><br>
+				<br> 그녀는 가방을 원한다 >동기 유발> 그녀는 가방을 사방에서 찾는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Steve studied all night for an exam the next day. In the morning, he gulped coffee to stay awake for the test. By the time of the test, Steve was tired and jittery. The words on the paper seemed to swim before his eyes. Fifteen minutes into the test period, Steve had fallen asleep. selected sentence: Fifteen minutes into the test period, Steve had fallen asleep. <br><br>
+				<br> 스토리: Steve는 다음날 시험을 위해 밤새도록 공부했습니다. 아침에 그는 시험을 위해 깨어 있기 위해 커피를 마셨다. 테스트 당시 Steve는 피곤하고 초조해했습니다. 종이에 적힌 글귀가 그의 눈앞에서 헤엄치는 것 같았다. 테스트 시간이 시작된 지 15분 만에 Steve는 잠이 들었습니다. 선택한 문장: 테스트 기간이 시작된 지 15분 만에 Steve는 잠이 들었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> Steve feel(s) sleepy >Motivates> Steve falls asleep <br><br>
+				<br> 스티브가 졸리다 >동기 부여> 스티브가 잠들다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Susie was sitting down in the park. Her friend asked if she wanted some ice cream. Susie said okay. But by the time her friend came back it was melted. So Susie has to drink it. selected sentence: So Susie has to drink it. <br><br>
+				<br> 줄거리: 수지는 공원에 앉아 있었습니다. 그녀의 친구는 그녀에게 아이스크림이 필요한지 물었다. 수지는 괜찮다고 말했다. 그러나 그녀의 친구가 돌아왔을 때 그것은 녹아 있었다. 그래서 수지는 그것을 마셔야 합니다. 선택한 문장: 그래서 Susie는 그것을 마셔야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> Susie want(s) the ice cream >Motivates> Susie drinks the ice cream <br><br>
+				<br> 수지는 아이스크림을 원한다 >동기 부여> 수지는 아이스크림을 마신다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Sydney loved to play with his toys that his mother had bought him. His favorite toy was his orange ball. He loved the orange ball so much that he played all day with it. One day he discovered if he tossed the ball at his toy cups they fell. He was very happy that he discovered such a fun game to play. selected sentence: He was very happy that he discovered such a fun game to play. <br><br>
+				<br> 줄거리: 시드니는 어머니가 사준 장난감을 가지고 노는 것을 좋아했습니다. 그가 가장 좋아하는 장난감은 주황색 공이었습니다. 그는 주황색 공을 너무 좋아해서 하루 종일 가지고 놀았습니다. 어느 날 그는 장난감 컵에 공을 던지면 공이 떨어지는 것을 발견했습니다. 그는 이렇게 재미있는 게임을 발견해서 매우 기뻤습니다. 선택한 문장: 그는 이렇게 재미있는 게임을 발견해서 매우 기뻤습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Sydney like(s) having fun >Motivates> Sydney is happy he discovered a fun game to play <br><br>
+				<br> 시드니는 재미를 좋아합니다 >동기 부여> 시드니는 재미있는 게임을 발견한 것을 기쁘게 생각합니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: The family went down to the river. They were going fishing. They all baited their hooks. Only one person caught Something. They decided to try more tomorrow. selected sentence: They all baited their hooks. <br><br>
+				<br> 이야기: 가족은 강으로 내려갔습니다. 그들은 낚시하러 가고 있었다. 그들은 모두 미끼를 걸었습니다. 단 한 사람만이 무언가를 잡았습니다. 그들은 내일 더 시도하기로 결정했습니다. 선택한 문장: 그들은 모두 미끼를 걸었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> The family want(s) to use live bait >Motivates> The family baits their hooks <br><br>
+				<br> 가족이 살아있는 미끼를 사용하기를 원함 >동기 유발> 가족이 미끼를 낚아채기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: The prisoner went to the edge of the yard and looked at the fence. A small hole had been cut in it by his friend from the outside. The prisoner waited until a guard was distracted. He ran towards the fence and crawled through. Once on the other side he ran for the woods. selected sentence: The prisoner went to the edge of the yard and looked at the fence. <br><br>
+				<br> 줄거리: 죄수는 마당 가장자리로 가서 담장을 바라보았다. 그의 친구가 외부에서 작은 구멍을 뚫었습니다. 죄수는 경비원의 주의가 산만해질 때까지 기다렸다. 그는 울타리를 향해 달려가 기어갔다. 반대편에서 그는 숲을 향해 달렸습니다. 선택된 문장: 죄수는 마당 가장자리로 가서 울타리를 보았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> The prisoner want(s) to go >Motivates> The prisoner goes <br><br>
+				<br> 죄수는 가기를 원한다> 동기를 부여한다> 죄수는 간다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tim was playing outside. He suddenly got bored. Then he had an idea. He would dig deep in the soil. He ended up having a fun day digging. selected sentence: He suddenly got bored. <br><br>
+				<br> 이야기: Tim은 밖에서 놀고 있었습니다. 그는 갑자기 지루해졌습니다. 그때 그는 아이디어가 떠올랐다. 그는 땅을 깊이 파곤 했다. 그는 즐거운 하루를 파고 들었습니다. 선택한 문장: 그는 갑자기 지루해졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> Tim feel(s) sad >Motivates> He got bored. <br><br>
+				<br> Tim은 슬퍼합니다. >동기 부여> 그는 지루해졌습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tony swung on the swing. He went really high. His glasses began to slide. They fell off. He picked them out. selected sentence: Tony swung on the swing. <br><br>
+				<br> 줄거리: 토니가 그네를 탔다. 그는 정말 높이 갔다. 그의 안경이 미끄러지기 시작했다. 그들은 떨어졌다. 그는 그들을 골랐다. 선택한 문장: 토니가 그네를 탔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> Tony want(s) to swing >Motivates> Tony swings <br><br>
+				<br> 토니는 스윙을 원한다 > 동기를 부여한다 > 토니 스윙 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Tony was out playing with friends. Some of them were jumping rope. They asked Tony to jump in. Tony tried and fell down. All his friends made fun of him. selected sentence: They asked Tony to jump in. <br><br>
+				<br> 줄거리: 토니는 친구들과 놀러 나갔다. 그들 중 몇몇은 줄넘기를 하고 있었습니다. 그들은 Tony에게 뛰어들라고 요청했습니다. Tony는 시도하고 넘어졌습니다. 그의 친구들은 모두 그를 놀렸습니다. 선택한 문장: 그들은 Tony에게 뛰어들라고 요청했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> Tony's friends want(s) to play with Tony >Motivates> Tony's friends ask Tony to join them <br><br>
+				<br> 토니의 친구들이 토니와 놀고 싶어함 >동기 부여> 토니의 친구들이 토니에게 함께 하자고 함 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: We went to dinner last night. It was raining heavily. When we were done the rain had stopped and the sun was out. I took a photo of sun lit clouds in back of the restaurant. I am going to print the photo. selected sentence: I took a photo of sun lit clouds in back of the restaurant. <br><br>
+				<br> 줄거리: 우리는 어젯밤에 저녁을 먹으러 갔다. 비가 많이 내리고 있었다. 우리가 끝났을 때 비는 그쳤고 태양은 나갔다. 식당 뒷편에서 햇살이 비치는 구름을 사진으로 담았습니다. 사진을 인화하겠습니다. 선택한 문장: 식당 뒤편에서 햇빛이 비치는 구름 사진을 찍었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> I like(s) taking photos >Motivates> I take a photo <br><br>
+				<br> 나는 사진 찍는 것을 좋아한다 >동기 부여한다> 나는 사진을 찍는다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: When I was young, my friend bought me a Ouija board. We both put our hands on it to play. All the sudden, the planchette started moving slowly. We were very scared and stopped playing immediately. I threw it away the next day. selected sentence: I threw it away the next day. <br><br>
+				<br> 스토리: 어렸을 때 친구가 위자보드를 사줬어요. 우리 둘 다 놀기 위해 손을 얹었습니다. 갑자기 플랑셰트가 천천히 움직이기 시작했다. 우리는 매우 무서워서 즉시 게임을 중단했습니다. 다음날 버렸어요. 선택한 문장: 나는 그것을 다음날 버렸습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> I feel(s) scared >Motivates> I threw away the Quija board the next day <br><br>
+				<br> 무서움 >동기> 다음날 Quija 보드를 버렸습니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: When it was 3 o'clock, I went outside. The mailman reached in front of my house. He had a very big package. When I opened it, I was shocked. It was a birthday present for me. selected sentence: When it was 3 o'clock, I went outside. <br><br>
+				<br> 줄거리: 3시가 되자 밖에 나갔다. 우체부가 우리 집 앞에 도착했다. 그는 매우 큰 패키지를 가지고 있었습니다. 내가 그것을 열었을 때, 나는 충격을 받았다. 저를 위한 생일 선물이었습니다. 선택한 문장: 3시가 되었을 때 나는 밖에 나갔다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> I want(s) to go >Motivates> I go <br><br>
+				<br> 가고 싶다 > 동기부여 > 간다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: While I was driving, the person in front of me was moving slow. I decided to speed up in another lane and go in front of him. Eventually, he drove up and hit the side of my car. I immediately stopped however, he kept driving. Since I couldn't file a report, I was mad. selected sentence: I immediately stopped however, he kept driving. <br><br>
+				<br> 줄거리: 운전을 하다가 앞사람이 느리게 움직였다. 나는 다른 차선에서 속도를 높이고 그의 앞에 가기로 결정했습니다. 결국 그는 차를 몰고 내 차 옆면을 들이받았다. 나는 즉시 멈췄지만 그는 계속 운전했습니다. 신고를 못해서 화가 났습니다. 선택한 문장: 나는 즉시 멈췄지만 그는 계속 운전했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> I want(s) to stop >Motivates> I stop <br><br>
+				<br> 나는 멈추고 싶다 >동기 부여> 나는 그만 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> story: Yesterday I went to the grocery store. When I got in line to pay I was waiting forever. It took an hour to get through the line. It was terrible. I knew not to go back there. selected sentence: I knew not to go back there. <br><br>
+				<br> 이야기: 어제 나는 식료품점에 갔다. 내가 지불하기 위해 줄을 섰을 때 나는 영원히 기다리고 있었다. 라인을 통과하는 데 한 시간이 걸렸습니다. 그것은 끔찍했다. 나는 거기로 돌아가지 않을 것을 알고 있었다. 선택된 문장: 나는 거기로 돌아가지 않을 것을 알고 있었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> I feel(s) frustrated >Motivates> I knew not to go back there <br><br>
+				<br> 좌절감 >동기 부여> 거기로 돌아가지 않을 줄 알았어 <br><br>
+			</td>
+		</tr>
+	</table>

@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An episode of subacute encephalopathy after the infusion of methotrexate (1500 mg/m2) (MTX) is reported in a young adult with metastastic gastric cancer. methotrexate <br><br>
+				<br> 메토트렉세이트(1500 mg/m2)(MTX) 주입 후 아급성 뇌병증이 전이성 위암을 앓고 있는 젊은 성인에게서 보고되었습니다. 메토트렉세이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 1500 mg/m2 <br><br>
+				<br> 1500mg/m2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A case of normotensive scleroderma renal crisis after high-dose methylprednisolone treatment. methylprednisolone <br><br>
+				<br> 고용량 methylprednisolone 치료 후 정상 혈압의 경피증 신장 위기 1예. 메틸프레드니솔론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> high <br><br>
+				<br> 높은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 1. Changes in the plasma cortisol level were reported in a male patient with panic disorder during the period of low-dose alprazolam treatment (mean 0.62 +/- 0.15 mg/day) compared with during the period of high-dose period (mean 1.08 +/- 0.28 mg/day). alprazolam <br><br>
+				<br> 1. 공황 장애가 있는 남성 환자에서 저용량 알프라졸람 치료 기간(평균 0.62 +/- 0.15mg/일)과 고용량 기간(평균 1.08 +/- 0.15mg/일)에 비해 혈장 코르티솔 수치의 변화가 보고되었습니다. - 0.28mg/일). 알프라졸람 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> low <br><br>
+				<br> 낮은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 17-year-old female patient who had been taking oral minocycline (50 mg twice daily) for 3 weeks for acne developed an eruption that progressed to an exfoliative dermatitis. minocycline <br><br>
+				<br> 여드름 때문에 3주 동안 경구용 미노사이클린(1일 2회 50mg)을 복용한 17세 여성 환자가 박리성 피부염으로 진행되는 발진이 발생했습니다. 미노사이클린 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 50 mg twice daily <br><br>
+				<br> 50mg 1일 2회 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 33-year-old man with a history of recreational benztropine abuse presented to the emergency department with confusion, abdominal pain, and distention. benztropine <br><br>
+				<br> 기분전환용 벤즈트로핀 남용 병력이 있는 33세 남자가 착란, 복통 및 팽창으로 응급실에 내원했습니다. 벤즈트로핀 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> abuse <br><br>
+				<br> 남용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 5-month-old infant became lethargic and poorly responsive after receiving 1 drop of brimonidine in each eye. brimonidine <br><br>
+				<br> 5개월 된 영아가 각 눈에 브리모니딘 1방울을 투여한 후 무기력해지고 반응이 나빠졌습니다. 브리모니딘 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 1 drop <br><br>
+				<br> 1방울 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 53-year-old male, without any prior history of psychosis, developed schizophrenia 4 days after starting low-dose bromocriptine therapy for a macroprolactinoma. bromocriptine <br><br>
+				<br> 정신병 병력이 없는 53세 남성이 거대 프로락틴종에 대한 저용량 브로모크립틴 요법을 시작한 지 4일 후에 정신분열증이 발생했습니다. 브로모크립틴 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 53-year-old man developed lower leg edema 4 weeks after rosiglitazone was increased from 4 mg once/day to 4 mg twice/day. rosiglitazone <br><br>
+				<br> 53세 남성이 rosiglitazone을 4mg 1일 1회에서 4mg 1일 2회로 증량한 후 4주 후에 하지 부종이 발생했습니다. 로지글리타존 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 4 mg twice/day <br><br>
+				<br> 4mg/일 2회 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 55-year-old woman presented an episode of acute urticaria and labial angioedema 60 minutes after ingesting 500 mg of cloxacillin for a skin abscess. cloxacillin <br><br>
+				<br> 55세 여성이 피부농양으로 cloxacillin 500mg을 복용한 지 60분 후에 급성 두드러기와 입술혈관부종이 발생하였다. 클록사실린 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 500 mg <br><br>
+				<br> 500mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 56-year-old white woman with a diagnosis of reactive depression developed severe UI after a 30 days' treatment with venlafaxine 75 mg/day. venlafaxine <br><br>
+				<br> 반응성 우울증 진단을 받은 56세 백인 여성이 venlafaxine 75 mg/day로 30일 치료 후 심각한 요실금이 발생했습니다. 벤라팍신 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 75 mg/day <br><br>
+				<br> 75mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 56-year-old woman with scleroderma developed rapidly progressive glomerulonephritis with epithelial crescents associated with hemoptysis after 27 months of D-penicillamine therapy and a cumulative dose of 1,200 g. D-penicillamine <br><br>
+				<br> 피부경화증이 있는 56세 여성이 27개월 동안 D-페니실라민 요법과 1,200g의 누적 용량 후에 객혈과 관련된 상피 초승달 모양의 급속 진행성 사구체신염이 발생했습니다. D-페니실라민 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 1,200 g <br><br>
+				<br> 1,200g <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 60 year-old woman with chronic renal failure developed acute proximal muscle weakness after receiving a regular dosage of colchicine. colchicine <br><br>
+				<br> 만성 신부전을 앓고 있는 60세 여성이 콜히친을 규칙적으로 복용한 후 급성 근위부 근육 약화가 발생했습니다. 콜히친 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> regular <br><br>
+				<br> 정기적인 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 64 year old man with recurrent metastatic squamous cell carcinoma of the head and neck developed severe skin rash and bone marrow aplasia 4 and 7 days, respectively, following a single dose of 40 mg/m2 methotrexate (MTX). MTX <br><br>
+				<br> 두경부의 재발성 전이성 편평 세포 암종을 앓고 있는 64세 남성이 40mg/m2의 메토트렉세이트(MTX) 단일 투여 후 각각 4일 및 7일에 심각한 피부 발진 및 골수 무형성증이 발생했습니다. MTX <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 40 mg/m2 <br><br>
+				<br> 40mg/m2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 64 year old man with recurrent metastatic squamous cell carcinoma of the head and neck developed severe skin rash and bone marrow aplasia 4 and 7 days, respectively, following a single dose of 40 mg/m2 methotrexate (MTX). methotrexate <br><br>
+				<br> 두경부의 재발성 전이성 편평 세포 암종을 앓고 있는 64세 남성이 40mg/m2의 메토트렉세이트(MTX) 단일 투여 후 각각 4일 및 7일에 심각한 피부 발진 및 골수 무형성증이 발생했습니다. 메토트렉세이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 40 mg/m2 <br><br>
+				<br> 40mg/m2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 64-year-old man with schizophrenia developed myoclonic jerks when given higher doses of quetiapine. quetiapine <br><br>
+				<br> 정신분열증이 있는 64세 남성에게 고용량의 quetiapine을 투여했을 때 myoclonic jerks가 발생했습니다. 퀘티아핀 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> higher doses <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 65-year-old woman with angina pectoris presented with syncope after sublingual ingestion of isosorbide dinitrate (5 mg). isosorbide dinitrate <br><br>
+				<br> 협심증이 있는 65세 여성이 isosorbide dinitrate(5mg) 설하 섭취 후 실신으로 내원했습니다. 이소소르비드 질산염 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 5 mg <br><br>
+				<br> 5mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 65-year-old woman with bipolar disorder and complicated cardiovascular disease who was on maintenance lithium therapy developed a movement disorder following high doses of trazodone for treatment of an acute depression. lithium <br><br>
+				<br> 리튬 요법을 유지하고 있는 양극성 장애와 복잡한 심혈관 질환이 있는 65세 여성이 급성 우울증 치료를 위해 고용량의 트라조돈을 복용한 후 운동 장애가 발생했습니다. 리튬 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> high doses <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 65-year-old woman with bipolar disorder and complicated cardiovascular disease who was on maintenance lithium therapy developed a movement disorder following high doses of trazodone for treatment of an acute depression. trazodone <br><br>
+				<br> 리튬 요법을 유지하고 있는 양극성 장애와 복잡한 심혈관 질환이 있는 65세 여성이 급성 우울증 치료를 위해 고용량의 트라조돈을 복용한 후 운동 장애가 발생했습니다. 트라조돈 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> high doses <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 71-year-old man with paroxysmal atrial fibrillation who had a previous anterior myocardial infarction exhibited granulocytopenia 8 days following the administration of oral sustained-release procainamide (750 mg/day). procainamide <br><br>
+				<br> 이전에 전방 심근 경색증이 있었던 발작성 심방 세동이 있는 71세 남성이 경구 지속 방출 프로카인아미드(750mg/일) 투여 후 8일에 과립구 감소증을 보였습니다. 프로카인아마이드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 750 mg/day <br><br>
+				<br> 750mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 74-year-old hypercholestrerolaemic woman taking cerivastatin (0.15 mg/day) for 22 days complained of general muscle weakness and muscle pain. cerivastatin <br><br>
+				<br> 74세의 고콜레스테롤혈증 여성이 cerivastatin(0.15mg/day)을 22일 동안 복용하면서 전신 근쇠약과 근육통을 호소했습니다. 세리바스타틴 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 0.15 mg/day <br><br>
+				<br> 0.15mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 74-year-old patient with idiopathic Parkinson's disease was evaluated for unintended sleep episodes that occurred after long-term treatment with 400 mg/day of L-dopa. L-dopa <br><br>
+				<br> 74세의 특발성 파킨슨병 환자가 하루 400mg의 L-도파로 장기간 치료한 후 발생한 의도하지 않은 수면 에피소드에 대해 평가되었습니다. 엘-도파 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 400 mg/day <br><br>
+				<br> 400mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 9-year-old boy developed acute renal failure following intravenous acyclovir (30 mg/kg per day) administered for 6 days to treat herpetic encephalitis. acyclovir <br><br>
+				<br> 9세 소년이 헤르페스성 뇌염 치료를 위해 6일 동안 아시클로비르(하루 30mg/kg) 정맥주사 후 급성 신부전이 발생했습니다. 아시클로버 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 30 mg/kg per day <br><br>
+				<br> 하루 30mg/kg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A case of propranolol overdose complicated by esophageal spasm preventing extrication of an orogastric lavage tube and relieved by intravenous glucagon is presented. propranolol <br><br>
+				<br> 식도경련으로 인한 프로프라놀롤 과량투여로 입위세척관이 빠져나오지 못하고 글루카곤 정맥주사로 완화된 1예가 있다. 프로프라놀롤 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A case of severe visual loss following a single dose of vincristine is described. vincristine <br><br>
+				<br> vincristine 1회 투여 후 심각한 시력 상실 사례가 설명됩니다. 빈크리스틴 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> single dose <br><br>
+				<br> 단일 용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A high dose of cotrimoxazole induced hyperkalaemia with the elevation of serum creatinine and blood urea, and increased urinary N-acetyl glucosaminase after several days of the drug administration in these patients; one patient became unconscious. cotrimoxazole <br><br>
+				<br> 고용량의 cotrimoxazole은 혈청 크레아티닌과 혈액 요소의 상승과 함께 고칼륨혈증을 유발했으며, 이 환자들에게 약물 투여 며칠 후에 요중 N-아세틸 글루코사미나제를 증가시켰습니다. 한 환자는 의식을 잃었습니다. 코트리목사졸 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> high <br><br>
+				<br> 높은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A patient is presented with typical hyperthyroidism, who developed a severe proximal muscle weakness and a raised creatine phosphokinase after treatment for hyperthyroidism with propylthiouracil (100 mg orally, three times a day). propylthiouracil <br><br>
+				<br> 전형적인 갑상선 기능 항진증 환자에게 프로필티오우라실(100mg 경구, 하루 3회)로 갑상선 기능 항진증을 치료한 후 심각한 근위 근육 약화와 크레아틴 포스포키나아제 상승이 발생했습니다. 프로필티오우라실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 100 mg orally, three times a day <br><br>
+				<br> 100 mg 경구, 하루 세 번 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A patient with rheumatoid arthritis developed an acute intrahepatic cholestasis after 100 mg of sodium aurothiomalate. sodium aurothiomalate <br><br>
+				<br> 류마티스 관절염 환자에게 나트륨 오로티오말레이트 100mg을 투여한 후 급성 간내 담즙정체가 발생했습니다. 아우로티오말산나트륨 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 100 mg <br><br>
+				<br> 100mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A sixty-year-old woman with advanced breast cancer, previously treated with cisplatin, developed an irreversible lethal renal failure with anuria, the day after 5 g/m2 bolus ifosfamide. ifosfamide <br><br>
+				<br> 이전에 시스플라틴으로 치료받은 진행성 유방암을 앓는 60세 여성이 5g/m2 bolus ifosfamide를 투여한 다음 날 무뇨증을 동반한 돌이킬 수 없는 치명적인 신부전이 발생했습니다. 이포스파마이드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 5 g/m2 <br><br>
+				<br> 5g/㎡ <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Acute dystonic reaction with low-dose pimozide. pimozide <br><br>
+				<br> 저용량 pimozide를 사용한 급성 근긴장 이상 반응. 피모지드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> low <br><br>
+				<br> 낮은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Acute myocardial infarction during high-dose methylprednisolone therapy for Graves' ophthalmopathy. methylprednisolone <br><br>
+				<br> Graves' ophthalmopathy에 대한 고용량 methylprednisolone 치료 중 급성 심근 경색. 메틸프레드니솔론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After a six-week course of low-dose cyclosporine A, she developed a severe but reversible loss of glomerular filtration rate and effective renal plasma flow despite of low cyclosporine A plasma levels. cyclosporine A <br><br>
+				<br> 저용량 사이클로스포린 A의 6주 과정 후, 그녀는 낮은 사이클로스포린 A 혈장 수치에도 불구하고 심각하지만 가역적인 사구체 여과율 및 효과적인 신장 혈장 흐름의 손실을 보였습니다. 사이클로스포린 A <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After initiation of topical vitamin D3 ointment (20 micro g/g of tacalcitol) 10 g/day for the skin lesions, both the serum level of calcium and urinary excretion of calcium increased gradually. vitamin D3 <br><br>
+				<br> 피부 병변에 국소 비타민 D3 연고(타칼시톨 20μg/g) 10g/일을 시작한 후 혈청 칼슘 수치와 요중 칼슘 배설이 점차 증가했습니다. 비타민 D3 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 20 micro g/g <br><br>
+				<br> 20마이크로그램/그램 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After the dose of methylprednisolone was reduced from 40 mg to 20 mg i.v. q6h and shifted to other anti-asthma treatment by procaterol metered dose inhaler via spacer, the psychotic reaction disappeared a few hours later. methylprednisolone <br><br>
+				<br> 메틸프레드니솔론의 용량을 40mg에서 20mg i.v로 줄인 후 q6h를 사용하고 스페이서를 통해 프로카테롤 정량 흡입기에 의한 다른 항천식 치료로 전환했고, 정신병적 반응은 몇 시간 후에 사라졌습니다. 메틸프레드니솔론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 40 mg <br><br>
+				<br> 40mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After therapy with parenteral amiodarone (2300 mg in 3 days) and other measures, signs of congestive heart failure disappeared; subsequently the patient developed jaundice, marked increase in serum transaminase levels and fall in prothrombin time, and histologic changes of severe centrilobular necrosis were observed in hepatic biopsy. amiodarone <br><br>
+				<br> 비경구적 아미오다론(3일에 2300mg) 및 기타 조치를 사용한 치료 후 울혈성 심부전의 징후가 사라졌습니다. 이후 환자는 황달이 발생했고, 혈청 트랜스아미나제 수치의 현저한 증가와 프로트롬빈 시간의 감소, 간 생검에서 심한 소엽 중심 괴사의 조직학적 변화가 관찰되었습니다. 아미오다론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 2300 mg in 3 days <br><br>
+				<br> 3일에 2300mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Alternating sinus rhythm and intermittent sinoatrial (S-A) block was observed in a 57-year-old woman, under treatment for angina with 80 mg propranolol daily. propranolol <br><br>
+				<br> 매일 80mg의 프로프라놀롤로 협심증 치료를 받고 있는 57세 여성에게서 교대 동리듬과 간헐적 동방방(S-A) 차단이 관찰되었습니다. 프로프라놀롤 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 80 mg <br><br>
+				<br> 80mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Amphotericin B overdose in pediatric patients with associated cardiac arrest. Amphotericin B <br><br>
+				<br> 심정지가 동반된 소아 환자에게 암포테리신 B 과다복용. 암포테리신 B <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An 11-year-old boy who was treated with a relatively high dose of methotrimeprazine meleate (Levemepromazine) a phenothiazine antipsychotic drug, was admitted to the pediatric intensive care unit suffering from respiratory distress syndrome. Levemepromazine <br><br>
+				<br> phenothiazine계 항정신병 약물인 methotrimeprazine meleate(Levemepromazine)를 비교적 고용량으로 투여받은 11세 소년이 호흡곤란증후군으로 소아중환자실에 입원하였다. 레베메프로마진 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> high dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An 11-year-old boy who was treated with a relatively high dose of methotrimeprazine meleate (Levemepromazine) a phenothiazine antipsychotic drug, was admitted to the pediatric intensive care unit suffering from respiratory distress syndrome. methotrimeprazine meleate <br><br>
+				<br> phenothiazine계 항정신병 약물인 methotrimeprazine meleate(Levemepromazine)를 비교적 고용량으로 투여받은 11세 소년이 호흡곤란증후군으로 소아중환자실에 입원하였다. 메토트리메프라진 멜레이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> high dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An 83-year-old man receiving glipizide 10 mg bid developed symptomatic hypoglycemia within three days of adding trimethoprim/sulfamethoxazole (TMP/SMX) to his regimen. SMX <br><br>
+				<br> glipizide 10 mg bid를 투여받은 83세 남성이 자신의 요법에 트리메토프림/설파메톡사졸(TMP/SMX)을 추가한 지 3일 이내에 증후성 저혈당증이 발생했습니다. SMX <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 10 mg <br><br>
+				<br> 10mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An 83-year-old man receiving glipizide 10 mg bid developed symptomatic hypoglycemia within three days of adding trimethoprim/sulfamethoxazole (TMP/SMX) to his regimen. TMP <br><br>
+				<br> glipizide 10 mg bid를 투여받은 83세 남성이 자신의 요법에 트리메토프림/설파메톡사졸(TMP/SMX)을 추가한 지 3일 이내에 증후성 저혈당증이 발생했습니다. TMP <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 10 mg <br><br>
+				<br> 10mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An 83-year-old man receiving glipizide 10 mg bid developed symptomatic hypoglycemia within three days of adding trimethoprim/sulfamethoxazole (TMP/SMX) to his regimen. glipizide <br><br>
+				<br> glipizide 10 mg bid를 투여받은 83세 남성이 자신의 요법에 트리메토프림/설파메톡사졸(TMP/SMX)을 추가한 지 3일 이내에 증후성 저혈당증이 발생했습니다. 글리피자이드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 10 mg <br><br>
+				<br> 10mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An 83-year-old man receiving glipizide 10 mg bid developed symptomatic hypoglycemia within three days of adding trimethoprim/sulfamethoxazole (TMP/SMX) to his regimen. sulfamethoxazole <br><br>
+				<br> glipizide 10 mg bid를 투여받은 83세 남성이 자신의 요법에 트리메토프림/설파메톡사졸(TMP/SMX)을 추가한 지 3일 이내에 증후성 저혈당증이 발생했습니다. 설파메톡사졸 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 10 mg <br><br>
+				<br> 10mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An 83-year-old man receiving glipizide 10 mg bid developed symptomatic hypoglycemia within three days of adding trimethoprim/sulfamethoxazole (TMP/SMX) to his regimen. trimethoprim <br><br>
+				<br> glipizide 10 mg bid를 투여받은 83세 남성이 자신의 요법에 트리메토프림/설파메톡사졸(TMP/SMX)을 추가한 지 3일 이내에 증후성 저혈당증이 발생했습니다. 트리메토프림 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 10 mg <br><br>
+				<br> 10mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Ballistic movements due to ischemic infarcts after intravenous heroin overdose: report of two cases. heroin <br><br>
+				<br> 정맥 헤로인 과다 복용 후 허혈성 경색으로 인한 탄도 운동: 2예 보고. 헤로인 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bone marrow aplasia and severe skin rash after a single low dose of methotrexate. methotrexate <br><br>
+				<br> 단일 저용량 메토트렉세이트 후 골수 무형성증 및 심한 피부 발진. 메토트렉세이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> low dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bulbar and pseudobulbar palsy complicating therapy with high-dose cytosine arabinoside in children with leukemia. cytosine arabinoside <br><br>
+				<br> 백혈병 소아에서 고용량 시토신 아라비노사이드로 치료를 복잡하게 만드는 연수 및 가성연수 마비. 시토신 아라비노사이드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CASE REPORT: Soon after initiation of amiodarone HCl (200 mg/day), a 76-year-old man came to us with symptoms of visual "shining," glare, color vision anomalies, and gradually decreased vision. amiodarone HCl <br><br>
+				<br> 사례 보고: 아미오다론 HCl(200mg/일)을 시작한 직후, 76세 남성이 시각적 "반짝임", 눈부심, 색각 이상 및 점진적인 시력 저하 증상으로 우리를 찾아왔습니다. 아미오다론 HCl <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 200 mg/day <br><br>
+				<br> 200mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CASE SUMMARY: An 80-year-old white female, followed up at the Memory Clinic for mild cognitive impairment, had been taking propafenone 900 mg/d for >10 years for paroxysmal atrial fibrillation without adverse effects. propafenone <br><br>
+				<br> 사례 요약: 80세 백인 여성이 경미한 인지 장애에 대해 메모리 클리닉에서 후속 조치를 받았고 부작용 없이 발작성 심방 세동에 대해 >10년 동안 프로파페논 900mg/일을 복용했습니다. 프로파페논 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 900 mg/d <br><br>
+				<br> 900mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: Amphotericin B overdose can be fatal in children and infants. Amphotericin B <br><br>
+				<br> 결론: Amphotericin B 과다 복용은 어린이와 유아에게 치명적일 수 있습니다. 암포테리신 B <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: Clinicians should be aware of a risk of serotonin syndrome with serious extrapyramidal reactions in patients receiving sertraline or venlafaxine when metoclopramide is coadministered even in a single, conventional dose. metoclopramide <br><br>
+				<br> 결론: 임상의는 메토클로프라미드를 기존의 단일 용량으로 병용투여하는 경우 세르트랄린 또는 벤라팍신을 투여받는 환자에서 심각한 추체외로 반응을 동반한 세로토닌 증후군의 위험을 인식해야 합니다. 메토클로프라미드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> conventional <br><br>
+				<br> 전통적인 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: Clinicians should be aware of a risk of serotonin syndrome with serious extrapyramidal reactions in patients receiving sertraline or venlafaxine when metoclopramide is coadministered even in a single, conventional dose. sertraline <br><br>
+				<br> 결론: 임상의는 메토클로프라미드를 기존의 단일 용량으로 병용투여하는 경우 세르트랄린 또는 벤라팍신을 투여받는 환자에서 심각한 추체외로 반응을 동반한 세로토닌 증후군의 위험을 인식해야 합니다. 세르트랄린 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> conventional <br><br>
+				<br> 전통적인 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: Clinicians should be aware of a risk of serotonin syndrome with serious extrapyramidal reactions in patients receiving sertraline or venlafaxine when metoclopramide is coadministered even in a single, conventional dose. venlafaxine <br><br>
+				<br> 결론: 임상의는 메토클로프라미드를 기존의 단일 용량으로 병용투여하는 경우 세르트랄린 또는 벤라팍신을 투여받는 환자에서 심각한 추체외로 반응을 동반한 세로토닌 증후군의 위험을 인식해야 합니다. 벤라팍신 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> conventional <br><br>
+				<br> 전통적인 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: LTG overdose may result in a severe but reversible encephalopathy, a previously undescribed phenomenon. LTG <br><br>
+				<br> 결론: LTG 과다 복용은 이전에 설명되지 않은 현상인 심각하지만 가역적인 뇌병증을 유발할 수 있습니다. LTG <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: Life-threatening adrenal suppression, requiring hydrocortisone supplementation and intensive therapy, was observed and successfully treated in a newborn, whose mother had received high-dose methylprednisolone in late pregnancy. methylprednisolone <br><br>
+				<br> 결론: 하이드로코르티손 보충과 집중 치료가 필요한 생명을 위협하는 부신 억제가 임신 후기에 고용량 메틸프레드니솔론을 투여받은 산모의 신생아에서 관찰되었고 성공적으로 치료되었습니다. 메틸프레드니솔론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: Peripheral administration of low-dose vasopressin for septic shock should be discouraged because of the risk of ischemic skin complications. vasopressin <br><br>
+				<br> 결론: 패혈성 쇼크에 대한 저용량 바소프레신의 말초 투여는 허혈성 피부 합병증의 위험 때문에 권장되지 않습니다. 바소프레신 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> low <br><br>
+				<br> 낮은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CONCLUSIONS: We present a case of a patient with CML who developed KS 12 months after starting treatment with imatinib 400 mg/d. imatinib <br><br>
+				<br> 결론: Imatinib 400 mg/d로 치료를 시작하고 12개월 후 KS가 발생한 CML 환자의 사례를 제시한다. 이마티닙 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 400 mg/d <br><br>
+				<br> 400mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Carboplatin hypersensitivity induced by low-dose paclitaxel/carboplatin in multiple platinum-treated patients with recurrent ovarian cancer. Carboplatin <br><br>
+				<br> 재발성 난소암이 있는 다수의 백금 치료 환자에서 저용량 파클리탁셀/카보플라틴에 의해 유발된 카보플라틴 과민증. 카보플라틴 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Carboplatin hypersensitivity induced by low-dose paclitaxel/carboplatin in multiple platinum-treated patients with recurrent ovarian cancer. carboplatin <br><br>
+				<br> 재발성 난소암이 있는 다수의 백금 치료 환자에서 저용량 파클리탁셀/카보플라틴에 의해 유발된 카보플라틴 과민증. 카보플라틴 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Carboplatin hypersensitivity induced by low-dose paclitaxel/carboplatin in multiple platinum-treated patients with recurrent ovarian cancer. paclitaxel <br><br>
+				<br> 재발성 난소암이 있는 다수의 백금 치료 환자에서 저용량 파클리탁셀/카보플라틴에 의해 유발된 카보플라틴 과민증. 파클리탁셀 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Central nervous system manifestations of an ibuprofen overdose reversed by naloxone. ibuprofen <br><br>
+				<br> 날록손에 의해 역전된 이부프로펜 과다복용의 중추신경계 증상. 이부프로펜 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Common adverse events (frequency 10%) of lacosamide doses up to 600 mg/day include nonspecific central nervous system effects (e.g., dizziness, ataxia, diplopia, and somnolence). lacosamide <br><br>
+				<br> 라코사미드 최대 600mg/일 용량의 일반적인 부작용(빈도 10%)에는 비특이적 중추신경계 영향(예: 현기증, 운동실조, 복시 및 졸음)이 포함됩니다. 라코사미드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 600 mg/day <br><br>
+				<br> 600mg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Concurrent acute megaloblastic anaemia and pneumonitis: a severe side-effect of low-dose methotrexate therapy during rheumatoid arthritis. methotrexate <br><br>
+				<br> 급성 거대적아구성 빈혈 및 폐렴 동시 발생: 류마티스 관절염 동안 저용량 메토트렉세이트 요법의 심각한 부작용. 메토트렉세이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Continuous EEG monitoring is helpful in managing seizures that occur as a complication of CBZ OD, after the course of recovery or worsening, and in providing assistance with prognosis. CBZ <br><br>
+				<br> 지속적인 EEG 모니터링은 CBZ OD의 합병증으로 발생하는 발작을 회복 또는 악화 과정 후에 관리하고 예후에 도움을 주는 데 도움이 됩니다. CBZ <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> OD <br><br>
+				<br> 외경 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DATA SYNTHESIS: A 49-year-old man developed symptoms of severe psychosis concomitant with ciprofloxacin (250 mg bid) treatment. ciprofloxacin <br><br>
+				<br> 데이터 합성: 49세 남성이 시프로플록사신(250 mg bid) 치료와 동시에 심각한 정신병 증상이 나타났습니다. 시프로플록사신 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 250 mg bid <br><br>
+				<br> 250mg 입찰가 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Drug-induced psychosis resulted from the administration of quinacrine hydrochloride at a dosage of 100 mg twice daily for the treatment of discoid lupus. quinacrine hydrochloride <br><br>
+				<br> 약물 유발성 정신병은 원판상 루푸스 치료를 위해 퀴나크린 염산염 100mg을 1일 2회 투여한 결과 발생했습니다. 퀴나크린염산염 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 100 mg <br><br>
+				<br> 100mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Early recognition of renal toxicity of high-dose methotrexate therapy: a case report. methotrexate <br><br>
+				<br> 고용량 메토트렉세이트 요법의 신독성 조기인식: 증례 보고. 메토트렉세이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Esophageal spasm following propranolol overdose relieved by glucagon. propranolol <br><br>
+				<br> 프로프라놀롤 과다 복용 후 식도 경련이 글루카곤으로 완화되었습니다. 프로프라놀롤 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FINDINGS: Six children with growth retardation noted after treatment with high-dose fluticasone propionate were found to have adrenal suppression. fluticasone propionate <br><br>
+				<br> 결과: 고용량 플루티카손 프로피오네이트로 치료한 후 성장 지연이 있는 6명의 어린이가 부신 억제가 있는 것으로 나타났습니다. 플루티카손 프로피오네이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> high <br><br>
+				<br> 높은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Fatal interstitial pneumonitis following high-dose intermittent chlorambucil therapy for chronic lymphocyte leukemia. chlorambucil <br><br>
+				<br> 만성 림프구 백혈병에 대한 고용량 간헐적 클로람부실 요법에 따른 치명적인 간질성 폐렴. 클로람부실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Fatal radiation myelopathy after high-dose busulfan and melphalan chemotherapy and radiotherapy for Ewing's sarcoma: a review of the literature and implications for practice. busulfan <br><br>
+				<br> Ewing 육종에 대한 고용량 busulfan 및 melphalan 화학 요법 및 방사선 요법 후 치명적인 방사선 척수병증: 문헌 검토 및 실무에 대한 함의. 부설판 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Fatal radiation myelopathy after high-dose busulfan and melphalan chemotherapy and radiotherapy for Ewing's sarcoma: a review of the literature and implications for practice. melphalan <br><br>
+				<br> Ewing 육종에 대한 고용량 busulfan 및 melphalan 화학 요법 및 방사선 요법 후 치명적인 방사선 척수병증: 문헌 검토 및 실무에 대한 함의. 멜팔란 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Flecainide overdose can rapidly result in profound cardiovascular collapse, and is associated with a relatively high mortality. Flecainide <br><br>
+				<br> 플레카이니드 과다복용은 심각한 심혈관 허탈을 빠르게 초래할 수 있으며 상대적으로 높은 사망률과 관련이 있습니다. 플레카이니드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Four cases of fat embolism are described in infants receiving prolonged intravenous infusion of fat (Intralipid 20%). Intralipid <br><br>
+				<br> 지방 색전증의 4가지 경우가 영아에게 지방(Intralipid 20%)을 장기간 정맥 주사하는 것으로 설명됩니다. 인트라리피드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 20% <br><br>
+				<br> 20% <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Four patients receiving high-dose tamoxifen for greater than 1 year have demonstrated similar retinal changes. tamoxifen <br><br>
+				<br> 고용량 타목시펜을 1년 이상 투여받은 4명의 환자가 유사한 망막 변화를 보였습니다. 타목시펜 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Growth and adrenal suppression in asthmatic children treated with high-dose fluticasone propionate. fluticasone propionate <br><br>
+				<br> 고용량 플루티카손 프로피오네이트로 치료받은 천식 소아의 성장 및 부신 억제. 플루티카손 프로피오네이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> high <br><br>
+				<br> 높은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gynecomastia developed in two epileptic patients some months after the addition of oral fluoresone 750 mg daily to the phenobarbital and phenytoin already being administered. fluoresone <br><br>
+				<br> 이미 투여 중인 페노바르비탈과 페니토인에 매일 750mg의 경구용 플루오레손을 추가한 몇 달 후 두 명의 간질 환자에게서 여성형 유방이 발생했습니다. 플루오레손 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 750 mg <br><br>
+				<br> 750mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gynecomastia developed in two epileptic patients some months after the addition of oral fluoresone 750 mg daily to the phenobarbital and phenytoin already being administered. phenobarbital <br><br>
+				<br> 이미 투여 중인 페노바르비탈과 페니토인에 매일 750mg의 경구용 플루오레손을 추가한 몇 달 후 두 명의 간질 환자에게서 여성형 유방이 발생했습니다. 페노바르비탈 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 750 mg <br><br>
+				<br> 750mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gynecomastia developed in two epileptic patients some months after the addition of oral fluoresone 750 mg daily to the phenobarbital and phenytoin already being administered. phenytoin <br><br>
+				<br> 이미 투여 중인 페노바르비탈과 페니토인에 매일 750mg의 경구용 플루오레손을 추가한 몇 달 후 두 명의 간질 환자에게서 여성형 유방이 발생했습니다. 페니토인 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 750 mg <br><br>
+				<br> 750mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> He was started on digoxin, 0.25 mg daily, because of echocardiographically demonstrated left ventricular dilatation and functional impairment; he died of ventricular fibrillation 15 days later. digoxin <br><br>
+				<br> 그는 심초음파 검사상 좌심실 확장 및 기능 장애가 나타났기 때문에 매일 0.25mg의 디곡신을 복용하기 시작했습니다. 그는 15일 후 심실 세동으로 사망했습니다. 디곡신 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 0.25 mg <br><br>
+				<br> 0.25mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> He was started on oral lansoprazole 60 mg twice daily and, on hospital day 2, his platelet count decreased to 102 x 10(3)/mm(3); on hospital day 3, the platelet count was 36 x 10(3)/mm(3). lansoprazole <br><br>
+				<br> 그는 1일 2회 란소프라졸 60 mg 경구 투여를 시작했고, 입원 2일째에 혈소판 수가 102 x 10(3)/mm(3)로 감소했습니다. 입원 3일째에 혈소판 수는 36 x 10(3)/mm(3)이었습니다. 란소프라졸 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 60 mg twice daily <br><br>
+				<br> 60mg 1일 2회 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hemorrhage from a falx meningioma after internal use of low-dose aspirin. aspirin <br><br>
+				<br> 저용량 아스피린의 내부 사용 후 falx meningioma에서 출혈. 아스피린 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hepatotoxicity after high-dose methylprednisolone for demyelinating disease. methylprednisolone <br><br>
+				<br> 탈수 초성 질환에 대한 고용량 methylprednisolone 후 간독성. 메틸프레드니솔론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> High-dose intravenous mannitol infusion in various clinical settings may result in acute renal failure (ARF). mannitol <br><br>
+				<br> 다양한 임상 환경에서 고용량의 만니톨 정맥 주입은 급성 신부전(ARF)을 유발할 수 있습니다. 만니톨 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> High-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> High-dose methotrexate-associated acute renal failure may be an avoidable complication. methotrexate <br><br>
+				<br> 고용량 메토트렉세이트 관련 급성 신부전은 피할 수 있는 합병증일 수 있습니다. 메토트렉세이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> High-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> High-dose methylprednisolone in a pregnant woman with Crohn's disease and adrenal suppression in her newborn. methylprednisolone <br><br>
+				<br> 신생아의 부신 억제와 크론병이 있는 임산부의 고용량 메틸프레드니솔론. 메틸프레드니솔론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> High-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> High-dose phosphate treatment leads to hypokalemia in hypophosphatemic osteomalacia. phosphate <br><br>
+				<br> 고용량 인산염 치료는 저인산염성 골연화증에서 저칼륨혈증을 유발합니다. 인산염 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> High <br><br>
+				<br> 높은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Horner's syndrome and demyelinating peripheral neuropathy caused by high-dose cytosine arabinoside. cytosine arabinoside <br><br>
+				<br> 호너 증후군 및 고용량 시토신 아라비노사이드로 인한 탈수초성 말초 신경병증. 시토신 아라비노사이드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> high-dose <br><br>
+				<br> 고용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> How low can you go? Use of very low dosage of gold in patients with mucocutaneous reactions. gold <br><br>
+				<br> 얼마나 낮을 수 있습니까? 점막 피부 반응이 있는 환자에게 매우 낮은 양의 금을 사용합니다. 금 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> low <br><br>
+				<br> 낮은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> However here we reported two patients, presenting with PD during high dose colchicine treatment for familiar mediterranean fever (FMF). colchicine <br><br>
+				<br> 그러나 여기서 우리는 친숙한 지중해열(FMF)에 대한 고용량 콜히친 치료 중에 PD를 나타내는 두 명의 환자를 보고했습니다. 콜히친 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> high <br><br>
+				<br> 높은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hydrocortisone may decrease the incidence of mortality associated with cardiac arrhythmias in children receiving amphotericin B overdoses. amphotericin B <br><br>
+				<br> 하이드로코르티손은 암포테리신 B 과다복용을 받는 어린이의 심장 부정맥과 관련된 사망 발생률을 감소시킬 수 있습니다. 암포테리신 B <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> overdoses <br><br>
+				<br> 과다복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hyponatraemia during low-dose carbamazepine therapy. carbamazepine <br><br>
+				<br> 저용량 카르바마제핀 요법 중 저나트륨혈증. 카바마제핀 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> INTERPRETATION: When high doses of fluticasone propionate are used, growth may be retarded and adrenal suppression may occur. fluticasone propionate <br><br>
+				<br> 해석: 고용량의 플루티카손 프로피오네이트를 사용하면 성장이 지연되고 부신 억제가 발생할 수 있습니다. 플루티카손 프로피오네이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> high <br><br>
+				<br> 높은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> INTERVENTIONS AND RESULTS: Cardiac complications were observed in five pediatric patients who received between 4.6 and 40.8 mg/kg/d of amphotericin B. amphotericin B <br><br>
+				<br> 중재 및 결과: 4.6~40.8mg/kg/d의 amphotericin B를 투여받은 5명의 소아 환자에서 심장 합병증이 관찰되었습니다. amphotericin B <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> between 4.6 and 40.8 mg/kg/d <br><br>
+				<br> 4.6~40.8mg/kg/일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Ibuprofen overdose is usually characterized by GI upset, dizziness, and mild sedation. Ibuprofen <br><br>
+				<br> 이부프로펜 과다복용은 일반적으로 위장 장애, 현기증, 가벼운 진정 작용을 특징으로 합니다. 이부프로펜 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In a 61-year-old man receiving chronic low-dosage amiodarone an interstitial pneumopathy was observed. amiodarone <br><br>
+				<br> 만성 저용량 아미오다론을 투여받은 61세 남성에게서 간질성 폐병증이 관찰되었습니다. 아미오다론 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> low-dosage <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In a patient suffering from rheumatoid arthritis, we report the first simultaneous occurrence of two side effects of low-dose methotrexate: an acute megaloblastic anaemia and a pneumonitis. methotrexate <br><br>
+				<br> 류마티스 관절염을 앓고 있는 환자에서 저용량 메토트렉세이트의 두 가지 부작용인 급성 거대 적아구성 빈혈과 폐렴이 처음으로 동시에 발생했다고 보고합니다. 메토트렉세이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> low-dose <br><br>
+				<br> 저용량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In a postural challenge test after administration of isosorbide dinitrate (5 mg), blood pressure decreased from 120/67 to 65/35 mmHg, followed by syncope with a sudden decrease in pulse rate from 85 to 60 beats/min. isosorbide dinitrate <br><br>
+				<br> 이소소르비드 이질산염(5 mg) 투여 후 자세 자극 테스트에서 혈압이 120/67에서 65/35 mmHg로 감소한 후 맥박이 85에서 60으로 급격하게 감소하는 실신이 발생했습니다. 이소소르비드 질산염 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 5 mg <br><br>
+				<br> 5mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In all cases, drugs in addition to quetiapine were detected, but in cases #1 and #2, the cause of death was considered to be a quetiapine overdose and the other drugs were not considered to be contributory. quetiapine <br><br>
+				<br> 모든 증례에서 quetiapine 이외의 약물이 검출되었으나 증례 #1, #2의 사망원인은 quetiapine의 과량투여로 판단되었고 다른 약제는 원인이 아닌 것으로 판단되었다. 퀘티아핀 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> overdose <br><br>
+				<br> 과다 복용 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In case 1, a total daily dose of 25 mg sertraline, with nondetectable sertraline and desmethylsertraline blood levels, resulted in a doubling of the lamotrigine blood level with symptoms of toxicity. desmethylsertraline <br><br>
+				<br> 사례 1의 경우, 검출할 수 없는 sertraline 및 desmethylsertraline 혈중 농도와 함께 25mg sertraline의 총 일일 복용량은 독성 증상과 함께 lamotrigine 혈중 농도를 두 배로 증가시켰습니다. 데스메틸세르트랄린 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 25 mg <br><br>
+				<br> 25mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In case 1, a total daily dose of 25 mg sertraline, with nondetectable sertraline and desmethylsertraline blood levels, resulted in a doubling of the lamotrigine blood level with symptoms of toxicity. lamotrigine <br><br>
+				<br> 사례 1의 경우, 검출할 수 없는 sertraline 및 desmethylsertraline 혈중 농도와 함께 25mg sertraline의 총 일일 복용량은 독성 증상과 함께 lamotrigine 혈중 농도를 두 배로 증가시켰습니다. 라모트리진 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 25 mg <br><br>
+				<br> 25mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In eight patients, a mean decrease in serum Na+ of 8.25 +/- 3.2 mEq/L was observed after a single 200 mg intravenous dose of lorcainide. lorcainide <br><br>
+				<br> 8명의 환자에서 lorcainide 200mg을 단회 정맥 투여한 후 혈청 Na+의 평균 감소가 8.25 +/- 3.2mEq/L로 관찰되었습니다. 로케니드 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 200 mg <br><br>
+				<br> 200mg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> In four patients, spasm occurred spontaneous and in one patient after 0.05 mg of ergonovine. ergonovine <br><br>
+				<br> 4명의 환자에서 경련이 자발적으로 발생했고 1명의 환자에서 ergonovine 0.05mg 투여 후 경련이 발생했습니다. 에르고노빈 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 0.05 mg <br><br>
+				<br> 0.05mg <br><br>
+			</td>
+		</tr>
+	</table>

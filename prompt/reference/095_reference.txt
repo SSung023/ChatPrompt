@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, 2, 3] <br><br>
+				<br> [-11, 2, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> -11 <br><br>
+				<br> -11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-4,-200,19,20,200] <br><br>
+				<br> [-4,-200,19,20,200] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 200 <br><br>
+				<br> 200 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.111 32.169 -66.389 2.743 -84.98 -5.152 -87.549] <br><br>
+				<br> [ -0.111 32.169 -66.389 2.743 -84.98 -5.152 -87.549] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> -87.549 <br><br>
+				<br> -87.549 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.223 -69.803 -50.126 -86.399 -48.697 90.556 -78.598 18.8 -37.268] <br><br>
+				<br> [ -0.223 -69.803 -50.126 -86.399 -48.697 90.556 -78.598 18.8 -37.268] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 90.556 <br><br>
+				<br> 90.556 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.256 -78.424 -95.245 -77.223 22.512 -87.32 ] <br><br>
+				<br> [ -0.256 -78.424 -95.245 -77.223 22.512 -87.32 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> -95.245 <br><br>
+				<br> -95.245 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.291 2.478 -93.09 75.194 67.578 38.212] <br><br>
+				<br> [ -0.291 2.478 -93.09 75.194 67.578 38.212] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> -93.09 <br><br>
+				<br> -93.09 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.292 40.114 69.364 68.15 -33.099 25.578 -28.855 56.259] <br><br>
+				<br> [ -0.292 40.114 69.364 68.15 -33.099 25.578 -28.855 56.259] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 69.364 <br><br>
+				<br> 69.364 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.342 -96.055 29.975 1.06 -83.715 -45.204 20.337 -90.122] <br><br>
+				<br> [ -0.342 -96.055 29.975 1.06 -83.715 -45.204 20.337 -90.122] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> -96.055 <br><br>
+				<br> -96.055 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.403 -42.177 -91.24 -25.11 -20.345 -44.234 -42.9 ] <br><br>
+				<br> [ -0.403 -42.177 -91.24 -25.11 -20.345 -44.234 -42.9 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> -91.24 <br><br>
+				<br> -91.24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.431 -37.113] <br><br>
+				<br> [ -0.431 -37.113] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> -37.113 <br><br>
+				<br> -37.113 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.445 -13.721 -97.103] <br><br>
+				<br> [ -0.445 -13.721 -97.103] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> -97.103 <br><br>
+				<br> -97.103 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.501 -87.501 63.133] <br><br>
+				<br> [ -0.501 -87.501 63.133] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> -87.501 <br><br>
+				<br> -87.501 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.503 58.752 8.465 22.641 -95.385 -23.71 -87.996] <br><br>
+				<br> [ -0.503 58.752 8.465 22.641 -95.385 -23.71 -87.996] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> -95.385 <br><br>
+				<br> -95.385 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.538 62.874 -1.256 44.47 -36.889 -39.318 -39.582] <br><br>
+				<br> [ -0.538 62.874 -1.256 44.47 -36.889 -39.318 -39.582] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 62.874 <br><br>
+				<br> 62.874 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.649 -36.238 69.527 55.161 -35.472 -99.61 ] <br><br>
+				<br> [ -0.649 -36.238 69.527 55.161 -35.472 -99.61 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> -99.61 <br><br>
+				<br> -99.61 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.661 -92.413 -13.532 -60.589 64.101 -70.822 -24.875] <br><br>
+				<br> [ -0.661 -92.413 -13.532 -60.589 64.101 -70.822 -24.875] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> -92.413 <br><br>
+				<br> -92.413 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.82 -0.294 -68.945] <br><br>
+				<br> [ -0.82 -0.294 -68.945] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> -68.945 <br><br>
+				<br> -68.945 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.909 37.926 -33.689 -74.269] <br><br>
+				<br> [ -0.909 37.926 -33.689 -74.269] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> -74.269 <br><br>
+				<br> -74.269 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.97 -55.161 36.079 -62.538] <br><br>
+				<br> [ -0.97 -55.161 36.079 -62.538] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> -62.538 <br><br>
+				<br> -62.538 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -0.993 10.858 -67.86 -58.607 87.275 76.822] <br><br>
+				<br> [ -0.993 10.858 -67.86 -58.607 87.275 76.822] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 87.275 <br><br>
+				<br> 87.275 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.092 -50.059 -47.85 -16.873 -95.812 -86.55 34.992 69.768 98.676] <br><br>
+				<br> [ -1.092 -50.059 -47.85 -16.873 -95.812 -86.55 34.992 69.768 98.676] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 98.676 <br><br>
+				<br> 98.676 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.113 95.739 -46.92 -79.081 97.098 57.994 9.438 -83.865] <br><br>
+				<br> [ -1.113 95.739 -46.92 -79.081 97.098 57.994 9.438 -83.865] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 97.098 <br><br>
+				<br> 97.098 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.177 17.178 38.368 -28.16 ] <br><br>
+				<br> [ -1.177 17.178 38.368 -28.16 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 38.368 <br><br>
+				<br> 38.368 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.234 76.467 23.386 -74.236 -92.123 98.486 93.985] <br><br>
+				<br> [ -1.234 76.467 23.386 -74.236 -92.123 98.486 93.985] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 98.486 <br><br>
+				<br> 98.486 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.291 -59.531 -56.323 99.003 -54.579 -80.025 25.679 -89.123 -9.61 ] <br><br>
+				<br> [ -1.291 -59.531 -56.323 99.003 -54.579 -80.025 25.679 -89.123 -9.61 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 99.003 <br><br>
+				<br> 99.003 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.343 -29.659 -58.921 71.532 -91.312 -42.187 7.2 -25.797] <br><br>
+				<br> [ -1.343 -29.659 -58.921 71.532 -91.312 -42.187 7.2 -25.797] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> -91.312 <br><br>
+				<br> -91.312 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.378 92.863 81.653 -60.459 -39.53 37.148 -98.348] <br><br>
+				<br> [ -1.378 92.863 81.653 -60.459 -39.53 37.148 -98.348] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> -98.348 <br><br>
+				<br> -98.348 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.46 78.962 85.336 -93.03 52.388] <br><br>
+				<br> [ -1.46 78.962 85.336 -93.03 52.388] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> -93.03 <br><br>
+				<br> -93.03 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.495 54.907 75.819 99.635 38.046 -64.277 -44.965 16.084] <br><br>
+				<br> [ -1.495 54.907 75.819 99.635 38.046 -64.277 -44.965 16.084] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 99.635 <br><br>
+				<br> 99.635 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.5 56.349 -35.242] <br><br>
+				<br> [ -1.5 56.349 -35.242] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 56.349 <br><br>
+				<br> 56.349 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.515 80.258 -3.352 39.283 -31.536 -78.006 -30.235 58.185] <br><br>
+				<br> [ -1.515 80.258 -3.352 39.283 -31.536 -78.006 -30.235 58.185] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 80.258 <br><br>
+				<br> 80.258 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.795 25.366 83.021 -11.955 54.866 43.02 -9.196 -95.037 -42.982] <br><br>
+				<br> [ -1.795 25.366 83.021 -11.955 54.866 43.02 -9.196 -95.037 -42.982] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> -95.037 <br><br>
+				<br> -95.037 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.848 89.145 25.091 -79.411 13.196 -27.904] <br><br>
+				<br> [ -1.848 89.145 25.091 -79.411 13.196 -27.904] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 89.145 <br><br>
+				<br> 89.145 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.883 -66.959] <br><br>
+				<br> [ -1.883 -66.959] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> -66.959 <br><br>
+				<br> -66.959 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.903 -3.092 -11.782 20.97 12.406] <br><br>
+				<br> [ -1.903 -3.092 -11.782 20.97 12.406] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 20.97 <br><br>
+				<br> 20.97 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.906 83.004 -54.707 20.477] <br><br>
+				<br> [ -1.906 83.004 -54.707 20.477] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 83.004 <br><br>
+				<br> 83.004 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.943 43.829 -65.829 82.098 72.107 -26.782 16.701 42.528 14.533] <br><br>
+				<br> [ -1.943 43.829 -65.829 82.098 72.107 -26.782 16.701 42.528 14.533] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 82.098 <br><br>
+				<br> 82.098 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -1.98 17.673 30.902 66.458 -25.393 51.998] <br><br>
+				<br> [ -1.98 17.673 30.902 66.458 -25.393 51.998] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 66.458 <br><br>
+				<br> 66.458 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.05 70.494 44.447 26.831 -94.826 -85.909] <br><br>
+				<br> [ -2.05 70.494 44.447 26.831 -94.826 -85.909] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> -94.826 <br><br>
+				<br> -94.826 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.068 -86.291 70.814 -22.488 97.061 -89.099 24.156] <br><br>
+				<br> [ -2.068 -86.291 70.814 -22.488 97.061 -89.099 24.156] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 97.061 <br><br>
+				<br> 97.061 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.098 -98.644 -58.764 -42.225 -44.933 -12.187 -52.163 -6.434 -46.434 -87.615] <br><br>
+				<br> [ -2.098 -98.644 -58.764 -42.225 -44.933 -12.187 -52.163 -6.434 -46.434 -87.615] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> -98.644 <br><br>
+				<br> -98.644 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.152 -14.841 6.436 -92.335 89.319 -81.89 -72.655] <br><br>
+				<br> [ -2.152 -14.841 6.436 -92.335 89.319 -81.89 -72.655] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> -92.335 <br><br>
+				<br> -92.335 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.187 -52.947 -10.821 -31.071 -22.951 44.422] <br><br>
+				<br> [ -2.187 -52.947 -10.821 -31.071 -22.951 44.422] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> -52.947 <br><br>
+				<br> -52.947 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.218 -67.281 -63.185 -22.323] <br><br>
+				<br> [ -2.218 -67.281 -63.185 -22.323] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> -67.281 <br><br>
+				<br> -67.281 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.312 -16.773 -72.665 69.123 95.247 69.451] <br><br>
+				<br> [ -2.312 -16.773 -72.665 69.123 95.247 69.451] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 95.247 <br><br>
+				<br> 95.247 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.336 -69.932 11.168 52.636 -82.292 30.574 71.746 53.056] <br><br>
+				<br> [ -2.336 -69.932 11.168 52.636 -82.292 30.574 71.746 53.056] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> -82.292 <br><br>
+				<br> -82.292 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.369 -9.168 17.308 -56.773 -29.018 41.001 -50.917 15.08 ] <br><br>
+				<br> [ -2.369 -9.168 17.308 -56.773 -29.018 41.001 -50.917 15.08 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> -56.773 <br><br>
+				<br> -56.773 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.408 29.532 -83.501 -50.072 -71.244 58.013 97.005 -65.666] <br><br>
+				<br> [ -2.408 29.532 -83.501 -50.072 -71.244 58.013 97.005 -65.666] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 97.005 <br><br>
+				<br> 97.005 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.423 -75.853 -83.081] <br><br>
+				<br> [ -2.423 -75.853 -83.081] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> -83.081 <br><br>
+				<br> -83.081 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.512 -65.828 -2.543 28.336 25.415 44.93 ] <br><br>
+				<br> [ -2.512 -65.828 -2.543 28.336 25.415 44.93 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> -65.828 <br><br>
+				<br> -65.828 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.527 11.78 95.22 -51.961 72.325 -13.07 -84.847 -81.167 21.951] <br><br>
+				<br> [ -2.527 11.78 95.22 -51.961 72.325 -13.07 -84.847 -81.167 21.951] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 95.22 <br><br>
+				<br> 95.22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.531 -47.021 -69.201 -55.61 2.641] <br><br>
+				<br> [ -2.531 -47.021 -69.201 -55.61 2.641] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> -69.201 <br><br>
+				<br> -69.201 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.607 9.399 35.339 96.749 -89.921 48.147] <br><br>
+				<br> [ -2.607 9.399 35.339 96.749 -89.921 48.147] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 96.749 <br><br>
+				<br> 96.749 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.651 93.712 -73.227] <br><br>
+				<br> [ -2.651 93.712 -73.227] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 93.712 <br><br>
+				<br> 93.712 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.704 -93.324] <br><br>
+				<br> [ -2.704 -93.324] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> -93.324 <br><br>
+				<br> -93.324 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.797 88.368 60.117 -97.46 -50.839 60.753 -79.624 -46.724] <br><br>
+				<br> [ -2.797 88.368 60.117 -97.46 -50.839 60.753 -79.624 -46.724] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> -97.46 <br><br>
+				<br> -97.46 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.839 -59.862 69.926] <br><br>
+				<br> [ -2.839 -59.862 69.926] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 69.926 <br><br>
+				<br> 69.926 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.899 30.401 35.298 -74.56 58.337 -83.229 95.048 -9.284] <br><br>
+				<br> [ -2.899 30.401 35.298 -74.56 58.337 -83.229 95.048 -9.284] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 95.048 <br><br>
+				<br> 95.048 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.953 37.607 75.843 -13.295 -50.922 -55.06 ] <br><br>
+				<br> [ -2.953 37.607 75.843 -13.295 -50.922 -55.06 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 75.843 <br><br>
+				<br> 75.843 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -2.975 14.997 72.446 -69.114 33.305 -97.566 -87.677 10.272 40.059 55.528] <br><br>
+				<br> [ -2.975 14.997 72.446 -69.114 33.305 -97.566 -87.677 10.272 40.059 55.528] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> -97.566 <br><br>
+				<br> -97.566 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.029 -1.821 -12.096 19.334 14.683] <br><br>
+				<br> [ -3.029 -1.821 -12.096 19.334 14.683] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 19.334 <br><br>
+				<br> 19.334 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.094 -47.014 21.251 76.04 14.865 -97.702] <br><br>
+				<br> [ -3.094 -47.014 21.251 76.04 14.865 -97.702] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> -97.702 <br><br>
+				<br> -97.702 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.11 -42.841 11.81 95.425 51.093] <br><br>
+				<br> [ -3.11 -42.841 11.81 95.425 51.093] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 95.425 <br><br>
+				<br> 95.425 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.26 -77.933 -26.454 34.117 -37.14 76.915 68.791 -74.287 -81.698 -94.423] <br><br>
+				<br> [ -3.26 -77.933 -26.454 34.117 -37.14 76.915 68.791 -74.287 -81.698 -94.423] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> -94.423 <br><br>
+				<br> -94.423 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.281 -29.168] <br><br>
+				<br> [ -3.281 -29.168] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> -29.168 <br><br>
+				<br> -29.168 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.323 49.393 56.267 -10.978 -91.589 29.088 -0.719 -99.152] <br><br>
+				<br> [ -3.323 49.393 56.267 -10.978 -91.589 29.088 -0.719 -99.152] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> -99.152 <br><br>
+				<br> -99.152 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.376 -64.711 -58.768 76.461 66.853 29.563 8.879] <br><br>
+				<br> [ -3.376 -64.711 -58.768 76.461 66.853 29.563 8.879] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 76.461 <br><br>
+				<br> 76.461 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.402 93.804 -72.242 -47.45 -71.305 50.525] <br><br>
+				<br> [ -3.402 93.804 -72.242 -47.45 -71.305 50.525] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 93.804 <br><br>
+				<br> 93.804 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.418 69.441 -35.826 55.926] <br><br>
+				<br> [ -3.418 69.441 -35.826 55.926] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 69.441 <br><br>
+				<br> 69.441 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.454 94.159 36.282 70.004 -78.693 20.917 31.723 52.19 -37.365] <br><br>
+				<br> [ -3.454 94.159 36.282 70.004 -78.693 20.917 31.723 52.19 -37.365] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 94.159 <br><br>
+				<br> 94.159 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.466 -59.031 37.431 -9.069 -61.135 38.803 -1.332 68.465] <br><br>
+				<br> [ -3.466 -59.031 37.431 -9.069 -61.135 38.803 -1.332 68.465] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 68.465 <br><br>
+				<br> 68.465 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.474 24.155 41.588 -20.672 -54.372 -36.144 -99.411 -82.048 45.021] <br><br>
+				<br> [ -3.474 24.155 41.588 -20.672 -54.372 -36.144 -99.411 -82.048 45.021] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> -99.411 <br><br>
+				<br> -99.411 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.505 35.08 -92.246 21.459 44.646 30.166 -53.162 90.312 49.175 -95.318] <br><br>
+				<br> [ -3.505 35.08 -92.246 21.459 44.646 30.166 -53.162 90.312 49.175 -95.318] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> -95.318 <br><br>
+				<br> -95.318 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.595 94.274 -38.147 -52.853 82.2 ] <br><br>
+				<br> [ -3.595 94.274 -38.147 -52.853 82.2 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 94.274 <br><br>
+				<br> 94.274 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.627 92.814 -60.5 54.292 -8.39 95.807] <br><br>
+				<br> [ -3.627 92.814 -60.5 54.292 -8.39 95.807] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 95.807 <br><br>
+				<br> 95.807 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.636 96.96 -24.374 -75.67 85.514 -39.836 -46.643 -2.563 -15.09 ] <br><br>
+				<br> [ -3.636 96.96 -24.374 -75.67 85.514 -39.836 -46.643 -2.563 -15.09 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 96.96 <br><br>
+				<br> 96.96 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.679 -25.406 68.626 -41.873 -40.74 -84.295] <br><br>
+				<br> [ -3.679 -25.406 68.626 -41.873 -40.74 -84.295] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> -84.295 <br><br>
+				<br> -84.295 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.753 -17.794 -54.316 35.334] <br><br>
+				<br> [ -3.753 -17.794 -54.316 35.334] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> -54.316 <br><br>
+				<br> -54.316 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.979 -2.633 59.715 -35.045 56.181 28.3 89.111] <br><br>
+				<br> [ -3.979 -2.633 59.715 -35.045 56.181 28.3 89.111] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 89.111 <br><br>
+				<br> 89.111 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -3.994 -88.719 -89.058 -20.644 97.722] <br><br>
+				<br> [ -3.994 -88.719 -89.058 -20.644 97.722] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 97.722 <br><br>
+				<br> 97.722 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.18 -22.739 -34.05 16.903 -91.876 32.842 -76.437 8.312 69.27 ] <br><br>
+				<br> [ -4.18 -22.739 -34.05 16.903 -91.876 32.842 -76.437 8.312 69.27 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> -91.876 <br><br>
+				<br> -91.876 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.218 11.568 -35.518 69.858 91.416 97.006 21.304 -84.722] <br><br>
+				<br> [ -4.218 11.568 -35.518 69.858 91.416 97.006 21.304 -84.722] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 97.006 <br><br>
+				<br> 97.006 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.309 55.022 93.802 -62.79 97.391 -89.412 -46.156 24.145] <br><br>
+				<br> [ -4.309 55.022 93.802 -62.79 97.391 -89.412 -46.156 24.145] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 97.391 <br><br>
+				<br> 97.391 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.348 -62.229 63.817 9.947 37.934 -28.046 -53.232 59.273] <br><br>
+				<br> [ -4.348 -62.229 63.817 9.947 37.934 -28.046 -53.232 59.273] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 63.817 <br><br>
+				<br> 63.817 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.381 27.353 -81.395 15.147 63.781] <br><br>
+				<br> [ -4.381 27.353 -81.395 15.147 63.781] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> -81.395 <br><br>
+				<br> -81.395 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.384 64.027 53.321 -92.634 -78.896] <br><br>
+				<br> [ -4.384 64.027 53.321 -92.634 -78.896] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> -92.634 <br><br>
+				<br> -92.634 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.391 93.123 51.382 98.536 -34.801 82.466 -18.957] <br><br>
+				<br> [ -4.391 93.123 51.382 98.536 -34.801 82.466 -18.957] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 98.536 <br><br>
+				<br> 98.536 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.421 -40.26 -88.211 72.466 69.242 55.701 96.783 -70.147] <br><br>
+				<br> [ -4.421 -40.26 -88.211 72.466 69.242 55.701 96.783 -70.147] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 96.783 <br><br>
+				<br> 96.783 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.512 -47.977 -4.94 47.368 -70.056 -5.618] <br><br>
+				<br> [ -4.512 -47.977 -4.94 47.368 -70.056 -5.618] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> -70.056 <br><br>
+				<br> -70.056 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.526 -23.23 -76.36 95.584] <br><br>
+				<br> [ -4.526 -23.23 -76.36 95.584] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 95.584 <br><br>
+				<br> 95.584 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.539 -35.786 66.604 -46.609 96.435 -18.223 -52.396 -41.78 ] <br><br>
+				<br> [ -4.539 -35.786 66.604 -46.609 96.435 -18.223 -52.396 -41.78 ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 96.435 <br><br>
+				<br> 96.435 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.609 -17.96 -17.086 -97.831 -22.752] <br><br>
+				<br> [ -4.609 -17.96 -17.086 -97.831 -22.752] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> -97.831 <br><br>
+				<br> -97.831 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.663 -57.518 16.238 33.436 -71.962 15.105 57.681 -83.676 -82.364] <br><br>
+				<br> [ -4.663 -57.518 16.238 33.436 -71.962 15.105 57.681 -83.676 -82.364] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> -83.676 <br><br>
+				<br> -83.676 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.979 33.654 -79.939 19.973] <br><br>
+				<br> [ -4.979 33.654 -79.939 19.973] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> -79.939 <br><br>
+				<br> -79.939 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -4.997 85.432 -22.936 60.031 -23.612 -38.641 -64.204 -14.945] <br><br>
+				<br> [ -4.997 85.432 -22.936 60.031 -23.612 -38.641 -64.204 -14.945] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 85.432 <br><br>
+				<br> 85.432 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -5.046 -58.101 83.212 -62.085 -50.696 19.478 14.448] <br><br>
+				<br> [ -5.046 -58.101 83.212 -62.085 -50.696 19.478 14.448] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 83.212 <br><br>
+				<br> 83.212 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -5.111 93.87 -26.287 -73.629 -88.976 67.729] <br><br>
+				<br> [ -5.111 93.87 -26.287 -73.629 -88.976 67.729] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 93.87 <br><br>
+				<br> 93.87 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -5.211 93.916 -17.618 -82.15 -3.949 51.125 87.336 73.92 -86.062 91. ] <br><br>
+				<br> [ -5.211 93.916 -17.618 -82.15 -3.949 51.125 87.336 73.92 -86.062 91. ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 93.916 <br><br>
+				<br> 93.916 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -5.215 28.332 84.355 63.491 -89.574 -54.433] <br><br>
+				<br> [ -5.215 28.332 84.355 63.491 -89.574 -54.433] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> -89.574 <br><br>
+				<br> -89.574 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -5.241 -20.263 -35.056 42.909] <br><br>
+				<br> [ -5.241 -20.263 -35.056 42.909] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 42.909 <br><br>
+				<br> 42.909 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -5.31 -88.052 -9.556 52.643 -72.763 97.893] <br><br>
+				<br> [ -5.31 -88.052 -9.556 52.643 -72.763 97.893] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 97.893 <br><br>
+				<br> 97.893 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [ -5.385 46.048 -59.275 -79.655 -41.156 -33.527 31.43 -63.042] <br><br>
+				<br> [ -5.385 46.048 -59.275 -79.655 -41.156 -33.527 31.43 -63.042] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> -79.655 <br><br>
+				<br> -79.655 <br><br>
+			</td>
+		</tr>
+	</table>

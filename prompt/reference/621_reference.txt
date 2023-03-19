@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Some patients converted from ventricular fibrillation to organized rhythms by defibrillation - trained ambulance technicians(EMT - Ds) will refibrillate before hospital arrival.The authors analyzed 271 cases of ventricular fibrillation managed by EMT - Ds working without paramedic back - up.Of 111 patients initially converted to organized rhythms, 19(17%) refibrillated, 11(58%) of whom were reconverted to perfusing rhythms, including nine of 11(82%) who had spontaneous pulses prior to refibrillation.Among patients initially converted to organized rhythms, hospital admission rates were lower for patients who refibrillated than for patients who did not(53 % versus 76% , P = NS), although discharge rates were virtually identical(37 % and 35 % , respectively).Scene - to - hospital transport times were not predictively associated with either the frequency of refibrillation or patient outcome.Defibrillation - trained EMTs can effectively manage refibrillation with additional shocks and are not at a significant disadvantage when paramedic back - up is not available. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 일부 환자는 제세동에 의해 심실 세동에서 조직화된 리듬으로 전환되었습니다. 훈련된 구급차 기술자(EMT - Ds)는 병원 도착 전에 재세동할 것입니다. 저자는 구급대원의 백업 없이 작동하는 EMT - Ds가 관리하는 심실 세동의 271가지 사례를 분석했습니다.111개 중 19명(17%)이 재세동되었고, 그 중 11명(58%)은 재세동 전에 자발적인 맥박이 있었던 11명 중 9명(82%)을 포함하여 관류성 리듬으로 재전환되었습니다. 환자 중 처음에 조직화된 리듬으로 전환되었습니다. , 퇴원율은 거의 동일했지만(각각 37% 및 35%) 병원 입원율은 재세동을 하지 않은 환자보다 낮았습니다(53% 대 76%, P = NS).현장에서 병원으로 이송 시간은 재세동 빈도 또는 환자 결과와 예측적으로 연관되지 않았습니다.제세동 - 훈련된 EMT는 추가 충격으로 재세동을 효과적으로 관리할 수 있습니다. 구급대원의 지원을 받을 수 없을 때 큰 불이익을 받지 않습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Our results suggest that ethylene oxide retention after sterilization is increased in cuprammonium cellulose plate dialyzers containing potting compound. In contrast, cuprammonium cellulose plate dialyzers without potting compound were characterized by a rapid disappearance of retained ethylene oxide after sterilization. Whether these findings explain the low incidence of SARD with cuprammonium cellulose plate dialyzers that do not contain potting material is a matter for continued study and experimentation. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 우리의 결과는 포팅 화합물을 함유한 구리암모늄 셀룰로오스 플레이트 투석기에서 멸균 후 에틸렌 옥사이드 보유가 증가함을 시사합니다. 대조적으로, 포팅 화합물이 없는 쿠프라암모늄 셀룰로오스 플레이트 투석기는 멸균 후 보유된 에틸렌 옥사이드가 빠르게 사라지는 특징이 있습니다. 이러한 발견이 포팅 재료를 포함하지 않는 큐암모늄 셀룰로오스 플레이트 투석기에서 SARD의 낮은 발생률을 설명하는지 여부는 지속적인 연구 및 실험의 문제입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The case of a man who injected turpentine intravenously in an attempt to kill himself is reported. The patient developed immediate pulmonary edema and hypoxia, followed later by cellulitis at the site of injection. Although only one death to date has been attributed to this form of chemical abuse, extensive local reactions, pulmonary involvement, central nervous system depression, and febrile reactions should be anticipated, and such patients should be admitted to the hospital. Patients should be observed for local reactions and myonecrosis around the site of injection, especially as these occur 12-24 hours later. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 자살을 시도하기 위해 테레빈유를 정맥 주사한 남성의 사례가 보고되었습니다. 환자는 즉시 폐부종과 저산소증이 발생했고, 이후 주사 부위에 봉와직염이 발생했습니다. 현재까지 단 한 명의 사망이 이러한 형태의 화학적 남용으로 인한 것으로 밝혀졌지만 광범위한 국소 반응, 폐 침범, 중추 신경계 억제 및 발열 반응이 예상되어야 하며 이러한 환자는 병원에 입원해야 합니다. 특히 12-24시간 후에 발생하므로 주사 부위 주변의 국소 반응 및 근괴사증에 대해 환자를 관찰해야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: 2 patients are reported with chronic hand dermatitis related to sensitization to sodium hypochlorite, as the active component in a bleaching product. To avoid irritant reactions in patch testing, a sodium hypochlorite concentration of 1.0% appeared to be useful. It is concluded that with regard to the frequent use of bleaching agents, allergy to sodium hypochlorite must be considered in certain cases of unidentified chronic allergic hand dermatitis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 표백 제품의 활성 성분인 차아염소산나트륨에 대한 감작과 관련된 만성 손 피부염 환자 2명이 보고되었습니다. 패치 테스트에서 자극 반응을 피하기 위해 1.0%의 차아염소산나트륨 농도가 유용한 것으로 나타났습니다. 표백제의 빈번한 사용과 관련하여 특정 원인이 불분명한 만성 알레르기성 손 피부염의 경우 차아염소산나트륨에 대한 알레르기를 고려해야 한다고 결론지었다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A limited clinical trial of Interferon-beta (Human Fibroblast Interferon) in the treatment of advanced, hormone-refractory prostate cancer was conducted by the National Prostate Cancer Project (NPCP Protocol 2100). Sixteen patients with metastatic prostate cancer who had failed prior hormone therapy were entered into the study. Treatment consisted of 6 X 10(6) units of Interferon-beta intravenously three times per week for 12 weeks. Chills and fever were seen in ten of the 16 patients (62.5%), and mild hematologic toxicity occurred in four patients. No complete or partial responses were observed. Three patients had stable disease by NPCP criteria for a mean duration of 6.3 months. Progression of disease was seen in 13 of the 16 patients, eight of whom progressed during therapy. The results of this study suggest that Interferon-beta has limited efficacy in the treatment of advanced, hormone-refractory prostate cancer. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 국가 전립선암 프로젝트(NPCP 프로토콜 2100)에서 진행성 호르몬 불응성 전립선암 치료에 대한 인터페론-베타(인간 섬유아세포 인터페론)의 제한된 임상 시험을 수행했습니다. 이전 호르몬 요법에 실패한 전이성 전립선암 환자 16명이 연구에 참여했습니다. 치료는 6 X 10(6) 단위의 인터페론-베타를 12주 동안 주당 3회 정맥 주사로 구성되었습니다. 오한과 발열은 16명 중 10명(62.5%)에서 나타났고 경미한 혈액학적 독성은 4명에서 나타났다. 완전하거나 부분적인 반응은 관찰되지 않았다. 3명의 환자는 평균 6.3개월 동안 NPCP 기준에 따라 안정적인 질병을 가졌습니다. 질병의 진행은 16명의 환자 중 13명에서 관찰되었으며, 그 중 8명은 치료 중 진행되었습니다. 이 연구의 결과는 인터페론-베타가 진행성 호르몬 불응성 전립선암 치료에 제한적인 효능이 있음을 시사합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A melanin-producing, encapsulated, histologically benign-appearing tumor of the trigeminal nerve was surgically removed from a 9-year-old boy. It recurred 6 months later and was then subtotally resected and treated with radiation therapy. The clinical and pathological features of this and 10 similar cases reported in the literature are reviewed. These tumors are best categorized as meningeal melanocytomas. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 9세 소년의 삼차신경에 발생한 조직학적으로 양성으로 보이는 멜라닌 생성 피막 종양을 수술로 제거했습니다. 6개월 후 재발하여 부분절제하고 방사선 치료를 하였다. 이에 대한 임상적, 병리학적 특징과 문헌에 보고된 10개의 유사 증례를 고찰하였다. 이 종양은 수막성 멜라닌 세포종으로 가장 잘 분류됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A modification of Patterson's external antro-ethmoidectomy operation is described which provides a more direct and simpler approach than the transantral operation for decompression of the orbit. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 안와의 감압을 위한 상악동 수술보다 더 직접적이고 간단한 접근법을 제공하는 Patterson의 외부 전사골동 절제 수술의 변형이 설명됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A modification of Patterson's external antro-ethmoidectomy operation is described which provides a more direct and simpler approach than the transantral operation for decompression of the orbit. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 안와의 감압을 위한 상악동 수술보다 더 직접적이고 간단한 접근법을 제공하는 Patterson의 외부 전사골동 절제 수술의 변형이 설명됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 초록: 안와의 감압을 위한 상악동 수술보다 더 직접적이고 간단한 접근법을 제공하는 Patterson의 외부 전사골동 절제 수술의 변형이 설명됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+				<br> 초록: 안과 절개를 개 상악동 수술보다 직접적으로 더 작게 만들고 제공하는 Patterson의 외부 복골동 수술의 변형이 설명됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A national survey of dermatologists and pharmacists was conducted to characterize the involvement of the community pharmacist in the area of skin diseases and to elicit suggestions to improve professional interrelations. The results show the dermatologists' major complaint is pharmacists' inability or unwillingness to compound prescriptions. The study clearly indicates the need for increased communication between the two professions in matters such as inventory control, prescription refill procedures, and substitution guidelines. The pharmacists, in general, admitted a deficiency in their educational preparedness to recognize common skin disorders, thus limiting their ability to assess the severity of patients' complaints. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 피부 질환 분야에서 지역사회 약사의 참여를 특성화하고 전문적 상호 관계를 개선하기 위한 제안을 도출하기 위해 피부과 전문의와 약사에 대한 전국 조사가 수행되었습니다. 결과는 피부과 전문의의 주요 불만이 약사가 복합 처방을 할 능력이 없거나 꺼려한다는 것을 보여줍니다. 이 연구는 재고 관리, 처방 리필 절차 및 대체 지침과 같은 문제에 대해 두 전문가 간의 의사 소통 증가의 필요성을 분명히 나타냅니다. 일반적으로 약사들은 일반적인 피부 질환을 인식하기 위한 교육적 준비가 부족하여 환자 불만의 중증도를 평가하는 능력이 부족함을 인정했습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A new right hemisphere symptom is reported. Five stroke patients with lesions in the perisylvian cortico-subcortical or thalamic region of the right hemisphere produced linguistically correct but semantically loose writing. The behaviour was initiated by subtle prompting and continued semiautomatically. A possible mechanism underlying this hypergraphia is discussed. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 새로운 우반구 증상이 보고되었습니다. 우측 반구의 perisylvian cortico-subcortical 또는 thalamic region에 병변이 있는 5명의 뇌졸중 환자는 언어적으로는 정확하지만 의미적으로는 느슨한 쓰기를 생성했습니다. 행동은 미묘한 프롬프트에 의해 시작되었고 반자동으로 계속되었습니다. 이 hypergraphia의 기본이 되는 가능한 메커니즘에 대해 설명합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A newborn infant with aortic atresia and aortico-left ventricular tunnel was successfully treated by Konno aortoventriculoplasty. A 15 mm Ionescu-Shiley pericardial xenograft was inserted when the patient was 5 days old and it was replaced with a 19 mm St. Jude Medical prosthesis at 2 years of age. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 대동맥 폐쇄증과 대동맥-좌심실터널을 가진 신생아가 콘노 대동맥심실성형술로 성공적으로 치료되었다. 15 mm Ionescu-Shiley 심낭 이종이식편은 환자가 생후 5일이 되었을 때 삽입되었고 2세에 19 mm St. Jude Medical 보철물로 교체되었습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A patient with severe chronic gastritis and duodenitis that clinically and endoscopically disappeared after an intestinal revascularization procedure is reported. Chronic intestinal ischemia appears to be a cause of gastritis as seen in this patient. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 중증의 만성 위염 및 십이지장염 환자에서 장 혈관재생술 후 임상적 및 내시경 소실이 보고되었다. 만성 장 허혈은 이 환자에서 볼 수 있는 위염의 원인으로 보인다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A review of the different types of adsorbents being used in hemoperfusion. The different types of polymers used in coating charcoal are also reviewed. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 혈액관류에 사용되는 다양한 유형의 흡착제에 대한 검토. 목탄 코팅에 사용되는 다양한 유형의 폴리머도 검토됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: A study of 79 children with malunion of forearm fractures is presented. Age at the time of injury, the site of the fracture and the degree and direction of angulation at union were correlated with loss of forearm rotation at review 3.5 to 6 years later. Some guidelines are proposed for the acceptability of angular deformity at union, importance being placed on the avoidance of radial deviation of the radius, and the maintenance of the interosseous gap between the shafts of the radius and ulna. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 팔뚝 골절의 부정유합이 있는 79명의 어린이에 대한 연구가 발표되었습니다. 손상 당시 나이, 골절 부위, 유합 시 각도와 방향은 3.5~6년 후 검토 시 전완 회전 소실과 상관관계가 있었습니다. 유합 시 각도 변형의 허용 가능성, 요골의 요골 편차 방지, 요골과 척골 사이의 골간 간격 유지에 대한 몇 가지 지침이 제안되었습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Acute colitis occurred after a Hibiclens cleanser enema. Endoscopic and histologic features were not helpful in distinguishing this colitis from an infectious or idiopathic colitis, and a careful history proved invaluable. We review the complications of using soapsuds and various chemical-containing enemas; these complications range from mild colitis to death. Because soap and other chemicals are damaging to colonic mucosa, these enemas should be included as a cause of acute colitis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 요약: Hibiclens 클렌저 관장 후 급성 대장염이 발생했습니다. 내시경적 및 조직학적 특징은 이 대장염을 감염성 또는 특발성 대장염과 구별하는 데 도움이 되지 않았으며 주의 깊은 병력은 매우 중요했습니다. 비눗물 및 다양한 화학 물질 함유 관장 사용의 합병증을 검토합니다. 이러한 합병증은 가벼운 대장염에서 사망에 이르기까지 다양합니다. 비누 및 기타 화학 물질은 결장 점막을 손상시키기 때문에 이러한 관장은 급성 대장염의 원인으로 포함되어야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Acute epiglottitis in the adult is uncommon. This case reports a young man with acute epiglottitis secondary to a Bacteroides melanogenicus supraglottic abscess. This pathogen has not been previously described as being causitive of epiglottitis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 성인에서 급성 후두덮개염은 흔하지 않다. 이 사례는 Bacteroides melanogenicus 성문위 농양에 이차적인 급성 후두덮개염이 있는 젊은 남성을 보고합니다. 이 병원체는 이전에 후두덮개염의 원인이 되는 것으로 기술된 적이 없습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Antagonism of atracurium-induced neuromuscular blockade by neostigmine or edrophonium has been studied using the tetanic (50 Hz) and train-of-four (2 Hz) or single twitch responses of the adductor pollicis muscle in 22 anaesthetized patients. A further nine patients not given an anticholinesterase acted as a control group. In two groups (six patients for each anticholinesterase) in whom antagonism was attempted at 95-98% blockade of the tetanic response, recovery of the tetanic response after two or three doses of edrophonium 0.75 mg kg-1 i.v. was not statistically different from that in the control group; recovery after two doses of neostigmine 2.5 mg i.v. was significantly faster (P less than 0.001). Recovery of the single twitch response after antagonism with edrophonium, although longer than that with neostigmine (P less than 0.01), was significantly shorter than in the control group (P less than 0.05). When edrophonium is given at the commencement of recovery, the initial rapid antagonism of tetanic block is not sustained, whereas antagonism by neostigmine is more persistent and the recovery phase is significantly shortened. In a further two groups of patients (n = 5) given atracurium 0.3 mg kg-1 i.v., antagonism was not attempted until the peak height of the tetanic contraction had reached approximately 50% of the control value.(ABSTRACT TRUNCATED AT 250 WORDS) Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 네오스티그민 또는 에드로포늄에 의한 아트라큐리움 유도 신경근 차단의 길항작용은 22명의 마취된 환자에서 파상풍(50Hz) 및 4열(2Hz) 또는 단일 연축 반응을 사용하여 연구되었습니다. 항콜린에스테라제를 투여하지 않은 추가 9명의 환자는 대조군으로 작용했습니다. 95-98%의 파상풍 반응 차단에서 길항작용을 시도한 두 그룹(각 항콜린에스테라아제에 대해 6명의 환자)에서 edrophonium 0.75 mg kg-1 i.v. 대조군과 통계적으로 다르지 않았다; 네오스티그민 2.5 mg i.v. 2회 투여 후 회복 훨씬 더 빨랐습니다(P<0.001). edrophonium에 의한 길항작용 후 단일 연축 반응의 회복은 neostigmine에 의한 것보다 길지만(P < 0.01) 대조군에 비해 상당히 짧았습니다(P < 0.05). 회복 초기에 edrophonium을 투여하면 파상풍 차단의 초기 빠른 길항작용이 지속되지 않는 반면, neostigmine에 의한 길항작용이 더 지속되고 회복 기간이 상당히 단축됩니다. atracurium 0.3 mg kg-1 i.v.를 투여한 추가 두 그룹의 환자(n = 5)에서 파상풍 수축의 피크 높이가 대조군 값의 약 50%에 도달할 때까지 길항 작용을 시도하지 않았습니다. (ABSTRACT TRUNCATED AT 250 WORDS) 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Attempts to follow the treatment progress of patients with multiple personality have been limited to a few single case studies and, in the only large series, to those most successfully treated. This study followed the treatment progress of 20 patients for a mean of 39 months after intake. The study included a detailed history, neurological examination, and psychological testing on each patient. At follow-up each patient was interviewed and a questionnaire was completed by his or her therapist to assess treatment response. Although nine patients achieved partial or full integration, complete integration was maintained by only five. During therapy the unintegrated patients experienced emotional trauma at approximately twice the rate as did the patients who eventually became integrated. Psychodynamic psychotherapy and hypnosis were the most widely prescribed therapies. The improvement in multiple personality appeared to proceed in a stepwise fashion from acceptance of the diagnosis to integration. The progress of therapy was hindered most commonly by the overuse of the mental mechanisms of repression and denial, the continued utilization of secrecy, which began during child abuse, and the production of numerous crises. The most common countertransferences included anger, exasperation, and emotional exhaustion. Although the psychotherapy of patients with multiple personality is tedious and time consuming, it can be eminently successful if the patient and therapist persevere. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 다중 인격을 가진 환자의 치료 진행 상황을 추적하려는 시도는 소수의 단일 사례 연구와 가장 성공적으로 치료된 유일한 대규모 사례 연구로 제한되었습니다. 이 연구는 복용 후 평균 39개월 동안 20명의 환자의 치료 경과를 추적했습니다. 이 연구에는 각 환자에 대한 자세한 병력, 신경학적 검사 및 심리 테스트가 포함되었습니다. 후속 조치에서 각 환자를 인터뷰하고 치료 반응을 평가하기 위해 치료사가 설문지를 작성했습니다. 9명의 환자가 부분 또는 완전 통합을 달성했지만 완전 통합은 5명에 불과했습니다. 치료 중 통합되지 않은 환자는 결국 통합된 환자보다 약 2배의 비율로 정서적 외상을 경험했습니다. 정신역동적 심리치료와 최면이 가장 널리 처방된 치료법이었다. 다중인격의 개선은 진단 수용에서 통합까지 단계적으로 진행되는 것으로 나타났다. 치료의 진행은 억압과 부정이라는 정신적 메커니즘의 남용, 아동 학대 중에 시작된 비밀의 지속적인 사용, 수많은 위기의 생산으로 인해 가장 일반적으로 방해를 받았습니다. 가장 흔한 역전이에는 분노, 분노, 감정적 탈진이 포함되었습니다. 다중인격 환자에 대한 심리치료는 지루하고 시간이 많이 소요되지만 환자와 치료사가 꾸준히 노력한다면 큰 성공을 거둘 수 있습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Because mast cells (MCs) in skin of atopic dogs are heterogeneous with respect to tissue fixation and staining properties, we determined the effect of antigen on each type of MC in vivo. Skin biopsies were done in anesthetized, ragweed-sensitized dogs before and at 1, 3, 6, and 24 hours after intradermal injections of ragweed antigen (n = 5) or glycerin diluent (n = 4). In each case, one biopsy specimen was fixed with formalin, and a second specimen from an adjacent abdominal site was fixed with basic lead acetate. In sections stained with Alcian blue, 49.7% more MCs (p less than 0.05) were detected in tissue fixed with basic lead acetate ("typical" plus "atypical" MCs: 2916 +/- 581/mm3; mean +/- SEM) than in tissue fixed with formalin ("typical" MCs: 1955 +/- 537/mm3). After antigen, the number of "typical" MCs detectable in tissue sections progressively decreased during the 24-hour period, whereas the number of "atypical" MCs was lowest at 1 hour and had increased at 24 hours. After diluent, MC numbers did not change significantly over time. A late-phase response (LPR), detected clinically as induration and edema, was present 6 hours after antigen in four of five dogs, but LPR was not detected after diluent. The size of LPR was correlated (r = 0.85; p less than 0.05) with the decrease in the number of "typical" MCs at 6 hours. We conclude that the response of the "typical" and "atypical" MC to antigen in vivo differs markedly. The "atypical" MCs participate in the early, acute response to antigen, and the "typical" MCs may be associated with the development of the LPR. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 아토피 개의 피부에 있는 비만 세포(MC)는 조직 고정 및 염색 특성과 관련하여 이질적이기 때문에 생체 내에서 각 유형의 MC에 대한 항원의 영향을 결정했습니다. 돼지풀 항원(n = 5) 또는 글리세린 희석제(n = 4)의 피내 주사 전후 1, 3, 6 및 24시간에 마취된 돼지풀 감작 개에서 피부 생검을 수행했습니다. 각각의 경우에, 하나의 생검 표본이 포르말린으로 고정되었고, 인접한 복부 부위의 두 번째 표본은 염기성 납 아세테이트로 고정되었습니다. 알시안 블루로 염색된 섹션에서 염기성 납 아세테이트로 고정된 조직에서 49.7% 더 많은 MC(p < 0.05)가 검출되었습니다("전형적" 및 "비정형" MC: 2916 +/- 581/mm3; 평균 +/- SEM) 포르말린으로 고정된 조직에서보다("전형적인" MC: 1955 +/- 537/mm3). 항원 이후, 조직 절편에서 검출할 수 있는 "전형적인" MC의 수는 24시간 동안 점진적으로 감소한 반면, "비정형" MC의 수는 1시간에서 가장 낮았고 24시간에서 증가했습니다. 희석 후 MC 수치는 시간 경과에 따라 크게 변하지 않았습니다. 경결 및 부종으로 임상적으로 검출된 후기 반응(LPR)은 5마리 중 4마리에서 항원 투여 후 6시간 후에 나타났지만 LPR은 희석제 후에 검출되지 않았습니다. LPR의 크기는 6시간에서 "전형적인" MC의 수 감소와 상관관계가 있었습니다(r = 0.85; p < 0.05). 우리는 생체 내 항원에 대한 "전형적인" 및 "비정형적인" MC의 반응이 현저하게 다르다는 결론을 내립니다. "비정형" MC는 항원에 대한 초기 급성 반응에 참여하고 "전형적인" MC는 LPR의 발달과 관련될 수 있습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Bone loss developing after cessation of ovarian function in humans represents a major health problem. To establish the value of ovariohysterectomy in female beagle dogs as a model for bone loss and to study static and dynamic parameters of bone associated with the negative bone balance occurring after cessation of ovarian function, we performed iliac crest bone biopsies before and 4 months after ovariohysterectomy in eight beagle dogs and in five sham-operated controls. Cessation of ovarian function was documented by an increase in serum levels of LH 4 weeks after ovariohysterectomy. There was no change in serum calcium, phosphorus, and creatinine during the 4 months of the study. Cancellous bone mass and trabecular mean wall thickness decreased significantly after ovariohysterectomy (P less than 0.01). In addition, the number of osteoblasts was increased and the bone formation rate per osteoblast, that is, the activity of bone-forming cells, was decreased (P less than 0.01). Parameters of bone resorption were not significantly altered in the animals with ovariohysterectomy. No changes in histomorphometric parameters of bone structure, formation or resorption were observed in the sham-operated controls. These data indicate that ovariohysterectomy in beagle dogs may serve as a useful model for bone loss associated with cessation of ovarian function. Osteoblastic insufficiency appears to play a major role in the maintenance of bone loss occurring after ovariohysterectomy in beagle dogs. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 인간의 난소 기능이 중단된 후 발생하는 뼈 손실은 주요 건강 문제를 나타냅니다. 암컷 비글견의 난소자궁절제술의 뼈 손실 모델로서의 가치를 확립하고 난소 기능 정지 후 발생하는 음의 뼈 균형과 관련된 뼈의 정적 및 동적 매개변수를 연구하기 위해, 우리는 난소자궁절제술 전과 후 4개월에 장골 능선 뼈 생검을 수행했습니다. 8마리의 비글 개와 5마리의 샴 조작 컨트롤에서. 난소 기능의 정지는 난소자궁절제술 4주 후에 혈청 LH 수준의 증가로 기록되었습니다. 연구 4개월 동안 혈청 칼슘, 인 및 크레아티닌에는 변화가 없었습니다. 난소자궁절제술 후 해면골량과 섬유주 평균벽두께가 유의하게 감소하였다(P<0.01). 또한 조골세포의 수가 증가하고 조골세포당 골형성률, 즉 골형성세포의 활성이 감소하였다(P<0.01). 난소자궁절제술을 받은 동물에서 뼈 재흡수의 매개변수는 크게 변경되지 않았습니다. 뼈 구조, 형성 또는 재흡수에 대한 조직 형태학적 매개 변수의 변화는 가짜 조작 대조군에서 관찰되지 않았습니다. 이러한 데이터는 비글견의 난소자궁절제술이 난소 기능 중단과 관련된 뼈 손실에 대한 유용한 모델이 될 수 있음을 나타냅니다. 골모세포 기능 부전은 비글견에서 난소자궁적출술 후 발생하는 뼈 손실의 유지에 중요한 역할을 하는 것으로 보입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Both halothane and nitrous oxide can be reduced at the cathode of a polarographic oxygen electrode, causing the electrode current to drift upward and report falsely high oxygen tension. Because transcutaneous oxygen tension is measured by a heated oxygen electrode, there is a potential for significant upward drift of these values. To examine the clinical significance of this drift, the following study was performed. Transcutaneous oxygen tension sensors were calibrated at oxygen tensions of 0 mm Hg and 157 mm Hg (room air) just before clinical use during anesthesia. This calibration was rechecked immediately upon removal of the sensor from the patient at the end of the anesthesia. The predominant anesthetic agent used and the duration of monitoring were noted from the record. Data were collected from 208 patients representing a total of 463.6 hours of anesthesia. The patients were divided into five groups based on anesthetic administered: halothane, enflurane, isoflurane, nitrous oxide-narcotic, and local/regional. The mean zero point recalibration value was 0.4 mm Hg or less for all agents except halothane, for which it was 1.8 +/- 3.2 mm Hg. This halothane drift was significantly greater than that for the other agents (P less than 0.01). Room air recalibration was not significantly different in any of the five groups, varying from 160 +/- 4.9 mm Hg for halothane to 157 +/- 4.9 mm Hg for enflurane. All these drift values are within the manufacturer's specifications. We conclude that the drift of the transcutaneous oxygen tension sensor due to anesthetic agents is not clinically significant. However, caution should be exercised when halothane is used during an extremely long period of anesthesia. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 개요: 할로탄과 아산화질소는 모두 폴라로그래픽 산소 전극의 음극에서 환원될 수 있으며, 이로 인해 전극 전류가 위쪽으로 표류하고 잘못된 높은 산소 장력을 보고합니다. 경피적 산소 장력은 가열된 산소 전극에 의해 측정되기 때문에 이러한 값이 크게 상승할 가능성이 있습니다. 이러한 드리프트의 임상적 의의를 알아보기 위해 다음과 같은 연구가 수행되었다. 경피적 산소 분압 센서는 마취 중 임상 사용 직전에 0 mm Hg 및 157 mm Hg(실내 공기)의 산소 분압에서 보정되었습니다. 이 보정은 마취 종료 시 환자에게서 센서를 제거하는 즉시 재확인되었습니다. 사용된 주요 마취제와 모니터링 기간이 기록에서 기록되었습니다. 총 463.6시간의 마취를 나타내는 208명의 환자로부터 데이터를 수집했습니다. 환자들은 투여된 마취제에 따라 halothane, enflurane, isoflurane, nitrous oxide-narcotic, local/regional의 5개 그룹으로 분류되었다. 평균 영점 재교정 값은 1.8 +/- 3.2mmHg인 halothane을 제외한 모든 약제에서 0.4mmHg 이하였다. 이 할로탄 드리프트는 다른 약제에 대한 것보다 상당히 컸습니다(P < 0.01). 실내 공기 재보정은 할로탄의 경우 160 +/- 4.9 mm Hg에서 엔플루란의 경우 157 +/- 4.9 mm Hg로 5개 그룹에서 크게 다르지 않았습니다. 이러한 모든 드리프트 값은 제조업체의 사양 내에 있습니다. 마취제에 의한 경피적 산소분압 센서의 드리프트는 임상적으로 유의하지 않다고 결론을 내렸다. 그러나 할로탄을 장기간의 마취기간 동안 사용하는 경우에는 주의를 요한다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Calcium carbonate appears to be as effective as aluminum hydroxide in binding dietary phosphorus in hemodialysis patients. The long-term safety of this medication appears acceptable in view of today's therapeutic options. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 탄산칼슘은 혈액투석 환자의 식이 인과 결합하는 데 수산화알루미늄만큼 효과적인 것으로 보입니다. 이 약물의 장기적 안전성은 오늘날의 치료 옵션을 고려할 때 수용 가능한 것으로 보입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Cell cultures of human keratinocytes contain membrane-associated thioredoxin reductase that is extremely active in reducing radicals on the outer plasma membrane. This enzyme activity was confirmed by its purification from cultures of stratified human keratinocytes by affinity column chromatography. The enzyme was assayed both in vivo and in vitro using a spin-labeled quaternary ammonium compound as the substrate, under saturating conditions in free radical substrate. Specific activities were determined by monitoring the sequential decrease in the amplitude of the electron spin resonance signal per unit of cell protein. The following properties were found: Cultures of adult stratified cells have approximately twice the thioredoxin reductase activity of neonatal cells. The enzyme is inhibited by thioprotein inhibitors (i.e., parachloromecuribenzoate and dinitrochlorobenzene). The activity is regulated by calcium concentrations of the cell culture medium. Stratified keratinocytes are half as active in medium containing 2 mM Ca++ compared with 0.1 mM Ca++ concentration. Product inhibition of the enzyme occurs with oxidized coenzyme NADP+ (i.e., 87% inhibition of enzyme activity over 30 min). The enzyme is heat stable at temperatures of 70 degrees C for 10 min. It is inactivated at 75 degrees C. A comparative study of thioredoxin reductase activity on stratified differentiated and undifferentiated rapidly growing cells was performed. Also, enzyme activity was quantitated for cultured keratinocytes isolated from vitiliginous and normal skin of the same donor. The results of this study, and the connection between this enzyme activity and UV-generated free radicals are reconciled in terms of the mechanism of action and metabolic activity of thioredoxin reductase. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 인간 케라티노사이트의 세포 배양은 외부 원형질막의 라디칼을 감소시키는 데 매우 활성이 있는 막 관련 티오레독신 환원효소를 포함합니다. 이 효소 활성은 친화성 컬럼 크로마토그래피에 의해 중층화된 인간 케라티노사이트 배양물로부터 정제하여 확인되었습니다. 자유 라디칼 기질의 포화 조건 하에서 기질로서 스핀 표지된 4급 암모늄 화합물을 사용하여 생체내 및 시험관내에서 효소를 검정하였다. 특정 활동은 세포 단백질 단위당 전자 스핀 공명 신호의 진폭이 순차적으로 감소하는 것을 모니터링하여 결정되었습니다. 다음과 같은 특성이 발견되었습니다. 성체 중층 세포의 배양은 신생아 세포의 티오레독신 환원효소 활성의 약 2배입니다. 이 효소는 티오단백질 억제제(즉, 파라클로로메큐리벤조에이트 및 디니트로클로로벤젠)에 의해 억제됩니다. 활성은 세포 배양 배지의 칼슘 농도에 의해 조절됩니다. 층화된 각질세포는 0.1mM Ca++ 농도와 비교하여 2mM Ca++를 함유하는 배지에서 활성이 절반입니다. 효소의 생성물 억제는 산화된 코엔자임 NADP+로 발생합니다(즉, 30분 동안 효소 활성의 87% 억제). 효소는 섭씨 70도에서 10분 동안 열에 안정합니다. 그것은 75도에서 비활성화됩니다. 계층화된 분화 및 미분화 빠르게 성장하는 세포에 대한 티오레독신 환원효소 활성의 비교 연구가 수행되었습니다. 또한, 동일한 기증자의 백반 피부와 정상 피부에서 분리한 배양 각질세포에 대한 효소 활성을 정량하였다. 이 연구의 결과와 이 효소 활성과 UV 생성 자유 라디칼 사이의 연관성은 티오레독신 환원 효소의 작용 메커니즘과 대사 활성 측면에서 조화를 이룹니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Clinical and histopathological studies of two patients with distinctly different inherited juvenile retinal dystrophies indicate that the ocular defect in mitochondrial cytopathy involves the underlying pigment epithelium, whereas in the Laurence-Moon-Biedl syndrome the photoreceptor cells are primarily affected. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 뚜렷하게 다른 유전성 소아 망막 이영양증을 가진 두 환자에 대한 임상 및 조직병리학적 연구는 미토콘드리아 세포병증의 안구 결함이 기저 색소 상피를 포함하는 반면, Laurence-Moon-Biedl 증후군에서는 광수용체 세포가 주로 영향을 받는 것으로 나타났습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Clinical and morphologic features of 89 cases of childhood yolk sac tumor (YS) and embryonal carcinoma (EC) (29 associated with teratomas) submitted to the Rare Tumor Registry of the Southwest Oncology Group (1971-1979) or the Pediatric Oncology Group (1980-1984) between 1971 and 1984 were reviewed and submitted to statistical analysis. This review showed an improved survival for each 5-year period regardless of tumor site, no statistically significant difference between "pure" tumors and those mixed with other teratomatous components, no statistically significant difference between YS and EC in children, a better than reported prognosis for sacrococcygeal tumors occurring after the neonatal period, a particularly poor prognosis for neonatal "benign" sacrococcygeal teratomas resected without coccygectomy when they recur as YS, excellent survival for all testicular tumors regardless of age or the presence of EC, and the occurrence of mediastinal tumors in females. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: Southwest Oncology Group(1971-1979) 또는 Pediatric Oncology Group의 Rare Tumor Registry에 제출된 소아 난황낭 종양(YS) 및 배아 암종(EC) 89예(기형종 관련 29예)의 임상 및 형태학적 특징 (1980-1984) 1971년에서 1984년 사이에 검토되어 통계 분석에 제출되었습니다. 이 검토에서는 종양 부위에 관계없이 5년마다 생존율이 향상되었고, "순수" 종양과 다른 기형 구성 요소가 혼합된 종양 사이에 통계적으로 유의미한 차이가 없었고, 소아에서 YS와 EC 사이에 통계적으로 유의미한 차이가 없었으며, 보고된 것보다 더 나은 예후를 보여주었습니다. 신생아기 이후에 발생하는 천골미골 종양의 경우 미골절제술 없이 절제된 신생아 "양성" 천미골 기형종은 YS로 재발할 때 특히 불량한 예후, 연령 또는 EC의 존재 여부와 관계없이 모든 고환 종양에 대한 우수한 생존율 및 종격동 종양의 발생 암컷에서. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Deformities are abnormalities of shape or form caused by abnormal or imbalanced mechanical forces. In prenatal deformation, most infants are intrinsically normal and the deformation results from extrinsic constraining forces. Most prenatal deformities will resolve spontaneously or with the application of counteracting forces. In contrast, postnatal deformities result from either extrinsic pathologic processes, affecting the bones, nervous system, or muscle and resulting in the application of abnormal forces to bone, or normal forces acting on intrinsic diseases of bone. While many postnatal deformities can be contained or corrected by the application of counteracting forces, aggressive physical therapy, casting, or surgery is often required for correction. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 기형은 비정상적이거나 불균형한 기계적 힘에 의해 발생하는 형태나 형태의 이상이다. 태아 기형에서 대부분의 영아는 본질적으로 정상이며 변형은 외부 구속력으로 인해 발생합니다. 대부분의 산전 기형은 자발적으로 또는 반작용력을 적용하면 해결됩니다. 대조적으로, 출생 후 기형은 뼈, 신경계 또는 근육에 영향을 미치고 뼈에 비정상적인 힘을 가하는 외인성 병리학적 과정 또는 뼈의 내인성 질병에 작용하는 정상적인 힘에 의해 발생합니다. 많은 산후 기형은 반작용력을 적용하여 억제하거나 교정할 수 있지만 교정을 위해 공격적인 물리 치료, 깁스 또는 수술이 필요한 경우가 많습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Dual left coronary systems, one originating normally and the other anomalously from the right sinus of Valsalva, is described in a 53-year-old patient with atypical chest pain with exercise-induced ST-depression in the anteroseptal area (V2-4). Clinical consequences of this hitherto undescribed anomaly are discussed. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 하나는 정상 발살바동에서 발생하고 다른 하나는 비정상적으로 발생하는 이중 왼쪽 관상동맥 시스템이 전중격 영역에서 운동으로 유발된 ST 억제를 동반한 비정형 흉통이 있는 53세 환자에서 설명됩니다(V2-4 ). 지금까지 설명되지 않은 이상 현상의 임상 결과에 대해 설명합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Enhanced clinical awareness of infective endocarditis, along with improved microbiologic methodology and more aggressive surgical intervention, has favorably influenced the outcome of the disease. The evolving nature of infective endocarditis over the past decade is described, as are the changing epidemiologic factors, microbiologic techniques, and echocardiographic contributions in the clinical management of patients with infective endocarditis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 감염성 심내막염에 대한 향상된 임상적 인식, 개선된 미생물학적 방법론 및 보다 공격적인 외과 개입이 질병의 결과에 긍정적인 영향을 미쳤습니다. 감염성 심내막염 환자의 임상적 관리에서 변화하는 역학적 요인, 미생물학적 기술 및 심초음파 기여도와 마찬가지로 지난 10년 동안 감염성 심내막염의 진화하는 특성이 설명됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Eosinophiluria is considered a useful marker of drug-induced acute interstitial nephritis. However, recognition of eosinophiluria by Wright's staining is technically difficult, and the spectrum of disorders causing eosinophiluria is not completely defined. We have adapted Hansel's stain for the examination of urinary sediment. Whereas there was a variable uptake of Wright's stain by eosinophils in the urine, such eosinophils were readily recognized with Hansel's stain by the presence of bright red granules. The prevalence of eosinophiluria in acute interstitial nephritis was 10 of 11 patients, in acute tubular necrosis none of 30, in acute pyelonephritis none of 10, in acute cystitis 1 of 15, in postinfectious glomerulonephritis 1 of 6, in rapidly progressive glomerulonephritis 4 of 10, and in acute prostatitis 6 of 10. Eosinophiluria in acute interstitial nephritis was demonstrated by Hansel's stain in 10 of 11 patients but by Wright's stain in only 2 of 11 patients. We conclude that Hansel's stain substantially improves the recognition of eosinophiluria as compared with Wright's stain. Eosinophiluria is useful in distinguishing acute interstitial nephritis from acute tubular necrosis. The clinical spectrum of eosinophiluria also includes rapidly progressive glomerulonephritis, acute prostatitis, and occasionally, acute cystitis or postinfectious glomerulonephritis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 호산구 증가증은 약물 유발 급성 간질 신염의 유용한 지표로 간주됩니다. 그러나 Wright 염색법으로 호산구 증가증을 인지하는 것은 기술적으로 어렵고 호산구 증가증을 유발하는 장애의 스펙트럼이 완전히 정의되지 않았습니다. 우리는 소변 침전물의 검사를 위해 Hansel의 얼룩을 채택했습니다. 소변 내 호산구에 의한 Wright 염색의 다양한 흡수가 있는 반면, 그러한 호산구는 밝은 적색 과립의 존재에 의해 Hansel 염색으로 쉽게 인식되었습니다. 급성 간질 신염에서 호산구 증가증의 유병률은 11명 중 10명, 급성 세뇨관 괴사에서 30명 중 없음, 급성 신우신염에서 10명 중 없음, 급성 방광염에서 15명 중 1명, 감염후 사구체신염에서 6명 중 1명, 급속 진행성 사구체신염에서 4명 중 10명이었습니다. , 급성 전립선염 6/10. 급성 간질성 신염에서의 호산구 증가증은 11명의 환자 중 10명에서 Hansel 염색으로 나타났으나 Wright 염색에서는 11명 중 2명에서만 나타났습니다. 우리는 Hansel 염색이 Wright 염색에 비해 호산구 증가증의 인식을 상당히 향상시킨다고 결론지었습니다. 호산구 증가증은 급성 간질성 신염과 급성 세뇨관 괴사를 구별하는 데 유용합니다. 호산구 증가증의 임상 스펙트럼에는 급속 진행성 사구체신염, 급성 전립선염, 때때로 급성 방광염 또는 감염후 사구체신염도 포함됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Fifty ragweed-sensitive subjects were each administered a course of 12 injections of polyethylene glycol-modified ragweed extract. To investigate the effect of two treatment regimens, subjects were paired according to their skin sensitivity to ragweed extract and the severity of their rhinoconjunctivitis the previous year. One of each pair was randomly allocated to receive injections at weekly intervals, and the other subject was to receive injections daily until a local or systemic adverse reaction occurred and then to switch to a weekly schedule for the rest of the course. Blood was obtained immediately before each injection and at the end of the study to examine the rates of change of ragweed-specific IgE and IgG antibody levels and to evaluate whether these or other variables could be used to predict the occurrence of adverse reactions. Immediate reactions were minimal in both groups, but more late reactions occurred in subjects receiving the modified rush regimen; therefore, although the total number of injections received by the two groups was similar, the total dose of protein injected in the rush group was only half that achieved in the weekly group. Treatment induced increases in ragweed-specific IgE and IgG antibodies in both groups; the increase in IgE was similar in the two groups, but the increase in IgG was higher in the weekly group. There was a marked decrease in skin sensitivity to ragweed extract after treatment that was directly related to the IgG antibody response, and therefore, these changes were greater in the weekly group.(ABSTRACT TRUNCATED AT 250 WORDS) Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 돼지풀에 민감한 50명의 피험자에게 각각 폴리에틸렌 글리콜로 변형된 돼지풀 추출물을 12회 주사했습니다. 두 가지 치료 요법의 효과를 조사하기 위해 돼지풀 추출물에 대한 피부 민감도와 전년도 비결막염의 중증도에 따라 대상자를 짝지었습니다. 각 쌍 중 한 명은 매주 간격으로 주사를 받도록 무작위로 할당되었고, 다른 피험자는 국소 또는 전신 부작용이 발생할 때까지 매일 주사를 받은 다음 나머지 과정 동안 매주 일정으로 전환했습니다. 돼지풀 특이 IgE 및 IgG 항체 수준의 변화율을 조사하고 이러한 변수 또는 다른 변수를 사용하여 이상반응 발생을 예측할 수 있는지 여부를 평가하기 위해 각 주사 직전과 연구가 끝날 때 혈액을 채취했습니다. 즉각적인 반응은 두 그룹 모두에서 미미했지만, 수정된 급행 요법을 받은 피험자에게서 더 많은 후기 반응이 발생했습니다. 따라서 두 그룹이 받은 총 주사 횟수는 비슷했지만 러시 그룹에 주입된 단백질의 총 용량은 주간 그룹에서 달성한 절반에 불과했습니다. 두 그룹 모두 돼지풀 특이적 IgE 및 IgG 항체의 처리 유도 증가; IgE의 증가는 두 그룹에서 비슷했지만 IgG의 증가는 주간 그룹에서 더 높았습니다. IgG 항체 반응과 직접적으로 관련된 처리 후 돼지풀 추출물에 대한 피부 민감도의 현저한 감소가 있었고, 따라서 이러한 변화는 주간 그룹에서 더 컸습니다. (ABSTRACT TRUNCATED AT 250 WORDS) 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Five clinical tests in common use for diagnosis of carpal tunnel syndromes have been shown to have little diagnostic value, either individually or in various combinations. No physical sign is useful in the diagnosis of this condition, which should be suspected on the basis of presenting symptoms and confirmed by electrodiagnosis using standard median nerve conduction tests. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 수근관 증후군 진단을 위해 일반적으로 사용되는 다섯 가지 임상 검사는 개별적으로 또는 다양한 조합으로 진단적 가치가 거의 없는 것으로 나타났습니다. 이 상태의 진단에 유용한 신체적 징후는 없으며 증상을 나타내는 것을 근거로 의심하고 표준 정중 신경 전도 검사를 사용하는 전기 진단으로 확인해야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: From 1966 to 1983, skeletal suspension was used at the Shriners Burns Institute, Galveston, Texas, for the treatment of 626 burned pediatric patients who had 1128 affected extremities. Skeletal suspension was used for 863 acutely burned extremities (76.5 per cent) to facilitate skin-grafting and in 265 extremities (23.5 per cent) for functional positioning in the surgical correction of burn-acquired deformities. In a retrospective examination of these patients, there were fifty complications (4.4 per cent) related to the skeletal suspension, of which forty-five (4.0 per cent) were infections. All infections resolved with removal of the pins or the administration of antibiotics, or both. With this established low rate of complications, skeletal suspension continues to be a useful adjunct in the care of the severely burned pediatric patient. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 1966년부터 1983년까지 텍사스 주 갤버스턴에 있는 Shriners Burns Institute에서 1128명의 사지에 영향을 받은 626명의 소아 화상 환자를 치료하기 위해 골격 서스펜션이 사용되었습니다. 피부 이식을 용이하게 하기 위해 863개의 급성 화상 사지(76.5%)에 골격 현탁액이 사용되었고 화상 후천성 기형의 외과적 교정에서 기능적 위치 지정을 위해 265개 사지(23.5%)에 사용되었습니다. 이 환자들의 후향적 검사에서 골격 정지와 관련된 50개의 합병증(4.4%)이 있었고 그 중 45개(4.0%)는 감염이었습니다. 모든 감염은 핀 제거 또는 항생제 투여 또는 둘 다로 해결되었습니다. 이렇게 낮은 비율의 합병증이 확립됨에 따라 골격 서스펜션은 심하게 화상을 입은 소아 환자의 치료에 계속해서 유용한 부속물이 됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Glycine and gamma-aminobutyric acid (GABA) are inhibitory transmitters of major importance. Whereas neurones using GABA as the transmitter can be visualized by immunocytochemical methods for glutamate decarboxylase (GAD) or GABA, no comparable techniques have been available for the selective visualization of glycinergic neurones. We have now produced polyclonal antibodies which specifically recognize glycine in glutaraldehyde-fixed tissue. We used these antibodies to investigate the distribution of glycine in the simple central nervous system (CNS) of the Xenopus embryo, which contains an anatomically and physiologically defined class of reciprocal inhibitory interneurones, the commissural interneurones. These interneurones have an important role in the generation of the swimming motor pattern and are thought to be glycinergic. The glycine antibodies specifically stain these interneurones, revealing their distribution and number in the embryo CNS. This is the first demonstration of the selective localization of glycine-like immunoreactivity in a putative glycinergic class of neurone that has been characterized physiologically, pharmacologically and anatomically. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 글리신과 감마-아미노부티르산(GABA)은 매우 중요한 억제 전달 물질입니다. GABA를 송신기로 사용하는 뉴런은 글루타메이트 데카르복실라제(GAD) 또는 GABA에 대한 면역세포화학적 방법으로 시각화할 수 있는 반면, 글리신성 뉴런의 선택적 시각화에 사용할 수 있는 비교 기술은 없습니다. 우리는 이제 글루타르알데히드 고정 조직에서 글리신을 특이적으로 인식하는 다클론 항체를 생산했습니다. 우리는 상호 억제 interneurones, commissural interneurones의 해부학 및 생리 학적으로 정의 된 클래스를 포함하는 Xenopus 배아의 단순 중추 신경계 (CNS)에서 글리신의 분포를 조사하기 위해 이러한 항체를 사용했습니다. 이러한 인터뉴런은 수영 운동 패턴 생성에 중요한 역할을 하며 글리신성인 것으로 생각됩니다. 글리신 항체는 특히 이러한 중간뉴런을 염색하여 배아 CNS에서 이들의 분포와 수를 드러냅니다. 이것은 생리학적, 약리학적 및 해부학적으로 특성화되어 있는 추정되는 글리신성 신경계 부류에서 글리신 유사 면역반응성의 선택적 국소화에 대한 첫 번째 시연입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Glycolic acid is the ethylene glycol (EG) metabolite that accumulates in the highest concentrations in the blood and may be the major contributing factor to the acute toxicity of EG. Serum and urine levels of glycolic acid have been found to correlate directly with clinical symptoms and mortality in poisoning cases, making it a valuable diagnostic tool. A high pressure liquid chromatographic (HPLC) method for quantitation of glycolic acid in serum was used in several cases of EG ingestion presented to the Louisiana Regional Poison Control Center. The data collected in this study support the value of glycolic acid determination for diagnosis and evaluation of patients poisoned by EG. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 글리콜산은 혈액에 가장 높은 농도로 축적되는 에틸렌 글리콜(EG) 대사산물이며 EG의 급성 독성에 주요 기여 요인이 될 수 있습니다. 글리콜산의 혈청 및 소변 수치는 중독 사례에서 임상 증상 및 사망률과 직접적인 관련이 있는 것으로 밝혀져 귀중한 진단 도구가 되었습니다. 루이지애나 지역 독극물 통제 센터에 제시된 여러 EG 섭취 사례에서 혈청 내 글리콜산 정량을 위한 고압 액체 크로마토그래피(HPLC) 방법이 사용되었습니다. 이 연구에서 수집된 데이터는 EG 중독 환자의 진단 및 평가를 위한 글리콜산 측정의 가치를 뒷받침합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Impairment of the mucosal microcirculation may contribute to ethanol-induced gastric mucosal damage. In this report, we describe diffuse and severe ultrastructural damage to the capillaries of the gastric glandular mucosa of the rat that occurred within 1 min after intragastric instillation of 100% ethanol. There was a gradient of damage in that endothelial cell structure was most severely disrupted in profiles of capillaries located close to the luminal surface but some morphologic evidence of damage was evident in the wall of capillary profiles to a mean depth of 256 micron. Capillary structure was generally normal in the deeper regions of the mucosa. Pretreatment with intragastric cysteamine, 30 mg/100 g, or intragastric prostaglandin F2 beta, 0.5 mg/100 g, significantly reduced the depth in the mucosa to which damage to capillaries extended. Pretreatment with intragastric prostaglandin F2 beta, 0.2 mg/100 g, afforded no significant protection. We conclude that a 1-min exposure to 100% ethanol induces striking damage to the microcirculation of glandular mucosa of the rat stomach with severe damage to capillary profiles near the lumen and sparing of capillary profiles near the muscularis mucosa, and pretreatment with the sulfhydryl agent, cysteamine, or with a large dose of prostaglandin F2 beta reduces the extent of but does not abolish ethanol-induced damage to gastric mucosal capillaries. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 점막 미세순환 장애는 에탄올 유발 위점막 손상에 기여할 수 있다. 이 보고서에서 우리는 100% 에탄올의 위내 주입 후 1분 이내에 발생한 쥐의 위선 점막 모세혈관에 대한 미만성 및 심한 미세구조 손상을 설명합니다. 내피 세포 구조가 내강 표면 가까이에 위치한 모세관 프로파일에서 가장 심하게 파괴되었다는 손상 구배가 있었지만 손상의 일부 형태학적 증거는 모세관 프로파일의 평균 깊이 256미크론에서 분명했습니다. 모세혈관 구조는 일반적으로 점막의 더 깊은 영역에서 정상이었습니다. 위내 시스테아민 30mg/100g 또는 위내 프로스타글란딘 F2 베타 0.5mg/100g으로 전처리하면 모세혈관 손상이 확장되는 점막의 깊이가 상당히 감소합니다. 위내 프로스타글란딘 F2 베타, 0.2mg/100g을 사용한 전처리는 유의한 보호를 제공하지 못했습니다. 우리는 100% 에탄올에 1분 동안 노출되면 루멘 근처의 모세관 프로필에 심각한 손상을 주고 점막근층 근처의 모세관 프로필을 절약하고 설프하이드릴 제제로 전처리하여 쥐 위의 선점막 미세순환에 현저한 손상을 유발한다고 결론지었습니다. , 시스테아민 또는 다량의 프로스타글란딘 F2 베타와 함께 사용하면 위점막 모세혈관에 대한 에탄올 유발 손상의 정도를 감소시키지만 없애지는 못합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: In 10-day-old suckling and adult mice, reovirus type 1 adheres selectively to and penetrates membranous epithelial (M) cells. To determine when M cells first appear, when they first transport reovirus, and if reovirus adheres to and is endocytosed by other epithelial cells in the first postnatal week, we examined neonatal mouse intestine by transmission electron microscopy after reovirus type 1 exposure. At 2 days M cells accounted for 0.9% of dome epithelial cells. By 9 days M cells had increased to 7.4%. Reovirus type 1 adherence to the surface of villus and dome epithelial cells showed marked variation in 2-6-day-old animals, but by 7 days only a few absorptive cell profiles had adherent reovirus. Adherence to greater than 50% of M-cell profiles occurred in all but 2 animals, but adherence to the majority of Peyer's patch absorptive cell profiles was present only in some 4- and 5-day-old animals. Adherence to a majority of undifferentiated cell profiles occurred in some animals at all ages. Membranous epithelial cells endocytosed reovirus at all ages but only at 2 days did rare villus and dome absorptive cells endocytose reovirus into the apical cytoplasm. Thus, adherence of reovirus to the apical surface of mucosal epithelial cells is nonselective in newborn mice but becomes more selective within the first postnatal week with adherence by day 7 to most M-cell profiles, to a substantial but variable number of undifferentiated cell profiles, but to few absorptive cell profiles. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 10일된 젖먹이 및 성체 마우스에서 레오바이러스 1형은 막 상피(M) 세포에 선택적으로 부착하고 침투합니다. M 세포가 처음 나타나는 시기, 언제 처음 레오바이러스를 수송하는지, 그리고 레오바이러스가 출생 후 첫 주에 다른 상피 세포에 부착되어 세포내이입되는지를 결정하기 위해 레오바이러스 1형 노출 후 투과 전자 현미경으로 신생아 마우스 장을 검사했습니다. 2일에 M 세포는 돔 상피 세포의 0.9%를 차지했습니다. 9일까지 M 세포는 7.4%로 증가했습니다. 융모 및 돔 상피 세포의 표면에 대한 레오바이러스 유형 1 부착은 2-6일 된 동물에서 현저한 변화를 나타내었지만, 7일까지 소수의 흡수성 세포 프로파일만이 부착된 레오바이러스를 가졌다. M 세포 프로필의 50% 이상에 대한 부착은 2마리를 제외한 모든 동물에서 발생했지만 대부분의 Peyer's patch 흡수 세포 프로필에 대한 부착은 일부 4일 및 5일 된 동물에서만 나타났습니다. 대부분의 미분화 세포 프로필에 대한 준수는 모든 연령대의 일부 동물에서 발생했습니다. 막 상피 세포는 모든 연령에서 레오바이러스를 세포내이입시켰으나 2일째에만 희귀 융모 및 돔 흡수 세포가 리오바이러스를 정점 세포질로 세포내이입했습니다. 따라서, 점막 상피 세포의 정단 표면에 대한 레오바이러스의 유착은 갓 태어난 마우스에서 비선택적이지만 출생 후 첫 주 내에 대부분의 M-세포 프로파일, 상당하지만 다양한 수의 미분화 세포 프로파일에 대한 7일까지의 유착과 함께 보다 선택적이 된다. 그러나 흡수성 세포 프로필은 거의 없습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: In 14 intubated, spontaneously breathing children with body weight (bw) ranging from 8.3 to 25.6 kg, the influence of midazolam 0.1 mg kg-1 i.m. (group M0.1, n = 7) and 0.2 mg kg-1 i.m. (group M0.2, n = 7) as premedication, on sedation, ventilation, ventilatory response to carbon dioxide and hormonal stress response was studied in connection with minor surgical procedures during halothane anaesthesia. The concentrations of catecholamines, ACTH and cortisol were measured immediately after induction, during undisturbed anaesthesia, during surgery and 15 min after the end of the surgical procedure. Sedation was better and plasma catecholamine concentrations during undisturbed anaesthesia were less in children receiving the larger dose of midazolam. During surgery and in recovery there were no differences in hormone concentrations. In recovery, the concentrations of all hormones were significantly greater compared with during undisturbed anaesthesia. During surgery, VE and respiratory rate were somewhat lower in group M0.2 while E' CO2 was similar. A dose dependent depression of the response to carbon dioxide was found. However, clinically, the ventilatory response to carbon dioxide after surgery was considered to be adequate in both groups. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 체중(bw)이 8.3~25.6kg인 14명의 삽관된 자발 호흡 소아에서 midazolam 0.1 mg kg-1 i.m.의 영향 (그룹 M0.1, n = 7) 및 0.2 mg kg-1 i.m. (그룹 M0.2, n = 7) 전처치로서 진정, 환기, 이산화탄소에 대한 환기 반응 및 호르몬 스트레스 반응에 대해 할로탄 마취 중 경미한 수술과 관련하여 연구하였다. catecholamines, ACTH, cortisol의 농도는 유도 직후, 방해받지 않는 마취 중, 수술 중, 수술 종료 후 15분에 측정하였다. 더 많은 양의 미다졸람을 투여받은 소아에서 진정 작용이 더 좋았고 방해받지 않는 마취 동안 혈장 카테콜아민 농도가 더 낮았습니다. 수술 중과 회복 중 호르몬 농도에는 차이가 없었습니다. 회복기에 모든 호르몬의 농도는 방해받지 않는 마취 동안에 비해 훨씬 더 컸습니다. 수술 중 VE와 호흡수는 M0.2군이 다소 낮았고 E' CO2는 비슷했다. 이산화탄소에 대한 반응의 용량 의존적 억제가 발견되었습니다. 그러나 임상적으로 수술 후 이산화탄소에 대한 환기 반응은 두 그룹 모두에서 적절한 것으로 간주되었습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: In black patients seen at Baragwanath Hospital, Johannesburg, appendicitis occurs most frequently in the 10-19-year-old age group. There is a pronounced male bias. Parasitic ova in the appendix are very seldom observed (3.6%). Fecaliths, present in 20% of diseased appendices, are noted far less frequently than are reported for white patients (50%-75%). There are about two cases of appendicitis per 1,000 admissions of adults annually, a low frequency consistent with the tenfold differential of appendectomies reported to prevail in urban black and white adolescents. The progressively changing diet of urban blacks, currently low in fat and in dietary fiber, has not yet become associated with a marked increase in the occurrence of the disease (nor of most other noninfective bowel diseases). Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 요하네스버그의 Baragwanath 병원에서 본 흑인 환자에서 충수염은 10-19세 연령 그룹에서 가장 자주 발생합니다. 뚜렷한 남성 편견이 있습니다. 맹장의 기생란은 매우 드물게 관찰된다(3.6%). 맹장 질환의 20%에 존재하는 변석은 백인 환자(50-75%)에 대해 보고된 것보다 훨씬 덜 자주 나타납니다. 매년 성인 입원 1,000명당 약 2건의 충수염 사례가 있으며, 이는 도시의 흑인과 백인 청소년에서 우세한 것으로 보고된 충수 절제술의 10배 차이와 일치하는 낮은 빈도입니다. 현재 지방과 식이 섬유가 적은 도시 흑인의 점진적으로 변화하는 식단은 아직 질병(대부분의 다른 비감염성 장 질환) 발생의 현저한 증가와 관련이 없습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: In the critically ill child, administration of fluids and medications via the intraosseous route often proves life-saving. The authors describe the case of a child with status epilepticus in whom phenytoin was administered via the intraosseous route, and seizure resolution and therapeutic serum levels were achieved. Intraosseous drug administration should be reserved for the rare critically ill child in whom vascular access proves impossible. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 중환자의 경우, 골내 경로를 통한 수액 및 약물 투여가 종종 생명을 구하는 것으로 입증됩니다. 저자는 골내 경로를 통해 페니토인을 투여한 간질 지속 상태 아동의 사례를 설명하고 발작 해결 및 치료 혈청 수치를 달성했습니다. 골내 약물 투여는 혈관 접근이 불가능한 희귀 중환자를 위해 예약되어야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Information on ethyl alcohol intoxication in children is scarce. A retrospective study was conducted by chart reviews of 27 patients with documented ethanol ingestion admitted to the Alberta Children's Hospital, Foothills Provincial Hospital, Calgary General Hospital or Holy Cross Hospital from 1969 to 1984. Six patients had hypoglycemia and one experienced a convulsion. The rate of alcohol elimination was found to be greater than 6.2 mM/L/hr (28.4 mg/dl/hr), approximately twice the rate seen in adults. Six patients had hypokalemia, and two had severe metabolic acidosis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 어린이의 에틸 알코올 중독에 대한 정보는 부족합니다. 1969년부터 1984년까지 Alberta Children's Hospital, Foothills Provincial Hospital, Calgary General Hospital 또는 Holy Cross Hospital에 입원한 문서화된 에탄올 섭취 환자 27명의 차트 검토를 통해 후향적 연구를 수행했습니다. 6명의 환자는 저혈당증이 있었고 1명은 경련을 경험했습니다. 알코올 제거율은 6.2mM/L/hr(28.4mg/dl/hr) 이상으로 성인에서 관찰되는 비율의 약 2배인 것으로 나타났습니다. 6명의 환자는 저칼륨혈증이 있었고 2명은 심각한 대사성 산증이 있었습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Localized regions of mineralization were found in confluent cultures of rabbit marrow fibroblastic cells. The mineralized tissue developed within clusters of giant fat cells in the spaces between the cells. Investigations with light and electron microscopy demonstrated that in these sites there was some differentiation of the fibroblastic cells in an osteogenic direction, shown by changes to more polygonal shapes, and the synthesis of well-banded collagen similar to that found in bone tissue. Differentiation may be due, in part, to increased cell density in a confined space. Growth of the mineralized tissue was observed in the living cultures with a fluorescence microscope. Electron probe microanalysis confirmed that the mineral formed was hydroxyapatite. Initiating sites of mineralization included membranous vesicular bodies, lipid, and products of cellular degeneration. Once initiated, mineralization appeared to spread rapidly into adjacent collagenous and other structures, suggesting the appearance of a mixture of skeletal-type and dystrophic mineralization. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 토끼 골수 섬유아세포의 합류 배양에서 국부화된 광물화 영역이 발견되었다. 광물화된 조직은 세포 사이의 공간에 있는 거대한 지방 세포 클러스터 내에서 발달했습니다. 광현미경과 전자현미경으로 조사한 결과, 이 부위에서 섬유아세포가 골형성 방향으로 약간 분화되었으며, 이는 더 많은 다각형 모양으로의 변화와 뼈 조직에서 발견되는 것과 유사한 줄무늬가 있는 콜라겐의 합성으로 나타났습니다. 분화는 부분적으로 제한된 공간에서 증가된 세포 밀도로 인한 것일 수 있습니다. 살아있는 배양액에서 광물화된 조직의 성장을 형광현미경으로 관찰하였다. 전자 탐침 미세분석으로 형성된 광물이 하이드록시아파타이트임을 확인했습니다. 광물화의 시작 부위에는 막소포체, 지질 및 세포 변성 생성물이 포함되었습니다. 일단 시작되면, 광물화는 인접한 콜라겐 및 기타 구조로 빠르게 확산되는 것으로 나타났으며, 이는 골격형 및 이영양성 광물화가 혼합된 모양을 시사합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Measurement of serum angiotensin-converting enzyme (ACE) is extremely useful as an aid in the diagnosis and longitudinal evaluation of patients with sarcoidosis. We have detected a human serum ACE-inhibitor which affects the ACE level obtained by activity measurements. The effect of the inhibitor can be eliminated by a mere eight-fold dilution of the serum sample with physiologic saline. We recommend that serum ACE be performed with 1:8 dilutions of serum to eliminate the effect of the ACE inhibitor. The inhibitor has a MW above 50,000 daltons, and reversibility of inhibition by dilution appears to be ion dependent. Dialysis of an inhibitor-containing serum sample against saline causes the inhibition to become irreversible, allowing the distinction between alinearity of the assay vs an inhibitor effect when a serum has ACE activity greater than 50 units/ml. The source of the serum ACE-inhibitor remains to be determined. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 혈청 안지오텐신 전환 효소(ACE)의 측정은 유육종증 환자의 진단 및 종적 평가에 매우 유용합니다. 우리는 활동 측정으로 얻은 ACE 수준에 영향을 미치는 인간 혈청 ACE 억제제를 감지했습니다. 억제제의 효과는 생리 식염수로 혈청 샘플을 8배 희석하는 것만으로도 제거할 수 있습니다. ACE 억제제의 효과를 제거하기 위해 혈청 1:8 희석액으로 혈청 ACE를 수행할 것을 권장합니다. 억제제는 50,000달톤 이상의 MW를 가지며, 희석에 의한 억제의 가역성은 이온 의존적인 것으로 보인다. 식염수에 대한 억제제 함유 혈청 샘플의 투석은 억제가 비가역적이 되도록 하여 혈청이 50 단위/ml보다 큰 ACE 활성을 가질 때 분석의 선형성과 억제제 효과 사이의 구별을 허용합니다. 혈청 ACE 억제제의 출처는 아직 밝혀지지 않았습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Nine cases of suspected craniotomy flap osteomyelitis evaluated by combined bone and gallium scanning are presented. In six cases, the clinical data were inconclusive and evaluation by radionuclide imaging provided an accurate negative diagnosis. The other three cases considered positive by this technique were proven infected at subsequent exploration and flap removal. The use of radionuclide bone and gallium imaging should be considered in cases of possible craniotomy flap osteomyelitis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 결합된 뼈와 갈륨 스캐닝으로 평가된 개두술 플랩 골수염이 의심되는 9예가 제시된다. 6건의 임상 데이터는 결정적이지 않았고 방사성 핵종 영상에 의한 평가는 정확한 음성 진단을 제공했습니다. 이 기술에 의해 양성으로 간주된 다른 세 가지 사례는 후속 탐색 및 플랩 제거에서 감염된 것으로 입증되었습니다. 개두술 플랩 골수염 가능성이 있는 경우 방사성 핵종 뼈 및 갈륨 영상의 사용을 고려해야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Ninety-six patients with disseminated malignant melanoma received thrice weekly intramuscular injections of leukocyte A recombinant interferon (rIFN-alpha A, Roferon-A, Hoffmann La Roche) at doses of 12 X 10(6) U/m2 or 50 X 10(6) U/m2 with or without cimetidine as an immunorestorative agent. Four patients, two with prior chemotherapy, demonstrated either a complete response (3 months, soft tissue metastasis) or exceptionally durable response durations (months) of 29+ (soft tissue; lung lesion), 31+ (soft tissue), and 35+ (soft tissue; liver lesions). None of these patients had particularly characteristic clinical parameters. As noted previously, using chemotherapy, a small proportion of patients with advanced malignant melanoma, despite prior therapy, may achieve prolonged objective regression with rIFN-alpha A. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 96명의 파종성 악성 흑색종 환자에게 백혈구 A 재조합 인터페론(rIFN-alpha A, Roferon-A, Hoffmann La Roche)을 12 X 10(6) U/m2 또는 50 X 10 용량으로 매주 3회 근육 주사했습니다. (6) 면역회복제로서 시메티딘을 포함하거나 포함하지 않는 U/m2. 4명의 환자 중 2명은 이전 화학 요법을 받았는데, 완전 반응(3개월, 연조직 전이) 또는 29+(연조직, 폐 병변), 31+(연조직), 35+의 예외적으로 지속적인 반응 지속 기간(개월)을 입증했습니다. (연조직, 간 병변). 이 환자들 중 어느 누구도 특별히 특징적인 임상 매개변수를 가지고 있지 않았습니다. 이전에 언급한 바와 같이, 화학요법을 사용하여, 선행 요법에도 불구하고 진행성 악성 흑색종을 갖는 소수의 환자는 rIFN-알파 A로 연장된 객관적 퇴행을 달성할 수 있습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: One hundred forty-four patients were prospectively followed through our Asplenic Registry for the development of late septic complications following splenectomy for trauma. There were 114 males and 30 females with a mean age of 28.6 years. The total time of followup was 8,810 patient months with a mean followup of 61 months (range, 12-144 months). Indications for splenectomy were blunt trauma, 111 patients; penetrating trauma, six patients; and intra-operative injury, 27 patients. During the followup to date, 15 late major septic complications requiring hospitalization have occurred in 13 patients (9%). Fulminant pneumococcal sepsis resulted in the death of a 27-year-old male, 3 years after splenectomy. Septicemia occurred in four patients, pneumonia in five, abscess in two, infection of a prosthetic heart valve in one, meningitis in one, and fever of unknown origin in one. All but two of these infections were due to encapsulated organisms. Minor septic complications occurred in 44 patients (30%), and consisted of infections which required outpatient medical care. Major late septic complications occurred more frequently following incidental splenectomy than following splenectomy for blunt or penetrating trauma (18.5% and 5.9% respectively; p less than 0.05). The mortality from major septic complications in this series (7%) is lower than previously reported by other investigators (30-80%). Our data suggest that adults undergoing splenectomy for trauma are at an increased risk of developing late major septic complications. This risk is significant enough to warrant attempts at splenic salvage, especially when injury is incidental to an elective operative procedure.(ABSTRACT TRUNCATED AT 250 WORDS) Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 144명의 환자는 외상에 대한 비장 절제술 후 말기 패혈증 합병증 발생에 대해 Asplenic Registry를 통해 전향적으로 추적되었습니다. 남자가 114명, 여자가 30명이었으며 평균연령은 28.6세였다. 총 추적 기간은 8,810개월이었고 평균 추적 기간은 61개월(범위, 12-144개월)이었습니다. 비장 절제술에 대한 적응증은 둔기 외상, 111명의 환자; 관통 외상, 6명의 환자; 수술 중 부상, 27명의 환자. 지금까지의 추적 기간 동안 입원이 필요한 15건의 후기 주요 패혈증 합병증이 13명의 환자(9%)에서 발생했습니다. 전격성 폐렴구균성 패혈증으로 27세 남성이 비장절제술 3년 후 사망하였다. 패혈증이 4명, 폐렴이 5명, 농양이 2명, 인공심장판막감염이 1명, 수막염이 1명, 원인불명열이 1명에서 발생했다. 이러한 감염 중 두 가지를 제외하고 모두 캡슐화된 유기체로 인한 것이었습니다. 경미한 패혈증 합병증은 44명의 환자(30%)에서 발생했으며 외래 진료가 필요한 감염으로 구성되었습니다. 주요 말기 패혈성 합병증은 둔기 또는 관통 외상에 대한 비장 절제술 후보다 우발적 비장 절제술 후에 더 자주 발생했습니다(각각 18.5% 및 5.9%; p < 0.05). 이 시리즈의 주요 패혈증 합병증으로 인한 사망률(7%)은 이전에 다른 조사자들이 보고한 것(30-80%)보다 낮습니다. 우리의 데이터는 외상으로 비장 절제술을 받는 성인이 후기 주요 패혈증 합병증이 발생할 위험이 높다는 것을 시사합니다. 이 위험은 비장 구제 시도를 정당화할 만큼 충분히 중요하며, 특히 손상이 선택적 수술 절차에 부수적인 경우에 그러합니다. (ABSTRACT TRUNCATED AT 250 WORDS) 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: One hundred patients who underwent carotid endarterectomy for transient ischemic attacks (TIAs) have been followed up for 3 to 10 years (mean, 5.5 years). Seven patients have been lost to follow-up but none is recorded as dead (National Registry of Deaths) at least 5 years after operation. Fifteen patients (16.5%) have died, four from cerebral and eight from cardiac causes. Three patients had cerebral infarction with permanent deficits, one occurring immediately after operation, one at 3 months, and one at 9 years. Four patients had minor strokes but a full clinical recovery, three patients postoperatively and one patient at 4 years. Fourteen patients had ipsilateral TIAs, four occurred postoperatively and 10 occurred from 1 to 8 years later. Ten patients had contralateral TIAs and five patients then had a contralateral carotid endarterectomy. Another nine patients also had bilateral operations, three for bilateral TIAs, five as prophylactic procedures on the basis of arteriographic findings, and one for a contralateral cerebral event that occurred after arteriography. Thus, at the mean follow-up time (5.5 years) and including the operative complications, four deaths (4%) of cerebral origin and seven serious cerebral problems (7%) have occurred--an annual morbidity and mortality rate of less than 2%. This compares favorably with the commonly predicted rate of stroke occurring after TIAs of 5% per year. These figures support the argument that carotid endarterectomy reduces the incidence of stroke occurring after TIA and stops TIAs caused by emboli from the carotid bifurcation. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 일과성허혈발작(TIA)으로 경동맥내막절제술을 받은 100명의 환자를 3~10년(평균 5.5년) 동안 추적관찰하였다. 7명의 환자가 후속 조치를 취하지 못했지만 수술 후 최소 5년 동안 사망한 것으로 기록된 환자는 없습니다(National Registry of Deaths). 15명(16.5%)의 환자가 사망했으며, 4명은 대뇌, 8명은 심장 원인으로 사망했습니다. 3명의 환자는 수술 직후, 3개월에 1명, 9년에 1명씩 영구 결손을 동반한 뇌경색이 있었다. 4명의 환자는 경미한 뇌졸중이 있었지만 완전한 임상적 회복을 보였고, 3명의 환자는 수술 후, 1명의 환자는 4년차에 있었습니다. 14명의 환자는 동측 일과성 허혈 발작이 있었고, 4명은 수술 후, 10명은 1년에서 8년 후에 발생했습니다. 10명의 환자는 반대쪽 TIA가 있었고 5명의 환자는 반대쪽 경동맥 내막 절제술을 받았습니다. 다른 9명의 환자도 양측 수술을 받았고, 3명은 양측 일과성 허혈 발작에 대해, 5명은 동맥 조영 소견에 근거한 예방적 절차로, 1명은 동맥 조영술 후 발생한 반대쪽 뇌 사건에 대해 수술을 받았습니다. 따라서, 평균 추적 시간(5.5년)에서 수술 합병증을 포함하여 뇌 기원의 4건의 사망(4%)과 7건의 심각한 뇌 문제(7%)가 발생했습니다. 2%. 이는 일과성 허혈 발작 후 발생하는 일반적으로 예측되는 뇌졸중 발생률이 연간 5%인 것과 비교할 때 유리합니다. 이러한 수치는 경동맥 내막 절제술이 TIA 후 발생하는 뇌졸중의 발생률을 줄이고 경동맥 분기점의 색전으로 인한 TIA를 중단시킨다는 주장을 뒷받침합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Over the last two decades, emergency medical services in the United States have been greatly improved. Organization of prehospital providers of health care has improved the outcome of many patients, particularly the trauma patient and the acute cardiac patient. In Seattle as many as 40% of outside-the-hospital cardiac arrest victims with ventricular fibrillation have been saved when there is rapid delivery of basic life support by first responders followed by advanced life support by paramedics. Although these systems are growing and improving health care, many lack adequate medical control or physician involvement. Emergency medical service systems must have physicians involved in their management to meet their full capabilities. It has become apparent that four factors are critical in determining the ability to resuscitate an individual once a cardiac arrest has occurred: time to starting any of the rescue procedures, use of electrical defibrillation when indicated, use of epinephrine, and adequacy of the technique of basic life support, particularly the ventilation component. To provide defibrillation at the earliest possible time, defibrillation by first responders such as emergency medical technicians appears to be of benefit. With the advent of automatic and semiautomatic defibrillators, first responders and family members may also be able to defibrillate victims. The use of defibrillation by people with less training than paramedics, however, must be approached with caution to ensure that there is adequate medical control and that the individuals who use these devices are properly trained. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 요약: 지난 20년 동안 미국의 응급 의료 서비스는 크게 개선되었습니다. 병원 전 의료 제공자의 조직은 많은 환자, 특히 외상 환자와 급성 심장 환자의 결과를 개선했습니다. 시애틀에서는 최초 대응자가 기본 생명 유지 장치를 신속하게 제공한 후 구급대원이 고급 생명 유지 장치를 제공하여 심실 세동이 있는 병원 외부 심정지 환자의 40%가 생명을 구했습니다. 이러한 시스템이 성장하고 건강 관리를 개선하고 있지만 많은 경우 적절한 의학적 통제나 의사 개입이 부족합니다. 응급 의료 서비스 시스템에는 의사가 전체 역량을 충족하도록 관리에 참여해야 합니다. 일단 심정지가 발생했을 때 개인을 소생시킬 수 있는 능력을 결정하는 데 중요한 네 가지 요소가 분명해졌습니다: 구조 절차를 시작하는 데 걸리는 시간, 필요한 경우 전기 제세동 사용, 에피네프린 사용, 심정지 기술의 적합성 기본 생명 유지 장치, 특히 환기 구성 요소. 가능한 한 빨리 제세동을 제공하려면 응급 의료 기술자와 같은 최초 대응자가 제세동을 수행하는 것이 도움이 될 것 같습니다. 자동 및 반자동 제세동기의 출현으로 최초 대응자와 가족 구성원도 피해자를 제세동할 수 있게 되었습니다. 그러나 구급대원보다 훈련이 덜 된 사람이 제세동기를 사용하는 경우 적절한 의료 통제가 이루어지고 이러한 장치를 사용하는 개인이 적절하게 훈련되었는지 확인하기 위해 주의해서 접근해야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Progression of coronary artery stenosis was measured using a quantitative, computer-assisted cinevideodensitometric method in 144 arterial segments in 44 subjects undergoing coronary arteriography on two separate occasions at least 6 months apart. Projected coronary arteriograms were digitized into 512 X 512 pixel mode and percent stenosis was calculated by comparing background-corrected videodensitometric values over stenotic and normal segments. Subjects underwent repeat coronary arteriography because of worsening symptoms of angina or heart failure; subjects with renal failure, coronary artery bypass grafts or cardiac transplant were excluded. Clinical variables determined at the time of the first arteriogram included age, sex, serum cholesterol, systolic blood pressure and presence or absence of cigarette smoking, diabetes mellitus and left ventricular hypertrophy. The mean interval between arteriograms was 29.3 months. Overall progression of coronary stenosis was observed in 40 of the 44 subjects; the mean progression at 24 months was 39% (90% confidence interval, 33 to 45%) and at 36 months was 48% (40 to 56%). The degree of overall progression was related to the length of time between arteriograms (F = 5.81, p less than 0.05) and to serum cholesterol level (F = 4.37, p less than 0.05). These data indicate that using an accurate, quantitative method, it is possible to measure progression of coronary artery atherosclerosis within 2 to 3 years of the initial arteriogram. Serum cholesterol appears to be an important determinant of disease progression. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 관상 동맥 협착증의 진행은 적어도 6개월의 간격을 두고 2회에 걸쳐 관상 동맥 조영술을 받는 44명의 피험자의 144개 동맥 분절에서 정량적, 컴퓨터 보조 cinevideodensitometric 방법을 사용하여 측정되었습니다. 투사된 관상 동맥 조영도는 512 X 512 픽셀 모드로 디지털화되었고 협착률은 협착 부분과 정상 부분에 대해 배경 보정된 비디오 밀도 측정 값을 비교하여 계산되었습니다. 피험자는 협심증 또는 심부전 증상 악화로 인해 반복적으로 관상 동맥 조영술을 받았습니다. 신부전, 관상동맥우회술 또는 심장 이식을 받은 피험자는 제외되었습니다. 첫 번째 동맥 조영술 당시 결정된 임상 변수에는 연령, 성별, 혈청 콜레스테롤, 수축기 혈압, 흡연 여부, 당뇨병 및 좌심실 비대가 포함되었습니다. 동맥 조영 사이의 평균 간격은 29.3개월이었다. 44명의 피험자 중 40명에서 관상동맥 협착증의 전반적인 진행이 관찰되었습니다. 24개월에 평균 진행률은 39%(90% 신뢰구간, 33~45%)였으며 36개월에 48%(40~56%)였습니다. 전반적인 진행 정도는 동맥 조영 사이의 시간 간격(F = 5.81, p < 0.05) 및 혈청 콜레스테롤 수치(F = 4.37, p < 0.05)와 관련이 있었습니다. 이러한 데이터는 정확하고 정량적인 방법을 사용하면 초기 동맥 조영술로부터 2~3년 이내에 관상동맥 죽상경화증의 진행을 측정할 수 있음을 나타냅니다. 혈청 콜레스테롤은 질병 진행의 중요한 결정 요인인 것으로 보입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Proliferin (PLF) is a member of the PRL-GH family whose mRNA has been detected in proliferating mouse cells in culture and in mouse placenta. Suspensions of murine placental tissue have been shown to produce PLF detectable by immunoprecipitation. Here we report that PLF is secreted as a heterogeneous glycoprotein by growing mouse cell lines and placental tissue and that the first 29 amino acids of the preprotein serve as a signal peptide. Placental PLF is immunologically distinguishable from the 2 previously described mouse placental lactogens. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: Proliferin(PLF)은 PRL-GH 계열의 구성원으로 배양 및 마우스 태반에서 증식하는 마우스 세포에서 mRNA가 검출되었습니다. 뮤린 태반 조직의 현탁액은 면역침전에 의해 검출가능한 PLF를 생성하는 것으로 나타났다. 여기에서 우리는 PLF가 생쥐 세포주와 태반 조직을 성장시킴으로써 이질적인 당단백질로 분비되고 전단백질의 처음 29개 아미노산이 신호 펩티드 역할을 한다는 것을 보고합니다. 태반 PLF는 이전에 기술된 2개의 마우스 태반 락토겐과 면역학적으로 구별됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Proximal tibial osteotomy is commonly performed for osteoarthritis of the knee with deformity. The results of 105 dome osteotomies have been reviewed at a minimum follow-up of one year and an average of 4.8 years. Before operation all the knees were painful, 50.5% severely; a further 45.7% disturbed sleep at night. At review 15.2% of knees were free of pain and 60% had only slight pain which did not restrict activity. The preoperative range of movement was maintained and there was only a slight tendency for radiological changes to progress, with actual improvement in some cases. No correlation was found between the correction of deformity to physiological valgus and the result. We cannot explain why tibial osteotomy produces such useful and sustained pain relief. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 근위 경골 절골술은 기형이 있는 슬관절의 골관절염에서 흔히 시행된다. 105개의 돔 절골술의 결과는 최소 1년, 평균 4.8년의 추적 기간으로 검토되었습니다. 수술 전 모든 무릎에 통증이 있었고, 50.5%는 심하게; 추가로 45.7%는 밤에 잠을 방해했습니다. 리뷰에서 무릎의 15.2%는 통증이 없었고 60%는 활동을 제한하지 않는 약간의 통증만 있었습니다. 수술 전 운동 범위는 유지되었고, 방사선학적 변화가 약간 진행되는 경향이 있었고, 실제로 개선되는 경우도 있었다. 생리적 외반에 대한 기형 교정과 결과 사이에는 상관관계가 발견되지 않았습니다. 우리는 경골 절골술이 유용하고 지속적인 통증 완화를 제공하는 이유를 설명할 수 없습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Pure sarcomas of the esophagus are exceedingly rare. We report a case of esophageal synovial sarcoma which occurred in an adolescent. The tumor was locally resected, sparing the patient esophagectomy. After postoperative radiation therapy, the patient remains alive and well without evidence of disease 28 mo after operation. The unique nature of polypoid sarcoma of the esophagus, and the potential for cure without esophagectomy, is discussed. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 식도의 순수 육종은 매우 드뭅니다. 청소년기에 발생한 식도 활막 육종 1예를 보고하는 바이다. 종양은 국소 절제되어 환자 식도 절제술을 아끼지 않았습니다. 수술 후 방사선 요법 후 환자는 수술 후 28개월 동안 질병의 증거 없이 건강하게 살아 있습니다. 식도의 용종양 육종의 독특한 특성과 식도 절제술 없이 치료할 수 있는 가능성에 대해 논의합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Quantitative evaluation of stainable bone aluminum and measurement of bone aluminum content were done in 55 patients on chronic maintenance dialysis. All patients underwent bone biopsies. Histomorphometry of static and dynamic parameters of bone structure, bone formation and resorption, and quantitation of stainable bone aluminum at the osteoid-bone interface were performed. In addition, bone aluminum content was measured by atomic absorption spectrophotometry. Bone aluminum content was elevated in all patients (81 +/- 9.6 vs. 18 +/- 6 micrograms/g dry wt) and stainable aluminum was found in 47% of them. All patients with predominant low-turnover osteomalacia or adynamic bone disease displayed stainable bone aluminum. In contrast, stainable bone aluminum was not present in individuals with predominant-hyperparathyroid bone disease. Patients with stainable aluminum had lower bone mass (P less than 0.05), higher volume and surface of lamellar osteoid (P less than 0.01), less volume and surface of woven osteoid (P less than 0.05 and P less than 0.01), lower osteoblastic and osteoclastic indices (P less than 0.01), less doubly labelled osteoid seams, lower mineral apposition rate and lower bone formation rates (P less than 0.05 to P less than 0.01). Stainable aluminum correlated with volume of lamellar osteoid and cellular parameters of bone formation and resorption, mineral apposition rate, and bone formation rates (P less than 0.05 to P less than 0.001). In contrast, bone aluminum content correlated with volume of lamellar osteoid only (P less than 0.001). These findings indicate that stainable aluminum at the mineralization front and not aluminum content of bone reflects the histopathologic changes found in bone of dialyzed patients. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 만성 유지투석을 받는 55명의 환자를 대상으로 염색 가능한 골 알루미늄의 정량적 평가와 골 알루미늄 함량 측정을 시행하였다. 모든 환자는 뼈 생검을 받았습니다. 뼈 구조, 뼈 형성 및 흡수의 정적 및 동적 매개 변수의 조직 형태 측정, 유골-뼈 경계면에서 염색 가능한 뼈 알루미늄의 정량화를 수행했습니다. 또한 뼈의 알루미늄 함량은 원자흡광광도법으로 측정하였다. 뼈 알루미늄 함량은 모든 환자에서 증가했으며(81 +/- 9.6 대 18 +/- 6 마이크로그램/g 건조 중량) 이들 중 47%에서 염색 가능한 알루미늄이 발견되었습니다. 우세한 저회전율 골연화증 또는 무동성 골 질환이 있는 모든 환자는 착색 가능한 골 알루미늄을 나타냈습니다. 대조적으로, 얼룩질 수 있는 뼈 알루미늄은 우세한 부갑상선기능항진증 뼈 질환이 있는 개인에게는 존재하지 않았습니다. 염색 가능한 알루미늄을 가진 환자는 더 낮은 골질량(P<0.05), 더 높은 부피 및 층상 유골 표면(P<0.01), 더 적은 체적 및 직조 유골 표면(P<0.05 및 P<0.01), 낮은 골모세포 및 파골 세포 지수(P < 0.01), 덜 이중 표지된 유골 봉합선, 낮은 광물 부착률 및 낮은 골 형성 속도(P < 0.05 ~ P < 0.01). 염색 가능한 알루미늄은 층판 유골의 부피, 골 형성 및 흡수의 세포 매개변수, 광물 부착률 및 골 형성률과 상관관계가 있었습니다(P<0.05~P<0.001). 대조적으로, 뼈 알루미늄 함량은 층판 유골의 부피와만 상관관계가 있었습니다(P < 0.001). 이러한 결과는 뼈의 알루미늄 함량이 아닌 광물화 전면의 염색 가능한 알루미늄이 투석 환자의 뼈에서 발견되는 조직병리학적 변화를 반영한다는 것을 나타냅니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Rat liver microsomal insulin-like growth factor-II (IGF-II) receptor has been purified to homogeneity using a single step affinity chromatographic procedure on agarose-IGF-II with elution at pH 4. Determined by either IGF-II binding or a direct RIA for receptor, purification of 2000-fold was obtained. The mean recovery was 28% for five such preparations. Sodium dodecyl sulfate-electrophoresis and autoradiography of purified receptor, radioiodinated receptor, and affinity-labeled receptor all indicated a molecular mass of approximately 250K. Scatchard analysis of IGF-II binding to purified receptor, solubilized microsomal membranes, or plasma membranes showed a single class of binding site with an affinity constant of 6 X 10(10) liter/mol in all cases. Potent antibodies to the purified receptor were raised in rabbits, capable of inhibiting 50% of IGF-II binding at dilutions of 1:170,000 and also of fully precipitating IGF-II-prelabeled receptor at 1:50,000. Both types of antibodies reacted with IGF-II receptors in rat adipose tissue, brain, heart, kidney, lung, and spleen. However, little cross-reactivity was seen with other species. Comparison of the ability of receptor antibodies to inhibit IGF-II binding to microsomal and plasma membranes indicated a specific immunological difference between the IGF-II receptors in the two membrane preparations. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 쥐 간 마이크로솜 인슐린 유사 성장 인자-II(IGF-II) 수용체는 pH 4에서 용출되는 아가로스-IGF-II에서 단일 단계 친화성 크로마토그래피 절차를 사용하여 균질하게 정제되었습니다. IGF-II 결합 또는 수용체에 대한 직접적인 RIA에 의해 결정된 결과, 2000배의 정제가 얻어졌다. 이러한 5가지 제제의 평균 회복률은 28%였습니다. 도데실황산나트륨 전기영동과 정제된 수용체, 방사성 요오드화된 수용체, 친화성 표지 수용체의 자가방사선 사진은 모두 약 250K의 분자량을 나타냈습니다. 정제된 수용체, 가용화된 마이크로솜 막 또는 원형질막에 대한 IGF-II 결합의 스캐차드 분석은 모든 경우에 6 X 10(10) liter/mol의 친화성 상수를 가진 결합 부위의 단일 클래스를 보여주었습니다. 정제된 수용체에 대한 강력한 항체가 토끼에서 생성되어 1:170,000의 희석에서 IGF-II 결합의 50%를 억제할 수 있고 또한 1:50,000에서 IGF-II-prelabeled 수용체를 완전히 침전시킬 수 있습니다. 두 유형의 항체 모두 쥐의 지방 조직, 뇌, 심장, 신장, 폐 및 비장에서 IGF-II 수용체와 반응했습니다. 그러나 다른 종과의 교차 반응성은 거의 관찰되지 않았습니다. 마이크로솜 및 원형질 막에 대한 IGF-II 결합을 억제하는 수용체 항체의 능력을 비교한 결과 두 막 제제에서 IGF-II 수용체 사이의 특정한 면역학적 차이가 나타났습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Recognizing that not all patients with low back pain have lumbar disc disease, the authors began to inject facet joints in June 1982 and have experience now with 21 patients, each injected under fluoroscopic control with a mixture of local anesthetic and steroid. One technical problem occurred when large osteophytes blocked access to the facet joints. Otherwise, there were no complications and minimal morbidity. Most patients (15 of 20; 75%) had an initial response, but a much smaller number (six of 18 followed more than three months; 33%) had a lasting response. Repeat injections, when done, always led to temporary improvement but rarely to lasting relief (one of five; 20%). Three factors characterized the patients: a negative screening examination for other causes of back pain or sciatica; back pain with tenderness localized over one or more facet joints; and radiologic changes of degenerative joint disease within the facet joints. Facet joint disease may be a significant cause of low back pain. The above three criteria are useful in clinical identification of patients with this problem. Facet joint injections play an important role in the diagnosis and treatment of low back pain. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 요통이 있는 모든 환자가 요추 추간판 질환이 있는 것은 아니라는 점을 인식하고 저자는 1982년 6월에 후관절에 주사를 시작했으며 현재 21명의 환자에게 국소 마취제와 스테로이드를 혼합하여 주사한 경험이 있습니다. 큰 골조직이 후관절에 대한 접근을 막았을 때 한 가지 기술적인 문제가 발생했습니다. 그렇지 않으면 합병증이 없었고 이환율이 최소화되었습니다. 대부분의 환자(20명 중 15명, 75%)가 초기 반응을 보였지만 훨씬 적은 수(18명 중 6명이 3개월 이상 추적 관찰, 33%)가 지속적인 반응을 보였습니다. 반복 주사를 했을 때 항상 일시적인 개선을 가져왔지만 지속적인 완화를 가져오는 경우는 거의 없었습니다(5개 중 1개, 20%). 세 가지 요인이 환자를 특징지었습니다: 허리 통증이나 좌골신경통의 다른 원인에 대한 음성 선별 검사; 하나 이상의 후관절에 국한된 압통을 동반한 요통; 및 후관절 내 퇴행성 관절 질환의 방사선학적 변화. 후관절 질환은 요통의 중요한 원인일 수 있습니다. 위의 세 가지 기준은 이 문제가 있는 환자를 임상적으로 식별하는 데 유용합니다. 후관절 주사는 요통의 진단과 치료에 중요한 역할을 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Recurrent pulmonary embolism from the lower extremities or pelvis, despite anticoagulation, often requires interruption of the inferior vena cava (IVC). We report two patients in whom interruption of the IVC failed to ameliorate symptoms. Both patients demonstrated a previously unrecognized duplication of the IVC. We stress the importance of excluding abdominal venous anomalies prior to interrupting the IVC using surgical or percutaneous methods. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 하지 또는 골반에서 발생하는 재발성 폐색전증은 항응고에도 불구하고 종종 하대정맥(IVC)의 중단을 필요로 합니다. 우리는 IVC 중단이 증상을 개선하지 못한 두 명의 환자를 보고합니다. 두 환자 모두 IVC의 이전에 인식되지 않은 복제를 보여주었습니다. 외과적 또는 경피적 방법을 사용하여 IVC를 중단하기 전에 복부 정맥 이상을 배제하는 것의 중요성을 강조합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Rupture of an abdominal aortic aneurysm is readily diagnosed when the triad of abdominal or back pain, shock and a pulsatile abdominal mass are present. Clinical diagnosis can be difficult, however, when patients present with chronic pain and an aneurysm which is not readily palpable. In these patients with confusing abdominal symptoms, CT scan provides a rapid, noninvasive diagnosis. The acute leaking AAA has been documented, but only rarely. This report identifies two patients who ruptured an aortic aneurysm several "months" prior to operation--a "contained chronic" rupture. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 복부 대동맥류의 파열은 복통이나 요통, 쇼크, 박동성 복부 종괴의 3대 증상이 있을 때 쉽게 진단할 수 있다. 그러나 환자가 만성 통증과 쉽게 만져지지 않는 동맥류가 있는 경우 임상 진단이 어려울 수 있습니다. 혼란스러운 복부 증상이 있는 이러한 환자에서 CT 스캔은 신속하고 비침습적인 진단을 제공합니다. 급성 누출 AAA가 문서화되었지만 매우 드뭅니다. 이 보고서는 수술 몇 "개월" 전에 대동맥류가 파열된 두 명의 환자("내포된 만성" 파열)를 확인합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Sebaceous wax esters and epidermal acylceramides were isolated from skin surface lipid obtained from children and from young adults. Fatty acid methyl esters (FAME) were prepared from the esterified fatty acids of these lipid classes and analyzed to ascertain the proportions of methyl linoleate (18:2 delta 9,12), methyl sebaleate (18:2 delta 5,8), and methyl sapienate (16:1 delta 6). On the same subjects, 2 measures of sebum secretion rate were obtained, namely the sustainable wax ester secretion rate (WESR) on the forehead and the ratio of wax esters/(cholesterol + cholesterol esters) [WE/(CH + CE)] in the surface lipid. The proportions of methyl linoleate in FAME from the wax esters decreased, and the proportions of methyl sebaleate increased, with increased rates of sebum secretion. For both methyl linoleate and methyl sebaleate, a better correlation was obtained when the ratio of WE/(CH + CE) was used as a measure of sebum secretion rather than the WESR. The proportions of methyl linoleate in the FAME from the acylceramides were also inversely related to ratios of WE/(CH + CE). In acylceramides, linoleate was replaced by sapienate, a major fatty acid of human sebum. It appears, therefore, that sebum fatty acid composition may change with changes in sebaceous gland activity, and that sebum fatty acids can enter the epidermis and be incorporated into epidermal lipids. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 피지 왁스 에스테르와 표피 아실세라마이드는 어린이와 젊은 성인에게서 얻은 피부 표면 지질에서 분리되었습니다. 지방산 메틸 에스테르(FAME)는 이러한 지질 등급의 에스테르화된 지방산으로부터 제조되었으며 메틸 리놀레이트(18:2 델타 9,12), 메틸 세발레이트(18:2 델타 5,8) 및 메틸 사피에네이트(16:1 델타 6). 동일한 피험자에 대해 피지 분비율의 2가지 측정값, 즉 이마의 지속 가능한 왁스 에스테르 분비율(WESR)과 왁스 에스테르/(콜레스테롤 + 콜레스테롤 에스테르) [WE/(CH + CE)]의 비율을 얻었습니다. 표면 지질. 왁스 에스테르로부터의 FAME에서 메틸 리놀레이트의 비율은 감소하고 메틸 세발레이트의 비율은 증가하여 피지 분비율이 증가했습니다. methyl linoleate와 methyl sebalate 모두 WESR보다 WE/(CH + CE)의 비율을 피지분비의 척도로 사용했을 때 더 나은 상관관계를 얻었다. FAME에서 아실세라마이드의 메틸 리놀리에이트 비율도 WE/(CH + CE)의 비율과 반비례 관계에 있었습니다. 아실세라마이드에서 리놀레이트는 인간 피지의 주요 지방산인 사피에네이트로 대체되었습니다. 따라서 피지 지방산 조성은 피지선 활동의 변화에 따라 변할 수 있으며, 피지 지방산은 표피에 들어가 표피 지질에 통합될 수 있는 것으로 보인다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Seventy-six white and black low-income families were interviewed weekly during 1 month to determine how much they spent on food using Food Stamps, WIC coupons, and cash and how much additional food they obtained from different food and meals programs. After families had received their public assistance and Food Stamp allotments for the month, a 24-hour recall was obtained each week from each family member so that food intake could be monitored from the recalls as food-buying resources were depleted. Although families bought most of their food the first 2 weeks, they maintained a relatively constant food intake through the last week of the month. However, when nutrient intakes were compared with Recommended Dietary Allowances, the diets were found to be well supplied in protein, ascorbic acid, thiamin, niacin, riboflavin, vitamin B-12, vitamin A, and phosphorus, and inadequately supplied in vitamin B-6, vitamin D, vitamin E, iron, calcium, magnesium, zinc, and pantothenic acid. Since that finding was true not just at the end of the month but from the beginning, it indicated that the nutrition problems of low-income families are not intermittent, but continuous. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 요약: 76명의 백인 및 흑인 저소득 가정이 푸드 스탬프, WIC 쿠폰 및 현금을 사용하여 식비에 지출한 금액과 다양한 음식 및 식사 프로그램에서 추가로 얻은 음식의 양을 파악하기 위해 1개월 동안 매주 인터뷰를 진행했습니다. 가족이 해당 월의 공적 지원 및 푸드 스탬프 할당량을 받은 후 각 가족 구성원으로부터 매주 24시간 리콜을 받아 식품 구매 자원이 고갈됨에 따라 리콜에서 식품 섭취를 모니터링할 수 있었습니다. 가족들은 처음 2주 동안 대부분의 음식을 구입했지만, 매월 마지막 주까지 비교적 일정한 음식 섭취를 유지했습니다. 그러나 영양섭취량과 권장섭취량을 비교한 결과 단백질, 아스코르빈산, 티아민, 나이아신, 리보플라빈, 비타민 B-12, 비타민 A, 인은 잘 공급되고 비타민 B-12는 부족한 것으로 나타났다. 6, 비타민 D, 비타민 E, 철, 칼슘, 마그네슘, 아연 및 판토텐산. 그 결과는 월말뿐만 아니라 처음부터 사실이었기 때문에 저소득 가정의 영양 문제가 간헐적이 아니라 지속적임을 시사했다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Simultaneous urinary flow cytometry, cytologic, and cystoscopic examinations were performed at 3-month intervals for a minimum of 1 year on 29 patients receiving intravesical bacillus Calmette-Guerin (BCG) treatment of superficial bladder carcinoma. Flow cytometry (FCM) and cytology were concordant in 57 of 103 examinations; both FCM and cytology were positive in 38 instances, and carcinoma was confirmed by biopsy in 35 (92.1%). In 16 instances FCM and cytology were negative, but carcinoma was present on biopsy in 5 (31.3%). Three examinations were suspicious by both techniques. The 46 determinations with discordant FCM and cytology were subdivided into pathologically confirmed recurrences (25 instances) and no evidence of pathologic and/or cystoscopic disease (21 instances). In the 25 instances of recurrences, FCM was positive in 18 (72.0%), suspicious in 3 (12.0%), and negative in 4 (16.0%), while cytology was positive in 3 (12.0%), suspicious in 9 (36.0%), and negative in 13 (52.0%). Most patients had a severe BCG-induced inflammatory response that caused an elevation of the hyperdiploid population, believed secondary to epithelial regeneration and proliferation. In the 21 instances without detectable recurrence, hyperploidy led to a relatively high proportion of positive (15) and suspicious (4) results by FCM, but only eight had distinct aneuploid populations. It is possible that this latter group, at least, is harboring occult carcinoma. Conventional cytology in the nonrecurrent group was positive in 1 (4.8%), suspicious in 7 (33.3%), and negative in 13 (61.9%). In those instances when tumor was confirmed by biopsy, the false-negative rate for FCM was 19.7%; the false-negative rate for cytology was 40.9%. Thus, FCM appears to be more sensitive but less specific than conventional cytology, having a lower false-negative but a higher false-positive rate. Although serial FCM provides an objective quantitative measure of aneuploid stemlines and hyperdiploid populations in bladder irrigation specimens and can be helpful in following intravesical BCG therapy for superficial bladder carcinoma, it should still be used with conventional cytology. The greatest difficulty with FCM at present, as with conventional cytology, is in cases of marked inflammation. The results reported here were obtained under the most stringent conditions and represent the minimum level of accuracy. Potential improvements in the technique, with the addition of immunologic or other markers, hold hope of further increasing the accuracy of FCM. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 방광내 Bacillus Calmette-Guerin (BCG) 치료를 받고 있는 표재성 방광암 환자 29명을 대상으로 최소 1년 동안 3개월 간격으로 동시 요동세포검사, 세포검사, 방광경 검사를 시행하였다. 유세포 분석법(FCM)과 세포학은 103건의 검사 중 57건에서 일치했습니다. FCM과 세포학 모두 38예에서 양성이었고, 암종은 35예(92.1%)에서 생검으로 확인되었습니다. 16예에서 FCM과 세포검사는 음성이었지만 5예(31.3%)에서는 생검에서 암종이 나타났습니다. 세 가지 검사는 두 가지 기술 모두에서 의심스러웠습니다. FCM과 세포학이 일치하지 않는 46건의 측정은 병리학적으로 확인된 재발(25건)과 병리학적 및/또는 방광경 질환의 증거 없음(21건)으로 세분되었습니다. 재발 25예 중 FCM은 양성 18예(72.0%), 의심 3예(12.0%), 음성 4예(16.0%), 세포검사 양성 3예(12.0%), 의심 9예(36.0%) %), 13건(52.0%)에서 부정적이다. 대부분의 환자는 상피 재생 및 증식에 이차적인 것으로 생각되는 과배수체 집단의 상승을 유발하는 심각한 BCG 유발 염증 반응을 보였습니다. 검출 가능한 재발이 없는 21개의 사례에서, 과배수체는 FCM에 의해 상대적으로 높은 비율의 양성(15) 및 의심스러운(4) 결과를 초래했지만, 8개만이 별개의 이배수체 집단을 가졌습니다. 이 후자의 그룹은 적어도 잠재적인 암종을 품고 있을 가능성이 있습니다. 비재발군에서 기존의 세포검사는 양성이 1예(4.8%), 의심이 7예(33.3%), 음성이 13예(61.9%)였다. 생검으로 종양이 확인된 경우 FCM의 위음성률은 19.7%였습니다. 세포학에 대한 위음성 비율은 40.9%였습니다. 따라서 FCM은 위음성이 낮지만 위양성 비율이 높은 기존의 세포학보다 민감하지만 덜 특이적인 것으로 보입니다. 직렬 FCM은 방광 관개 표본에서 이배수체 줄기세포 및 과이배체 집단의 객관적인 양적 측정을 제공하고 표재성 방광암에 대한 방광내 BCG 요법을 따르는 데 도움이 될 수 있지만 여전히 기존의 세포학과 함께 사용해야 합니다. 기존의 세포학에서와 마찬가지로 현재 FCM의 가장 큰 어려움은 현저한 염증의 경우입니다. 여기에 보고된 결과는 가장 엄격한 조건에서 얻은 것이며 최소 수준의 정확도를 나타냅니다. 면역학적 또는 기타 마커를 추가하여 기술의 잠재적인 개선은 FCM의 정확도를 더욱 높일 수 있기를 희망합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Sixty-five children viewed by their teachers as hyperactive were evaluated as to whether they would benefit from stimulant medication. All underwent extensive neurodevelopmental and educational testing. Additional information was obtained from school and parent questionnaires and interviews. Children were not placed on medication unless they demonstrated characteristic impulsive, inattentive, and/or overactive behavior in two of three environments (home, school, clinic). Fifty-two children (80%) were not placed on medication. Follow-up was completed in 80 percent, and 93 percent of these children were doing well with nonpharmacologic interventions. Initial comparison of children not placed and placed on medication revealed that age, race, SES, amount of resource help and retention could not distinguish groups. Children placed on medication had difficulties earlier in school (chi 2 = 4.88, p less than 0.05), weren't as delayed academically (chi 2 = 6.30, p less than 0.05) and had less neurodevelopmental disorders (chi 2 = 9.01, p less than 0.01). If a careful psychosocial history does not reveal impulsive, inattentive, and/or hyperactive behavior outside of school, a child should be evaluated to rule out neurodevelopmental and educational problems. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 교사가 과잉 행동으로 간주한 65명의 어린이가 자극제 약물의 혜택을 받을 수 있는지 여부에 대해 평가되었습니다. 모두 광범위한 신경 발달 및 교육 테스트를 거쳤습니다. 추가 정보는 학교 및 학부모 설문지 및 인터뷰에서 얻었습니다. 세 가지 환경(가정, 학교, 진료소) 중 두 가지 환경에서 특징적인 충동적, 부주의 및/또는 과잉 행동을 나타내지 않는 한 아동에게 약물을 투여하지 않았습니다. 52명의 어린이(80%)는 약물 치료를 받지 않았습니다. 후속 조치는 80%에서 완료되었으며, 이 어린이의 93%는 비약물적 개입으로 잘 지내고 있었습니다. 배치되지 않은 아동과 투약을 배치한 아동의 초기 비교는 연령, 인종, SES, 자원 지원 및 유지의 양이 그룹을 구별할 수 없음을 보여주었습니다. 약물 치료를 받은 아동은 학교 초기에 어려움을 겪었고(chi 2 = 4.88, p < 0.05) 학업적으로 지연되지 않았으며(chi 2 = 6.30, p < 0.05) 신경 발달 장애가 적었습니다(chi 2 = 9.01, p 0.01 미만). 신중한 심리사회적 병력에서 학교 밖에서의 충동적, 부주의 및/또는 과잉행동이 나타나지 않으면 아동을 평가하여 신경발달 및 교육적 문제를 배제해야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Skin disorders were reported in 33% of catering staff and 35% of women cleaners who returned a questionnaire, and were employed in a large hospital. Hand dermatitis occurred in 15% of the caterers and 12% of the cleaners. In the majority, the dermatitis was irritant in origin and related to their wet work occupations. Cleaners had a high prevalence of jewellery dermatitis. Limited patch testing revealed a majority positive to nickel, but a third were negative, indicating that jewellery reactions often but not invariably predict nickel sensitivity. Few subjects were atopic, but some psoriatic patients with hand problems were encountered. Most workers were able to carry on in their occupations despite having hand dermatitis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 요 약: 케이터링 직원의 33%, 설문지 회신 여성 청소원의 35%에서 피부 질환이 보고되었으며, 대형 병원에 고용되어 있다. 손 피부염은 음식 제공자의 15%와 청소부의 12%에서 발생했습니다. 대부분의 피부염은 자극적이며 습식 작업과 관련이 있습니다. 청소부는 보석류 피부염의 유병률이 높았습니다. 제한된 패치 테스트에서 대다수가 니켈에 대해 긍정적인 것으로 나타났지만 3분의 1은 부정적인 것으로 나타났습니다. 이는 보석 반응이 종종 니켈 감도를 예측하지만 항상 그런 것은 아님을 나타냅니다. 아토피 환자는 거의 없었지만 손에 문제가 있는 건선 환자도 있었습니다. 대부분의 근로자는 손 피부염에도 불구하고 직업을 계속할 수 있었습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Sl/Sld mice have a defective hemopoietic microenvironment. It has been assumed, based upon previous studies, that the primary abnormality in these mice is simply lack of a necessary supportive or inductive material within the hemopoietic stroma. We used in vitro long-term bone marrow cultures to characterize further the nature of the hemopoietic microenvironmental defect in Sl/Sld mice. Sl/Sld mouse bone marrow cells consistently produced less than 10% of the total hemopoietic cells and multipotent and unipotent hemopoietic progenitor cells produced in cultures of marrow from normal, congenic +/+ mice. If fresh Sl/Sld and +/+ marrow cells were mixed prior to establishing long-term marrow cultures, there was a direct correlation between number of Sl/Sld cells added and degree of inhibition of +/+ hemopoiesis. A pre-established, confluent Sl/Sld adherent stromal layer inhibited hemopoiesis by fresh +/+ marrow cells by nearly 70%, as compared with dishes with irradiated +/+ or no stroma. This inhibitory effect was abrogated by irradiation of the Sl/Sld stroma prior to addition of the fresh +/+ marrow cells. Similarly, unirradiated, but not 9 to 200 Gy irradiated Sl/Sld stroma inhibited proliferation of the factor-dependent FDC-P1 hemopoietic progenitor cell line. Thus, the Sl/Sld hemopoietic microenvironment actively inhibits hemopoiesis in vitro, and this inhibition can be at least partially eliminated by irradiation of the Sl/Sld stroma. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: Sl/Sld 마우스는 조혈 미세 환경에 결함이 있습니다. 이전 연구에 기초하여 이러한 마우스의 주요 이상은 단순히 조혈 간질 내에 필요한 지지 또는 유도 물질의 부족이라고 가정되었습니다. 우리는 Sl/Sld 마우스에서 조혈 미세 환경 결함의 특성을 추가로 특성화하기 위해 체외 장기 골수 배양을 사용했습니다. Sl/Sld 마우스 골수 세포는 전체 조혈 세포의 10% 미만을 일관되게 생산했으며 정상, 동종 +/+ 마우스의 골수 배양에서 생산된 다능 및 단능 조혈 전구 세포를 생산했습니다. 신선한 Sl/Sld 및 +/+ 골수 세포가 장기 골수 배양을 확립하기 전에 혼합된 경우 추가된 Sl/Sld 세포의 수와 +/+ 조혈 억제 정도 사이에 직접적인 상관관계가 있었습니다. 미리 설정된 합류 Sl/Sld 부착 간질 층은 조사된 +/+ 또는 간질이 없는 요리와 비교하여 거의 70%까지 신선한 +/+ 골수 세포에 의한 조혈을 억제했습니다. 이 억제 효과는 신선한 +/+ 골수 세포를 첨가하기 전에 Sl/Sld 간질의 조사에 의해 제거되었습니다. 유사하게, 9~200 Gy 조사된 Sl/Sld 간질이 아닌 조사되지 않은 조사는 인자 의존성 FDC-P1 조혈 전구 세포주의 증식을 억제했습니다. 따라서, Sl/Sld 조혈 미세환경은 체외에서 조혈을 능동적으로 억제하고, 이러한 억제는 Sl/Sld 간질의 조사에 의해 적어도 부분적으로 제거될 수 있다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Solid-phase enzyme immunoassays, based on monoclonal antibodies reactive with different forms of human placental-type alkaline phosphatases, were applied to their detection in human seminal plasma from fertile and infertile men. The placental-like form of alkaline phosphatase (PLAP-like AP), known to occur in testicular tissue, was found in normal seminal plasma. The incidence of detection and levels of this isoenzyme correlated significantly with the designated fertility status of the donor. Seminal plasma (PLAP-like AP) may reflect germ cell function and/or access of testicular products to the ejaculate. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 다양한 형태의 인간 태반형 알칼리성 포스파타제와 반응하는 단일 클론 항체를 기반으로 하는 고상 효소 면역분석법을 가임 남성과 불임 남성의 인간 정액 혈장에서 검출하는 데 적용했습니다. 고환 조직에서 발생하는 것으로 알려진 태반 유사 형태의 알칼리성 포스파타제(PLAP 유사 AP)는 정상 정액 혈장에서 발견되었습니다. 이 동종효소의 검출 빈도 및 수준은 기증자의 지정된 생식력 상태와 유의미한 상관관계가 있었습니다. 정액 혈장(PLAP 유사 AP)은 생식 세포 기능 및/또는 사정액에 대한 고환 제품의 접근을 반영할 수 있습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Spontaneously hypertensive rats (SHR) have several abnormalities of calcium metabolism compared with normotensive control Wistar-Kyoto (WKY) rats. Previously the vitamin D metabolite 1,25-dihydroxycholecalciferol (1,25[OH]2D3) was found to be inappropriately low in SHR in view of their ionized hypocalcemia and hyperparathyroidism. We examined the responses of plasma 1,25(OH)2D3 to several known stimuli. Baseline plasma 1,25(OH)2D3 levels tended to be lower in SHR than WKY rats (51.5 +/- 4.3 vs. 82.3 +/- 14.1 pg/ml, P = 0.06). Infusion of a pharmacologic dose of parathyroid hormone (8 U/hr over a period of 17 hours) resulted in a plasma 1,25(OH)2D3 level of 504 +/- 77 pg/ml in SHR vs. 1016 +/- 211 pg/ml in WKY rats (P less than 0.03). Cyclic adenosine monophosphate infusion (1 mumol/hr/100 gm over a period of 17 hours) in thyroparathyroidectomized animals resulted in a 1,25(OH)2D3 level of 121 +/- 24 pg/ml in SHR vs. 557 +/- 26 pg/ml in WKY rats (P less than 0.01). After dietary phosphorus depletion for 3 weeks, SHR also had lower 1,25(OH)2D3 levels than WKY rats (83 +/- 13 vs. 300 +/- 42 pg/ml, P less than 0.001) even though a comparable degree of hypophosphatemia was achieved. Thus, the response of plasma 1,25(OH)2D3 levels to several known stimuli is submaximal in SHR as compared with WKY rats, suggesting defective synthesis or enhanced metabolic clearance of this hormone. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 자발성 고혈압 쥐(SHR)는 정상 혈압을 조절하는 Wistar-Kyoto(WKY) 쥐와 비교하여 몇 가지 칼슘 대사 이상을 보입니다. 이전에 비타민 D 대사물인 1,25-dihydroxycholecalciferol(1,25[OH]2D3)은 이온화 저칼슘혈증과 부갑상선기능항진증의 관점에서 SHR이 부적절하게 낮은 것으로 밝혀졌습니다. 몇 가지 알려진 자극에 대한 혈장 1,25(OH)2D3의 반응을 조사했습니다. 기준 혈장 1,25(OH)2D3 수준은 WKY 쥐보다 SHR에서 더 낮은 경향이 있었습니다(51.5 +/- 4.3 대 82.3 +/- 14.1 pg/ml, P = 0.06). 약리학 용량의 부갑상선 호르몬(17시간 동안 8U/hr)을 주입하면 SHR에서 혈장 1,25(OH)2D3 수준이 504 +/- 77pg/ml 대 1016 +/- 211이 되었습니다. WKY 쥐의 pg/ml(P<0.03). thyroparathyroidectomized 동물에서 순환 adenosine monophosphate 주입 (17 시간 동안 1 mumol/hr/100 gm) SHR 대 557 +/-에서 121 +/- 24 pg/ml의 1,25(OH)2D3 수준 결과 WKY 쥐에서 26pg/ml(P<0.01). 3주 동안 인을 섭취한 후 SHR은 WKY 쥐보다 1,25(OH)2D3 수치가 더 낮았습니다(83 +/- 13 vs. 300 +/- 42 pg/ml, P는 0.001 미만). 저인산혈증이 달성되었습니다. 따라서 몇 가지 알려진 자극에 대한 혈장 1,25(OH)2D3 수준의 반응은 WKY 쥐와 비교하여 SHR에서 최대 이하이며, 이는 이 호르몬의 합성 결함 또는 향상된 대사 제거를 시사합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Studies were designed to explore the association of lipoprotein lipase (LPL) and hepatic triglyceride lipase (HTGL) activities with lipoproteins in human postheparin plasma (PHP). The major peak of LPL activity after gel filtration of PHP eluted after the triglyceride-rich lipoproteins and just before the peak of low density lipoprotein (LDL) cholesterol. When PHP contained chylomicrons, an additional peak of LPL activity eluted in the void volume of the column. Most HTGL activity eluted after the LDL and preceded the elution of high density lipoprotein cholesterol. LPL activity in preheparin plasma eluted in the same position, relative to lipoproteins, as did LPL in PHP. Gel filtration of purified human milk LPL mixed with plasma or isolated LDL produced a peak of activity eluting before LDL. During gel filtration of PHP in high salt buffer (1 M NaCl) or after isolation of lipoproteins by ultracentrifugation in high salt density solutions, most of the lipase activity was not associated with lipoproteins. LPL activity was removed from PHP by elution through immunoaffinity columns containing antibodies to apolipoprotein (apo) B and apo E. Since lipoproteins in PHP have undergone prior in vivo lipolysis, LPL activity in PHP may be bound to remnants of chylomicrons and very low density lipoproteins. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 연구는 인간 포스트헤파린 혈장(PHP)에서 지단백질과 지질단백질 리파아제(LPL) 및 간 트리글리세라이드 리파아제(HTGL) 활동의 연관성을 탐구하도록 설계되었습니다. PHP의 겔 여과 후 LPL 활동의 주요 피크는 트리글리세라이드가 풍부한 지단백질 다음과 저밀도 지단백질(LDL) 콜레스테롤 피크 직전에 용출되었습니다. PHP에 킬로미크론이 포함되어 있을 때 LPL 활동의 추가 피크가 컬럼의 공극 부피에서 용출되었습니다. 대부분의 HTGL 활동은 LDL 이후에 용출되었고 고밀도 지단백 콜레스테롤의 용출보다 선행했습니다. 프레헤파린 혈장의 LPL 활성은 PHP의 LPL과 마찬가지로 지단백질에 비해 동일한 위치에서 용출되었습니다. 혈장 또는 분리된 LDL과 혼합된 정제된 모유 LPL의 겔 여과는 LDL 전에 용리되는 활성 피크를 생성했습니다. 고염 완충액(1M NaCl)에서 PHP의 겔 여과 동안 또는 고염 밀도 용액에서 초원심분리에 의해 지단백질을 분리한 후 대부분의 리파아제 활성은 지단백질과 연관되지 않았습니다. LPL 활성은 아포지단백질(apo) B 및 apo E에 대한 항체를 포함하는 면역친화성 컬럼을 통한 용출에 의해 PHP에서 제거되었습니다. PHP의 지단백질은 이전에 생체 내 지방분해를 겪었기 때문에 PHP의 LPL 활성은 킬로미크론의 잔재 및 매우 낮은 밀도 지단백질에 결합될 수 있습니다. . 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Surgical experience with grafts of human dura mater sterilized by gamma rays and preserved in alcohol is reported in 804 cases. The method of graft preparation is a simple, cheap, and practical technique for making available a plentiful quantity of large and small pieces of dura to use for plastic reconstruction in everyday neurosurgical practice. Annual inspection for sterility and immunogenicity over an 18-year period indicates that this system of preservation is valid for an unlimited period of time. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 감마선으로 살균하고 알코올에 보존한 인체 경막 이식편의 수술 경험이 804예 보고되었다. 이식편 준비 방법은 일상적인 신경외과 진료에서 성형 재건에 사용할 수 있는 크고 작은 경막 조각을 대량으로 사용할 수 있도록 하는 간단하고 저렴하며 실용적인 기술입니다. 18년에 걸친 무균 및 면역원성에 대한 연례 검사는 이 보존 시스템이 무제한 기간 동안 유효함을 나타냅니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Surgical management of major venous injuries remains controversial. The medical records of 184 patients with major venous injury were reviewed. Forty-three patients had isolated venous injury; 31 of 43 patients (72%) underwent ligation to treat their vein injury. Another 141 patients had combined arterial and venous injury; 117 of these patients (83%) had ligation. Injured were the inferior vena cava, iliac, femoral, popliteal, distal leg, and arm veins; all patients underwent surgical exploration. Arterial injuries were repaired by standard techniques and venous injuries were either ligated or repaired by end-to-end or lateral phleborrhaphy. Adjunctive fasciotomy was used when clinically indicated. The patients were followed up for 1 month to 9 years. No permanent sequelae of venous ligation were identified. Transient extremity edema developed in up to 32% of patients, regardless of whether vein ligation or repair was performed. This edema resolved completely within 12 weeks of the injury. No extremity was lost after ligation of a venous injury. Although it may be ideal to repair all venous vascular injuries, selective management reflecting mechanism of injury, blood loss, anesthesia requirements, associated organ injury, and other concerns may mitigate against extensive venous repair. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 요약: 주요 정맥 손상의 외과적 관리는 여전히 논란의 여지가 있습니다. 주요 정맥손상 환자 184명의 의무기록을 검토하였다. 43명의 환자가 단독 정맥 손상을 입었습니다. 43명의 환자 중 31명(72%)이 정맥 손상을 치료하기 위해 결찰술을 받았습니다. 또 다른 141명의 환자는 동맥 및 정맥 손상을 동반했습니다. 이 환자 중 117명(83%)이 결찰을 받았습니다. 하대 정맥, 장골, 대퇴부, 오금, 원위 다리 및 팔 정맥이 손상되었습니다. 모든 환자는 외과 적 탐색을 받았습니다. 동맥 손상은 표준 기술로 복구되었고 정맥 손상은 결찰되거나 종단 간 또는 측면 정맥에 의해 복구되었습니다. 보조적 근막절개술은 임상적으로 필요한 경우 사용되었습니다. 환자들은 1개월에서 9년 동안 추적관찰되었다. 정맥 결찰의 영구적인 후유증은 확인되지 않았습니다. 정맥 결찰 또는 복구 수행 여부에 관계없이 최대 32%의 환자에서 일시적 사지 부종이 발생했습니다. 이 부종은 손상 후 12주 이내에 완전히 해결되었습니다. 정맥 손상의 결찰 후 사지가 손실되지 않았습니다. 모든 정맥 혈관 손상을 복구하는 것이 이상적일 수 있지만 손상 메커니즘, 출혈, 마취 요구 사항, 관련 장기 손상 및 기타 문제를 반영하는 선택적 관리는 광범위한 정맥 복구를 완화할 수 있습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Ten patients with advanced stage (TNM IIB-IVB) mycosis fungoides were treated with a combination chemotherapy program consisting of bleomycin and methotrexate weekly, doxorubicin every 3 weeks, and topical nitrogen mustard daily (BAM-M). Seven patients obtained histologically documented complete remissions ranging from 4 to 105+ months in duration. Median survival is 16.5+ months. Three patients in whom splenomegaly was detected during their staging evaluation underwent splenectomy. These three patients have had unmaintained disease-free survivals of 36+, 100+, and 105+ months. This study indicates that BAM-M is effective therapy for advanced stage mycosis fungoides and suggests that the therapeutic role of splenectomy should be evaluated further. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 진행 단계(TNM IIB-IVB) 균상식육종 환자 10명을 매주 블레오마이신과 메토트렉세이트, 3주마다 독소루비신, 매일 국소 질소 머스타드(BAM-M)로 구성된 복합 화학요법 프로그램으로 치료했습니다. 7명의 환자는 4개월에서 105개월 이상 기간 동안 조직학적으로 기록된 완전한 관해를 얻었습니다. 평균 생존 기간은 16.5개월 이상입니다. 병기 평가 중에 비장 비대가 발견된 3명의 환자는 비장 절제술을 받았습니다. 이 3명의 환자는 36+, 100+ 및 105+개월의 유지되지 않은 무병 생존 기간을 가졌습니다. 이 연구는 BAM-M이 진행된 단계의 균상 식육종에 효과적인 치료법임을 나타내며 비장 절제술의 치료적 역할이 더 평가되어야 한다고 제안합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The St Georg modular knee replacement has been studied in 59 cases with an observation period ranging from 28 to 73 months. In 47% of the knees both compartments were replaced; five of the six poor results were in this group. These were revised to a hinge arthroplasty or, in one case, to an arthrodesis. Other complications were few and insignificant. There were no infections. We concluded that unicompartmental knee arthroplasty can be recommended when joint involvement is localised to one compartment only. With more generalised joint disease we prefer a semiconstrained total condylar prosthesis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: St Georg 모듈식 슬관절 치환술은 28개월에서 73개월 범위의 관찰 기간으로 59건의 사례에서 연구되었습니다. 무릎의 47%에서 양쪽 구획이 교체되었습니다. 6개의 나쁜 결과 중 5개가 이 그룹에 속했습니다. 이들은 경첩 관절 성형술 또는 한 경우 관절 고정술로 수정되었습니다. 다른 합병증은 적고 중요하지 않았습니다. 감염은 없었습니다. 우리는 관절 침범이 한 구획에만 국한된 경우 단일구획 슬관절 치환술을 권장할 수 있다고 결론지었습니다. 보다 일반적인 관절 질환의 경우 반구속 전과두 보철물을 선호합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The ability of extracranial-intracranial bypass surgery to alter favorably the natural history of ischemic cerebrovascular disease remains in question. A recently completed prospective randomized multicenter cooperative trial failed to confirm the hypothesis that the procedure prevents further cerebral ischemia in patients with atherosclerotic internal carotid artery or middle cerebral artery disease. We analyze findings of the study in detail, including possible effects on the natural history of the disease beyond the immediate perioperative period. Potential sources of bias that may have unpredictably affected the study are discussed. These include observational bias (patient and therapist not blinded), "randomization-to-treatment" bias (high morbidity after randomization but before operation), and "prerandomization" or allocation bias (patients in the study representing a selected sample of the population with cerebrovascular disease). The extensive analysis of secondary subgroups with small numbers of patients is discussed in light of the statistical methods used. Two particular classes of patients not addressed in the study who might benefit from the procedure are defined. They are patients failing the best available medical therapy and patients with clearly documented hemodynamic compromise. Possible indications for bypass surgery are suggested for the various lesions in light of the trial and of recent reports on the natural history and pathophysiology of ischemic cerebrovascular disease. Selected cases illustrating these indications are presented. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 허혈성 뇌혈관 질환의 자연 경과를 호의적으로 바꾸는 두개외-두개내 우회로 수술의 능력은 여전히 의문입니다. 최근에 완료된 전향적 무작위 다기관 협력 시험은 죽상동맥경화성 내경동맥 또는 중대뇌동맥 질환 환자에서 절차가 추가 뇌허혈을 예방한다는 가설을 확인하는 데 실패했습니다. 우리는 수술 직후 기간을 넘어선 질병의 자연사에 대한 가능한 영향을 포함하여 연구 결과를 자세히 분석합니다. 예측할 수 없게 연구에 영향을 미쳤을 수 있는 편견의 잠재적 원인에 대해 논의합니다. 여기에는 관찰 편향(눈가림되지 않은 환자와 치료사), "무작위 배정-치료" 편향(무작위 배정 후 그러나 수술 전 높은 이환율), "사전 무작위 배정" 또는 할당 편향(연구에서 환자는 뇌혈관 질환). 적은 수의 환자가 있는 2차 하위 그룹의 광범위한 분석은 사용된 통계적 방법에 비추어 논의됩니다. 연구에서 언급되지 않은 두 가지 특정 부류의 환자가 절차로부터 혜택을 받을 수 있다고 정의됩니다. 그들은 이용 가능한 최선의 의학적 치료에 실패한 환자와 명확하게 기록된 혈역학적 손상이 있는 환자입니다. 허혈성 뇌혈관질환의 자연경과 및 병리생리학에 대한 임상시험 및 최근 보고에 비추어 다양한 병변에 대해 우회로 수술의 가능한 적응증을 제시하였다. 이러한 적응증을 설명하는 선택된 사례가 제시됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The ability to breathe spontaneously through an endotracheal tube is a usual prerequisite before an intubated patient can have it removed. Other researchers have measured air flow resistance through endotracheal tubes. In this study, we evaluated work of breathing in joules per min and tension-time index while three normal volunteers breathed through different sized endotracheal tubes. Four 27.5-cm endotracheal tubes were used. Subjects breathed with a constant tidal volume of 500 ml. By increasing respiratory frequency, minute ventilation was increased from 5 to 30 L/min. As tube diameter decreased, work and the tension-time index increased. Changes were magnified at higher minute ventilations through the 6- and 7-mm endotracheal tubes, and the tension-time index critical fatigue level of 0.15 was approached or exceeded. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 기관내관을 통해 자발적으로 호흡할 수 있는 능력은 삽관된 환자가 기관내관을 제거하기 전에 일반적인 전제 조건입니다. 다른 연구자들은 기관내 튜브를 통한 공기 흐름 저항을 측정했습니다. 이 연구에서 우리는 3명의 정상적인 지원자가 서로 다른 크기의 기관내 튜브를 통해 호흡하는 동안 분당 줄(joules per min)과 긴장 시간 지수(tension-time index)로 호흡 작업을 평가했습니다. 4개의 27.5 cm 기관내 튜브가 사용되었습니다. 피험자는 500ml의 일정한 일회 호흡량으로 호흡했습니다. 호흡 빈도를 증가시켜 분당 환기량을 5L/min에서 30L로 늘렸습니다. 튜브 직경이 감소함에 따라 작업 및 인장 시간 지수가 증가했습니다. 6mm 및 7mm 기관내관을 통한 분당 환기량이 많을수록 변화가 확대되었고 긴장-시간 지수 임계 피로 수준인 0.15에 근접하거나 초과했습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The acquired immune deficiency syndrome has presented a complex and, as yet, unsolvable spectrum of pulmonary disease characterized by bizarre infections, pneumothoraces, respiratory distress, and death. Thirty-eight patients underwent 49 surgical procedures during 42 months. Ages of the patients ranged from 24 to 56 years. Surgical procedures included tracheostomy, closure of air leaks, mediastinoscopy, lobectomy, open lung biopsy, and esophagogastrectomy. Hospital mortality was 10 of 38 (24%); the 1 year survival rate was 13 of 38 (34%). Pulmonary infections included Pneumocystis carinii, cytomegalovirus, Microbacterium avium, toxoplasmosis, candidiasis, and Cryptococcus neoformans. Open lung biopsy and surgical closure of air leaks can be accomplished safely with low morbidity. Tracheostomy and ventilatory support should be avoided at present in the majority of patients with this syndrome, as the mortality has been 100% when that stage of the disease is reached. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 후천성 면역 결핍 증후군은 기괴한 감염, 기흉, 호흡 곤란 및 사망을 특징으로 하는 복잡하고 아직 해결 불가능한 범위의 폐 질환을 나타냅니다. 38명의 환자가 42개월 동안 49번의 수술을 받았다. 환자들의 나이는 24세에서 56세까지 다양했다. 수술 절차에는 기관절개술, 공기 누출 폐쇄, 종격동경검사, 폐엽절제술, 개방형 폐 생검 및 식도위절제술이 포함됩니다. 병원 사망률은 38명 중 10명(24%)이었습니다. 1년 생존율은 38명 중 13명(34%)이었다. 폐 감염에는 Pneumocystis carinii, cytomegalovirus, Microbacterium avium, toxoplasmosis, 칸디다증 및 Cryptococcus neoformans가 포함됩니다. 열린 폐 생검 및 공기 누출의 외과적 봉합은 낮은 이환율로 안전하게 수행될 수 있습니다. 질병의 해당 단계에 도달하면 사망률이 100%이기 때문에 현재 이 증후군이 있는 대부분의 환자에서 기관절개술 및 환기 지원을 피해야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The association between the morphometric dimensions of the external nose, including the thickness of the soft tissues, and various craniometric measurements has been examined on a sample of lateral radiographs of 154 males and 199 females from Vienna, Austria. In addition, the influence of age on morphometric dimensions and the soft tissue cover was tested. Multiple stepwise regression analysis revealed that nasal height and nasal length are best predicted by the dimensions of the skull, whereas nasal depth and the thickness of the soft tissues is greatly influenced by age. In males, over 50% of the variance of nasal height and nasal length were accounted for by the height of the bony nose and the prominence of the ossa nasalia, and in females it was about 40%. Although the thickness of the soft tissue is dependent on exogenous factors, such as nutrition, mimicry, and so forth, the dimensions of the bony nose apparently also influence the skin depths to some extent. High and prominent noses were found to have a thinner layer of soft tissue over the nasal bones than short and less prominent ones. It thus seems as if there is a tendency of the soft tissue cover to adjust to disharmonies of the bony profile. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 오스트리아 비엔나에서 남성 154명과 여성 199명의 측면 방사선 사진 샘플을 대상으로 연조직의 두께를 포함한 외부 코의 형태학적 치수와 다양한 두개골 측정 간의 연관성을 조사했습니다. 또한, 형태 치수 및 연조직 커버에 대한 연령의 영향을 테스트했습니다. 다중단계회귀분석 결과 코높이와 코길이는 두개골의 크기에 의해 가장 잘 예측되는 반면, 코깊이와 연부조직의 두께는 연령에 따라 크게 영향을 받는 것으로 나타났다. 코높이와 코길이의 차이는 남자의 경우 50% 이상이 뼈코의 높이와 코뼈의 돌출에 의해 설명되었고, 여자의 경우 40% 정도였다. 연조직의 두께는 영양, 흉내 등과 같은 외인성 요인에 따라 다르지만 뼈코의 크기도 피부 깊이에 어느 정도 영향을 미치는 것으로 보입니다. 높고 튀어나온 코는 짧고 덜 튀어나온 코보다 코뼈 위의 연부조직층이 더 얇은 것으로 나타났습니다. 따라서 연조직 커버가 뼈 프로필의 부조화에 적응하는 경향이 있는 것처럼 보입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The concentration of FFA in normal human plasma in vivo generally ranges between 0.2 and 0.7 meq/liter; slightly higher concentrations have occasionally been reported in patients who are seriously ill. To determine whether such FFA concentrations may increase the concentration of free T4 in serum, we added increasing amounts of oleic acid to pooled normal human serum (with known FFA content) and measured free T4 by equilibrium dialysis. Total FFA up to 3 meq/liter in normal serum, representing an FFA to albumin molar ratio of about 5:1, had little or no effect on the free T4 concentration, while higher FFA concentrations progressively increased free T4. This same molar ratio of FFA to albumin had to be exceeded to cause a significant increase in the free T4 concentration in diluted serum and in serum from patients with nonthyroid illness. Serum from which more than 95% of the albumin had been removed by chromatography with Affi-Gel blue was much more sensitive to the effects of FFA on free T4. This enhanced sensitivity was reversed by readdition of albumin to the serum, and the addition of albumin to normal serum resulted in diminished effects of FFA on free T4. These results indicate the following: physiological concentrations of FFA do not significantly increase the free T4 concentration in normal human serum; when FFA reach supraphysiological concentrations in serum (in vitro) and the higher affinity FFA-binding sites on albumin become saturated (apparently at an FFA to albumin molar ratio of approximately 5:1), the excess FFA interact with other serum proteins, including thyroid hormone-binding globulin, and thereby increase the free T4 concentration; the concentration of albumin (or other FFA binders) must be considered when evaluating the observed effects of FFA. To explore the relevance of these findings to the hypothesis that FFA may inhibit the binding of T4 to plasma proteins in patients with nonthyroid illness, we measured plasma FFA concentrations in 11 severely ill patients hospitalized in the intensive care unit. We found a mean plasma FFA concentration of 0.45 +/- 0.11 (+/- SEM) mEq/liter and a mean serum albumin concentration of 2.39 +/- 0.29 g/dl in these patients. Their mean plasma FFA to albumin molar ratio was 1.53 +/- 0.41. Since the FFA to albumin molar ratio must exceed about approximately 5:1 before a significant increase in the serum free T4 concentration occurs, these results suggest that FFA do not commonly influence the circulating free T4 concentration in vivo, even in severely ill patients. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 생체 내 정상 인간 혈장의 FFA 농도는 일반적으로 0.2 ~ 0.7 meq/리터 범위입니다. 심각하게 아픈 환자에서 약간 더 높은 농도가 때때로 보고되었습니다. 그러한 FFA 농도가 혈청 내 유리 T4의 농도를 증가시킬 수 있는지 여부를 결정하기 위해 풀링된 정상 인간 혈청(알려진 FFA 함량 포함)에 증가하는 양의 올레산을 추가하고 평형 투석으로 유리 T4를 측정했습니다. 약 5:1의 FFA 대 알부민 몰비를 나타내는 정상 혈청에서 최대 3 meq/리터의 총 FFA는 유리 T4 농도에 거의 또는 전혀 영향을 미치지 않는 반면, 더 높은 FFA 농도는 유리 T4를 점진적으로 증가시켰습니다. FFA 대 알부민의 동일한 몰비는 희석된 혈청 및 비갑상샘 질환 환자의 혈청에서 유리 T4 농도를 상당히 증가시키기 위해 초과되어야 했습니다. Affi-Gel blue 크로마토그래피로 95% 이상의 알부민을 제거한 혈청은 FFA가 유리 T4에 미치는 영향에 훨씬 더 민감했습니다. 이 향상된 민감도는 알부민을 혈청에 재첨가함으로써 역전되었으며, 정상 혈청에 알부민을 첨가하면 유리 T4에 대한 FFA의 효과가 감소되었습니다. 이러한 결과는 다음을 나타냅니다: FFA의 생리학적 농도는 정상 인간 혈청에서 유리 T4 농도를 유의하게 증가시키지 않습니다. FFA가 혈청(시험관 내)에서 초생리학적 농도에 도달하고 알부민의 더 높은 친화도 FFA 결합 부위가 포화되면(분명히 FFA 대 알부민 몰비가 약 5:1일 때) 과잉 FFA는 갑상선을 포함한 다른 혈청 단백질과 상호 작용합니다. 호르몬 결합 글로불린을 증가시켜 유리 T4 농도를 증가시킵니다. FFA의 관찰된 효과를 평가할 때 알부민(또는 다른 FFA 결합제)의 농도를 고려해야 합니다. FFA가 갑상선 질환이 없는 환자의 혈장 단백질에 대한 T4의 결합을 억제할 수 있다는 가설과 이러한 발견의 관련성을 조사하기 위해 중환자실에 입원한 11명의 중증 환자에서 혈장 FFA 농도를 측정했습니다. 우리는 이 환자들에서 0.45 +/- 0.11(+/- SEM) mEq/liter의 평균 혈장 FFA 농도와 2.39 +/- 0.29 g/dl의 평균 혈청 알부민 농도를 발견했습니다. 그들의 평균 혈장 FFA 대 알부민 몰비는 1.53 +/- 0.41이었습니다. FFA 대 알부민 몰비는 약 5:1을 초과해야 혈청 유리 T4 농도가 유의하게 증가하기 때문에 이러한 결과는 중증 환자에서도 FFA가 생체 내 순환 유리 T4 농도에 일반적으로 영향을 미치지 않는다는 것을 시사합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The course of a pregnant patient at term who was acutely exposed to carbon monoxide is described. A review of the fetal-maternal carboxyhemoglobin relationships and the differences in fetal oxyhemoglobin physiology are used to explain the recommendation that pregnant women with carbon monoxide poisoning should receive 100% oxygen therapy for up to five times longer than is otherwise necessary. The role of hyperbaric oxygen therapy is considered. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 일산화탄소에 급성으로 노출된 만삭 임산 환자의 경과가 설명됩니다. 태아-산모 일산화탄소헤모글로빈 관계에 대한 검토와 태아 산소헤모글로빈 생리학의 차이는 일산화탄소 중독이 있는 임산부가 필요한 것보다 최대 5배 더 오래 100% 산소 요법을 받아야 한다는 권장 사항을 설명하는 데 사용됩니다. 고압 산소 요법의 역할이 고려됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The effect of thrombolysis in acute myocardial infarction on enzymatic infarct size, left ventricular function, and early mortality was studied in subsets of patients in a randomized trial. Early thrombolytic therapy with intracoronary streptokinase (152 patients) or with intracoronary streptokinase preceded by intravenous streptokinase (117 patients) was compared with conventional treatment (264 patients). All 533 patients were admitted to the coronary care unit within 4 hr after onset of symptoms indicative of acute myocardial infarction. Four hundred eighty-eight patients were eligible for this detailed analysis, and 245 of these were allocated to thrombolytic therapy and 243 to conventional treatment. Early angiographic examinations were performed in 212 patients allocated to thrombolytic therapy. Patency of the infarct-related artery was achieved in 181 patients (85%). Enzymatic infarct size, as measured from cumulative alpha-hydroxybutyrate dehydrogenase release, was smaller in patients allocated to thrombolytic therapy (median 760 vs 1170 U/liter in control patients, p = .0001). Left ventricular ejection fraction measured by radionuclide angiography before discharge from the hospital was higher after thrombolytic therapy (median 50% vs 43% in control patients, p = .0001). Three month mortality was lower in patients allocated to thrombolytic therapy (6% vs 14% in the control group, p = .006). With the use of multivariate regression analysis, infarct size limitation, improvement in left ventricular ejection fraction, and three month mortality were predicted by sum of the ST segment elevation, time from onset of symptoms to admission, and Killip class at admission. Thrombolysis was most effective in patients admitted within 2 hr after onset of symptoms and in patients with a sum of ST segment elevation of 1.2 mV or more. On the other hand, no beneficial effects of streptokinase on enzymatic infarct size, left ventricular function, or mortality were observed in the subset of patients with a sum of ST segment elevation of less than 1.2 mV who were admitted between 2 and 4 hr after onset of symptoms. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 효소 경색 크기, 좌심실 기능 및 조기 사망에 대한 급성 심근 경색의 혈전 용해 효과는 무작위 시험에서 환자의 하위 집합에서 연구되었습니다. 관상동맥내 스트렙토키나아제(152명의 환자) 또는 정맥내 스트렙토키나아제에 선행하는 관상동맥내 스트렙토키나아제(117명의 환자)를 사용한 조기 혈전용해 요법을 기존 치료(264명의 환자)와 비교했습니다. 533명의 환자 모두 급성 심근경색 증상이 나타난 후 4시간 이내에 관상동맥 치료실에 입원하였다. 488명의 환자가 이 상세한 분석을 받을 자격이 있었고, 이들 중 245명은 혈전용해 요법에, 243명은 기존 치료에 할당되었습니다. 혈전 용해 요법에 할당된 212명의 환자에서 조기 혈관 조영 검사를 시행했습니다. 경색 관련 동맥의 개방성은 181명의 환자(85%)에서 달성되었습니다. 누적 알파-하이드록시부티레이트 데하이드로게나제 방출로부터 측정된 효소 경색 크기는 혈전 용해 요법에 할당된 환자에서 더 작았습니다(중앙값 760 대 대조군 환자의 1170 U/리터, p = .0001). 퇴원 전 방사성핵종 혈관조영술로 측정한 좌심실 박출률은 혈전용해제 치료 후 더 높았다(중앙값 50% vs 대조군 43%, p = .0001). 3개월 사망률은 혈전 용해 요법에 할당된 환자에서 더 낮았습니다(6% 대 대조군에서 14%, p = .006). 다변량 회귀분석을 이용하여 ST 분절 상승, 증상 발생 후 입원까지의 시간, 입원 시 Killip 등급의 합으로 경색 크기 제한, 좌심실 박출률 개선, 3개월 사망률을 예측하였다. 혈전용해술은 증상 발생 후 2시간 이내에 입원한 환자와 ST 분절 상승의 합이 1.2mV 이상인 환자에서 가장 효과적이었다. 한편, 효소 경색 크기, 좌심실 기능 또는 사망률에 대한 스트렙토키나아제의 유익한 효과는 발병 후 2시간에서 4시간 사이에 입원한 ST 세그먼트 상승의 합이 1.2mV 미만인 환자의 하위 집합에서 관찰되지 않았습니다. 증상의. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The effects of chronic denervation on sodium (Na) channels in rabbit muscle membrane were determined using intracellular microelectrodes and Vaseline gap voltage clamp techniques. The Hodgkin-Huxley model was used to describe the kinetic and steady-state parameters of channel activation and fast inactivation. Chronic (7-10 days) denervation was found to cause a decreased resting potential, lowered action potential peak, and fibrillation potentials in rabbit extensor digitorum longus (EDL) muscles. Under voltage clamp conditions, no differences were observed between denervated and normal fibers in the voltage dependence of the steady-state Na channel activation and fast inactivation curves, or in the time course of development of fast inactivation. However, in denervated fibers, the time course of recovery from fast inactivation was approximately half that measured in normal fibers. Also, whereas depolarizing holding potentials induced a long-term inactivation to varying degrees in normal EDL fibers, denervated EDL fibers and normal soleus fibers were uniformly resistant to prolonged depolarization. These results suggest that the denervation-induced development of spontaneous activity may be due in part to changes in the mechanisms that control the refractoriness of Na channels. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 토끼 근육막의 나트륨(Na) 채널에 대한 만성 탈신경 효과는 세포내 미세 전극 및 바셀린 갭 전압 클램프 기술을 사용하여 결정되었습니다. Hodgkin-Huxley 모델은 채널 활성화 및 빠른 비활성화의 동역학 및 정상 상태 매개변수를 설명하는 데 사용되었습니다. 만성(7-10일) 탈신경화는 토끼 신근발가락(EDL) 근육에서 휴식 전위 감소, 활동 전위 피크 감소 및 세동 전위를 유발하는 것으로 밝혀졌습니다. 전압 클램프 조건 하에서 정상 상태의 Na 채널 활성화 및 빠른 비활성화 곡선의 전압 의존성 또는 빠른 비활성화의 시간 경과에 따라 탈신경 섬유와 정상 섬유 간에 차이가 관찰되지 않았습니다. 그러나 탈신경 섬유에서 빠른 불활성화로부터 회복되는 시간 경과는 정상 섬유에서 측정한 것의 약 절반이었습니다. 또한, 탈분극 유지 전위가 정상 EDL 섬유에서 다양한 정도의 장기 불활성화를 유도하는 반면, 탈신경 EDL 섬유 및 정상 가자미근 섬유는 연장된 탈분극에 균일하게 저항했습니다. 이러한 결과는 탈신경에 의해 유도된 자발적 활동의 발달이 Na 채널의 내화성을 제어하는 메커니즘의 변화에 부분적으로 기인할 수 있음을 시사합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The evaluation and treatment of injuries of the ulnar collateral ligament of the metacarpophalangeal joint of the thumb remain controversial. In a retrospective study that was done to assess our ability to determine whether displacement of the ligament (a Stener lesion) was present, we reviewed our accumulated experience with patients who had an injury of this ligament who were treated surgically between 1972 and 1984. Since our method of evaluation changed in 1977, we compared the preoperative and operative diagnoses in the twenty patients who were treated surgically from 1972 through 1976 with those in the twenty patients who were so treated from 1977 through 1984. Considering all forty patients who were treated operatively, sixteen (40 per cent) had a typical Stener lesion, and in two others (5 per cent) the ulnar collateral ligament was rolled up on itself and lying beneath the adductor aponeurosis. From 1972 through 1976, stability was tested with the metacarpophalangeal joint in complete extension or in varying amounts of flexion. Of the twenty thumbs that were evaluated by this technique and were treated surgically, 20 per cent had a Stener lesion. From 1977 through 1984, stability was tested with the joint in full flexion because of the findings in anatomical studies that were completed in 1977; the incidence of a Stener lesion in the twenty thumbs that were treated by repair or reattachment of the ligament during this time was 70 per cent.(ABSTRACT TRUNCATED AT 250 WORDS) Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 엄지 중수지절관절의 척골측부인대 손상에 대한 평가와 치료에 대해서는 아직 논란이 있다. 인대 변위(Stener 병변)가 있는지 여부를 판단할 수 있는 능력을 평가하기 위해 수행된 후향적 연구에서 우리는 1972년에서 1984년 사이에 외과적 치료를 받은 이 인대 손상 환자에 대한 축적된 경험을 검토했습니다. 1977년 평가 방법이 바뀌었기 때문에 1972년부터 1976년까지 외과적 치료를 받은 20명의 환자와 1977년부터 1984년까지 외과적 치료를 받은 20명의 환자의 수술 전 및 수술 진단을 비교하였다. 수술적 치료를 받은 40명의 환자를 모두 고려할 때, 16명(40%)은 전형적인 스테너 병변을 가지고 있었고 다른 2명(5%)은 척골 측부 인대가 스스로 말려 올라와서 내전근 건막 아래에 놓여 있었다. 1972년부터 1976년까지 중수지절관절의 완전신전 또는 다양한 굴곡에서 안정성을 시험하였다. 이 기술로 평가되고 외과적으로 치료된 20개의 엄지손가락 중 20%가 스테너 병변을 가지고 있었습니다. 1977년부터 1984년까지 안정성은 1977년에 완료된 해부학적 연구 결과로 인해 관절이 완전히 굴곡된 상태에서 테스트되었습니다. 이 기간 동안 인대 수리 또는 재부착으로 치료받은 20개의 엄지손가락에 스테너 병변 발생률은 70%였습니다. (ABSTRACT TRUNCATED AT 250 WORDS) 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The investigator who studies OADs must realize that results may impact social, ethical, and moral issues and create economic dilemmas. This is different from most research endeavors, which create warm appreciation for research findings. Finally, the researcher may be asked to support, defend, or deny a position that argues or extrapolates beyond the scientific findings--a situation that does not usually occur in "pure" research. Many investigators are poorly equipped to deal with these broader issues, and thus confusion and distrust occasionally result. Working on OAD requires enormous understanding from the interested parties. Task force recommendations that fail to consider nonmedical and nonscientific needs for industry and labor are not likely to be welcomed or implemented. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: OAD를 연구하는 연구자는 결과가 사회적, 윤리적, 도덕적 문제에 영향을 미치고 경제적 딜레마를 일으킬 수 있음을 인식해야 합니다. 이것은 연구 결과에 대해 따뜻한 감사를 표하는 대부분의 연구 노력과 다릅니다. 마지막으로, 연구원은 "순수한" 연구에서는 일반적으로 발생하지 않는 상황인 과학적 발견을 넘어서 주장하거나 외삽하는 입장을 지지, 방어 또는 거부하도록 요청받을 수 있습니다. 많은 조사자들이 이러한 광범위한 문제를 다룰 준비가 제대로 되어 있지 않아 때때로 혼란과 불신이 발생합니다. OAD에서 작업하려면 이해 당사자의 엄청난 이해가 필요합니다. 산업 및 노동에 대한 비의료 및 비과학적 요구를 고려하지 않는 태스크 포스 권장 사항은 환영받거나 구현될 가능성이 없습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The ontogenic switch from fetal to adult hemoglobin could result from discontinuous events, such as replacement of fetal erythroid progenitor cells by adult ones, or gradual modulation of the hemoglobin program of a single progenitor cell pool. The former would result in progenitors at midswitch with skewed fractional beta-globin synthesis programs, the latter in a Gaussian distribution. For these studies, we obtained bone marrow from rhesus monkey fetuses at 141-153 d (midswitch). Mononuclear cells were cultured in methyl cellulose with erythropoietin, and single BFU-E-derived colonies were removed and incubated with [3H]leucine. Globin synthesis was examined by gel electrophoresis and fluorography. The beta-globin synthesis pattern of single fetal colonies was skewed, and did not fit a normal distribution. The fetal pattern resembled the pattern of an artificial mixture of fetal and adult progenitors, suggesting that the fetal progenitor pool could contain populations with different beta-globin programs. This non-Gaussian distribution in the progenitors of midswitch fetuses is consistent with a discontinuous model for hemoglobin switching during ontogeny. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 태아에서 성인 헤모글로빈으로 개체 발생 전환은 태아 적혈구 전구 세포가 성인 세포로 교체되거나 단일 전구 세포 풀의 헤모글로빈 프로그램이 점진적으로 조절되는 것과 같은 불연속적인 사건으로 인해 발생할 수 있습니다. 전자는 왜곡된 분수 베타-글로빈 합성 프로그램을 사용하여 중간 스위치에서 전구체를 생성하고 후자는 가우시안 분포를 생성합니다. 이러한 연구를 위해 우리는 141-153d(midswitch)에 붉은 털 원숭이 태아로부터 골수를 얻었습니다. 단핵 세포를 에리스로포이에틴이 포함된 메틸 셀룰로오스에서 배양하고 단일 BFU-E 유래 콜로니를 제거하고 [3H]류신과 함께 배양했습니다. 글로빈 합성은 겔 전기영동 및 형광법으로 검사하였다. 단일 태아 콜로니의 베타-글로빈 합성 패턴은 왜곡되었고 정규 분포에 맞지 않았습니다. 태아 패턴은 태아와 성인 전구체의 인공 혼합물 패턴과 유사하여 태아 전구체 풀이 다른 베타-글로빈 프로그램을 가진 개체군을 포함할 수 있음을 시사합니다. midswitch fetuses의 progenitors에서이 비 가우시안 분포는 개체 발생 중 헤모글로빈 전환에 대한 불연속 모델과 일치합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The outcome from cardiopulmonary arrest in children in the prehospital and hospital setting is generally poor. The event that compromises the cardiac status is often respiratory embarrassment, and the presenting rhythms are often bradyarrhythmias and asystole. Emergency medical services (EMS) systems have primarily an adult focus and may not be organized to manage optimally the critically ill and injured child. Data from a survey of training programs demonstrate that paramedic and EMT education in pediatric emergencies may be inadequate. Forty-one percent of the programs surveyed had less than 10 hr of pediatric training. Data suggest that EMS providers may not be equipped to manage children effectively. The Los Angeles EMS System for children is described. There are two levels of receiving facilities: Emergency Departments Approved for Pediatrics and Pediatric Critical Care Centers. The system is voluntary and has 85% of the hospitals in compliance with the guidelines. Early recognition of the prearrest state, improved training, and equipping of prehospital care personnel, development of EMS services for children, dissemination of an advanced pediatric life support course, as well as research in pediatric CPR may improve the outcome of resuscitation in the pediatric population. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 입원 전 및 병원 환경에서 아동의 심폐정지 결과는 일반적으로 좋지 않습니다. 심장 상태를 손상시키는 사건은 종종 호흡곤란이며, 제시되는 리듬은 종종 서맥성 부정맥과 무수축입니다. 응급 의료 서비스(EMS) 시스템은 주로 성인에 중점을 두고 있으며 위독하고 부상당한 아동을 최적으로 관리하도록 구성되지 않을 수 있습니다. 훈련 프로그램에 대한 설문조사 데이터에 따르면 소아 응급 상황에서 구급대원 및 EMT 교육이 부적절할 수 있습니다. 조사 대상 프로그램의 41%는 소아 교육 시간이 10시간 미만이었습니다. 데이터에 따르면 EMS 제공자는 아동을 효과적으로 관리할 수 있는 장비가 없을 수 있습니다. 어린이를 위한 로스앤젤레스 EMS 시스템에 대해 설명합니다. 수용 시설에는 소아과용으로 승인된 응급실과 소아 중환자실의 두 가지 수준이 있습니다. 이 시스템은 자발적이며 85%의 병원이 지침을 준수하고 있습니다. 체포 전 상태의 조기 인식, 개선된 교육 및 병원 전 관리 인력 장비, 어린이를 위한 EMS 서비스 개발, 고급 소아 생명 유지 과정의 보급, 소아 CPR 연구는 소아 인구의 소생술 결과를 개선할 수 있습니다. . 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The pharmacokinetics of oral and intravenous bromide was studied in 7 adult volunteers, who served as their own controls. They received 1 ml/kg of 3% sodium bromide, equivalent to 30 mg/kg bromide. Oral bioavailability ranged between 75-118% with a mean of 96 +/- 6%. Elimination T1/2 was 11.9 +/- 1.4 days after oral administration and 9.4 +/- 1.5 days after I.V. administration (P greater than 0.10). The employment of this ion for calculation of extracellular fluid and assessment of its potential significance in environmental toxicology necessitates accurate data on its disposition characteristics. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 7명의 성인 지원자를 대상으로 경구 및 정맥 브롬화물의 약동학을 연구했습니다. 그들은 30 mg/kg 브롬화물에 해당하는 1 ml/kg의 3% 브롬화나트륨을 받았습니다. 경구 생체이용률은 평균 96 +/- 6%로 75-118% 범위였습니다. 제거 T1/2는 경구 투여 후 11.9 +/- 1.4일, I.V. 투여 후 9.4 +/- 1.5일이었습니다. 투여(0.10보다 큰 P). 세포 외액 계산 및 환경 독성학에서의 잠재적 중요성 평가를 위해 이 이온을 사용하려면 처분 특성에 대한 정확한 데이터가 필요합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The possible role of prostaglandins in mediating large coronary artery vasodilation by nitrates was investigated by quantitative magnification coronary angiography. The effects of aspirin (1 g systemically and 100 mg intracoronary) in preventing large coronary artery vasodilation induced by intracoronary isosorbide dinitrate was investigated in 16 patients. Of these, 5 received 0.3 mg (Group 1A) and 11 received 3 mg (Group 1B) intracoronary isosorbide dinitrate, before and 15 minutes after aspirin. Relative to control, 0.3 mg isosorbide dinitrate induced a 19 +/- 9% (mean +/- SD) (p less than 0.01) and 19.5 +/- 11% (p less than 0.01) increase in coronary diameter before and after aspirin, respectively (p = NS). Changes after 3 mg isosorbide were 23 +/- 12% (p less than 0.01) and 26.5 +/- 14% (p less than 0.01), respectively, before and after aspirin (p = NS). In 10 additional patients (Group 2), the effect of the same dose of aspirin on rest coronary artery tone was assessed: changes relative to control were 0.9 +/- 5.5% (p = NS) minutes after aspirin. The intracoronary administration of 3 mg isosorbide dinitrate produced a 24.7 +/- 11% increase in coronary diameter (p = NS versus pre- and postaspirin isosorbide in Group 1B). Urinary 6-ketoprostaglandin-F1 alpha values in urine samples collected in the 8 hours before and the 8 hours after the study in five patients in Group 1B and five patients of Group 2, revealed a 36 +/- 14% (mean +/- SD) reduction in excretion of prostacyclin (p less than 0.01). These data rule out a role for prostaglandins both in mediating dilation of large coronary arteries by nitrates and in affecting their vascular tone at rest. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 질산염에 의한 큰 관상동맥 혈관확장을 매개하는 프로스타글란딘의 가능한 역할을 정량적 확대 관상동맥조영술로 조사하였다. 16명의 환자를 대상으로 관상동맥 내 isosorbide dinitrate에 의해 유발된 큰 관상동맥 혈관확장을 예방하는 아스피린(전신 1g 및 관상동맥 100mg)의 효과를 조사했습니다. 이 중 5명은 아스피린 투여 전과 투여 후 15분에 0.3mg(그룹 1A)을, 11명은 3mg(그룹 1B) 관상동맥 이소소르비드 질산염을 투여 받았습니다. 대조군과 비교하여, 0.3 mg 이소소르비드 질산염은 아스피린 전후에 관상 동맥 직경을 19 +/- 9%(평균 +/- SD)(p < 0.01) 및 19.5 +/- 11%(p < 0.01) 증가시켰습니다. , 각각 (p = NS). 3 mg 이소소르비드 투여 후 변화는 아스피린 투여 전과 투여 후 각각 23 +/- 12%(p < 0.01) 및 26.5 +/- 14%(p < 0.01)였습니다(p = NS). 10명의 추가 환자(그룹 2)에서 동일한 용량의 아스피린이 휴식 관상 동맥 긴장도에 미치는 영향을 평가했습니다. 대조군과 비교한 변화는 아스피린 투여 후 0.9 +/- 5.5%(p = NS)분이었습니다. 3 mg isosorbide dinitrate의 관상동맥 내 투여는 관상동맥 직경을 24.7 +/- 11% 증가시켰습니다(p = 그룹 1B에서 아스피린 전 및 후 아스피린 대비 NS). 1B군 5명의 환자와 2군 5명의 환자에서 연구 전 8시간과 연구 후 8시간에 수집된 소변 샘플의 소변 6-케토프로스타글란딘-F1 알파 값은 36 +/- 14%(평균 +/- SD) 프로스타사이클린 배설 감소(p<0.01). 이러한 데이터는 질산염에 의한 큰 관상 동맥의 확장을 매개하고 휴식 시 혈관 긴장도에 영향을 미치는 프로스타글란딘의 역할을 배제합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The purpose of the study was to compare the renal effects of low doses of exogenous dopamine to assess the responsiveness of renal dopaminergic receptors in normotensive and hypertensive subjects. Eight hypertensive patients and seven normotensive volunteer subjects were studied. Inulin and para-aminohippuric (PAH) clearances, natriuresis, and fractional excretion of sodium increased significantly after intravenous dosing with dopamine (2 micrograms/min/kg) in both groups. These increases were significantly higher in hypertensive than in normotensive subjects: 31.8% +/- 3.7% vs. 16.2% +/- 1.2% for inulin clearance (P less than 0.01), 83.3% +/- 10.5% vs. 41.1% +/- 3.4% for PAH clearance (P less than 0.01), and 331% +/- 38% vs. 216% +/- 26% for natriuresis (P less than 0.01). These findings suggest hyperresponsiveness to dopamine during hypertension. This enhanced response to exogenous dopamine can be considered as a further argument favoring the existence of a deficit in dopaminergic activity during hypertension. Dopamine also induced a significant reduction in blood pressure and increased heart rate in hypertensive subjects but no significant change in blood pressure and heart rate occurred in normotensive subjects. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 이 연구의 목적은 정상 혈압과 고혈압 환자에서 신장 도파민 수용체의 반응성을 평가하기 위해 저용량의 외인성 도파민의 신장 효과를 비교하는 것이었습니다. 8명의 고혈압 환자와 7명의 정상혈압 지원자가 연구되었습니다. 두 그룹 모두에서 도파민(2마이크로그램/분/kg)을 정맥 투여한 후 이눌린 및 PAH(para-aminohippuric) 청소율, 나트륨 이뇨 및 분획 나트륨 배설이 크게 증가했습니다. 이러한 증가는 정상 혈압 환자보다 고혈압 환자에서 유의하게 더 높았습니다: 이눌린 청소율의 경우 31.8% +/- 3.7% 대 16.2% +/- 1.2%(P < 0.01), 83.3% +/- 10.5% 대 41.1% + /- PAH 청소율의 경우 3.4%(P < 0.01), 나트륨 이뇨의 경우 331% +/- 38% 대 216% +/- 26%(P < 0.01). 이러한 결과는 고혈압 동안 도파민에 대한 과민성을 제안합니다. 외인성 도파민에 대한 이러한 강화된 반응은 고혈압 동안 도파민 활동의 결핍이 존재함을 지지하는 추가적인 주장으로 간주될 수 있습니다. 도파민은 또한 고혈압 피험자에서 유의한 혈압 감소와 심박수 증가를 유도했지만 정상 혈압 피험자에서는 혈압과 심박수에 유의미한 변화가 발생하지 않았습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The purpose of this investigation was to implement an optimal filtering strategy for processing in vivo dynamometric data. The validity of employing commonly accepted analog smoothing methods was also appraised. An inert gravitational model was used to assess the filtering requirements of two Cybex II constant velocity dynamometers at 10 pre-set speeds with three selected loads. Speed settings were recorded as percentages of the servomechanism's maximum tachometer feedback voltage (10 to 100% Vfb max). Spectral analyses of unsmoothed torque and associated angular displacement curves, followed by optimized low-pass digital filtering, revealed the presence of two superimposed contaminating influences: a damped oscillation, representing successive sudden braking and releasing of the servomechanism control system; a relatively stationary oscillatory series, which was attributed to the Cybex motor. The optimal cutoff frequency for any data set was principally a positive function of % Vfb max. This association was represented for each machine by a different, but reliable, third order least-squares polynomial, which could be used to accurately predict the correct smoothing required for any speed setting. Unacceptable errors may be induced, especially when measuring peak torques, if data are inappropriately filtered. Over-smoothing disguises inertial artefacts. The use of Cybex recorder damping settings should be discouraged. Optimal filtering is a minimal requirement of valid data processing. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 이 조사의 목적은 생체 내 동력 측정 데이터를 처리하기 위한 최적의 필터링 전략을 구현하는 것이었습니다. 일반적으로 허용되는 아날로그 스무딩 방법을 사용하는 타당성도 평가되었습니다. 불활성 중력 모델을 사용하여 3개의 선택된 하중으로 10개의 미리 설정된 속도에서 2개의 Cybex II 등속 동력계의 필터링 요구 사항을 평가했습니다. 속도 설정은 서보 메커니즘의 최대 타코미터 피드백 전압(최대 10~100% Vfb)의 백분율로 기록되었습니다. 매끄럽지 않은 토크 및 관련 각도 변위 곡선의 스펙트럼 분석과 최적화된 저역 통과 디지털 필터링은 두 가지 중첩된 오염 영향의 존재를 드러냈습니다. Cybex 모터에 기인한 상대적으로 고정된 진동 시리즈. 모든 데이터 세트에 대한 최적 차단 주파수는 원칙적으로 % Vfb max의 양의 함수였습니다. 이 연관성은 각 기계에 대해 다르지만 신뢰할 수 있는 3차 최소 제곱 다항식으로 표현되었으며, 이는 모든 속도 설정에 필요한 올바른 평활화를 정확하게 예측하는 데 사용할 수 있습니다. 데이터가 부적절하게 필터링되면 특히 피크 토크를 측정할 때 허용할 수 없는 오류가 발생할 수 있습니다. 과도한 스무딩은 관성 인공물을 위장합니다. Cybex 레코더 댐핑 설정을 사용하지 않는 것이 좋습니다. 최적의 필터링은 유효한 데이터 처리의 최소 요구 사항입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: The ultimate cause of destruction of red blood cells (RBCs) after oxidative damage with Heinz body formation is not well understood. We correlated the changes in RBC morphology and membrane protein composition after oxidant treatment with the alterations in deformability of whole cells and cell membranes. The incubation of RBCs with phenylhydrazine concentrations of 0.3 to 100 mg/dL at 37 degrees C for one hour led to a dose-dependent formation of Heinz bodies, ranging from isolated Heinz bodies at 1 mg/dL to a confluent coating of the inner membrane surface at 100 mg/dL phenylhydrazine. Sodium dodecyl sulfate-polyacrylamide gel electrophoresis revealed the presence of a large quantity of hemoglobin bound to the ghost membrane of treated RBCs. Electrophoresis with and without dithiothreitol indicated that disulfide bridges are abundant between hemoglobin molecules and are also present among membrane proteins but are not the major bond between hemoglobin and membrane. Changes of spectrin, ankyrin, band 3, and band 6 and the appearance of a 260,000-dalton complex were also observed. With phenylhydrazine concentrations below 30 mg/dL, even in the presence of multiple Heinz bodies, the RBC deformability measured by filtration through 2.6-, 4.5-, and 6.8-microns pores and the membrane deformability determined by a filter aspiration technique were not altered. With 100 mg/dL phenylhydrazine, when the entire membrane was coated with Heinz bodies, RBC filterability and membrane deformability were drastically reduced. These results indicate that oxidative damage of RBCs with discrete Heinz body formation causes focal membrane rigidification but does not affect the global cellular deformability until the Heinz bodies nearly cover the entire cell endoface. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: Heinz 소체 형성에 따른 산화적 손상 후 적혈구(RBC) 파괴의 궁극적인 원인은 잘 알려져 있지 않습니다. 우리는 산화제 처리 후 RBC 형태와 막 단백질 구성의 변화를 전체 세포와 세포막의 변형 가능성의 변화와 연관시켰습니다. 37℃에서 1시간 동안 0.3~100 mg/dL의 페닐히드라진 농도로 RBC를 배양하면 1 mg/dL의 분리된 Heinz 바디에서 내막의 합류 코팅에 이르는 Heinz 바디의 용량 의존적 형성이 이루어졌습니다. 100 mg/dL 페닐히드라진에서 표면. 도데실황산나트륨-폴리아크릴아미드 겔 전기영동에서 처리된 적혈구의 고스트 막에 결합된 다량의 헤모글로빈의 존재가 밝혀졌습니다. 디티오트레이톨이 있거나 없는 전기영동은 이황화 다리가 헤모글로빈 분자 사이에 풍부하고 막 단백질 사이에도 존재하지만 헤모글로빈과 막 사이의 주요 결합은 아님을 나타냅니다. 스펙트린, 안키린, 밴드 3, 밴드 6의 변화와 260,000달톤 복합체의 출현도 관찰되었다. 페닐히드라진 농도가 30mg/dL 미만인 경우 여러 Heinz 바디가 존재하는 경우에도 2.6, 4.5 및 6.8미크론 공극을 통한 여과로 측정한 RBC 변형성과 필터 흡인 기술로 결정한 멤브레인 변형성은 변경되지 않았습니다. 100mg/dL의 페닐히드라진을 사용하여 멤브레인 전체를 Heinz 바디로 코팅했을 때 RBC 여과성과 멤브레인 변형성이 크게 감소했습니다. 이러한 결과는 별개의 Heinz body 형성을 가진 RBC의 산화적 손상이 초점 막 경직화를 유발하지만 Heinz body가 전체 세포 표면을 거의 덮을 때까지 전체 세포 변형성에 영향을 미치지 않음을 나타냅니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: This paper reviews the recent medical and legal literature in the field of spouse abuse. Domestic violence is a national phenomenon that directly affects victims of spouse abuse and indirectly conditions the children of the victims to accept violent behavior as normative. This paper characterizes the cycle of violence battered women encounter, describes their injury patterns, explores the dynamics of the abusive relationship, and discusses the factors that compel women to remain in such violent relationships. The second section describes many of the recent legislation designed to prevent spouse abuse. Next, this paper addresses the case law utilizing the "battered woman syndrome" as a defense for spousal homicide. The third section of the paper explores the often neglected topic of the battered husband. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 이 논문은 배우자 학대 분야의 최근 의학 및 법률 문헌을 검토합니다. 가정 폭력은 배우자 학대의 피해자에게 직접적으로 영향을 미치고 피해자의 자녀가 폭력적인 행동을 규범으로 받아들이도록 간접적으로 조장하는 국가적 현상입니다. 이 논문은 구타당한 여성이 겪는 폭력의 순환을 특징짓고, 부상 패턴을 설명하고, 학대 관계의 역학을 탐구하고, 여성이 그러한 폭력적인 관계를 유지하도록 강요하는 요인에 대해 논의합니다. 두 번째 섹션에서는 배우자 학대를 방지하기 위해 고안된 많은 최근 법안에 대해 설명합니다. 다음으로 본 논문은 배우자 살인에 대한 변론으로 "피학대여성증후군"을 활용한 판례를 다룬다. 논문의 세 번째 섹션에서는 종종 무시당하는 구타당한 남편의 주제를 탐구합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Three models for continuing professional education (CPE) are described: an education model, which reflects the mainstream of CPE practice and focuses on educational objectives, teaching methods, organization of educational experiences, and assessment; a social change model, which considers the total environment in which CPE occurs; and a problem-based model, which focuses on the professional context and order of complexity of professional problems. Each model is described, and its strengths and drawbacks as applied to continuing medical education are discussed. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 지속적인 전문 교육(CPE)을 위한 세 가지 모델이 설명되어 있습니다: CPE 실습의 주류를 반영하고 교육 목표, 교육 방법, 교육 경험 조직 및 평가에 초점을 맞춘 교육 모델; CPE가 발생하는 전체 환경을 고려하는 사회 변화 모델; 전문적 맥락과 전문적 문제의 복잡한 순서에 초점을 맞춘 문제 기반 모델. 각 모델이 설명되고 지속적인 의학 교육에 적용되는 강점과 단점이 논의됩니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Torsional deformity should be localized, quantitated, and usually managed by "observation," an approach that is set forth in detail in this article. Shoe modifications and daytime braces are inappropriate. Night splints or operative procedures are rarely indicated. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 비틀림 기형은 국소화되고 정량화되어야 하며 일반적으로 이 문서에서 자세히 설명된 접근 방식인 "관찰"에 의해 관리되어야 합니다. 신발 개조 및 주간 교정기는 부적절합니다. 야간 부목이나 수술 절차는 거의 표시되지 않습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Treatment and supervision of epileptic patients is part of specialist medicine. A possible change in the role of specialists and general practitioners in the care of these patients was explored by a questionnaire mailed to all Dutch neurologists and a random sample of general practitioners. Patients were also asked their opinion. The real situation was studied in a group of patients retrieved from the registers of general practitioners. Demographic, psychosocial, and epilepsy characteristics were sampled. Specialists tend not to want a change in their role; general practitioners desire a change. At present, patients do not want a change, but in future a change might be acceptable to them. More patients than expected were supervised by their general practitioner only. Their demographic and psychosocial characteristics did not differ from those in the population at large. Epilepsy characteristics corresponded with those in other studies. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 요약: 간질 환자의 치료와 감독은 전문 의학의 일부입니다. 모든 네덜란드 신경과 전문의와 일반의의 무작위 표본에 우편으로 발송된 설문지를 통해 이러한 환자를 돌보는 전문의와 일반의의 역할 변화 가능성을 조사했습니다. 환자들에게도 의견을 물었다. 실제 상황은 일반 개업의 등록부에서 검색된 환자 그룹에서 연구되었습니다. 인구통계학적, 심리사회적, 간질 특성이 샘플링되었습니다. 전문가는 자신의 역할 변화를 원하지 않는 경향이 있습니다. 일반 개업의는 변화를 원합니다. 현재 환자들은 변화를 원하지 않지만 미래에는 변화가 그들에게 받아들여질 수 있습니다. 예상보다 많은 환자가 일반의의 감독만 받았습니다. 그들의 인구통계학적 및 심리사회적 특성은 일반 인구의 특성과 다르지 않았습니다. 간질 특성은 다른 연구의 특성과 일치했습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Twenty one cases of amyloidosis of the lower respiratory tract were seen at a single center. In three patients, multifocal bronchial amyloid plaques led to stenosis and atelectasis, and in two, small pseudotumor masses were an incidental bronchoscopic finding. Two patients had nodular parenchymal amyloidosis, in one of whom the lesions were progressive and in the other static. Fifteen patients had diffuse parenchymal amyloidosis. Two of these had severe interstitial involvement and died in respiratory failure; eight had congestive cardiac failure, and parenchymal amyloidosis was a post-mortem finding; two had senile cardiorespiratory amyloidosis, also found at autopsy; and in three, the amyloidosis was associated with malignancy. The degree of respiratory embarrassment seemed to be related to the amount of amyloid in the gas diffusion zones, irrespective of the etiology of amyloidosis. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 단일 센터에서 21예의 하기도 아밀로이드증이 관찰되었다. 3명의 환자에서 다발성 기관지 아밀로이드 플라크가 협착과 무기폐로 이어졌고, 2명의 환자에서 작은 가성 종양 종괴가 기관지경에서 우연히 발견되었습니다. 2명의 환자는 결절성 실질 아밀로이드증을 앓았으며, 그 중 한 명은 병변이 진행성이었고 다른 한 명은 정적이었습니다. 15명의 환자는 미만성 실질 아밀로이드증이 있었다. 이들 중 2명은 심각한 간질 침범이 있었고 호흡 부전으로 사망했습니다. 8명은 울혈성 심부전이 있었고 실질 아밀로이드증은 사후 소견이었습니다. 2명은 부검에서도 발견된 노인성 심폐 아밀로이드증을 앓았고; 3개에서 아밀로이드증은 악성 종양과 관련이 있었습니다. 호흡곤란의 정도는 아밀로이드증의 병인과 관계없이 가스확산대에 있는 아밀로이드의 양과 관련이 있는 것으로 보였다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Twenty-three male Black African and 23 male Caucasian subjects, ascertained as sedentary, participated in this study designed to determine whether there were differences in skeletal muscle histochemical and biochemical characteristics between racial groups. Muscle fiber type proportions (I, IIa, and IIb), fiber areas and activities of several enzyme markers of different energy metabolic pathways were determined from a biopsy of the vastus lateralis. Results indicated that Caucasians had a higher percent type I (8%, P less than 0.01) and a lower percent type IIa (6.7%, P less than 0.05) fiber proportions than Africans. No significant differences were observed between the two racial groups in the type IIb fiber proportion or in the three fiber type areas. Enzymes catalyzing reactions in phosphagenic [creatine kinase (CK)] and glycolytic [hexokinase (HK), phosphofructokinase (PFK), and lactate dehydrogenase (LDH)] metabolic pathways had significantly higher activities (about 30-40%) in the Black African group than in the Caucasian group (P less than 0.01). No significant difference was noted in the activities of oxidative enzymes [malate dehydrogenase (MDH), oxoglutarate dehydrogenase (OGDH), and 3-hydroxyacyl-CoA dehydrogenase (HADH)]. Consequently, the PFK/OGDH ratio was significantly elevated in Africans (P less than 0.05). The racial differences observed between Africans and Caucasians in fiber type proportion and enzyme activities of the phosphagenic and glycolytic metabolic pathways may well result from inherited variation. These data suggest that sedentary male Black individuals are, in terms of skeletal muscle characteristics, well endowed for sport events of short duration. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 좌식생활로 확인된 23명의 흑인 남성과 23명의 백인 남성이 인종간 골격근의 조직화학적 및 생화학적 특성의 차이가 있는지 알아보기 위해 본 연구에 참여하였다. 근섬유 유형 비율(I, IIa 및 IIb), 섬유 영역 및 다양한 에너지 대사 경로의 여러 효소 마커의 활동이 외측광근의 생검을 통해 결정되었습니다. 결과는 백인이 아프리카인보다 유형 I(8%, P < 0.01) 비율이 더 높고 유형 IIa(6.7%, P < 0.05) 비율이 더 낮다는 것을 나타냅니다. 유형 IIb 섬유 비율 또는 세 가지 섬유 유형 영역에서 두 인종 그룹 간에 유의미한 차이가 관찰되지 않았습니다. Phosphagenic [creatine kinase (CK)] 및 glycolytic [hexokinase (HK), phosphofructokinase (PFK) 및 lactate dehydrogenase (LDH)] 대사 경로에서 반응을 촉매하는 효소는 Black African 그룹에서 상당히 높은 활성(약 30-40%)을 보였습니다. 백인 그룹보다(P<0.01). 산화 효소[malate dehydrogenase(MDH), oxoglutarate dehydrogenase(OGDH) 및 3-hydroxyacyl-CoA dehydrogenase(HADH)]의 활성에는 유의한 차이가 없었습니다. 결과적으로 PFK/OGDH 비율은 아프리카인에서 상당히 증가했습니다(P < 0.05). 인산염 및 해당 대사 경로의 섬유 유형 비율 및 효소 활동에서 아프리카인과 백인 사이에서 관찰되는 인종적 차이는 유전적 변이에서 기인할 수 있습니다. 이러한 데이터는 좌식 생활을 하는 남성 흑인 개인이 골격근 특성 측면에서 짧은 기간의 스포츠 이벤트에 적합하다는 것을 시사합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Twenty-three patients with idiopathic scoliosis were tested for upper extremity proprioceptive function. All subjects had documented progression of deformity, with an average curvature of 34 degrees. The average ages for scoliotics and 18 control subjects were 16.1 and 20.8 years, respectively. Controls had no spinal deformity and underwent identical test procedures. The test results showed that scoliotic subjects had significant asymmetry between right and left limbs in their threshold for detection of joint motion (p less than or equal to 0.005) and in their ability to reproduce angles to which their elbow joint had been previously positioned (p less than or equal to 0.025). Slight asymmetry also was observed in the reproduction tests of the control group (p less than or equal to 0.013); however, there was no significant asymmetry seen in this group for the threshold test. Performance of bilateral limbs was designated good and bad for both groups; the limb that performed better in proprioceptive function was designated good limb. Analysis of data showed that the scoliotics' good and bad limbs performed inferiorly in both threshold and angle reproduction tests when compared with normal controls. The results of this study imply, but do not localize, a neurologic deficit in scoliotic patients. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 특발성 척추측만증 환자 23명을 대상으로 상지 고유수용감각 기능을 검사하였다. 모든 피험자는 평균 34도의 곡률로 기형의 진행을 기록했습니다. 척추측만증 환자와 18명의 대조군의 평균 연령은 각각 16.1세와 20.8세였습니다. 대조군은 척추 기형이 없었고 동일한 테스트 절차를 거쳤습니다. 테스트 결과는 척추 측만 환자가 관절 움직임을 감지하기 위한 임계값(p 0.005 이하)과 팔꿈치 관절이 이전에 위치했던 각도를 재현하는 능력(p 0.025 이하). 대조군의 생식 테스트에서도 약간의 비대칭이 관찰되었습니다(p는 0.013 이하). 그러나 임계값 테스트에 대해 이 그룹에서 중요한 비대칭이 관찰되지 않았습니다. 양측 사지의 성능은 두 그룹 모두에서 좋은 것과 나쁜 것으로 지정되었습니다. 고유 감각 기능에서 더 나은 수행을 수행하는 팔다리를 양호한 팔다리로 지정했습니다. 데이터 분석 결과 척추측만증 환자의 좋은 팔다리와 나쁜 팔다리는 정상 대조군과 비교할 때 역치 및 각도 재현 테스트 모두에서 열등한 성능을 보였습니다. 이 연구의 결과는 척추측만증 환자의 신경학적 결함을 암시하지만 국소화하지는 않습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Two sets of equations have been proposed to estimate the convective or sensible (WCV) and the evaporative or insensible (WEV) respiratory heat exchanges. They are applicable both at sea-level barometric pressure with air breathing (SLA) and in hypo- or hyperbaria in both air (HA) and artificial (HAA) atmospheres. The only environmental parameters required are in SLA: the temperature (TI) and the partial pressure of water vapor of the inspired air (PIH2O); in HA: TI, PIH2O, and the actual barometric pressure (PB); and in HAA: IT, PIH2O, PB, the volumetric mass (rho mix), and the specific heat (cp mix) of the breathed gas mixture. When no physiological data are available the results are expressed in energy units per liter of pulmonary ventilation (WCV/V and WEV/V) in J X dm-3 BTPS. If the ventilation value (V) is known the results are obtained in units of power (W). Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 대류 또는 현열(WCV) 및 증발 또는 무감각(WEV) 호흡 열 교환을 추정하기 위해 두 세트의 방정식이 제안되었습니다. 그들은 공기 호흡(SLA)이 있는 해수면 기압과 공기(HA) 및 인공(HAA) 대기 모두에서 저압 또는 고압압 모두에 적용할 수 있습니다. 필요한 유일한 환경 매개변수는 SLA에 있습니다: 온도(TI) 및 흡입된 공기의 수증기 분압(PIH2O); HA: TI, PIH2O 및 실제 기압(PB); 및 HAA: IT, PIH2O, PB, 호흡 가스 혼합물의 체적 질량(rho 혼합) 및 비열(cp 혼합). 생리학적 데이터를 사용할 수 없는 경우 결과는 J X dm-3 BTPS의 폐 환기 리터당 에너지 단위(WCV/V 및 WEV/V)로 표시됩니다. 환기 값(V)을 알고 있는 경우 결과는 전력(W) 단위로 얻습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Using neuropsychological testing procedures, we measured the behavioral characteristics of patients with epilepsy unaffected by anticonvulsant drugs and compared these results with control subjects matched for age, sex, and education. In a nationwide VA Cooperative study, 622 patients with well-defined seizure types were given a selected battery of neuropsychological tests prior to and at 1 month after initiation of drug therapy. Seventy-four control subjects were administered the same test battery under standardized conditions at the same VA testing centers. All tests of controls were also repeated 1 month later. The patients with epilepsy scored significantly and consistently below the level of the control subjects on all but three behavioral measures. Differences reaching statistical significance were found on tests of motor function (Finger Tapping, Pegboard, Color Naming), cognitive-attention (Digit Symbol, Discriminative Reaction Time, Word Fluency), and subtests of the Profile of Mood Status (tension, depression, vigor, and confusion). These data provide a profile of behavioral characteristics of unmedicated patients with epilepsy. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 신경심리학적 검사 절차를 사용하여 항경련제에 영향을 받지 않는 간질 환자의 행동 특성을 측정하고 이 결과를 연령, 성별, 교육 수준에 맞는 대조군과 비교했습니다. 전국적인 VA Cooperative 연구에서 잘 정의된 발작 유형을 가진 622명의 환자에게 약물 치료 시작 전과 시작 후 1개월에 선택된 일련의 신경심리학적 검사를 제공했습니다. 74명의 대조군 대상자는 동일한 VA 테스트 센터에서 표준화된 조건 하에서 동일한 테스트 배터리를 투여받았습니다. 대조군에 대한 모든 테스트도 1개월 후에 반복되었습니다. 간질 환자는 3가지를 제외한 모든 행동 측정에서 대조군보다 유의미하고 일관되게 낮은 점수를 받았습니다. 운동 기능(손가락 두드리기, 페그보드, 색상 이름 지정), 인지 주의력(숫자 기호, 식별 반응 시간, 단어 유창성) 및 기분 상태 프로필의 하위 테스트(긴장, 우울, 활력) 테스트에서 통계적으로 유의미한 차이가 발견되었습니다. , 혼란). 이러한 데이터는 약을 복용하지 않는 간질 환자의 행동 특성 프로필을 제공합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: VEPs were recorded with three different spatial frequencies of stimulation in patients affected by idiopathic Parkinsonism and by Parkinsonian syndromes. The detection of VEP abnormalities in Parkinson's disease was dependent on the spatial frequency of the visual stimulus (a vertical square wave grating). The VEP latency was normal in Parkinsonian syndrome patients (except in one patient affected by familial Parkinsonism). Dopamine precursor therapy differently reduced the VEP latency, depending on the spatial frequency of the visual stimulus. These findings suggest that the dopaminergic mechanism involved in the generation of VEP delays is sensitive to stimulus spatial frequency. The study of VEPs before and after the administration of haloperidol confirmed this hypothesis. VEP latency did not correlate with the major clinical symptoms of Parkinson's disease and could not predict the results of chronic dopaminergic therapy. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: VEP는 특발성 파킨슨증과 파킨슨 증후군에 의해 영향을 받는 환자에서 자극의 세 가지 다른 공간 주파수로 기록되었습니다. 파킨슨병에서 VEP 이상의 검출은 시각적 자극(수직 구형파 격자)의 공간 주파수에 의존했습니다. VEP 잠복기는 파킨슨병 증후군 환자에서 정상이었습니다(가족성 파킨슨병 환자 1명 제외). 도파민 전구체 요법은 시각적 자극의 공간 주파수에 따라 VEP 대기 시간을 다르게 줄였습니다. 이러한 결과는 VEP 지연 생성과 관련된 도파민 메커니즘이 자극 공간 주파수에 민감하다는 것을 시사합니다. 할로페리돌 투여 전후의 VEP 연구는 이 가설을 확인했습니다. VEP 잠복기는 파킨슨병의 주요 임상 증상과 상관관계가 없었고 만성 도파민 요법의 결과를 예측할 수 없었습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Vaginal discharge is a common complaint, the cause of which can be diagnosed on the basis of the distinguishing characteristics of the fluid itself, the course and symptoms of the infection, and the results of a few simple office laboratory tests. Accurate diagnosis is important because treatment can then be selected specifically rather than empirically. Optimal treatment differs with each of the four major causative agents: Candida, Gardnerella, Trichomonas, and Chlamydia. Prompt eradication of the infection promotes patient and public health. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 질 분비물은 흔한 증상이며, 그 원인은 체액 자체의 특징, 감염 경과 및 증상, 몇 가지 간단한 실험실 검사 결과를 토대로 진단할 수 있습니다. 정확한 진단은 경험적으로보다는 구체적으로 치료를 선택할 수 있기 때문에 중요합니다. 최적의 치료는 칸디다, 가드네렐라, 트리코모나스 및 클라미디아의 네 가지 주요 원인 물질에 따라 다릅니다. 감염의 신속한 박멸은 환자와 공중 보건을 증진합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Vascular injuries of the lower limb in the presence of extensive soft tissue loss, fractures, or other life-threatening injuries are associated with a high amputation rate. Five patients underwent temporary intravascular shunting during the period of treatment of such injuries. Rapid reperfusion of the limb via such shunts permitted more comprehensive evaluation and management of the lower limb and other associated injuries than would have been possible in the presence of prolonged ischemia. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 광범위한 연조직 손실, 골절 또는 기타 생명을 위협하는 부상이 있는 하지의 혈관 손상은 높은 절단률과 관련이 있습니다. 5명의 환자가 이러한 손상을 치료하는 동안 일시적인 혈관내 단락술을 받았습니다. 이러한 션트를 통한 사지의 신속한 재관류는 장기간 허혈이 있을 때 가능했던 것보다 하지 및 기타 관련 부상에 대한 보다 포괄적인 평가 및 관리를 허용했습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: Virus-associated hemophagocytic syndrome has been recently identified as a benign, reactive histiocytic proliferation distinct from Rappaport's malignant hystiocytosis. Other etiologic agents, including different bacteria, have also been identified. Three autopsy cases of hemophagocytic syndrome associated to acute tuberculous sepsis are presented. Benign histiocytic proliferation with striking hemophagocytosis was present in a disseminated, multisystemic pattern in all three cases. A relationship between systemic histiocytic proliferation and an anergic status in these patients is suggested. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 바이러스 관련 혈구탐식 증후군은 Rappaport's 악성 hystiocytosis와는 다른 양성 반응성 조직구 증식으로 최근 확인되었다. 다른 박테리아를 포함한 다른 병인도 확인되었습니다. 급성 결핵성 패혈증과 관련된 혈구탐식 증후군의 세 가지 부검 사례가 제시됩니다. 눈에 띄는 hemophagocytosis와 함께 양성 histiocytic 증식은 모든 세 가지 경우에 전파, multisystemic 패턴으로 존재했습니다. 이들 환자에서 전신 조직구 증식과 아네르기 상태 사이의 관계가 제안된다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: We conducted a randomized trial comparing a high (120 mg/m2 day 1) v a standard (60 mg/m2 day 1) dose of cisplatin in combination with etoposide (120 mg/m2 days 3, 5, and 7) in advanced non-small-cell lung carcinoma (NSCLC). Two hundred forty-one patients were evaluable for survival and 207 for response. We obtained a 25% objective response rate in the standard-dose arm and 29% in the high-dose arm; this difference was not statistically significant. There was no significant improvement in the overall survival or survival of responders with the high-dose regimen. However, toxicity (mainly myelosuppression) was significantly increased in the patients receiving the higher dose of cisplatin. An analysis of prognostic factors showed that disease progression, loss of body weight, performance status, and prior therapy were predictive parameters of survival. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 고급 환자에서 시스플라틴과 에토포사이드(3, 5, 7일 120mg/m2)를 병용한 고용량(1일 120mg/m2)과 표준(60mg/m2일 1일) 용량을 비교하는 무작위 시험을 실시했습니다. 비소세포폐암(NSCLC). 241명의 환자가 생존에 대해 평가되었고 207명이 반응에 대해 평가되었습니다. 우리는 표준 용량군에서 25%, 고용량군에서 29%의 객관적인 반응률을 얻었습니다. 이 차이는 통계적으로 유의하지 않았습니다. 고용량 요법으로 응답자의 전체 생존 또는 생존율에서 유의미한 개선은 없었습니다. 그러나 고용량의 시스플라틴을 투여받은 환자에서 독성(주로 골수억제)이 유의하게 증가했습니다. 예후 인자 분석 결과 질병 진행, 체중 감소, 활동 상태 및 이전 치료가 생존의 예측 매개변수인 것으로 나타났습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: We describe a patient with secondary syphilis and facial skin lesions which resembled Sweet's syndrome clinically and histologically. We suggest serological tests for syphilis in patients with Sweet's syndrome. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 임상 및 조직학적으로 Sweet's 증후군과 유사한 이차 매독 및 안면 피부 병변을 가진 환자를 기술한다. 스위트 증후군 환자에서 매독에 대한 혈청학적 검사를 제안합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> No <br><br>
+				<br> 아니요 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: We measured the activity of the enzyme porphobilinogen deaminase in red blood cells of 222 persons. Ninety-seven of 107 patients with acute intermittent porphyria had enzyme activity below the normal range, whereas 55 of 56 patients with other types of porphyria had normal activity. This underscores the utility of this test in confirming the diagnosis of acute intermittent porphyria. Measurement of enzyme activity in 41 families with acute intermittent porphyria demonstrated that deficient activity is inherited as an autosomal dominant trait. Many latent carriers of the genetic defect were identified by family studies, permitting appropriate precautions to avoid potentially lethal porphyric attacks. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 222명의 적혈구에서 porphobilinogen deaminase 효소의 활성을 측정하였다. 급성 간헐적 포르피린증 환자 107명 중 97명이 정상 범위 미만의 효소 활동을 보인 반면, 다른 유형의 포르피린증 환자 56명 중 55명은 정상 활동을 보였습니다. 이것은 급성 간헐적 포르피린증의 진단을 확인하는 데 있어 이 검사의 유용성을 강조합니다. 급성 간헐성 포르피린증이 있는 41개 가족의 효소 활동을 측정한 결과 결핍된 활동이 상염색체 우성 형질로 유전되는 것으로 나타났습니다. 잠재적으로 치명적인 포르피린 공격을 피하기 위해 적절한 예방 조치를 허용하는 가족 연구에 의해 유전적 결함의 많은 잠복 보인자가 확인되었습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Abstract: We undertook a study of the separate and combined effects of age and sex on the pulsatile pattern of GH secretion. The 24-h secretory profile of GH was generated by 20-min sampling in 10 young women (aged 18-33 yr), 10 young men (aged 18-33 yr), 8 postmenopausal women (aged greater than 55 yr), and 8 older men (aged greater than 55 yr). A computer-assisted pulse analysis program was used to assess both total GH secretion, as reflected in the 24-h integrated GH concentration (IGHC), and pulsatile secretion, as denoted by pulse frequency, duration, amplitude, and the fraction of GH secreted in pulses during the 24-h period (FGHP). IGHC was significantly greater in women than in men (P less than 0.025) and greater in the young than in the old (P less than 0.003). The mean pulse amplitude, duration, and FGHP were each greater in the young (P less than 0.006, P less than 0.03, and P less than 0.0001, respectively), but not significantly different between the sexes. The mean pulse frequency was not affected by sex or age. The serum concentration of free estradiol, but not free testosterone, correlated with IGHC (r = 0.46; P less than 0.005), pulse amplitude (r = 0.53; P less than 0.001), and FGHP (r = 0.59; P less than 0.0002). After correcting for the effects of estradiol, neither sex nor age influenced IGHC or mean pulse amplitude, while the effect of age on FGHP was reduced from 81% to 29%. Of the indices of GH secretion, FGHP had the strongest correlation (r = 0.43; P less than 0.006) with somatomedin-C. Somatomedin-C declined significantly with age in both sexes. Our results indicate that sex and age have independent and interrelated effects on GH secretion. These effects can be largely accounted for by corresponding variations in endogenous estradiol levels. These observations suggest an amplifying action of estradiol on the neuroendocrine regulation of pulsatile GH release. Question: Does the abstract contain any numerical data? <br><br>
+				<br> 초록: 우리는 GH 분비의 박동 패턴에 대한 연령과 성별의 개별 및 복합 효과에 대한 연구를 수행했습니다. GH의 24시간 분비 프로필은 10명의 젊은 여성(18-33세), 10명의 젊은 남성(18-33세), 8명의 폐경 후 여성(55세 이상) 및 노인 8명(55세 이상). 컴퓨터 보조 맥박 분석 프로그램을 사용하여 24시간 통합 GH 농도(IGHC)에 반영된 총 GH 분비와 맥박 주파수, 지속 시간, 진폭 및 분비된 GH 분율로 표시되는 박동성 분비를 모두 평가했습니다. 24시간 동안의 펄스(FGHP). IGHC는 남성보다 여성에서 유의하게 더 높았고(P < 0.025) 노인보다 젊은 사람에서 더 컸습니다(P < 0.003). 평균 맥박 진폭, 지속 시간 및 FGHP는 각각 젊은이에서 더 컸지만(각각 P=0.006, P=0.03, P=0.0001) 성별 간에는 유의한 차이가 없었습니다. 평균 맥박 빈도는 성별이나 나이에 영향을 받지 않았습니다. 유리 테스토스테론이 아닌 유리 에스트라디올의 혈청 농도는 IGHC(r = 0.46, P < 0.005), 맥박 진폭(r = 0.53, P < 0.001) 및 FGHP(r = 0.59, P < 0.0002)와 상관관계가 있었습니다. ). 에스트라디올의 영향을 보정한 후, 성별이나 연령은 IGHC 또는 평균 맥박 진폭에 영향을 미치지 않았지만 FGHP에 대한 연령의 영향은 81%에서 29%로 감소했습니다. GH 분비 지표 중 FGHP는 소마토메딘-C와 가장 강한 상관관계(r = 0.43; P < 0.006)를 보였다. 소마토메딘-C는 남녀 모두 나이가 들면서 크게 감소했습니다. 우리의 결과는 성별과 연령이 GH 분비에 독립적이고 상호 관련된 영향을 미친다는 것을 나타냅니다. 이러한 효과는 내인성 에스트라디올 수치의 해당 변동에 의해 크게 설명될 수 있습니다. 이러한 관찰은 박동성 GH 방출의 신경내분비 조절에 대한 에스트라디올의 증폭 작용을 시사합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> Yes <br><br>
+				<br> 예 <br><br>
+			</td>
+		</tr>
+	</table>

@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': 8, 'second': 7}, {'first': -7, 'second': -2}, {'first': 8, 'second': 2}] <br><br>
+				<br> [{'첫 번째': 8, '두 번째': 7}, {'첫 번째': -7, '두 번째': -2}, {'첫 번째': 8, '두 번째': 2}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -7, 'second': -2}, {'first': 8, 'second': 2}, {'first': 8, 'second': 7}] <br><br>
+				<br> [{'첫 번째': -7, '두 번째': -2}, {'첫 번째': 8, '두 번째': 2}, {'첫 번째': 8, '두 번째': 7}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': 9, 'second': 2}, {'first': -7, 'second': 12}, {'first': -2, 'second': -10}, {'first': -2, 'second': 8}] <br><br>
+				<br> [{'첫 번째': 9, '두 번째': 2}, {'첫 번째': -7, '두 번째': 12}, {'첫 번째': -2, '두 번째': -10}, {'첫 번째' : -2, '초': 8}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -7, 'second': 12}, {'first': -2, 'second': -10}, {'first': -2, 'second': 8}, {'first': 9, 'second': 2}] <br><br>
+				<br> [{'첫 번째': -7, '두 번째': 12}, {'첫 번째': -2, '두 번째': -10}, {'첫 번째': -2, '두 번째': 8}, {'첫 번째': ': 9, '초': 2}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -1, 'second': 77}, {'first': -52, 'second': 9}, {'first': 31, 'second': -58}, {'first': -45, 'second': -16}, {'first': 46, 'second': 45}, {'first': 8, 'second': 67}, {'first': -45, 'second': 68}, {'first': 69, 'second': 70}, {'first': -50, 'second': 38}, {'first': -70, 'second': -20}] <br><br>
+				<br> [{'첫 번째': -1, '두 번째': 77}, {'첫 번째': -52, '두 번째': 9}, {'첫 번째': 31, '두 번째': -58}, {'첫 번째' : -45, '두 번째': -16}, {'첫 번째': 46, '두 번째': 45}, {'첫 번째': 8, '두 번째': 67}, {'첫 번째': -45, '두 번째 ': 68}, {'첫 번째': 69, '두 번째': 70}, {'첫 번째': -50, '두 번째': 38}, {'첫 번째': -70, '두 번째': -20}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -70, 'second': -20}, {'first': -52, 'second': 9}, {'first': -50, 'second': 38}, {'first': -45, 'second': -16}, {'first': -45, 'second': 68}, {'first': -1, 'second': 77}, {'first': 8, 'second': 67}, {'first': 31, 'second': -58}, {'first': 46, 'second': 45}, {'first': 69, 'second': 70}] <br><br>
+				<br> [{'첫 번째': -70, '두 번째': -20}, {'첫 번째': -52, '두 번째': 9}, {'첫 번째': -50, '두 번째': 38}, {'첫 번째': ': -45, '두 번째': -16}, {'첫 번째': -45, '두 번째': 68}, {'첫 번째': -1, '두 번째': 77}, {'첫 번째': 8, '두 번째': 67}, {'첫 번째': 31, '두 번째': -58}, {'첫 번째': 46, '두 번째': 45}, {'첫 번째': 69, '두 번째': 70}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -1, 'second': 89}, {'first': 26, 'second': -47}, {'first': 76, 'second': -41}] <br><br>
+				<br> [{'첫 번째': -1, '두 번째': 89}, {'첫 번째': 26, '두 번째': -47}, {'첫 번째': 76, '두 번째': -41}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -1, 'second': 89}, {'first': 26, 'second': -47}, {'first': 76, 'second': -41}] <br><br>
+				<br> [{'첫 번째': -1, '두 번째': 89}, {'첫 번째': 26, '두 번째': -47}, {'첫 번째': 76, '두 번째': -41}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -10, 'second': -19}, {'first': 73, 'second': -15}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': -19}, {'첫 번째': 73, '두 번째': -15}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -10, 'second': -19}, {'first': 73, 'second': -15}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': -19}, {'첫 번째': 73, '두 번째': -15}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -10, 'second': -21}, {'first': 96, 'second': -92}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': -21}, {'첫 번째': 96, '두 번째': -92}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -10, 'second': -21}, {'first': 96, 'second': -92}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': -21}, {'첫 번째': 96, '두 번째': -92}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -10, 'second': 22}, {'first': -20, 'second': -25}, {'first': 71, 'second': -81}, {'first': 35, 'second': 48}, {'first': 56, 'second': -9}, {'first': -8, 'second': -35}, {'first': -68, 'second': -19}, {'first': 76, 'second': 67}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': 22}, {'첫 번째': -20, '두 번째': -25}, {'첫 번째': 71, '두 번째': -81}, {'첫 번째': -81} ': 35, '두 번째': 48}, {'첫 번째': 56, '두 번째': -9}, {'첫 번째': -8, '두 번째': -35}, {'첫 번째': -68, '두 번째': -19}, {'첫 번째': 76, '두 번째': 67}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -68, 'second': -19}, {'first': -20, 'second': -25}, {'first': -10, 'second': 22}, {'first': -8, 'second': -35}, {'first': 35, 'second': 48}, {'first': 56, 'second': -9}, {'first': 71, 'second': -81}, {'first': 76, 'second': 67}] <br><br>
+				<br> [{'첫 번째': -68, '두 번째': -19}, {'첫 번째': -20, '두 번째': -25}, {'첫 번째': -10, '두 번째': 22}, {' 첫 번째': -8, '두 번째': -35}, {'첫 번째': 35, '두 번째': 48}, {'첫 번째': 56, '두 번째': -9}, {'첫 번째': 71, '두 번째': -81}, {'첫 번째': 76, '두 번째': 67}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -10, 'second': 35}, {'first': -26, 'second': -14}, {'first': -17, 'second': -63}, {'first': -61, 'second': 5}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': 35}, {'첫 번째': -26, '두 번째': -14}, {'첫 번째': -17, '두 번째': -63}, {' 첫 번째': -61, '두 번째': 5}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -61, 'second': 5}, {'first': -26, 'second': -14}, {'first': -17, 'second': -63}, {'first': -10, 'second': 35}] <br><br>
+				<br> [{'첫 번째': -61, '두 번째': 5}, {'첫 번째': -26, '두 번째': -14}, {'첫 번째': -17, '두 번째': -63}, {' 첫 번째': -10, '두 번째': 35}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -10, 'second': 35}, {'first': 46, 'second': 36}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': 35}, {'첫 번째': 46, '두 번째': 36}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -10, 'second': 35}, {'first': 46, 'second': 36}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': 35}, {'첫 번째': 46, '두 번째': 36}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -10, 'second': 45}, {'first': 71, 'second': 93}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': 45}, {'첫 번째': 71, '두 번째': 93}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -10, 'second': 45}, {'first': 71, 'second': 93}] <br><br>
+				<br> [{'첫 번째': -10, '두 번째': 45}, {'첫 번째': 71, '두 번째': 93}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -100, 'second': 10}, {'first': -21, 'second': -17}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 10}, {'첫 번째': -21, '두 번째': -17}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -100, 'second': 10}, {'first': -21, 'second': -17}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 10}, {'첫 번째': -21, '두 번째': -17}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -100, 'second': 17}, {'first': -81, 'second': -36}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 17}, {'첫 번째': -81, '두 번째': -36}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -100, 'second': 17}, {'first': -81, 'second': -36}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 17}, {'첫 번째': -81, '두 번째': -36}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -100, 'second': 18}, {'first': 4, 'second': -63}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 18}, {'첫 번째': 4, '두 번째': -63}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -100, 'second': 18}, {'first': 4, 'second': -63}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 18}, {'첫 번째': 4, '두 번째': -63}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -100, 'second': 32}, {'first': -16, 'second': 91}, {'first': -6, 'second': -61}, {'first': 17, 'second': 24}, {'first': -97, 'second': 71}, {'first': 51, 'second': -25}, {'first': 76, 'second': 7}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 32}, {'첫 번째': -16, '두 번째': 91}, {'첫 번째': -6, '두 번째': -61}, {'첫 번째': -16 ': 17, '두 번째': 24}, {'첫 번째': -97, '두 번째': 71}, {'첫 번째': 51, '두 번째': -25}, {'첫 번째': 76, '두 번째 ': 7}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -100, 'second': 32}, {'first': -97, 'second': 71}, {'first': -16, 'second': 91}, {'first': -6, 'second': -61}, {'first': 17, 'second': 24}, {'first': 51, 'second': -25}, {'first': 76, 'second': 7}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 32}, {'첫 번째': -97, '두 번째': 71}, {'첫 번째': -16, '두 번째': 91}, {'첫 번째' : -6, '두 번째': -61}, {'첫 번째': 17, '두 번째': 24}, {'첫 번째': 51, '두 번째': -25}, {'첫 번째': 76, '두 번째 ': 7}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -100, 'second': 72}, {'first': 50, 'second': 15}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 72}, {'첫 번째': 50, '두 번째': 15}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -100, 'second': 72}, {'first': 50, 'second': 15}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': 72}, {'첫 번째': 50, '두 번째': 15}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -11, 'second': -39}, {'first': 76, 'second': -75}] <br><br>
+				<br> [{'첫 번째': -11, '두 번째': -39}, {'첫 번째': 76, '두 번째': -75}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -11, 'second': -39}, {'first': 76, 'second': -75}] <br><br>
+				<br> [{'첫 번째': -11, '두 번째': -39}, {'첫 번째': 76, '두 번째': -75}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -11, 'second': 3}, {'first': -37, 'second': -80}, {'first': 48, 'second': -41}, {'first': 22, 'second': -28}, {'first': -18, 'second': -48}, {'first': 70, 'second': -7}] <br><br>
+				<br> [{'첫 번째': -11, '두 번째': 3}, {'첫 번째': -37, '두 번째': -80}, {'첫 번째': 48, '두 번째': -41}, {'첫 번째': -41} ': 22, '두 번째': -28}, {'첫 번째': -18, '두 번째': -48}, {'첫 번째': 70, '두 번째': -7}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -37, 'second': -80}, {'first': -18, 'second': -48}, {'first': -11, 'second': 3}, {'first': 22, 'second': -28}, {'first': 48, 'second': -41}, {'first': 70, 'second': -7}] <br><br>
+				<br> [{'첫 번째': -37, '두 번째': -80}, {'첫 번째': -18, '두 번째': -48}, {'첫 번째': -11, '두 번째': 3}, {' 첫 번째': 22, '두 번째': -28}, {'첫 번째': 48, '두 번째': -41}, {'첫 번째': 70, '두 번째': -7}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -11, 'second': 6}, {'first': -2, 'second': 25}, {'first': 64, 'second': 10}, {'first': -73, 'second': -20}, {'first': 55, 'second': -63}, {'first': 44, 'second': 88}] <br><br>
+				<br> [{'첫 번째': -11, '두 번째': 6}, {'첫 번째': -2, '두 번째': 25}, {'첫 번째': 64, '두 번째': 10}, {'첫 번째': -73, '두 번째': -20}, {'첫 번째': 55, '두 번째': -63}, {'첫 번째': 44, '두 번째': 88}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -73, 'second': -20}, {'first': -11, 'second': 6}, {'first': -2, 'second': 25}, {'first': 44, 'second': 88}, {'first': 55, 'second': -63}, {'first': 64, 'second': 10}] <br><br>
+				<br> [{'첫 번째': -73, '두 번째': -20}, {'첫 번째': -11, '두 번째': 6}, {'첫 번째': -2, '두 번째': 25}, {'첫 번째': ': 44, '두 번째': 88}, {'첫 번째': 55, '두 번째': -63}, {'첫 번째': 64, '두 번째': 10}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -11, 'second': 77}, {'first': -87, 'second': 29}, {'first': -23, 'second': -88}, {'first': -86, 'second': -2}, {'first': -67, 'second': -45}, {'first': -54, 'second': 87}, {'first': 4, 'second': -83}, {'first': 53, 'second': -76}, {'first': -26, 'second': -50}] <br><br>
+				<br> [{'첫 번째': -11, '두 번째': 77}, {'첫 번째': -87, '두 번째': 29}, {'첫 번째': -23, '두 번째': -88}, {'첫 번째': -88 ': -86, '두 번째': -2}, {'첫 번째': -67, '두 번째': -45}, {'첫 번째': -54, '두 번째': 87}, {'첫 번째': 4 , '두 번째': -83}, {'첫 번째': 53, '두 번째': -76}, {'첫 번째': -26, '두 번째': -50}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -87, 'second': 29}, {'first': -86, 'second': -2}, {'first': -67, 'second': -45}, {'first': -54, 'second': 87}, {'first': -26, 'second': -50}, {'first': -23, 'second': -88}, {'first': -11, 'second': 77}, {'first': 4, 'second': -83}, {'first': 53, 'second': -76}] <br><br>
+				<br> [{'첫 번째': -87, '두 번째': 29}, {'첫 번째': -86, '두 번째': -2}, {'첫 번째': -67, '두 번째': -45}, {' 첫 번째': -54, '두 번째': 87}, {'첫 번째': -26, '두 번째': -50}, {'첫 번째': -23, '두 번째': -88}, {'첫 번째': -11, '두 번째': 77}, {'첫 번째': 4, '두 번째': -83}, {'첫 번째': 53, '두 번째': -76}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -12, 'second': -11}, {'first': -72, 'second': -18}, {'first': 49, 'second': 21}] <br><br>
+				<br> [{'첫 번째': -12, '두 번째': -11}, {'첫 번째': -72, '두 번째': -18}, {'첫 번째': 49, '두 번째': 21}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -72, 'second': -18}, {'first': -12, 'second': -11}, {'first': 49, 'second': 21}] <br><br>
+				<br> [{'첫 번째': -72, '두 번째': -18}, {'첫 번째': -12, '두 번째': -11}, {'첫 번째': 49, '두 번째': 21}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -12, 'second': -48}, {'first': -78, 'second': -30}, {'first': -60, 'second': -83}, {'first': -67, 'second': 86}, {'first': 87, 'second': 39}, {'first': 90, 'second': -57}, {'first': 33, 'second': -72}] <br><br>
+				<br> [{'첫 번째': -12, '두 번째': -48}, {'첫 번째': -78, '두 번째': -30}, {'첫 번째': -60, '두 번째': -83}, { '첫 번째': -67, '두 번째': 86}, {'첫 번째': 87, '두 번째': 39}, {'첫 번째': 90, '두 번째': -57}, {'첫 번째': 33, '초': -72}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -78, 'second': -30}, {'first': -67, 'second': 86}, {'first': -60, 'second': -83}, {'first': -12, 'second': -48}, {'first': 33, 'second': -72}, {'first': 87, 'second': 39}, {'first': 90, 'second': -57}] <br><br>
+				<br> [{'첫 번째': -78, '두 번째': -30}, {'첫 번째': -67, '두 번째': 86}, {'첫 번째': -60, '두 번째': -83}, {' 첫 번째': -12, '두 번째': -48}, {'첫 번째': 33, '두 번째': -72}, {'첫 번째': 87, '두 번째': 39}, {'첫 번째': 90, '초': -57}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -12, 'second': -58}, {'first': -53, 'second': -26}, {'first': -85, 'second': 5}, {'first': 67, 'second': 90}] <br><br>
+				<br> [{'첫 번째': -12, '두 번째': -58}, {'첫 번째': -53, '두 번째': -26}, {'첫 번째': -85, '두 번째': 5}, {' 첫 번째': 67, '두 번째': 90}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -85, 'second': 5}, {'first': -53, 'second': -26}, {'first': -12, 'second': -58}, {'first': 67, 'second': 90}] <br><br>
+				<br> [{'첫 번째': -85, '두 번째': 5}, {'첫 번째': -53, '두 번째': -26}, {'첫 번째': -12, '두 번째': -58}, {' 첫 번째': 67, '두 번째': 90}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -12, 'second': 4}, {'first': 56, 'second': -36}] <br><br>
+				<br> [{'첫 번째': -12, '두 번째': 4}, {'첫 번째': 56, '두 번째': -36}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -12, 'second': 4}, {'first': 56, 'second': -36}] <br><br>
+				<br> [{'첫 번째': -12, '두 번째': 4}, {'첫 번째': 56, '두 번째': -36}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -12, 'second': 52}, {'first': 75, 'second': 6}] <br><br>
+				<br> [{'첫 번째': -12, '두 번째': 52}, {'첫 번째': 75, '두 번째': 6}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -12, 'second': 52}, {'first': 75, 'second': 6}] <br><br>
+				<br> [{'첫 번째': -12, '두 번째': 52}, {'첫 번째': 75, '두 번째': 6}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -13, 'second': 21}, {'first': 13, 'second': -71}] <br><br>
+				<br> [{'첫 번째': -13, '두 번째': 21}, {'첫 번째': 13, '두 번째': -71}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -13, 'second': 21}, {'first': 13, 'second': -71}] <br><br>
+				<br> [{'첫 번째': -13, '두 번째': 21}, {'첫 번째': 13, '두 번째': -71}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -14, 'second': -48}, {'first': -55, 'second': -15}, {'first': -88, 'second': -7}, {'first': 66, 'second': 74}, {'first': -20, 'second': 79}, {'first': 88, 'second': -54}, {'first': 18, 'second': 28}, {'first': -97, 'second': 24}] <br><br>
+				<br> [{'첫 번째': -14, '두 번째': -48}, {'첫 번째': -55, '두 번째': -15}, {'첫 번째': -88, '두 번째': -7}, { '첫 번째': 66, '두 번째': 74}, {'첫 번째': -20, '두 번째': 79}, {'첫 번째': 88, '두 번째': -54}, {'첫 번째': 18, '두 번째': 28}, {'첫 번째': -97, '두 번째': 24}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -97, 'second': 24}, {'first': -88, 'second': -7}, {'first': -55, 'second': -15}, {'first': -20, 'second': 79}, {'first': -14, 'second': -48}, {'first': 18, 'second': 28}, {'first': 66, 'second': 74}, {'first': 88, 'second': -54}] <br><br>
+				<br> [{'첫 번째': -97, '두 번째': 24}, {'첫 번째': -88, '두 번째': -7}, {'첫 번째': -55, '두 번째': -15}, {' 첫 번째': -20, '두 번째': 79}, {'첫 번째': -14, '두 번째': -48}, {'첫 번째': 18, '두 번째': 28}, {'첫 번째': 66, '두 번째': 74}, {'첫 번째': 88, '두 번째': -54}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -14, 'second': -4}, {'first': 90, 'second': -10}, {'first': 29, 'second': 69}, {'first': -32, 'second': 55}, {'first': -31, 'second': -88}, {'first': -79, 'second': 84}, {'first': 39, 'second': -51}] <br><br>
+				<br> [{'첫 번째': -14, '두 번째': -4}, {'첫 번째': 90, '두 번째': -10}, {'첫 번째': 29, '두 번째': 69}, {'첫 번째' : -32, '두 번째': 55}, {'첫 번째': -31, '두 번째': -88}, {'첫 번째': -79, '두 번째': 84}, {'첫 번째': 39, ' 초': -51}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -79, 'second': 84}, {'first': -32, 'second': 55}, {'first': -31, 'second': -88}, {'first': -14, 'second': -4}, {'first': 29, 'second': 69}, {'first': 39, 'second': -51}, {'first': 90, 'second': -10}] <br><br>
+				<br> [{'첫 번째': -79, '두 번째': 84}, {'첫 번째': -32, '두 번째': 55}, {'첫 번째': -31, '두 번째': -88}, {'첫 번째': -31 ': -14, '두 번째': -4}, {'첫 번째': 29, '두 번째': 69}, {'첫 번째': 39, '두 번째': -51}, {'첫 번째': 90, ' 초': -10}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -14, 'second': -56}, {'first': 9, 'second': -24}] <br><br>
+				<br> [{'첫 번째': -14, '두 번째': -56}, {'첫 번째': 9, '두 번째': -24}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -14, 'second': -56}, {'first': 9, 'second': -24}] <br><br>
+				<br> [{'첫 번째': -14, '두 번째': -56}, {'첫 번째': 9, '두 번째': -24}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -14, 'second': 22}, {'first': -76, 'second': -13}, {'first': -43, 'second': -46}, {'first': -17, 'second': -66}, {'first': -50, 'second': 27}, {'first': -19, 'second': -28}, {'first': 94, 'second': -74}] <br><br>
+				<br> [{'첫 번째': -14, '두 번째': 22}, {'첫 번째': -76, '두 번째': -13}, {'첫 번째': -43, '두 번째': -46}, {' 첫 번째': -17, '두 번째': -66}, {'첫 번째': -50, '두 번째': 27}, {'첫 번째': -19, '두 번째': -28}, {'첫 번째': 94, '초': -74}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -76, 'second': -13}, {'first': -50, 'second': 27}, {'first': -43, 'second': -46}, {'first': -19, 'second': -28}, {'first': -17, 'second': -66}, {'first': -14, 'second': 22}, {'first': 94, 'second': -74}] <br><br>
+				<br> [{'첫 번째': -76, '두 번째': -13}, {'첫 번째': -50, '두 번째': 27}, {'첫 번째': -43, '두 번째': -46}, {' 첫 번째': -19, '두 번째': -28}, {'첫 번째': -17, '두 번째': -66}, {'첫 번째': -14, '두 번째': 22}, {'첫 번째': 94, '초': -74}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -14, 'second': 60}, {'first': 79, 'second': -75}, {'first': -48, 'second': 95}, {'first': 97, 'second': 57}, {'first': -93, 'second': 32}, {'first': -13, 'second': 35}, {'first': 7, 'second': -11}, {'first': 35, 'second': -58}, {'first': -39, 'second': -11}] <br><br>
+				<br> [{'첫 번째': -14, '두 번째': 60}, {'첫 번째': 79, '두 번째': -75}, {'첫 번째': -48, '두 번째': 95}, {'첫 번째' : 97, '두 번째': 57}, {'첫 번째': -93, '두 번째': 32}, {'첫 번째': -13, '두 번째': 35}, {'첫 번째': 7, '두 번째' : -11}, {'첫 번째': 35, '두 번째': -58}, {'첫 번째': -39, '두 번째': -11}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -93, 'second': 32}, {'first': -48, 'second': 95}, {'first': -39, 'second': -11}, {'first': -14, 'second': 60}, {'first': -13, 'second': 35}, {'first': 7, 'second': -11}, {'first': 35, 'second': -58}, {'first': 79, 'second': -75}, {'first': 97, 'second': 57}] <br><br>
+				<br> [{'첫 번째': -93, '두 번째': 32}, {'첫 번째': -48, '두 번째': 95}, {'첫 번째': -39, '두 번째': -11}, {'첫 번째': ': -14, '두 번째': 60}, {'첫 번째': -13, '두 번째': 35}, {'첫 번째': 7, '두 번째': -11}, {'첫 번째': 35, ' 초': -58}, {'첫 번째': 79, '두 번째': -75}, {'첫 번째': 97, '두 번째': 57}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -15, 'second': 37}, {'first': 47, 'second': -41}] <br><br>
+				<br> [{'첫 번째': -15, '두 번째': 37}, {'첫 번째': 47, '두 번째': -41}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -15, 'second': 37}, {'first': 47, 'second': -41}] <br><br>
+				<br> [{'첫 번째': -15, '두 번째': 37}, {'첫 번째': 47, '두 번째': -41}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -15, 'second': 5}, {'first': 9, 'second': -21}, {'first': 82, 'second': -100}, {'first': -76, 'second': -30}] <br><br>
+				<br> [{'첫 번째': -15, '두 번째': 5}, {'첫 번째': 9, '두 번째': -21}, {'첫 번째': 82, '두 번째': -100}, {'첫 번째' : -76, '초': -30}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -76, 'second': -30}, {'first': -15, 'second': 5}, {'first': 9, 'second': -21}, {'first': 82, 'second': -100}] <br><br>
+				<br> [{'첫 번째': -76, '두 번째': -30}, {'첫 번째': -15, '두 번째': 5}, {'첫 번째': 9, '두 번째': -21}, {'첫 번째': ': 82, '초': -100}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -16, 'second': -98}, {'first': 81, 'second': -67}, {'first': 85, 'second': 53}, {'first': 32, 'second': -68}, {'first': 87, 'second': -76}] <br><br>
+				<br> [{'첫 번째': -16, '두 번째': -98}, {'첫 번째': 81, '두 번째': -67}, {'첫 번째': 85, '두 번째': 53}, {'첫 번째' : 32, '두 번째': -68}, {'첫 번째': 87, '두 번째': -76}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -16, 'second': -98}, {'first': 32, 'second': -68}, {'first': 81, 'second': -67}, {'first': 85, 'second': 53}, {'first': 87, 'second': -76}] <br><br>
+				<br> [{'첫 번째': -16, '두 번째': -98}, {'첫 번째': 32, '두 번째': -68}, {'첫 번째': 81, '두 번째': -67}, {'첫 번째': -67} ': 85, '두 번째': 53}, {'첫 번째': 87, '두 번째': -76}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -16, 'second': 37}, {'first': -35, 'second': 10}, {'first': -99, 'second': 36}] <br><br>
+				<br> [{'첫 번째': -16, '두 번째': 37}, {'첫 번째': -35, '두 번째': 10}, {'첫 번째': -99, '두 번째': 36}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -99, 'second': 36}, {'first': -35, 'second': 10}, {'first': -16, 'second': 37}] <br><br>
+				<br> [{'첫 번째': -99, '두 번째': 36}, {'첫 번째': -35, '두 번째': 10}, {'첫 번째': -16, '두 번째': 37}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -16, 'second': 90}, {'first': -18, 'second': -26}, {'first': 4, 'second': -22}, {'first': 13, 'second': 3}] <br><br>
+				<br> [{'첫 번째': -16, '두 번째': 90}, {'첫 번째': -18, '두 번째': -26}, {'첫 번째': 4, '두 번째': -22}, {'첫 번째': -26 ': 13, '초': 3}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -18, 'second': -26}, {'first': -16, 'second': 90}, {'first': 4, 'second': -22}, {'first': 13, 'second': 3}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': -26}, {'첫 번째': -16, '두 번째': 90}, {'첫 번째': 4, '두 번째': -22}, {'첫 번째': -22} ': 13, '초': 3}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -17, 'second': 35}, {'first': 85, 'second': 21}, {'first': -12, 'second': -37}, {'first': 5, 'second': -68}, {'first': 12, 'second': 51}, {'first': -65, 'second': 69}, {'first': 93, 'second': 30}] <br><br>
+				<br> [{'첫 번째': -17, '두 번째': 35}, {'첫 번째': 85, '두 번째': 21}, {'첫 번째': -12, '두 번째': -37}, {'첫 번째' : 5, '두 번째': -68}, {'첫 번째': 12, '두 번째': 51}, {'첫 번째': -65, '두 번째': 69}, {'첫 번째': 93, '두 번째' : 30}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -65, 'second': 69}, {'first': -17, 'second': 35}, {'first': -12, 'second': -37}, {'first': 5, 'second': -68}, {'first': 12, 'second': 51}, {'first': 85, 'second': 21}, {'first': 93, 'second': 30}] <br><br>
+				<br> [{'첫 번째': -65, '두 번째': 69}, {'첫 번째': -17, '두 번째': 35}, {'첫 번째': -12, '두 번째': -37}, {'첫 번째': -12 ': 5, '두 번째': -68}, {'첫 번째': 12, '두 번째': 51}, {'첫 번째': 85, '두 번째': 21}, {'첫 번째': 93, '두 번째' : 30}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -17, 'second': 3}, {'first': 79, 'second': 10}] <br><br>
+				<br> [{'첫 번째': -17, '두 번째': 3}, {'첫 번째': 79, '두 번째': 10}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -17, 'second': 3}, {'first': 79, 'second': 10}] <br><br>
+				<br> [{'첫 번째': -17, '두 번째': 3}, {'첫 번째': 79, '두 번째': 10}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -17, 'second': 60}, {'first': 97, 'second': 32}, {'first': 66, 'second': 0}, {'first': -23, 'second': -14}, {'first': 88, 'second': -13}] <br><br>
+				<br> [{'첫 번째': -17, '두 번째': 60}, {'첫 번째': 97, '두 번째': 32}, {'첫 번째': 66, '두 번째': 0}, {'첫 번째': - 23, '두 번째': -14}, {'첫 번째': 88, '두 번째': -13}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -23, 'second': -14}, {'first': -17, 'second': 60}, {'first': 66, 'second': 0}, {'first': 88, 'second': -13}, {'first': 97, 'second': 32}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': -14}, {'첫 번째': -17, '두 번째': 60}, {'첫 번째': 66, '두 번째': 0}, {'첫 번째' : 88, '두 번째': -13}, {'첫 번째': 97, '두 번째': 32}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -17, 'second': 83}, {'first': 88, 'second': -47}, {'first': -50, 'second': 46}, {'first': -67, 'second': -90}, {'first': 97, 'second': -78}, {'first': 42, 'second': -77}, {'first': -42, 'second': 100}] <br><br>
+				<br> [{'첫 번째': -17, '두 번째': 83}, {'첫 번째': 88, '두 번째': -47}, {'첫 번째': -50, '두 번째': 46}, {'첫 번째' : -67, '두 번째': -90}, {'첫 번째': 97, '두 번째': -78}, {'첫 번째': 42, '두 번째': -77}, {'첫 번째': -42, '초': 100}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -67, 'second': -90}, {'first': -50, 'second': 46}, {'first': -42, 'second': 100}, {'first': -17, 'second': 83}, {'first': 42, 'second': -77}, {'first': 88, 'second': -47}, {'first': 97, 'second': -78}] <br><br>
+				<br> [{'첫 번째': -67, '두 번째': -90}, {'첫 번째': -50, '두 번째': 46}, {'첫 번째': -42, '두 번째': 100}, {'첫 번째': ': -17, '두 번째': 83}, {'첫 번째': 42, '두 번째': -77}, {'첫 번째': 88, '두 번째': -47}, {'첫 번째': 97, ' 초': -78}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -18, 'second': -16}, {'first': -97, 'second': 5}, {'first': -6, 'second': -5}, {'first': -2, 'second': -49}, {'first': 49, 'second': -42}, {'first': 68, 'second': 13}, {'first': -71, 'second': 85}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': -16}, {'첫 번째': -97, '두 번째': 5}, {'첫 번째': -6, '두 번째': -5}, {' 첫 번째': -2, '두 번째': -49}, {'첫 번째': 49, '두 번째': -42}, {'첫 번째': 68, '두 번째': 13}, {'첫 번째': -71 , '초': 85}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -97, 'second': 5}, {'first': -71, 'second': 85}, {'first': -18, 'second': -16}, {'first': -6, 'second': -5}, {'first': -2, 'second': -49}, {'first': 49, 'second': -42}, {'first': 68, 'second': 13}] <br><br>
+				<br> [{'첫 번째': -97, '두 번째': 5}, {'첫 번째': -71, '두 번째': 85}, {'첫 번째': -18, '두 번째': -16}, {'첫 번째': -18 ': -6, '두 번째': -5}, {'첫 번째': -2, '두 번째': -49}, {'첫 번째': 49, '두 번째': -42}, {'첫 번째': 68 , '초': 13}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -18, 'second': -37}, {'first': 59, 'second': 89}, {'first': 45, 'second': 36}, {'first': 49, 'second': 100}, {'first': -97, 'second': -45}, {'first': -52, 'second': -52}, {'first': 92, 'second': -66}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': -37}, {'첫 번째': 59, '두 번째': 89}, {'첫 번째': 45, '두 번째': 36}, {'첫 번째': 49, '두 번째': 100}, {'첫 번째': -97, '두 번째': -45}, {'첫 번째': -52, '두 번째': -52}, {'첫 번째': 92, '두 번째 ': -66}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -97, 'second': -45}, {'first': -52, 'second': -52}, {'first': -18, 'second': -37}, {'first': 45, 'second': 36}, {'first': 49, 'second': 100}, {'first': 59, 'second': 89}, {'first': 92, 'second': -66}] <br><br>
+				<br> [{'첫 번째': -97, '두 번째': -45}, {'첫 번째': -52, '두 번째': -52}, {'첫 번째': -18, '두 번째': -37}, { '첫 번째': 45, '두 번째': 36}, {'첫 번째': 49, '두 번째': 100}, {'첫 번째': 59, '두 번째': 89}, {'첫 번째': 92, '두 번째 ': -66}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -18, 'second': -98}, {'first': 33, 'second': 96}, {'first': 95, 'second': 53}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': -98}, {'첫 번째': 33, '두 번째': 96}, {'첫 번째': 95, '두 번째': 53}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -18, 'second': -98}, {'first': 33, 'second': 96}, {'first': 95, 'second': 53}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': -98}, {'첫 번째': 33, '두 번째': 96}, {'첫 번째': 95, '두 번째': 53}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -18, 'second': 28}, {'first': -97, 'second': -82}, {'first': 29, 'second': 68}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': 28}, {'첫 번째': -97, '두 번째': -82}, {'첫 번째': 29, '두 번째': 68}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -97, 'second': -82}, {'first': -18, 'second': 28}, {'first': 29, 'second': 68}] <br><br>
+				<br> [{'첫 번째': -97, '두 번째': -82}, {'첫 번째': -18, '두 번째': 28}, {'첫 번째': 29, '두 번째': 68}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -18, 'second': 62}, {'first': 83, 'second': 64}, {'first': 12, 'second': 94}, {'first': -32, 'second': 84}, {'first': -95, 'second': 35}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': 62}, {'첫 번째': 83, '두 번째': 64}, {'첫 번째': 12, '두 번째': 94}, {'첫 번째': - 32, '두 번째': 84}, {'첫 번째': -95, '두 번째': 35}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -95, 'second': 35}, {'first': -32, 'second': 84}, {'first': -18, 'second': 62}, {'first': 12, 'second': 94}, {'first': 83, 'second': 64}] <br><br>
+				<br> [{'첫 번째': -95, '두 번째': 35}, {'첫 번째': -32, '두 번째': 84}, {'첫 번째': -18, '두 번째': 62}, {'첫 번째' : 12, '두 번째': 94}, {'첫 번째': 83, '두 번째': 64}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -18, 'second': 96}, {'first': -17, 'second': -54}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': 96}, {'첫 번째': -17, '두 번째': -54}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -18, 'second': 96}, {'first': -17, 'second': -54}] <br><br>
+				<br> [{'첫 번째': -18, '두 번째': 96}, {'첫 번째': -17, '두 번째': -54}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -19, 'second': -19}, {'first': 77, 'second': 63}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': -19}, {'첫 번째': 77, '두 번째': 63}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -19, 'second': -19}, {'first': 77, 'second': 63}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': -19}, {'첫 번째': 77, '두 번째': 63}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -19, 'second': -35}, {'first': 53, 'second': -71}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': -35}, {'첫 번째': 53, '두 번째': -71}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -19, 'second': -35}, {'first': 53, 'second': -71}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': -35}, {'첫 번째': 53, '두 번째': -71}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -19, 'second': -41}, {'first': 61, 'second': -34}, {'first': 95, 'second': -44}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': -41}, {'첫 번째': 61, '두 번째': -34}, {'첫 번째': 95, '두 번째': -44}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -19, 'second': -41}, {'first': 61, 'second': -34}, {'first': 95, 'second': -44}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': -41}, {'첫 번째': 61, '두 번째': -34}, {'첫 번째': 95, '두 번째': -44}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -19, 'second': 25}, {'first': 91, 'second': -87}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': 25}, {'첫 번째': 91, '두 번째': -87}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -19, 'second': 25}, {'first': 91, 'second': -87}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': 25}, {'첫 번째': 91, '두 번째': -87}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -19, 'second': 57}, {'first': 19, 'second': 74}, {'first': 60, 'second': 16}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': 57}, {'첫 번째': 19, '두 번째': 74}, {'첫 번째': 60, '두 번째': 16}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -19, 'second': 57}, {'first': 19, 'second': 74}, {'first': 60, 'second': 16}] <br><br>
+				<br> [{'첫 번째': -19, '두 번째': 57}, {'첫 번째': 19, '두 번째': 74}, {'첫 번째': 60, '두 번째': 16}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -2, 'second': -1}, {'first': 22, 'second': -95}, {'first': 38, 'second': 34}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': -1}, {'첫 번째': 22, '두 번째': -95}, {'첫 번째': 38, '두 번째': 34}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -2, 'second': -1}, {'first': 22, 'second': -95}, {'first': 38, 'second': 34}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': -1}, {'첫 번째': 22, '두 번째': -95}, {'첫 번째': 38, '두 번째': 34}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -2, 'second': -3}, {'first': -11, 'second': 70}, {'first': -22, 'second': 18}, {'first': -4, 'second': 90}, {'first': -27, 'second': 77}, {'first': -1, 'second': 94}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': -3}, {'첫 번째': -11, '두 번째': 70}, {'첫 번째': -22, '두 번째': 18}, {'첫 번째': ': -4, '두 번째': 90}, {'첫 번째': -27, '두 번째': 77}, {'첫 번째': -1, '두 번째': 94}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -27, 'second': 77}, {'first': -22, 'second': 18}, {'first': -11, 'second': 70}, {'first': -4, 'second': 90}, {'first': -2, 'second': -3}, {'first': -1, 'second': 94}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': 77}, {'첫 번째': -22, '두 번째': 18}, {'첫 번째': -11, '두 번째': 70}, {'첫 번째' : -4, '두 번째': 90}, {'첫 번째': -2, '두 번째': -3}, {'첫 번째': -1, '두 번째': 94}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -2, 'second': 12}, {'first': 43, 'second': 97}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': 12}, {'첫 번째': 43, '두 번째': 97}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -2, 'second': 12}, {'first': 43, 'second': 97}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': 12}, {'첫 번째': 43, '두 번째': 97}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -2, 'second': 24}, {'first': -16, 'second': 35}, {'first': -67, 'second': 2}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': 24}, {'첫 번째': -16, '두 번째': 35}, {'첫 번째': -67, '두 번째': 2}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -67, 'second': 2}, {'first': -16, 'second': 35}, {'first': -2, 'second': 24}] <br><br>
+				<br> [{'첫 번째': -67, '두 번째': 2}, {'첫 번째': -16, '두 번째': 35}, {'첫 번째': -2, '두 번째': 24}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -2, 'second': 46}, {'first': -8, 'second': 21}, {'first': 17, 'second': 92}, {'first': -77, 'second': -24}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': 46}, {'첫 번째': -8, '두 번째': 21}, {'첫 번째': 17, '두 번째': 92}, {'첫 번째': -77, '초': -24}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -77, 'second': -24}, {'first': -8, 'second': 21}, {'first': -2, 'second': 46}, {'first': 17, 'second': 92}] <br><br>
+				<br> [{'첫 번째': -77, '두 번째': -24}, {'첫 번째': -8, '두 번째': 21}, {'첫 번째': -2, '두 번째': 46}, {'첫 번째': ': 17, '초': 92}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -2, 'second': 64}, {'first': 76, 'second': -3}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': 64}, {'첫 번째': 76, '두 번째': -3}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -2, 'second': 64}, {'first': 76, 'second': -3}] <br><br>
+				<br> [{'첫 번째': -2, '두 번째': 64}, {'첫 번째': 76, '두 번째': -3}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -20, 'second': -15}, {'first': 54, 'second': 71}, {'first': -95, 'second': 26}, {'first': 7, 'second': 40}, {'first': 10, 'second': 34}, {'first': -71, 'second': -60}, {'first': -39, 'second': -22}, {'first': 75, 'second': 92}] <br><br>
+				<br> [{'첫 번째': -20, '두 번째': -15}, {'첫 번째': 54, '두 번째': 71}, {'첫 번째': -95, '두 번째': 26}, {'첫 번째' : 7, '두 번째': 40}, {'첫 번째': 10, '두 번째': 34}, {'첫 번째': -71, '두 번째': -60}, {'첫 번째': -39, '두 번째 ': -22}, {'첫 번째': 75, '두 번째': 92}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -95, 'second': 26}, {'first': -71, 'second': -60}, {'first': -39, 'second': -22}, {'first': -20, 'second': -15}, {'first': 7, 'second': 40}, {'first': 10, 'second': 34}, {'first': 54, 'second': 71}, {'first': 75, 'second': 92}] <br><br>
+				<br> [{'첫 번째': -95, '두 번째': 26}, {'첫 번째': -71, '두 번째': -60}, {'첫 번째': -39, '두 번째': -22}, {' 첫 번째': -20, '두 번째': -15}, {'첫 번째': 7, '두 번째': 40}, {'첫 번째': 10, '두 번째': 34}, {'첫 번째': 54, ' 초': 71}, {'첫 번째': 75, '두 번째': 92}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -20, 'second': 24}, {'first': 22, 'second': 61}] <br><br>
+				<br> [{'첫 번째': -20, '두 번째': 24}, {'첫 번째': 22, '두 번째': 61}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -20, 'second': 24}, {'first': 22, 'second': 61}] <br><br>
+				<br> [{'첫 번째': -20, '두 번째': 24}, {'첫 번째': 22, '두 번째': 61}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -20, 'second': 68}, {'first': 0, 'second': -99}, {'first': -50, 'second': 40}, {'first': -23, 'second': 72}, {'first': 24, 'second': 17}, {'first': -5, 'second': -48}, {'first': 36, 'second': -76}, {'first': -75, 'second': 87}, {'first': 20, 'second': -86}, {'first': 11, 'second': 99}] <br><br>
+				<br> [{'첫 번째': -20, '두 번째': 68}, {'첫 번째': 0, '두 번째': -99}, {'첫 번째': -50, '두 번째': 40}, {'첫 번째' : -23, '두 번째': 72}, {'첫 번째': 24, '두 번째': 17}, {'첫 번째': -5, '두 번째': -48}, {'첫 번째': 36, '두 번째 ': -76}, {'첫 번째': -75, '두 번째': 87}, {'첫 번째': 20, '두 번째': -86}, {'첫 번째': 11, '두 번째': 99}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -75, 'second': 87}, {'first': -50, 'second': 40}, {'first': -23, 'second': 72}, {'first': -20, 'second': 68}, {'first': -5, 'second': -48}, {'first': 0, 'second': -99}, {'first': 11, 'second': 99}, {'first': 20, 'second': -86}, {'first': 24, 'second': 17}, {'first': 36, 'second': -76}] <br><br>
+				<br> [{'첫 번째': -75, '두 번째': 87}, {'첫 번째': -50, '두 번째': 40}, {'첫 번째': -23, '두 번째': 72}, {'첫 번째' : -20, '두 번째': 68}, {'첫 번째': -5, '두 번째': -48}, {'첫 번째': 0, '두 번째': -99}, {'첫 번째': 11, ' 초': 99}, {'첫 번째': 20, '두 번째': -86}, {'첫 번째': 24, '두 번째': 17}, {'첫 번째': 36, '두 번째': -76}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -20, 'second': 85}, {'first': 40, 'second': -92}] <br><br>
+				<br> [{'첫 번째': -20, '두 번째': 85}, {'첫 번째': 40, '두 번째': -92}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -20, 'second': 85}, {'first': 40, 'second': -92}] <br><br>
+				<br> [{'첫 번째': -20, '두 번째': 85}, {'첫 번째': 40, '두 번째': -92}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -21, 'second': -59}, {'first': -51, 'second': -69}, {'first': -6, 'second': 90}, {'first': 14, 'second': -63}, {'first': -39, 'second': -100}, {'first': 81, 'second': 2}, {'first': -17, 'second': 77}, {'first': 65, 'second': -74}] <br><br>
+				<br> [{'첫 번째': -21, '두 번째': -59}, {'첫 번째': -51, '두 번째': -69}, {'첫 번째': -6, '두 번째': 90}, {' 첫 번째': 14, '두 번째': -63}, {'첫 번째': -39, '두 번째': -100}, {'첫 번째': 81, '두 번째': 2}, {'첫 번째': -17 , '두 번째': 77}, {'첫 번째': 65, '두 번째': -74}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -51, 'second': -69}, {'first': -39, 'second': -100}, {'first': -21, 'second': -59}, {'first': -17, 'second': 77}, {'first': -6, 'second': 90}, {'first': 14, 'second': -63}, {'first': 65, 'second': -74}, {'first': 81, 'second': 2}] <br><br>
+				<br> [{'첫 번째': -51, '두 번째': -69}, {'첫 번째': -39, '두 번째': -100}, {'첫 번째': -21, '두 번째': -59}, { '첫 번째': -17, '두 번째': 77}, {'첫 번째': -6, '두 번째': 90}, {'첫 번째': 14, '두 번째': -63}, {'첫 번째': 65 , '두 번째': -74}, {'첫 번째': 81, '두 번째': 2}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -21, 'second': -92}, {'first': 52, 'second': -60}, {'first': 71, 'second': 36}, {'first': 100, 'second': -52}, {'first': -28, 'second': 80}, {'first': 0, 'second': -97}, {'first': -22, 'second': 16}] <br><br>
+				<br> [{'첫 번째': -21, '두 번째': -92}, {'첫 번째': 52, '두 번째': -60}, {'첫 번째': 71, '두 번째': 36}, {'첫 번째' : 100, '두 번째': -52}, {'첫 번째': -28, '두 번째': 80}, {'첫 번째': 0, '두 번째': -97}, {'첫 번째': -22, ' 초': 16}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -28, 'second': 80}, {'first': -22, 'second': 16}, {'first': -21, 'second': -92}, {'first': 0, 'second': -97}, {'first': 52, 'second': -60}, {'first': 71, 'second': 36}, {'first': 100, 'second': -52}] <br><br>
+				<br> [{'첫 번째': -28, '두 번째': 80}, {'첫 번째': -22, '두 번째': 16}, {'첫 번째': -21, '두 번째': -92}, {'첫 번째': -28 ': 0, '두 번째': -97}, {'첫 번째': 52, '두 번째': -60}, {'첫 번째': 71, '두 번째': 36}, {'첫 번째': 100, '두 번째 ': -52}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -21, 'second': 50}, {'first': 3, 'second': 7}] <br><br>
+				<br> [{'첫 번째': -21, '두 번째': 50}, {'첫 번째': 3, '두 번째': 7}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -21, 'second': 50}, {'first': 3, 'second': 7}] <br><br>
+				<br> [{'첫 번째': -21, '두 번째': 50}, {'첫 번째': 3, '두 번째': 7}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -21, 'second': 96}, {'first': -34, 'second': 79}, {'first': 33, 'second': 52}] <br><br>
+				<br> [{'첫 번째': -21, '두 번째': 96}, {'첫 번째': -34, '두 번째': 79}, {'첫 번째': 33, '두 번째': 52}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -34, 'second': 79}, {'first': -21, 'second': 96}, {'first': 33, 'second': 52}] <br><br>
+				<br> [{'첫 번째': -34, '두 번째': 79}, {'첫 번째': -21, '두 번째': 96}, {'첫 번째': 33, '두 번째': 52}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -22, 'second': -23}, {'first': 31, 'second': 93}, {'first': -77, 'second': 24}, {'first': -4, 'second': -52}] <br><br>
+				<br> [{'첫 번째': -22, '두 번째': -23}, {'첫 번째': 31, '두 번째': 93}, {'첫 번째': -77, '두 번째': 24}, {'첫 번째' : -4, '초': -52}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -77, 'second': 24}, {'first': -22, 'second': -23}, {'first': -4, 'second': -52}, {'first': 31, 'second': 93}] <br><br>
+				<br> [{'첫 번째': -77, '두 번째': 24}, {'첫 번째': -22, '두 번째': -23}, {'첫 번째': -4, '두 번째': -52}, {' 첫 번째': 31, '두 번째': 93}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -22, 'second': -46}, {'first': 25, 'second': -39}, {'first': 75, 'second': -2}] <br><br>
+				<br> [{'첫 번째': -22, '두 번째': -46}, {'첫 번째': 25, '두 번째': -39}, {'첫 번째': 75, '두 번째': -2}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -22, 'second': -46}, {'first': 25, 'second': -39}, {'first': 75, 'second': -2}] <br><br>
+				<br> [{'첫 번째': -22, '두 번째': -46}, {'첫 번째': 25, '두 번째': -39}, {'첫 번째': 75, '두 번째': -2}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -22, 'second': 29}, {'first': 45, 'second': -5}, {'first': 18, 'second': 44}, {'first': 62, 'second': -75}] <br><br>
+				<br> [{'첫 번째': -22, '두 번째': 29}, {'첫 번째': 45, '두 번째': -5}, {'첫 번째': 18, '두 번째': 44}, {'첫 번째': 62, '초': -75}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -22, 'second': 29}, {'first': 18, 'second': 44}, {'first': 45, 'second': -5}, {'first': 62, 'second': -75}] <br><br>
+				<br> [{'첫 번째': -22, '두 번째': 29}, {'첫 번째': 18, '두 번째': 44}, {'첫 번째': 45, '두 번째': -5}, {'첫 번째': 62, '초': -75}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -23, 'second': -12}, {'first': -54, 'second': 55}, {'first': -5, 'second': -80}, {'first': -100, 'second': -38}, {'first': 72, 'second': 99}, {'first': 67, 'second': -22}, {'first': -36, 'second': -13}, {'first': -40, 'second': -71}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': -12}, {'첫 번째': -54, '두 번째': 55}, {'첫 번째': -5, '두 번째': -80}, {' 첫 번째': -100, '두 번째': -38}, {'첫 번째': 72, '두 번째': 99}, {'첫 번째': 67, '두 번째': -22}, {'첫 번째': -36 , '두 번째': -13}, {'첫 번째': -40, '두 번째': -71}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -100, 'second': -38}, {'first': -54, 'second': 55}, {'first': -40, 'second': -71}, {'first': -36, 'second': -13}, {'first': -23, 'second': -12}, {'first': -5, 'second': -80}, {'first': 67, 'second': -22}, {'first': 72, 'second': 99}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': -38}, {'첫 번째': -54, '두 번째': 55}, {'첫 번째': -40, '두 번째': -71}, {' 첫 번째': -36, '두 번째': -13}, {'첫 번째': -23, '두 번째': -12}, {'첫 번째': -5, '두 번째': -80}, {'첫 번째' : 67, '두 번째': -22}, {'첫 번째': 72, '두 번째': 99}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -23, 'second': -18}, {'first': 69, 'second': 73}, {'first': 92, 'second': 62}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': -18}, {'첫 번째': 69, '두 번째': 73}, {'첫 번째': 92, '두 번째': 62}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -23, 'second': -18}, {'first': 69, 'second': 73}, {'first': 92, 'second': 62}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': -18}, {'첫 번째': 69, '두 번째': 73}, {'첫 번째': 92, '두 번째': 62}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -23, 'second': -52}, {'first': -30, 'second': 80}, {'first': -49, 'second': 72}, {'first': -81, 'second': -25}, {'first': 73, 'second': 65}, {'first': -32, 'second': 37}, {'first': 8, 'second': 66}, {'first': 91, 'second': 71}, {'first': 52, 'second': 87}, {'first': -13, 'second': 67}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': -52}, {'첫 번째': -30, '두 번째': 80}, {'첫 번째': -49, '두 번째': 72}, {'첫 번째': ': -81, '두 번째': -25}, {'첫 번째': 73, '두 번째': 65}, {'첫 번째': -32, '두 번째': 37}, {'첫 번째': 8, ' 초': 66}, {'첫 번째': 91, '두 번째': 71}, {'첫 번째': 52, '두 번째': 87}, {'첫 번째': -13, '두 번째': 67}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -81, 'second': -25}, {'first': -49, 'second': 72}, {'first': -32, 'second': 37}, {'first': -30, 'second': 80}, {'first': -23, 'second': -52}, {'first': -13, 'second': 67}, {'first': 8, 'second': 66}, {'first': 52, 'second': 87}, {'first': 73, 'second': 65}, {'first': 91, 'second': 71}] <br><br>
+				<br> [{'첫 번째': -81, '두 번째': -25}, {'첫 번째': -49, '두 번째': 72}, {'첫 번째': -32, '두 번째': 37}, {'첫 번째': ': -30, '두 번째': 80}, {'첫 번째': -23, '두 번째': -52}, {'첫 번째': -13, '두 번째': 67}, {'첫 번째': 8, '두 번째': 66}, {'첫 번째': 52, '두 번째': 87}, {'첫 번째': 73, '두 번째': 65}, {'첫 번째': 91, '두 번째': 71}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -23, 'second': 25}, {'first': 19, 'second': 33}, {'first': 53, 'second': -86}, {'first': -26, 'second': -13}, {'first': -77, 'second': -86}, {'first': -36, 'second': 31}, {'first': 92, 'second': 28}, {'first': -41, 'second': -57}, {'first': 14, 'second': -81}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': 25}, {'첫 번째': 19, '두 번째': 33}, {'첫 번째': 53, '두 번째': -86}, {'첫 번째': -26, '두 번째': -13}, {'첫 번째': -77, '두 번째': -86}, {'첫 번째': -36, '두 번째': 31}, {'첫 번째': 92, ' 초': 28}, {'첫 번째': -41, '두 번째': -57}, {'첫 번째': 14, '두 번째': -81}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -77, 'second': -86}, {'first': -41, 'second': -57}, {'first': -36, 'second': 31}, {'first': -26, 'second': -13}, {'first': -23, 'second': 25}, {'first': 14, 'second': -81}, {'first': 19, 'second': 33}, {'first': 53, 'second': -86}, {'first': 92, 'second': 28}] <br><br>
+				<br> [{'첫 번째': -77, '두 번째': -86}, {'첫 번째': -41, '두 번째': -57}, {'첫 번째': -36, '두 번째': 31}, {' 첫 번째': -26, '두 번째': -13}, {'첫 번째': -23, '두 번째': 25}, {'첫 번째': 14, '두 번째': -81}, {'첫 번째': 19 , '두 번째': 33}, {'첫 번째': 53, '두 번째': -86}, {'첫 번째': 92, '두 번째': 28}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -23, 'second': 26}, {'first': 23, 'second': 5}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': 26}, {'첫 번째': 23, '두 번째': 5}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -23, 'second': 26}, {'first': 23, 'second': 5}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': 26}, {'첫 번째': 23, '두 번째': 5}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -23, 'second': 2}, {'first': 19, 'second': 71}, {'first': 15, 'second': 46}, {'first': 13, 'second': -2}, {'first': 59, 'second': 87}, {'first': 85, 'second': -100}, {'first': -100, 'second': -23}] <br><br>
+				<br> [{'첫 번째': -23, '두 번째': 2}, {'첫 번째': 19, '두 번째': 71}, {'첫 번째': 15, '두 번째': 46}, {'첫 번째': 13 , '두 번째': -2}, {'첫 번째': 59, '두 번째': 87}, {'첫 번째': 85, '두 번째': -100}, {'첫 번째': -100, '두 번째': -23}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -100, 'second': -23}, {'first': -23, 'second': 2}, {'first': 13, 'second': -2}, {'first': 15, 'second': 46}, {'first': 19, 'second': 71}, {'first': 59, 'second': 87}, {'first': 85, 'second': -100}] <br><br>
+				<br> [{'첫 번째': -100, '두 번째': -23}, {'첫 번째': -23, '두 번째': 2}, {'첫 번째': 13, '두 번째': -2}, {'첫 번째': -2} ': 15, '두 번째': 46}, {'첫 번째': 19, '두 번째': 71}, {'첫 번째': 59, '두 번째': 87}, {'첫 번째': 85, '두 번째': -100}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': -4}, {'first': -68, 'second': 79}, {'first': -78, 'second': 13}, {'first': -40, 'second': 80}, {'first': 81, 'second': 0}, {'first': -18, 'second': 18}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': -4}, {'첫 번째': -68, '두 번째': 79}, {'첫 번째': -78, '두 번째': 13}, {'첫 번째': ': -40, '두 번째': 80}, {'첫 번째': 81, '두 번째': 0}, {'첫 번째': -18, '두 번째': 18}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -78, 'second': 13}, {'first': -68, 'second': 79}, {'first': -40, 'second': 80}, {'first': -24, 'second': -4}, {'first': -18, 'second': 18}, {'first': 81, 'second': 0}] <br><br>
+				<br> [{'첫 번째': -78, '두 번째': 13}, {'첫 번째': -68, '두 번째': 79}, {'첫 번째': -40, '두 번째': 80}, {'첫 번째' : -24, '두 번째': -4}, {'첫 번째': -18, '두 번째': 18}, {'첫 번째': 81, '두 번째': 0}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': -83}, {'first': 67, 'second': 6}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': -83}, {'첫 번째': 67, '두 번째': 6}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -24, 'second': -83}, {'first': 67, 'second': 6}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': -83}, {'첫 번째': 67, '두 번째': 6}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': 32}, {'first': -18, 'second': 66}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 32}, {'첫 번째': -18, '두 번째': 66}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -24, 'second': 32}, {'first': -18, 'second': 66}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 32}, {'첫 번째': -18, '두 번째': 66}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': 3}, {'first': -65, 'second': -49}, {'first': 19, 'second': -51}, {'first': -5, 'second': -4}, {'first': 11, 'second': -3}, {'first': 61, 'second': -78}, {'first': 2, 'second': 93}, {'first': 73, 'second': -17}, {'first': -82, 'second': 63}, {'first': -82, 'second': -44}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 3}, {'첫 번째': -65, '두 번째': -49}, {'첫 번째': 19, '두 번째': -51}, {'첫 번째': -51} ': -5, '두 번째': -4}, {'첫 번째': 11, '두 번째': -3}, {'첫 번째': 61, '두 번째': -78}, {'첫 번째': 2, '두 번째': 93}, {'첫 번째': 73, '두 번째': -17}, {'첫 번째': -82, '두 번째': 63}, {'첫 번째': -82, '두 번째': - 44}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -82, 'second': -44}, {'first': -82, 'second': 63}, {'first': -65, 'second': -49}, {'first': -24, 'second': 3}, {'first': -5, 'second': -4}, {'first': 2, 'second': 93}, {'first': 11, 'second': -3}, {'first': 19, 'second': -51}, {'first': 61, 'second': -78}, {'first': 73, 'second': -17}] <br><br>
+				<br> [{'첫 번째': -82, '두 번째': -44}, {'첫 번째': -82, '두 번째': 63}, {'첫 번째': -65, '두 번째': -49}, {' 첫 번째': -24, '두 번째': 3}, {'첫 번째': -5, '두 번째': -4}, {'첫 번째': 2, '두 번째': 93}, {'첫 번째': 11, '두 번째': -3}, {'첫 번째': 19, '두 번째': -51}, {'첫 번째': 61, '두 번째': -78}, {'첫 번째': 73, '두 번째': - 17}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': 42}, {'first': -91, 'second': -98}, {'first': 76, 'second': -71}, {'first': 43, 'second': 68}, {'first': -87, 'second': 44}, {'first': -23, 'second': -79}, {'first': -12, 'second': 85}, {'first': 67, 'second': 31}, {'first': -70, 'second': 46}, {'first': 69, 'second': 69}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 42}, {'첫 번째': -91, '두 번째': -98}, {'첫 번째': 76, '두 번째': -71}, {'첫 번째': -71 ': 43, '두 번째': 68}, {'첫 번째': -87, '두 번째': 44}, {'첫 번째': -23, '두 번째': -79}, {'첫 번째': -12, '두 번째': 85}, {'첫 번째': 67, '두 번째': 31}, {'첫 번째': -70, '두 번째': 46}, {'첫 번째': 69, '두 번째': 69}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -91, 'second': -98}, {'first': -87, 'second': 44}, {'first': -70, 'second': 46}, {'first': -24, 'second': 42}, {'first': -23, 'second': -79}, {'first': -12, 'second': 85}, {'first': 43, 'second': 68}, {'first': 67, 'second': 31}, {'first': 69, 'second': 69}, {'first': 76, 'second': -71}] <br><br>
+				<br> [{'첫 번째': -91, '두 번째': -98}, {'첫 번째': -87, '두 번째': 44}, {'첫 번째': -70, '두 번째': 46}, {'첫 번째': ': -24, '두 번째': 42}, {'첫 번째': -23, '두 번째': -79}, {'첫 번째': -12, '두 번째': 85}, {'첫 번째': 43, '두 번째': 68}, {'첫 번째': 67, '두 번째': 31}, {'첫 번째': 69, '두 번째': 69}, {'첫 번째': 76, '두 번째': -71}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': 70}, {'first': -82, 'second': 87}, {'first': 67, 'second': -44}, {'first': -99, 'second': 9}, {'first': 80, 'second': -43}, {'first': 16, 'second': 43}, {'first': 39, 'second': 73}, {'first': -50, 'second': 58}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 70}, {'첫 번째': -82, '두 번째': 87}, {'첫 번째': 67, '두 번째': -44}, {'첫 번째' : -99, '두 번째': 9}, {'첫 번째': 80, '두 번째': -43}, {'첫 번째': 16, '두 번째': 43}, {'첫 번째': 39, '두 번째' : 73}, {'첫 번째': -50, '두 번째': 58}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -99, 'second': 9}, {'first': -82, 'second': 87}, {'first': -50, 'second': 58}, {'first': -24, 'second': 70}, {'first': 16, 'second': 43}, {'first': 39, 'second': 73}, {'first': 67, 'second': -44}, {'first': 80, 'second': -43}] <br><br>
+				<br> [{'첫 번째': -99, '두 번째': 9}, {'첫 번째': -82, '두 번째': 87}, {'첫 번째': -50, '두 번째': 58}, {'첫 번째' : -24, '두 번째': 70}, {'첫 번째': 16, '두 번째': 43}, {'첫 번째': 39, '두 번째': 73}, {'첫 번째': 67, '두 번째': -44}, {'첫 번째': 80, '두 번째': -43}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': 85}, {'first': 63, 'second': -43}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 85}, {'첫 번째': 63, '두 번째': -43}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -24, 'second': 85}, {'first': 63, 'second': -43}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 85}, {'첫 번째': 63, '두 번째': -43}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -24, 'second': 93}, {'first': -19, 'second': 23}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 93}, {'첫 번째': -19, '두 번째': 23}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -24, 'second': 93}, {'first': -19, 'second': 23}] <br><br>
+				<br> [{'첫 번째': -24, '두 번째': 93}, {'첫 번째': -19, '두 번째': 23}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -25, 'second': -21}, {'first': -34, 'second': -100}, {'first': -37, 'second': -100}, {'first': 8, 'second': 73}, {'first': -99, 'second': 14}, {'first': 92, 'second': 2}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': -21}, {'첫 번째': -34, '두 번째': -100}, {'첫 번째': -37, '두 번째': -100}, { '첫 번째': 8, '두 번째': 73}, {'첫 번째': -99, '두 번째': 14}, {'첫 번째': 92, '두 번째': 2}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -99, 'second': 14}, {'first': -37, 'second': -100}, {'first': -34, 'second': -100}, {'first': -25, 'second': -21}, {'first': 8, 'second': 73}, {'first': 92, 'second': 2}] <br><br>
+				<br> [{'첫 번째': -99, '두 번째': 14}, {'첫 번째': -37, '두 번째': -100}, {'첫 번째': -34, '두 번째': -100}, {' 첫 번째': -25, '두 번째': -21}, {'첫 번째': 8, '두 번째': 73}, {'첫 번째': 92, '두 번째': 2}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -25, 'second': -62}, {'first': -16, 'second': 97}, {'first': 33, 'second': 79}, {'first': -95, 'second': -39}, {'first': -68, 'second': -61}, {'first': 46, 'second': 15}, {'first': -51, 'second': -26}, {'first': 86, 'second': -1}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': -62}, {'첫 번째': -16, '두 번째': 97}, {'첫 번째': 33, '두 번째': 79}, {'첫 번째' : -95, '두 번째': -39}, {'첫 번째': -68, '두 번째': -61}, {'첫 번째': 46, '두 번째': 15}, {'첫 번째': -51, '두 번째': -26}, {'첫 번째': 86, '두 번째': -1}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -95, 'second': -39}, {'first': -68, 'second': -61}, {'first': -51, 'second': -26}, {'first': -25, 'second': -62}, {'first': -16, 'second': 97}, {'first': 33, 'second': 79}, {'first': 46, 'second': 15}, {'first': 86, 'second': -1}] <br><br>
+				<br> [{'첫 번째': -95, '두 번째': -39}, {'첫 번째': -68, '두 번째': -61}, {'첫 번째': -51, '두 번째': -26}, { '첫 번째': -25, '두 번째': -62}, {'첫 번째': -16, '두 번째': 97}, {'첫 번째': 33, '두 번째': 79}, {'첫 번째': 46 , '두 번째': 15}, {'첫 번째': 86, '두 번째': -1}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -25, 'second': -62}, {'first': -5, 'second': 61}, {'first': 53, 'second': 64}, {'first': 66, 'second': 94}, {'first': 95, 'second': -10}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': -62}, {'첫 번째': -5, '두 번째': 61}, {'첫 번째': 53, '두 번째': 64}, {'첫 번째' : 66, '두 번째': 94}, {'첫 번째': 95, '두 번째': -10}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -25, 'second': -62}, {'first': -5, 'second': 61}, {'first': 53, 'second': 64}, {'first': 66, 'second': 94}, {'first': 95, 'second': -10}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': -62}, {'첫 번째': -5, '두 번째': 61}, {'첫 번째': 53, '두 번째': 64}, {'첫 번째' : 66, '두 번째': 94}, {'첫 번째': 95, '두 번째': -10}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -25, 'second': 32}, {'first': -57, 'second': 49}, {'first': 42, 'second': -81}, {'first': 4, 'second': -65}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': 32}, {'첫 번째': -57, '두 번째': 49}, {'첫 번째': 42, '두 번째': -81}, {'첫 번째' : 4, '초': -65}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -57, 'second': 49}, {'first': -25, 'second': 32}, {'first': 4, 'second': -65}, {'first': 42, 'second': -81}] <br><br>
+				<br> [{'첫 번째': -57, '두 번째': 49}, {'첫 번째': -25, '두 번째': 32}, {'첫 번째': 4, '두 번째': -65}, {'첫 번째' : 42, '초': -81}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -25, 'second': 76}, {'first': -98, 'second': -99}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': 76}, {'첫 번째': -98, '두 번째': -99}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -98, 'second': -99}, {'first': -25, 'second': 76}] <br><br>
+				<br> [{'첫 번째': -98, '두 번째': -99}, {'첫 번째': -25, '두 번째': 76}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -25, 'second': 77}, {'first': 29, 'second': 48}, {'first': 23, 'second': 73}, {'first': -99, 'second': -27}, {'first': -93, 'second': -65}, {'first': 89, 'second': 15}, {'first': -40, 'second': 68}, {'first': -60, 'second': 62}, {'first': 93, 'second': -60}, {'first': 32, 'second': -28}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': 77}, {'첫 번째': 29, '두 번째': 48}, {'첫 번째': 23, '두 번째': 73}, {'첫 번째': - 99, '두 번째': -27}, {'첫 번째': -93, '두 번째': -65}, {'첫 번째': 89, '두 번째': 15}, {'첫 번째': -40, '두 번째 ': 68}, {'첫 번째': -60, '두 번째': 62}, {'첫 번째': 93, '두 번째': -60}, {'첫 번째': 32, '두 번째': -28}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -99, 'second': -27}, {'first': -93, 'second': -65}, {'first': -60, 'second': 62}, {'first': -40, 'second': 68}, {'first': -25, 'second': 77}, {'first': 23, 'second': 73}, {'first': 29, 'second': 48}, {'first': 32, 'second': -28}, {'first': 89, 'second': 15}, {'first': 93, 'second': -60}] <br><br>
+				<br> [{'첫 번째': -99, '두 번째': -27}, {'첫 번째': -93, '두 번째': -65}, {'첫 번째': -60, '두 번째': 62}, {' 첫 번째': -40, '두 번째': 68}, {'첫 번째': -25, '두 번째': 77}, {'첫 번째': 23, '두 번째': 73}, {'첫 번째': 29, ' 초': 48}, {'첫 번째': 32, '두 번째': -28}, {'첫 번째': 89, '두 번째': 15}, {'첫 번째': 93, '두 번째': -60}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -25, 'second': 82}, {'first': 81, 'second': 54}, {'first': 19, 'second': 55}, {'first': -90, 'second': 72}, {'first': 10, 'second': -58}] <br><br>
+				<br> [{'첫 번째': -25, '두 번째': 82}, {'첫 번째': 81, '두 번째': 54}, {'첫 번째': 19, '두 번째': 55}, {'첫 번째': - 90, '두 번째': 72}, {'첫 번째': 10, '두 번째': -58}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -90, 'second': 72}, {'first': -25, 'second': 82}, {'first': 10, 'second': -58}, {'first': 19, 'second': 55}, {'first': 81, 'second': 54}] <br><br>
+				<br> [{'첫 번째': -90, '두 번째': 72}, {'첫 번째': -25, '두 번째': 82}, {'첫 번째': 10, '두 번째': -58}, {'첫 번째' : 19, '두 번째': 55}, {'첫 번째': 81, '두 번째': 54}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -26, 'second': -11}, {'first': -58, 'second': 52}, {'first': 83, 'second': 98}, {'first': -88, 'second': -99}, {'first': -3, 'second': -36}, {'first': -70, 'second': -95}, {'first': -64, 'second': 78}] <br><br>
+				<br> [{'첫 번째': -26, '두 번째': -11}, {'첫 번째': -58, '두 번째': 52}, {'첫 번째': 83, '두 번째': 98}, {'첫 번째' : -88, '두 번째': -99}, {'첫 번째': -3, '두 번째': -36}, {'첫 번째': -70, '두 번째': -95}, {'첫 번째': - 64, '초': 78}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -88, 'second': -99}, {'first': -70, 'second': -95}, {'first': -64, 'second': 78}, {'first': -58, 'second': 52}, {'first': -26, 'second': -11}, {'first': -3, 'second': -36}, {'first': 83, 'second': 98}] <br><br>
+				<br> [{'첫 번째': -88, '두 번째': -99}, {'첫 번째': -70, '두 번째': -95}, {'첫 번째': -64, '두 번째': 78}, {' 첫 번째': -58, '두 번째': 52}, {'첫 번째': -26, '두 번째': -11}, {'첫 번째': -3, '두 번째': -36}, {'첫 번째': 83, '초': 98}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -26, 'second': -14}, {'first': 19, 'second': 6}, {'first': 62, 'second': 78}] <br><br>
+				<br> [{'첫 번째': -26, '두 번째': -14}, {'첫 번째': 19, '두 번째': 6}, {'첫 번째': 62, '두 번째': 78}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -26, 'second': -14}, {'first': 19, 'second': 6}, {'first': 62, 'second': 78}] <br><br>
+				<br> [{'첫 번째': -26, '두 번째': -14}, {'첫 번째': 19, '두 번째': 6}, {'첫 번째': 62, '두 번째': 78}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -26, 'second': 28}, {'first': 6, 'second': -55}, {'first': -88, 'second': 77}] <br><br>
+				<br> [{'첫 번째': -26, '두 번째': 28}, {'첫 번째': 6, '두 번째': -55}, {'첫 번째': -88, '두 번째': 77}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -88, 'second': 77}, {'first': -26, 'second': 28}, {'first': 6, 'second': -55}] <br><br>
+				<br> [{'첫 번째': -88, '두 번째': 77}, {'첫 번째': -26, '두 번째': 28}, {'첫 번째': 6, '두 번째': -55}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -26, 'second': 96}, {'first': 53, 'second': -27}] <br><br>
+				<br> [{'첫 번째': -26, '두 번째': 96}, {'첫 번째': 53, '두 번째': -27}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -26, 'second': 96}, {'first': 53, 'second': -27}] <br><br>
+				<br> [{'첫 번째': -26, '두 번째': 96}, {'첫 번째': 53, '두 번째': -27}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -27, 'second': -10}, {'first': -70, 'second': -17}, {'first': 75, 'second': 96}, {'first': -61, 'second': 17}, {'first': -77, 'second': -55}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': -10}, {'첫 번째': -70, '두 번째': -17}, {'첫 번째': 75, '두 번째': 96}, {'첫 번째': ': -61, '두 번째': 17}, {'첫 번째': -77, '두 번째': -55}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -77, 'second': -55}, {'first': -70, 'second': -17}, {'first': -61, 'second': 17}, {'first': -27, 'second': -10}, {'first': 75, 'second': 96}] <br><br>
+				<br> [{'첫 번째': -77, '두 번째': -55}, {'첫 번째': -70, '두 번째': -17}, {'첫 번째': -61, '두 번째': 17}, {' 첫 번째': -27, '두 번째': -10}, {'첫 번째': 75, '두 번째': 96}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -27, 'second': -18}, {'first': 10, 'second': 69}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': -18}, {'첫 번째': 10, '두 번째': 69}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -27, 'second': -18}, {'first': 10, 'second': 69}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': -18}, {'첫 번째': 10, '두 번째': 69}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -27, 'second': -27}, {'first': 27, 'second': -50}, {'first': 72, 'second': 52}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': -27}, {'첫 번째': 27, '두 번째': -50}, {'첫 번째': 72, '두 번째': 52}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -27, 'second': -27}, {'first': 27, 'second': -50}, {'first': 72, 'second': 52}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': -27}, {'첫 번째': 27, '두 번째': -50}, {'첫 번째': 72, '두 번째': 52}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -27, 'second': -40}, {'first': 85, 'second': 28}, {'first': -25, 'second': -23}, {'first': -28, 'second': -56}, {'first': -63, 'second': -36}, {'first': -56, 'second': -50}, {'first': -16, 'second': -22}, {'first': 99, 'second': -6}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': -40}, {'첫 번째': 85, '두 번째': 28}, {'첫 번째': -25, '두 번째': -23}, {'첫 번째': -23 ': -28, '두 번째': -56}, {'첫 번째': -63, '두 번째': -36}, {'첫 번째': -56, '두 번째': -50}, {'첫 번째': -16, '두 번째': -22}, {'첫 번째': 99, '두 번째': -6}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -63, 'second': -36}, {'first': -56, 'second': -50}, {'first': -28, 'second': -56}, {'first': -27, 'second': -40}, {'first': -25, 'second': -23}, {'first': -16, 'second': -22}, {'first': 85, 'second': 28}, {'first': 99, 'second': -6}] <br><br>
+				<br> [{'첫 번째': -63, '두 번째': -36}, {'첫 번째': -56, '두 번째': -50}, {'첫 번째': -28, '두 번째': -56}, { '첫 번째': -27, '두 번째': -40}, {'첫 번째': -25, '두 번째': -23}, {'첫 번째': -16, '두 번째': -22}, {'첫 번째': -27 ': 85, '두 번째': 28}, {'첫 번째': 99, '두 번째': -6}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -27, 'second': 47}, {'first': -40, 'second': -30}, {'first': -42, 'second': 93}, {'first': 31, 'second': 36}, {'first': -34, 'second': 75}] <br><br>
+				<br> [{'첫 번째': -27, '두 번째': 47}, {'첫 번째': -40, '두 번째': -30}, {'첫 번째': -42, '두 번째': 93}, {'첫 번째': ': 31, '두 번째': 36}, {'첫 번째': -34, '두 번째': 75}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -42, 'second': 93}, {'first': -40, 'second': -30}, {'first': -34, 'second': 75}, {'first': -27, 'second': 47}, {'first': 31, 'second': 36}] <br><br>
+				<br> [{'첫 번째': -42, '두 번째': 93}, {'첫 번째': -40, '두 번째': -30}, {'첫 번째': -34, '두 번째': 75}, {'첫 번째': ': -27, '두 번째': 47}, {'첫 번째': 31, '두 번째': 36}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -28, 'second': -79}, {'first': -39, 'second': 47}, {'first': -78, 'second': 91}, {'first': -90, 'second': -61}, {'first': -37, 'second': -9}] <br><br>
+				<br> [{'첫 번째': -28, '두 번째': -79}, {'첫 번째': -39, '두 번째': 47}, {'첫 번째': -78, '두 번째': 91}, {'첫 번째': ': -90, '두 번째': -61}, {'첫 번째': -37, '두 번째': -9}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -90, 'second': -61}, {'first': -78, 'second': 91}, {'first': -39, 'second': 47}, {'first': -37, 'second': -9}, {'first': -28, 'second': -79}] <br><br>
+				<br> [{'첫 번째': -90, '두 번째': -61}, {'첫 번째': -78, '두 번째': 91}, {'첫 번째': -39, '두 번째': 47}, {'첫 번째': ': -37, '두 번째': -9}, {'첫 번째': -28, '두 번째': -79}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -28, 'second': 85}, {'first': -6, 'second': 13}] <br><br>
+				<br> [{'첫 번째': -28, '두 번째': 85}, {'첫 번째': -6, '두 번째': 13}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -28, 'second': 85}, {'first': -6, 'second': 13}] <br><br>
+				<br> [{'첫 번째': -28, '두 번째': 85}, {'첫 번째': -6, '두 번째': 13}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -29, 'second': -43}, {'first': -10, 'second': 100}] <br><br>
+				<br> [{'첫 번째': -29, '두 번째': -43}, {'첫 번째': -10, '두 번째': 100}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -29, 'second': -43}, {'first': -10, 'second': 100}] <br><br>
+				<br> [{'첫 번째': -29, '두 번째': -43}, {'첫 번째': -10, '두 번째': 100}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -29, 'second': 25}, {'first': -1, 'second': -97}, {'first': 7, 'second': -9}, {'first': 19, 'second': 87}, {'first': 53, 'second': 51}] <br><br>
+				<br> [{'첫 번째': -29, '두 번째': 25}, {'첫 번째': -1, '두 번째': -97}, {'첫 번째': 7, '두 번째': -9}, {'첫 번째': ': 19, '두 번째': 87}, {'첫 번째': 53, '두 번째': 51}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -29, 'second': 25}, {'first': -1, 'second': -97}, {'first': 7, 'second': -9}, {'first': 19, 'second': 87}, {'first': 53, 'second': 51}] <br><br>
+				<br> [{'첫 번째': -29, '두 번째': 25}, {'첫 번째': -1, '두 번째': -97}, {'첫 번째': 7, '두 번째': -9}, {'첫 번째': ': 19, '두 번째': 87}, {'첫 번째': 53, '두 번째': 51}] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [{'first': -29, 'second': 31}, {'first': -74, 'second': -63}, {'first': -50, 'second': 79}, {'first': 95, 'second': -10}, {'first': -78, 'second': 98}] <br><br>
+				<br> [{'첫 번째': -29, '두 번째': 31}, {'첫 번째': -74, '두 번째': -63}, {'첫 번째': -50, '두 번째': 79}, {'첫 번째': ': 95, '두 번째': -10}, {'첫 번째': -78, '두 번째': 98}] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> [{'first': -78, 'second': 98}, {'first': -74, 'second': -63}, {'first': -50, 'second': 79}, {'first': -29, 'second': 31}, {'first': 95, 'second': -10}] <br><br>
+				<br> [{'첫 번째': -78, '두 번째': 98}, {'첫 번째': -74, '두 번째': -63}, {'첫 번째': -50, '두 번째': 79}, {'첫 번째': ': -29, '두 번째': 31}, {'첫 번째': 95, '두 번째': -10}] <br><br>
+			</td>
+		</tr>
+	</table>

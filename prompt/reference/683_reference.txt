@@ -27,3 +27,1773 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The site collects your IP address or device IDs for advertising. Collection happens when you implicitly provide information on the website. <br><br>
+				<br> 사이트는 광고를 위해 귀하의 IP 주소 또는 장치 ID를 수집합니다. 수집은 귀하가 웹사이트에 정보를 암시적으로 제공할 때 발생합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Another part of the company or institution does not do something outside of our label scheme with your unspecified personal information for a basic service or feature. The data is personally identifiable. <br><br>
+				<br> 회사 또는 기관의 다른 부분은 기본적인 서비스 또는 기능을 위해 귀하의 불특정 개인 정보로 당사 레이블 체계 이외의 작업을 수행하지 않습니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> You can use privacy configuration settings (in your browser or on your device) to control the use of location information by an unspecified party for an unspecified purpose. <br><br>
+				<br> 개인 정보 구성 설정(브라우저 또는 장치에서)을 사용하여 불특정인이 불특정 목적으로 위치 정보를 사용하는 것을 제어할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> Location <br><br>
+				<br> 위치 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> An unnamed third party does receive unspecified information about you for legal requirements. The data is personally identifiable. <br><br>
+				<br> 익명의 제3자는 법적 요구 사항을 위해 귀하에 대한 불특정 정보를 수신합니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app unspecified information about you for an unspecified purpose. <br><br>
+				<br> 지명된 제3자는 불특정 목적으로 귀하에 대한 불특정 정보를 제1자 웹사이트 또는 앱에서 수집합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app unspecified information about you for analytics or research. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 분석 또는 연구를 위해 귀하에 대한 불특정 정보를 제1자 웹사이트 또는 앱에서 수집합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app unspecified information about you for analytics or research. The data is aggregated or anonymized. You can configure your privacy with browser settings. <br><br>
+				<br> 지명된 제3자는 분석 또는 연구를 위해 귀하에 대한 불특정 정보를 제1자 웹사이트 또는 앱에서 수집합니다. 데이터는 집계되거나 익명화됩니다. 브라우저 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app unspecified information about you for service operations or security. <br><br>
+				<br> 지정된 제3자는 서비스 운영 또는 보안을 위해 귀하에 대한 불특정 정보를 제1자 웹사이트 또는 앱에서 수집합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> Service operation and security <br><br>
+				<br> 서비스 운영 및 보안 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app unspecified information about you for service operations or security. The data is aggregated or anonymized. <br><br>
+				<br> 지정된 제3자는 서비스 운영 또는 보안을 위해 귀하에 대한 불특정 정보를 제1자 웹사이트 또는 앱에서 수집합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> Service operation and security <br><br>
+				<br> 서비스 운영 및 보안 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your IP address or device IDs for an unspecified purpose. <br><br>
+				<br> 지명된 제3자는 불특정 목적으로 자사 웹사이트 또는 앱에서 귀하의 IP 주소 또는 장치 ID를 수집합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your IP address or device IDs for analytics or research. <br><br>
+				<br> 지정된 제3자는 분석 또는 연구를 위해 자사 웹사이트 또는 앱에서 귀하의 IP 주소 또는 장치 ID를 수집합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your IP address or device IDs for analytics or research. The data is aggregated or anonymized. <br><br>
+				<br> 지정된 제3자는 분석 또는 연구를 위해 자사 웹사이트 또는 앱에서 귀하의 IP 주소 또는 장치 ID를 수집합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your cookies or tracking elements for a purpose outside of our label scheme. <br><br>
+				<br> 지명된 제3자는 자사 웹사이트 또는 앱에서 당사 라벨 체계 이외의 목적으로 귀하의 쿠키 또는 추적 요소를 수집합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> Other <br><br>
+				<br> 다른 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your cookies or tracking elements for targeted advertising. <br><br>
+				<br> 지명된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 추적 요소를 수집합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your cookies or tracking elements for targeted advertising. The data is personally identifiable. You can configure your privacy with third-party user settings. <br><br>
+				<br> 지명된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 추적 요소를 수집합니다. 데이터는 개인 식별이 가능합니다. 타사 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your cookies or tracking elements for targeted advertising. You can configure your privacy with browser settings for the collection or sharing of your information. <br><br>
+				<br> 지명된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 추적 요소를 수집합니다. 정보 수집 또는 공유에 대한 브라우저 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your cookies or tracking elements for targeted advertising. You can opt out using the provided link for the use of your information. <br><br>
+				<br> 지명된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 추적 요소를 수집합니다. 귀하는 귀하의 정보 사용을 위해 제공된 링크를 사용하여 거부할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your unspecified personal information for a basic service or feature. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 기본 서비스 또는 기능을 위해 귀하의 불특정 개인 정보를 수집합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your unspecified personal information for marketing purposes. The data is personally identifiable. You can opt in for data collection for the collection or sharing of your information. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 마케팅 목적으로 불특정 개인 정보를 수집합니다. 데이터는 개인 식별이 가능합니다. 정보 수집 또는 공유를 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your unspecified personal information for targeted advertising. The data is aggregated or anonymized. You can configure your privacy with browser settings. <br><br>
+				<br> 지정된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 불특정 개인 정보를 수집합니다. 데이터는 집계되거나 익명화됩니다. 브라우저 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does collect on the first party website or app your user profile for an additional (non-basic) service or feature. You can opt in for data collection for the collection or sharing of your information. <br><br>
+				<br> 지명된 제3자는 자사 웹사이트 또는 앱에서 추가(비기본) 서비스 또는 기능을 위해 귀하의 사용자 프로필을 수집합니다. 정보 수집 또는 공유를 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something outside of our label scheme with information about you not covered by our label scheme for analytics or research. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 분석 또는 연구를 위해 당사의 레이블 체계에 포함되지 않은 귀하에 대한 정보를 사용하여 당사의 레이블 체계를 벗어난 작업을 수행합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something outside of our label scheme with your contact information for an unspecified purpose. <br><br>
+				<br> 지명된 제3자는 지정되지 않은 목적으로 귀하의 연락처 정보를 사용하여 당사 라벨 체계를 벗어난 작업을 수행합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something outside of our label scheme with your cookies or tracking elements for targeted advertising. <br><br>
+				<br> 지명된 제3자는 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 사용하여 당사의 라벨 체계를 벗어난 작업을 수행합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something outside of our label scheme with your cookies or tracking elements for targeted advertising. You can configure your privacy with third-party user settings. <br><br>
+				<br> 지명된 제3자는 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 사용하여 당사의 라벨 체계를 벗어난 작업을 수행합니다. 타사 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something outside of our label scheme with your cookies or tracking elements for targeted advertising. You can opt in for data collection for the collection or sharing of your information. <br><br>
+				<br> 지명된 제3자는 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 사용하여 당사의 라벨 체계를 벗어난 작업을 수행합니다. 정보 수집 또는 공유를 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something outside of our label scheme with your unspecified personal information for an additional (non-basic) service or feature. This applies to users with accounts. The data is aggregated or anonymized. You can opt in for data collection for the collection or sharing of your information. <br><br>
+				<br> 지명된 제3자는 추가(기본이 아닌) 서비스 또는 기능을 위해 귀하의 불특정 개인 정보를 사용하여 레이블 체계를 벗어난 작업을 수행합니다. 이는 계정이 있는 사용자에게 적용됩니다. 데이터는 집계되거나 익명화됩니다. 정보 수집 또는 공유를 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something outside of our label scheme with your user profile for an unspecified purpose. This applies to users with accounts. The data is aggregated or anonymized. You can opt in for data collection for the collection or sharing of your information. <br><br>
+				<br> 지명된 제3자는 지정되지 않은 목적으로 귀하의 사용자 프로필을 사용하여 당사 레이블 체계를 벗어난 작업을 수행합니다. 이는 계정이 있는 사용자에게 적용됩니다. 데이터는 집계되거나 익명화됩니다. 정보 수집 또는 공유를 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something unspecified with unspecified information about you for analytics or research. <br><br>
+				<br> 명명된 제3자는 분석 또는 연구를 위해 귀하에 대한 불특정 정보로 불특정 작업을 수행합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something unspecified with unspecified information about you for marketing purposes. This applies to users with accounts. <br><br>
+				<br> 지명된 제3자는 마케팅 목적으로 귀하에 대한 불특정 정보로 불특정 행위를 합니다. 이는 계정이 있는 사용자에게 적용됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something unspecified with your IP address or device IDs for analytics or research. <br><br>
+				<br> 명명된 제3자는 분석 또는 연구를 위해 귀하의 IP 주소 또는 장치 ID로 지정되지 않은 작업을 수행합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something unspecified with your activities on the website or app for analytics or research. You can configure your privacy with user settings provided by the site. <br><br>
+				<br> 지명된 제3자는 분석 또는 연구를 위해 웹사이트 또는 앱에서 귀하의 활동에 대해 명시되지 않은 작업을 수행합니다. 사이트에서 제공하는 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something unspecified with your financial information for a basic service or feature. You can opt in for data collection for the collection or sharing of your information. <br><br>
+				<br> 지명된 제3자는 기본 서비스 또는 기능을 위해 귀하의 재무 정보로 지정되지 않은 작업을 수행합니다. 정보 수집 또는 공유를 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does do something unspecified with your unspecified personal information for a basic service or feature. <br><br>
+				<br> 지정되지 않은 제3자는 기본 서비스 또는 기능을 위해 귀하의 불특정 개인 정보로 명시되지 않은 작업을 수행합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does not receive your contact information for marketing purposes. This applies to users with accounts. You can configure your privacy with user settings provided by the site for the use of your information. <br><br>
+				<br> 지명된 제3자는 마케팅 목적으로 귀하의 연락처 정보를 받지 않습니다. 이는 계정이 있는 사용자에게 적용됩니다. 귀하는 귀하의 정보 사용을 위해 사이트에서 제공하는 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does not receive your contact information for marketing purposes. You can opt out by contacting the company. <br><br>
+				<br> 지명된 제3자는 마케팅 목적으로 귀하의 연락처 정보를 받지 않습니다. 회사에 연락하여 탈퇴할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive information about you not covered by our label scheme for a basic service or feature. <br><br>
+				<br> 지명된 제3자는 기본 서비스 또는 기능에 대한 당사의 레이블 체계에 포함되지 않는 귀하에 대한 정보를 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive information about you not covered by our label scheme for a purpose outside of our label scheme. <br><br>
+				<br> 지명된 제3자는 당사 레이블 체계 이외의 목적으로 당사 레이블 체계에 포함되지 않은 귀하에 대한 정보를 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> Other <br><br>
+				<br> 다른 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive information about you not covered by our label scheme for a purpose outside of our label scheme. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 당사 레이블 체계 이외의 목적으로 당사 레이블 체계에 포함되지 않은 귀하에 대한 정보를 수신합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> Other <br><br>
+				<br> 다른 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive information about you not covered by our label scheme for an unspecified purpose. <br><br>
+				<br> 지명된 제3자는 지정되지 않은 목적으로 당사 라벨 체계에 포함되지 않은 귀하에 대한 정보를 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive information about you not covered by our label scheme for an unspecified purpose. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 지정되지 않은 목적으로 당사 라벨 체계에 포함되지 않은 귀하에 대한 정보를 수신합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive information about you not covered by our label scheme for an unspecified purpose. The data is personally identifiable. <br><br>
+				<br> 지명된 제3자는 지정되지 않은 목적으로 당사 라벨 체계에 포함되지 않은 귀하에 대한 정보를 수신합니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive something that uniquely identifies you for legal requirements. The data is personally identifiable. <br><br>
+				<br> 명명된 제3자는 법적 요구 사항에 대해 귀하를 고유하게 식별하는 정보를 받습니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive unspecified information about you for legal requirements. <br><br>
+				<br> 지명된 제3자는 법적 요구 사항을 위해 귀하에 대한 불특정 정보를 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive unspecified information about you for legal requirements. This applies to a user type outside of our label scheme. <br><br>
+				<br> 지명된 제3자는 법적 요구 사항을 위해 귀하에 대한 불특정 정보를 수신합니다. 이는 레이블 체계 외부의 사용자 유형에 적용됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your IP address or device IDs for analytics or research. The data is aggregated or anonymized. <br><br>
+				<br> 명명된 제3자는 분석 또는 조사를 위해 귀하의 IP 주소 또는 장치 ID를 받습니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your IP address or device IDs for analytics or research. The data is personally identifiable. <br><br>
+				<br> 명명된 제3자는 분석 또는 조사를 위해 귀하의 IP 주소 또는 장치 ID를 받습니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your IP address or device IDs for targeted advertising. <br><br>
+				<br> 지명된 제3자는 표적 광고를 위해 귀하의 IP 주소 또는 장치 ID를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your IP address or device IDs for targeted advertising. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 표적 광고를 위해 귀하의 IP 주소 또는 장치 ID를 받습니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your activities on the website or app for a basic service or feature. <br><br>
+				<br> 지명된 제3자는 기본 서비스 또는 기능을 위해 웹사이트 또는 앱에서 귀하의 활동을 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your activities on the website or app for targeted advertising. <br><br>
+				<br> 지명된 제3자는 타겟 광고를 위해 웹사이트 또는 앱에서 귀하의 활동을 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your activities on the website or app for targeted advertising. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 타겟 광고를 위해 웹사이트 또는 앱에서 귀하의 활동을 수신합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your activities on the website or app for targeted advertising. You can configure your privacy with third-party user settings. <br><br>
+				<br> 지명된 제3자는 타겟 광고를 위해 웹사이트 또는 앱에서 귀하의 활동을 수신합니다. 타사 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your computer information for an unspecified purpose. <br><br>
+				<br> 지명된 제3자는 불특정 목적으로 귀하의 컴퓨터 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your computer information for service operations or security. You can choose not to use the service or feature for the collection or sharing and use of your information. <br><br>
+				<br> 지명된 제3자는 서비스 운영 또는 보안을 위해 귀하의 컴퓨터 정보를 받습니다. 귀하는 귀하의 정보를 수집하거나 공유 및 사용하는 서비스 또는 기능을 사용하지 않도록 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> Service operation and security <br><br>
+				<br> 서비스 운영 및 보안 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your computer information for targeted advertising. <br><br>
+				<br> 지명된 제3자는 타겟 광고를 위해 귀하의 컴퓨터 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your computer information for targeted advertising. You can choose not to use the service or feature for the collection or sharing and use of your information. <br><br>
+				<br> 지명된 제3자는 타겟 광고를 위해 귀하의 컴퓨터 정보를 받습니다. 귀하는 귀하의 정보를 수집하거나 공유 및 사용하는 서비스 또는 기능을 사용하지 않도록 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your contact information for a purpose outside of our label scheme. <br><br>
+				<br> 지명된 제3자는 당사 레이블 체계 이외의 목적으로 귀하의 연락처 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> Other <br><br>
+				<br> 다른 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your contact information for targeted advertising. <br><br>
+				<br> 지명된 제3자는 표적 광고를 위해 귀하의 연락처 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your contact information for targeted advertising. You can opt in for data collection. <br><br>
+				<br> 지명된 제3자는 표적 광고를 위해 귀하의 연락처 정보를 받습니다. 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your contact information for targeted advertising. You can opt out using the provided link. <br><br>
+				<br> 지명된 제3자는 표적 광고를 위해 귀하의 연락처 정보를 받습니다. 제공된 링크를 사용하여 옵트아웃할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your cookies or tracking elements for analytics or research. The data is aggregated or anonymized. <br><br>
+				<br> 지정된 제3자는 분석 또는 연구를 위해 귀하의 쿠키 또는 추적 요소를 수신합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your financial information for a basic service or feature. <br><br>
+				<br> 지정된 제3자는 기본 서비스 또는 기능에 대한 귀하의 금융 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your financial information for a basic service or feature. This applies to a user type outside of our label scheme. <br><br>
+				<br> 지정된 제3자는 기본 서비스 또는 기능에 대한 귀하의 금융 정보를 받습니다. 이는 레이블 체계 외부의 사용자 유형에 적용됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your financial information for a basic service or feature. You can choose not to use the service or feature. <br><br>
+				<br> 지정된 제3자는 기본 서비스 또는 기능에 대한 귀하의 금융 정보를 받습니다. 서비스 또는 기능을 사용하지 않도록 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> Basic service/feature <br><br>
+				<br> 기본 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your financial information for an unspecified purpose. <br><br>
+				<br> 지명된 제3자는 불특정 목적으로 귀하의 금융 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your health information for an unspecified purpose. <br><br>
+				<br> 지명된 제3자는 불특정 목적으로 귀하의 건강 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your health information for an unspecified purpose. You can opt in for data collection for the use of your information. <br><br>
+				<br> 지명된 제3자는 불특정 목적으로 귀하의 건강 정보를 받습니다. 귀하는 귀하의 정보 사용을 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your health information for an unspecified purpose. You can opt out by contacting the company for the use of your information. <br><br>
+				<br> 지명된 제3자는 불특정 목적으로 귀하의 건강 정보를 받습니다. 귀하는 귀하의 정보 사용에 대해 회사에 연락하여 거부할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your location information for targeted advertising. <br><br>
+				<br> 지명된 제3자는 표적 광고를 위해 귀하의 위치 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your location information for targeted advertising. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 표적 광고를 위해 귀하의 위치 정보를 받습니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an additional (non-basic) service or feature. <br><br>
+				<br> 지정된 제3자는 추가(기본이 아닌) 서비스 또는 기능을 위해 귀하의 불특정 개인 정보를 받습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an additional (non-basic) service or feature. The data is personally identifiable. You can opt out by contacting the company. <br><br>
+				<br> 지정된 제3자는 추가(기본이 아닌) 서비스 또는 기능을 위해 귀하의 불특정 개인 정보를 받습니다. 데이터는 개인 식별이 가능합니다. 회사에 연락하여 탈퇴할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an additional (non-basic) service or feature. You can choose not to use the service or feature for the collection or sharing of your information. <br><br>
+				<br> 지정된 제3자는 추가(기본이 아닌) 서비스 또는 기능을 위해 귀하의 불특정 개인 정보를 받습니다. 귀하는 귀하의 정보를 수집하거나 공유하는 서비스 또는 기능을 사용하지 않도록 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an additional (non-basic) service or feature. You can configure your privacy using a method outside our label scheme for the collection or sharing of your information. <br><br>
+				<br> 지정된 제3자는 추가(기본이 아닌) 서비스 또는 기능을 위해 귀하의 불특정 개인 정보를 받습니다. 귀하는 귀하의 정보를 수집하거나 공유하기 위해 당사의 레이블 체계 이외의 방법을 사용하여 귀하의 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an additional (non-basic) service or feature. You can configure your privacy using a method outside our label scheme. <br><br>
+				<br> 지정된 제3자는 추가(기본이 아닌) 서비스 또는 기능을 위해 귀하의 불특정 개인 정보를 받습니다. 레이블 체계 이외의 방법을 사용하여 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an unspecified purpose. <br><br>
+				<br> 지정된 제3자는 불특정 목적을 위해 귀하의 불특정 개인 정보를 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an unspecified purpose. The data is personally identifiable. <br><br>
+				<br> 지정된 제3자는 불특정 목적을 위해 귀하의 불특정 개인 정보를 수신합니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for an unspecified purpose. You can choose not to use the service or feature. <br><br>
+				<br> 지정된 제3자는 불특정 목적을 위해 귀하의 불특정 개인 정보를 수신합니다. 서비스 또는 기능을 사용하지 않도록 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for marketing purposes. <br><br>
+				<br> 지명된 제3자는 마케팅 목적으로 귀하의 불특정 개인정보를 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for marketing purposes. The data is personally identifiable. <br><br>
+				<br> 지명된 제3자는 마케팅 목적으로 귀하의 불특정 개인정보를 수신합니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for marketing purposes. The data is personally identifiable. You can configure your privacy with third-party user settings. <br><br>
+				<br> 지명된 제3자는 마케팅 목적으로 귀하의 불특정 개인정보를 수신합니다. 데이터는 개인 식별이 가능합니다. 타사 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does receive your unspecified personal information for marketing purposes. The data is personally identifiable. You can opt in for data collection for the collection or sharing of your information. <br><br>
+				<br> 지명된 제3자는 마케팅 목적으로 귀하의 불특정 개인정보를 수신합니다. 데이터는 개인 식별이 가능합니다. 정보 수집 또는 공유를 위해 데이터 수집을 선택할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> Marketing <br><br>
+				<br> 마케팅 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does see your activities on the website or app for an additional (non-basic) service or feature. This applies to users with accounts. You can configure your privacy with third-party user settings for the collection or sharing and use of your information. <br><br>
+				<br> 지명된 제3자는 추가(기본이 아닌) 서비스 또는 기능을 위해 웹사이트 또는 앱에서 귀하의 활동을 확인합니다. 이는 계정이 있는 사용자에게 적용됩니다. 정보 수집 또는 공유 및 사용에 대한 제3자 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> Additional service/feature <br><br>
+				<br> 추가 서비스/기능 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app information about you not covered by our label scheme for targeted advertising. You can opt out using the provided link for the use of your information. <br><br>
+				<br> 지정된 제3자는 타깃 광고를 위한 당사의 라벨 체계에 포함되지 않은 귀하에 대한 정보를 제1자 웹사이트 또는 앱에서 추적합니다. 귀하는 귀하의 정보 사용을 위해 제공된 링크를 사용하여 거부할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your activities on the website or app for targeted advertising. <br><br>
+				<br> 지정된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 웹사이트 또는 앱 활동을 추적합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your activities on the website or app for targeted advertising. The data is aggregated or anonymized. You can opt out using the provided link for the use of your information. <br><br>
+				<br> 지정된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 웹사이트 또는 앱 활동을 추적합니다. 데이터는 집계되거나 익명화됩니다. 귀하는 귀하의 정보 사용을 위해 제공된 링크를 사용하여 거부할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your activities on the website or app for targeted advertising. The data is aggregated or anonymized. You can opt out using the provided link. <br><br>
+				<br> 지정된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 웹사이트 또는 앱 활동을 추적합니다. 데이터는 집계되거나 익명화됩니다. 제공된 링크를 사용하여 옵트아웃할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your computer information for analytics or research. <br><br>
+				<br> 지명된 제3자는 분석 또는 연구를 위해 자사 웹사이트 또는 앱에서 귀하의 컴퓨터 정보를 추적합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your computer information for analytics or research. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 분석 또는 연구를 위해 자사 웹사이트 또는 앱에서 귀하의 컴퓨터 정보를 추적합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> Analytics/Research <br><br>
+				<br> 분석/연구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your computer information for legal requirements. The data is aggregated or anonymized. <br><br>
+				<br> 지명된 제3자는 법적 요구 사항을 위해 자사 웹사이트 또는 앱에서 귀하의 컴퓨터 정보를 추적합니다. 데이터는 집계되거나 익명화됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your computer information for targeted advertising. <br><br>
+				<br> 지정된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 컴퓨터 정보를 추적합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your computer information for targeted advertising. The data is aggregated or anonymized. You can opt out using the provided link. <br><br>
+				<br> 지정된 제3자는 타깃 광고를 위해 자사 웹사이트 또는 앱에서 귀하의 컴퓨터 정보를 추적합니다. 데이터는 집계되거나 익명화됩니다. 제공된 링크를 사용하여 옵트아웃할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your cookies or tracking elements for an unspecified purpose. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 불특정 목적으로 귀하의 쿠키 또는 추적 요소를 추적합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> Unspecified <br><br>
+				<br> 미지정 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your cookies or tracking elements for targeted advertising. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 추적합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your cookies or tracking elements for targeted advertising. This applies to a user type outside of our label scheme. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 추적합니다. 이는 레이블 체계 외부의 사용자 유형에 적용됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your cookies or tracking elements for targeted advertising. You can configure your privacy with browser settings. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 추적합니다. 브라우저 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your cookies or tracking elements for targeted advertising. You can configure your privacy with third-party user settings for the collection or sharing and use of your information. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 추적합니다. 정보 수집 또는 공유 및 사용에 대한 제3자 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your cookies or tracking elements for targeted advertising. You can configure your privacy with third-party user settings. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 추적합니다. 타사 사용자 설정으로 개인 정보를 구성할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A named third party does track on the first party website or app your cookies or tracking elements for targeted advertising. You can opt out using the provided link. <br><br>
+				<br> 지정된 제3자는 자사 웹사이트 또는 앱에서 귀하의 쿠키 또는 표적 광고를 위한 추적 요소를 추적합니다. 제공된 링크를 사용하여 옵트아웃할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> Advertising <br><br>
+				<br> 광고하는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A third party outside of our label scheme does do something outside of our label scheme with unspecified information about you for a purpose outside of our label scheme. <br><br>
+				<br> 당사 레이블 체계 외부의 제3자는 당사 레이블 체계 외부의 목적을 위해 귀하에 대한 불특정 정보를 사용하여 당사 레이블 체계 외부에서 작업을 수행합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> Other <br><br>
+				<br> 다른 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A third party outside of our label scheme does do something unspecified with unspecified information about you for legal requirements. <br><br>
+				<br> 당사 레이블 체계 외부의 제3자는 법적 요구 사항에 대해 귀하에 대한 불특정 정보로 불특정 작업을 수행합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A third party outside of our label scheme does do something unspecified with unspecified information about you for legal requirements. The data is personally identifiable. <br><br>
+				<br> 당사 레이블 체계 외부의 제3자는 법적 요구 사항에 대해 귀하에 대한 불특정 정보로 불특정 작업을 수행합니다. 데이터는 개인 식별이 가능합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 104 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A third party outside of our label scheme does receive unspecified information about you for legal requirements. <br><br>
+				<br> 당사 레이블 체계 외부의 제3자는 법적 요구 사항을 위해 귀하에 대한 불특정 정보를 수신합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 104 <br><br>
+			</td>
+			<td>
+				<br> Legal requirement <br><br>
+				<br> 법적 요구 사항 <br><br>
+			</td>
+		</tr>
+	</table>

@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JkbloNUq, nYblowj <br><br>
+				<br> JkbloNUq, nYblowj <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> b, j, k, l, n, o, q, u <br><br>
+				<br> b, j, k, l, n, o, q, u <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> QBTBFxpSttwCQElHHYXBKyEd, zIIIDitBtCwCQElHHYXBYymGYkS <br><br>
+				<br> QBTBFxpSttwCQElHHYXBKyEd, zIIIDitBtCwCQElHHYXBYymGYkS <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> b, c, d, e, g, h, i, k, l, m, q, s, t, w, x, y, z <br><br>
+				<br> b, c, d, e, g, h, i, k, l, m, q, s, t, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AApikyaxjsVutXIBbWsrcktkISakK, penJpsVutXIBbWsONBsyXmfln <br><br>
+				<br> AApikyaxjsVutXIBbWsrcktkISakK, penJpsVutXIBbWsONBsyXmfln <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, i, j, k, p, r, s, t, u, v, w, x, y <br><br>
+				<br> a, b, c, i, j, k, p, r, s, t, u, v, w, x, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ABdarAfALSmLHcTtWiYwPJxtuYsLIiv, fveUiLLHcTtWiYwPJxBtuWVko <br><br>
+				<br> ABdarAfALSmLHcTtWiYwPJxtuYsLIiv, fveUiLLHcTtWiYwPJxBtuWVko <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, f, h, i, j, l, m, p, r, s, t, u, v, w, x, y <br><br>
+				<br> a, b, c, d, f, h, i, j, l, m, p, r, s, t, u, v, w, x, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ABiWxqbAMzpvahYxUcMiPwKHW, jedqbAMzpvahYxUcMirAxhav <br><br>
+				<br> ABiWxqbAMzpvahYxUcMiPwKHW, jedqbAMzpvahYxUcMirAxhav <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, h, i, k, m, p, q, u, v, w, x, y, z <br><br>
+				<br> a, b, c, h, i, k, m, p, q, u, v, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AFSnbTgtbMbvnJFntUdovSJsnLjlBjK, uhgtbMbvnJFntUdoFWZClzwHZLv <br><br>
+				<br> AFSnbTgtbMbvnJFntUdovSJsnLjlBjK, uhgtbMbvnJFntUdoFWZClzwHZLv <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> a, b, d, f, g, j, k, l, m, n, o, s, t, u, v <br><br>
+				<br> a, b, d, f, g, j, k, l, m, n, o, s, t, u, v <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ASVJrwaNqTcPxuGkBIpUEuhKHNoxz, cTEWCRPBvQcPxuGkBIpUEuhKvNzIzejE <br><br>
+				<br> ASVJrwanqTcPxuGkBIpUEuhKHNoxz, cTEWCRPBvQcPxuGkBIpUEuhKvNzIzejE <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> b, c, e, g, h, i, j, k, n, p, q, r, t, u, v, w, x, z <br><br>
+				<br> b, c, e, g, h, i, j, k, n, p, q, r, t, u, v, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AUmdacbuPDEgPfASwr, GSacbuPDEgPfASQfnsutWd <br><br>
+				<br> AUmdacbuPDEgPfASwr, GSacbuPDEgPfASQfnsutWd <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, e, f, g, n, p, q, s, t, u, w <br><br>
+				<br> a, b, c, d, e, f, g, n, p, q, s, t, u, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AWmPPTc, yFmPIN <br><br>
+				<br> AWmPPTc, yFmPIN <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> a, c, m, p, t, w <br><br>
+				<br> a, c, m, p, t, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AcIKloC, mEIKWo <br><br>
+				<br> AcIKloC, mEIKWo <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> a, c, i, k, l, o <br><br>
+				<br> a, c, i, k, l, o <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AgGOjCgnjITpHMOdthhahacBsTtZPFmze, pqvXSfYrQjITpHMOdthhahlgGNnQtv <br><br>
+				<br> AgGOjCgnjITpHMOdthhahacBsTtZPFmze, pqvXSfYrQjITpHMOdthhahlgGNnQtv <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, e, f, g, h, i, j, m, n, o, p, s, t, z <br><br>
+				<br> a, b, c, d, e, f, g, h, i, j, m, n, o, p, s, t, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AhXDVbxThyMSTIAkbZQOMhJ, ovmpJnThyMSTIAkbDPyCe <br><br>
+				<br> AhXDVbxThyMSTIAkbZQOMhJ, ovmpJnThyMSTIAkbDPyCe <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> a, b, d, h, i, j, k, m, o, q, s, t, v, x, y, z <br><br>
+				<br> a, b, d, h, i, j, k, m, o, q, s, t, v, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AqLxCPQzLMYJMXYXS, aVhDGkzLMYJMXyLKPL <br><br>
+				<br> AqLxCPQzLMYJMXYXS, aVhDGkzLMYJMXyLKPL <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> a, d, g, h, j, k, l, m, p, v, x, y, z <br><br>
+				<br> a, d, g, h, j, k, l, m, p, v, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> AumzkXxPljHlazHFCgUqWQxRIyoMvKOQFvaGOsA, ZfTDhhyDwVSglvFCgUqWQxRIyoMvKuvOfoM <br><br>
+				<br> AumzkXxPljHlazHFCgUqWQxRIyoMvKOQFvaGOsA, ZfTDhhyDwVSglvFCgUqWQxRIyoMvKuvOfoM <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> a, c, f, g, h, i, j, k, l, m, o, p, q, r, s, u, v, w, x, y, z <br><br>
+				<br> a, c, f, g, h, i, j, k, l, m, o, p, q, r, s, u, v, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BKOHCyhMiiRIAj, DJIHCyhMiiRdtlrG <br><br>
+				<br> BKOHCyhMiiRIAj, DJIHCyhMiiRdtlrG <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> c, d, g, h, i, j, l, m, r, t, y <br><br>
+				<br> c, d, g, h, i, j, l, m, r, t, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BMvYYNHVXQIZNnQtStVJuuyYN, uisebRjqjmVXQIZNnQtStVJuECIOylf <br><br>
+				<br> BMvYYNHVXQIZNnQtStVJuuyYN, uisebRjqjmVXQIZNnQtStVJuECIOylf <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> b, c, e, f, i, j, l, m, n, o, q, r, s, t, u, v, x, y, z <br><br>
+				<br> b, c, e, f, i, j, l, m, n, o, q, r, s, t, u, v, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BQucPWqrTOyEhbzWeLaLxv, jvrTOyEhbzWeLamre <br><br>
+				<br> BQucPWqrTOyEhbzWeLaLxv, jvrTOyEhbzWeLamre <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, h, l, o, p, q, r, t, u, v, w, x, y, z <br><br>
+				<br> a, b, c, e, h, l, o, p, q, r, t, u, v, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BWbazSBMjzjfRnrUcBGK, qsLsBMjzjfRdtND <br><br>
+				<br> BWbazSBMjzjfRnrUcBGK, qsLsBMjzjfRdtND <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, f, g, j, k, m, n, r, s, u, w, z <br><br>
+				<br> a, b, c, f, g, j, k, m, n, r, s, u, w, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BXesVCiMW, izsVCiBW <br><br>
+				<br> BXesVCiMW, izsVCiBW <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> b, c, e, i, m, s, v, w, x <br><br>
+				<br> b, c, e, i, m, s, v, w, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BapvmEaeLzibIYRIYzuDGVrYVvIwk, oyYtbgxZXaeLzibIYRIYzEcgs <br><br>
+				<br> BapvmEaeLzibIYRIYzuDGVrYVvIwk, oyYtbgxZXaeLzibIYRIYzEcgs <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> a, b, d, e, g, i, k, l, m, p, r, u, v, w, y, z <br><br>
+				<br> a, b, d, e, g, i, k, l, m, p, r, u, v, w, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BgBylmt, PdBylwwt <br><br>
+				<br> BgBylmt, PdBylwwt <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> b, d, l, p, t, w, y <br><br>
+				<br> b, d, l, p, t, w, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BiQgytVMJHxARIXFBCPuhCAMJZtHqwKE, nDxjfxARIXFBCPuhzSqsqdqtIFV <br><br>
+				<br> BiQgytVMJHxARIXFBCPuhCAMJZtHqwKE, nDxjfxARIXFBCPuhzSqsqdqtIFV <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, f, g, h, i, j, k, m, p, q, r, t, u, v, w, x, y, z <br><br>
+				<br> a, b, c, e, f, g, h, i, j, k, m, p, q, r, t, u, v, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BprwDCF, AoOrwDIV <br><br>
+				<br> BprwDCF, AoOrwDIV <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> a, d, i, o, r, v, w <br><br>
+				<br> a, d, i, o, r, v, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BrOAJXdAHEdtCmsvIkWrvWrDUagcBehc, wChkJjLEQHEdtCmsvIkWrvWgeNazyjfjvCETj <br><br>
+				<br> BrOAJXdAHedtCmsvIkWrvWrDUagcBehc, wChkJjLEQHEdtCmsvIkWrvWgeNazyjfjvCETj <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, e, f, g, h, i, j, k, l, m, n, q, r, s, t, v, w, y, z <br><br>
+				<br> a, c, d, e, f, g, h, i, j, k, l, m, n, q, r, s, t, v, w, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> BzYuPZCFqN, cdLNwuPZCFfix <br><br>
+				<br> BzYuPZCFqN, cdLNwuPZCFfix <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> c, d, f, i, l, n, p, u, w, x, z <br><br>
+				<br> c, d, f, i, l, n, p, u, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CXSaxXn, meSaEQ <br><br>
+				<br> CXSaxXn, meSaEQ <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> a, c, n, s, x <br><br>
+				<br> 에이, 씨, 엔, 에스, 엑스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CZNEWtax, eiCNNEWtSuQ <br><br>
+				<br> CZNEWtax, eiCNNEWtSuQ <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> c, e, i, n, q, s, t, u, w <br><br>
+				<br> c, e, i, n, q, s, t, u, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CeHxotwHCTGEawSGgqEbNZgcJnR, XMNvQkTirZwHCTGEawSGgqEbNlRaAL <br><br>
+				<br> CeHxotwHCTGEawSGgqEbNZgcJnR, XMNvQkTirZwHCTGEawSGgqEbNlRaAL <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, g, h, i, k, l, m, n, q, r, s, t, v, w, x, z <br><br>
+				<br> a, b, c, e, g, h, i, k, l, m, n, q, r, s, t, v, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CkDOPebsOhEmnckIEqOqmWzxobj, MXuKVMZWwXFhEmnckIEqOquQf <br><br>
+				<br> CkDOPebsOhEmnckIEqOqmWzxobj, MXuKVMZWwXFhEmnckIEqOquQf <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> b, c, d, e, h, i, j, k, m, n, o, p, q, s, w, x, z <br><br>
+				<br> b, c, d, e, h, i, j, k, m, n, o, p, q, s, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CsVzgWShxrBlh, OlrgvVzgWShTUzJx <br><br>
+				<br> CsVzgWShxrBlh, OlrgvVzgWShTUzJx <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> g, h, j, l, o, r, s, t, u, v, w, x, z <br><br>
+				<br> g, h, j, l, o, r, s, t, u, v, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CxWAAodBvjWCmZuBhlE, CwnGxIodBvjWCHs <br><br>
+				<br> CxWAAodBvjWCmZuBhlE, CwnGxIodBvjWCHs <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, e, h, j, l, m, o, u, v, w, x, z <br><br>
+				<br> a, b, c, d, e, h, j, l, m, o, u, v, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DBWTceXoYkI, SmceXoOKvx <br><br>
+				<br> DBWTceXoYkI, SmceXoOKvx <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> b, c, d, e, i, k, o, t, w, x, y <br><br>
+				<br> b, c, d, e, i, k, o, t, w, x, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DCYKCgImHXnuBCdfvGlvHexlrZ, iCmHXnuBCdfvGlvwPRYEcgwqZAxI <br><br>
+				<br> DCYKCgImHXnuBCdfvGlvHexlrZ, iCmHXnuBCdfvGlvwPRYEcgwqZAxI <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, e, f, g, h, i, l, m, n, p, q, r, u, v, w, x, y, z <br><br>
+				<br> a, b, c, d, e, f, g, h, i, l, m, n, p, q, r, u, v, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DDTftBKzpPCrNLvfRxOzH, vpJpNppzpPCrNLvyALSJ <br><br>
+				<br> DDTftBKzpPCrNLvfRxOzH, vpJpNppzpPCrNLvyALSJ <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> b, c, d, f, h, k, l, n, o, p, r, t, v, x, z <br><br>
+				<br> b, c, d, f, h, k, l, n, o, p, r, t, v, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DLoJrEwkZbKpChnowuYyCkZQqEraEQNFPvH, YKGBWMzSaeFKpChnowuYyCkZQlvUojWTLtyZ <br><br>
+				<br> DLoJrEwkZbKpChnowuYyCkZQqEraEQNFPvH, YKGBWMzSaeFKpChnowuYyCkZQlvUojWTLtyZ <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, f, g, h, j, k, l, m, n, o, p, q, s, t, u, v, w, y, z <br><br>
+				<br> a, b, c, e, f, g, h, j, k, l, m, n, o, p, q, s, t, u, v, w, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DOvnfRVZgJFrzHo, GaApmOnfRVZgJoDN <br><br>
+				<br> DOvnfRVZgJFrzHo, GaApmOnfRVZgJoDN <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> a, d, f, g, j, m, n, o, p, r, v, z <br><br>
+				<br> a, d, f, g, j, m, n, o, p, r, v, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DSyxEOTGfMrNQCbOBIirOIoLu, YoFOTGfMrNQCbOBgTvNhuUGnlpf <br><br>
+				<br> DSyxEOTGfMrNQCbOBIirOIoLu, YoFOTGfMrNQCbOBgTvNhuUGnlpf <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> b, c, f, g, h, l, m, n, o, p, q, r, t, u, v, y <br><br>
+				<br> b, c, f, g, h, l, m, n, o, p, q, r, t, u, v, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DcagGBo, MfagFz <br><br>
+				<br> DcagGBo, MfagFz <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, g, o <br><br>
+				<br> a, b, c, d, g, o <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DeVrPAo, OEVrVB <br><br>
+				<br> DeVrPAo, OEVrVB <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> a, d, e, o, p, r, v <br><br>
+				<br> a, d, e, o, p, r, v <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DofJSucVnn, hjwzJSucjkDe <br><br>
+				<br> DofJSucVnn, hjwzJSucjkDe <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> c, d, e, h, j, k, s, u, w, z <br><br>
+				<br> c, d, e, h, j, k, s, u, w, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> DzAZPrduytIlI, wmUmTDPrduytIDlD <br><br>
+				<br> DzAZPrduytIlI, wmUmTDPrduytIDlD <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> d, i, l, m, p, r, t, u, w, y <br><br>
+				<br> d, i, l, m, p, r, t, u, w, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> EHGvkazJ, WwRGvkGoF <br><br>
+				<br> EHGvkazJ, WwRGvkGoF <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> f, g, k, o, r, v, w <br><br>
+				<br> f, g, k, o, r, v, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ELGjsLLdfgJZEAtXDikUX, jCypCykoLdfgJZEAtXDikYUiQfJA <br><br>
+				<br> ELGjsLLdfgJZEatXDikUX, jCypCykoLdfgJZEatXDikYUiQfJA <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, e, f, g, i, j, k, l, o, p, q, t, u, x, y, z <br><br>
+				<br> a, c, d, e, f, g, i, j, k, l, o, p, q, t, u, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> EMrYidl, fiarYicPD <br><br>
+				<br> EMrYidl, fiarYicPD <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, f, i, p, r, y <br><br>
+				<br> a, c, d, f, i, p, r, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> EXxKxjNF, JrOxKxfPX <br><br>
+				<br> EXxKxjNF, JrOxKxfPX <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> f, j, k, o, p, r, x <br><br>
+				<br> f, j, k, o, p, r, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> EaPXmCkbLHOzhHKgmLZECJBG, xUKrtFnASmCkbLHOzhHKmOFpGYeYT <br><br>
+				<br> EaPXmCkbLHOzhHKgmLZECJBG, xUKrtFnASmCkbLHOzhHKmOFpGYeYT <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, f, g, h, k, l, m, n, o, p, r, s, t, u, x, y, z <br><br>
+				<br> a, b, c, e, f, g, h, k, l, m, n, o, p, r, s, t, u, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> EiTsNHVURXnXI, KcXFhdJsNHVURXxMZE <br><br>
+				<br> EiTsNHVURXnXI, KcXFhdJsNHVURXxMZE <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> c, d, e, f, h, j, k, m, n, r, s, u, v, x, z <br><br>
+				<br> c, d, e, f, h, j, k, m, n, r, s, u, v, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> EphjqRsPocritdhRQJLNXtlN, HTwziwZbRsPocritdhRQpG <br><br>
+				<br> EphjqRsPocritdhRQJLNXtlN, HTwziwZbRsPocritdhRQpG <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> c, d, e, h, i, j, l, n, o, p, q, r, s, t, x <br><br>
+				<br> c, d, e, h, i, j, l, n, o, p, q, r, s, t, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> EsdwweYHDQPfUUfoD, mnHDQPfUUpbJir <br><br>
+				<br> EsdwweYHDQPfUUfoD, mnHDQPfUUpbJir <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> d, e, f, h, o, p, q, s, u, w, y <br><br>
+				<br> d, e, f, h, o, p, q, s, u, w, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FFAotOioDjrDwylVaVXKYkQJIwuAws, bxWRvQrMxTpylVaVXKYkQJIwuAnCpYf <br><br>
+				<br> FFAotOioDjrDwylVaVXKYkQJIwuAws, bxWRvQrMxTpylVaVXKYkQJIwuAnCpYf <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, f, i, j, k, l, m, n, p, q, r, t, u, v, w, x, y <br><br>
+				<br> a, b, c, f, i, j, k, l, m, n, p, q, r, t, u, v, w, x, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FIRzkRb, bARzqX <br><br>
+				<br> FIRzkRb, bARzqX <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> b, f, i, k, r, z <br><br>
+				<br> b, f, i, k, r, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FMgvxZWEEZGGJvkmtEprCGZsEzJIVwzokZApbSEXZ, XdonqMiGJvkmtEprCGZsEzEbEtvQmXMDXwj <br><br>
+				<br> FMgvxZWEEZGGJvkmtEprCGZsEzJIVwzokZApbSEXZ, XdonqMiGJvkmtEprCGZsEzEbEtvQmXMDXwj <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, f, g, i, j, k, m, o, p, r, s, t, v, w, x, z <br><br>
+				<br> a, b, c, e, f, g, i, j, k, m, o, p, r, s, t, v, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FRDmazcmX, PSmazsm <br><br>
+				<br> FRDmazcmX, PSmazsm <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, f, m, r, x, z <br><br>
+				<br> a, c, d, f, m, r, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FSDcrQRVqnOIPWCL, KWvnfmRVqnOIPHV <br><br>
+				<br> FSDcrQRVqnOIPWCL, KWvnfmRVqnOIPHV <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> c, d, f, i, l, n, o, p, q, r, s, v, w <br><br>
+				<br> c, d, f, i, l, n, o, p, q, r, s, v, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FXuxOyNNzyvbrK, kAOqawquxOyNNzGaWWHJ <br><br>
+				<br> FXuxOyNNzyvbrK, kAOqawquxOyNNzGaWWHJ <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> a, g, h, j, k, n, o, q, u, w, x, y, z <br><br>
+				<br> a, g, h, j, k, n, o, q, u, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> FkAHsEyoqh, WslAHsEtQ <br><br>
+				<br> FkAHsEyoqh, WslAHsEtQ <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> a, e, f, h, k, o, q, s, y <br><br>
+				<br> a, e, f, h, k, o, q, s, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GBOFTLDlhFAiuAY, amaPTFTLDlhfysGss <br><br>
+				<br> GBOFTLDlhFAiuAY, amaPTFTLDlhfysGss <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> a, d, f, g, h, l, m, p, s, t, y <br><br>
+				<br> a, d, f, g, h, l, m, p, s, t, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GFVatHqahrmlWMlEcxYzGHoYF, wbcWEVBTFaTGLatHqahrmlWMlEcxFI <br><br>
+				<br> GFVatHqahrmlWMlEcxYzGHoYF, wbcWEVBTFaTGLatHqahrmlWMlEcxFI <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, f, g, h, i, l, m, q, r, t, v, w, x <br><br>
+				<br> a, b, c, e, f, g, h, i, l, m, q, r, t, v, w, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GKRXlpUpIspNKMpZUykafT, ssgEsnpIspNKMpZUyGhXN <br><br>
+				<br> GKRXlpUpIspNKMpZUykafT, ssgEsnpIspNKMpZUyGhXN <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> a, f, g, i, k, l, m, n, p, r, s, t, u, x, y, z <br><br>
+				<br> a, f, g, i, k, l, m, n, p, r, s, t, u, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GLFkOUZHXHbNuXkUGFRyQ, iYEpkOUZHXHbNuXkUGQzeCtgzZXHb <br><br>
+				<br> GLFkOUZHXHbNuXkUGFRyQ, iYEpkOUZHXHbNuXkUGQzeCtgzZXHb <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> b, c, e, g, h, i, k, n, o, p, q, t, u, x, y, z <br><br>
+				<br> b, c, e, g, h, i, k, n, o, p, q, t, u, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GMjyIlCWIisO, VhPjyIlCWYx <br><br>
+				<br> GMjyIlCWIisO, VhPjyIlCWYx <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> c, g, i, j, l, m, o, s, w, y <br><br>
+				<br> c, g, i, j, l, m, o, s, w, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GQrxzVqyCLXKZP, mRLzVqyCwiSiY <br><br>
+				<br> GQrxzVqyCLXKZP, mRLzVqyCwiSiY <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> c, g, k, l, p, q, r, v, x, y, z <br><br>
+				<br> c, g, k, l, p, q, r, v, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GVIiYheWLRvLJVZP, JaAeWLRvLCLm <br><br>
+				<br> GVIiYheWLRvLJVZP, JaAeWLRvLCLm <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> e, g, h, i, j, l, p, r, v, w, y, z <br><br>
+				<br> e, g, h, i, j, l, p, r, v, w, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GVocgwOtt, eBcgwEqk <br><br>
+				<br> GVocgwOtt, eBcgwEqk <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> c, g, o, t, v, w <br><br>
+				<br> c, g, o, t, v, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GiihZRd, WqihjF <br><br>
+				<br> GiihZRd, WqihjF <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> d, g, h, i, r, z <br><br>
+				<br> d, g, h, i, r, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GmHHndr, gOHHIj <br><br>
+				<br> GmHHndr, 고하이지 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> d, g, h, m, n, r <br><br>
+				<br> d, g, h, m, n, r <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GoXuNogoQLBoQHbeSYqtnwSDMzos, AklzglPykBzFlQLBoQHbeSYqtnwXWoRr <br><br>
+				<br> GoXuNogoQLBoQHbeSYqtnwSDMzos, AklzglPykBzFlQLBoQHbeSYqtnwXWoRr <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> a, b, e, f, g, h, k, l, n, o, p, q, r, s, t, w, x, y, z <br><br>
+				<br> a, b, e, f, g, h, k, l, n, o, p, q, r, s, t, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> GqKxSBN, LdKxStTS <br><br>
+				<br> GqKxSBN, LdKxStTS <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> d, k, l, s, t, x <br><br>
+				<br> d, k, l, s, t, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> HVzzCQvyGA, jlbCzzCQvcV <br><br>
+				<br> HVzzCQvyGA, jlbCzzCQvcV <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> b, c, j, l, q, v, z <br><br>
+				<br> b, c, j, l, q, v, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> HYFDJoKUkTIMSEEVKZkZeGCa, pZIicwkTIMSEEVKEUJn <br><br>
+				<br> HYFDJoKUkTIMSEEVKZkZeGCa, pZIicwkTIMSEEVKEUJn <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, e, f, g, h, i, j, k, m, o, s, t, u, v, y, z <br><br>
+				<br> a, c, d, e, f, g, h, i, j, k, m, o, s, t, u, v, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> HlmdVuMoJyVd, FOndVuMhdKz <br><br>
+				<br> HlmdVuMoJyVd, FOndVuMhdKz <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> d, h, j, l, m, o, u, v, y <br><br>
+				<br> d, h, j, l, m, o, u, v, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> HuaatRdpLysisycPjoqzsZIRczAAfIAFZQ, eJdWZTXsBisycPjoqzsZIRvkKMPogFtTTqM <br><br>
+				<br> HuaatRdpLysisycPjoqzsZIRczAAfIAFZQ, eJdWZTXsBisycPjoqzsZIRvkKMPogFtTTqM <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> b, c, d, e, f, g, i, j, k, m, o, p, q, r, s, t, v, w, x, y, z <br><br>
+				<br> b, c, d, e, f, g, i, j, k, m, o, p, q, r, s, t, v, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> HycYRpjnrvIzRKbceKYhAsyCnBWga, sfpXRpjnrvIzRKbceXHYyLu <br><br>
+				<br> HycYRpjnrvIzRKbceKYhAsyCnBWga, sfpXRpjnrvIzRKbceXHYyLu <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, g, h, i, j, k, n, p, r, s, v, w, y, z <br><br>
+				<br> a, b, c, e, g, h, i, j, k, n, p, r, s, v, w, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> HzluWIzAVNplzifpXchGqRCmCIprK, AVBCjylNrguWIzAVNplzifpXscDt <br><br>
+				<br> HzluWIzAVNplzifpXchGqRCmCIprK, AVBCjylNrguWIzAVNplzifpXscDt <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> a, c, f, g, h, i, k, l, m, n, p, q, r, u, v, w, x, z <br><br>
+				<br> a, c, f, g, h, i, k, l, m, n, p, q, r, u, v, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IKjqzUhpU, YHjqzhox <br><br>
+				<br> IKjqzUhpU, YHjqzhox <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> h, i, j, k, p, q, u, z <br><br>
+				<br> h, i, j, k, p, q, u, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ILLOEUONWRrblBlZBqGRwFdUSDx, BrTtqyhJcLOEUONWRrblBlFVhxqNJmYYA <br><br>
+				<br> ILLOEUONWRrblBlZBqGRwFdUSDx, BrTtqyhJcLOEUONWRrblBlFVhxqNJmYYA <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, f, h, j, l, m, n, o, q, r, t, u, v, w, x, y <br><br>
+				<br> a, b, c, e, f, h, j, l, m, n, o, q, r, t, u, v, w, x, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IPNYzUnkuXzjSDmCHJagIEppYFqbSxFM, eIXzjSDmCHJagIEppOvoFxt <br><br>
+				<br> IPNYzUnkuXzjSDmCHJagIEppYFqbSxFM, eIXzjSDmCHJagIEppOvoFxt <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, e, f, g, h, i, j, k, m, n, p, q, s, u, x, y, z <br><br>
+				<br> a, b, c, d, e, f, g, h, i, j, k, m, n, p, q, s, u, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IQALkMBDD, fKEALkjB <br><br>
+				<br> IQALkMBDD, fKEALkjB <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> a, b, d, i, k, l, m, q <br><br>
+				<br> a, b, d, i, k, l, m, q <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IWTFFjN, KPTFiP <br><br>
+				<br> IWTFFjN, KPTFiP <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> f, i, j, n, t, w <br><br>
+				<br> f, i, j, n, t, w <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IatIICXvmlzCcVspdOUyHCOaZNZv, dTuJcOFGCIICXvmlzCcVspVaRAzJuRfoGVv <br><br>
+				<br> IatIICXvmlzCcVspdOUyHCOaZNZv, dTuJcOFGCIICXvmlzCcVspVaRAzJuRfoGVv <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, f, g, i, j, l, m, o, p, r, s, t, u, v, x, z <br><br>
+				<br> a, c, d, f, g, i, j, l, m, o, p, r, s, t, u, v, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IfxzzwVpRLq, SlEzzwVCF <br><br>
+				<br> IfxzzwVpRLq, SlEzzwVCF <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> f, i, l, p, q, r, v, w, x, z <br><br>
+				<br> f, i, l, p, q, r, v, w, x, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IvTSGLCzjsajSHihzrNApj, HkdHjsajSHihgsKZL <br><br>
+				<br> IvTSGLCzjsajSHihzrNApj, HkdHjsajSHihgsKZL <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> a, c, g, h, i, j, l, n, p, r, s, t, v, z <br><br>
+				<br> a, c, g, h, i, j, l, n, p, r, s, t, v, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> IyKjZssteqGPDdEETctA, CIgycsteqGPDdDXT <br><br>
+				<br> IyKjZssteqGPDdEETctA, CIgycsteqGPDdDXT <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, e, g, i, j, k, p, q, s, t, y, z <br><br>
+				<br> a, c, d, e, g, i, j, k, p, q, s, t, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JAqtbwz, CJqtYF <br><br>
+				<br> JAqtbwz, CJqtYF <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> a, b, j, q, t, w, z <br><br>
+				<br> a, b, j, q, t, w, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JMApkAdAo, hKxApksv <br><br>
+				<br> JMAPkAdAo, hKxApksv <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> a, d, j, k, m, o, p <br><br>
+				<br> 에이, 디, 제이, 케이, 엠, 오, 피 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JPahRQdRCdxAOAhNhrJoRWfTsC, OOGQdRCdxAOAhNhoxoAC <br><br>
+				<br> JPahRQdRCdxAOAHNhrJoRWfTsC, OOGQdRCdxAOAHNhoxoAC <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, f, h, j, n, o, p, q, r, s, t, w, x <br><br>
+				<br> a, c, d, f, h, j, n, o, p, q, r, s, t, w, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JXHQNAteZBQonOZoxywOcs, FAQBkpJrNAteZBQonybi <br><br>
+				<br> JXHQNAteZBQonOZoxywOcs, FAQBkpJrNAteZBQonybi <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, e, h, j, n, o, q, s, t, w, x, y, z <br><br>
+				<br> a, b, c, e, h, j, n, o, q, s, t, w, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JgfRGQdLzUqXNCZvBnyHHOkT, YmdLzUqXNCZvBnMfNYXo <br><br>
+				<br> JgfRGQdLzUqXNCZvBnyHHOkT, YmdLzUqXNCZvBnMfNYXo <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> b, c, d, f, g, h, j, k, l, n, o, q, r, t, u, v, x, y, z <br><br>
+				<br> b, c, d, f, g, h, j, k, l, n, o, q, r, t, u, v, x, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JlUdKnfjLuFwittXz, hpjweSKjUdKnfjLuaTy <br><br>
+				<br> JlUdKnfjLuFwittXz, hpjweSKjUdKnfjLuaTy <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> a, d, e, f, h, j, k, l, n, p, s, t, u, w, y <br><br>
+				<br> 가, d, 이자형, 에프, h, j, k, l, n, p, s, t, u, w, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JpgtbAmypLjQgdnGIpHztCFyc, BFLRoJsZgtbAmypLjQgdos <br><br>
+				<br> JpgtbAmypLjQgdnGipHztCFyc, BFLRoJsZgtbAmypLjQgdos <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, f, g, h, i, j, l, m, n, p, q, t, y, z <br><br>
+				<br> a, b, c, d, f, g, h, i, j, l, m, n, p, q, t, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JqyHHKpaUGeV, CmCTHKpaUjktm <br><br>
+				<br> JqyHHKpaUGeV, CmCTHKpaUjktm <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> a, c, h, j, k, m, p, t, u <br><br>
+				<br> a, c, h, j, k, m, p, t, u <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JvnvToc, PinvSB <br><br>
+				<br> JvnvToc, PinvSB <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> c, j, n, o, t, v <br><br>
+				<br> c, j, n, o, t, v <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> JwKpRXgmVgOq, QVKpRXgmVgHowRfg <br><br>
+				<br> JwKpRXgmVgOq, QVKpRXgmVgHowRfg <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> f, g, h, k, m, o, p, q, r, v, w, x <br><br>
+				<br> f, g, h, k, m, o, p, q, r, v, w, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KETiXvdSA, RqdiXvUd <br><br>
+				<br> KETiXvdSA, RqdiXvUd <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> a, d, e, i, k, s, t, v, x <br><br>
+				<br> a, d, e, i, k, s, t, v, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KHkVlBpgSbxVwSpjLBma, iKKTAuaVMVlBpgSbxVwCoqi <br><br>
+				<br> KHkVlBpgSbxVwSpjLBma, iKKTAuaVMVlBpgSbxVwCoqi <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, g, i, k, l, m, o, p, q, s, t, u, v, w, x <br><br>
+				<br> a, b, c, g, i, k, l, m, o, p, q, s, t, u, v, w, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KJXfkkHuaDvaTZXQS, OxGtfkkHuaDvadCkkDQn <br><br>
+				<br> KJXfkkHuaDvaTZXQS, OxGtfkkHuaDvadCkkDQn <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, f, g, h, k, n, o, q, t, u, v, x <br><br>
+				<br> a, c, d, f, g, h, k, n, o, q, t, u, v, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KZHSbDTSBz, xRdROmHSbDTSKKYL <br><br>
+				<br> KZHSbDTSBz, xRdROMHSbDTSKKYL <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> b, d, h, k, l, m, o, r, s, t, x, y <br><br>
+				<br> b, d, h, k, l, m, o, r, s, t, x, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KeTLBogMsdn, wxYXPTLBogAc <br><br>
+				<br> KeTLBogMsdn, wxYXPTLBogAc <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, g, l, o, p, t, w, x, y <br><br>
+				<br> a, b, c, g, l, o, p, t, w, x, y <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KfuGqwYVKoIRsiyLUwzzdaLtNA, LCZCoQYVKoIRsiyLmlwzGOP <br><br>
+				<br> KfuGqwYVKoIRsiyLUwzzdaLtNA, LCZCoQYVKoIRsiyLmlwzGOP <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> a, d, f, g, i, k, l, n, o, q, r, s, t, u, v, w, y, z <br><br>
+				<br> a, d, f, g, i, k, l, n, o, q, r, s, t, u, v, w, y, z <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KuhWSiUrCJxEKnfhv, AEEUrCJxEKiKZLY <br><br>
+				<br> KuhWSiUrCJxEKnfhv, AEUurCJxEKiKZLY <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> c, e, f, h, i, j, k, n, r, s, u, v, w, x <br><br>
+				<br> c, e, f, h, i, j, k, n, r, s, u, v, w, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KxMFXQINArXSIMCmDpx, uEJINArXSIOt <br><br>
+				<br> KxMFXQINArXSIMCmDpx, uEJINArXSIOt <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> a, c, d, f, i, k, m, n, p, q, r, s, x <br><br>
+				<br> a, c, d, f, i, k, m, n, p, q, r, s, x <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> KzfLrEiNcNJdBRNnWzCsOAIMqZD, xCcLrEiNcNJdBRNnKh <br><br>
+				<br> KzfLrEiNcNJdBRNnWzCsOAIMqZD, xCcLrEiNcNJdBRNnKh <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> a, b, c, d, e, f, i, j, k, l, m, n, o, q, r, s, w, z <br><br>
+				<br> a, b, c, d, e, f, i, j, k, l, m, n, o, q, r, s, w, z <br><br>
+			</td>
+		</tr>
+	</table>

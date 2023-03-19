@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> account can be used with the same meaning of report <br><br>
+				<br> account는 report와 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> account Synonym report <br><br>
+				<br> 계정 동의어 보고서 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> accident is a kind of happen <br><br>
+				<br> 사고는 일종의 사건이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> accident IsA happen <br><br>
+				<br> 사고가 일어나다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> abstract can be used as the opposite of concrete <br><br>
+				<br> 추상은 콘크리트의 반대말로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> abstract Antonym concrete <br><br>
+				<br> 추상 반대말 콘크리트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Action can be used with the same meaning of plot <br><br>
+				<br> action은 plot과 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> action Synonym plot <br><br>
+				<br> 액션 동의어 플롯 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Appear can be used with the same meaning of arrive <br><br>
+				<br> Appear는 도착과 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> appear Synonym arrive <br><br>
+				<br> 나타납니다 동의어 도착 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Appear is a kind of perform <br><br>
+				<br> 등장은 일종의 수행이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> appear IsA perform <br><br>
+				<br> 나타납니다 수행 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Article is part of newspaper <br><br>
+				<br> 기사는 신문의 일부입니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> article PartOf newspaper <br><br>
+				<br> 기사 PartOf 신문 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Chair is a kind of stool <br><br>
+				<br> 의자는 스툴의 일종이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> chair IsA stool <br><br>
+				<br> 의자 IsA 스툴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Coach is a kind of drive <br><br>
+				<br> 코치는 일종의 드라이브다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> coach IsA drive <br><br>
+				<br> 코치 IsA 드라이브 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Deep can be used as the opposite of high <br><br>
+				<br> Deep은 high의 반대말로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> deep Antonym high <br><br>
+				<br> 깊은 반대말 높음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Drown is a kind of extinguish <br><br>
+				<br> 익사는 일종의 소멸이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> drown IsA extinguish <br><br>
+				<br> 가라앉히다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Finger is a kind of touch <br><br>
+				<br> 손가락은 터치의 일종이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> finger IsA touch <br><br>
+				<br> 손가락 IsA 터치 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Fitness is a kind of magazine <br><br>
+				<br> 피트니스는 일종의 잡지다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> fitness IsA magazine <br><br>
+				<br> 피트니스 IsA 매거진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Flash is a kind of movie <br><br>
+				<br> 플래시는 일종의 영화다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> flash IsA movie <br><br>
+				<br> 플래시 IsA 영화 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Key is a kind of metal <br><br>
+				<br> 열쇠는 금속의 일종이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> key IsA metal <br><br>
+				<br> 키 IsA 금속 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Kiss is a kind of band <br><br>
+				<br> 키스는 일종의 밴드다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> kiss IsA band <br><br>
+				<br> 키스이사밴드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Like can be used with the same meaning of love <br><br>
+				<br> Like는 love와 같은 의미로 쓰입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> like Synonym love <br><br>
+				<br> 같은 동의어 사랑 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Mean can be used with the same meaning of cheap <br><br>
+				<br> Mean은 싼 것과 같은 의미로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> mean Synonym cheap <br><br>
+				<br> 의미 동의어 저렴한 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Paint is a kind of picture <br><br>
+				<br> 그림은 일종의 그림이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> paint IsA picture <br><br>
+				<br> 페인트 IsA 그림 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Play is a kind of film <br><br>
+				<br> 연극은 일종의 영화다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> play IsA film <br><br>
+				<br> IsA 영화를 재생 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Pleasure is a kind of emotion <br><br>
+				<br> 즐거움은 감정의 일종이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> pleasure IsA emotion <br><br>
+				<br> 쾌락은 감정이다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Red is a kind of movie <br><br>
+				<br> 레드는 일종의 영화다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> red IsA movie <br><br>
+				<br> 빨간 IsA 영화 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> School is a kind of book <br><br>
+				<br> 학교는 일종의 책이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> school IsA book <br><br>
+				<br> 학교 이사 책 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Secret is a kind of information <br><br>
+				<br> 비밀은 정보의 일종이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> secret IsA information <br><br>
+				<br> 비밀 IsA 정보 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Skeleton is part of build <br><br>
+				<br> 스켈레톤은 빌드의 일부입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> skeleton PartOf build <br><br>
+				<br> 스켈레톤 PartOf 빌드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> accident can be used with the same meaning of event <br><br>
+				<br> 사고는 사건과 같은 의미로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> accident Synonym event <br><br>
+				<br> 사고 동의어 이벤트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> act can be used as the opposite of real <br><br>
+				<br> act는 real의 반대로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> act Antonym real <br><br>
+				<br> 행위 반대말 진짜 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> action can be used with the same meaning of conflict <br><br>
+				<br> 행동은 갈등과 같은 의미로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> action Synonym conflict <br><br>
+				<br> 동작 동의어 충돌 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> active is a kind of person <br><br>
+				<br> 활동적인 사람은 일종의 사람이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> active IsA person <br><br>
+				<br> 활동적인 IsA 사람 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> actress can be used as the opposite of actor <br><br>
+				<br> Actor는 Actor의 반대말로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> actress Antonym actor <br><br>
+				<br> 여배우 반대말 배우 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> address is true then also speak is true <br><br>
+				<br> 주소가 참이면 말하기도 참입니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> address Entails speak <br><br>
+				<br> 주소 수반 말하기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> admire can be used as the opposite of dislike <br><br>
+				<br> 존경은 싫어함의 반대말로 쓰일 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> admire Antonym dislike <br><br>
+				<br> 존경하다 반대말 싫어하다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> affection is a kind of feel <br><br>
+				<br> 애정은 일종의 감정이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> affection IsA feel <br><br>
+				<br> 애정 IsA 느낌 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> age is a kind of change <br><br>
+				<br> 나이는 일종의 변화다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> age IsA change <br><br>
+				<br> 나이 IsA 변경 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> airplane can have or can contain wheel <br><br>
+				<br> 비행기는 바퀴를 가질 수 있거나 포함할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> airplane HasA wheel <br><br>
+				<br> 비행기 HasA 바퀴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> aisle is part of store <br><br>
+				<br> 통로는 매장의 일부입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> aisle PartOf store <br><br>
+				<br> 통로 PartOf 매장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> album is made of vinyl <br><br>
+				<br> 앨범은 비닐로 되어있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> album MadeOf vinyl <br><br>
+				<br> 앨범 MadeOf 바이닐 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> aluminum is a kind of gray <br><br>
+				<br> 알루미늄은 일종의 회색입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> aluminum IsA gray <br><br>
+				<br> 알루미늄 IsA 그레이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> animal can have or can contain body <br><br>
+				<br> 동물은 신체를 가질 수 있거나 포함할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> animal HasA body <br><br>
+				<br> 동물 HasA 몸 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> animal can have or can contain muscle <br><br>
+				<br> 동물은 근육을 가질 수 있거나 포함할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> animal HasA muscle <br><br>
+				<br> 동물 HasA 근육 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> antique can be characterized by old <br><br>
+				<br> 골동품은 오래된 것으로 특징 지을 수 있습니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> antique HasProperty old <br><br>
+				<br> 골동품 HasProperty 오래된 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> appear can be used with the same meaning of come <br><br>
+				<br> come은 come과 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> appear Synonym come <br><br>
+				<br> 나타납니다 동의어 올 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> apple can be characterized by good <br><br>
+				<br> 사과는 좋은 특징이 있습니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> apple HasProperty good <br><br>
+				<br> 사과 HasProperty 좋음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> apple is a kind of computer <br><br>
+				<br> 사과는 컴퓨터의 일종이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> apple IsA computer <br><br>
+				<br> 사과 IsA 컴퓨터 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> army is part of war <br><br>
+				<br> 군대는 전쟁의 일부다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> army PartOf war <br><br>
+				<br> 육군 PartOf 전쟁 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> art can be used with the same meaning of creation <br><br>
+				<br> 예술은 창조와 같은 의미로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> art Synonym creation <br><br>
+				<br> 예술 동의어 생성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> assemble can be used as the opposite of break <br><br>
+				<br> assemble은 break의 반대말로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> assemble Antonym break <br><br>
+				<br> 어셈블 앤트님브레이크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> atmosphere can be used with the same meaning of mood <br><br>
+				<br> 분위기는 기분과 같은 의미로 사용될 수 있습니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> atmosphere Synonym mood <br><br>
+				<br> 분위기 동의어 분위기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> atom is made of proton <br><br>
+				<br> 원자는 양성자로 이루어져 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> atom MadeOf proton <br><br>
+				<br> 원자 MadeOf 양성자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> author can be used with the same meaning of writer <br><br>
+				<br> author는 writer와 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> author Synonym writer <br><br>
+				<br> 저자 동의어 작가 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> author is a kind of write <br><br>
+				<br> 저자는 일종의 글쓰기다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> author IsA write <br><br>
+				<br> 저자 IsA 쓰기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> baby can be characterized by entertain <br><br>
+				<br> 아기는 엔터테인먼트로 특징 지을 수 있습니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> baby HasProperty entertain <br><br>
+				<br> 아기 HasProperty 엔터테인먼트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> back can be used with the same meaning of rear <br><br>
+				<br> back은 rear와 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> back Synonym rear <br><br>
+				<br> 뒤로 동의어 후면 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ball is a kind of baseball <br><br>
+				<br> 공은 야구의 일종이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> ball IsA baseball <br><br>
+				<br> 볼이사야구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bar is a kind of place <br><br>
+				<br> 바는 일종의 장소 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> bar IsA place <br><br>
+				<br> 바 IsA 장소 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bark is part of tree <br><br>
+				<br> 나무껍질은 나무의 일부 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> bark PartOf tree <br><br>
+				<br> 나무껍질 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> baseball can be characterized by nice <br><br>
+				<br> 야구의 특징은 멋지다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> baseball HasProperty nice <br><br>
+				<br> 야구 HasProperty 좋은 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> basement can be used as the opposite of attic <br><br>
+				<br> 지하실은 다락방과 반대로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> basement Antonym attic <br><br>
+				<br> 지하 반의어 다락방 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> basketball can be characterized by cool <br><br>
+				<br> 농구는 시원함을 특징으로 할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> basketball HasProperty cool <br><br>
+				<br> 농구 HasProperty 멋진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> basketball is a kind of sport <br><br>
+				<br> 농구는 일종의 스포츠다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> basketball IsA sport <br><br>
+				<br> 농구 IsA 스포츠 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bath can have or can contain water <br><br>
+				<br> 목욕은 물을 포함하거나 포함할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> bath HasA water <br><br>
+				<br> 목욕 하스A 물 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> beak is a kind of mouth <br><br>
+				<br> 부리는 일종의 입이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> beak IsA mouth <br><br>
+				<br> 부리 IsA 입 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> beer can have or can contain water <br><br>
+				<br> 맥주는 물을 가질 수 있거나 포함할 수 있습니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> beer HasA water <br><br>
+				<br> 맥주 하사수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bench is part of court <br><br>
+				<br> 벤치는 법원의 일부입니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> bench PartOf court <br><br>
+				<br> 벤치 PartOf 법원 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bend can be used with the same meaning of bow <br><br>
+				<br> 굽힘은 활과 같은 의미로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> bend Synonym bow <br><br>
+				<br> 벤드 동의어 활 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bend is a kind of turn <br><br>
+				<br> 굽힘은 일종의 회전입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> bend IsA turn <br><br>
+				<br> 구부리기 IsA 회전 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bill can be used with the same meaning of note <br><br>
+				<br> bill은 note와 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> bill Synonym note <br><br>
+				<br> 법안 동의어 참고 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bind can be used with the same meaning of fasten <br><br>
+				<br> bind는 fasten과 같은 의미로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> bind Synonym fasten <br><br>
+				<br> 바인드 동의어 fasten <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bird can be used as the opposite of human <br><br>
+				<br> 새는 인간의 반대말로 사용될 수 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> bird Antonym human <br><br>
+				<br> 새 반의어 인간 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> birth is a kind of begin <br><br>
+				<br> 탄생은 일종의 시작이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> birth IsA begin <br><br>
+				<br> 출생 IsA 시작 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> blood can be characterized by liquid <br><br>
+				<br> 혈액은 액체로 특징지을 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> blood HasProperty liquid <br><br>
+				<br> 혈액 HasProperty 액체 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> board is made of wood <br><br>
+				<br> 보드는 나무로 만든 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> board MadeOf wood <br><br>
+				<br> 보드 MadeOf 나무 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> boat is a kind of ride <br><br>
+				<br> 배는 일종의 놀이기구 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> boat IsA ride <br><br>
+				<br> 보트 IsA 타기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> book can have or can contain write <br><br>
+				<br> 책은 쓰기를 가질 수 있거나 포함할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> book HasA write <br><br>
+				<br> 책 HasA 쓰기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> book is a kind of object <br><br>
+				<br> 책은 일종의 물건이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> book IsA object <br><br>
+				<br> 도서 IsA 객체 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> book is part of library <br><br>
+				<br> 책은 도서관의 일부이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> book PartOf library <br><br>
+				<br> 도서 PartOf 라이브러리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bounce is a kind of jump <br><br>
+				<br> 바운스는 점프의 일종이다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> bounce IsA jump <br><br>
+				<br> 바운스 IsA 점프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> boy can be characterized by child <br><br>
+				<br> 소년은 아이로 특징지을 수 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> boy HasProperty child <br><br>
+				<br> 소년 HasProperty 자식 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> brain can be characterized by complex <br><br>
+				<br> 뇌는 복잡한 특징을 가질 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> brain HasProperty complex <br><br>
+				<br> 두뇌 HasProperty 복합물 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> brake can be used as the opposite of pedal <br><br>
+				<br> 브레이크는 페달의 반대로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> brake Antonym pedal <br><br>
+				<br> 브레이크 안토님 페달 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> branch can be used as the opposite of trunk <br><br>
+				<br> 가지는 트렁크의 반대말로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> branch Antonym trunk <br><br>
+				<br> 분기 반대말 트렁크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> break can be used with the same meaning of split <br><br>
+				<br> break는 split과 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> break Synonym split <br><br>
+				<br> break 동의어 split <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> break is a kind of change <br><br>
+				<br> 휴식은 일종의 변화다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> break IsA change <br><br>
+				<br> 휴식 IsA 변경 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bridge is made of wood <br><br>
+				<br> 다리는 나무로 만든다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> bridge MadeOf wood <br><br>
+				<br> 다리 MadeOf 나무 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> bring can be used as the opposite of take_away <br><br>
+				<br> 가져오기는 take_away의 반대말로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> bring Antonym take_away <br><br>
+				<br> 반의어 take_away 가져 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> build is a kind of good <br><br>
+				<br> 빌드는 일종의 좋은 것입니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> build IsA good <br><br>
+				<br> 좋은 빌드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> butterfly can be characterized by beautiful <br><br>
+				<br> 나비는 아름답다는 특징이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> butterfly HasProperty beautiful <br><br>
+				<br> 나비 HasProperty 아름다운 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> buy can be used as the opposite of save <br><br>
+				<br> buy는 save의 반대로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> buy Antonym save <br><br>
+				<br> 구매 Antonym 저장 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> cake can be characterized by sweet <br><br>
+				<br> 케이크는 달콤함을 특징으로 할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> cake HasProperty sweet <br><br>
+				<br> 케이크 HasProperty 달콤한 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> cannon is made of metal <br><br>
+				<br> 대포는 금속으로 만들어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> cannon MadeOf metal <br><br>
+				<br> 대포 MadeOf 금속 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> capital can be used as the opposite of town <br><br>
+				<br> 수도는 도시의 반대말로 쓸 수 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> capital Antonym town <br><br>
+				<br> 수도 앤트넘 타운 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> captain is part of team <br><br>
+				<br> 주장은 팀의 일부입니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> captain PartOf team <br><br>
+				<br> 캡틴 PartOf 팀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> car can be characterized by slow <br><br>
+				<br> 자동차는 느리다는 특징이 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> car HasProperty slow <br><br>
+				<br> 자동차 HasProperty 느림 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> car can be used with the same meaning of vehicle <br><br>
+				<br> car는 차량과 같은 의미로 사용될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> car Synonym vehicle <br><br>
+				<br> 자동차 동의어 차량 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> car can have or can contain wheel <br><br>
+				<br> 자동차는 바퀴를 가질 수 있거나 포함할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> car HasA wheel <br><br>
+				<br> 자동차 HasA 바퀴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> car is a member of train <br><br>
+				<br> 자동차는 기차의 일원이다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> car MemberOf train <br><br>
+				<br> 자동차 MemberOf 기차 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> car is made of iron <br><br>
+				<br> 자동차는 철로 만들어졌다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> car MadeOf iron <br><br>
+				<br> 자동차 MadeOf 철 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> care can be used as the opposite of hurt <br><br>
+				<br> 배려는 상처의 반대말로 쓰일 수 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> care Antonym hurt <br><br>
+				<br> 배려 반대말 상처 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> carpet can be characterized by soft <br><br>
+				<br> 카펫은 부드러움을 특징으로 할 수 있습니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> carpet HasProperty soft <br><br>
+				<br> 카펫 HasProperty 소프트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> cat can be characterized by beautiful <br><br>
+				<br> 고양이는 아름다운 것이 특징입니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> cat HasProperty beautiful <br><br>
+				<br> 고양이 HasProperty 아름다운 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> cat can be characterized by wild <br><br>
+				<br> 고양이는 야생을 특징으로 할 수 있습니다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> cat HasProperty wild <br><br>
+				<br> 고양이 HasProperty 야생 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> cat can have or can contain hair <br><br>
+				<br> 고양이는 머리카락을 가질 수 있거나 포함할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> cat HasA hair <br><br>
+				<br> 고양이 하사헤어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> catch can be used with the same meaning of take <br><br>
+				<br> catch는 take와 같은 의미로 사용할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> catch Synonym take <br><br>
+				<br> catch 동의어 take <br><br>
+			</td>
+		</tr>
+	</table>

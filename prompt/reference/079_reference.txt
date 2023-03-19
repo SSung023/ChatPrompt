@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['a', 'b', 'c'] <br><br>
+				<br> ['아', '비', '씨'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> abc <br><br>
+				<br> 알파벳 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['hello', 'world'] <br><br>
+				<br> ['안녕하세요', '세계'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> helloworld <br><br>
+				<br> 헬로월드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['a_balloon','_mercy_','xyz','12','M','k'] <br><br>
+				<br> ['a_balloon','_mercy_','xyz','12','M','k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> a_balloon_mercy_xyz12Mk <br><br>
+				<br> a_balloon_mercy_xyz12Mk <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['128.', 'y', 'appears', 'q', 'l', 'this', 's', 'in', 'E', 'B', 'M', 'Ocean,', 'p', 'and', 'k'] <br><br>
+				<br> ['128. ', 'y', '나타남', 'q', 'l', '이것', 's', 'in', 'E', 'B', 'M', 'Ocean,', 'p' , '그리고', 'k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 128.yappearsqlthissinEBMOcean,pandk <br><br>
+				<br> 128.yappearsqlthissinEBMOcean,pandk <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['A', 'Bethink', 'r', 'F', 'that', 'I', 'step,', 'l', 'R', 'w'] <br><br>
+				<br> ['A', 'Bethink', 'r', 'F', 'that', 'I', 'step,', 'l', 'R', 'w'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> ABethinkrFthatIstep,lRw <br><br>
+				<br> ABethinkrFthatIstep,lRw <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['A', 'e', 'forehead', 'f'] <br><br>
+				<br> ['A', 'e', '이마', 'f'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Aeforeheadf <br><br>
+				<br> 앞머리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['A', 'i'] <br><br>
+				<br> ['아', '나'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> Ai <br><br>
+				<br> 일체 포함 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['A', 'topsails', 'e', 'never', 'n', 'F', 'that', 't', 'v', 'him,', 'h', 'a', 'to', 'b', 'F'] <br><br>
+				<br> ['A', 'topsails', 'e', '절대', 'n', 'F', '저것', 't', 'v', '그,', 'h', 'a', '에', '비', '에프'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> AtopsailsenevernFthattvhim,hatobF <br><br>
+				<br> AtopsailsevernFthattvhim,hatobF <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'G', 'GLEIG,', 'O', 'of', 'Q', 'the', 'x', 'F'] <br><br>
+				<br> ['B', 'G', 'GLEIG,', 'O', 'of', 'Q', 'the', 'x', 'F'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> BGGLEIG,OofQthexF <br><br>
+				<br> BGGLEIG,OofQthexF <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'W', 'a', 'k', 'q', 'marked', 'C', 'needs', 'C', 'must', 'm', 'B', 'E', 'O'] <br><br>
+				<br> ['B', 'W', 'a', 'k', 'q', '표시됨', 'C', '필요', 'C', '반드시', 'm', 'B', ' 에', '오'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> BWakqmarkedCneedsCmustmBEO <br><br>
+				<br> BWakqmarkedCneedsCmustmBEO <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'away,', 'j', 'greatest', 'I', 'j', 'darkness', 'c', 'grieved,', 'X', 'a', 'i'] <br><br>
+				<br> ['B', '멀리,', 'j', '위대한', '나', 'j', '어둠', 'c', '슬퍼,', 'X', 'a', 'i' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> Baway,jgreatestIjdarknesscgrieved,Xai <br><br>
+				<br> Baway,jgreatestIjdarknesscgrieved,Xai <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'had', 'T', 'C'] <br><br>
+				<br> ['B', '가졌다', 'T', 'C'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> BhadTC <br><br>
+				<br> 바드TC <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'half-erect', 'H', 'ample', 'I', 'whale;', 'p', 'Be', 'i', 'O', 'i', 'O', 'do', 'y', 'F'] <br><br>
+				<br> ['B', '반 직립', 'H', '충분한', 'I', '고래;', 'p', 'Be', 'i', 'O', 'i', 'O ', '할', 'y', 'F'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> Bhalf-erectHampleIwhale;pBeiOiOdoyF <br><br>
+				<br> Bhalf-erectHampleIwhale;pBeiOiOdoyF <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'k', 'w', 'q', 'y', 'F', 'j', 'Q', 'how', 't'] <br><br>
+				<br> ['B', 'k', 'w', 'q', 'y', 'F', 'j', 'Q', '어떻게', 't'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> BkwqyFjQhowt <br><br>
+				<br> BkwqyFjQhowt <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'obtained', 'e', 'C', 'w', 'n'] <br><br>
+				<br> ['B', '획득', 'e', 'C', 'w', 'n'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> BobtainedeCwn <br><br>
+				<br> BobtainedeCwn <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 'r', 'that', 'T'] <br><br>
+				<br> ['B', 'r', '저것', 'T'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> BrthatT <br><br>
+				<br> BrthatT <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['B', 's', 'U', 'R'] <br><br>
+				<br> ['B', 's', 'U', 'R'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> BsUR <br><br>
+				<br> BsUR <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['But', 'k', 'E', 'Y'] <br><br>
+				<br> ['그러나', 'k', 'E', 'Y'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> ButkEY <br><br>
+				<br> 버키 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['C', 'I', 'z'] <br><br>
+				<br> ['C', 'I', 'z'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> CIz <br><br>
+				<br> CIz <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['C', 'N', 'X', 'b', 'are', 'm', 'of', 'z', 'shook', 'D', 'X'] <br><br>
+				<br> ['C', 'N', 'X', 'b', 'are', 'm', 'of', 'z', '흔들렸다', 'D', 'X'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> CNXbaremofzshookDX <br><br>
+				<br> CNXbaremofzshookDX <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['D', 'G', 'm', 'open', 't', 'H', 'by', 'F', 'case', 'u', 'g', 'M', 'lower,', 'X'] <br><br>
+				<br> ['D', 'G', 'm', '오픈', 't', 'H', 'by', 'F', '케이스', 'u', 'g', 'M', ' 아래,', 'X'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> DGmopentHbyFcaseugMlower,X <br><br>
+				<br> DGmopentHbyFcaseugMlower,X <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['D', 'driving', 'R', 'leading', 'e', 'on,', 'a'] <br><br>
+				<br> ['D', '드라이빙', 'R', '리딩', 'e', '온,', 'a'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> DdrivingRleadingeon,a <br><br>
+				<br> DdrivingRleadingeon,a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['D', 'e'] <br><br>
+				<br> ['디', '이'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> De <br><br>
+				<br> 데 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['D', 'h'] <br><br>
+				<br> ['디', '아'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> Dh <br><br>
+				<br> 디 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['D', 'it', 'G', 'J', 'j', 'z', 'are', 'A'] <br><br>
+				<br> ['D', 'it', 'G', 'J', 'j', 'z', 'are', 'A'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> DitGJjzareA <br><br>
+				<br> DitGJjzareA <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['D', 'sun', 'W', 'drawing', 'J', 'p', 'found', 'H', 'e', 'soul', 'W', 'a', 'a', 'E'] <br><br>
+				<br> ['D', '태양', 'W', '그리기', 'J', 'p', '찾았다', 'H', 'e', '영혼', 'W', 'a', ' 가', '이'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> DsunWdrawingJpfoundHesoulWaaE <br><br>
+				<br> DsunWdrawingJpfoundHesoulWaaE <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['E', 'c', 'K', 'was', 'C', 'against', 's'] <br><br>
+				<br> ['E', 'c', 'K', '이었다', 'C', '반대', 's'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> EcKwasCagainsts <br><br>
+				<br> EcKwasCagainsts <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['E', 'stood', 'n', 'x', 'my', 'T', 'branches,', 'I'] <br><br>
+				<br> ['E', '섰다', 'n', 'x', '나의', 'T', '가지', '나'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> EstoodnxmyTbranches,I <br><br>
+				<br> EstoodnxmyTbranches,I <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['F', 'E', 'A', 'too,', 'm'] <br><br>
+				<br> ['F', 'E', 'A', '너무', 'm'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> FEAtoo,m <br><br>
+				<br> FEAtoo,m <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['F', 'z', 'abandon', 'V', 'his', 'g', 'announced', 'e'] <br><br>
+				<br> ['F', 'z', '포기', 'V', '그의', 'g', '발표', 'e'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> FzabandonVhisgannouncede <br><br>
+				<br> FzabandonVhisgannouncede <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Flask', 'q', 'm', 'Java;', 'K', 'the', 'A', 'our', 'A'] <br><br>
+				<br> ['Flask', 'q', 'm', 'Java;', 'K', 'the', 'A', 'our', 'A'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> FlaskqmJava;KtheAourA <br><br>
+				<br> FlaskqmJava;KtheAourA <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['G', 'f', 'V', 'the', 'K', 'come', 'd', 'had', 'P', 'sometimes', 'g', 'half', 'c', 'has', 'N', 'temple', 'J'] <br><br>
+				<br> ['G', 'f', 'V', 'the', 'K', '와', 'd', '했다', 'P', '가끔', 'g', '반', ' c', '가지고', 'N', '사원', 'J'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> GfVtheKcomedhadPsometimesghalfchasNtempleJ <br><br>
+				<br> GfVtheKcomedhadPsometimesghalfchasNtempleJ <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['G', 'of', 'J', 'm', 'h', 'of', 'g', 'c'] <br><br>
+				<br> ['G', '의', 'J', 'm', 'h', '의', 'g', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> GofJmhofgc <br><br>
+				<br> GofJmhofgc <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['G', 't', 'V', 'a', 'U'] <br><br>
+				<br> ['G', 't', 'V', 'a', 'U'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> GtVaU <br><br>
+				<br> GtVaU <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['H', 'K', 'that', 'm', 'came', 'c', 'same', 'Q', 'cut', 'Y', 'can9t', 'V'] <br><br>
+				<br> ['H', 'K', '저것', 'm', '왔다', 'c', '같음', 'Q', '잘랐다', 'Y', 'can9t', 'V'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> HKthatmcamecsameQcutYcan9tV <br><br>
+				<br> HKthatmcamecsameQcutYcan9tV <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['H', 'O', 'he', 'P', 'p', 'one,', 'E', 'P'] <br><br>
+				<br> ['H', 'O', '그', 'P', 'p', '하나,', 'E', 'P'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> HOhePpone,EP <br><br>
+				<br> HOhePone,EP <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['H', 'f', 'C', 'q', 'M'] <br><br>
+				<br> ['H', 'f', 'C', 'q', 'M'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> HfCqM <br><br>
+				<br> HfCqM <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['H', 'f', 'like', 'l', 'W', 'O'] <br><br>
+				<br> ['H', 'f', '좋아요', 'l', 'W', 'O'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> HflikelWO <br><br>
+				<br> HflikelWO <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Hussey', 'E', 'd', 'q', 'from', 'F', 'T', 'volition,', 'G', 'j', 'I', 'B', 'H', 'crew', 'E'] <br><br>
+				<br> ['Hussey', 'E', 'd', 'q', 'from', 'F', 'T', 'volition,', 'G', 'j', 'I', 'B', 'H', '승무원', 'E'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> HusseyEdqfromFTvolition,GjIBHcrewE <br><br>
+				<br> FTvolition의 HusseyEdq, GjIBHcrewE <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['I', 'N', 'come', 'X', 'c', 'f'] <br><br>
+				<br> ['I', 'N', '와', 'X', 'c', 'f'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> INcomeXcf <br><br>
+				<br> 수입Xcf <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['I', 'R'] <br><br>
+				<br> ['나', 'R'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> IR <br><br>
+				<br> IR <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['I', 'a', 'q', 'him,', 'P', 'L', 'more', 'C', 'though', 'M', 'literal', 'm'] <br><br>
+				<br> ['I', 'a', 'q', 'him,', 'P', 'L', 'more', 'C', 'though', 'M', 'literal', 'm'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> Iaqhim,PLmoreCthoughMliteralm <br><br>
+				<br> Iaqhim,PLmoreCthoughM문자 그대로 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['I', 'j', 'X', 'o', 'o', 'utterly', 'q', 'with', 'N', 'D', 'U', 'as', 'A'] <br><br>
+				<br> ['I', 'j', 'X', 'o', 'o', '완전히', 'q', 'with', 'N', 'D', 'U', 'as', ' ㅏ'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> IjXooutterlyqwithNDUasA <br><br>
+				<br> IjXooutterlyq with NDUasA <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['I', 'that', 'l', 'x'] <br><br>
+				<br> ['나', '저것', 'l', 'x'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> Ithatlx <br><br>
+				<br> Itathlx <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['I', 'y', 'but', 'i', 'L', 'his', 'r', 'a', 'k'] <br><br>
+				<br> ['나', 'y', '그러나', 'i', 'L', '그의', 'r', 'a', 'k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> IybutiLhisrak <br><br>
+				<br> 이부티리스락 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['I9ve44d', 'B', 'I', 'y', 'W', 'sea', 'I'] <br><br>
+				<br> ['I9ve44d', 'B', '나', 'y', 'W', '바다', '나'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> I9ve44dBIyWseaI <br><br>
+				<br> I9ve44dBIyWseaI <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['J', 'U', 'Z', 'r', 'and', 'p', 'c'] <br><br>
+				<br> ['J', 'U', 'Z', 'r', '그리고', 'p', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> JUZrandpc <br><br>
+				<br> JUZrandpc <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['J', 'ends', 'g', 'W', 'L'] <br><br>
+				<br> ['J', '종료', 'g', 'W', 'L'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> JendsgWL <br><br>
+				<br> JendsgWL <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['J', 'h', 'L', 'H', 'W', 'S', 'F', 'b', 'E', 'c'] <br><br>
+				<br> ['J', 'h', 'L', 'H', 'W', 'S', 'F', 'b', 'E', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> JhLHWSFbEc <br><br>
+				<br> JhLHWSFbEc <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['J', 'like', 'N', 'c', 'y', 'whole,', 'g', 'of', 'r', 'was', 'J'] <br><br>
+				<br> ['J', 'like', 'N', 'c', 'y', '전체,', 'g', 'of', 'r', 'was', 'J'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> JlikeNcywhole,gofrwasJ <br><br>
+				<br> JlikeNcywhole,gofrwasJ <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['J', 'o'] <br><br>
+				<br> ['제이', '오'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> Jo <br><br>
+				<br> 조 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['J', 't', 'R', 'and', 's'] <br><br>
+				<br> ['J', 't', 'R', '및', 's'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> JtRands <br><br>
+				<br> JtRands <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['J', 'thou', 'q'] <br><br>
+				<br> ['J', '너', 'q'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> Jthouq <br><br>
+				<br> Jthouq <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Just', 'U', 'with', 'Y', 'conceivable', 'i', 'to', 'R', 'L'] <br><br>
+				<br> ['Just', 'U', 'with', 'Y', '상상 가능한', 'i', 'to', 'R', 'L'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> JustUwithYconceivableitoRL <br><br>
+				<br> JustUwithYconceivableitoRL <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['K', 'R', 'j', 'v', 'this', 'n'] <br><br>
+				<br> ['K', 'R', 'j', 'v', '이', 'n'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> KRjvthisn <br><br>
+				<br> KRjvthisn <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['K', 'Z', 'q', 'U', 'v', 'j', 'v', 'c'] <br><br>
+				<br> ['K', 'Z', 'q', 'U', 'v', 'j', 'v', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> KZqUvjvc <br><br>
+				<br> KZqUvjvc <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['L', 'D', 'voyage', 'q', 'v'] <br><br>
+				<br> ['L', 'D', '항해', 'q', 'v'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> LDvoyageqv <br><br>
+				<br> LDvoyageqv <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['L', 'u', 'h', 'j'] <br><br>
+				<br> ['L', 'u', 'h', 'j'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> Luhj <br><br>
+				<br> 루지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['L', 'y', 'x', 'lighted', 'p', 'I', 'M', 'the', 'I', 'U', 'off', 'l'] <br><br>
+				<br> ['L', 'y', 'x', '점등', 'p', 'I', 'M', 'the', 'I', 'U', '꺼짐', 'l'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> LyxlightedpIMtheIUoffl <br><br>
+				<br> LyxlightedpIMtheIUoffl <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['M', 'slumbering', 'y'] <br><br>
+				<br> ['M', '수면중', 'y'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> Mslumberingy <br><br>
+				<br> Mslumberingy <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['M', 'started', 'P', 'out', 'F', 'than', 'L', 'T', 'l'] <br><br>
+				<br> ['M', '시작', 'P', '아웃', 'F', '보다', 'L', 'T', 'l'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> MstartedPoutFthanLTl <br><br>
+				<br> MstartedPoutFthanLTl <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['M', 'then', 'z', 'M', 'to', 'A', 'q', 'r', 'k'] <br><br>
+				<br> ['M', 'then', 'z', 'M', 'to', 'A', 'q', 'r', 'k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> MthenzMtoAqrk <br><br>
+				<br> MthenzMtoAqrk <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['M', 'w', 'many', 'l', 'belong,', 'M', 'endless', 'A', 'dare-devil', 'H', 'and', 'I'] <br><br>
+				<br> ['M', 'w', 'many', 'l', 'belong,', 'M', 'endless', 'A', 'dare-devil', 'H', 'and', 'I '] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> Mwmanylbelong,MendlessAdare-devilHandI <br><br>
+				<br> Mwmanylbelong,MendlessAdare-devilHandI <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['May,', 'E', 'not', 'y', 'y', 'windlass,', 'Y', 'A', 'my', 'w', 'e'] <br><br>
+				<br> ['May,', 'E', 'not', 'y', 'y', 'windlass,', 'Y', 'A', 'my', 'w', 'e'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> May,Enotyywindlass,YAmywe <br><br>
+				<br> 5월,Enotywindlass,YAmywe <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['N', 'R', 'Now', 'B', 'S', 'the', 'G', 'to', 'm', 'tell', 'I', 'F'] <br><br>
+				<br> ['N', 'R', '지금', 'B', 'S', 'the', 'G', 'to', 'm', 'tell', 'I', 'F'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> NRNowBStheGtomtellIF <br><br>
+				<br> NRNowBStheGtomtellIF <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['N', 'S', 'see', 'b'] <br><br>
+				<br> ['N', 'S', '참조', 'b'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> NSseeb <br><br>
+				<br> NSseeb <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['N', 'article', 'q', 'q', 'Z', 'V'] <br><br>
+				<br> ['N', '기사', 'q', 'q', 'Z', 'V'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> NarticleqqZV <br><br>
+				<br> NarticleqqZV <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['N', 'had', 'd', 't', 'side.', 'B', 'sort', 'a', 'of', 'L', 'M'] <br><br>
+				<br> ['N', '했다', 'd', 't', '사이드. ', 'B', '정렬', 'a', 'of', 'L', 'M'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> Nhaddtside.BsortaofLM <br><br>
+				<br> Nhaddtside.BsortaofLM <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['O', 'V', 'the', 'n'] <br><br>
+				<br> ['O', 'V', 'the', 'n'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> OVthen <br><br>
+				<br> OVthen <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['O', 'a', 'B', 'r', 'up', 't', 'c', 'between', 'g'] <br><br>
+				<br> ['O', 'a', 'B', 'r', '위', 't', 'c', '사이', 'g'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> OaBruptcbetweeng <br><br>
+				<br> OaBruptcbetweeng <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['O', 'came', 'f', 'in', 'T', 'i', 'z', 'thrust', 't', 'sperm', 'k'] <br><br>
+				<br> ['O', '왔다', 'f', 'in', 'T', 'i', 'z', '추력', 't', '정자', 'k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> OcamefinTizthrusttspermk <br><br>
+				<br> OcamefinTizthrustt정자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['O', 'fires', 'R', 'long,', 'L', 'n', 'Y', 'j', 'and', 'y', 'o', 'Z'] <br><br>
+				<br> ['O', '화재', 'R', '롱', 'L', 'n', 'Y', 'j', '그리고', 'y', 'o', 'Z'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> OfiresRlong,LnYjandyoZ <br><br>
+				<br> OffiresRlong,LnYjandyoZ <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['O', 'the', 'F', 'have', 'd', 'B', 'I', 'j', 'and', 'i', 'steps', 'B'] <br><br>
+				<br> ['O', 'the', 'F', 'have', 'd', 'B', 'I', 'j', 'and', 'i', 'steps', 'B'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> OtheFhavedBIjandistepsB <br><br>
+				<br> 기타FhavedBIjandistepsB <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['P', 'course', 'j', 'your', 'd', 'M', 'A', 'k'] <br><br>
+				<br> ['P', '코스', 'j', '당신의', 'd', 'M', 'A', 'k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> PcoursejyourdMAk <br><br>
+				<br> PcoursejyourdMAk <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['P', 'thing', 'l', 'V', 'L', 'C'] <br><br>
+				<br> ['P', '것', 'l', 'V', 'L', 'C'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> PthinglVLC <br><br>
+				<br> PthinglVLC <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Q', 'A', 'v', 'temporary,', 'I', 'and', 'U', 'P', 'n', 'anything', 'J', 'to', 'a', 'such', 'Q', 'he', 'E'] <br><br>
+				<br> ['Q', 'A', 'v', '임시', 'I', 'and', 'U', 'P', 'n', '무엇이든', 'J', 'to', 'a', '그런', 'Q', '그', 'E'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> QAvtemporary,IandUPnanythingJtoasuchQheE <br><br>
+				<br> QAvtemporary, IandUPnanything J to a such QheE <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Q', 'X', 'a', 'so', 'c', 'and', 'Q', 'belaying', 'J', 'even', 'g', 'x', 'of', 'm'] <br><br>
+				<br> ['Q', 'X', 'a', 'so', 'c', 'and', 'Q', '빌레이잉', 'J', 'even', 'g', 'x', ' of', '엠'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> QXasocandQbelayingJevengxofm <br><br>
+				<br> QXasocandQ배신Jevengxofm <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Q', 'o', 'or', 'v'] <br><br>
+				<br> ['Q', 'o', '또는', 'v'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> Qoorv <br><br>
+				<br> 쿠르브 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Queequeg,', 'p', 'p', 'the', 'P', 'on', 'h', 'O', 'L', 'a', 'o', 'e', 'A'] <br><br>
+				<br> ['Quequeg,', 'p', 'p', 'the', 'P', 'on', 'h', 'O', 'L', 'a', 'o', 'e', 'ㅏ'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> Queequeg,ppthePonhOLaoeA <br><br>
+				<br> Queequeg,ppthePonhOLaoeA <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['R', 'I', 'whale', 'H', 'out', 'Z', 'v', 'slender', 's', 'G', 'and', 'o', 'Z'] <br><br>
+				<br> ['R', 'I', 'whale', 'H', 'out', 'Z', 'v', 'slender', 's', 'G', 'and', 'o', ' 지'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> RIwhaleHoutZvslendersGandoZ <br><br>
+				<br> RI고래HoutZvslendersGandoZ <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['R', 'of', 'E', 'H', 'O', 'expression4all', 'f', 'v', 'p', 'g', 'c'] <br><br>
+				<br> ['R', 'of', 'E', 'H', 'O', 'expression4all', 'f', 'v', 'p', 'g', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> RofEHOexpression4allfvpgc <br><br>
+				<br> RofEHOexpression4allfvpgc <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['Rockaway', 'Z', 'q', 'G', 'J', 'S', 'there', 'O', 'c', 'g'] <br><br>
+				<br> ['락커웨이', 'Z', 'q', 'G', 'J', 'S', '거기', 'O', 'c', 'g'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> RockawayZqGJSthereOcg <br><br>
+				<br> RockawayZqGJSthereOcg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['S', 'L', 'Z', 'God,', 'i'] <br><br>
+				<br> ['S', 'L', 'Z', '신,', 'i'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> SLZGod,i <br><br>
+				<br> SLZ신,i <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['S', 'a'] <br><br>
+				<br> ['에스', '아'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> Sa <br><br>
+				<br> 사 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['S', 'point,', 'C', 's', 'B', 'o'] <br><br>
+				<br> ['S', '포인트,', 'C', 's', 'B', 'o'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> Spoint,CsBo <br><br>
+				<br> 점,CsBo <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['S', 'slid', 'H', 'were', 'R', 'I', 'within', 't', 'underground', 'I', 'c', 'in', 'd'] <br><br>
+				<br> ['S', '슬라이드', 'H', '있었다', 'R', 'I', 'within', 't', 'underground', 'I', 'c', 'in', ' 디'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> SslidHwereRIwithintundergroundIcind <br><br>
+				<br> SslidHwereRIwithinundergroundIcind <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['S', 'x', 'do', 'q', 'p'] <br><br>
+				<br> ['S', 'x', '도', 'q', 'p'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> Sxdoqp <br><br>
+				<br> Sxdoqp <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['T', 'W', 'J', 'C', 'x', 'n'] <br><br>
+				<br> ['T', 'W', 'J', 'C', 'x', 'n'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> TWJCxn <br><br>
+				<br> TWJCxn <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['T', 'd', 'f', 'tapering', 'a', 'N'] <br><br>
+				<br> ['T', 'd', 'f', '테이퍼링', 'a', 'N'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> TdftaperingaN <br><br>
+				<br> TdftaperingaN <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['T', 'j', 'q', 'upon', 'y', 'Bashee', 'F', 'their', 'v', 'But', 'b', 'O', 'C', 'continual', 'n'] <br><br>
+				<br> ['T', 'j', 'q', 'upon', 'y', 'Bashee', 'F', 'their', 'v', 'But', 'b', 'O', ' C', '계속', 'n'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> TjquponyBasheeFtheirvButbOCcontinualn <br><br>
+				<br> TjquponyBasheeFtheirvButbOCcontinualn <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['T', 'y'] <br><br>
+				<br> ['티', '와이'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> Ty <br><br>
+				<br> 타이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['The', 't', 'S', 'P'] <br><br>
+				<br> ['그', 't', '에스', '피'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> ThetSP <br><br>
+				<br> ThetSP <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['U', 'him.', 'e', 'k', 'Many', 'Y', 'sequel', 'l', 'v', 'stopping', 'f', 'p'] <br><br>
+				<br> ['유', '그. ', 'e', 'k', '많음', 'Y', '속편', 'l', 'v', '멈춤', 'f', 'p'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> Uhim.ekManyYsequellvstoppingfp <br><br>
+				<br> Uhim.ekManyYsequellvstoppingfp <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['U', 'landed', 'A', 'the', 'O', 'not', 'p', 'x', 'l', 'h', 'i', 'whales;', 'N', 'hours', 'y'] <br><br>
+				<br> ['U', '착륙', 'A', 'the', 'O', 'not', 'p', 'x', 'l', 'h', 'i', '고래;', 'N', '시간', 'y'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> UlandedAtheOnotpxlhiwhales;Nhoursy <br><br>
+				<br> UlandedAtheOnotpxlhiwhales;Nhoursy <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['U', 'never', 'U', 'intense', 'V', 'known', 'G', 'barrels', 'J'] <br><br>
+				<br> ['U', '절대', 'U', '강렬함', 'V', '알려진', 'G', '배럴', 'J'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> UneverUintenseVknownGbarrelsJ <br><br>
+				<br> UneverUintenseVknownGbarrelsJ <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['U', 'truck', 'S', 'Q', 'concerning', 'X', 'murmured,', 'P'] <br><br>
+				<br> ['U', '트럭', 'S', 'Q', '관심', 'X', '중얼거림,', 'P'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> UtruckSQconcerningXmurmured,P <br><br>
+				<br> UtruckSQconcerningXmurmured,P <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['V', 'has', 'f', 'Y', 'o', 'some', 'R', 'I', 'r', 'V', 'm'] <br><br>
+				<br> ['V', '있다', 'f', 'Y', 'o', '일부', 'R', 'I', 'r', 'V', 'm'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> VhasfYosomeRIrVm <br><br>
+				<br> VhasfYosomeRIrVm <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['W', 'C', 'trouble;4he', 'p', 'watches', 'O', 'e', 'i', 'E', 'k', 'roll', 'C'] <br><br>
+				<br> ['W', 'C', '문제;4he', 'p', '시계', 'O', 'e', 'i', 'E', 'k', '롤', 'C' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> WCtrouble;4hepwatchesOeiEkrollC <br><br>
+				<br> WCtrouble;4hepwatchesOeiEkrollC <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['W', 'as', 'e'] <br><br>
+				<br> ['W', '로', 'e'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> Wase <br><br>
+				<br> 와세 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['W', 'h'] <br><br>
+				<br> ['와트시'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> Wh <br><br>
+				<br> 와트시 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['W', 'unusually', 's'] <br><br>
+				<br> ['W', '비정상적으로', 's'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> Wunusuallys <br><br>
+				<br> 보통 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['W', 'v', 'whets', 'U', 'J', 'his', 'n', 'g', 'v', 'N', 'L'] <br><br>
+				<br> ['W', 'v', 'whets', 'U', 'J', 'his', 'n', 'g', 'v', 'N', 'L'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> WvwhetsUJhisngvNL <br><br>
+				<br> WvwhetsUJhisngvNL <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['White', 'D', 'B', 'consternation', 'c'] <br><br>
+				<br> ['백인', 'D', 'B', '경악', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> WhiteDBconsternationc <br><br>
+				<br> WhiteDB경악c <br><br>
+			</td>
+		</tr>
+	</table>

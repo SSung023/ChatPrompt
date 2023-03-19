@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [16, 205, 171, 2, 9, 317] <br><br>
+				<br> [16, 205, 171, 2, 9, 317] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> [16, 256, 128, 2, 8, 256] <br><br>
+				<br> [16, 256, 128, 2, 8, 256] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 384] <br><br>
+				<br> [12, 3, 384] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> [16, 4, 512] <br><br>
+				<br> [16, 4, 512] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1046, 2635, 441, 18, 40] <br><br>
+				<br> [10, 1046, 2635, 441, 18, 40] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 2048, 512, 16, 32] <br><br>
+				<br> [8, 1024, 2048, 512, 16, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1191, 4448, 3335, 7, 74, 3] <br><br>
+				<br> [10, 1191, 4448, 3335, 7, 74, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 4096, 4096, 8, 64, 4] <br><br>
+				<br> [8, 1024, 4096, 4096, 8, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1256, 4183, 1350, 13, 71, 3, 247, 872, 158, 2818, 15, 68, 3, 112, 1424] <br><br>
+				<br> [10, 1256, 4183, 1350, 13, 71, 3, 247, 872, 158, 2818, 15, 68, 3, 112, 1424] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 4096, 1024, 16, 64, 4, 256, 1024, 128, 2048, 16, 64, 4, 128, 1024] <br><br>
+				<br> [8, 1024, 4096, 1024, 16, 64, 4, 256, 1024, 128, 2048, 16, 64, 4, 128, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1319, 2950, 2979, 12, 55, 4, 161, 1223, 4135, 705, 6, 82, 3, 182, 885] <br><br>
+				<br> [10, 1319, 2950, 2979, 12, 55, 4, 161, 1223, 4135, 705, 6, 82, 3, 182, 885] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 2048, 2048, 16, 64, 4, 128, 1024, 4096, 512, 8, 64, 4, 128, 1024] <br><br>
+				<br> [8, 1024, 2048, 2048, 16, 64, 4, 128, 1024, 4096, 512, 8, 64, 4, 128, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1327, 3834, 4389, 7, 38, 3, 156, 1305, 2649, 3770, 25, 56] <br><br>
+				<br> [10, 1327, 3834, 4389, 7, 38, 3, 156, 1305, 2649, 3770, 25, 56] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 4096, 4096, 8, 32, 4, 128, 1024, 2048, 4096, 32, 64] <br><br>
+				<br> [8, 1024, 4096, 4096, 8, 32, 4, 128, 1024, 2048, 4096, 32, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 134, 4266] <br><br>
+				<br> [10, 134, 4266] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> [8, 128, 4096] <br><br>
+				<br> [8, 128, 4096] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1349, 4135, 1951, 23, 33, 2, 32, 986, 2048, 533, 22, 48, 4] <br><br>
+				<br> [10, 1349, 4135, 1951, 23, 33, 2, 32, 986, 2048, 533, 22, 48, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 4096, 2048, 16, 32, 2, 32, 1024, 2048, 512, 16, 64, 4] <br><br>
+				<br> [8, 1024, 4096, 2048, 16, 32, 2, 32, 1024, 2048, 512, 16, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1436, 2104, 3739, 8, 57, 3] <br><br>
+				<br> [10, 1436, 2104, 3739, 8, 57, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 2048, 4096, 8, 64, 4] <br><br>
+				<br> [8, 1024, 2048, 4096, 8, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1447, 4176, 3429, 23, 50, 4, 100, 488, 4921, 3065, 24, 39, 2, 134] <br><br>
+				<br> [10, 1447, 4176, 3429, 23, 50, 4, 100, 488, 4921, 3065, 24, 39, 2, 134] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 4096, 4096, 16, 64, 4, 128, 512, 4096, 2048, 32, 32, 2, 128] <br><br>
+				<br> [8, 1024, 4096, 4096, 16, 64, 4, 128, 512, 4096, 2048, 32, 32, 2, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1462, 1933, 2261, 16, 63, 4, 28, 621, 2588] <br><br>
+				<br> [10, 1462, 1933, 2261, 16, 63, 4, 28, 621, 2588] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 2048, 2048, 16, 64, 4, 32, 512, 2048] <br><br>
+				<br> [8, 1024, 2048, 2048, 16, 64, 4, 32, 512, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1513, 2700, 3765, 21, 64, 4, 152, 1160, 3144] <br><br>
+				<br> [10, 1513, 2700, 3765, 21, 64, 4, 152, 1160, 3144] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 2048, 4096, 16, 64, 4, 128, 1024, 4096] <br><br>
+				<br> [8, 1024, 2048, 4096, 16, 64, 4, 128, 1024, 4096] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1575, 2513, 4825, 19, 33, 3] <br><br>
+				<br> [10, 1575, 2513, 4825, 19, 33, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> [8, 2048, 2048, 4096, 16, 32, 4] <br><br>
+				<br> [8, 2048, 2048, 4096, 16, 32, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1609, 4408, 3223, 21, 52, 2, 180] <br><br>
+				<br> [10, 1609, 4408, 3223, 21, 52, 2, 180] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> [8, 2048, 4096, 4096, 16, 64, 2, 128] <br><br>
+				<br> [8, 2048, 4096, 4096, 16, 64, 2, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1741, 4928, 2106] <br><br>
+				<br> [10, 1741, 4928, 2106] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> [8, 2048, 4096, 2048] <br><br>
+				<br> [8, 2048, 4096, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1916, 2346, 3871, 23, 49, 4] <br><br>
+				<br> [10, 1916, 2346, 3871, 23, 49, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> [8, 2048, 2048, 4096, 16, 64, 4] <br><br>
+				<br> [8, 2048, 2048, 4096, 16, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 1976, 1926, 4925, 14] <br><br>
+				<br> [10, 1976, 1926, 4925, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> [8, 2048, 2048, 4096, 16] <br><br>
+				<br> [8, 2048, 2048, 4096, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 3, 283, 4422, 21, 66, 4] <br><br>
+				<br> [10, 3, 283, 4422, 21, 66, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> [8, 4, 256, 4096, 16, 64, 4] <br><br>
+				<br> [8, 4, 256, 4096, 16, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 303, 4552, 1299, 17] <br><br>
+				<br> [10, 303, 4552, 1299, 17] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> [8, 256, 4096, 1024, 16] <br><br>
+				<br> [8, 256, 4096, 1024, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 415, 625, 554, 11, 41, 4] <br><br>
+				<br> [10, 415, 625, 554, 11, 41, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> [8, 512, 512, 512, 8, 32, 4] <br><br>
+				<br> [8, 512, 512, 512, 8, 32, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 472, 1800, 3718, 21, 86, 4, 232, 1835, 3909, 3950, 18, 53] <br><br>
+				<br> [10, 472, 1800, 3718, 21, 86, 4, 232, 1835, 3909, 3950, 18, 53] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> [8, 512, 2048, 4096, 16, 64, 4, 256, 2048, 4096, 4096, 16, 64] <br><br>
+				<br> [8, 512, 2048, 4096, 16, 64, 4, 256, 2048, 4096, 4096, 16, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 510, 1953, 4259, 14, 40, 3, 73] <br><br>
+				<br> [10, 510, 1953, 4259, 14, 40, 3, 73] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> [8, 512, 2048, 4096, 16, 32, 4, 64] <br><br>
+				<br> [8, 512, 2048, 4096, 16, 32, 4, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 598, 135, 3763, 18, 71, 4, 192, 234, 2724, 2571] <br><br>
+				<br> [10, 598, 135, 3763, 18, 71, 4, 192, 234, 2724, 2571] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> [8, 512, 128, 4096, 16, 64, 4, 256, 256, 2048, 2048] <br><br>
+				<br> [8, 512, 128, 4096, 16, 64, 4, 256, 256, 2048, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 746, 4375, 3796, 16] <br><br>
+				<br> [10, 746, 4375, 3796, 16] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> [8, 512, 4096, 4096, 16] <br><br>
+				<br> [8, 512, 4096, 4096, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 833, 416, 493, 15] <br><br>
+				<br> [10, 833, 416, 493, 15] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 512, 512, 16] <br><br>
+				<br> [8, 1024, 512, 512, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 864, 3963, 4428, 10, 44, 4, 26, 1022, 3827, 3341, 15, 55, 3, 143, 972] <br><br>
+				<br> [10, 864, 3963, 4428, 10, 44, 4, 26, 1022, 3827, 3341, 15, 55, 3, 143, 972] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> [8, 1024, 4096, 4096, 8, 32, 4, 32, 1024, 4096, 4096, 16, 64, 4, 128, 1024] <br><br>
+				<br> [8, 1024, 4096, 4096, 8, 32, 4, 32, 1024, 4096, 4096, 16, 64, 4, 128, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 101, 3449, 3234, 20] <br><br>
+				<br> [100, 101, 3449, 3234, 20] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> [128, 128, 4096, 4096, 16] <br><br>
+				<br> [128, 128, 4096, 4096, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1016, 4868, 1475, 14] <br><br>
+				<br> [100, 1016, 4868, 1475, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 1024, 16] <br><br>
+				<br> [128, 1024, 4096, 1024, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1025, 375, 452, 19, 51, 2, 192, 857] <br><br>
+				<br> [100, 1025, 375, 452, 19, 51, 2, 192, 857] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 256, 512, 16, 64, 2, 256, 1024] <br><br>
+				<br> [128, 1024, 256, 512, 16, 64, 2, 256, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1046, 321, 2483, 21, 76, 4, 185, 873, 515, 2170, 25] <br><br>
+				<br> [100, 1046, 321, 2483, 21, 76, 4, 185, 873, 515, 2170, 25] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 256, 2048, 16, 64, 4, 128, 1024, 512, 2048, 32] <br><br>
+				<br> [128, 1024, 256, 2048, 16, 64, 4, 128, 1024, 512, 2048, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1110, 2384, 3734, 14, 36, 3, 167, 685, 1641] <br><br>
+				<br> [100, 1110, 2384, 3734, 14, 36, 3, 167, 685, 1641] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 4096, 16, 32, 4, 128, 512, 2048] <br><br>
+				<br> [128, 1024, 2048, 4096, 16, 32, 4, 128, 512, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1190, 933, 2437, 19, 52, 2, 177, 824, 1038, 4411, 25, 70, 4] <br><br>
+				<br> [100, 1190, 933, 2437, 19, 52, 2, 177, 824, 1038, 4411, 25, 70, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 1024, 2048, 16, 64, 2, 128, 1024, 1024, 4096, 32, 64, 4] <br><br>
+				<br> [128, 1024, 1024, 2048, 16, 64, 2, 128, 1024, 1024, 4096, 32, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 125, 4263, 4717, 9, 56, 2, 217, 1944, 2466, 695, 17] <br><br>
+				<br> [100, 125, 4263, 4717, 9, 56, 2, 217, 1944, 2466, 695, 17] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> [128, 128, 4096, 4096, 8, 64, 2, 256, 2048, 2048, 512, 16] <br><br>
+				<br> [128, 128, 4096, 4096, 8, 64, 2, 256, 2048, 2048, 512, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1321, 90, 2235, 18, 70, 3, 234, 1600, 3727, 4083, 13, 86, 3, 180] <br><br>
+				<br> [100, 1321, 90, 2235, 18, 70, 3, 234, 1600, 3727, 4083, 13, 86, 3, 180] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 64, 2048, 16, 64, 4, 256, 2048, 4096, 4096, 16, 64, 4, 128] <br><br>
+				<br> [128, 1024, 64, 2048, 16, 64, 4, 256, 2048, 4096, 4096, 16, 64, 4, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1470, 3932, 3535, 25, 76, 4, 116, 1422, 4569, 4929] <br><br>
+				<br> [100, 1470, 3932, 3535, 25, 76, 4, 116, 1422, 4569, 4929] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 4096, 32, 64, 4, 128, 1024, 4096, 4096] <br><br>
+				<br> [128, 1024, 4096, 4096, 32, 64, 4, 128, 1024, 4096, 4096] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 15, 1394, 3866, 25, 81, 3, 83] <br><br>
+				<br> [100, 15, 1394, 3866, 25, 81, 3, 83] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> [128, 16, 1024, 4096, 32, 64, 4, 64] <br><br>
+				<br> [128, 16, 1024, 4096, 32, 64, 4, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1525, 4212, 1230, 17, 56, 3, 72, 1064, 4905, 579, 15] <br><br>
+				<br> [100, 1525, 4212, 1230, 17, 56, 3, 72, 1064, 4905, 579, 15] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 1024, 16, 64, 4, 64, 1024, 4096, 512, 16] <br><br>
+				<br> [128, 1024, 4096, 1024, 16, 64, 4, 64, 1024, 4096, 512, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 159, 665, 2943, 22, 48, 3, 107, 625, 4624, 3817, 17, 55, 2, 159] <br><br>
+				<br> [100, 159, 665, 2943, 22, 48, 3, 107, 625, 4624, 3817, 17, 55, 2, 159] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> [128, 128, 512, 2048, 16, 64, 4, 128, 512, 4096, 4096, 16, 64, 2, 128] <br><br>
+				<br> [128, 128, 512, 2048, 16, 64, 4, 128, 512, 4096, 4096, 16, 64, 2, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1655, 2133, 1335, 7] <br><br>
+				<br> [100, 1655, 2133, 1335, 7] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 2048, 1024, 8] <br><br>
+				<br> [128, 2048, 2048, 1024, 8] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1690, 691, 3379, 24, 48, 4, 250] <br><br>
+				<br> [100, 1690, 691, 3379, 24, 48, 4, 250] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 512, 4096, 32, 64, 4, 256] <br><br>
+				<br> [128, 2048, 512, 4096, 32, 64, 4, 256] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 1790, 2360, 4545, 23, 34, 2, 123, 482, 1271, 4681, 10, 47, 4, 73, 1615] <br><br>
+				<br> [100, 1790, 2360, 4545, 23, 34, 2, 123, 482, 1271, 4681, 10, 47, 4, 73, 1615] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 2048, 4096, 16, 32, 2, 128, 512, 1024, 4096, 8, 32, 4, 64, 2048] <br><br>
+				<br> [128, 2048, 2048, 4096, 16, 32, 2, 128, 512, 1024, 4096, 8, 32, 4, 64, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 188, 4952, 447, 11, 47, 4, 55] <br><br>
+				<br> [100, 188, 4952, 447, 11, 47, 4, 55] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> [128, 128, 4096, 512, 8, 32, 4, 64] <br><br>
+				<br> [128, 128, 4096, 512, 8, 32, 4, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 377, 3890, 2467, 23, 39] <br><br>
+				<br> [100, 377, 3890, 2467, 23, 39] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> [128, 256, 4096, 2048, 16, 32] <br><br>
+				<br> [128, 256, 4096, 2048, 16, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 467, 3576, 4158, 23, 39, 2, 147, 1069, 1669, 710] <br><br>
+				<br> [100, 467, 3576, 4158, 23, 39, 2, 147, 1069, 1669, 710] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 4096, 4096, 16, 32, 2, 128, 1024, 2048, 512] <br><br>
+				<br> [128, 512, 4096, 4096, 16, 32, 2, 128, 1024, 2048, 512] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 580, 3464, 975, 9, 43, 3, 88, 1909, 225, 4112, 18, 84, 3] <br><br>
+				<br> [100, 580, 3464, 975, 9, 43, 3, 88, 1909, 225, 4112, 18, 84, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 4096, 1024, 8, 32, 4, 64, 2048, 256, 4096, 16, 64, 4] <br><br>
+				<br> [128, 512, 4096, 1024, 8, 32, 4, 64, 2048, 256, 4096, 16, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 605, 554, 4646, 13, 74, 4, 117, 866, 2210, 3795, 11, 40] <br><br>
+				<br> [100, 605, 554, 4646, 13, 74, 4, 117, 866, 2210, 3795, 11, 40] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 512, 4096, 16, 64, 4, 128, 1024, 2048, 4096, 8, 32] <br><br>
+				<br> [128, 512, 512, 4096, 16, 64, 4, 128, 1024, 2048, 4096, 8, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 779, 2573, 1966, 9, 87, 4, 126, 1634, 4032, 1814, 7, 41, 3, 61] <br><br>
+				<br> [100, 779, 2573, 1966, 9, 87, 4, 126, 1634, 4032, 1814, 7, 41, 3, 61] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 2048, 8, 64, 4, 128, 2048, 4096, 2048, 8, 32, 4, 64] <br><br>
+				<br> [128, 1024, 2048, 2048, 8, 64, 4, 128, 2048, 4096, 2048, 8, 32, 4, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 850, 3965, 1952, 20, 71] <br><br>
+				<br> [100, 850, 3965, 1952, 20, 71] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 2048, 16, 64] <br><br>
+				<br> [128, 1024, 4096, 2048, 16, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [100, 959, 3870, 4166, 6, 81, 3, 233, 1548, 725, 4644, 9, 71, 3, 108] <br><br>
+				<br> [100, 959, 3870, 4166, 6, 81, 3, 233, 1548, 725, 4644, 9, 71, 3, 108] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 4096, 8, 64, 4, 256, 2048, 512, 4096, 8, 64, 4, 128] <br><br>
+				<br> [128, 1024, 4096, 4096, 8, 64, 4, 256, 2048, 512, 4096, 8, 64, 4, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1067, 2836, 3979, 21, 59, 4, 123, 1653, 190, 1983] <br><br>
+				<br> [101, 1067, 2836, 3979, 21, 59, 4, 123, 1653, 190, 1983] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 4096, 16, 64, 4, 128, 2048, 128, 2048] <br><br>
+				<br> [128, 1024, 2048, 4096, 16, 64, 4, 128, 2048, 128, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1089, 807, 4545, 19, 88, 4, 35] <br><br>
+				<br> [101, 1089, 807, 4545, 19, 88, 4, 35] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 1024, 4096, 16, 64, 4, 32] <br><br>
+				<br> [128, 1024, 1024, 4096, 16, 64, 4, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1227, 3972, 2648, 20, 33, 2, 29, 1548, 629, 3310, 21, 75, 4] <br><br>
+				<br> [101, 1227, 3972, 2648, 20, 33, 2, 29, 1548, 629, 3310, 21, 75, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 2048, 16, 32, 2, 32, 2048, 512, 4096, 16, 64, 4] <br><br>
+				<br> [128, 1024, 4096, 2048, 16, 32, 2, 32, 2048, 512, 4096, 16, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1248, 2922, 2260, 23, 56, 2, 60, 228, 4141, 3747, 17, 59, 4, 117] <br><br>
+				<br> [101, 1248, 2922, 2260, 23, 56, 2, 60, 228, 4141, 3747, 17, 59, 4, 117] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 2048, 16, 64, 2, 64, 256, 4096, 4096, 16, 64, 4, 128] <br><br>
+				<br> [128, 1024, 2048, 2048, 16, 64, 2, 64, 256, 4096, 4096, 16, 64, 4, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1305, 4002, 4198] <br><br>
+				<br> [101, 1305, 4002, 4198] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 4096] <br><br>
+				<br> [128, 1024, 4096, 4096] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 145, 2126, 1440, 10, 45, 3] <br><br>
+				<br> [101, 145, 2126, 1440, 10, 45, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> [128, 128, 2048, 1024, 8, 32, 4] <br><br>
+				<br> [128, 128, 2048, 1024, 8, 32, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1623, 4214, 566, 19, 31] <br><br>
+				<br> [101, 1623, 4214, 566, 19, 31] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 4096, 512, 16, 32] <br><br>
+				<br> [128, 2048, 4096, 512, 16, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1628, 2084, 2835, 10, 46, 2, 10] <br><br>
+				<br> [101, 1628, 2084, 2835, 10, 46, 2, 10] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 2048, 2048, 8, 32, 2, 8] <br><br>
+				<br> [128, 2048, 2048, 2048, 8, 32, 2, 8] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1859, 671, 2959] <br><br>
+				<br> [101, 1859, 671, 2959] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 512, 2048] <br><br>
+				<br> [128, 2048, 512, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 1943, 4602, 801, 16, 50, 2] <br><br>
+				<br> [101, 1943, 4602, 801, 16, 50, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 4096, 1024, 16, 64, 2] <br><br>
+				<br> [128, 2048, 4096, 1024, 16, 64, 2] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 284, 280, 3570, 14, 79, 3, 59, 1427, 615, 4180, 21, 74, 2] <br><br>
+				<br> [101, 284, 280, 3570, 14, 79, 3, 59, 1427, 615, 4180, 21, 74, 2] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> [128, 256, 256, 4096, 16, 64, 4, 64, 1024, 512, 4096, 16, 64, 2] <br><br>
+				<br> [128, 256, 256, 4096, 16, 64, 4, 64, 1024, 512, 4096, 16, 64, 2] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 294, 2360, 3791, 12, 66, 3, 216, 543, 2069, 2762, 9, 42, 4, 198, 1086] <br><br>
+				<br> [101, 294, 2360, 3791, 12, 66, 3, 216, 543, 2069, 2762, 9, 42, 4, 198, 1086] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> [128, 256, 2048, 4096, 16, 64, 4, 256, 512, 2048, 2048, 8, 32, 4, 256, 1024] <br><br>
+				<br> [128, 256, 2048, 4096, 16, 64, 4, 256, 512, 2048, 2048, 8, 32, 4, 256, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 367, 1607, 1070, 9, 73, 4, 149] <br><br>
+				<br> [101, 367, 1607, 1070, 9, 73, 4, 149] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> [128, 256, 2048, 1024, 8, 64, 4, 128] <br><br>
+				<br> [128, 256, 2048, 1024, 8, 64, 4, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 510, 1952, 1171, 10, 83, 2, 211, 780, 4889, 535, 19] <br><br>
+				<br> [101, 510, 1952, 1171, 10, 83, 2, 211, 780, 4889, 535, 19] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 2048, 1024, 8, 64, 2, 256, 1024, 4096, 512, 16] <br><br>
+				<br> [128, 512, 2048, 1024, 8, 64, 2, 256, 1024, 4096, 512, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 653, 664, 4379] <br><br>
+				<br> [101, 653, 664, 4379] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 512, 4096] <br><br>
+				<br> [128, 512, 512, 4096] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 701, 2009] <br><br>
+				<br> [101, 701, 2009] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 2048] <br><br>
+				<br> [128, 512, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 752, 3023, 490, 17, 36, 4, 107, 971, 971, 691, 11, 38] <br><br>
+				<br> [101, 752, 3023, 490, 17, 36, 4, 107, 971, 971, 691, 11, 38] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 2048, 512, 16, 32, 4, 128, 1024, 1024, 512, 8, 32] <br><br>
+				<br> [128, 512, 2048, 512, 16, 32, 4, 128, 1024, 1024, 512, 8, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 797, 3035, 618, 23, 46, 3, 52, 1645] <br><br>
+				<br> [101, 797, 3035, 618, 23, 46, 3, 52, 1645] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 512, 16, 32, 4, 64, 2048] <br><br>
+				<br> [128, 1024, 2048, 512, 16, 32, 4, 64, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 8, 1778] <br><br>
+				<br> [101, 8, 1778] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> [128, 8, 2048] <br><br>
+				<br> [128, 8, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [101, 965, 1925, 2703, 14, 53, 2, 213, 1953, 1675, 2893, 17, 79] <br><br>
+				<br> [101, 965, 1925, 2703, 14, 53, 2, 213, 1953, 1675, 2893, 17, 79] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 2048, 16, 64, 2, 256, 2048, 2048, 2048, 16, 64] <br><br>
+				<br> [128, 1024, 2048, 2048, 16, 64, 2, 256, 2048, 2048, 2048, 16, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1049, 2347, 4353, 13, 43, 3, 188, 714, 542] <br><br>
+				<br> [102, 1049, 2347, 4353, 13, 43, 3, 188, 714, 542] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 4096, 16, 32, 4, 128, 512, 512] <br><br>
+				<br> [128, 1024, 2048, 4096, 16, 32, 4, 128, 512, 512] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1112, 3322, 4691, 20, 48, 3, 226, 859, 2695] <br><br>
+				<br> [102, 1112, 3322, 4691, 20, 48, 3, 226, 859, 2695] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 4096, 16, 64, 4, 256, 1024, 2048] <br><br>
+				<br> [128, 1024, 4096, 4096, 16, 64, 4, 256, 1024, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1185, 1860, 523, 15, 40, 3, 167, 1827] <br><br>
+				<br> [102, 1185, 1860, 523, 15, 40, 3, 167, 1827] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 512, 16, 32, 4, 128, 2048] <br><br>
+				<br> [128, 1024, 2048, 512, 16, 32, 4, 128, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1190, 3386, 3838] <br><br>
+				<br> [102, 1190, 3386, 3838] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 4096] <br><br>
+				<br> [128, 1024, 4096, 4096] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1201, 1309, 2338, 25, 90, 2, 171, 1964] <br><br>
+				<br> [102, 1201, 1309, 2338, 25, 90, 2, 171, 1964] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 1024, 2048, 32, 64, 2, 128, 2048] <br><br>
+				<br> [128, 1024, 1024, 2048, 32, 64, 2, 128, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1213, 238, 819, 15] <br><br>
+				<br> [102, 1213, 238, 819, 15] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 256, 1024, 16] <br><br>
+				<br> [128, 1024, 256, 1024, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1236, 4122, 2528, 8, 39, 2, 176, 1873, 3321, 918] <br><br>
+				<br> [102, 1236, 4122, 2528, 8, 39, 2, 176, 1873, 3321, 918] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 2048, 8, 32, 2, 128, 2048, 4096, 1024] <br><br>
+				<br> [128, 1024, 4096, 2048, 8, 32, 2, 128, 2048, 4096, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1244, 1430, 4288, 12, 62, 2, 167, 920, 781, 4387, 17, 88, 2, 201] <br><br>
+				<br> [102, 1244, 1430, 4288, 12, 62, 2, 167, 920, 781, 4387, 17, 88, 2, 201] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 1024, 4096, 16, 64, 2, 128, 1024, 1024, 4096, 16, 64, 2, 256] <br><br>
+				<br> [128, 1024, 1024, 4096, 16, 64, 2, 128, 1024, 1024, 4096, 16, 64, 2, 256] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1328, 4450, 2739, 21, 64, 2, 154, 1161, 2051, 2625, 7] <br><br>
+				<br> [102, 1328, 4450, 2739, 21, 64, 2, 154, 1161, 2051, 2625, 7] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 2048, 16, 64, 2, 128, 1024, 2048, 2048, 8] <br><br>
+				<br> [128, 1024, 4096, 2048, 16, 64, 2, 128, 1024, 2048, 2048, 8] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1457, 1613, 1533, 14] <br><br>
+				<br> [102, 1457, 1613, 1533, 14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 1024, 16] <br><br>
+				<br> [128, 1024, 2048, 1024, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1530, 2930, 2506, 19, 88, 4, 136] <br><br>
+				<br> [102, 1530, 2930, 2506, 19, 88, 4, 136] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 2048, 16, 64, 4, 128] <br><br>
+				<br> [128, 1024, 2048, 2048, 16, 64, 4, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1668, 2192, 3236, 15, 39, 3, 132, 610, 2336, 4717, 16, 70, 2, 130, 1376] <br><br>
+				<br> [102, 1668, 2192, 3236, 15, 39, 3, 132, 610, 2336, 4717, 16, 70, 2, 130, 1376] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 2048, 4096, 16, 32, 4, 128, 512, 2048, 4096, 16, 64, 2, 128, 1024] <br><br>
+				<br> [128, 2048, 2048, 4096, 16, 32, 4, 128, 512, 2048, 4096, 16, 64, 2, 128, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1713, 3364, 2775, 19, 80, 2, 17, 297, 4942, 864] <br><br>
+				<br> [102, 1713, 3364, 2775, 19, 80, 2, 17, 297, 4942, 864] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 4096, 2048, 16, 64, 2, 16, 256, 4096, 1024] <br><br>
+				<br> [128, 2048, 4096, 2048, 16, 64, 2, 16, 256, 4096, 1024] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 174, 4149, 4414, 7, 39, 4] <br><br>
+				<br> [102, 174, 4149, 4414, 7, 39, 4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> [128, 128, 4096, 4096, 8, 32, 4] <br><br>
+				<br> [128, 128, 4096, 4096, 8, 32, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1847, 3036] <br><br>
+				<br> [102, 1847, 3036] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 2048] <br><br>
+				<br> [128, 2048, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1859, 945, 4971, 20, 30, 3] <br><br>
+				<br> [102, 1859, 945, 4971, 20, 30, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 1024, 4096, 16, 32, 4] <br><br>
+				<br> [128, 2048, 1024, 4096, 16, 32, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1922, 779, 1290, 22] <br><br>
+				<br> [102, 1922, 779, 1290, 22] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 1024, 1024, 16] <br><br>
+				<br> [128, 2048, 1024, 1024, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 1976, 4641, 2260, 24, 85] <br><br>
+				<br> [102, 1976, 4641, 2260, 24, 85] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> [128, 2048, 4096, 2048, 32, 64] <br><br>
+				<br> [128, 2048, 4096, 2048, 32, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 409, 4767, 2775, 18, 47, 3, 71, 1385, 2020, 3969, 7] <br><br>
+				<br> [102, 409, 4767, 2775, 18, 47, 3, 71, 1385, 2020, 3969, 7] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 4096, 2048, 16, 32, 4, 64, 1024, 2048, 4096, 8] <br><br>
+				<br> [128, 512, 4096, 2048, 16, 32, 4, 64, 1024, 2048, 4096, 8] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 430, 1615, 3011, 17, 87, 3, 156, 1948, 161, 3684, 25, 69, 2, 38] <br><br>
+				<br> [102, 430, 1615, 3011, 17, 87, 3, 156, 1948, 161, 3684, 25, 69, 2, 38] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 2048, 2048, 16, 64, 4, 128, 2048, 128, 4096, 32, 64, 2, 32] <br><br>
+				<br> [128, 512, 2048, 2048, 16, 64, 4, 128, 2048, 128, 4096, 32, 64, 2, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 483, 2903, 1590, 15, 52, 2, 68] <br><br>
+				<br> [102, 483, 2903, 1590, 15, 52, 2, 68] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 2048, 2048, 16, 64, 2, 64] <br><br>
+				<br> [128, 512, 2048, 2048, 16, 64, 2, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 636, 1399, 3214, 8, 73, 3, 104, 848, 6, 2147] <br><br>
+				<br> [102, 636, 1399, 3214, 8, 73, 3, 104, 848, 6, 2147] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 1024, 4096, 8, 64, 4, 128, 1024, 8, 2048] <br><br>
+				<br> [128, 512, 1024, 4096, 8, 64, 4, 128, 1024, 8, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 664, 1608, 4151, 20, 61, 3, 191] <br><br>
+				<br> [102, 664, 1608, 4151, 20, 61, 3, 191] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 2048, 4096, 16, 64, 4, 128] <br><br>
+				<br> [128, 512, 2048, 4096, 16, 64, 4, 128] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 695, 2141, 1634, 21, 79, 2, 219, 482, 1188, 4324, 23, 69] <br><br>
+				<br> [102, 695, 2141, 1634, 21, 79, 2, 219, 482, 1188, 4324, 23, 69] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 2048, 2048, 16, 64, 2, 256, 512, 1024, 4096, 16, 64] <br><br>
+				<br> [128, 512, 2048, 2048, 16, 64, 2, 256, 512, 1024, 4096, 16, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 737, 4379, 1992] <br><br>
+				<br> [102, 737, 4379, 1992] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> [128, 512, 4096, 2048] <br><br>
+				<br> [128, 512, 4096, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 797, 2790, 2455, 25, 32, 4, 4, 695, 2240, 3515, 25, 43] <br><br>
+				<br> [102, 797, 2790, 2455, 25, 32, 4, 4, 695, 2240, 3515, 25, 43] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 2048, 32, 32, 4, 4, 512, 2048, 4096, 32, 32] <br><br>
+				<br> [128, 1024, 2048, 2048, 32, 32, 4, 4, 512, 2048, 4096, 32, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 845, 2385, 1973, 15, 65, 4, 72] <br><br>
+				<br> [102, 845, 2385, 1973, 15, 65, 4, 72] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 2048, 16, 64, 4, 64] <br><br>
+				<br> [128, 1024, 2048, 2048, 16, 64, 4, 64] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [102, 964, 2727, 4470, 15, 48, 2, 196, 1541, 692, 2051] <br><br>
+				<br> [102, 964, 2727, 4470, 15, 48, 2, 196, 1541, 692, 2051] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 4096, 16, 64, 2, 256, 2048, 512, 2048] <br><br>
+				<br> [128, 1024, 2048, 4096, 16, 64, 2, 256, 2048, 512, 2048] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [103, 1003, 3525, 3707, 17, 55, 3] <br><br>
+				<br> [103, 1003, 3525, 3707, 17, 55, 3] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 4096, 16, 64, 4] <br><br>
+				<br> [128, 1024, 4096, 4096, 16, 64, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [103, 1036, 3659, 1966, 21, 83, 2, 72, 915, 3429, 3646, 20, 37] <br><br>
+				<br> [103, 1036, 3659, 1966, 21, 83, 2, 72, 915, 3429, 3646, 20, 37] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 4096, 2048, 16, 64, 2, 64, 1024, 4096, 4096, 16, 32] <br><br>
+				<br> [128, 1024, 4096, 2048, 16, 64, 2, 64, 1024, 4096, 4096, 16, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [103, 1056, 1090, 3193, 7, 30] <br><br>
+				<br> [103, 1056, 1090, 3193, 7, 30] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 1024, 4096, 8, 32] <br><br>
+				<br> [128, 1024, 1024, 4096, 8, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [103, 1067, 1896, 3747, 12, 49, 2, 228] <br><br>
+				<br> [103, 1067, 1896, 3747, 12, 49, 2, 228] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> [128, 1024, 2048, 4096, 16, 64, 2, 256] <br><br>
+				<br> [128, 1024, 2048, 4096, 16, 64, 2, 256] <br><br>
+			</td>
+		</tr>
+	</table>

@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2,4,5,6,4,8,9,10], target=10 <br><br>
+				<br> [2,4,5,6,4,8,9,10], 대상=10 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> [2,8] <br><br>
+				<br> [2,8] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [2,4,5,6,4,8,9,10], target=12 <br><br>
+				<br> [2,4,5,6,4,8,9,10], 대상=12 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> [2,10] <br><br>
+				<br> [2,10] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], target=14 <br><br>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], 대상=14 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> [12, 2] <br><br>
+				<br> [12, 2] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], target=14 <br><br>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], 대상=14 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> [2, 12] <br><br>
+				<br> [2, 12] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], target=14 <br><br>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], 대상=14 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> [6, 8] <br><br>
+				<br> [6, 8] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], target=14 <br><br>
+				<br> [1, 11, 10, 31, 32, 7, 21, 42, 12, 6, 49, 5, 27, 26, 34, 2, 8, 46, 22, 24], 대상=14 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> [8, 6] <br><br>
+				<br> [8, 6] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], target=72 <br><br>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], 타겟=72 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> [30, 42] <br><br>
+				<br> [30, 42] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], target=72 <br><br>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], 타겟=72 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> [32, 40] <br><br>
+				<br> [32, 40] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], target=72 <br><br>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], 타겟=72 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> [33, 39] <br><br>
+				<br> [33, 39] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], target=72 <br><br>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], 타겟=72 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> [39, 33] <br><br>
+				<br> [39, 33] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], target=72 <br><br>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], 타겟=72 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> [40, 32] <br><br>
+				<br> [40, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], target=72 <br><br>
+				<br> [1, 15, 40, 9, 48, 19, 39, 38, 2, 42, 14, 29, 27, 30, 20, 41, 32, 47, 35, 33], 타겟=72 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> [42, 30] <br><br>
+				<br> [42, 30] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 28, 8, 31, 40, 30, 24, 34, 35, 37, 22, 45, 41, 11, 26, 47, 33, 27, 49, 18], target=24 <br><br>
+				<br> [1, 28, 8, 31, 40, 30, 24, 34, 35, 37, 22, 45, 41, 11, 26, 47, 33, 27, 49, 18], 타겟=24 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> [] <br><br>
+				<br> [] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> [1, 39] <br><br>
+				<br> [1, 39] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> [16, 24] <br><br>
+				<br> [16, 24] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> [2, 38] <br><br>
+				<br> [2, 38] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> [24, 16] <br><br>
+				<br> [24, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> [35, 5] <br><br>
+				<br> [35, 5] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> [38, 2] <br><br>
+				<br> [38, 2] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> [39, 1] <br><br>
+				<br> [39, 1] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], target=40 <br><br>
+				<br> [1, 35, 20, 7, 16, 47, 41, 36, 24, 3, 38, 5, 13, 31, 2, 23, 14, 39, 6, 19], 대상=40 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> [5, 35] <br><br>
+				<br> [5, 35] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], target=16 <br><br>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], 대상=16 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> [1, 15] <br><br>
+				<br> [1, 15] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], target=16 <br><br>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], 대상=16 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> [12, 4] <br><br>
+				<br> [12, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], target=16 <br><br>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], 대상=16 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> [15, 1] <br><br>
+				<br> [15, 1] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], target=16 <br><br>
+				<br> [1, 40, 29, 10, 12, 21, 47, 28, 49, 38, 13, 26, 42, 25, 15, 11, 44, 4, 43, 23], 대상=16 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> [4, 12] <br><br>
+				<br> [4, 12] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 14, 27, 9, 46, 30, 17, 34, 31, 26, 7, 16, 47, 11, 22, 25, 36, 44, 23, 42], target=85 <br><br>
+				<br> [10, 14, 27, 9, 46, 30, 17, 34, 31, 26, 7, 16, 47, 11, 22, 25, 36, 44, 23, 42], 타겟=85 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> [] <br><br>
+				<br> [] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], target=32 <br><br>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], 타겟=32 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> [13, 19] <br><br>
+				<br> [13, 19] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], target=32 <br><br>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], 타겟=32 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> [19, 13] <br><br>
+				<br> [19, 13] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], target=32 <br><br>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], 타겟=32 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> [24, 8] <br><br>
+				<br> [24, 8] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], target=32 <br><br>
+				<br> [10, 33, 20, 46, 19, 6, 5, 45, 29, 2, 23, 42, 18, 24, 25, 36, 13, 15, 38, 8], 타겟=32 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> [8, 24] <br><br>
+				<br> [8, 24] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 44, 42, 29, 17, 19, 39, 38, 35, 6, 11, 14, 40, 41, 47, 12, 22, 2, 15, 34], target=20 <br><br>
+				<br> [10, 44, 42, 29, 17, 19, 39, 38, 35, 6, 11, 14, 40, 41, 47, 12, 22, 2, 15, 34], 타겟=20 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> [14, 6] <br><br>
+				<br> [14, 6] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 44, 42, 29, 17, 19, 39, 38, 35, 6, 11, 14, 40, 41, 47, 12, 22, 2, 15, 34], target=20 <br><br>
+				<br> [10, 44, 42, 29, 17, 19, 39, 38, 35, 6, 11, 14, 40, 41, 47, 12, 22, 2, 15, 34], 타겟=20 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> [6, 14] <br><br>
+				<br> [6, 14] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [10, 6, 3, 21, 4, 13, 2, 16, 41, 17, 26, 39, 37, 31, 29, 18, 15, 9, 45, 47], target=87 <br><br>
+				<br> [10, 6, 3, 21, 4, 13, 2, 16, 41, 17, 26, 39, 37, 31, 29, 18, 15, 9, 45, 47], 타겟=87 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> [] <br><br>
+				<br> [] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 14, 8, 40, 31, 17, 19, 26, 49, 34, 27, 15, 4, 7, 41, 38, 30, 42, 36, 23], target=96 <br><br>
+				<br> [11, 14, 8, 40, 31, 17, 19, 26, 49, 34, 27, 15, 4, 7, 41, 38, 30, 42, 36, 23], 타겟=96 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> [] <br><br>
+				<br> [] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], target=29 <br><br>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], 타겟=29 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> [13, 16] <br><br>
+				<br> [13, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], target=29 <br><br>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], 타겟=29 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> [16, 13] <br><br>
+				<br> [16, 13] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], target=29 <br><br>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], 타겟=29 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> [23, 6] <br><br>
+				<br> [23, 6] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], target=29 <br><br>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], 타겟=29 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> [24, 5] <br><br>
+				<br> [24, 5] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], target=29 <br><br>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], 타겟=29 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> [5, 24] <br><br>
+				<br> [5, 24] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], target=29 <br><br>
+				<br> [11, 24, 23, 13, 6, 43, 8, 48, 28, 5, 4, 16, 49, 34, 27, 38, 47, 40, 37, 41], 타겟=29 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> [6, 23] <br><br>
+				<br> [6, 23] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], target=47 <br><br>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> [13, 34] <br><br>
+				<br> [13, 34] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], target=47 <br><br>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> [17, 30] <br><br>
+				<br> [17, 30] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], target=47 <br><br>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> [19, 28] <br><br>
+				<br> [19, 28] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], target=47 <br><br>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> [28, 19] <br><br>
+				<br> [28, 19] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], target=47 <br><br>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> [30, 17] <br><br>
+				<br> [30, 17] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], target=47 <br><br>
+				<br> [11, 30, 12, 43, 28, 31, 17, 13, 46, 7, 34, 39, 2, 32, 27, 19, 22, 38, 14, 49], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> [34, 13] <br><br>
+				<br> [34, 13] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 47, 22, 28, 19, 13, 25, 9, 29, 26, 3, 27, 18, 12, 2, 30, 38, 41, 24, 6], target=91 <br><br>
+				<br> [11, 47, 22, 28, 19, 13, 25, 9, 29, 26, 3, 27, 18, 12, 2, 30, 38, 41, 24, 6], 타겟=91 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> [] <br><br>
+				<br> [] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], target=61 <br><br>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], 타겟=61 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> [21, 40] <br><br>
+				<br> [21, 40] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], target=61 <br><br>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], 타겟=61 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> [24, 37] <br><br>
+				<br> [24, 37] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], target=61 <br><br>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], 타겟=61 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> [37, 24] <br><br>
+				<br> [37, 24] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], target=61 <br><br>
+				<br> [11, 8, 15, 48, 5, 42, 10, 29, 40, 45, 2, 21, 23, 33, 20, 44, 37, 1, 24, 35], 타겟=61 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> [40, 21] <br><br>
+				<br> [40, 21] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], target=34 <br><br>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> [13, 21] <br><br>
+				<br> [13, 21] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], target=34 <br><br>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> [21, 13] <br><br>
+				<br> [21, 13] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], target=34 <br><br>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> [30, 4] <br><br>
+				<br> [30, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], target=34 <br><br>
+				<br> [12, 21, 30, 29, 45, 15, 36, 16, 13, 39, 37, 6, 31, 24, 17, 14, 33, 27, 8, 4], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> [4, 30] <br><br>
+				<br> [4, 30] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> [12, 41] <br><br>
+				<br> [12, 41] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> [14, 39] <br><br>
+				<br> [14, 39] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> [20, 33] <br><br>
+				<br> [20, 33] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> [22, 31] <br><br>
+				<br> [22, 31] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> [25, 28] <br><br>
+				<br> [25, 28] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> [28, 25] <br><br>
+				<br> [28, 25] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> [31, 22] <br><br>
+				<br> [31, 22] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> [33, 20] <br><br>
+				<br> [33, 20] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> [39, 14] <br><br>
+				<br> [39, 14] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], target=53 <br><br>
+				<br> [12, 25, 42, 28, 41, 20, 2, 22, 27, 33, 24, 9, 35, 47, 32, 39, 45, 36, 14, 31], 타겟=53 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> [41, 12] <br><br>
+				<br> [41, 12] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> [13, 35] <br><br>
+				<br> [13, 35] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> [19, 29] <br><br>
+				<br> [19, 29] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> [21, 27] <br><br>
+				<br> [21, 27] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> [27, 21] <br><br>
+				<br> [27, 21] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> [29, 19] <br><br>
+				<br> [29, 19] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> [35, 13] <br><br>
+				<br> [35, 13] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> [4, 44] <br><br>
+				<br> [4, 44] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], target=48 <br><br>
+				<br> [12, 3, 21, 9, 23, 16, 13, 28, 4, 44, 43, 35, 22, 7, 14, 29, 19, 48, 27, 6], 대상=48 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> [44, 4] <br><br>
+				<br> [44, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], target=39 <br><br>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], 타겟=39 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> [18, 21] <br><br>
+				<br> [18, 21] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], target=39 <br><br>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], 타겟=39 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> [19, 20] <br><br>
+				<br> [19, 20] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], target=39 <br><br>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], 타겟=39 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> [20, 19] <br><br>
+				<br> [20, 19] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], target=39 <br><br>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], 타겟=39 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> [21, 18] <br><br>
+				<br> [21, 18] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], target=39 <br><br>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], 타겟=39 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> [32, 7] <br><br>
+				<br> [32, 7] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], target=39 <br><br>
+				<br> [12, 42, 19, 39, 30, 16, 48, 7, 4, 47, 43, 18, 6, 11, 21, 20, 32, 22, 25, 5], 타겟=39 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> [7, 32] <br><br>
+				<br> [7, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], target=64 <br><br>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], 타겟=64 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> [21, 43] <br><br>
+				<br> [21, 43] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], target=64 <br><br>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], 타겟=64 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> [28, 36] <br><br>
+				<br> [28, 36] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], target=64 <br><br>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], 타겟=64 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> [36, 28] <br><br>
+				<br> [36, 28] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], target=64 <br><br>
+				<br> [12, 49, 8, 37, 46, 10, 34, 32, 28, 3, 36, 25, 48, 38, 33, 45, 4, 2, 21, 43], 타겟=64 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> [43, 21] <br><br>
+				<br> [43, 21] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], target=47 <br><br>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> [1, 46] <br><br>
+				<br> [1, 46] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], target=47 <br><br>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> [22, 25] <br><br>
+				<br> [22, 25] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], target=47 <br><br>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> [25, 22] <br><br>
+				<br> [25, 22] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], target=47 <br><br>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> [4, 43] <br><br>
+				<br> [4, 43] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], target=47 <br><br>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> [43, 4] <br><br>
+				<br> [43, 4] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], target=47 <br><br>
+				<br> [13, 43, 25, 9, 27, 5, 39, 16, 49, 18, 17, 22, 10, 26, 1, 46, 41, 4, 32, 3], 타겟=47 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> [46, 1] <br><br>
+				<br> [46, 1] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], target=51 <br><br>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], 타겟=51 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> [16, 35] <br><br>
+				<br> [16, 35] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], target=51 <br><br>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], 타겟=51 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> [20, 31] <br><br>
+				<br> [20, 31] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], target=51 <br><br>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], 타겟=51 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> [21, 30] <br><br>
+				<br> [21, 30] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], target=51 <br><br>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], 타겟=51 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> [30, 21] <br><br>
+				<br> [30, 21] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], target=51 <br><br>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], 타겟=51 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> [31, 20] <br><br>
+				<br> [31, 20] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], target=51 <br><br>
+				<br> [13, 8, 21, 24, 11, 41, 7, 4, 45, 35, 30, 31, 34, 16, 26, 42, 18, 2, 20, 46], 타겟=51 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> [35, 16] <br><br>
+				<br> [35, 16] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], target=34 <br><br>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> [1, 33] <br><br>
+				<br> [1, 33] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], target=34 <br><br>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> [13, 21] <br><br>
+				<br> [13, 21] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], target=34 <br><br>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> [2, 32] <br><br>
+				<br> [2, 32] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], target=34 <br><br>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> [21, 13] <br><br>
+				<br> [21, 13] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], target=34 <br><br>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> [25, 9] <br><br>
+				<br> [25, 9] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], target=34 <br><br>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> [27, 7] <br><br>
+				<br> [27, 7] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], target=34 <br><br>
+				<br> [13, 9, 7, 45, 39, 24, 4, 1, 48, 26, 35, 27, 32, 41, 34, 19, 25, 21, 33, 2], 타겟=34 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> [32, 2] <br><br>
+				<br> [32, 2] <br><br>
+			</td>
+		</tr>
+	</table>

@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'the brown cat sits perched on atop of the bed peering forward'. Count the occurrences of the word 'the' in the given sentence. <br><br>
+				<br> 문장: '갈색 고양이가 침대 위에 앉아 앞을 바라보고 있다'. 주어진 문장에서 'the'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy in snow clothing sits on a bench to inspect his skis'. Count the occurrences of the word 'to' in the given sentence. <br><br>
+				<br> 문장: '겨울 옷을 입은 소년이 벤치에 앉아 스키를 점검합니다'. 주어진 문장에서 'to'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player is running in a field'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '야구 선수가 들판에서 달리고 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a toilet and a bath tub'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '화장실과 욕조가 있는 욕실'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bed room with a large window and a neatly made bed'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '큰 창이 있는 침실과 깔끔하게 정돈된 침대'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom with a bed next to a closet'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '옷장 옆에 침대가 있는 침실'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bench sitting under a mirror and next to a wall'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '거울 아래 벽 옆에 있는 벤치'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a big bed sitting in a room next to a window'. Count the occurrences of the word 'room' in the given sentence. <br><br>
+				<br> 문장: '창문 옆 방에 앉아 있는 큰 침대'. 주어진 문장에서 '방'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a big brown vase hanging above a big couch'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '큰 소파 위에 걸려 있는 큰 갈색 꽃병'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of an airplane being loaded'. Count the occurrences of the word 'of' in the given sentence. <br><br>
+				<br> 문장: '탑재 중인 비행기의 흑백 사진'. 주어진 문장에서 'of'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo with a man on a bench and a woman that is hard to see'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '벤치에 앉은 남자와 보기 힘든 여자가 있는 흑백 사진'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photograph of a white man with a large tie'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '큰 넥타이를 매고 있는 백인 남성의 흑백 사진'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white picture of people standing around with a horse and some cows'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '말과 소 몇 마리와 함께 서 있는 사람들의 흑백 사진'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white picture of people standing around with a horse and some cows'. Count the occurrences of the word 'and' in the given sentence. <br><br>
+				<br> 문장: '말과 소 몇 마리와 함께 서 있는 사람들의 흑백 사진'. 주어진 문장에서 'and'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black cat is sitting in a pot'. Count the occurrences of the word 'sitting' in the given sentence. <br><br>
+				<br> 문장: '검은 고양이가 냄비에 앉아 있다'. 주어진 문장에서 '앉아'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black counter top of a stove inside a kitchen'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '부엌 안에 있는 난로의 검은 조리대'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black train is on a train track near some foothills'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '검은 기차가 산기슭 근처의 기차 선로에 있습니다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy jumping high on his skate board in front of a group of people'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '한 무리의 사람들 앞에서 스케이트보드를 타고 높이 점프하는 소년'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy sticking a fork into a stack of pancakes'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '팬케이크 더미에 포크를 집어넣는 소년'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boys soccer game with one player from a team going after the ball as another player from a different team also pursues the ball'. Count the occurrences of the word 'with' in the given sentence. <br><br>
+				<br> 문장: '한 팀의 한 선수가 공을 쫓고 다른 팀의 다른 선수도 공을 쫓는 남학생 축구 경기'. 주어진 문장에서 'with'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a building with a gold steeple under a cloudy sky'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '구름낀 하늘 아래 금빛 첨탑이 있는 건물'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a building with a gold steeple under a cloudy sky'. Count the occurrences of the word 'building' in the given sentence. <br><br>
+				<br> 문장: '구름낀 하늘 아래 금빛 첨탑이 있는 건물'. 주어진 문장에서 '빌딩'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a car waiting for a train to pass'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '기차가 지나가기를 기다리는 차'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat in a fridge by a jug of milk'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '우유병 옆 냉장고 안의 고양이'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat in a fridge by a jug of milk'. Count the occurrences of the word 'fridge' in the given sentence. <br><br>
+				<br> 문장: '우유병 옆 냉장고 안의 고양이'. 주어진 문장에서 'fridge'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting on top of a chair next to two phones'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '두 대의 전화기 옆 의자 위에 고양이가 앉아 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cats face close to the keyboard of a computer'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '고양이는 컴퓨터의 키보드에 가까이 직면한다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a chair in a corner next to a lampwith pictures behind it on a wall'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '그 뒤에 벽에 그림이 있는 램프 옆 구석에 있는 의자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child rides a wave on a surfboard'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '서프보드 위에서 파도를 타는 아이'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a city street with stores across the street and a bicycle parked on the side of the street with a dog sitting in the front basket'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '길 건너편에 상점이 있고 길가에 자전거가 주차되어 있고 앞 바구니에 개가 앉아 있는 도시의 거리'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a city street with stores across the street and a bicycle parked on the side of the street with a dog sitting in the front basket'. Count the occurrences of the word 'the' in the given sentence. <br><br>
+				<br> 문장: '길 건너편에 상점이 있고 길가에 자전거가 주차되어 있고 앞 바구니에 개가 앉아 있는 도시의 거리'. 주어진 문장에서 'the'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock tower at night in a city'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '도시의 밤에 시계탑'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a person wearing a shirt and tie'. Count the occurrences of the word 'up' in the given sentence. <br><br>
+				<br> 문장: '셔츠와 넥타이를 매고 있는 사람의 클로즈업'. 주어진 문장에서 'up'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a plate of food with a soup'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '국이 있는 음식 접시 클로즈업'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a tennis player with a scary mask on'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '무서운 마스크를 쓴 테니스 선수의 클로즈업'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a young baseball player fielding a baseball'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '야구를 수비하는 젊은 야구 선수의 클로즈업'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of a young baseball player fielding a baseball'. Count the occurrences of the word 'up' in the given sentence. <br><br>
+				<br> 문장: '야구를 수비하는 젊은 야구 선수의 클로즈업'. 주어진 문장에서 'up'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close up of different plates of food'. Count the occurrences of the word 'of' in the given sentence. <br><br>
+				<br> 문장: '다양한 음식 접시 클로즈업'. 주어진 문장에서 'of'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a closeup of the top of a fire hydrant with a train in the background'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '배경에 기차가 있는 소화전 상단 클로즈업'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a collage of pictures with a person standing near a street sign'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '도로 표지판 근처에 서 있는 사람이 있는 사진 콜라주'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of cats laying on top of a bed'. Count the occurrences of the word 'laying' in the given sentence. <br><br>
+				<br> 문장: '침대 위에 누워 있는 고양이 두 마리'. 주어진 문장에서 'laying'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of horses standing on a grass covered field'. Count the occurrences of the word 'on' in the given sentence. <br><br>
+				<br> 문장: '풀로 뒤덮인 들판에 서 있는 두 마리의 말'. 주어진 문장에서 'on'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of people standing in a field flying a kite'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '연을 날리는 들판에 서 있는 두 사람'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of skis sticking out of a snow covered ground'. Count the occurrences of the word 'of' in the given sentence. <br><br>
+				<br> 문장: '눈 덮인 땅에서 튀어나온 두 개의 스키'. 주어진 문장에서 'of'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple stands outdoors in front of a pagoda'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '커플이 탑 앞에 야외에서 서 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow standing in the grass with a tag in its ear'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '귀에 꼬리표를 달고 풀밭에 서 있는 소'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a crowd of people sitting at tables next to each other'. Count the occurrences of the word 'of' in the given sentence. <br><br>
+				<br> 문장: '서로 옆 테이블에 앉아 있는 사람들의 군중'. 주어진 문장에서 'of'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a deep dish pizza and a bottle sit on a table'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '딥 디쉬 피자와 병이 테이블 위에 놓여 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog and a backpack by a bench on a desolate road'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '황량한 길 벤치 옆에 있는 개와 배낭'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog is jumping in the air to catch a frisbee and win the prize'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '개가 프리스비를 잡고 상을 받기 위해 공중에서 뛰어오른다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog jumping on a frisbee in a yard'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '마당에 있는 원반 위에 점프하는 개'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog sleeping on a chair in the living room'. Count the occurrences of the word 'room' in the given sentence. <br><br>
+				<br> 문장: '거실 의자에서 자는 개'. 주어진 문장에서 '방'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fourth of a cake sitting on top of a cake plate'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '케이크 접시 위에 놓인 케이크의 4분의 1'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fourth of a cake sitting on top of a cake plate'. Count the occurrences of the word 'of' in the given sentence. <br><br>
+				<br> 문장: '케이크 접시 위에 놓인 케이크의 4분의 1'. 주어진 문장에서 'of'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a freckled white horse standing in a grassy area'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '풀밭에 서 있는 주근깨투성 백마'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gentleman walking around the edge of a pool as a bus goes by'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '버스가 지나갈 때 수영장 가장자리를 걷는 신사'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giant clock mounted on a building'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '건물에 설치된 거대한 시계'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a girl standing in a room with a remote'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '리모콘을 들고 방 안에 서 있는 소녀'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a golden colored shar pei dog and a dog of indescribable heritage sitting on dog bed'. Count the occurrences of the word 'dog' in the given sentence. <br><br>
+				<br> 문장: '황금색 샤페이 개와 개 침대에 앉아 있는 형언할 수 없는 유산의 개'. 주어진 문장에서 '개'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of birds clinging to a bird feeder'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '새 모이통에 달라붙는 새 무리'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of elderly people on a train platform'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '기차 승강장에 있는 노인 그룹'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of men in front of a table of green bananas while a man in the blue plaid shirt holds his hand out as if to hold on to something'. Count the occurrences of the word 'in' in the given sentence. <br><br>
+				<br> 문장: '파란색 격자무늬 셔츠를 입은 남자가 무언가를 잡으려는 듯 손을 내밀고 있는 동안 녹색 바나나 테이블 앞에 있는 한 무리의 남자들'. 주어진 문장에서 'in'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people next to a person on a surfboard'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '서프보드 위의 사람 옆에 있는 한 무리의 사람들'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people standing around a table under a light'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '조명 아래 탁자 주위에 서 있는 한 무리의 사람들'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people standing in a street'. Count the occurrences of the word 'of' in the given sentence. <br><br>
+				<br> 문장: '거리에 서 있는 사람들의 무리'. 주어진 문장에서 'of'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guitar case a backpack and a suitcase all placed next to each other'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '기타 케이스, 배낭, 여행가방이 나란히 놓여 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy and a girl standing together on a floor with wii remotes'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: 'wii 리모컨을 들고 바닥에 함께 서 있는 남자와 여자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy is holding two girls in a party'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '한 남자가 파티에서 두 여자를 안고 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy sits on a motorbike while another fixes it'. Count the occurrences of the word 'while' in the given sentence. <br><br>
+				<br> 문장: '다른 사람이 오토바이를 고치는 동안 한 남자가 오토바이에 앉는다'. 주어진 문장에서 'while'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a hotdog in a bun sitting on a plate with some corn'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '옥수수와 함께 접시에 앉아 있는 빵 속의 핫도그'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a hotel room with a bunch of suitcases in it that has been tossed'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '버려진 많은 여행 가방이 있는 호텔 방'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a keyboard on a desk beneath a monitor'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '모니터 아래 책상 위의 키보드'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen with a sink and silver and black refrigerator'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '싱크대와 은색과 검은색 냉장고가 있는 부엌'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen with a white refrigerator and a microwave oven'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '하얀 냉장고와 전자레인지가 있는 부엌'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen with an old fashioned stove and some plates sitting on some shelves'. Count the occurrences of the word 'some' in the given sentence. <br><br>
+				<br> 문장: '오래된 스토브가 있는 부엌과 일부 선반에 놓여 있는 접시'. 주어진 문장에서 '일부'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lady is standing next to a stove waiting and looking off to the next room'. Count the occurrences of the word 'the' in the given sentence. <br><br>
+				<br> 문장: '여자가 난로 옆에 서서 옆방을 바라보고 있다'. 주어진 문장에서 'the'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lady that is at a sink in a kitchen'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '부엌 싱크대에 있는 여자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a laptop a figurine doll with no dress and red hair and a pair of scissors on a table'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '노트북, 옷을 입지 않은 인형, 빨간 머리, 테이블 위의 가위'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large bird sitting on a tree branch'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '나뭇가지에 앉아 있는 큰 새'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large bus and some people on a street'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '큰 버스와 거리의 몇몇 사람들'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large chair statue with a large horse statue on top of it'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '그 위에 큰 말 조각상이 있는 큰 의자 조각상'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large white bird standing in front of a door way'. Count the occurrences of the word 'white' in the given sentence. <br><br>
+				<br> 문장: '문 앞에 서 있는 크고 하얀 새'. 주어진 문장에서 'white'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a little boy riding a skateboard inside of a small room'. Count the occurrences of the word 'boy' in the given sentence. <br><br>
+				<br> 문장: '작은 방 안에서 스케이트보드를 타는 어린 소년'. 주어진 문장에서 'boy'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a living room kitchen and stairway to a lower level'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '거실 주방과 아래층으로 내려가는 계단'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a living room with chairs and a fireplace and a stair case'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '의자와 벽난로와 계단이 있는 거실'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a living room with chairs and a fireplace and a stair case'. Count the occurrences of the word 'and' in the given sentence. <br><br>
+				<br> 문장: '의자와 벽난로와 계단이 있는 거실'. 주어진 문장에서 'and'라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and a woman in a spare living room space standing far apart from each other'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '남녀가 여유로운 거실 공간에서 멀리 떨어져 서 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and boy blow out a candle on a birthday cake'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '남자와 소년이 생일 케이크에 촛불을 끄다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and woman on a boat in the water'. Count the occurrences of the word 'man' in the given sentence. <br><br>
+				<br> 문장: '물에서 배를 타고 있는 남녀'. 주어진 문장에서 'man'이라는 단어가 나오는 횟수를 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man flying a kite in a park on a clear day'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '맑은 날 공원에서 연을 날리는 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man flying through the air while riding a pair of skis'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '스키를 타고 공중을 나는 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding a frisbee in front of a teen boy with his arms up in the air'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '팔을 위로 들고 10대 소년 앞에서 프리스비를 들고 있는 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding a tennis racket on a tennis court'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '테니스 코트에서 테니스 라켓을 들고 있는 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a black shirt holds up a black cell phone'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '검은 셔츠를 입은 남자가 검은색 휴대폰을 들고 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a boat in a large lake'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '큰 호수에서 배를 탄 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a suit is skateboarding down the road'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '정장을 입은 남자가 길에서 스케이트보드를 타고 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a yellow sweater standing in the middle of a room'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '방 한가운데 서 있는 노란색 스웨터를 입은 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in military uniform who is cutting a cake'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '케이크 커팅 중인 군복 입은 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man is standing on a snowy ski slope'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '남자가 눈 덮인 스키 슬로프에 서 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man is surfing in a river while another person watches'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '다른 사람이 지켜보는 동안 한 남자가 강에서 서핑을 하고 있다'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man on a court with a tennis racket'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '테니스 라켓을 들고 코트에 있는 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man playing a game of tennis'. Count the occurrences of the word 'a' in the given sentence. <br><br>
+				<br> 문장: '테니스 게임을 하는 남자'. 주어진 문장에서 단어 'a'의 발생을 센다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr>
+	</table>

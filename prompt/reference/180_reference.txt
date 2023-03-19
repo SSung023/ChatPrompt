@@ -27,3 +27,1756 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The patients received either azithromycin (600 mg/d for 3 days during week 1, then 600 mg/wk during weeks 2-12; n = 3879) or placebo (n = 3868) <br><br>
+				<br> 환자는 아지스로마이신(1주 동안 3일 동안 600mg/d, 그 후 2-12주 동안 600mg/주; n = 3879) 또는 위약(n = 3868)을 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> azithromycin, placebo <br><br>
+				<br> 아지트로마이신, 위약 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> We report findings of a pilot RCT for a parent training intervention with a focus on the development of joint attention skills and joint action routines. <br><br>
+				<br> 우리는 공동 주의 기술 및 공동 행동 루틴의 개발에 초점을 둔 부모 교육 개입을 위한 파일럿 RCT 결과를 보고합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> parent training intervention <br><br>
+				<br> 부모 훈련 개입 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Seventy-two people residing in National Health Service (U.K.) care facilities who had clinically significant agitation in the context of severe dementia were randomly assigned to aromatherapy with Melissa essential oil (N = 36) or placebo (sunflower oil) (N = 36). <br><br>
+				<br> 영국 국립보건원(National Health Service) 요양 시설에 거주하며 심각한 치매와 관련하여 임상적으로 유의미한 초조를 보인 72명을 멜리사 에센셜 오일(N = 36) 또는 위약(해바라기 오일)(N = 36)을 사용한 아로마테라피에 무작위로 배정했습니다. . <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> aromatherapy with melissa essential oil, placebo, sunflower oil <br><br>
+				<br> 멜리사 에센셜 오일, 플라시보, 해바라기 오일을 사용한 아로마테라피 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 21 patients ( age 0-2 months ) and 40 healthy infants ( age 0-2 months ) were investigated . <br><br>
+				<br> 21명의 환자(0-2개월)와 40명의 건강한 영아(0-2개월)를 조사하였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 353 children with positive throat swabs for GABHS were randomised to amoxicillin ( n = 177 ) or penicillin V ( n = 176 ) . <br><br>
+				<br> GABHS에 대해 인후 면봉 양성을 보인 353명의 어린이를 아목시실린(n=177) 또는 페니실린 V(n=176)로 무작위 배정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> amoxicillin, penicillin V <br><br>
+				<br> 아목시실린, 페니실린 V <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 3CM participants also had more mental health visits and higher outpatient pharmacy costs . <br><br>
+				<br> 3CM 참가자는 또한 정신 건강 방문이 더 많았고 외래 약국 비용도 더 높았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> 573 patients who had unrecognized and untreated anxiety identified from the approximately 8,000 patients who completed the waiting room screening questionnaire . <br><br>
+				<br> 대기실 선별 설문지를 작성한 약 8,000명의 환자 중에서 인식되지 않고 치료되지 않은 불안을 가진 573명의 환자가 확인되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 20-min set of audiotaped instructions on progressive muscle relaxation training ( PMRT ) was given to the patients in the experimental group for home practice . <br><br>
+				<br> 점진적 근육 이완 훈련(PMRT)에 대한 20분 분량의 오디오 테이프 지침이 가정 실습을 위해 실험 그룹의 환자에게 제공되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> progressive muscle relaxation training, PMRT <br><br>
+				<br> 점진적 근육 이완 훈련, PMRT <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A 3 day balance was performed at the end of each period , and fasting blood samples were collected . <br><br>
+				<br> 각 기간이 끝날 때 3일 균형을 수행하고 공복 혈액 샘플을 수집했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A comparison of different antipyretics in children with malaria showed a small effect of naproxen , but not of metamizol , on the reduction of fever peaks . <br><br>
+				<br> 말라리아에 걸린 어린이의 여러 해열제를 비교한 결과 나프록센은 열 정점 감소에 작은 영향을 미쳤지만 메타미졸은 그렇지 않았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> naproxen, metamizol <br><br>
+				<br> 나프록센, 메타미졸 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A complete response , defined as no emesis with no need for another rescue antiemetic , during the first 3 h ( 0-3 h ) after anesthesia was 87 % with granisetron and 78 % with perphenazine ( P = 0.204 ) . <br><br>
+				<br> 마취 후 처음 3시간(0-3시간) 동안 구토가 없고 다른 구제 항구토제가 필요하지 않은 것으로 정의되는 완전 반응은 granisetron에서 87%, perphenazine에서 78%였습니다(P=0.204). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> granisetron, perphenazine <br><br>
+				<br> 그라니세트론, 페르페나진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cooperative randomized controlled study of bestatin immunotherapy in combination with remission maintenance chemotherapy for adult acute nonlymphocytic leukemia ( ANLL ) was performed . <br><br>
+				<br> 성인 급성 비림프구성 백혈병(ANLL)에 관해 관해 유지 화학요법과 병용한 베스타틴 면역요법의 협동 무작위 대조 연구가 수행되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> bestatin <br><br>
+				<br> 베스타틴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A greater proportion of children in the ASD group used special educational services ( 76 % vs. 7 % in the control group , P < .05 ) . <br><br>
+				<br> ASD 그룹의 아동 중 더 많은 비율이 특수 교육 서비스를 이용했습니다(76% 대 통제 그룹의 7%, P<.05). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A mixed-model health maintenance organization serving approximately 110,000 enrollees in central Colorado . <br><br>
+				<br> 콜로라도 중부에서 약 110,000명의 등록자에게 서비스를 제공하는 혼합 모델 건강 유지 조직. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A multi-component social skills intervention for children with Asperger syndrome : the Junior Detective Training Program . <br><br>
+				<br> 아스퍼거 증후군 아동을 위한 다중 구성 요소 사회 기술 개입: 주니어 탐정 훈련 프로그램 . <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> social skills <br><br>
+				<br> 사회적 기술 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A new immunomodulating agent , bestatin ( INN : Ubenimex has low toxicity even after long-term oral administration and has significant modifications in immunological response . <br><br>
+				<br> 새로운 면역조절제인 베스타틴(INN:Ubenimex)은 장기간 경구투여 후에도 독성이 낮고 면역반응에 상당한 변화를 보인다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> bestatin <br><br>
+				<br> 베스타틴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A pathologic result was found in 90 % of the patients . <br><br>
+				<br> 환자의 90%에서 병리학적 소견을 보였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A persistent phasic activity pattern was found in 19 of the 21 patients , high frequency phasic activity in 11 of the 21 patients . <br><br>
+				<br> 21명의 환자 중 19명에서 지속적인 위상기 활동 패턴이 나타났고, 21명 중 11명에서 고주파 위상기 활동 패턴이 발견되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A physician intervention served the dual function of 1 ) providing an educational demonstration of anxiety in the primary care setting and 2 ) providing a reporting system for summarizing the anxiety symptom levels and functioning status of the patients enrolled in the study . <br><br>
+				<br> 의사 개입은 1) 1차 진료 환경에서 불안에 대한 교육적 입증을 제공하고 2) 연구에 등록된 환자의 불안 증상 수준과 기능 상태를 요약하기 위한 보고 시스템을 제공하는 이중 기능을 수행했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> physician intervention <br><br>
+				<br> 의사 개입 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A physiotherapy service for EECU patients , as provided in this study , did not reduce the rate of hospital admission , rate of re-presentation to the ED , use of community healthcare resources , or improve the rate of return to usual work/home/leisure activities or patient satisfaction . <br><br>
+				<br> 이 연구에서 제공되는 EECU 환자를 위한 물리치료 서비스는 입원율, 응급실로의 재진료율, 지역사회 의료 자원 사용을 줄이지 않았거나 일상적인 직장/가정/여가로의 복귀율을 개선하지 않았습니다. 활동 또는 환자 만족도 . <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A physiotherapy service to an emergency extended care unit does not decrease admission rates to hospital : a randomised trial . <br><br>
+				<br> 응급 연장 치료실에 대한 물리 치료 서비스는 병원 입원율을 감소시키지 않습니다: 무작위 시험. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> physiotherapy service <br><br>
+				<br> 물리 치료 서비스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A pilot study on the effect of progressive muscle relaxation training of patients after stoma surgery . <br><br>
+				<br> 장루 수술 후 환자의 점진적 근육 이완 훈련 효과에 대한 예비 연구. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> progressive muscle relaxation training <br><br>
+				<br> 점진적 근육 이완 훈련 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A precycle risk score from > or =25 to < 40 for a given patient was identified as being the optimal threshold for sensitivity ( 58.0 % ) and specificity ( 78.7 % ) . <br><br>
+				<br> 주어진 환자에 대해 25 이상에서 40 미만 사이의 사전 주기 위험 점수가 민감도(58.0%) 및 특이도(78.7%)에 대한 최적의 역치인 것으로 확인되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A randomised trial with concealed allocation , assessor blinding and intention-to-treat analysis was undertaken in an EECU . <br><br>
+				<br> 숨겨진 할당, 평가자 눈가림 및 치료 의도 분석을 사용한 무작위 시험이 EECU에서 수행되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A set of five factors were found to consistently predict depression at the following assessment . <br><br>
+				<br> 다음 평가에서 우울증을 일관되게 예측하는 5가지 요인 세트가 발견되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A standard general anaesthetic technique was employed throughout . <br><br>
+				<br> 표준 전신 마취 기술이 전반적으로 사용되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A symptom based questionnaire was administered to all patients at stent removal . <br><br>
+				<br> 스텐트 제거 시 모든 환자에게 증상 기반 설문지를 작성했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A tendency towards increased plasma 6-keto-prostaglandin F1 alpha concentration and decreased serum thromboxane B2 concentration was found during the period of regular exercise , but prostaglandin E2 concentrations remained unchanged . <br><br>
+				<br> 규칙적인 운동 기간 동안 혈장 6-케토-프로스타글란딘 F1 알파 농도가 증가하고 혈청 트롬복산 B2 농도가 감소하는 경향이 나타났으나, 프로스타글란딘 E2 농도는 변하지 않았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A total of 57 consecutive patients with primary ureteropelvic junction obstruction were randomized to undergo 7/14Fr internal endopyelotomy stent placement for 2 ( group 1 ) and 4 ( group 2 ) weeks . <br><br>
+				<br> 총 57명의 원발성 요관골반 접합부 폐쇄 환자가 무작위 배정되어 2주(1군) 및 4주(2군) 동안 7/14Fr 내부 내피절개술 스텐트 삽입술을 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Accordingly , the current study examined within-person covariation between time-varying abstinence and depressive symptom in a multilevel model ( MLM ) , which allowed for transitions between smoking statuses within a participant . <br><br>
+				<br> 따라서, 현재 연구는 참가자 내에서 흡연 상태 사이의 전환을 허용하는 다단계 모델(MLM)에서 시간에 따라 변하는 금욕과 우울 증상 사이의 개인 내 공변량을 조사했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Additional changes in BMD and bone turnover with exercise were not significant . <br><br>
+				<br> 운동에 따른 BMD 및 뼈 회전율의 추가적인 변화는 유의하지 않았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Additionally , because prolonged breath holding is not required , measurements can readily be made in dyspnoeic patients . <br><br>
+				<br> 또한 장기간의 호흡 정지가 필요하지 않기 때문에 호흡곤란 환자의 경우 쉽게 측정할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Adherence to lifestyle recommendations by patients with depression . <br><br>
+				<br> 우울증 환자의 생활 습관 권장 사항 준수. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Adverse events did not significantly differ in the 2 groups . <br><br>
+				<br> 부작용은 두 그룹에서 크게 다르지 않았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After 24 months , women who took medications without exercising had significant improvements in BMD at the total hip ( +1.81 % ) and spine ( +2.85 % ) and significant decreases in Alkphase B ( -8.7 % ) and serum NTx ( -16.7 % ) . <br><br>
+				<br> 24개월 후, 운동을 하지 않고 약물을 복용한 여성은 전체 고관절(+1.81%)과 척추(+2.85%)에서 BMD가 크게 개선되었고 Alkphase B(-8.7%)와 혈청 NTx(-16.7%)가 크게 감소했습니다. . <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After adjusting for child demographic characteristics and non-ASD-associated illnesses , ASD was associated with $ 3020 ( 95 % confidence interval [ CI ] : $ 1017- $ 4259 ) higher health care costs and $ 14,061 ( 95 % CI : $ 4390- $ 24,302 ) higher aggregate non-health care costs , including $ 8610 ( 95 % CI : $ 6595- $ 10,421 ) higher school costs . <br><br>
+				<br> 아동 인구통계학적 특성 및 비ASD 관련 질병을 조정한 후, ASD는 $3020(95% 신뢰 구간 [CI]: $1017-$4259) 더 높은 의료 비용 및 $14,061(95% CI: $4390-$14,061)와 관련이 있었습니다. $8610(95% CI: $6595-$10,421)의 더 높은 학비를 포함하여 총 $24,302) 더 높은 총 비의료 비용. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After induction of complete remission , patients were randomized to the bestatin group ( 30 mg/bw per os ( po ) daily ) and the control group . <br><br>
+				<br> 완전관해 유도 후, 환자들은 베스타틴 그룹(30 mg/bw per os(po) daily)과 대조군으로 무작위 배정되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> bestatin, control <br><br>
+				<br> 베스타틴, 컨트롤 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After one week of baseline assessment , patients were randomised into one of the two arms of the study . <br><br>
+				<br> 기준선 평가 1주일 후, 환자들은 연구의 두 부문 중 하나로 무작위 배정되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After the 6-month training period , the SST Group made fewer errors in labeling anger on adult faces , whereas error rates in the LA Group remained stable . <br><br>
+				<br> 6개월의 교육 기간 후 SST 그룹은 성인 얼굴에 분노를 표시할 때 오류가 더 적은 반면 LA 그룹의 오류율은 안정적으로 유지되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> SST, LA <br><br>
+				<br> SST, 루이지애나 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After three weekly doses of epoetin alfa 40,000 U , a dose of 120,000 U can be administered safely once every 3 weeks without increasing transfusion needs or sacrificing QOL . <br><br>
+				<br> epoetin alfa 40,000 U를 주 3회 투여한 후, 120,000 U를 3주에 한 번씩 안전하게 수혈 필요량을 늘리거나 QOL을 희생시키지 않고 투여할 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> epoetin alfa <br><br>
+				<br> 에포에틴 알파 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> After treatment 11 group 1 patients ( 78.6 % ) had a partial or full response to posterior tibial nerve stimulation but only 2 ( 14.3 % ) in group 2 had a partial response ( p = 0.002 ) . <br><br>
+				<br> 치료 후 1군 11명(78.6%)이 후경골 신경 자극에 부분 또는 완전 반응을 보였으나 2군에서는 2명(14.3%)만이 부분 반응을 보였다(p=0.002). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> posterior tibial nerve stimulation <br><br>
+				<br> 후경골신경자극술 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Age-matched boys with ADHD ( 15 ) , ASD ( 18 ) , and controls ( 21 ) were compared with functional magnetic resonance imaging ( fMRI ) during a reversal task . <br><br>
+				<br> ADHD(15), ASD(18), 대조군(21)을 가진 연령이 일치하는 소년을 역전 작업 동안 기능적 자기 공명 영상(fMRI)과 비교했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> All participants received medical/nursing care as required . <br><br>
+				<br> 모든 참가자는 필요에 따라 의료/간호 치료를 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> All participants received usual care . <br><br>
+				<br> 모든 참가자는 일반적인 치료를 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> All urodynamic parameters significantly improved in group 1 . <br><br>
+				<br> 모든 유로다이나믹 파라미터는 그룹 1에서 유의미하게 개선되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Also , fewer subjects than the controls had significant painful episodes ( 50.0 % versus 92.7 % ) ; febrile illness ( 46.6 % versus 87.3 % ) and admission rate ( 3.4 % versus 34.5 % ) ( p < 0.001 ) . <br><br>
+				<br> 또한 대조군보다 적은 수의 피험자가 상당한 고통을 겪었습니다(50.0% 대 92.7%). 열병(46.6% 대 87.3%) 및 입원율(3.4% 대 34.5%)(p<0.001). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Also , the average number of wet nights in group 1 was significantly lower than at baseline ( p = 0.002 ) . <br><br>
+				<br> 또한, 그룹 1의 평균 습한 밤 수는 기준선보다 유의하게 낮았습니다(p=0.002). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Although an increasing number of group-based programs for the improvement of social skills have been described , randomized controlled trials are needed to evaluate their efficacy . <br><br>
+				<br> 사회적 기술 향상을 위한 그룹 기반 프로그램의 수가 증가하고 있지만 그 효과를 평가하기 위해서는 무작위 대조 시험이 필요합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Although collaborative care is effective for treating depression and other mental disorders in primary care , there have been no randomized trials of collaborative care specifically for patients with Posttraumatic stress disorder ( PTSD ) . <br><br>
+				<br> 협력 치료가 1차 진료에서 우울증 및 기타 정신 장애를 치료하는 데 효과적이지만 특별히 외상 후 스트레스 장애(PTSD) 환자를 대상으로 한 협력 치료에 대한 무작위 임상시험은 없습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> collaborative care <br><br>
+				<br> 공동 진료 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Amonafide : An active agent in the treatment of previously untreated advanced breast cancer -- a cancer and leukemia group B study ( CALGB 8642 ) . <br><br>
+				<br> Amonafide: 이전에 치료받지 않은 진행성 유방암 치료에 사용되는 활성제 - 암 및 백혈병 그룹 B 연구(CALGB 8642). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Amonafide is a new imide derivative of naphthalic acid . <br><br>
+				<br> Amonafide는 나프탈산의 새로운 이미드 유도체입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Amonafide was chosen for inclusion in the Cancer and Leukemia Group B ( CALGB ) master metastatic breast cancer protocol . <br><br>
+				<br> 암 및 백혈병 그룹 B(CALGB) 마스터 전이성 유방암 프로토콜에 포함하기 위해 Amonafide가 선택되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Amonafide was given at 300 mg/m2/day i.v . for 5 days , and repeated at 21-day intervals for a maximum of four cycles . <br><br>
+				<br> Amonafide는 300 mg/m2/day i.v로 투여되었습니다. 5일 동안 , 최대 4주기 동안 21일 간격으로 반복됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Among the 113 children with SCA studied in two hospitals , the 58 receiving lime treatment had lower rates of significant painful episodes than the 55 without lime ( 37 versus 83 crises in 6 months , and 0.64±0.11 versus 1.51±0.34 average rates per child , p < 0.001 ) . <br><br>
+				<br> 2개 병원에서 연구한 SCA가 있는 113명의 어린이 중 석회 치료를 받은 58명은 석회가 없는 55명보다 유의미한 통증 에피소드 비율이 낮았습니다(6개월 동안 37건 대 83건, 어린이당 평균 비율은 0.64±0.11 대 1.51±0.34, p<0.001). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> lime <br><br>
+				<br> 라임 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Among the 273 children who were seen and weighed at the one-year follow-up visit , the rate of weight gain was 8 per cent greater for those receiving levamisole than for placebo-treated controls ( p = .06 ) . <br><br>
+				<br> 1년 추적 방문에서 관찰하고 체중을 측정한 273명의 어린이 중 체중 증가율은 위약 치료 대조군보다 레바미솔을 투여받은 그룹에서 8% 더 컸습니다(p=.06). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> levamisole, placebo-treated <br><br>
+				<br> levamisole, 위약 처리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Among the domains of WHOQoL , a significant difference was shown in physical health/independence and general perception of QoL , with the experimental group demonstrating better functioning . <br><br>
+				<br> WHOQoL 영역 중 신체적 건강/독립성과 QoL에 대한 일반적인 인식에서 유의미한 차이가 나타났으며, 실험군이 더 나은 기능을 보였다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Another clinical assessment was done 3 months after the first followup . <br><br>
+				<br> 첫 번째 추적 관찰 후 3개월 후에 또 다른 임상 평가가 이루어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Anti-emetic efficacy of prophylactic granisetron compared with perphenazine for the prevention of post-operative vomiting in children . <br><br>
+				<br> 어린이의 수술 후 구토 예방을 위한 perphenazine과 비교한 예방적 그라니세트론의 항구토 효능. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> granisetron, perphenazine <br><br>
+				<br> 그라니세트론, 페르페나진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Antioxidant supplementation and exercise-induced oxidative stress in the 60-year-old as measured by antipyrine hydroxylates . <br><br>
+				<br> 안티피린 수산화물로 측정한 60세 노인의 항산화제 보충 및 운동 유발 산화 스트레스. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Antipyretic treatment had no effect on fever clearance and therefore should be used cautiously in the treatment of malaria . <br><br>
+				<br> 해열제는 열 제거에 영향을 미치지 않으므로 말라리아 치료에 주의해야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Antipyrine reacts quickly with hydroxyl radicals to form para- and ortho-hydroxyantipyrine . <br><br>
+				<br> 안티피린은 하이드록실 라디칼과 빠르게 반응하여 파라- 및 오르토-하이드록시안티피린을 형성합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Antipyrine was used as marker for oxidative stress . <br><br>
+				<br> 안티피린은 산화 스트레스에 대한 마커로 사용되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Any progression of albuminuria ( defined as new microalbuminuria or new clinical proteinuria ) occurred in 1859 participants ; 1542 developed new microalbuminuria , and 317 participants developed clinical proteinuria . <br><br>
+				<br> 1859명의 참가자에서 알부민뇨(새로운 미세알부민뇨 또는 새로운 임상적 단백뇨로 정의됨)의 모든 진행이 발생했습니다. 1,542명은 새로운 미세알부민뇨증을, 317명의 참가자는 임상적 단백뇨를 발생시켰다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Approximately two thirds were smokers and were randomized to be tested after either a 12-hr nicotine deprivation or administration of nicotine gum . <br><br>
+				<br> 약 3분의 2는 흡연자였으며 12시간 동안 니코틴을 끊거나 니코틴 껌을 투여한 후 무작위로 검사를 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> nicotine deprivation, nicotine <br><br>
+				<br> 니코틴 결핍, 니코틴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Aquatic exercise exceeded $ 50,000 per QALY gained using the community-weighted outcome but fell below this arbitrary budget constraint when using the participant-weighted measure . <br><br>
+				<br> 수중 운동은 커뮤니티 가중 결과를 사용하여 얻은 QALY당 $50,000를 초과했지만 참가자 가중 측정을 사용하면 이 임의의 예산 제약 조건 아래로 떨어졌습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Aquatic exercisers reported equal ( QWB ) or better ( CHDR , HAQ , PQOL ) health-related quality of life compared with controls . <br><br>
+				<br> 수중 운동을 하는 사람들은 대조군에 비해 건강 관련 삶의 질이 같거나(QWB) 더 나은(CHDR, HAQ, PQOL) 보고되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> As calcium acquired during adolescence is essential to maximize peak bone mass and to prevent osteoporosis , possible long-term effects of excessive MRP intake during this period warrant attention . <br><br>
+				<br> 청소년기에 획득한 칼슘은 최고 골량을 최대화하고 골다공증을 예방하는 데 필수적이므로 이 기간 동안 MRP를 과도하게 섭취할 경우 장기적으로 나타날 수 있는 영향에 주의해야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Ascaris and growth rates : a randomized trial of treatment . <br><br>
+				<br> 회충과 성장 속도: 치료의 무작위 시험. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Assays in male adolescents and in Caco-2 cells . <br><br>
+				<br> 남성 청소년 및 Caco-2 세포의 분석. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Assessment instructions included the Chinese State-Trait Anxiety Inventory ( C-STAI ) , the Quality of Life Index for Colostomy ( QoL-Colostomy ) and the Hong Kong Chinese version of the World Health Organisation Quality of Life Scale ( WHOQoL ) . <br><br>
+				<br> 평가 지침에는 중국 국가 특성 불안 지수(C-STAI), 결장루를 위한 삶의 질 지수(QoL-Colostomy) 및 홍콩 중국어 버전의 세계보건기구 삶의 질 척도(WHOQoL)가 포함되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Assessment of acute bronchodilator effects from specific airway resistance changes in stable COPD patients . <br><br>
+				<br> 안정적인 COPD 환자의 특정 기도 저항 변화로 인한 급성 기관지확장제 효과 평가. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> bronchodilator <br><br>
+				<br> 기관지확장제 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Assessments of JA skills , SP skills , mother-child interactions , and language development were collected at 4 time points : pre- and postintervention and 6 and 12 months postintervention by independent testers . <br><br>
+				<br> JA 기술, SP 기술, 어머니-자녀 상호 작용 및 언어 발달에 대한 평가는 4개의 시점에서 수집되었습니다: 중재 전/후, 중재 후 6개월 및 12개월. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> At 3-month followup the number of patients with a partial or full response in group 1 had decreased from 11 ( 78.6 % ) to 6 ( 42.9 % ) . <br><br>
+				<br> 3개월 추적 조사에서 그룹 1에서 부분 또는 완전 반응을 보인 환자의 수는 11명(78.6%)에서 6명(42.9%)으로 감소했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> At present no study of gastric dysrhythmia , measured with epigastric impedance , has been presented , and the purpose of the present study was to investigate gastric rhythms by means of impedance gastrography in control infants , compared to infants with different gastrointestinal diseases , before and after treatment of their disease . <br><br>
+				<br> 현재까지 상복부 임피던스로 측정한 위부정맥에 대한 연구는 제시되지 않았으며, 본 연구의 목적은 치료 전과 치료 후 다른 위장관 질환을 가진 영아와 비교하여 대조군 영아에서 임피던스 위조영술을 통해 위리듬을 조사하는 것이다. 그들의 질병의 . <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> At the end of 1 year 24 group 1 ( 92.3 % ) and 23 group 2 ( 90.3 % ) patients had an improved drainage pattern . <br><br>
+				<br> 1년 말에 24명의 그룹 1(92.3%)과 23명의 그룹 2(90.3%) 환자가 배액 패턴이 개선되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Attention deficit hyperactivity disorder ( ADHD ) and autism spectrum disorder ( ASD ) share brain function abnormalities during cognitive flexibility . <br><br>
+				<br> 주의력 결핍 과잉 행동 장애(ADHD)와 자폐 스펙트럼 장애(ASD)는 인지 유연성 동안 뇌 기능 이상을 공유합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Baseline microalbuminuria predicted subsequent clinical proteinuria for the study participants overall ( adjusted odds ratio [ OR ] , 17.5 ; 95 % confidence interval [ CI ] , 12.6 to 24.4 ) , in participants without diabetes ( OR , 16.7 ; 95 % CI , 8.6 to 32.4 ) , and in participants with diabetes ( OR , 18.2 ; 95 % CI , 12.4 to 26.7 ) . <br><br>
+				<br> 기준선 미세알부민뇨는 연구 참가자 전체(조정 교차비[OR], 17.5; 95% 신뢰 구간[CI], 12.6~24.4), 당뇨병이 없는 참가자(OR, 16.7; 95% CI, 8.6~32.4)에 대한 후속 임상적 단백뇨를 예측했습니다. ), 당뇨병 환자(OR, 18.2; 95% CI, 12.4~26.7). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bayesian adaptive trials offer advantages in comparative effectiveness trials : an example in status epilepticus . <br><br>
+				<br> 베이지안 적응 시험은 비교 효과 시험에서 이점을 제공합니다: 간질 상태의 예. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Before and after the 12 week supplementation period , subjects cycled for 45 min at submaximal intensity ( 50 % maximal workload capacity ) . <br><br>
+				<br> 12주의 보충 기간 전후에 피험자는 최대 이하의 강도(50% 최대 작업 부하 용량)에서 45분 동안 자전거를 탔습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> cycled <br><br>
+				<br> 순환 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bestatin is shown to be a clinically useful drug for immunotherapy of adult ANLL , since it has prolonged survival and remission especially in elderly patients , with few side-effects . <br><br>
+				<br> 베스타틴은 성인 ANLL의 면역요법에 임상적으로 유용한 약물로 나타났는데, 이는 특히 노인 환자에서 부작용이 거의 없이 장기간 생존 및 완화를 나타내기 때문입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Blinded assessors collected data at baseline and 3-month and 6-month follow-up . <br><br>
+				<br> 맹검 평가자는 기준선과 3개월 및 6개월 추적 조사에서 데이터를 수집했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Blood samples were collected after these periods , when fish were immobile and reached stage 4 anesthesia . <br><br>
+				<br> 혈액 샘플은 물고기가 움직이지 않고 4단계 마취에 도달한 이 기간 이후에 수집되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Both groups received 24 months of 1,200 mg of calcium and 400 IU of vitamin D daily and 35 mg of risedronate weekly , and the exercise group additionally had ST exercises twice weekly . <br><br>
+				<br> 두 그룹 모두 24개월 동안 매일 칼슘 1,200mg과 비타민 D 400IU, 매주 35mg의 리제드로네이트를 투여받았고, 운동 그룹은 추가로 주 2회 ST 운동을 했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> calcium, vitamin D, risedronate <br><br>
+				<br> 칼슘, 비타민D, 리제드로네이트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Both patient groups shared decreased precuneus activation . <br><br>
+				<br> 두 환자 그룹 모두 감소된 전두엽 활성화를 공유했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> By lowering peripheral airway smooth muscle tone , bronchodilators should decrease dynamic hyperinflation , gas trapping , and possibly dyspnea at rest . <br><br>
+				<br> 기관지확장제는 말초 기도 평활근 긴장도를 낮춤으로써 동적 과팽창, 가스 포획 및 휴식 시 호흡곤란을 줄여야 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> bronchodilators <br><br>
+				<br> 기관지확장제 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> CALGB 8642 randomizes previously untreated metastatic breast cancer patients either to one of several Phase II agents given for up to four cycles and then followed by standard cyclophosphamide-doxorubicin-5-fluorouracil , or to immediate treatment with standard cyclophosphamide-doxorubicin-5-fluorouracil . <br><br>
+				<br> CALGB 8642는 이전에 치료받지 않은 전이성 유방암 환자를 최대 4주기 동안 투여한 다음 표준 시클로포스파미드-독소루비신-5-플루오로우라실을 투여하거나 표준 시클로포스파미드-독소루비신-5-플루오로우라실을 사용한 즉각적인 치료에 무작위로 배정합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> cyclophosphamide-doxorubicin-5-fluorouracil <br><br>
+				<br> 시클로포스파미드-독소루비신-5-플루오로우라실 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Calcium solubility and absorption across Caco-2 cells were studied after the in vitro digestion of the diets . <br><br>
+				<br> Caco-2 세포에 걸친 칼슘 용해도 및 흡수는 식단의 체외 소화 후에 연구되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cardiovascular reactivity to psychological stress may be one mechanism for the enhanced risk , but the small number of studies examining whether OC users who smoke have greater reactivity have produced mixed results . <br><br>
+				<br> 심리적 스트레스에 대한 심혈관 반응성은 위험 증가의 한 가지 메커니즘일 수 있지만, 흡연하는 OC 사용자가 더 큰 반응성을 보이는지 여부를 조사한 소수의 연구는 혼합된 결과를 낳았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Care managers received supervision from a psychiatrist . <br><br>
+				<br> 케어 매니저는 정신과 의사의 감독을 받았습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Changes in symptomatology , exercise performance , and left ventricular function were assessed serially during the two-month treatment period . <br><br>
+				<br> 2개월 치료 기간 동안 증상, 운동 수행 및 좌심실 기능의 변화를 연속적으로 평가했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Children presenting with GABHS pharyngitis were randomised to oral amoxicillin 1500 mg QD ( or 750 mg if bodyweight was < or=30 kg ) or to oral penicillin V 500 mg BID ( or 250 mg if bodyweight was < or=20 kg ) for 10 days . <br><br>
+				<br> GABHS 인두염을 나타내는 어린이는 10일 동안 경구용 아목시실린 1500mg QD(또는 체중이 < 또는=30kg인 경우 750mg) 또는 경구용 페니실린 V 500mg BID(또는 체중이 < 또는=20kg인 경우 250mg)에 무작위 배정되었습니다. . <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> amoxicillin, penicillin V <br><br>
+				<br> 아목시실린, 페니실린 V <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Children were randomized to a JA intervention , an SP intervention , or control group . <br><br>
+				<br> 아이들은 무작위로 JA 중재, SP 중재 또는 대조군으로 배정되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> JA, SP, control <br><br>
+				<br> JA, SP, 컨트롤 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Children with parent-reported ASD had higher levels of health care office visits and prescription drug use compared with children without ASD ( P < .05 ) . <br><br>
+				<br> 부모가 보고한 ASD가 있는 아동은 ASD가 없는 아동에 비해 의료기관 방문 및 처방약 사용 수준이 더 높았습니다(P < .05 ). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Chronic vasodilator therapy with flosequinan in congestive heart failure . <br><br>
+				<br> 울혈성 심부전에서 플로세퀴난을 이용한 만성 혈관확장제 요법. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> flosequinan <br><br>
+				<br> 플로세퀴난 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Comparison of weakness progression in inclusion body myositis during treatment with methotrexate or placebo . <br><br>
+				<br> 메토트렉세이트 또는 위약 치료 중 봉입체 근염의 쇠약 진행 비교. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> methotrexate, placebo <br><br>
+				<br> 메토트렉세이트, 위약 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Comparisons with the cyclophosphamide-doxorubicin-5-fluorouracil arm will not be addressed . <br><br>
+				<br> 시클로포스파미드-독소루비신-5-플루오로우라실 부문과의 비교는 다루지 않을 것입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Confidence intervals around these ratios suggested wide variability of cost effectiveness of aquatic exercise . <br><br>
+				<br> 이러한 비율 주변의 신뢰 구간은 수중 운동의 비용 효율성의 광범위한 가변성을 제안했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> aquatic exercise <br><br>
+				<br> 수중 운동 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Constant exhalation may therefore be a useful alternative to the breath holding technique for clinical measurement of TLCO . <br><br>
+				<br> 따라서 지속적인 호기는 TLCO의 임상 측정을 위한 호흡 유지 기술에 대한 유용한 대안이 될 수 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cost per quality-adjusted life year ( QALY ) gained was estimated using trial data . <br><br>
+				<br> 얻은 QALY(Quality-Adjusted Life Year)당 비용은 시험 데이터를 사용하여 추정했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Costs/QALY gained discounted at 3 % were $ 205,186 using the QWB and $ 32,643 using the CHRD . <br><br>
+				<br> 3%로 할인된 QALY당 비용은 QWB 사용 시 $205,186, CHRD 사용 시 $32,643였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Daily supplementation significantly increased plasma concentrations of alpha-tocopherol and beta-carotene in the supplemented group ( Delta 14.4 ( SE 3.2 ) and 0.4 ( se 0.1 ) micromol/l ; P < 0.001 and P < 0.01 ) . <br><br>
+				<br> 일일 보충은 보충군에서 알파-토코페롤과 베타-카로틴의 혈장 농도를 유의하게 증가시켰습니다(Delta 14.4(SE 3.2) 및 0.4(se 0.1) micromol/l; P<0.001 및 P<0.01). <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Data analyzed was from a phase III , randomized clinical trial of DOX ( 60 mg/m ( 2 ) every 3 weeks ) or PLD ( 50 mg/m ( 2 ) every 4 weeks ) for the first line therapy for MBC ( n = 509 ) ( O'Brien et al , Ann Oncol . <br><br>
+				<br> 분석된 데이터는 MBC(n = 509)에 대한 1차 요법에 대한 DOX(3주마다 60mg/m(2)) 또는 PLD(4주마다 50mg/m(2))의 III상 무작위 임상 시험에서 나온 것입니다. ) (O'Brien 등, Ann Oncol. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> DOX, PLD <br><br>
+				<br> DOX, PLD <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Data justify replication using larger samples . <br><br>
+				<br> 데이터는 더 큰 샘플을 사용하여 복제를 정당화합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> not found <br><br>
+				<br> 찾을 수 없음 <br><br>
+			</td>
+		</tr>
+	</table>

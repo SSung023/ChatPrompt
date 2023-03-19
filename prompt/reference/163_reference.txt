@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'the street light is green in the city'. How many words end with the letter 't' in the sentence. <br><br>
+				<br> 문장: '도시의 가로등은 초록이다'. 문장에서 문자 't'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'the bride and groom are smiling as they pose together'. How many words end with the letter 'y' in the sentence. <br><br>
+				<br> 문장: '신랑 신부가 함께 포즈를 취하며 웃고 있다'. 문장에서 문자 'y'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baby elephant is seen standing in between another elephants legs'. How many words end with the letter 'y' in the sentence. <br><br>
+				<br> 문장: '아기 코끼리가 다른 코끼리 다리 사이에 서 있는 것이 보인다'. 문장에서 문자 'y'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baby in a high chair eating asparagus'. How many words end with the letter 'h' in the sentence. <br><br>
+				<br> 문장: '높은 의자에 앉아 아스파라거스를 먹는 아기'. 문장에서 문자 'h'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baby sitting on a baby reaching for a laptop'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '노트북에 손을 뻗는 아기 위에 앉아 있는 아기'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a barista finishes preparing a cup of coffee'. How many words end with the letter 'f' in the sentence. <br><br>
+				<br> 문장: '바리스타가 커피 한 잔 준비를 마친다'. 문장에서 문자 'f'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player is getting ready to hit a ball'. How many words end with the letter 'l' in the sentence. <br><br>
+				<br> 문장: '야구 선수가 공을 칠 준비를 하고 있다'. 문장에서 문자 'l'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player taking a swing at a ball'. How many words end with the letter 'g' in the sentence. <br><br>
+				<br> 문장: '공을 스윙하는 야구 선수'. 문장에서 문자 'g'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a basket weave design fireplace with a mantle next to a flat screen tv'. How many words end with the letter 'h' in the sentence. <br><br>
+				<br> 문장: '평면 TV 옆에 맨틀이 있는 바구니 직조 디자인 벽난로'. 문장에서 문자 'h'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a toilet sink tub towel rack and a window'. How many words end with the letter 'm' in the sentence. <br><br>
+				<br> 문장: '화장실 세면대 욕조 수건걸이와 창문이 있는 욕실'. 문장에서 문자 'm'으로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with a tub a sink and a window'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '욕조와 세면대, 창문이 있는 욕실'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bathroom with window open and checkered black and white tile flooring'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '창문이 열리고 체크 무늬의 흑백 타일 바닥이 있는 욕실'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a batter is getting ready to hit the baseball'. How many words end with the letter 'y' in the sentence. <br><br>
+				<br> 문장: '타자가 야구공을 칠 준비를 하고 있다'. 문장에서 문자 'y'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a batter sings his bat at a baseball game'. How many words end with the letter 's' in the sentence. <br><br>
+				<br> 문장: '타자는 야구 경기에서 배트를 노래한다'. 문장에서 문자 's'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a beach with a lot of kites flying in the air'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '하늘에 연이 많이 날아다니는 해변'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bed a lamp on a night stand and a window'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '침대, 나이트 스탠드 위의 램프 및 창문'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bed with two comfortable chairs and a desk with a bottle of wine'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '두 개의 편안한 의자가 있는 침대와 와인 한 병이 있는 책상'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bench sits on the beach close to the water'. How many words end with the letter 'o' in the sentence. <br><br>
+				<br> 문장: '물가에 가까운 해변에 벤치가 있다'. 문장에서 문자 'o'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bird is spreading its wings while an elephant is walking by'. How many words end with the letter 'g' in the sentence. <br><br>
+				<br> 문장: '코끼리가 지나가는 동안 새가 날개를 펴고 있다'. 문장에서 문자 'g'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white cat looking out a window'. How many words end with the letter 't' in the sentence. <br><br>
+				<br> 문장: '창밖을 내다보는 흑백 고양이'. 문장에서 문자 't'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black bear is standing next to rocks by the water'. How many words end with the letter 'g' in the sentence. <br><br>
+				<br> 문장: '흑곰이 물가 바위 옆에 서 있다'. 문장에서 문자 'g'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black bear with brown markings on its face and chest sitting in the grass'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '풀밭에 앉아 있는 얼굴과 가슴에 갈색 반점이 있는 흑곰'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blender and a clear glass next to each other with red liquid in them'. How many words end with the letter 't' in the sentence. <br><br>
+				<br> 문장: '빨간 액체가 들어 있는 블렌더와 투명한 유리잔'. 문장에서 문자 't'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blonde woman hitting a tennis ball back during a match'. How many words end with the letter 'l' in the sentence. <br><br>
+				<br> 문장: '경기 중에 테니스 공을 뒤로 치는 금발의 여자'. 문장에서 문자 'l'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue and white garbage truck doing down the road with some other cars'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '다른 차들과 함께 길을 가고 있는 파란색과 흰색 쓰레기 트럭'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue bus driving down a road next to a lush green field'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '무성한 녹색 들판 옆 길을 달리는 파란 버스'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blue yellow and green keyboard on a desk'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '책상 위의 파란색 노란색과 녹색 키보드'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a book is on a bench beside a cup and pastry'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '책은 컵과 페이스트리 옆 벤치에 있다'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a box filled with different flavored donuts sitting next to each other'. How many words end with the letter 't' in the sentence. <br><br>
+				<br> 문장: '서로 옆에 앉아 있는 다른 맛의 도넛으로 채워진 상자'. 문장에서 문자 't'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boy on a skateboard riding on a ramp'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '경사로를 타고 스케이트보드를 탄 소년'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a boys sprays water stream at a passing bicyclist'. How many words end with the letter 's' in the sentence. <br><br>
+				<br> 문장: '지나가는 자전거 타는 사람에게 물줄기를 뿌린 소년'. 문장에서 문자 's'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown cow walking down a sidewalk near a forest'. How many words end with the letter 'w' in the sentence. <br><br>
+				<br> 문장: '숲 근처 보도를 걷고 있는 갈색 소'. 문장에서 문자 'w'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a burger and some fries on a white plate'. How many words end with the letter 's' in the sentence. <br><br>
+				<br> 문장: '하얀 접시에 햄버거와 약간의 감자튀김'. 문장에서 문자 's'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a car riding along side a truck in the street'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '길에서 트럭 옆을 달리는 자동차'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting on top of a suitcase on a bed'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '침대 위에 여행 가방 위에 앉아 있는 고양이'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat standing on top of a cars ash board'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '자동차 재판 위에 고양이가 서 있다'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat that is sitting behind a gate'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '문 뒤에 앉아 있는 고양이'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cell phone turned on lies atop a computer keyboard in the dark'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '켜진 휴대폰은 어둠 속에서 컴퓨터 키보드 위에 놓여 있다'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child leans into the camera brushing their teeth'. How many words end with the letter 'h' in the sentence. <br><br>
+				<br> 문장: '한 아이가 양치질을 하며 카메라에 기대고 있다'. 문장에서 문자 'h'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child sitting on the floor reading a book'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '바닥에 앉아 책을 읽는 아이'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child standing at a table eating pizza'. How many words end with the letter 't' in the sentence. <br><br>
+				<br> 문장: '테이블에 서서 피자를 먹고 있는 아이'. 문장에서 문자 't'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close image of an elephants ear and shoulder'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '코끼리 귀와 어깨의 가까운 이미지'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of men riding motorcycles down a street'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '오토바이를 타고 거리를 달리는 두 남자'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a crowded airport has people waiting for their luggage'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '붐비는 공항에는 짐을 기다리는 사람들이 있다'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cup with a toothbrush and two different kids of toothpastes beside it on a shelf'. How many words end with the letter 'p' in the sentence. <br><br>
+				<br> 문장: '칫솔이 있는 컵과 그 옆 선반 위의 치약 두 개'. 문장에서 문자 'p'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cupcake and spoon are on a white plate'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '하얀 접시 위에 컵케이크와 숟가락이 있다'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a desktop computer sitting on top of a wooden desk'. How many words end with the letter 'p' in the sentence. <br><br>
+				<br> 문장: '나무 책상 위에 놓인 데스크탑 컴퓨터'. 문장에서 문자 'p'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog chewing on an old ball in the yard'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '마당에서 오래된 공을 씹는 개'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog plays with a small puppy on a bed'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '개가 침대에서 작은 강아지와 놀고 있다'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a family of buffalo an adult and two babies cross a field'. How many words end with the letter 's' in the sentence. <br><br>
+				<br> 문장: '물소 한 마리 어른과 두 아기가 들판을 건너다'. 문장에서 문자 's'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fenced in area with three zebra standing and one laying down'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '세 마리의 얼룩말이 서 있고 한 마리가 누워 있는 울타리가 쳐진 지역'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fire hydrant wrapped in red white and blue ribbon outside a beauty salon'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '미용실 밖에 있는 빨간색 흰색과 파란색 리본으로 감싼 소화전'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a first baseman and umpire standing on a field'. How many words end with the letter 'n' in the sentence. <br><br>
+				<br> 문장: '필드에 서 있는 1루수와 심판'. 문장에서 문자 'n'으로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a flock of birds flying over a massive snow covered mountain'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '거대한 눈 덮힌 산 위로 날아가는 새 떼'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a girafee is standng in the den at the zoo'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '기린이 동물원 굴에 서 있다'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe grazing in pen next to a tree trunk'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '나무줄기 옆 펜에서 풀을 뜯고 있는 기린'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe is standing in the brown barren forest'. How many words end with the letter 'n' in the sentence. <br><br>
+				<br> 문장: '기린이 갈색 불모의 숲에 서 있다'. 문장에서 문자 'n'으로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe is walking outdoors in its inclosure'. How many words end with the letter 's' in the sentence. <br><br>
+				<br> 문장: '기린이 우리 안에서 야외에서 걷고 있다'. 문장에서 문자 's'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe walking across a dry grass field'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '마른 풀밭을 걷는 기린'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a girl ready to use her tennis racket on a court'. How many words end with the letter 'o' in the sentence. <br><br>
+				<br> 문장: '코트에서 테니스 라켓을 사용할 준비가 된 소녀'. 문장에서 문자 'o'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a glass of wine sitting on the top of a swimming pool side'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '수영장 쪽 꼭대기에 앉아 있는 와인 한 잔'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a glass table with a plate of bar cookies a potted plant and a vase filled with chocolate eggs'. How many words end with the letter 't' in the sentence. <br><br>
+				<br> 문장: '바 쿠키 한 접시가 있는 유리 테이블, 화분에 심은 식물과 초콜릿 달걀로 채워진 꽃병'. 문장에서 문자 't'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a grass field with a tree building and fire hydrant'. How many words end with the letter 't' in the sentence. <br><br>
+				<br> 문장: '나무 건물과 소화전이 있는 잔디밭'. 문장에서 문자 't'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gray brown and black dog holds his nose near a piece of food on the floor'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '회색 갈색과 검은색 개가 바닥에 있는 음식 조각 근처에서 코를 잡습니다'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of different appliances sitting on top of a table'. How many words end with the letter 'f' in the sentence. <br><br>
+				<br> 문장: '탁자 위에 앉아 있는 다양한 기기 그룹'. 문장에서 문자 'f'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of horses trailing behind one another'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '서로 뒤에 오는 말의 그룹'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of large gray elephants walking through a forest'. How many words end with the letter 'p' in the sentence. <br><br>
+				<br> 문장: '숲 속을 걷는 커다란 회색 코끼리 무리'. 문장에서 문자 'p'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of men in softball uniforms walking on a field'. How many words end with the letter 'l' in the sentence. <br><br>
+				<br> 문장: '들판을 걷고 있는 소프트볼 유니폼을 입은 한 무리의 남자들'. 문장에서 문자 'l'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of men playing a game of soccer on a field'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '필드에서 축구 게임을 하는 남자들의 그룹'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of women that are standing in the snow on skis'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '스키를 타고 눈 속에 서 있는 한 무리의 여성들'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy playing frisbee in a park on the grass'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '잔디 위의 공원에서 프리스비를 하는 남자'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a herd of cows walk in front of a building'. How many words end with the letter 'f' in the sentence. <br><br>
+				<br> 문장: '건물 앞을 걷는 소 떼'. 문장에서 문자 'f'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a herd of wild elephants drinking water from a river'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '강에서 물을 마시는 야생 코끼리 무리'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a horse grazes on some green grass'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '말이 푸른 풀밭에서 풀을 뜯고 있다'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a keyboard with several outer buttons as options on it'. How many words end with the letter 'h' in the sentence. <br><br>
+				<br> 문장: '옵션으로 여러 외부 버튼이 있는 키보드'. 문장에서 문자 'h'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kid is typing on a small white laptop'. How many words end with the letter 'g' in the sentence. <br><br>
+				<br> 문장: '아이가 작은 흰색 노트북에 타이핑을 하고 있습니다.' 문장에서 문자 'g'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen counter with ingredients spread over it'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '재료가 깔린 주방 조리대'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen that has a stove and a icebox in it'. How many words end with the letter 'n' in the sentence. <br><br>
+				<br> 문장: '그 안에 스토브와 아이스박스가 있는 부엌'. 문장에서 문자 'n'으로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lady sitting in a car with a cake on her lap'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '무릎 위에 케이크를 올려놓고 차에 앉아 있는 여인'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a laptop cell phone and mouse sit on a cluttered desk near a california flag'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '노트북 휴대폰과 마우스가 캘리포니아 국기 근처 어수선한 책상 위에 놓여 있다'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a laptop is kept on the tablea person is sitting on other table'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '노트북이 테이블 위에 보관되어 있습니다. 사람이 다른 테이블에 앉아 있습니다.' 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large gray elephant walking through a lush green field'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '무성한 녹색 들판을 걷는 큰 회색 코끼리'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large group of people outside eating together'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '밖에서 함께 식사하는 많은 사람들'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large old brick building sits on the corner of a street'. How many words end with the letter 'g' in the sentence. <br><br>
+				<br> 문장: '길모퉁이에 크고 오래된 벽돌 건물이 있다'. 문장에서 문자 'g'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a line of police motorcycles line a city street'. How many words end with the letter 'y' in the sentence. <br><br>
+				<br> 문장: '도시 거리에 줄지어 선 경찰 오토바이'. 문장에서 문자 'y'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a little child sitting on top of a piece of luggage'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '가방 위에 앉아 있는 어린 아이'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a little girl wearing a skirt next to a boy while holding a game controller'. How many words end with the letter 'r' in the sentence. <br><br>
+				<br> 문장: '게임 컨트롤러를 들고 소년 옆에 치마를 입은 어린 소녀'. 문장에서 문자 'r'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lot of flowers that are on a table'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '탁자 위에 있는 많은 꽃'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a male tennis player prepares to hit the tennis ball'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '남자 테니스 선수가 테니스 공을 칠 준비를 한다'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and a small kid play a video game'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '한 남자와 작은 아이가 비디오 게임을 한다'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and woman are shaving wool from a sheep'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '남자와 여자가 양 털을 깎고 있다'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man and woman at table cutting into a layered cake'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '테이블에서 레이어드 케이크를 자르는 남자와 여자'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man at a food truck being handed his food'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '음식 트럭에서 음식을 건네받는 남자'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man blowing out some candles on a cake'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '케이크 위의 촛불을 끄는 남자'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man feeding a spoon of food to a white kitten'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '흰 고양이에게 음식 한 스푼을 먹이는 남자'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man flying through the air while riding a skateboard'. How many words end with the letter 'd' in the sentence. <br><br>
+				<br> 문장: '스케이트보드를 타면서 공중을 나는 남자'. 문장에서 문자 'd'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding a tennis racquet on top of a tennis court'. How many words end with the letter 's' in the sentence. <br><br>
+				<br> 문장: '테니스 코트 위에서 테니스 라켓을 들고 있는 남자'. 문장에서 문자 's'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a blue sweatshirt is throwing the frisbee'. How many words end with the letter 's' in the sentence. <br><br>
+				<br> 문장: '파란 운동복을 입은 남자가 프리스비를 던지고 있다'. 문장에서 문자 's'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a striped shirt and sunglasses smiles holding a hotdog sandwich'. How many words end with the letter 'a' in the sentence. <br><br>
+				<br> 문장: '줄무늬 셔츠와 선글라스를 쓴 남자가 핫도그 샌드위치를 들고 미소 짓는다'. 문장에서 문자 'a'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in the middle of the road talking on a cell phone'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '길 한복판에서 휴대전화로 통화하는 남자'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man is in the ocean riding a wave'. How many words end with the letter 'e' in the sentence. <br><br>
+				<br> 문장: '남자가 파도를 타고 바다에 있다'. 문장에서 문자 'e'로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man is riding in a carriage pulled by a pony'. How many words end with the letter 'n' in the sentence. <br><br>
+				<br> 문장: '남자가 조랑말이 끄는 마차를 타고 있다'. 문장에서 문자 'n'으로 끝나는 단어는 몇 개입니까? <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr>
+	</table>

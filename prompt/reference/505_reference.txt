@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['238', 'h', '92', 'U', '2799'] <br><br>
+				<br> ['238', 'h', '92', 'U', '2799'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['U', '6923', 'y', 'm', 'v', '345', 'Y', '87667', 'E', '6059', 'p'] <br><br>
+				<br> ['U', '6923', 'y', 'm', 'v', '345', 'Y', '87667', 'E', '6059', 'p'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1065', '943', '1247', '7969', '5135', '2461'] <br><br>
+				<br> ['1065', '943', '1247', '7969', '5135', '2461'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['107', '3499', '4055', '725', '9079', '5513', '5571'] <br><br>
+				<br> ['107', '3499', '4055', '725', '9079', '5513', '5571'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 7 <br><br>
+				<br> 7 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1129', '2925', '7659', 'J', 'o', '5795', 'F', '8005', '719', '6927', '1061', '8857', 'u', 'R', '6279', 'w'] <br><br>
+				<br> ['1129', '2925', '7659', 'J', 'o', '5795', 'F', '8005', '719', '6927', '1061', '8857', ' u', 'R', '6279', 'w'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1179', '5671', 'u', '3639', 'x', 'S', 'H', 'h', '9083', '8105', 'B', '3059', 'Y', 'k', '8937', '4817', '9125', 'w', 'R', '8455', 'x', '4195', 'p', '4017', '251', 'g', 'K', '7531', 'C', '6733', '8007', 'h', 'K', '8111', '1907', 'u', '7815'] <br><br>
+				<br> ['1179', '5671', 'u', '3639', 'x', 'S', 'H', 'h', '9083', '8105', 'B', '3059', ' Y', 'k', '8937', '4817', '9125', 'w', 'R', '8455', 'x', '4195', 'p', '4017', '251' , 'g', 'K', '7531', 'C', '6733', '8007', 'h', 'K', '8111', '1907', 'u', '7815'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1199', 'P', '4265', '9139', 'b', 'o', 's'] <br><br>
+				<br> ['1199', 'P', '4265', '9139', 'b', 'o', 's'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1251', '8447', '6131', 'T', 'y', '565', 'K', 'S', '8279', '2655', 'c', '9201', '8129', '4763', '2459', '9823', '1801', '8433', 'i', '7739', '89', '1185', '7117', 'R', 'X', '7869', 'D', '1265', '6667', 'j'] <br><br>
+				<br> ['1251', '8447', '6131', 'T', 'y', '565', 'K', 'S', '8279', '2655', 'c', '9201', ' 8129', '4763', '2459', '9823', '1801', '8433', 'i', '7739', '89', '1185', '7117', 'R', 'X' , '7869', 'ㄹ', '1265', '6667', 'j'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> 20 <br><br>
+				<br> 20 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1255', '7187', '9051', '6653', '9423', '6475', '8601', 'f', '8499', 'S', '9283', '8837', '9067', 'k', '5435', '5767', 'I', '9779', '7107', '6069', '7131', '2365', 'B', '4087', '4761', 'j', 'k', '7151', 'y', '7711', '2337', 'n', 'b', 'u'] <br><br>
+				<br> ['1255', '7187', '9051', '6653', '9423', '6475', '8601', 'f', '8499', 'S', '9283', '8837', ' 9067', 'k', '5435', '5767', 'I', '9779', '7107', '6069', '7131', '2365', 'B', '4087', '4761' , 'j', 'k', '7151', 'y', '7711', '2337', 'n', 'b', 'u'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> 23 <br><br>
+				<br> 23 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1265', '7393'] <br><br>
+				<br> ['1265', '7393'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1293', '359'] <br><br>
+				<br> ['1293', '359'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1307', '1591', 'a', '8261', 'f', 'x', 'W', '2671', '93', 'i', '4609', '4349', '3681', '291', 'v', 'p', '6811', 'd', 'p', 'Z', 'K', '8907', 'y', '3771', '1609', '3483', '3253', '9669', '8275', 'M', '5265'] <br><br>
+				<br> ['1307', '1591', 'a', '8261', 'f', 'x', 'W', '2671', '93', 'i', '4609', '4349', ' 3681', '291', 'v', 'p', '6811', 'd', 'p', 'Z', 'K', '8907', 'y', '3771', '1609' , '3483', '3253', '9669', '8275', 'M', '5265'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> 18 <br><br>
+				<br> 18 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1327', 'i', '5549', '4493', '2981', 'C', '1007', '6081', 'h', '85', 'Q', 'F', '1331', 't', '1291', '8867', '9059', 'j', '7913', 'y'] <br><br>
+				<br> ['1327', 'i', '5549', '4493', '2981', 'C', '1007', '6081', 'h', '85', 'Q', 'F', ' 1331', 't', '1291', '8867', '9059', 'j', '7913', 'y'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['133', '777', '7191', '5825'] <br><br>
+				<br> ['133', '777', '7191', '5825'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1375', '2569', '2211'] <br><br>
+				<br> ['1375', '2569', '2211'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1391', '6745', '6249', 'z', 'Y', '4799', '5263', 'X', '9927'] <br><br>
+				<br> ['1391', '6745', '6249', 'z', 'Y', '4799', '5263', 'X', '9927'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1455', 'q', '2975', 'm', '6095', '7193', '2657', 'X', '6539', '1401', '6309', '9611', 'J', '8783', '1605', '8849', 'T', '6601', '4449', 'N', '1451', 'h'] <br><br>
+				<br> ['1455', 'q', '2975', 'm', '6095', '7193', '2657', 'X', '6539', '1401', '6309', '9611', ' J', '8783', '1605', '8849', 'T', '6601', '4449', 'N', '1451', 'h'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> 15 <br><br>
+				<br> 15 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1473', 'S', 'y', '5801', 'q', '7517', 'r', 'd', 'L', 'z', '119', 'o', 'y', 'V', 'd', '981', 'n', '2403', 'g', '3125', 'E', '9707', '3471', 'X', '3599', '8077', '3041', 'v', 'L', 'Y', '3063', '65', 'C', 'L'] <br><br>
+				<br> ['1473', 'S', 'y', '5801', 'q', '7517', 'r', 'd', 'L', 'z', '119', 'o', ' y', 'V', 'd', '981', 'n', '2403', 'g', '3125', 'E', '9707', '3471', 'X', '3599' , '8077', '3041', 'v', 'L', 'Y', '3063', '65', 'C', 'L'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 14 <br><br>
+				<br> 14 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1493', '501', 'e', '63', '275', '7901', '6531', 'l', 'Q', 'c', 'i', 'o', 'm'] <br><br>
+				<br> ['1493', '501', 'e', '63', '275', '7901', '6531', 'l', 'Q', 'c', 'i', 'o', ' 중'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1539', 'h', 'n', 'W', '8431', 'Z', '4827', '6189', 'G', '1729', '8865', '5601', 'e', '6569', 'x', 'D', '7219', '6175', '3773', '6913', '8713'] <br><br>
+				<br> ['1539', 'h', 'n', 'W', '8431', 'Z', '4827', '6189', 'G', '1729', '8865', '5601', ' e', '6569', 'x', 'D', '7219', '6175', '3773', '6913', '8713'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1543', 'R'] <br><br>
+				<br> ['1543', 'R'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1571', '7661', 'R', 'O', 'y', 'l', 'J', '7899', '8507', 'U', 'X', 'u', '4287'] <br><br>
+				<br> ['1571', '7661', 'R', 'O', 'y', 'l', 'J', '7899', '8507', 'U', 'X', 'u', ' 4287'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1583', '5743', '7691', '4855'] <br><br>
+				<br> ['1583', '5743', '7691', '4855'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1635', '6321', '8629', 'F', '4743', '2493', '8879', 'A', 'R', 'x', '4735', '855', '659', '4273', '37', '863', '9935', 'O', '8959', 'o'] <br><br>
+				<br> ['1635', '6321', '8629', 'F', '4743', '2493', '8879', 'A', 'R', 'x', '4735', '855', ' 659', '4273', '37', '863', '9935', '오', '8959', '오'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 14 <br><br>
+				<br> 14 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1639', '8577', 'r', 'Q', '839', '981', '933', '9449', 'J', 'L', '9973', '8107', 'V', '991', '9269', 'n', 'B', 'g', '2229', 'r', 'X', '2885', 'h', 'l', 'N', 'J', 'C', '9531'] <br><br>
+				<br> ['1639', '8577', 'r', 'Q', '839', '981', '933', '9449', 'J', 'L', '9973', '8107', ' V', '991', '9269', 'n', 'B', 'g', '2229', 'r', 'X', '2885', 'h', 'l', 'N' , '지', 'ㄷ', '9531'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1649', 'a', 'M', 'X', 'N', '1905', 'G', '4529', '9383', '4863', 'B'] <br><br>
+				<br> ['1649', 'a', 'M', 'X', 'N', '1905', 'G', '4529', '9383', '4863', 'B'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1675', 'O', '5055', '9327', '9283', '929', '8287', '4481', 'i', 'n', '7783', 'M'] <br><br>
+				<br> ['1675', 'O', '5055', '9327', '9283', '929', '8287', '4481', 'i', 'n', '7783', 'M'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> 8 <br><br>
+				<br> 8 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1707', '1543'] <br><br>
+				<br> ['1707', '1543'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1707', '5567', 'r', '6093', 'D', '2737', 'M', 't', '3911', '2395', '8925', '3929', '569', '3987', '9419', '4191', '4149', 'q', '6667', '1973', 'X', '6415'] <br><br>
+				<br> ['1707', '5567', 'r', '6093', 'D', '2737', 'M', 't', '3911', '2395', '8925', '3929', ' 569', '3987', '9419', '4191', '4149', 'q', '6667', '1973', 'X', '6415'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> 16 <br><br>
+				<br> 16 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['179', 'R', 'z', '2741', '8639', '359', '4577', '1315', 'J', 'c', 'H', 'I', 'L', '6989', '3831', '3515', 'T', '7859', '3293', 'N', 'V', '8227', '9767', 'M', '8875', '4503', '6387', 'L', 'n', '3475', 'w', '707', 'T', 'v', '6459', 'J', '997'] <br><br>
+				<br> ['179', 'R', 'z', '2741', '8639', '359', '4577', '1315', 'J', 'c', 'H', 'I', ' L', '6989', '3831', '3515', 'T', '7859', '3293', 'N', 'V', '8227', '9767', 'M', '8875' , '4503', '6387', 'L', 'n', '3475', 'w', '707', 'T', 'v', '6459', 'J', '997'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> 20 <br><br>
+				<br> 20 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1841', 'b', '1077', '9611', '2329', '687', 'C', '6591', '9983', 'W', 'h', 'd', 'j', 'c', 'b', 'K', 's', 'K', 'D', 's', '5051', '1121', '3619', '6145'] <br><br>
+				<br> ['1841', 'b', '1077', '9611', '2329', '687', 'C', '6591', '9983', 'W', 'h', 'd', ' j', 'c', 'b', 'K', 's', 'K', 'D', 's', '5051', '1121', '3619', '6145'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1853', 'K', '4921', 'L', 'n', 'q', 'I', 'A', '9907', 'b', 'i', 'f', 'e', 'w', 'm', '4183', '3641', 'D', 'l'] <br><br>
+				<br> ['1853', 'K', '4921', 'L', 'n', 'q', 'I', 'A', '9907', 'b', 'i', 'f', ' e', 'w', 'm', '4183', '3641', 'D', 'l'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1867', 'w', 'y', 'G', 'X', '2751'] <br><br>
+				<br> ['1867', 'w', 'y', 'G', 'X', '2751'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1869', '6625', 'r', 'B', 'p', '6319', '5897', 'D', '2889', 'y', 'n', 'j', 'P', '5325', '1025', 'Y', '4499', 'l', 'E', 'g', '9853', 'r', '641', '4691', 'w', '9885'] <br><br>
+				<br> ['1869', '6625', 'r', 'B', 'p', '6319', '5897', 'D', '2889', 'y', 'n', 'j', ' P', '5325', '1025', 'Y', '4499', 'l', 'E', 'g', '9853', 'r', '641', '4691', 'w' , '9885'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1869', 'h', 't', 'W', '4001', 'f', '7841', 'M', 'O', 'Y', '1077', '2199', '3761', '6409', '665', '9759', 'O', 'c', 'e'] <br><br>
+				<br> ['1869', 'h', 't', 'W', '4001', 'f', '7841', 'M', 'O', 'Y', '1077', '2199', ' 3761', '6409', '665', '9759', 'O', 'c', 'e'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 9 <br><br>
+				<br> 9 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['1885', 'z', 'f', 'm', '1347', '6399', '7851', '2851', 'Z', 'H', '2157', '6683', 'J', '4941'] <br><br>
+				<br> ['1885', 'z', 'f', 'm', '1347', '6399', '7851', '2851', 'Z', 'H', '2157', '6683', ' 지', '4941'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 8 <br><br>
+				<br> 8 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['191', '6761', '9607'] <br><br>
+				<br> ['191', '6761', '9607'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['193', '4377', '6309', '4129', '6765'] <br><br>
+				<br> ['193', '4377', '6309', '4129', '6765'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2035', 'K', '2581', 'a', 'Q', 'h', 'c', '1897', '8161', 'V', 'v', '5907', '4495'] <br><br>
+				<br> ['2035', 'K', '2581', 'a', 'Q', 'h', 'c', '1897', '8161', 'V', 'v', '5907', ' 4495'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 6 <br><br>
+				<br> 6 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2071', '5793', 'c', 'm'] <br><br>
+				<br> ['2071', '5793', '씨', '엠'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2101', '9337', '9479', '19', '4717', 'Q'] <br><br>
+				<br> ['2101', '9337', '9479', '19', '4717', 'Q'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2157', '1331', '2177'] <br><br>
+				<br> ['2157', '1331', '2177'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2157', 'K', '7459', 'i', 't', '6757', '1945', '5507', 'm', '4667', 'e', 'W', '1651', 'w', 'y', '5445', '6977'] <br><br>
+				<br> ['2157', 'K', '7459', 'i', 't', '6757', '1945', '5507', 'm', '4667', 'e', 'W', ' 1651', 'w', 'y', '5445', '6977'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> 9 <br><br>
+				<br> 9 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2169', '8499', '2949', '8803', 'm', '661', 'I', 'Q', '1231', 'a', '1553', 'L', 'X', 'O', '6001', '1845', '2929', '1783', '8555', 'l', '4723', '245', '1879', '305'] <br><br>
+				<br> ['2169', '8499', '2949', '8803', 'm', '661', 'I', 'Q', '1231', 'a', '1553', 'L', ' X', 'O', '6001', '1845', '2929', '1783', '8555', 'l', '4723', '245', '1879', '305'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 16 <br><br>
+				<br> 16 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2239', '2415', 'M', 'C', '8545', 's', 'W', 'A', '5501', 'w', '4801', '5173', '3079', 'W', '9969', '2571', 'u', '9251', 's', 'i', '9147', '8571', 'm', '2367', 'T', 'G'] <br><br>
+				<br> ['2239', '2415', 'M', 'C', '8545', 's', 'W', 'A', '5501', 'w', '4801', '5173', ' 3079', 'W', '9969', '2571', 'u', '9251', 's', 'i', '9147', '8571', 'm', '2367', 'T' , 'G'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2251', '1977', '7721', '8325', 'u', 'I'] <br><br>
+				<br> ['2251', '1977', '7721', '8325', '유', '나'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2269', '7001', '6511', '8265'] <br><br>
+				<br> ['2269', '7001', '6511', '8265'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2277', '8629'] <br><br>
+				<br> ['2277', '8629'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['231', 'h', 'U', '4487', 'y', '4033', '8881', '617', '7793', 'n', 'R', 'j', '681', '8289', 'J', '6189', '8399', 'l', '8621', '3261', '9195'] <br><br>
+				<br> ['231', 'h', 'U', '4487', 'y', '4033', '8881', '617', '7793', 'n', 'R', 'j', ' 681', '8289', 'J', '6189', '8399', 'l', '8621', '3261', '9195'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> 13 <br><br>
+				<br> 13 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['233', '8921', 'g', 'L', 'W', 'F', 'R', 'b', '6763', '9753', 'J', '6323', 'h'] <br><br>
+				<br> ['233', '8921', 'g', 'L', 'W', 'F', 'R', 'b', '6763', '9753', 'J', '6323', ' 시간'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2367', '9217', 'u', '2301', 'M', 'm', 'U', 'o', 'z', 'u', 'a', 'k'] <br><br>
+				<br> ['2367', '9217', 'u', '2301', 'M', 'm', 'U', 'o', 'z', 'u', 'a', 'k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2379', '991', '7593', '909', '4675', 'R', '3421', '8149', '6257', '5339', 'E', '8171', '6379', 's', 'O', 'A', 'b', '5163', 'z', 'V', '4903', '4141', 'w', '3483', '5183', 'A', '5905', '8927', 'n', '2089', 's', '9925', 'O', '329', '4755'] <br><br>
+				<br> ['2379', '991', '7593', '909', '4675', 'R', '3421', '8149', '6257', '5339', 'E', '8171', ' 6379', 's', 'O', 'A', 'b', '5163', 'z', 'V', '4903', '4141', 'w', '3483', '5183' , 'A', '5905', '8927', 'n', '2089', 's', '9925', 'O', '329', '4755'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> 22 <br><br>
+				<br> 22 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['243', 'V', '2323', 'm', '9519', 'X', 's', 'i', '9677', 'q', '5475', '8333', '9383', 'G', '387', '7157', 'B', 'c'] <br><br>
+				<br> ['243', 'V', '2323', 'm', '9519', 'X', 's', 'i', '9677', 'q', '5475', '8333', ' 9383', 'G', '387', '7157', 'B', 'c'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> 9 <br><br>
+				<br> 9 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2453', '2377'] <br><br>
+				<br> ['2453', '2377'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['249', '1049', '1155', 'T', '4399', 'b', 'u', '833', 'I', '1421', 'w', '9037', '2355', '5397', '4335', 'X', '341', '709'] <br><br>
+				<br> ['249', '1049', '1155', 'T', '4399', 'b', 'u', '833', 'I', '1421', 'w', '9037', ' 2355', '5397', '4335', '엑스', '341', '709'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2529', '1019', 'q', 'L', '5497', 'L', '725', '7037', '7491', '8167', '1161', '2779', 'd', '9337', 'p', 'q', '7527', 'l', 'n', '4323', 't', 'Q', 'x', 'G', '6593', 'M', '5725', 'G', '5255', '5571', 'c', '1745', 'd'] <br><br>
+				<br> ['2529', '1019', 'q', 'L', '5497', 'L', '725', '7037', '7491', '8167', '1161', '2779', ' d', '9337', 'p', 'q', '7527', 'l', 'n', '4323', 't', 'Q', 'x', 'G', '6593' , 'M', '5725', 'G', '5255', '5571', 'c', '1745', 'd'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2543', 'Q', '9679', 'M', 'M', '2243', '617', '6709', 'u', 'O', '3561', '2119', '6973', 'n', '587', 'Q', '4029', 'C', 'X'] <br><br>
+				<br> ['2543', 'Q', '9679', 'M', 'M', '2243', '617', '6709', 'u', 'O', '3561', '2119', ' 6973', 'n', '587', 'Q', '4029', 'C', 'X'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2551', 'N', 'O', 'O', '6461'] <br><br>
+				<br> ['2551', 'N', 'O', 'O', '6461'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['257', '7561', '2385', 'q', '4761', '7815', 'j', '7975', '3233', 'Z', '1593', 'T', 'r', '4539', '3533', 'E', 'F', '6651', 'G', '2285', '1729', '6037', '7151', '7823', '7429'] <br><br>
+				<br> ['257', '7561', '2385', 'q', '4761', '7815', 'j', '7975', '3233', 'Z', '1593', 'T', ' r', '4539', '3533', 'E', 'F', '6651', 'G', '2285', '1729', '6037', '7151', '7823', '7429' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2573', 'v', '6065', 'F', '7969', 'D', 'U', 'V', '3887', '8757', 'R', '6429', '501', 'C', 'T', 'h', '7897', 'V', '9417', 'Q'] <br><br>
+				<br> ['2573', 'v', '6065', 'F', '7969', 'D', 'U', 'V', '3887', '8757', 'R', '6429', ' 501', 'C', 'T', 'h', '7897', 'V', '9417', 'Q'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> 9 <br><br>
+				<br> 9 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2587', '2601'] <br><br>
+				<br> ['2587', '2601'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2635', 'B', '5585', '375', 'f', 'Q', 'c', 'y', 'B', '3497', 'M', 'm', '4049', '5159', '8163', '6517', 'y', '7799', '1867', 'G', '1773', 'W', '9967', 'b', '3619', '5749', '3707', '1563', 'I', 'r', '5131', '9617', '6249', '7299', '1373'] <br><br>
+				<br> ['2635', 'B', '5585', '375', 'f', 'Q', 'c', 'y', 'B', '3497', 'M', 'm', ' 4049', '5159', '8163', '6517', 'y', '7799', '1867', 'G', '1773', 'W', '9967', 'b', '3619' , '5749', '3707', '1563', '나', 'r', '5131', '9617', '6249', '7299', '1373'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> 21 <br><br>
+				<br> 21 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2731', 'S', '9271', 'l', '1269', 'i', '3111', '6607', 'c', '3263', '4839', 'h', 'j', 'i', 'H', '861', 'W', '5123', '3497', 'a', 'A', 'r', 'e', 'H', 'M', 'N', '4879', 'p'] <br><br>
+				<br> ['2731', 'S', '9271', 'l', '1269', 'i', '3111', '6607', 'c', '3263', '4839', 'h', ' j', 'i', 'H', '861', 'W', '5123', '3497', 'a', 'A', 'r', 'e', 'H', 'M' , '엔', '4879', 'p'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2735', 'O', '3173', 't', '3097', '7167', 'i', 'v', 'k', 'e', 'S', '7883', '937', '8303', '3437', 'y', 'A'] <br><br>
+				<br> ['2735', 'O', '3173', 't', '3097', '7167', 'i', 'v', 'k', 'e', 'S', '7883', ' 937', '8303', '3437', 'y', 'A'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 8 <br><br>
+				<br> 8 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2749', 's', 'W'] <br><br>
+				<br> ['2749', 's', 'W'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['279', 'S', 's', 'A', '7239', '1227', '2769', 'H'] <br><br>
+				<br> ['279', 'S', 's', 'A', '7239', '1227', '2769', 'H'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2813', 'I', '2663', '4307', '9049', 'H', '2837', '375', 'b', '5813', 'i', '2705', '4503', '9025'] <br><br>
+				<br> ['2813', 'I', '2663', '4307', '9049', 'H', '2837', '375', 'b', '5813', 'i', '2705', ' 4503', '9025'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2839', '9381', 'd', 'c', '2919', 'd', 'D', 'T', '7157', 'p', '6599', 'i', '479', 'd', 'F', '2293', 'e', 'a', '2661', '5555', '3937'] <br><br>
+				<br> ['2839', '9381', 'd', 'c', '2919', 'd', 'D', 'T', '7157', 'p', '6599', 'i', ' 479', 'd', 'F', '2293', 'e', 'a', '2661', '5555', '3937'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2845', '9969'] <br><br>
+				<br> ['2845', '9969'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2879', 'A', '375', 'l', 'C'] <br><br>
+				<br> ['2879', 'A', '375', 'l', 'C'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2905', 'O', '5989', 'B', 'u', 'O', '4893', '6083', 'g', '1921', 'T', 'I', '845', 'k', '3401', 'V', 'E', '1459', '9', 'Q', 'g'] <br><br>
+				<br> ['2905', 'O', '5989', 'B', 'u', 'O', '4893', '6083', 'g', '1921', 'T', 'I', ' 845', 'k', '3401', 'V', 'E', '1459', '9', 'Q', 'g'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> 9 <br><br>
+				<br> 9 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2937', '4071', '5245', '4475', '8393', 'p', 'G', '8187', '1247', 'S', '5699', '5979', '4509'] <br><br>
+				<br> ['2937', '4071', '5245', '4475', '8393', 'p', 'G', '8187', '1247', 'S', '5699', '5979', ' 4509'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2947', '1075', 'S', '4993', '6597', 'A'] <br><br>
+				<br> ['2947', '1075', 'S', '4993', '6597', 'A'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['2949', '4487', '5953'] <br><br>
+				<br> ['2949', '4487', '5953'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['295', 'U', 'v', '225', '6811', '5323', 'f', '389', '4813', '9485', 'E', '3275', 'd', 'q', 'p', '9523', 'W', '9461', '355', 'X'] <br><br>
+				<br> ['295', 'U', 'v', '225', '6811', '5323', 'f', '389', '4813', '9485', 'E', '3275', ' d', 'q', 'p', '9523', 'W', '9461', '355', 'X'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3011', '7019', 'd', '5427', 'f', 'c', 'y', '2387', '6947', '223', 'O', 'v', '4921', 't', '4211', 'E', 'm', 's', '5299', '5893', 'L'] <br><br>
+				<br> ['3011', '7019', 'd', '5427', 'f', 'c', 'y', '2387', '6947', '223', 'O', 'v', ' 4921', 't', '4211', 'E', 'm', 's', '5299', '5893', 'L'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3011', '8347', '1669'] <br><br>
+				<br> ['3011', '8347', '1669'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['303', '1701', '5101', 'O', '619', 'k'] <br><br>
+				<br> ['303', '1701', '5101', 'O', '619', 'k'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3055', '2915', '5713', '5767', '5399', '3685', '9761', 'w', '6025', 'H', 'x', 'M', '1179', 's', '8205', 'Z', '4463', 'K', 'x', 's', '1731', '3251', 'T', '6115', '1139', '9777', '3445', 'm', '253', 'c', '8391', 'Q', '4801', '5307', '1315', 'h', 'd', '3469', '7151'] <br><br>
+				<br> ['3055', '2915', '5713', '5767', '5399', '3685', '9761', 'w', '6025', 'H', 'x', 'M', ' 1179', 's', '8205', 'Z', '4463', 'K', 'x', 's', '1731', '3251', 'T', '6115', '1139' , '9777', '3445', 'm', '253', 'c', '8391', 'Q', '4801', '5307', '1315', 'h', 'd', ' 3469', '7151'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> 24 <br><br>
+				<br> 24 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['309', 'v', '5371', 'S', '357', 'T', '4001', '9847', '389', '1431', 'c', '7923', '5817', 'N', 'U', '6901', '8965', '7575', '8055', '9039', 'v', '5365', 'B', 'e'] <br><br>
+				<br> ['309', 'v', '5371', 'S', '357', 'T', '4001', '9847', '389', '1431', 'c', '7923', ' 5817', 'N', 'U', '6901', '8965', '7575', '8055', '9039', 'v', '5365', 'B', 'e'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> 15 <br><br>
+				<br> 15 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3111', '1587'] <br><br>
+				<br> ['3111', '1587'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3123', 'v', 'C', 'e', '8695', '581', 'z', '7843', '2035', '4183', 'V', 'b', '9397', 'H', '3431', '7941', '3913'] <br><br>
+				<br> ['3123', 'v', 'C', 'e', '8695', '581', 'z', '7843', '2035', '4183', 'V', 'b', ' 9397', 'H', '3431', '7941', '3913'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 10 <br><br>
+				<br> 10 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3129', '1063', '9243', 'Q', 'Y', '8173', 'w', '8229'] <br><br>
+				<br> ['3129', '1063', '9243', 'Q', 'Y', '8173', 'w', '8229'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3131', 'U', '9701', 'R', '8965', '1175', 'u', '4647', '4973', '299', 'o', '7101', '4079', 'x', 's', 'L', 'T', 'N', '5545', 'v', 'a', '2645', '7719', '617', '7787', '785', 'w', 'V', '8865', 'S', '985', '95', '3681', 'z', '3805', '3007', 'H', '943', '9015', 'J'] <br><br>
+				<br> ['3131', 'U', '9701', 'R', '8965', '1175', 'u', '4647', '4973', '299', 'o', '7101', ' 4079', 'x', 's', 'L', 'T', 'N', '5545', 'v', 'a', '2645', '7719', '617', '7787' , '785', 'w', 'V', '8865', 'S', '985', '95', '3681', 'z', '3805', '3007', 'H', ' 943', '9015', '지'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> 23 <br><br>
+				<br> 23 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['317', 'Z', '9781', 'Q', 'I', 'O'] <br><br>
+				<br> ['317', 'Z', '9781', 'Q', 'I', 'O'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> 2 <br><br>
+				<br> 2 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3265', '6551', '7159'] <br><br>
+				<br> ['3265', '6551', '7159'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3289', 'v', 'D', '4533', 'i', 'S', '2173', '1209', 't', '5909', '3451', '8987', 'N', 'm', '7767', '1605', '2815', 'i', '5055', 'G', 'p', 'c', '6089', 'q', '9147', '3881', 'G', '9929'] <br><br>
+				<br> ['3289', 'v', 'D', '4533', 'i', 'S', '2173', '1209', 't', '5909', '3451', '8987', ' N', 'm', '7767', '1605', '2815', 'i', '5055', 'G', 'p', 'c', '6089', 'q', '9147' , '3881', '지', '9929'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 15 <br><br>
+				<br> 15 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3317', 'y', 'N', '9223', '1399', 'Z', 'X', '4541', 'S', '2053', 'r', 'N'] <br><br>
+				<br> ['3317', 'y', 'N', '9223', '1399', 'Z', 'X', '4541', 'S', '2053', 'r', 'N'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3373', '4153', 'j', '4455', 'E', '2121', 'z', 'Q', 'S', '849', 'q', 'B', 'v', '5459', '4035', 'R', '5289', '4439', 'R'] <br><br>
+				<br> ['3373', '4153', 'j', '4455', 'E', '2121', 'z', 'Q', 'S', '849', 'q', 'B', ' v', '5459', '4035', '알', '5289', '4439', '알'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 9 <br><br>
+				<br> 9 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3555', 'N', 'W', 'K', 'O', '1711', '7769', 'l', '7889', '4763', '6931', '1125', 'K', '7453', 'e', 'W'] <br><br>
+				<br> ['3555', 'N', 'W', 'K', 'O', '1711', '7769', 'l', '7889', '4763', '6931', '1125', ' K', '7453', 'e', 'W'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> 8 <br><br>
+				<br> 8 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3677', '8693', 'm', '1403', 'x', 'w', '2301', 'h', '7083', '1055', '3073', 'W', 'y', 'v', '439', 'E', '1581', '1357', '7737', '9427', 'u', 'o'] <br><br>
+				<br> ['3677', '8693', 'm', '1403', 'x', 'w', '2301', 'h', '7083', '1055', '3073', 'W', ' y', 'v', '439', 'E', '1581', '1357', '7737', '9427', 'u', 'o'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3755', 'c', '7835', 'l', 'c', '8829', '5077', 'J', 'q', '1521', 'Y', 'A'] <br><br>
+				<br> ['3755', 'c', '7835', 'l', 'c', '8829', '5077', 'J', 'q', '1521', 'Y', 'A'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 5 <br><br>
+				<br> 5 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3767', '9619', 'N', 'N', 'x', 'H', 'C', 'O', 'f', 'p', '5361', '1005', '8227', 'Q', 'l', 'y', '9651', '7607', '1177', 'h', '6269', 'N', '9159', 'B', '5355', '7907', '8779', '3987', '7039', 'U', '4335', 'C', '4245'] <br><br>
+				<br> ['3767', '9619', 'N', 'N', 'x', 'H', 'C', 'O', 'f', 'p', '5361', '1005', ' 8227', 'Q', 'l', 'y', '9651', '7607', '1177', 'h', '6269', 'N', '9159', 'B', '5355' , '7907', '8779', '3987', '7039', 'U', '4335', 'ㄷ', '4245'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> 17 <br><br>
+				<br> 17 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3811', 'R'] <br><br>
+				<br> ['3811', 'R'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 1 <br><br>
+				<br> 1 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['383', 'j', 'q', 'F', 's', '4265', '4295', 'u', '6607', '7717', 'p', '7221', '9221', 'd', '4089', '3827', 'A', '153', '9593', 'b', 'd', 'b', 'v', 'w', '1389', '4661', '7055', 'p'] <br><br>
+				<br> ['383', 'j', 'q', 'F', 's', '4265', '4295', 'u', '6607', '7717', 'p', '7221', ' 9221', 'd', '4089', '3827', 'A', '153', '9593', 'b', 'd', 'b', 'v', 'w', '1389' , '4661', '7055', 'p'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> 14 <br><br>
+				<br> 14 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['387', 'c', 'n', '9723', 'v', 'k', 'G', 'i', '8881', 'L', '2913', 'u', 'N', '2745', 'D', 'O', 'z', '8641', 'q', 'c', '2257', '2461', '8301', '8699', '8547'] <br><br>
+				<br> ['387', 'c', 'n', '9723', 'v', 'k', 'G', 'i', '8881', 'L', '2913', 'u', ' N', '2745', 'D', 'O', 'z', '8641', 'q', 'c', '2257', '2461', '8301', '8699', '8547' ] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['387', 'k', '9317', '5907', 'q', 'R'] <br><br>
+				<br> ['387', 'k', '9317', '5907', 'q', 'R'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 3 <br><br>
+				<br> 3 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3933', '4917', 's', '2679', '269', '6987', '809', '3775', '91', '2529', 'M', '4091', '2137', 'n', 'N', '2553', 'N', 'F'] <br><br>
+				<br> ['3933', '4917', 's', '2679', '269', '6987', '809', '3775', '91', '2529', 'M', '4091', ' 2137', '엔', '엔', '2553', '엔', '에프'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['3985', 'U', '2323', 'n', 'g', '1161', 'a', '4249', '9575', '2955', '8359', '4625', '6561', 'i', 'C', 'h', 'o', '651', 'L', 'y', '3183', 'y', 'x', '1865', 'B', 'y', 'i'] <br><br>
+				<br> ['3985', 'U', '2323', 'n', 'g', '1161', 'a', '4249', '9575', '2955', '8359', '4625', ' 6561', 'i', 'C', 'h', 'o', '651', 'L', 'y', '3183', 'y', 'x', '1865', 'B' , 'y', 'i'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> 12 <br><br>
+				<br> 12 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['4013', '1437', '2549', 'R', '9943', '25', 's', 'B', 'L', 'W', '4355', 'a', '4963', 'X', 'U', '6363', '905', 'm', '1021', '9097', '1759', 'C', 'a', '7705', '4825', '1461', 's', '2147', 'N', '5295', '995', 'j', '9723'] <br><br>
+				<br> ['4013', '1437', '2549', 'R', '9943', '25', 's', 'B', 'L', 'W', '4355', 'a', ' 4963', 'X', 'U', '6363', '905', 'm', '1021', '9097', '1759', 'C', 'a', '7705', '4825' , '1461', 's', '2147', 'N', '5295', '995', 'j', '9723'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> 19 <br><br>
+				<br> 19 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['4025', 'O', 'u', '7437', 'O', 'i', '9705', 'C', '6345', 'P', 'X', '9239', 'h', 'g', '7819', 'n', '789', 'M', 'F', 'R', 'x', 'r', 'i', 'R', '1379', '9955', 'q', '2021', 'S', 'M', '9461', 'D', 'T', 'B', 'x'] <br><br>
+				<br> ['4025', 'O', 'u', '7437', 'O', 'i', '9705', 'C', '6345', 'P', 'X', '9239', ' h', 'g', '7819', 'n', '789', 'M', 'F', 'R', 'x', 'r', 'i', 'R', '1379' , '9955', 'q', '2021', 'S', 'M', '9461', 'D', 'T', 'B', 'x'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> 11 <br><br>
+				<br> 11 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> ['4041', '991', '6485', '2121'] <br><br>
+				<br> ['4041', '991', '6485', '2121'] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> 4 <br><br>
+				<br> 4 <br><br>
+			</td>
+		</tr>
+	</table>

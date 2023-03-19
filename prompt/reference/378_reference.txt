@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'as a guy jumps over the snow with his snowboard people riding on the lift behind him look on'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '남자가 스노보드를 들고 눈 위를 뛰어넘을 때 그의 뒤에 있는 리프트를 탄 사람들이 지켜본다'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> as a guy jumps over the snow with his snowboard elpoep gnidir on the lift dniheb him look on <br><br>
+				<br> 한 남자가 리프트에서 스노우보드를 타고 눈 위로 점프할 때 elpoep gnidir dniheb him look <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man skis down a snowy hill wearing a blue hat and jacket'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '한 남자가 파란 모자와 재킷을 입고 눈 덮인 언덕을 스키를 타고 내려간다'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> a man skis down a ywons hill wearing a blue hat and jacket <br><br>
+				<br> 파란색 모자와 재킷을 입고 ywons 언덕 아래로 스키를 타는 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bag full of chocolate frosted mini donuts'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '초콜릿 프로스트 미니 도넛으로 가득 찬 가방'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> a bag full of chocolate detsorf mini donuts <br><br>
+				<br> 초콜렛 detsorf 미니 도넛으로 가득 찬 가방 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a banana dessert with caramel sauce on a white plate'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '하얀 접시에 캐러멜 소스를 얹은 바나나 디저트'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> a banana dessert with caramel sauce on a white plate <br><br>
+				<br> 하얀 접시에 캐러멜 소스를 얹은 바나나 디저트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player pitching a ball on a baseball field'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '야구장에서 공을 던지는 야구 선수'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> a baseball player pitching a llab on a baseball field <br><br>
+				<br> 야구장에서 llab을 던지는 야구 선수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a baseball player steps up to the plate'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '야구 선수가 타석에 오른다'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> a baseball player steps up to the plate <br><br>
+				<br> 야구 선수가 타석에 올라서다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bear is seen eating grass in the foreground of multiple trees'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '곰이 여러 나무의 전경에서 풀을 먹고 있는 것이 보인다'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> a bear is seen eating grass in the foreground of multiple trees <br><br>
+				<br> 여러 나무의 전경에서 풀을 먹고 있는 곰이 보입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom complete with a bed dresser and ceiling fan'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '침대 서랍장과 천장 선풍기가 있는 침실'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> a moordeb complete with a bed resserd and gniliec fan <br><br>
+				<br> 침대 레서드와 그닐리엑 팬이 있는 무어데브 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom has a tall brown dresser and a bed'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '침실에는 긴 갈색 옷장과 침대가 있습니다'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> a bedroom has a tall nworb dresser and a bed <br><br>
+				<br> 침실에는 키가 큰 nworb 옷장과 침대가 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom with a loveseat and lots of pillows'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '이인용 의자와 많은 베개가 있는 침실'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> a bedroom htiw a loveseat and stol of pillows <br><br>
+				<br> 2인용 의자와 베개가 있는 침실 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bedroom with white walls and some wooden fixtures'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '흰 벽과 약간의 나무 가구가 있는 침실'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> a bedroom htiw white walls and emos wooden fixtures <br><br>
+				<br> 흰색 벽과 이모스 원목 가구로 꾸며진 침실 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a big truck that has a piece of equipment on it'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '장비를 실은 대형 트럭'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> a big truck taht has a piece of equipment on it <br><br>
+				<br> 장비를 실은 대형 트럭 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a black and white photo of a sign pointing to paris'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '파리를 가리키는 표지판의 흑백 사진'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> a kcalb and etihw otohp of a sign pointing to sirap <br><br>
+				<br> a kcalb 및 etihw otohp 시랩을 가리키는 표지판 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blie bag is sitting on a desk'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '블라이 가방이 책상 위에 앉아 있다'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> a blie bag si sitting no a desk <br><br>
+				<br> a blie bag si 착석 no a 책상 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a blurry photo of a girl eating a sandwich'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '샌드위치를 먹는 소녀의 흐릿한 사진'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> a blurry photo fo a girl eating a sandwich <br><br>
+				<br> 샌드위치를 먹는 소녀의 흐릿한 사진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a broken blue umbrella lying on the street'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '거리에 놓여 있는 부서진 파란 우산'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> a broken blue umbrella lying on eht street <br><br>
+				<br> EHT 거리에 누워 깨진 파란 우산 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a brown duck swims in some brown water'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '갈색 오리가 갈색 물에서 헤엄친다'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> a brown duck swims in some brown water <br><br>
+				<br> 갈색 오리가 갈색 물에서 헤엄친다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a bunch of cars that are sitting at a red light'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '빨간불에 앉아있는 자동차 무리'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> a bunch fo cars that are sitting ta a red light <br><br>
+				<br> 빨간불에 앉아있는 많은 차들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cake shaped as a train has the number 4 on it'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '기차 모양의 케이크에는 숫자 4가 있습니다'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> a cake shaped as a train sah eht number 4 on it <br><br>
+				<br> 4번 기차 모양의 케이크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a car at the light getting ready to go because the light is green'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '신호등이 녹색이기 때문에 신호등에서 출발할 준비를 하는 자동차'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> a car ta the light getting ready ot og because the light si green <br><br>
+				<br> a car ta the light getting ready ot og 왜냐하면 신호등이 녹색이기 때문입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat hitting another cat with its paw'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '발로 다른 고양이를 때리는 고양이'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> a cat hitting another cat with its paw <br><br>
+				<br> 발로 다른 고양이를 때리는 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting on top of a chair next to two phones'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '두 대의 전화기 옆 의자 위에 고양이가 앉아 있다'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> a cat sitting on top of a chair next to two phones <br><br>
+				<br> 두 대의 전화기 옆에 있는 의자 위에 앉아 있는 고양이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cat sitting on top of a wooden table'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '나무 탁자 위에 고양이가 앉아 있다'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> a cat gnittis on top of a wooden table <br><br>
+				<br> 나무 탁자 위에 있는 고양이 그니티스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a child on the beach flying a kite'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '해변에서 연을 날리는 아이'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> a dlihc on the hcaeb flying a kite <br><br>
+				<br> 연을 날리는 hcaeb의 dlihc <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clear plate full of red and yellow vegetables on the table'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '탁자 위에 빨간색과 노란색 채소가 가득한 투명한 접시'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> a clear plate full of red and wolley vegetables on the table <br><br>
+				<br> 테이블 위에 빨간 야채와 울리 야채로 가득 찬 투명한 접시 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clear vase with flowers sitting on top of the table'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '탁자 위에 꽃이 놓여 있는 투명한 꽃병'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> a raelc vase with flowers sitting on top of the elbat <br><br>
+				<br> 엘바트 위에 놓인 꽃이 있는 라엘크 꽃병 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clock tower near a busy city street'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '분주한 도시 거리 근처의 시계탑'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> a clock tower near a busy city teerts <br><br>
+				<br> 바쁜 도시 티어츠 근처의 시계탑 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a close of photo of a leg of a bench with pictures of people at cats'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '고양이에 있는 사람들의 사진이 있는 벤치 다리의 클로즈업 사진'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> a close of photo of a leg of a bench htiw pictures of people at stac <br><br>
+				<br> stac에서 사람들의 사진 htiw 벤치의 다리의 사진의 클로즈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a clown with a scary face sits on a park bench'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '무서운 얼굴을 한 광대가 공원 벤치에 앉아 있다'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> a clown with a scary face sits on a park bench <br><br>
+				<br> 무서운 얼굴을 한 광대가 공원 벤치에 앉아 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a collage of cats interacting with and sitting on bicycles'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '자전거와 상호 작용하고 자전거에 앉아있는 고양이의 콜라주'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> a collage of cats interacting with and sitting on bicycles <br><br>
+				<br> 자전거와 상호 작용하고 앉아있는 고양이의 콜라주 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cop is pulled up next to a school bus'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '통학버스 옆에 경찰이 세웠다'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> a cop is pulled up txen to a school bus <br><br>
+				<br> 경찰이 스쿨버스로 끌려간다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple cook dinner together while taking their picture'. Reverse all words of length '8' in the given sentence. <br><br>
+				<br> 문장: '커플이 사진을 찍으면서 함께 저녁을 요리하다'. 주어진 문장에서 길이가 '8'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> a couple cook dinner rehtegot while taking their picture <br><br>
+				<br> 그들의 사진을 찍는 동안 부부는 저녁 식사를 rehtegot 요리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of cats laying on top of a bed'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '침대 위에 누워 있는 고양이 두 마리'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> a couple fo cats laying no top fo a bed <br><br>
+				<br> 침대에 누워있는 고양이 몇 마리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of giraffe standing next to a white fence'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '하얀 울타리 옆에 서 있는 기린 부부'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> a couple fo giraffe standing next ot a white fence <br><br>
+				<br> 흰색 울타리 옆에 서 있는 몇 fo 기린 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of motorcycles are parked together'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '두 대의 오토바이가 함께 주차되어 있습니다'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> a couple of motorcycles are parked together <br><br>
+				<br> 두 대의 오토바이가 함께 주차되어 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of women sitting on a bench with a dog'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '개와 함께 벤치에 앉아 있는 여성 커플'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> a couple of women sitting on a bench htiw a dog <br><br>
+				<br> 개 htiw 벤치에 앉아 두 여자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a couple of zebra standing next to each other'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '서로 옆에 서 있는 얼룩말 커플'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> a couple fo zebra standing next ot each other <br><br>
+				<br> 얼룩말이 서로 옆에 서 있는 커플 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a cow with black spots all over eating grass'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '온통 검은 반점이 풀을 먹고 있는 소'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> a cow htiw black spots all revo eating grass <br><br>
+				<br> 암소 htiw 검은 반점 모두 revo 먹는 풀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a desktop and a laptop computer are sitting on a desk along with an ipod'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '데스크톱과 노트북이 아이팟과 함께 책상 위에 놓여 있다'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> a desktop and a laptop computer are sitting on a desk gnola with an ipod <br><br>
+				<br> 데스크탑과 노트북 컴퓨터가 아이팟과 함께 책상 그놀라에 앉아 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a desktop computer monitor sitting on top of a desk next to a red bottle of water'. Reverse all words of length '8' in the given sentence. <br><br>
+				<br> 문장: '빨간색 물병 옆 책상 위에 놓인 데스크탑 컴퓨터 모니터'. 주어진 문장에서 길이가 '8'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> a desktop retupmoc monitor sitting on top of a desk next to a red bottle of water <br><br>
+				<br> 빨간 물병 옆 책상 위에 놓인 데스크탑 레투모크 모니터 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog playing with a person with a frisbee'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '프리스비로 사람과 노는 개'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> a god playing with a person with a frisbee <br><br>
+				<br> 프리스비로 사람과 노는 신 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog that is standing in the grass with a bull'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '황소와 함께 풀밭에 서 있는 개'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> a dog that is standing in the grass with a bull <br><br>
+				<br> 황소와 함께 풀밭에 서 있는 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a dog wrestling a frisbee from a person'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '사람에게서 프리스비와 씨름하는 개'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> a dog wrestling a frisbee from a person <br><br>
+				<br> 사람에게서 프리스비와 씨름하는 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a double print of the same soccer play during a game'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '경기 중 같은 축구 경기의 이중 인쇄'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> a double tnirp of the same soccer play during a game <br><br>
+				<br> 게임 중 같은 축구 경기의 더블 트니프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a family room area without anybody in it'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '아무도 없는 거실 공간'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> a family room area tuohtiw ydobyna in it <br><br>
+				<br> 그 안에 있는 가족실 공간 tuohtiw ydobyna <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a female in the air on a board holding a water device'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '물 장치를 들고 보드 위의 공중에 떠 있는 여성'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> a female in the air on a board holding a water device <br><br>
+				<br> 물 장치를 들고 보드에 공중에 여성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fighter jet flying through a blue sky'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '푸른 하늘을 나는 전투기'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> a fighter tej flying through a blue yks <br><br>
+				<br> 파란색 yks를 통해 비행하는 전투기 tej <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a fisheye view of a living room with yellow walls'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '노란색 벽이 있는 거실의 어안 뷰'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> a fisheye view fo a living room with yellow walls <br><br>
+				<br> 노란색 벽이 있는 거실의 어안 뷰 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a four tiered cake that has flower decorations'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '꽃 장식이 있는 4단 케이크'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> a ruof tiered ekac taht has flower decorations <br><br>
+				<br> ruof tiered ekac taht에는 꽃 장식이 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a gathering of people talking with wine glasses in the foreground'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '포그라운드에서 와인 잔을 들고 이야기하는 사람들의 모임'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> a gathering of people talking with wine glasses in eht foreground <br><br>
+				<br> eht 전경에서 와인 잔과 이야기하는 사람들의 모임 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a german shepard dog wearing a bandana catching a frisbee'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '프리스비를 잡는 두건을 쓴 저먼 셰퍼드 개'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> a namreg shepard dog wearing a bandana catching a frisbee <br><br>
+				<br> 프리스비를 잡는 두건을 쓴 namreg 셰퍼드 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe eating leave from a small tree'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '작은 나무에서 나뭇잎을 먹는 기린'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> a giraffe gnitae leave from a small tree <br><br>
+				<br> 작은 나무에서 떠나는 기린 gnitae <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe hides its head behind a tree'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '기린이 나무 뒤에 머리를 숨긴다'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> a giraffe sedih its head behind a tree <br><br>
+				<br> 기린 sedih 그것의 머리 뒤에 나무 뒤에 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a giraffe standing in front of a wooden structure'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '나무 구조물 앞에 서 있는 기린'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> a effarig standing in front of a wooden structure <br><br>
+				<br> 목조 구조물 앞에 서 있는 effarig <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a grand window allows for a sunlit room with a full outside view'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '웅대한 창은 전체 외부 전망을 갖춘 햇볕이 잘 드는 방을 허용합니다.' 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> a grand window allows for a sunlit moor htiw a lluf outside weiv <br><br>
+				<br> 웅장한 창은 햇볕이 잘 드는 무어 htiw a lluf 외부 weiv <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a green street light on a city street'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '도시 거리의 녹색 가로등'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> a neerg street thgil on a city street <br><br>
+				<br> a neerg street thgil on a city street <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a green trolley car is passing the station'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '녹색 트롤리 차량이 역을 지나고 있습니다'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> a green yellort car is gnissap the noitats <br><br>
+				<br> 녹색 옐로트 자동차는 노이타츠를 기른다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a grey clock tower with trees and wall below'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '아래에 나무와 벽이 있는 회색 시계탑'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> a grey kcolc rewot with seert and wall woleb <br><br>
+				<br> seert와 wall woleb이 있는 회색 kcolc rewot <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of boys sitting on the steps behind baseball equipment'. Reverse all words of length '9' in the given sentence. <br><br>
+				<br> 문장: '야구 장비 뒤에 계단에 앉아 있는 소년들의 무리'. 주어진 문장에서 길이가 '9'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> a group of boys sitting on the steps behind baseball tnempiuqe <br><br>
+				<br> 야구 tnempiuqe 뒤에 계단에 앉아 소년의 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of cows in a fenced in field'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '울타리 쳐진 들판에 있는 소 떼'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> a group of swoc in a fenced in field <br><br>
+				<br> 들판에 울타리가 있는 swoc 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of cows that are standing in the grass'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '풀밭에 서 있는 소 떼'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> a puorg of cows that are standing in the ssarg <br><br>
+				<br> 사르그에 서 있는 소 떼 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of horses trailing behind one another'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '서로 뒤에 오는 말의 그룹'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> a group of horses trailing behind eno another <br><br>
+				<br> 에노 다른 뒤를 뒤쫓는 말의 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of men playing on a basketball court next to doors'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '문 옆 농구장에서 놀고 있는 한 무리의 남자들'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> a group of nem playing on a basketball court next to doors <br><br>
+				<br> 문 옆 농구 코트에서 놀고 있는 넴 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people are sitting down in a large field'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '한 무리의 사람들이 넓은 들판에 앉아 있다'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> a group of people era sitting down in a large field <br><br>
+				<br> 한 무리의 사람들이 넓은 들판에 앉아 있는 시대 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people in a field flying a kite'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '연을 날리는 들판에 있는 한 무리의 사람들'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> a group of people in a field flying a etik <br><br>
+				<br> 에틱을 날리는 들판에 있는 한 무리의 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people in street below traffic lights by buildings'. Reverse all words of length '9' in the given sentence. <br><br>
+				<br> 문장: '건물 옆 신호등 아래 거리에 있는 한 무리의 사람들'. 주어진 문장에서 길이가 '9'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> a group of people in street below traffic lights by sgnidliub <br><br>
+				<br> sgnidliub의 신호등 아래 거리에 있는 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people riding snow sporting equipment on top of a snow covered slope'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '눈 덮인 슬로프 위에서 스노우 스포츠 장비를 타는 사람들'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> a group of people riding snow sporting equipment on top of a snow derevoc slope <br><br>
+				<br> 스노우 데레보크 슬로프 위에서 스노우 스포츠 장비를 타는 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people sitting and standing on a horse sleigh'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '말 썰매에 앉아서 서있는 사람들의 무리'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> a puorg of people sitting and standing on a esroh sleigh <br><br>
+				<br> esroh 썰매에 앉아서 서있는 사람들의 puorg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people standing on top of a boat in a river'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '강에서 배 위에 서 있는 한 무리의 사람들'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> a puorg of people standing on top of a boat in a revir <br><br>
+				<br> revir에서 보트 위에 서있는 사람들의 puorg <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of people that are holding cellphones'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '핸드폰을 들고 있는 사람들의 집단'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> a group of people that are holding cellphones <br><br>
+				<br> 핸드폰을 들고 있는 사람들의 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of snow boarders pose in the snow on top of a hill'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '한 무리의 스노보더들이 언덕 꼭대기의 눈 속에서 포즈를 취하고 있다'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> a puorg of snow boarders pose in the snow on top of a hill <br><br>
+				<br> 스노우 보더의 puorg는 언덕 꼭대기의 눈 속에서 포즈를 취합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of women pose for a photo in front of a desk'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '책상 앞에서 한 무리의 여성들이 사진을 찍기 위해 포즈를 취함'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> a puorg of nemow pose for a otohp in tnorf of a desk <br><br>
+				<br> a puorg of nemow pose for a otohp in tnorf of a 책상 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a group of young men running across a soccer field'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '축구장을 가로지르는 젊은이들의 무리'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> a group of young men running across a soccer field <br><br>
+				<br> 한 무리의 젊은이들이 축구장을 가로질러 달리고 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy in a white shirt jeans and a baseball hat flipping on a skate board'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '흰 셔츠에 청바지를 입고 야구 모자를 쓴 남자가 스케이트보드 위에서 뒹굴고 있다'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> a yug in a white shirt jeans dna a baseball tah flipping on a skate board <br><br>
+				<br> 흰색 셔츠 청바지 DNA를 입은 yug 스케이트 보드에서 뒤집는 야구 tah <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a guy sitting at an organ playing music'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '음악을 연주하는 오르간 앞에 앉아 있는 남자'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> a guy gnittis at an organ gniyalp music <br><br>
+				<br> 오르간 gniyalp 음악에서 남자 gnittis <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a horse with a bunch of bags on the back of it'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '뒤에 많은 가방을 싣고 있는 말'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> a horse htiw a bunch of sgab on the kcab of it <br><br>
+				<br> 그것의 kcab에 sgab의 무리 htiw 말 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a hot dog with toppings and potato salad'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '토핑을 얹은 핫도그와 감자 샐러드'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> a hot dog with toppings and otatop salad <br><br>
+				<br> 토핑과 오타톱 샐러드를 곁들인 핫도그 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a hotel room with several suitcases on the floor'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '바닥에 여러 개의 여행 가방이 있는 호텔 방'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> a hotel moor htiw several suitcases on the floor <br><br>
+				<br> 바닥에 여러 여행 가방 htiw 호텔 무어 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a kitchen counter top with a microwave oven on it'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '전자레인지가 있는 주방 조리대'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> a kitchen counter top with a microwave oven no ti <br><br>
+				<br> 전자레인지가 없는 주방 조리대 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lamp is next to a white table with pretty flowers on it'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '예쁜 꽃이 놓인 하얀 탁자 옆에 램프가 있다'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> a pmal is txen to a white table htiw pretty flowers on it <br><br>
+				<br> 하얀 탁자 위에 예쁜 꽃이 놓여있는 오후 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large airplane on a runway at the airport'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '공항 활주로에 있는 대형 비행기'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> a large airplane on a runway at the airport <br><br>
+				<br> 공항 활주로에 대형 비행기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large bus is on the street near a stop sign'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '큰 버스가 정류장 표지판 근처의 거리에 있습니다'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> a large bus is on the teerts near a stop sign <br><br>
+				<br> 대형 버스가 정류장 표지판 근처에 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large chair sitting on top of a hard wood floor'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '단단한 나무 바닥 위에 놓인 큰 의자'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> a large chair sitting on top of a drah doow floor <br><br>
+				<br> Drah Doow 바닥 위에 앉아있는 큰 의자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large clock is sitting in a field behind a fence'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '울타리 뒤에 있는 들판에 큰 시계가 앉아 있다'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> a large clock is sitting in a field behind a fence <br><br>
+				<br> 큰 시계가 울타리 뒤의 들판에 앉아 있다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large elephant standing in the wild'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '야생에 서 있는 큰 코끼리'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> a egral elephant standing in the wild <br><br>
+				<br> 야생에 서 있는 egra 코끼리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large gray building with a clock tower surrounded by some trees'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '몇 그루의 나무로 둘러싸인 시계탑이 있는 커다란 회색 건물'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> a large yarg building htiw a clock tower surrounded by emos trees <br><br>
+				<br> 에모스 나무로 둘러싸인 시계탑이 있는 대형 야그 건물 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large pile of various kinds of teddy bears'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '다양한 종류의 테디 베어의 큰 더미'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> a large elip of various kinds of teddy bears <br><br>
+				<br> 다양한 종류의 테디 베어의 큰 elip <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large pizza that is on a pan'. Reverse all words of length '5' in the given sentence. <br><br>
+				<br> 문장: '팬 위에 있는 큰 피자'. 주어진 문장에서 길이가 '5'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> a egral azzip that is on a pan <br><br>
+				<br> 팬에 있는 egra azzip <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a large yellow traffic sign with a little black drawing of a man crossing a street'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '길을 건너는 남자의 작은 검은색 그림이 있는 큰 노란색 교통 표지판'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> a large yellow traffic sign with a little black drawing of a nam crossing a street <br><br>
+				<br> 길을 건너는 남의 작은 검은색 그림이 있는 큰 노란색 교통 표지 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lifesize palace guarddressed teddy bear outside a shop'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '상점 밖에 있는 테디베어 옷을 입은 실물 크기의 궁전 경비병'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> a lifesize palace guarddressed teddy bear edistuo a shop <br><br>
+				<br> 실제 크기의 궁전 경비원 옷을 입은 테디베어 상점 편집 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a line of buses waiting to take passengers where they need to go'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '승객을 목적지로 데려가기 위해 기다리는 버스 행렬'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> a line fo buses waiting ot take passengers where they need ot og <br><br>
+				<br> 승객이 필요한 곳으로 승객을 태우기 위해 기다리는 버스의 줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a line of colorful boats sitting by a long deck'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '긴 데크 옆에 앉아 있는 형형색색의 배들의 줄'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> a line of colorful boats gnittis by a long deck <br><br>
+				<br> 긴 데크 옆에 늘어선 화려한 보트 그니티스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a living room kitchen and stairway to a lower level'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '거실 주방과 아래층으로 내려가는 계단'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> a living room kitchen and stairway to a lower level <br><br>
+				<br> 거실 주방과 아래층으로 내려가는 계단 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lot of people that are in the snow'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '눈 속에 있는 많은 사람들'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> a lot fo people that are ni the snow <br><br>
+				<br> 눈이 없는 많은 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a lot of sheep are standing on a rocky hill'. Reverse all words of length '3' in the given sentence. <br><br>
+				<br> 문장: '많은 양들이 바위 언덕에 서 있다'. 주어진 문장에서 길이가 '3'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> a tol of sheep era standing on a rocky hill <br><br>
+				<br> 바위 언덕에 서있는 양 시대의 톨 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man bottle feeding a small elephant in a field'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '들판에서 작은 코끼리에게 먹이를 주는 남자 병'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> a man bottle gnideef a small elephant in a field <br><br>
+				<br> a man bottle gnideef a small elephant in a field <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man carefully cuts a piece of paper with scissors'. Reverse all words of length '2' in the given sentence. <br><br>
+				<br> 문장: '한 남자가 조심스럽게 가위로 종이를 자른다'. 주어진 문장에서 길이가 '2'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> a man carefully cuts a piece fo paper with scissors <br><br>
+				<br> 한 남자가 가위로 조심스럽게 종이 조각을 자른다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man flying through the air while riding a skateboard'. Reverse all words of length '6' in the given sentence. <br><br>
+				<br> 문장: '스케이트보드를 타면서 공중을 나는 남자'. 주어진 문장에서 길이가 '6'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> a man gniylf through the air while gnidir a skateboard <br><br>
+				<br> 스케이트 보드를 gnidir하는 동안 공기를 통해 남자 gniylf <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding a rope on a board in the water'. Reverse all words of length '7' in the given sentence. <br><br>
+				<br> 문장: '물에 빠진 판자에 밧줄을 잡고 있는 남자'. 주어진 문장에서 길이가 '7'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> a man gnidloh a rope on a board in the water <br><br>
+				<br> 남자 gnidloh 물 속에서 보드에 밧줄 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man holding a tennis racket up in anticipation of a ball'. Reverse all words of length '1' in the given sentence. <br><br>
+				<br> 문장: '공을 기대하며 테니스 라켓을 들고 있는 남자'. 주어진 문장에서 길이가 '1'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> a man holding a tennis racket up in anticipation of a ball <br><br>
+				<br> 공을 기대하며 테니스 라켓을 들고 있는 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in a yellow sweater standing in the middle of a room'. Reverse all words of length '8' in the given sentence. <br><br>
+				<br> 문장: '방 한가운데 서 있는 노란색 스웨터를 입은 남자'. 주어진 문장에서 길이가 '8'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> a man in a yellow sweater gnidnats in the middle of a room <br><br>
+				<br> 노란색 스웨터를 입은 남자가 방 한가운데서 gnidnats <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: 'a man in his ski gear is in the air'. Reverse all words of length '4' in the given sentence. <br><br>
+				<br> 문장: '스키 장비를 입은 남자가 공중에 있다'. 주어진 문장에서 길이가 '4'인 모든 단어를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> a man in his ski raeg is in the air <br><br>
+				<br> 스키 레이그를 입은 남자가 공중에 있다 <br><br>
+			</td>
+		</tr>
+	</table>

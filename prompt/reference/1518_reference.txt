@@ -27,3 +27,1773 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Mr. Miller waved his hands in a gesture of divine despair, spun round, darted up the aisle, turned, and bounded back. <br><br>
+				<br> 밀러 씨는 신성한 절망의 몸짓으로 손을 흔들고, 빙글빙글 돌고, 통로를 돌진하고, 돌아서서 뒤로 물러났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> Mr. Miller, hands <br><br>
+				<br> 밀러 씨, 손 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> She snatched the photograph away, cast one glance at the languishing brown eyes, and tumbled it, face downward, into a bureau drawer. <br><br>
+				<br> 그녀는 사진을 낚아채고 나른한 갈색 눈을 한 번 흘끗 본 다음 아래를 향하게 하여 화장대 서랍에 굴렸습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> She, the photograph <br><br>
+				<br> 그녀, 사진 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A young man takes pictures of artistic ice sculptures, while a person carves a piece of ice in the street. <br><br>
+				<br> 젊은 남자는 예술적인 얼음 조각 사진을 찍고, 한 사람은 거리에서 얼음 조각을 조각합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> person <br><br>
+				<br> 사람 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> The person then pushes the fruit around the bowl with a spoon over and over again. <br><br>
+				<br> 그런 다음 그 사람은 계속해서 숟가락으로 그릇 주위의 과일을 밉니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> person, fruit, spoon <br><br>
+				<br> 사람, 과일, 숟가락 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Father, Sir Owen was famishing when he arrived. <br><br>
+				<br> '"아버지, 오웬 경이 도착했을 때 배가 고팠습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> Owen <br><br>
+				<br> 오웬 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"He is dead!" Then entered one I had seen before--Major Barton, the most pitiless of the government's agents in suppressing insurrection. <br><br>
+				<br> '"그는 죽었!" 그런 다음 내가 전에 본 바튼 소령으로 들어갔는데, 그는 반란을 진압하는 데 가장 무자비한 정부 요원이었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> Barton <br><br>
+				<br> 바튼 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"He is dead!" Then entered one I had seen before--Major Barton, the most pitiless of the government's agents in suppressing insurrection. <br><br>
+				<br> '"그는 죽었!" 그런 다음 내가 전에 본 바튼 소령으로 들어갔는데, 그는 반란을 진압하는 데 가장 무자비한 정부 요원이었다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> He <br><br>
+				<br> 그 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"He placed the iron on the anvil without heating it at the forge; he simply hammered it hot and forged nail after nail, without the use of either anvil or bellows. <br><br>
+				<br> '"그는 대장간에서 쇠를 가열하지 않고 모루 위에 놓았으며, 모루나 풀무를 사용하지 않고 단지 뜨겁게 두드려서 못을 하나씩 단조했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> He <br><br>
+				<br> 그 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"He placed the iron on the anvil without heating it at the forge; he simply hammered it hot and forged nail after nail, without the use of either anvil or bellows. <br><br>
+				<br> '"그는 대장간에서 쇠를 가열하지 않고 모루 위에 놓았으며, 모루나 풀무를 사용하지 않고 단지 뜨겁게 두드려서 못을 하나씩 단조했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> iron <br><br>
+				<br> 철 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Hit the tree again, George," exclaimed Harry, throwing down his 'coon, and bringing his gun to his shoulder. <br><br>
+				<br> '"다시 나무를 쳐라, 조지." 해리가 자신의 쿤을 던지고 어깨에 총을 겨누며 외쳤다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> Harry <br><br>
+				<br> 괴롭히다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Hit the tree again, George," exclaimed Harry, throwing down his 'coon, and bringing his gun to his shoulder. <br><br>
+				<br> '"다시 나무를 쳐라, 조지." 해리가 자신의 쿤을 던지고 어깨에 총을 겨누며 외쳤다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> gun <br><br>
+				<br> 총 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"I am all alone to-day; there is going to be a shootin'-match somewhere the other side o' the mountain, an' Johnny Foss, that does my chores, begged off to go when he brought the milk unusual early this mornin'. <br><br>
+				<br> '"오늘은 나 혼자야. 산 건너편 어딘가에서 총격전이 있을 거야. 내 집안일을 하는 조니 포스가 오늘 일찍 우유를 가져왔을 때 가라고 간청했지. 아침. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> Johnny Foss <br><br>
+				<br> 조니 포스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"I am all alone to-day; there is going to be a shootin'-match somewhere the other side o' the mountain, an' Johnny Foss, that does my chores, begged off to go when he brought the milk unusual early this mornin'. <br><br>
+				<br> '"오늘은 나 혼자야. 산 건너편 어딘가에서 총격전이 있을 거야. 내 집안일을 하는 조니 포스가 오늘 일찍 우유를 가져왔을 때 가라고 간청했지. 아침. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> milk <br><br>
+				<br> 우유 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"I don't care if you be," said the girl, tossing her head. <br><br>
+				<br> '"네가 상관없어." 소녀가 고개를 저으며 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> girl <br><br>
+				<br> 소녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"I wind him up every Saturday night with a sovereign, half a sovereign, and a shilling," said Denry, "and he goes for a week. <br><br>
+				<br> Denry는 "나는 매주 토요일 밤에 소버린, 반 소버린, 실링으로 그를 태워버리고 그는 일주일 동안 간다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> Denry <br><br>
+				<br> 데리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"I wind him up every Saturday night with a sovereign, half a sovereign, and a shilling," said Denry, "and he goes for a week. <br><br>
+				<br> Denry는 "나는 매주 토요일 밤에 소버린, 반 소버린, 실링으로 그를 태워버리고 그는 일주일 동안 간다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> I <br><br>
+				<br> 나 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"I'm -- -- if he'll ever rope Old Tom," burst out Clarke, ejecting a huge quid of tobacco. <br><br>
+				<br> '"나는 --- 만약 그가 올드 톰을 묶을 수 있다면" 클라크가 큰 소리로 담배 한 닢을 내뿜으며 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> Clarke <br><br>
+				<br> 클라크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"I'm -- -- if he'll ever rope Old Tom," burst out Clarke, ejecting a huge quid of tobacco. <br><br>
+				<br> '"나는 --- 만약 그가 올드 톰을 묶을 수 있다면" 클라크가 큰 소리로 담배 한 닢을 내뿜으며 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> tobacco <br><br>
+				<br> 담배 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"No, ma'am; I walked." <br><br>
+				<br> '"아니요, 부인. 저는 걸었습니다." <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> I <br><br>
+				<br> 나 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"No, no! I cannot do it," he said, "unless you keep still!" The blood throbbed in his temples, and his fingers trembled, while she leaned further back, unconsciously offering the temptation of her fresh girlish beauty. <br><br>
+				<br> '"아니 아니! 나는 할 수 없다"고 말했다. "가만히 있지 않으면!" 그의 관자놀이에서 피가 고동치고 그의 손가락이 떨리는 가운데 그녀는 몸을 더 뒤로 기댄 채 무의식적으로 그녀의 상큼한 소녀미를 유혹했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> she <br><br>
+				<br> 그녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Not quite so bad as that," she murmured, and leaned back and closed her eyes. <br><br>
+				<br> '"그렇게 나쁘지는 않아." 그녀는 중얼거리며 등을 기대고 눈을 감았다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> she <br><br>
+				<br> 그녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Now, Mr Shushions," Hilda persuaded him in a voice exquisitely mild, and with a lovely gesture she bent over him. <br><br>
+				<br> '"자, 슈시온 씨." 힐다는 아주 온화한 목소리로 그를 설득했고 사랑스러운 몸짓으로 그에게 몸을 굽혔습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> she <br><br>
+				<br> 그녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"O, yes, I can," retorted Mrs. Porter, closing one eye and ministering to it hastily with the corner of her apron. <br><br>
+				<br> '"오, 그래, 할 수 있어." 포터 부인은 한쪽 눈을 감고 급히 앞치마 끝으로 눈을 돌렸다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> Porter <br><br>
+				<br> 문지기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Rennie--" That was Campbell climbing up from the raft after another weary passage across. <br><br>
+				<br> '"Rennie--" 그것은 또 다른 지친 통로를 지나 뗏목에서 기어오르는 Campbell이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> Campbell <br><br>
+				<br> 캠벨 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Rennie--" That was Campbell climbing up from the raft after another weary passage across. <br><br>
+				<br> '"Rennie--" 그것은 또 다른 지친 통로를 지나 뗏목에서 기어오르는 Campbell이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> raft <br><br>
+				<br> 뗏목 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"The doctor had searched diligently in his wife's closets for some garments belonging to her former maid, and he had thought he had succeeded in getting Rita to dress as her mother had dressed; but he did not remember these things as accurately as his wife remembered them. <br><br>
+				<br> '"의사는 아내의 옷장에서 예전 하녀의 옷을 부지런히 뒤져 리타가 어머니가 입었던 옷을 입게 하는 데 성공했다고 생각했지만 아내가 기억하는 것만큼 정확하게 기억하지 못했습니다. 그들을. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> doctor <br><br>
+				<br> 의사 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"There's Mrs. Millard going in at the back door." <br><br>
+				<br> '"밀라드 부인이 뒷문으로 들어오고 있습니다." <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> Mrs. Millard <br><br>
+				<br> 밀라드 부인 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"There's always a modus vivendi," Penfentenyou murmured, and tiptoed along the hall to a back door, which he opened quite silently. <br><br>
+				<br> Penfentenyou는 중얼거리며 복도를 따라 뒷문으로 살금살금 걸어가 아주 조용히 문을 열었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> Penfentenyou <br><br>
+				<br> 펜펜텐유 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"There's always a modus vivendi," Penfentenyou murmured, and tiptoed along the hall to a back door, which he opened quite silently. <br><br>
+				<br> Penfentenyou는 중얼거리며 복도를 따라 뒷문으로 살금살금 걸어가 아주 조용히 문을 열었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> door <br><br>
+				<br> 문 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"There's always a modus vivendi," Penfentenyou murmured, and tiptoed along the hall to a back door, which he opened quite silently. <br><br>
+				<br> Penfentenyou는 중얼거리며 복도를 따라 뒷문으로 살금살금 걸어가 아주 조용히 문을 열었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> he <br><br>
+				<br> 그 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"This is where I entered the case," said Mr. Holcombe, "I rowed into the lower hall this morning, to feed the dog, Peter, who was whining on the staircase. <br><br>
+				<br> Holcombe 씨는 "여기가 내가 케이스에 들어간 곳입니다."라고 Holcombe 씨가 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> I <br><br>
+				<br> 나 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"This is where I entered the case," said Mr. Holcombe, "I rowed into the lower hall this morning, to feed the dog, Peter, who was whining on the staircase. <br><br>
+				<br> Holcombe 씨는 "여기가 내가 케이스에 들어간 곳입니다."라고 Holcombe 씨가 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> Mr. Holcombe <br><br>
+				<br> 미스터 홀컴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"This is where I entered the case," said Mr. Holcombe, "I rowed into the lower hall this morning, to feed the dog, Peter, who was whining on the staircase. <br><br>
+				<br> Holcombe 씨는 "여기가 내가 케이스에 들어간 곳입니다."라고 Holcombe 씨가 말했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> Peter <br><br>
+				<br> 베드로 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"To Captain Walker, young man," replied Morgiana haughtily; whereupon the youth opening the second door, and seeing Mr. Bendigo in a flowered dressing-gown descending the stairs, exclaimed, "Papa, here's a lady for the Captain." <br><br>
+				<br> '"젊은이, 워커 선장에게" 모르지아나가 거만하게 대답했습니다. 그러자 청년이 두 번째 문을 열고 꽃무늬 드레싱 가운을 입고 계단을 내려오는 벤디고 씨를 보고 "아빠, 여기 대위님의 부인이 있습니다."라고 외쳤습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> Mr. Bendigo <br><br>
+				<br> 미스터 벤디고 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Well, I set a limit of seventy-five miles an hour," the young inventor replied, as he shifted various levers and handles, to change the speed of the mechanism. <br><br>
+				<br> '"음, 시속 75마일로 제한을 설정했습니다." 젊은 발명가는 메커니즘의 속도를 변경하기 위해 다양한 레버와 핸들을 움직이면서 대답했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> inventor <br><br>
+				<br> 발명자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Well, I set a limit of seventy-five miles an hour," the young inventor replied, as he shifted various levers and handles, to change the speed of the mechanism. <br><br>
+				<br> '"음, 시속 75마일로 제한을 설정했습니다." 젊은 발명가는 메커니즘의 속도를 변경하기 위해 다양한 레버와 핸들을 움직이면서 대답했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> levers <br><br>
+				<br> 레버 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"Winnie, go and tell Price he's gone back to the car.... <br><br>
+				<br> '"위니, 프라이스에게 가서 차로 돌아갔다고 전해줘.... <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> car <br><br>
+				<br> 자동차 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"You don't seem to have forgotten anything, Tom," said Ned admiringly, as they soared upward. <br><br>
+				<br> '"아무것도 잊은 게 없는 것 같군, 톰." 그들이 위로 날아오를 때 Ned가 감탄하며 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> Ned <br><br>
+				<br> 네드 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"You don't seem to have forgotten anything, Tom," said Ned admiringly, as they soared upward. <br><br>
+				<br> '"아무것도 잊은 게 없는 것 같군, 톰." 그들이 위로 날아오를 때 Ned가 감탄하며 말했다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> they <br><br>
+				<br> 그들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> '"You see, boys," said she, quite out of breath, and holding one little hand against her side, quite unheeding the speechless discomfiture of our party, or the complete demoralization of Yuba Bill, whose features had relaxed into an expression of gratuitous and imbecile cheerfulness--"you see, boys, I was mor'n two miles away when you passed down the road. <br><br>
+				<br> '"보시죠, 얘들아." 그녀는 숨이 차서 작은 손을 옆구리에 대고 말했다. 그리고 천박한 명랑함--"얘들아, 네가 길을 지나갈 때 나는 아침에 2마일 떨어진 곳에 있었어. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> she <br><br>
+				<br> 그녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A God walks a poodle. <br><br>
+				<br> 신이 푸들을 걷습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> God <br><br>
+				<br> 하나님 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A beach is crowded with people while a motoroboat speeds across the water. <br><br>
+				<br> 모터보트가 물 위를 질주하는 동안 해변은 사람들로 붐빕니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> beach <br><br>
+				<br> 해변 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A beach is crowded with people while a motoroboat speeds across the water. <br><br>
+				<br> 모터보트가 물 위를 질주하는 동안 해변은 사람들로 붐빕니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> motoroboat <br><br>
+				<br> 모터보트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A bond lady applaud, hug people and talks. <br><br>
+				<br> 본드 레이디가 박수를 치고 사람들을 껴안고 말을 합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> bond lady <br><br>
+				<br> 본드 레이디 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A bottle of aging cream is shown and a woman begins to apply it on her face in her T-zone. <br><br>
+				<br> 노화 크림 한 병이 보여지고 한 여성이 얼굴의 T존에 크림을 바르기 시작합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> bottle <br><br>
+				<br> 병 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A bottle of aging cream is shown and a woman begins to apply it on her face in her T-zone. <br><br>
+				<br> 노화 크림 한 병이 보여지고 한 여성이 얼굴의 T존에 크림을 바르기 시작합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> woman <br><br>
+				<br> 여성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy in the background climbs a rope as she dismounts. <br><br>
+				<br> 그녀가 내릴 때 배경에 있는 소년이 밧줄을 타고 올라갑니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> A boy <br><br>
+				<br> 소년 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy in the background climbs a rope as she dismounts. <br><br>
+				<br> 그녀가 내릴 때 배경에 있는 소년이 밧줄을 타고 올라갑니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> rope <br><br>
+				<br> 로프 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy is playing basketball on the court. <br><br>
+				<br> 한 소년이 코트에서 농구를 하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> A boy <br><br>
+				<br> 소년 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy is playing hopscotch. <br><br>
+				<br> 한 소년이 돌차기 놀이를 하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> boy <br><br>
+				<br> 소년 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy stands next a man, then he raise a hand and walks to perform on the parallel bards. <br><br>
+				<br> 한 소년이 한 남성 옆에 서 있다가 손을 들고 평행 음유시인을 연주하기 위해 걸어갑니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> boy <br><br>
+				<br> 소년 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy stands next a man, then he raise a hand and walks to perform on the parallel bards. <br><br>
+				<br> 한 소년이 한 남성 옆에 서 있다가 손을 들고 평행 음유시인을 연주하기 위해 걸어갑니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> hand <br><br>
+				<br> 손 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy stands next a man, then he raise a hand and walks to perform on the parallel bards. <br><br>
+				<br> 한 소년이 한 남성 옆에 서 있다가 손을 들고 평행 음유시인을 연주하기 위해 걸어갑니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy surfs in a big wave. <br><br>
+				<br> 한 소년이 큰 파도 속에서 서핑을 하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> boy <br><br>
+				<br> 소년 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A boy surfs in a big wave. <br><br>
+				<br> 한 소년이 큰 파도 속에서 서핑을 하고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> wave <br><br>
+				<br> 파도 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A bunch of people on intertubes go by slowly. <br><br>
+				<br> 인터튜브에 탄 한 무리의 사람들이 천천히 지나간다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> people <br><br>
+				<br> 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A camera pans all around a sky showing kites in the air. <br><br>
+				<br> 공중에 떠 있는 연을 보여주는 카메라가 하늘 주위를 돌고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> camera <br><br>
+				<br> 카메라 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A camera pans all around a sky showing kites in the air. <br><br>
+				<br> 공중에 떠 있는 연을 보여주는 카메라가 하늘 주위를 돌고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> kites <br><br>
+				<br> 연 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cameraman walks down a snowy driveway to capture a young child shoveling up snow. <br><br>
+				<br> 카메라맨이 눈 덮인 차도를 걸어 내려가 눈을 삽질하는 어린아이를 포착합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> cameraman <br><br>
+				<br> 카메라맨 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A cameraman walks down a snowy driveway to capture a young child shoveling up snow. <br><br>
+				<br> 카메라맨이 눈 덮인 차도를 걸어 내려가 눈을 삽질하는 어린아이를 포착합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> snow <br><br>
+				<br> 눈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A chef shows all the ingredients to do pasta. <br><br>
+				<br> 요리사는 파스타를 만들기 위해 모든 재료를 보여줍니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> chef <br><br>
+				<br> 요리사 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A chef shows all the ingredients to do pasta. <br><br>
+				<br> 요리사는 파스타를 만들기 위해 모든 재료를 보여줍니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> ingredients <br><br>
+				<br> 재료 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A close up of a mop is seen followed by a person pushing the mop along the floor. <br><br>
+				<br> 걸레를 클로즈업한 다음 사람이 걸레를 바닥을 따라 밀고 있는 모습이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> mop <br><br>
+				<br> 대걸레 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A close up of a mop is seen followed by a person pushing the mop along the floor. <br><br>
+				<br> 걸레를 클로즈업한 다음 사람이 걸레를 바닥을 따라 밀고 있는 모습이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> person <br><br>
+				<br> 사람 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A close up of a wooden bench is seen followed by a person mixing ingredients together. <br><br>
+				<br> 나무 벤치의 클로즈업과 함께 재료를 섞는 사람이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> ingredients <br><br>
+				<br> 재료 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A close up of a wooden bench is seen followed by a person mixing ingredients together. <br><br>
+				<br> 나무 벤치의 클로즈업과 함께 재료를 섞는 사람이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> person <br><br>
+				<br> 사람 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A coach demonstrates how to block a goal inside of a interior gym in front of a group of young people. <br><br>
+				<br> 한 코치가 젊은 사람들 앞에서 내부 체육관 안에서 골대를 막는 방법을 보여줍니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> coach <br><br>
+				<br> 코치 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A dog is seen running up and down the field in the middle of the audience. <br><br>
+				<br> 청중 한가운데서 들판을 위아래로 달리는 개가 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> dog <br><br>
+				<br> 개 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A fashionably dressed young man had appeared before him, wearing a button-hole bouquet, and light tan gloves. <br><br>
+				<br> 멋지게 차려입은 한 청년이 단추구멍 부케와 밝은 황갈색 장갑을 끼고 그의 앞에 나타났다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A few kids are seen standing on a stage followed by the children pushing a puck along the ice. <br><br>
+				<br> 몇 명의 아이들이 무대 위에 서서 아이들이 얼음을 따라 퍽을 밀고 있는 모습이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> children <br><br>
+				<br> 어린이들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A few kids are seen standing on a stage followed by the children pushing a puck along the ice. <br><br>
+				<br> 몇 명의 아이들이 무대 위에 서서 아이들이 얼음을 따라 퍽을 밀고 있는 모습이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> kids <br><br>
+				<br> 어린이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A few kids are seen standing on a stage followed by the children pushing a puck along the ice. <br><br>
+				<br> 몇 명의 아이들이 무대 위에 서서 아이들이 얼음을 따라 퍽을 밀고 있는 모습이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> puck <br><br>
+				<br> 퍽 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A girl does flips across a mat. <br><br>
+				<br> 소녀는 매트를 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> girl <br><br>
+				<br> 소녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A girl swims by herself from one end of the pool to the other. <br><br>
+				<br> 한 소녀가 수영장 한쪽 끝에서 다른 쪽 끝까지 혼자 헤엄칩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> girl <br><br>
+				<br> 소녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A group of men in masks are gathered around targets. <br><br>
+				<br> 가면을 쓴 한 무리의 남자들이 목표물 주변에 모여 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> group of men <br><br>
+				<br> 남성 그룹 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A group of men sit around a bar flirting with a bartender behind the bar. <br><br>
+				<br> 한 무리의 남자들이 바 주위에 앉아 바 뒤에 있는 바텐더와 시시덕거립니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> men <br><br>
+				<br> 남자들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A group of people lye down on surfboards in a wave. <br><br>
+				<br> 한 무리의 사람들이 파도를 타고 서핑보드에 누워 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> group of people <br><br>
+				<br> 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A group of people on a blue water raft paddle against a violent stream/body of water. <br><br>
+				<br> 푸른 물 뗏목을 타고 폭력적인 개울/수역에 맞서 노를 젓는 사람들. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> people <br><br>
+				<br> 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A group of people on a blue water raft paddle against a violent stream/body of water. <br><br>
+				<br> 푸른 물 뗏목을 타고 폭력적인 개울/수역에 맞서 노를 젓는 사람들. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> raft <br><br>
+				<br> 뗏목 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A guy stands in a court holding a colorful stick and touches a pinata. <br><br>
+				<br> 한 남자가 형형색색의 막대기를 들고 법정에 서서 피냐타를 만진다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> guy <br><br>
+				<br> 남자 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A guy stands in a court holding a colorful stick and touches a pinata. <br><br>
+				<br> 한 남자가 형형색색의 막대기를 들고 법정에 서서 피냐타를 만진다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> pinata <br><br>
+				<br> 피냐타 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A gymnast stands ready at the end then flips up onto a beam. <br><br>
+				<br> 체조 선수는 마지막에 준비가 된 다음 빔 위로 뒤집습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> gymnast <br><br>
+				<br> 체조 선수 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A heavy hand grasped his shoulder and swung him around, while old Bob West, panting for Breath, exclaimed: "Stop, you fool--stop! <br><br>
+				<br> 무거운 손이 그의 어깨를 움켜쥐고 그를 휘둘렀고, 밥 웨스트 노인은 숨을 헐떡거리며 외쳤다: "그만, 이 바보야-그만! <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> Bob West <br><br>
+				<br> 밥 웨스트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A lady in black jacket is posing for the camera, then a man with medium length hair is shown, the man touched her hair to check on it, then the girl blow dry her hair. <br><br>
+				<br> 검은색 재킷을 입은 여성이 카메라를 향해 포즈를 취하고 있고, 중간 길이의 머리를 한 남성이 등장하고, 남성은 그녀의 머리를 만져 확인하고, 소녀는 드라이기로 머리를 말립니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> lady <br><br>
+				<br> 숙녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A lady in black jacket is posing for the camera, then a man with medium length hair is shown, the man touched her hair to check on it, then the girl blow dry her hair. <br><br>
+				<br> 검은색 재킷을 입은 여성이 카메라를 향해 포즈를 취하고 있고, 중간 길이의 머리를 한 남성이 등장하고, 남성은 그녀의 머리를 만져 확인하고, 소녀는 드라이기로 머리를 말립니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A lady in black jacket is posing for the camera, then a man with medium length hair is shown, the man touched her hair to check on it, then the girl blow dry her hair. <br><br>
+				<br> 검은색 재킷을 입은 여성이 카메라를 향해 포즈를 취하고 있고, 중간 길이의 머리를 한 남성이 등장하고, 남성은 그녀의 머리를 만져 확인하고, 소녀는 드라이기로 머리를 말립니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> the girl <br><br>
+				<br> 소녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A lady walks up and talks to the kids. <br><br>
+				<br> 한 여성이 다가와 아이들에게 말을 건다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> lady <br><br>
+				<br> 숙녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A large group of people are seen standing around a gymnasium with many performing fencing matches on the side. <br><br>
+				<br> 펜싱 경기가 열리는 체육관 주변에 많은 사람들이 서 있는 모습이 보입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> people <br><br>
+				<br> 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A lawn is shown and then the man begins to mow his lawn. <br><br>
+				<br> 잔디밭이 보여지고 남자는 잔디를 깎기 시작합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> lawn <br><br>
+				<br> 잔디 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A lawn is shown and then the man begins to mow his lawn. <br><br>
+				<br> 잔디밭이 보여지고 남자는 잔디를 깎기 시작합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A little boy goes behind a ladder and other people keep walking around. <br><br>
+				<br> 어린 소년은 사다리 뒤로 가고 다른 사람들은 계속 걸어 다닙니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> boy <br><br>
+				<br> 소년 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A little boy goes behind a ladder and other people keep walking around. <br><br>
+				<br> 어린 소년은 사다리 뒤로 가고 다른 사람들은 계속 걸어 다닙니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> people <br><br>
+				<br> 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A little girl uses a sweeper to hit a disc. <br><br>
+				<br> 어린 소녀가 스위퍼를 사용하여 디스크를 치고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> disc <br><br>
+				<br> 디스크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A little girl uses a sweeper to hit a disc. <br><br>
+				<br> 어린 소녀가 스위퍼를 사용하여 디스크를 치고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> girl <br><br>
+				<br> 소녀 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A little girl uses a sweeper to hit a disc. <br><br>
+				<br> 어린 소녀가 스위퍼를 사용하여 디스크를 치고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> sweeper <br><br>
+				<br> 스위퍼 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A lot of men are standing outdoors on a dirt field and there are two teams standing along a rope while a lot of people are standing around watching them. <br><br>
+				<br> 많은 남자들이 야외 흙밭에 서 있고 두 팀이 밧줄을 따라 서 있고 많은 사람들이 둘러서 지켜보고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> men <br><br>
+				<br> 남자들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man and his teammates are pushing a puck. <br><br>
+				<br> 한 남자와 그의 팀원들이 퍽을 밀고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> puck <br><br>
+				<br> 퍽 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man and his teammates are pushing a puck. <br><br>
+				<br> 한 남자와 그의 팀원들이 퍽을 밀고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> teammates <br><br>
+				<br> 팀원 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man appears with a racket and he's talking to the camera as he hits a racketball then various small clips play afterwards that include him hitting the racketball as well as various other people playing, too. <br><br>
+				<br> 한 남자가 라켓을 들고 나타나 라켓볼을 치는 동안 카메라에 대고 말을 한 다음 나중에 그가 라켓볼을 치는 것과 다른 여러 사람들이 플레이하는 것을 포함하는 다양한 작은 클립이 재생됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man appears with a racket and he's talking to the camera as he hits a racketball then various small clips play afterwards that include him hitting the racketball as well as various other people playing, too. <br><br>
+				<br> 한 남자가 라켓을 들고 나타나 라켓볼을 치는 동안 카메라에 대고 말을 한 다음 나중에 그가 라켓볼을 치는 것과 다른 여러 사람들이 플레이하는 것을 포함하는 다양한 작은 클립이 재생됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> racket <br><br>
+				<br> 라켓 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man appears with a racket and he's talking to the camera as he hits a racketball then various small clips play afterwards that include him hitting the racketball as well as various other people playing, too. <br><br>
+				<br> 한 남자가 라켓을 들고 나타나 라켓볼을 치는 동안 카메라에 대고 말을 한 다음 나중에 그가 라켓볼을 치는 것과 다른 여러 사람들이 플레이하는 것을 포함하는 다양한 작은 클립이 재생됩니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> racketball <br><br>
+				<br> 라켓볼 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man approaches the guy clapping. <br><br>
+				<br> 박수를 치는 남자에게 한 남자가 다가온다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man bounce and jumps high in the beach, in the street. <br><br>
+				<br> 한 남자가 해변과 거리에서 바운스하고 높이 점프합니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 104 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> A man dances break dance turning, flipping in the air and standing on the hands. <br><br>
+				<br> 한 남자가 브레이크 댄스를 돌리고, 공중에서 뒤집고, 손 위에 서 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 104 <br><br>
+			</td>
+			<td>
+				<br> man <br><br>
+				<br> 남성 <br><br>
+			</td>
+		</tr>
+	</table>

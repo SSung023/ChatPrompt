@@ -27,3 +27,1773 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Basinger was born in Athens, Georgia, on December 8, 1953 <br><br>
+				<br> Basinger는 1953년 12월 8일 조지아주 아테네에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> December 8, 1953 <br><br>
+				<br> 1953년 12월 8일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Keitel was born in New York City, on May 13, 1939, the son of Ashkenazi Jewish immigrants; his mother, Miriam (née Klein), was from Romania, and his father, Harry Keitel, was from Poland <br><br>
+				<br> Keitel은 1939년 5월 13일 뉴욕에서 Ashkenazi 유대인 이민자의 아들로 태어났습니다. 그의 어머니 Miriam (née Klein)은 루마니아 출신이고 그의 아버지 Harry Keitel은 폴란드 출신입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> May 13, 1939 <br><br>
+				<br> 1939년 5월 13일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hawke was born in 1970 in Austin, Texas, to Leslie (née Green), a charity worker, and James Hawke, an insurance actuary <br><br>
+				<br> Hawke는 1970년 텍사스주 오스틴에서 자선사업가인 Leslie(née Green)와 보험 계리사인 James Hawke 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> 1970 <br><br>
+				<br> 1970 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Scott was born 25 November 1965 in Glenrothes, Fife, the son of Elma, a nurse, and Alan Scott, a travelling salesman of refrigerators and freezers, and a former actor <br><br>
+				<br> Scott은 1965년 11월 25일 Glenrothes에서 간호사인 Elma와 냉장고 및 냉동고의 여행 판매원이자 전직 배우인 Alan Scott의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> 25 November 1965 <br><br>
+				<br> 1965년 11월 25일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Aaron Paul Sturtevant was born in Emmett, Idaho, on August 27, 1979, the youngest of four children born to Darla (née Haynes) and Baptist minister Robert Sturtevant <br><br>
+				<br> Aaron Paul Sturtevant는 1979년 8월 27일 아이다호주 Emmett에서 Darla(née Haynes)와 침례교 목사인 Robert Sturtevant 사이에서 태어난 네 자녀 중 막내로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> August 27, 1979 <br><br>
+				<br> 1979년 8월 27일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Alexandra Anna Daddario was born in New York City, on March 16, 1986, the eldest child of Christina, a lawyer, and Richard Daddario, a prosecutor and former head of the New York City Police Department counterterrorism unit <br><br>
+				<br> Alexandra Anna Daddario는 1986년 3월 16일 뉴욕에서 변호사인 Christina와 검사이자 전 뉴욕시 경찰국 대테러 부대장인 Richard Daddario의 장남으로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> March 16, 1986 <br><br>
+				<br> 1986년 3월 16일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Alfredo James Pacino was born in the East Harlem neighborhood of New York City on April 25, 1940 <br><br>
+				<br> 알프레도 제임스 파치노는 1940년 4월 25일 뉴욕시 이스트 할렘 지역에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> April 25, 1940 <br><br>
+				<br> 1940년 4월 25일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Amanda Michelle Seyfried was born on December 3, 1985, in Allentown, Pennsylvania <br><br>
+				<br> Amanda Michelle Seyfried는 1985년 12월 3일 펜실베니아주 알렌타운에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> December 3, 1985 <br><br>
+				<br> 1985년 12월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Amy Lou Adams was born on August 20, 1974, to American parents Richard and Kathryn Adams, when her father was stationed with the United States Army at the Caserma Ederle military complex in Vicenza, Italy <br><br>
+				<br> Amy Lou Adams는 1974년 8월 20일 미국인 부모 Richard와 Kathryn Adams 사이에서 태어났습니다. 그녀의 아버지는 이탈리아 Vicenza에 있는 Caserma Ederle 군사 단지에서 미군에 주둔했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> August 20, 1974 <br><br>
+				<br> 1974년 8월 20일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Angelina Jolie Voight was born on June 4, 1975, in Los Angeles, California, to actors Jon Voight and Marcheline Bertrand <br><br>
+				<br> Angelina Jolie Voight는 1975년 6월 4일 캘리포니아 로스앤젤레스에서 배우 Jon Voight와 Marcheline Bertrand 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> June 4, 1975 <br><br>
+				<br> 1975년 6월 4일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Aniston was born on February 11, 1969, in the Sherman Oaks neighborhood of Los Angeles to Greek-born actor John Aniston and actress Nancy Dow <br><br>
+				<br> 애니스톤은 1969년 2월 11일 로스앤젤레스의 셔먼 옥스에서 그리스 태생의 배우 존 애니스톤과 배우 낸시 다우 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> February 11, 1969 <br><br>
+				<br> 1969년 2월 11일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Anne Jacqueline Hathaway was born on November 12, 1982, in the Brooklyn borough of New York City <br><br>
+				<br> 앤 재클린 해서웨이는 1982년 11월 12일 뉴욕 브루클린 자치구에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> November 12, 1982 <br><br>
+				<br> 1982년 11월 12일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Arnold Alois Schwarzenegger was born in Thal, Austria on July 30, 1947, the second son of Gustav Schwarzenegger and his wife, Aurelia (née Jadrny) <br><br>
+				<br> Arnold Alois Schwarzenegger는 1947년 7월 30일 오스트리아 Thal에서 Gustav Schwarzenegger와 그의 아내 Aurelia(née Jadrny)의 둘째 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> July 30, 1947 <br><br>
+				<br> 1947년 7월 30일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Atkinson was born in Consett, County Durham, England, on 6 January 1955 <br><br>
+				<br> 앳킨슨은 1955년 1월 6일 영국 더럼 주 콘셋에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> 6 January 1955 <br><br>
+				<br> 1955년 1월 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bautista was born January 18, 1969 in Washington, D <br><br>
+				<br> Bautista는 1969년 1월 18일 워싱턴 D에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> January 18, 1969 <br><br>
+				<br> 1969년 1월 18일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Beckinsale was born on 26 July 1973 in the Chiswick district of London, the only child of actors Richard Beckinsale and Judy Loe <br><br>
+				<br> 베킨세일은 1973년 7월 26일 런던 치스윅에서 배우 리처드 베킨세일과 주디 로의 외동딸로 태어났다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> 26 July 1973 <br><br>
+				<br> 1973년 7월 26일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bell was born on July 18, 1980, in Huntington Woods, Michigan, a suburb of Detroit, where she was raised <br><br>
+				<br> Bell은 1980년 7월 18일 디트로이트 교외의 미시간 주 헌팅턴 우즈에서 태어나 그곳에서 자랐습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> July 18, 1980 <br><br>
+				<br> 1980년 7월 18일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bellucci was born 30 September 1964 in Città di Castello, Umbria, the only child of Brunella Briganti and Pasquale Bellucci, and grew up in Lama of San Giustino <br><br>
+				<br> 벨루치는 1964년 9월 30일 움브리아 주 치타 디 카스텔로에서 브루넬라 브리간티와 파스쿠알레 벨루치의 외동딸로 태어나 산 주스티노의 라마에서 성장했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> 30 September 1964 <br><br>
+				<br> 1964년 9월 30일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Benjamin Edward Meara Stiller was born on November 30, 1965, in New York City and raised on the Upper West Side <br><br>
+				<br> Benjamin Edward Meara Stiller는 1965년 11월 30일 뉴욕에서 태어나 어퍼 웨스트 사이드에서 자랐습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> November 30, 1965 <br><br>
+				<br> 1965년 11월 30일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Benjamin Géza Affleck-Boldt was born on August 15, 1972, in Berkeley, California <br><br>
+				<br> Benjamin Géza Affleck-Boldt는 1972년 8월 15일 캘리포니아 버클리에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> August 15, 1972 <br><br>
+				<br> 1972년 8월 15일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Benson was born on December 18, 1989, in Anaheim Hills, California, to parents Shannon and Jeff Benson <br><br>
+				<br> Benson은 1989년 12월 18일 캘리포니아 애너하임 힐스에서 부모 Shannon과 Jeff Benson 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> December 18, 1989 <br><br>
+				<br> 1989년 12월 18일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bloom was born on 13 January 1977 in Canterbury, Kent, and was named after the 16th-century English composer Orlando Gibbons <br><br>
+				<br> Bloom은 1977년 1월 13일 켄트 주 캔터베리에서 태어났으며 16세기 영국 작곡가 Orlando Gibbons의 이름을 따서 명명되었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> 13 January 1977 <br><br>
+				<br> 1977년 1월 13일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Borgnine was born Ermes Effron Borgnino (Italian: [borˈɲiːno]) on January 24, 1917, in Hamden, Connecticut, the son of Italian immigrants <br><br>
+				<br> Borgnine은 1917년 1월 24일 코네티컷 주 함덴에서 이탈리아 이민자의 아들로 Ermes Effron Borgnino(이탈리아어: [borˈɲiːno])로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> January 24, 1917 <br><br>
+				<br> 1917년 1월 24일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Born Ha Lingchun (Chinese: 夏令震) in Hong Kong in 1957, he was the fifth child in a family of eight children <br><br>
+				<br> 1957년 홍콩에서 Ha Lingchun(중국어: 夏令震)으로 태어난 그는 8명의 자녀 중 다섯 번째 자녀였습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> 1957 <br><br>
+				<br> 1957 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Born on 1 July 1985, Seydoux is the daughter of businessman Henri Jérôme Seydoux-Fornier de Clausonne and Valérie Schlumberger <br><br>
+				<br> 1985년 7월 1일에 태어난 Seydoux는 사업가 Henri Jérôme Seydoux-Fornier de Clausonne과 Valérie Schlumberger의 딸입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> 1 July 1985 <br><br>
+				<br> 1985년 7월 1일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Born on 17 August 1920, O'Hara began life as Maureen FitzSimons on Beechwood Avenue in the Dublin suburb of Ranelagh <br><br>
+				<br> 1920년 8월 17일에 태어난 O'Hara는 Ranelagh의 더블린 교외에 있는 Beechwood Avenue에서 Maureen FitzSimons로 인생을 시작했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> 17 August 1920 <br><br>
+				<br> 1920년 8월 17일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bridges was born on December 9, 1941 in Los Angeles, California, the son of actors Lloyd Bridges (1913–1998) and Dorothy Bridges (née Simpson; 1915–2009) <br><br>
+				<br> Bridges는 1941년 12월 9일 캘리포니아 로스앤젤레스에서 배우 Lloyd Bridges(1913–1998)와 Dorothy Bridges(née Simpson, 1915–2009)의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> December 9, 1941 <br><br>
+				<br> 1941년 12월 9일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Brosnan was born on 16 May 1953 at Our Lady of Lourdes Hospital in Drogheda, County Louth, the only child of May (née Smith) and carpenter Thomas Brosnan <br><br>
+				<br> Brosnan은 1953년 5월 16일 Louth 카운티 Drogheda에 있는 Our Lady of Lourdes 병원에서 May(née Smith)와 목수 Thomas Brosnan의 외동딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> 16 May 1953 <br><br>
+				<br> 1953년 5월 16일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bryan Lee Cranston was born on March 7, 1956, in Hollywood, Los Angeles, California, the second of three children born to Annalisa (née Sell; 1923–2004), a radio actress, and Joseph Louis Cranston (1924–2014), an actor and former amateur boxer <br><br>
+				<br> Bryan Lee Cranston은 1956년 3월 7일 캘리포니아 로스앤젤레스 할리우드에서 라디오 배우인 Annalisa(née Sell, 1923–2004)와 Joseph Louis Cranston(1924–2014) 사이에서 태어난 세 자녀 중 둘째로 태어났습니다. 배우이자 전직 아마추어 복서 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> March 7, 1956 <br><br>
+				<br> 1956년 3월 7일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Bullock was born on July 26, 1964, in the Washington, DC. <br><br>
+				<br> Bullock은 1964년 7월 26일 워싱턴 DC에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> July 26, 1964 <br><br>
+				<br> 1964년 7월 26일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cameron Michelle Diaz was born August 30, 1972, in San Diego, California to Billie (née Early), an import/export agent, and Emilio Diaz, a foreman of the California oil company Unocal <br><br>
+				<br> Cameron Michelle Diaz는 1972년 8월 30일 캘리포니아 주 샌디에고에서 수입/수출 대리인인 Billie(née Early)와 캘리포니아 석유 회사 Unocal의 감독인 Emilio Diaz 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> August 30, 1972 <br><br>
+				<br> 1972년 8월 30일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cara Jocelyn Delevingne was born on 12 August 1992, in Hammersmith, London, the daughter of Pandora Anne Delevigne (née Stevens) and property developer Charles Hamar Delevingne <br><br>
+				<br> Cara Jocelyn Delevingne은 1992년 8월 12일 런던 해머스미스에서 Pandora Anne Delevigne(née Stevens)과 부동산 개발업자 Charles Hamar Delevingne의 딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> 12 August 1992 <br><br>
+				<br> 1992년 8월 12일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Carmen Electra was born Tara Leigh Patrick on April 20, 1972, in Sharonville, Ohio, to Harry Patrick, a guitarist and entertainer, and his wife Patricia (d <br><br>
+				<br> Carmen Electra는 1972년 4월 20일 오하이오 주 샤론빌에서 기타리스트이자 엔터테이너인 Harry Patrick과 그의 아내 Patricia 사이에서 Tara Leigh Patrick으로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> April 20, 1972 <br><br>
+				<br> 1972년 4월 20일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Caryn Elaine Johnson was born in Manhattan, New York City, on November 13, 1955, the daughter of Robert James Johnson Jr <br><br>
+				<br> Caryn Elaine Johnson은 1955년 11월 13일 뉴욕 맨해튼에서 Robert James Johnson Jr.의 딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> November 13, 1955 <br><br>
+				<br> 1955년 11월 13일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Catherine Elise Blanchett was born on 14 May 1969 in the Ivanhoe suburb of Melbourne <br><br>
+				<br> 캐서린 엘리스 블란쳇은 1969년 5월 14일 멜버른 아이반호 교외에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> 14 May 1969 <br><br>
+				<br> 1969년 5월 14일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Catherine Zeta-Jones was born on 25 September 1969 in Swansea, Wales, to David Jones, the owner of a sweet factory, and his wife Patricia (née Fair), a seamstress <br><br>
+				<br> Catherine Zeta-Jones는 1969년 9월 25일 웨일즈 스완지에서 사탕 공장 소유주인 David Jones와 재봉사인 그의 아내 Patricia(née Fair) 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> 25 September 1969 <br><br>
+				<br> 1969년 9월 25일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Chan was born on 7 April 1954 in Hong Kong as Chan Kong-sang (Chinese: 陳港生; lit <br><br>
+				<br> Chan은 1954년 4월 7일 홍콩에서 Chan Kong-sang(중국어: 陳港生)으로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> 7 April 1954 <br><br>
+				<br> 1954년 4월 7일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Chaplin was born on 31 July 1969 in Windsor, in the county of Berkshire, England, the son of Cynthia (née Chaplin), a teacher, and Peter Greenwood CBE, a civil engineer <br><br>
+				<br> 채플린은 1969년 7월 31일 영국 버크셔주 윈저에서 교사인 신시아(네 채플린)와 토목기사인 피터 그린우드(CBE) 사이에서 태어났다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> 31 July 1969 <br><br>
+				<br> 1969년 7월 31일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Christian Charles Philip Bale was born on 30 January 1974 in Haverfordwest, Pembrokeshire, to English parents—Jenny James, a circus performer, and David Bale, an entrepreneur and activist <br><br>
+				<br> Christian Charles Philip Bale은 1974년 1월 30일 Pembrokeshire의 Haverfordwest에서 서커스 공연가인 Jenny James와 기업가이자 운동가인 David Bale 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> 30 January 1974 <br><br>
+				<br> 1974년 1월 30일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Christina Rene Hendricks was born on May 3, 1975, in Knoxville, Tennessee, the second child of American mother Jackie Sue Hendricks (née Raymond), a psychologist, and English father Robert Hendricks, a Forest Service employee originally from Birmingham <br><br>
+				<br> Christina Rene Hendricks는 1975년 5월 3일 테네시 주 녹스빌에서 심리학자인 미국인 어머니 Jackie Sue Hendricks(결혼 전 성씨는 Raymond)와 영국인 아버지 Robert Hendricks의 둘째 아이로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> May 3, 1975 <br><br>
+				<br> 1975년 5월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Christopher Hemsworth was born on 11 August 1983 in Melbourne, Victoria, to Leonie (née van Os), an English teacher, and Craig Hemsworth, a social-services counsellor <br><br>
+				<br> Christopher Hemsworth는 1983년 8월 11일 빅토리아 주 멜버른에서 영어 교사인 Leonie(née van Os)와 사회 복지 상담가인 Craig Hemsworth 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> 11 August 1983 <br><br>
+				<br> 1983년 8월 11일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Christopher Julius Rock was born in Andrews, South Carolina on February 7, 1965 <br><br>
+				<br> 크리스토퍼 줄리어스 록은 1965년 2월 7일 사우스캐롤라이나주 앤드류스에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> February 7, 1965 <br><br>
+				<br> 1965년 2월 7일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Christopher Michael Pratt was born on June 21, 1979, in Virginia, Minnesota, the youngest child of Kathleen Louise (née Indahl), who worked at a Safeway supermarket, and Daniel Clifton Pratt, who worked in mining and later remodeling houses <br><br>
+				<br> 크리스토퍼 마이클 프랫은 1979년 6월 21일 미네소타주 버지니아에서 세이프웨이 슈퍼마켓에서 일했던 캐슬린 루이스(결혼 전 성씨는 인달)와 광산 및 나중에 주택 리모델링에서 일했던 다니엘 클리프턴 프랫의 막내로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> June 21, 1979 <br><br>
+				<br> 1979년 6월 21일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Claudia Cardinale was born Claude Joséphine Rose Cardinale in La Goulette, a neighbourhood of Tunis, French protectorate of Tunisia, on 15 April 1938 <br><br>
+				<br> 클라우디아 카르디날레는 1938년 4월 15일 튀니지의 프랑스 보호령인 튀니스 인근 라 굴레트에서 클로드 조세핀 로즈 카르디날레로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> 15 April 1938 <br><br>
+				<br> 1938년 4월 15일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Clive Owen was born on 3 October 1964 in Keresley, Coventry (then in Warwickshire), the fourth of five sons born to Pamela (née Cotton) and Jess Owen <br><br>
+				<br> Clive Owen은 1964년 10월 3일 Coventry(당시 Warwickshire)의 Keresley에서 Pamela(née Cotton)와 Jess Owen의 다섯 아들 중 넷째로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> 3 October 1964 <br><br>
+				<br> 1964년 10월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Clooney was born on May 6, 1961 in Lexington, Kentucky <br><br>
+				<br> 클루니는 1961년 5월 6일 켄터키 주 렉싱턴에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> May 6, 1961 <br><br>
+				<br> 1961년 5월 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Colin James Farrell was born in the Castleknock suburb of Dublin on 31 May 1976, the son of Rita (née Monaghan) and Eamon Farrell <br><br>
+				<br> Colin James Farrell은 1976년 5월 31일 더블린의 Castleknock 교외에서 Rita(née Monaghan)와 Eamon Farrell의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> 31 May 1976 <br><br>
+				<br> 1976년 5월 31일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cook was born in 1903 in San Francisco, California, the son of Elisha Vanslyck Cook Sr <br><br>
+				<br> Cook은 1903년 캘리포니아 샌프란시스코에서 Elisha Vanslyck Cook Sr의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> 1903 <br><br>
+				<br> 1903 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cooper was born on January 5, 1975, in Abington Township, near Philadelphia, and grew up in the nearby communities of Jenkintown and Rydal <br><br>
+				<br> Cooper는 1975년 1월 5일 필라델피아 근처의 Abington Township에서 태어나 인근 Jenkintown과 Rydal 커뮤니티에서 자랐습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> January 5, 1975 <br><br>
+				<br> 1975년 1월 5일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cotillard was born on 30 September 1975 in Paris and grew up around Orléans in an artistically inclined household <br><br>
+				<br> Cotillard는 1975년 9월 30일 파리에서 태어나 오를레앙 근방에서 예술적인 경향이 있는 가정에서 자랐습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> 30 September 1975 <br><br>
+				<br> 1975년 9월 30일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Cruise was born on July 3, 1962, in Syracuse, New York, to electrical engineer Thomas Cruise Mapother III (1934–1984) and special education teacher Mary Lee (née Pfeiffer; 1936–2017) <br><br>
+				<br> Cruise는 1962년 7월 3일 뉴욕 시러큐스에서 전기 엔지니어 Thomas Cruise Mapother III(1934–1984)와 특수 교육 교사 Mary Lee(née Pfeiffer, 1936–2017) 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> July 3, 1962 <br><br>
+				<br> 1962년 7월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> D'Onofrio was born on June 30, 1959, in Bensonhurst, Brooklyn, New York City, New York <br><br>
+				<br> 도노프리오는 1959년 6월 30일 뉴욕 브루클린 벤슨허스트에서 태어났다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> June 30, 1959 <br><br>
+				<br> 1959년 6월 30일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Damon was born in Cambridge, Massachusetts, on October 8, 1970, the second son of Kent Telfer Damon (1942–2017), a stockbroker, and Nancy Carlsson-Paige. <br><br>
+				<br> Damon은 1970년 10월 8일 매사추세츠주 케임브리지에서 주식 중개인인 Kent Telfer Damon(1942–2017)과 Nancy Carlsson-Paige의 둘째 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> October 8, 1970 <br><br>
+				<br> 1970년 10월 8일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Daniel Jacob Radcliffe was born at Queen Charlotte's and Chelsea Hospital in the Hammersmith district of London on 23 July 1989, the only child of Marcia Jeannine Gresham (née Jacobson) and literary agent Alan George Radcliffe <br><br>
+				<br> 다니엘 제이콥 래드클리프는 1989년 7월 23일 런던 해머스미스 지구에 있는 퀸 샬롯과 첼시 병원에서 Marcia Jeannine Gresham(결혼 전 성은 Jacobson)과 문학 대리인 Alan George Radcliffe의 외동딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> 23 July 1989 <br><br>
+				<br> 1989년 7월 23일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Daniel Wroughton Craig was born in Chester on 2 March 1968, the son of Carol Olivia (née Williams), an art teacher, and Timothy John Wroughton Craig (1943–2020), a midshipman in the Merchant Navy and steel erector <br><br>
+				<br> Daniel Wroughton Craig는 1968년 3월 2일 체스터에서 미술 교사인 Carol Olivia(결혼 전 성씨는 Williams)와 상선 해군의 중함수이자 철강 건설업자인 Timothy John Wroughton Craig(1943–2020)의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> 2 March 1968 <br><br>
+				<br> 1968년 3월 2일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Diesel was born Mark Sinclair on July 18, 1967, in Alameda County, California, where his mother was also born, though later moved to New York City with his fraternal twin brother, Paul <br><br>
+				<br> 디젤은 1967년 7월 18일 캘리포니아 주 알라메다 카운티에서 마크 싱클레어로 태어났습니다. 그의 어머니도 이곳에서 태어났지만 나중에 이란성 쌍둥이 형제인 폴과 함께 뉴욕으로 이사했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> July 18, 1967 <br><br>
+				<br> 1967년 7월 18일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Dormer was born in Reading, Berkshire, England, on 11 February 1982, daughter of Gary Dormer and wife Claire Richards and sister of Mark Dormer and Samantha Dormer <br><br>
+				<br> Dormer는 1982년 2월 11일 영국 Berkshire의 Reading에서 Gary Dormer와 아내 Claire Richards의 딸이자 Mark Dormer와 Samantha Dormer의 자매로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> 11 February 1982 <br><br>
+				<br> 1982년 2월 11일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Duvall was born January 5, 1931, in San Diego, California, the son of Mildred Virginia (née Hart; 1901–1985), an amateur actress, and William Howard Duvall (1904–1984), a Virginia-born U <br><br>
+				<br> Duvall은 1931년 1월 5일 캘리포니아주 샌디에고에서 아마추어 배우 Mildred Virginia(née Hart, 1901–1985)와 버지니아 태생의 U.S. William Howard Duvall(1904–1984)의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> January 5, 1931 <br><br>
+				<br> 1931년 1월 5일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Dwayne Douglas Johnson was born in Hayward, California on May 2, 1972, the son of Ata Johnson (née Maivia; born 1948) and former professional wrestler Rocky Johnson (born Wayde Douglas Bowles; 1944–2020) <br><br>
+				<br> Dwayne Douglas Johnson은 1972년 5월 2일 캘리포니아 헤이워드에서 Ata Johnson(née Maivia, 1948년 출생)과 전직 프로레슬러 Rocky Johnson(Wayde Douglas Bowles 출생, 1944–2020)의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> May 2, 1972 <br><br>
+				<br> 1972년 5월 2일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Eastwood was born on May 31, 1930, at Saint Francis Memorial Hospital in San Francisco, California, to Ruth (née Runner; 1909–2006) and Clinton Eastwood (1906–1970) <br><br>
+				<br> Eastwood는 1930년 5월 31일 캘리포니아 샌프란시스코의 Saint Francis Memorial 병원에서 Ruth(née Runner, 1909–2006)와 Clinton Eastwood(1906–1970) 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> May 31, 1930, <br><br>
+				<br> 1930년 5월 31일, <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Eddie Asner was born on November 15, 1929, in Kansas City, Missouri, and grew up in Kansas City, Kansas <br><br>
+				<br> Eddie Asner는 1929년 11월 15일 미주리주 캔자스시티에서 태어나 캔자스주 캔자스시티에서 성장했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> November 15, 1929 <br><br>
+				<br> 1929년 11월 15일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Edward Furlong was born August 2, 1977 in Glendale, California, the son of Eleanor Torres (née Tafoya), a youth-center worker and Heinrich Bruno Wittig <br><br>
+				<br> Edward Furlong은 1977년 8월 2일 캘리포니아 글렌데일에서 청소년 센터 직원인 Eleanor Torres(née Tafoya)와 Heinrich Bruno Wittig의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> August 2, 1977 <br><br>
+				<br> 1977년 8월 2일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Edward Harrison Norton was born into a progressive Episcopalian family in Boston, Massachusetts, on August 18, 1969 <br><br>
+				<br> Edward Harrison Norton은 1969년 8월 18일 매사추세츠 주 보스턴의 진보적인 성공회 가정에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> August 18, 1969 <br><br>
+				<br> 1969년 8월 18일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Edward John David Redmayne was born on 6 January 1982 in Westminster in London <br><br>
+				<br> 에드워드 존 데이비드 레드메인은 1982년 1월 6일 런던 웨스트민스터에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> 6 January 1982 <br><br>
+				<br> 1982년 1월 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Edward Thomas Hardy was born in the Hammersmith district of London on 15 September 1977, the only child of artist and painter Anne (née Barrett) and novelist and comedy writer Edward "Chips" Hardy <br><br>
+				<br> Edward Thomas Hardy는 1977년 9월 15일 런던의 해머스미스 지역에서 화가이자 화가인 Anne(결혼 전 성은 Barrett)과 소설가이자 코미디 작가인 Edward "Chips" Hardy의 외동딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> 15 September 1977 <br><br>
+				<br> 1977년 9월 15일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Egerton was born on 10 November 1989 in Birkenhead, Merseyside <br><br>
+				<br> Egerton은 1989년 11월 10일 Merseyside의 Birkenhead에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> 10 November 1989 <br><br>
+				<br> 1989년 11월 10일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Emily Jean Stone was born on November 6, 1988, in Scottsdale, Arizona, to Jeffrey Charles Stone, the founder and CEO of a general-contracting company, and Krista Jean Stone (née Yeager), a homemaker <br><br>
+				<br> Emily Jean Stone은 1988년 11월 6일 애리조나 주 Scottsdale에서 일반 계약 회사의 설립자이자 CEO인 Jeffrey Charles Stone과 주부인 Krista Jean Stone(née Yeager) 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> November 6, 1988 <br><br>
+				<br> 1988년 11월 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Emily Olivia Leah Blunt was born on 23 February 1983 in the London Borough of Wandsworth, the second of four children born to Joanna, a former actress and teacher, and barrister Oliver Blunt, QC <br><br>
+				<br> Emily Olivia Leah Blunt는 1983년 2월 23일 Wandsworth의 London Borough에서 전 여배우이자 교사였던 Joanna와 QC 변호사 Oliver Blunt 사이에서 태어난 네 자녀 중 둘째로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> 23 February 1983 <br><br>
+				<br> 1983년 2월 23일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Emma Charlotte Duerre Watson was born on 15 April 1990 in Paris, to English lawyers Chris Watson and Jacqueline Luesby <br><br>
+				<br> Emma Charlotte Duerre Watson은 1990년 4월 15일 파리에서 영국 변호사 Chris Watson과 Jacqueline Luesby 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> 15 April 1990 <br><br>
+				<br> 1990년 4월 15일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Emmanuelle Grey Rossum was born on September 12, 1986, in New York City <br><br>
+				<br> 엠마뉴엘 그레이 로섬은 1986년 9월 12일 뉴욕에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> September 12, 1986 <br><br>
+				<br> 1986년 9월 12일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Eric Marlon Bishop was born in Terrell, Texas, on December 13, 1967 <br><br>
+				<br> Eric Marlon Bishop은 1967년 12월 13일 텍사스 테럴에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> December 13, 1967 <br><br>
+				<br> 1967년 12월 13일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Eva Gaëlle Green was born two minutes earlier than her fraternal twin sister, Joy, on 6 July 1980 <br><br>
+				<br> Eva Gaëlle Green은 1980년 7월 6일 이란성 쌍둥이 여동생 Joy보다 2분 일찍 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> 6 July 1980 <br><br>
+				<br> 1980년 7월 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Faris was born on November 29, 1976, in Baltimore, Maryland, the second child of Jack, a sociology professor, and Karen Faris, a special education teacher <br><br>
+				<br> Faris는 1976년 11월 29일 메릴랜드주 볼티모어에서 사회학 교수인 Jack과 특수 교육 교사인 Karen Faris의 둘째 자녀로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> November 29, 1976 <br><br>
+				<br> 1976년 11월 29일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Fassbender was born in Heidelberg on 2 April 1977, the son of Northern Irish mother Adele (from Larne) and German father Josef Fassbender <br><br>
+				<br> 패스벤더는 1977년 4월 2일 하이델베르크에서 북아일랜드 출신의 어머니 Adele(Larne 출신)과 독일인 아버지 Josef Fassbender의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> 2 April 1977 <br><br>
+				<br> 1977년 4월 2일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Felicity Rose Hadley Jones was born in Birmingham on 17 October 1983 <br><br>
+				<br> Felicity Rose Hadley Jones는 1983년 10월 17일 버밍엄에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> 17 October 1983 <br><br>
+				<br> 1983년 10월 17일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Ferrell was born on July 16, 1967 in Irvine, California, to Betty Kay (née Overman; born 1940), a teacher who taught at Old Mill School elementary school and Santa Ana College and Roy Lee Ferrell Jr <br><br>
+				<br> Ferrell은 1967년 7월 16일 캘리포니아 어바인에서 Old Mill School 초등학교와 Santa Ana College에서 가르쳤던 교사인 Betty Kay(née Overman, 1940년 출생)와 Roy Lee Ferrell Jr 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> July 16, 1967 <br><br>
+				<br> 1967년 7월 16일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Fiennes was born in Ipswich, England on 22 December 1962 <br><br>
+				<br> 파인즈는 1962년 12월 22일 영국 입스위치에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> 22 December 1962 <br><br>
+				<br> 1962년 12월 22일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Flanagan was born in Conant Gardens, Detroit, Michigan, on March 16, 1930 <br><br>
+				<br> Flanagan은 1930년 3월 16일 미시간 주 디트로이트의 Conant Gardens에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> March 16, 1930 <br><br>
+				<br> 1930년 3월 16일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Fonda was born on January 27, 1964, in Los Angeles, California, to a family of actors, including her grandfather Henry Fonda, father Peter Fonda, and her aunt Jane Fonda <br><br>
+				<br> Fonda는 1964년 1월 27일 캘리포니아 로스앤젤레스에서 할아버지 Henry Fonda, 아버지 Peter Fonda, 이모 Jane Fonda를 포함한 배우 가족 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> January 27, 1964 <br><br>
+				<br> 1964년 1월 27일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Forest Steven Whitaker was born on July 15, 1961, in Longview, Texas, the son of Laura Francis (née Smith), a special education teacher who put herself through college and earned two master's degrees while raising her children, and Forest E <br><br>
+				<br> 포레스트 스티븐 휘태커는 1961년 7월 15일 텍사스주 롱뷰에서 자녀를 키우면서 대학을 마치고 두 개의 석사 학위를 취득한 특수 교육 교사 로라 프란시스(결혼 전 성씨는 스미스)와 포레스트 E의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> July 15, 1961 <br><br>
+				<br> 1961년 7월 15일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Foster was born on November 19, 1962 in Los Angeles, the youngest child of Evelyn Ella ("Brandy"; née Almond) and Lucius Fisher Foster III <br><br>
+				<br> Foster는 1962년 11월 19일 로스앤젤레스에서 Evelyn Ella("Brandy"; née Almond)와 Lucius Fisher Foster III의 막내로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> November 19, 1962 <br><br>
+				<br> 1962년 11월 19일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gainsbourg was born on 21 July 1971 in London, to English actress and singer Jane Birkin and French actor and singer-songwriter Serge Gainsbourg <br><br>
+				<br> Gainsbourg는 1971년 7월 21일 런던에서 영국 배우이자 가수인 Jane Birkin과 프랑스 배우이자 싱어송라이터인 Serge Gainsbourg 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> 21 July 1971 <br><br>
+				<br> 1971년 7월 21일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gandolfini was born in Westwood, New Jersey on September 18, 1961 <br><br>
+				<br> 간돌피니는 1961년 9월 18일 뉴저지주 웨스트우드에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> September 18, 1961 <br><br>
+				<br> 1961년 9월 18일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Garrett John Hedlund was born on September 3, 1984, in Roseau, Minnesota, to Kristine Anne (née Yanish) and Robert Martin Hedlund <br><br>
+				<br> Garrett John Hedlund는 1984년 9월 3일 미네소타주 Roseau에서 Kristine Anne(née Yanish)과 Robert Martin Hedlund 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> September 3, 1984 <br><br>
+				<br> 1984년 9월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> George Hosato Takei was born Hosato Takei on April 20, 1937 in Los Angeles, California, to Japanese-American parents Fumiko Emily Nakamura (born in Sacramento, California) and Takekuma Norman Takei (born in Yamanashi Prefecture), who worked in real estate <br><br>
+				<br> George Hosato Takei는 1937년 4월 20일 캘리포니아 로스앤젤레스에서 부동산업에서 일하던 일본인 부모 Fumiko Emily Nakamura(캘리포니아 새크라멘토 출생)와 Takekuma Norman Takei(야마나시 현 출생) 사이에서 Hosato Takei로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> April 20, 1937 <br><br>
+				<br> 1937년 4월 20일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> George Raymond Stevenson was born in Lisburn on 25 May 1964, the second of three sons born to Irish parents <br><br>
+				<br> George Raymond Stevenson은 1964년 5월 25일 Lisburn에서 아일랜드 부모에게서 태어난 세 아들 중 둘째로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> 25 May 1964 <br><br>
+				<br> 1964년 5월 25일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gerard James Butler was born on 13 November 1969 in Paisley, Renfrewshire, Scotland, the youngest of three children of Margaret and Edward Butler, a bookmaker <br><br>
+				<br> 제라드 제임스 버틀러는 1969년 11월 13일 스코틀랜드 렌프루셔 페이즐리에서 마가렛과 북메이커 에드워드 버틀러의 세 자녀 중 막내로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> 13 November 1969 <br><br>
+				<br> 1969년 11월 13일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Grier was born on May 26, 1949, in Winston-Salem, North Carolina, the daughter of Gwendolyn Sylvia (née Samuels), a homemaker and nurse, and Clarence Ransom Grier, Jr <br><br>
+				<br> Grier는 1949년 5월 26일 노스캐롤라이나주 Winston-Salem에서 주부이자 간호사인 Gwendolyn Sylvia(née Samuels)와 Clarence Ransom Grier, Jr의 딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> May 26, 1949 <br><br>
+				<br> 1949년 5월 26일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gruffudd was born on 6 October 1973 in Aberdare, the eldest of three siblings <br><br>
+				<br> Gruffudd는 1973년 10월 6일 Aberdare에서 세 형제 중 장남으로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> 6 October 1973 <br><br>
+				<br> 1973년 10월 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Gwyneth Kate Paltrow was born on September 27, 1972, in Los Angeles, to actress Blythe Danner and film producer-director Bruce Paltrow <br><br>
+				<br> 기네스 케이트 팰트로는 1972년 9월 27일 로스앤젤레스에서 여배우 블라이스 대너와 영화 제작자 브루스 팰트로 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> September 27, 1972 <br><br>
+				<br> 1972년 9월 27일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hall was born on 3 May 1982 in London, the daughter of American opera singer Maria Ewing and English stage director and Royal Shakespeare Company founder Peter Hall <br><br>
+				<br> Hall은 1982년 5월 3일 런던에서 미국 오페라 가수 Maria Ewing과 영국 무대 감독이자 Royal Shakespeare Company 설립자 Peter Hall의 딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> 3 May 1982 <br><br>
+				<br> 1982년 5월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hans Lundgren was born on 3 November 1957 in Spånga, the son of Sigrid Birgitta (née Tjerneld; 1932–1992), a language teacher, and Karl Hugo Johan Lundgren (1923–2000), an engineer (M <br><br>
+				<br> Hans Lundgren은 1957년 11월 3일 Spånga에서 언어 교사인 Sigrid Birgitta(née Tjerneld, 1932–1992)와 엔지니어인 Karl Hugo Johan Lundgren(1923–2000)의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> 3 November 1957 <br><br>
+				<br> 1957년 11월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Harring was born in Los Mochis, Sinaloa, Mexico on March 3, 1964 <br><br>
+				<br> 해링은 1964년 3월 3일 멕시코 시날로아의 로스 모치스에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> March 3, 1964 <br><br>
+				<br> 1964년 3월 3일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Harris was born on 1 October 1930, in Limerick <br><br>
+				<br> Harris는 1930년 10월 1일 리머릭에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> 1 October 1930 <br><br>
+				<br> 1930년 10월 1일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Harrison Ford was born at the Swedish Covenant Hospital in Chicago, Illinois, on July 13, 1942, to former radio actress Dorothy (née Nidelman) and advertising executive and former actor John William "Christopher" Ford <br><br>
+				<br> Harrison Ford는 1942년 7월 13일 일리노이주 시카고에 있는 Swedish Covenant 병원에서 전직 라디오 배우 Dorothy(née Nidelman)와 광고 경영자이자 전 배우인 John William "Christopher" Ford 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> July 13, 1942 <br><br>
+				<br> 1942년 7월 13일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hart was born on July 6, 1979 in Philadelphia, Pennsylvania <br><br>
+				<br> Hart는 1979년 7월 6일 펜실베이니아 주 필라델피아에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> July 6, 1979 <br><br>
+				<br> 1979년 7월 6일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hauer was born in Breukelen, in the Province of Utrecht, on 23 January 1944, while the Netherlands was under German occupation during World War II <br><br>
+				<br> 하우어는 1944년 1월 23일 네덜란드가 제2차 세계 대전 중 독일 점령 하에 있을 때 위트레흐트 지방의 브루클렌에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> 23 January 1944 <br><br>
+				<br> 1944년 1월 23일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hayley Elizabeth Atwell was born on 5 April 1982 in London, an only child <br><br>
+				<br> Hayley Elizabeth Atwell은 1982년 4월 5일 런던에서 외동딸로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> 5 April 1982 <br><br>
+				<br> 1982년 4월 5일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hill was born on December 20, 1983, in Los Angeles, California, to Sharon Lyn (née Chalkin), a costume designer and fashion stylist, and Richard Feldstein, a tour accountant for Guns N' Roses <br><br>
+				<br> Hill은 1983년 12월 20일 캘리포니아 로스앤젤레스에서 의상 디자이너이자 패션 스타일리스트인 Sharon Lyn(née Chalkin)과 Guns N' Roses의 투어 회계사인 Richard Feldstein 사이에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> December 20, 1983 <br><br>
+				<br> 1983년 12월 20일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hoffman was born on July 23, 1967, in the Rochester suburb of Fairport, New York <br><br>
+				<br> 호프만은 1967년 7월 23일 뉴욕 주 페어포트의 로체스터 교외에서 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> July 23, 1967 <br><br>
+				<br> 1967년 7월 23일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hopper was born on May 17, 1936, in Dodge City, Kansas, the son of Marjorie Mae (née Davis; July 12, 1917 – January 12, 2007) and James Millard Hopper (June 23, 1916 – August 7, 1982) <br><br>
+				<br> Hopper는 1936년 5월 17일 캔자스주 Dodge City에서 Marjorie Mae(née Davis, 1917년 7월 12일 – 2007년 1월 12일)와 James Millard Hopper(1916년 6월 23일 – 1982년 8월 7일)의 아들로 태어났습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> May 17, 1936 <br><br>
+				<br> 1936년 5월 17일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Howard was born in Chicago, Illinois, on March 11, 1969, to Tyrone and Anita (née Williams) Howard, both of whom were biracial, with African and Anglo ancestry <br><br>
+				<br> Howard는 1969년 3월 11일 일리노이주 시카고에서 Tyrone과 Anita(née Williams) Howard 사이에서 태어났습니다. 두 사람 모두 아프리카계와 앵글로계의 혼혈이었습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> March 11, 1969 <br><br>
+				<br> 1969년 3월 11일 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 103 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Howard was born in Duncan, Oklahoma in 1954, the elder son of Jean Speegle Howard (1927–2000), an actress, and Rance Howard (1928–2017), a director, writer, and actor <br><br>
+				<br> 하워드는 1954년 오클라호마주 던컨에서 배우 진 스피글 하워드(1927~2000)와 감독, 작가, 배우 랜스 하워드(1928~2017)의 장남으로 태어났다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 103 <br><br>
+			</td>
+			<td>
+				<br> 1954 <br><br>
+				<br> 1954 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 104 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Hurt was born John Vincent Hurt on 22 January 1940 in Chesterfield, Derbyshire, the son of Phyllis (née Massey; 1907–1975), an engineer and one-time actress, and Arnold Herbert Hurt (1904–1999), a mathematician who became a Church of England clergyman and served as vicar of Holy Trinity Church in Shirebrook, Derbyshire <br><br>
+				<br> 허트는 1940년 1월 22일 더비셔 주 체스터필드에서 엔지니어이자 한때 배우였던 필리스(결혼 전 성씨는 매시, 1907–1975)와 수학자 아놀드 허버트 허트(1904–1999)의 아들로 존 빈센트 허트로 태어났습니다. 영국 성공회 성직자이자 더비셔 주 셔브룩에 있는 홀리 트리니티 교회의 대리자로 재직했습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 104 <br><br>
+			</td>
+			<td>
+				<br> 22 January 1940 <br><br>
+				<br> 1940년 1월 22일 <br><br>
+			</td>
+		</tr>
+	</table>

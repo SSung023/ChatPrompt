@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-7, -1, 8, 7, -8] <br><br>
+				<br> [-7, -1, 8, 7, -8] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> [21, 3, 16, 14, 24] <br><br>
+				<br> [21, 3, 16, 14, 24] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [6, 0, 9, -4] <br><br>
+				<br> [6, 0, 9, -4] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> [12, 0, 18, 12] <br><br>
+				<br> [12, 0, 18, 12] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -17, -90, -22, 29, -95, -97, -21, 14, 96, -85] <br><br>
+				<br> [-1, -17, -90, -22, 29, -95, -97, -21, 14, 96, -85] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> [3, 51, 270, 66, 58, 285, 291, 63, 28, 192, 255] <br><br>
+				<br> [3, 51, 270, 66, 58, 285, 291, 63, 28, 192, 255] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -25, -66, -6, -91, -93] <br><br>
+				<br> [-1, -25, -66, -6, -91, -93] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> [3, 75, 198, 18, 273, 279] <br><br>
+				<br> [3, 75, 198, 18, 273, 279] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -26, -13, 93, -31, -49, 40, -24, 79] <br><br>
+				<br> [-1, -26, -13, 93, -31, -49, 40, -24, 79] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> [3, 78, 39, 186, 93, 147, 80, 72, 158] <br><br>
+				<br> [3, 78, 39, 186, 93, 147, 80, 72, 158] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -28, -9, 74, 33, -30, 96, 81, 37] <br><br>
+				<br> [-1, -28, -9, 74, 33, -30, 96, 81, 37] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> [3, 84, 27, 148, 66, 90, 192, 162, 74] <br><br>
+				<br> [3, 84, 27, 148, 66, 90, 192, 162, 74] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -3, 26, 54, 50, 95, -4, 17, 84, 36] <br><br>
+				<br> [-1, -3, 26, 54, 50, 95, -4, 17, 84, 36] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> [3, 9, 52, 108, 100, 190, 12, 34, 168, 72] <br><br>
+				<br> [3, 9, 52, 108, 100, 190, 12, 34, 168, 72] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -33, -22, -66] <br><br>
+				<br> [-1, -33, -22, -66] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> [3, 99, 66, 198] <br><br>
+				<br> [3, 99, 66, 198] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -45, -53, 87] <br><br>
+				<br> [-1, -45, -53, 87] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> [3, 135, 159, 174] <br><br>
+				<br> [3, 135, 159, 174] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -54, -59, 66, 51] <br><br>
+				<br> [-1, -54, -59, 66, 51] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> [3, 162, 177, 132, 102] <br><br>
+				<br> [3, 162, 177, 132, 102] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -58] <br><br>
+				<br> [-1, -58] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> [3, 174] <br><br>
+				<br> [3, 174] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -64, -96, -41, -35] <br><br>
+				<br> [-1, -64, -96, -41, -35] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> [3, 192, 288, 123, 105] <br><br>
+				<br> [3, 192, 288, 123, 105] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -65, -34, -87, 52, -6, -49, -72, -29, -72] <br><br>
+				<br> [-1, -65, -34, -87, 52, -6, -49, -72, -29, -72] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> [3, 195, 102, 261, 104, 18, 147, 216, 87, 216] <br><br>
+				<br> [3, 195, 102, 261, 104, 18, 147, 216, 87, 216] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -67, -51, -16] <br><br>
+				<br> [-1, -67, -51, -16] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> [3, 201, 153, 48] <br><br>
+				<br> [3, 201, 153, 48] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -67, 62, 87, -11, 21, 87, 28, -41] <br><br>
+				<br> [-1, -67, 62, 87, -11, 21, 87, 28, -41] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> [3, 201, 124, 174, 33, 42, 174, 56, 123] <br><br>
+				<br> [3, 201, 124, 174, 33, 42, 174, 56, 123] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -85, 30, 64, -100, 3, 41, 85, 57] <br><br>
+				<br> [-1, -85, 30, 64, -100, 3, 41, 85, 57] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> [3, 255, 60, 128, 300, 6, 82, 170, 114] <br><br>
+				<br> [3, 255, 60, 128, 300, 6, 82, 170, 114] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -87] <br><br>
+				<br> [-1, -87] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> [3, 261] <br><br>
+				<br> [3, 261] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -9, 68, -26, 36, -84] <br><br>
+				<br> [-1, -9, 68, -26, 36, -84] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> [3, 27, 136, 78, 72, 252] <br><br>
+				<br> [3, 27, 136, 78, 72, 252] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -93, 95, -7, -51] <br><br>
+				<br> [-1, -93, 95, -7, -51] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> [3, 279, 190, 21, 153] <br><br>
+				<br> [3, 279, 190, 21, 153] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, -96, 94, -12, -24] <br><br>
+				<br> [-1, -96, 94, -12, -24] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> [3, 288, 188, 36, 72] <br><br>
+				<br> [3, 288, 188, 36, 72] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 11, -89, -54, -7, 26, 73, 33, 44, -98] <br><br>
+				<br> [-1, 11, -89, -54, -7, 26, 73, 33, 44, -98] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> [3, 22, 267, 162, 21, 52, 146, 66, 88, 294] <br><br>
+				<br> [3, 22, 267, 162, 21, 52, 146, 66, 88, 294] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 21, -92, 79, 41, 37, -52, -54] <br><br>
+				<br> [-1, 21, -92, 79, 41, 37, -52, -54] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> [3, 42, 276, 158, 82, 74, 156, 162] <br><br>
+				<br> [3, 42, 276, 158, 82, 74, 156, 162] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 3, -96] <br><br>
+				<br> [-1, 3, -96] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> [3, 6, 288] <br><br>
+				<br> [3, 6, 288] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 3, 76, -11, -14, -89, -98, 86, -30] <br><br>
+				<br> [-1, 3, 76, -11, -14, -89, -98, 86, -30] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> [3, 6, 152, 33, 42, 267, 294, 172, 90] <br><br>
+				<br> [3, 6, 152, 33, 42, 267, 294, 172, 90] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 30, 22, 75, 85, 52, -37, 44, 29, -95, 24] <br><br>
+				<br> [-1, 30, 22, 75, 85, 52, -37, 44, 29, -95, 24] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> [3, 60, 44, 150, 170, 104, 111, 88, 58, 285, 48] <br><br>
+				<br> [3, 60, 44, 150, 170, 104, 111, 88, 58, 285, 48] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 39, -53] <br><br>
+				<br> [-1, 39, -53] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> [3, 78, 159] <br><br>
+				<br> [3, 78, 159] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 48, 63] <br><br>
+				<br> [-1, 48, 63] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> [3, 96, 126] <br><br>
+				<br> [3, 96, 126] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 59, -86] <br><br>
+				<br> [-1, 59, -86] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> [3, 118, 258] <br><br>
+				<br> [3, 118, 258] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 7] <br><br>
+				<br> [-1, 7] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> [3, 14] <br><br>
+				<br> [3, 14] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 95] <br><br>
+				<br> [-1, 95] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> [3, 190] <br><br>
+				<br> [3, 190] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-1, 96, 96, -36, -42, -60, 30, 50, 35, 93] <br><br>
+				<br> [-1, 96, 96, -36, -42, -60, 30, 50, 35, 93] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> [3, 192, 192, 108, 126, 180, 60, 100, 70, 186] <br><br>
+				<br> [3, 192, 192, 108, 126, 180, 60, 100, 70, 186] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -25, 89, 12, -14, -35, -99] <br><br>
+				<br> [-10, -25, 89, 12, -14, -35, -99] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> [30, 75, 178, 24, 42, 105, 297] <br><br>
+				<br> [30, 75, 178, 24, 42, 105, 297] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -27, -23, -70, 14, -34, -71, 35, -21] <br><br>
+				<br> [-10, -27, -23, -70, 14, -34, -71, 35, -21] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> [30, 81, 69, 210, 28, 102, 213, 70, 63] <br><br>
+				<br> [30, 81, 69, 210, 28, 102, 213, 70, 63] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -33, -29, 25, 5, 76] <br><br>
+				<br> [-10, -33, -29, 25, 5, 76] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> [30, 99, 87, 50, 10, 152] <br><br>
+				<br> [30, 99, 87, 50, 10, 152] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -5, -61, 79, 3, 94, -16, 57, 13] <br><br>
+				<br> [-10, -5, -61, 79, 3, 94, -16, 57, 13] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> [30, 15, 183, 158, 6, 188, 48, 114, 26] <br><br>
+				<br> [30, 15, 183, 158, 6, 188, 48, 114, 26] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -50] <br><br>
+				<br> [-10, -50] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> [30, 150] <br><br>
+				<br> [30, 150] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -55, -82, -25, 100, 55, 97] <br><br>
+				<br> [-10, -55, -82, -25, 100, 55, 97] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> [30, 165, 246, 75, 200, 110, 194] <br><br>
+				<br> [30, 165, 246, 75, 200, 110, 194] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -58, -56, -81, -91, -23, -15, -7, 11, 84, 97] <br><br>
+				<br> [-10, -58, -56, -81, -91, -23, -15, -7, 11, 84, 97] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> [30, 174, 168, 243, 273, 69, 45, 21, 22, 168, 194] <br><br>
+				<br> [30, 174, 168, 243, 273, 69, 45, 21, 22, 168, 194] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -60, -41, 21, -15, -49, -95, -29, 74, -9] <br><br>
+				<br> [-10, -60, -41, 21, -15, -49, -95, -29, 74, -9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> [30, 180, 123, 42, 45, 147, 285, 87, 148, 27] <br><br>
+				<br> [30, 180, 123, 42, 45, 147, 285, 87, 148, 27] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -65] <br><br>
+				<br> [-10, -65] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> [30, 195] <br><br>
+				<br> [30, 195] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -7, 15, -28, -78, 35, 98] <br><br>
+				<br> [-10, -7, 15, -28, -78, 35, 98] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> [30, 21, 30, 84, 234, 70, 196] <br><br>
+				<br> [30, 21, 30, 84, 234, 70, 196] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -74, -78, -33] <br><br>
+				<br> [-10, -74, -78, -33] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> [30, 222, 234, 99] <br><br>
+				<br> [30, 222, 234, 99] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -88, -39, 62, -88, -5, 19] <br><br>
+				<br> [-10, -88, -39, 62, -88, -5, 19] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> [30, 264, 117, 124, 264, 15, 38] <br><br>
+				<br> [30, 264, 117, 124, 264, 15, 38] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -88, 39, -84, -59, -89, 81, -61, 33, 53] <br><br>
+				<br> [-10, -88, 39, -84, -59, -89, 81, -61, 33, 53] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> [30, 264, 78, 252, 177, 267, 162, 183, 66, 106] <br><br>
+				<br> [30, 264, 78, 252, 177, 267, 162, 183, 66, 106] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -91, -92, -59, 97, 17, 26, 10, -70, 4, -49] <br><br>
+				<br> [-10, -91, -92, -59, 97, 17, 26, 10, -70, 4, -49] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> [30, 273, 276, 177, 194, 34, 52, 20, 210, 8, 147] <br><br>
+				<br> [30, 273, 276, 177, 194, 34, 52, 20, 210, 8, 147] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, -94, -38, -20, 81, -96, -9] <br><br>
+				<br> [-10, -94, -38, -20, 81, -96, -9] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> [30, 282, 114, 60, 162, 288, 27] <br><br>
+				<br> [30, 282, 114, 60, 162, 288, 27] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 1, 99] <br><br>
+				<br> [-10, 1, 99] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> [30, 2, 198] <br><br>
+				<br> [30, 2, 198] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 14, -33] <br><br>
+				<br> [-10, 14, -33] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> [30, 28, 99] <br><br>
+				<br> [30, 28, 99] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 27, 54, 50, -49, -56, 62, 55, 51, 33] <br><br>
+				<br> [-10, 27, 54, 50, -49, -56, 62, 55, 51, 33] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> [30, 54, 108, 100, 147, 168, 124, 110, 102, 66] <br><br>
+				<br> [30, 54, 108, 100, 147, 168, 124, 110, 102, 66] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 28, 59, -10, 45, -58, 74, 73, -31] <br><br>
+				<br> [-10, 28, 59, -10, 45, -58, 74, 73, -31] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> [30, 56, 118, 30, 90, 174, 148, 146, 93] <br><br>
+				<br> [30, 56, 118, 30, 90, 174, 148, 146, 93] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 29, 2, -10, 68, 46, -82, -75] <br><br>
+				<br> [-10, 29, 2, -10, 68, 46, -82, -75] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> [30, 58, 4, 30, 136, 92, 246, 225] <br><br>
+				<br> [30, 58, 4, 30, 136, 92, 246, 225] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 33, 98, -1, 40, 78, 3, -77, 26] <br><br>
+				<br> [-10, 33, 98, -1, 40, 78, 3, -77, 26] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> [30, 66, 196, 3, 80, 156, 6, 231, 52] <br><br>
+				<br> [30, 66, 196, 3, 80, 156, 6, 231, 52] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 40, -90] <br><br>
+				<br> [-10, 40, -90] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> [30, 80, 270] <br><br>
+				<br> [30, 80, 270] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 53, 57] <br><br>
+				<br> [-10, 53, 57] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> [30, 106, 114] <br><br>
+				<br> [30, 106, 114] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 73, -98, 4, -29, 98, 56, 69, 5, -72, 68] <br><br>
+				<br> [-10, 73, -98, 4, -29, 98, 56, 69, 5, -72, 68] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> [30, 146, 294, 8, 87, 196, 112, 138, 10, 216, 136] <br><br>
+				<br> [30, 146, 294, 8, 87, 196, 112, 138, 10, 216, 136] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 76, -27, -36, 92, 76, 25, 52] <br><br>
+				<br> [-10, 76, -27, -36, 92, 76, 25, 52] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> [30, 152, 81, 108, 184, 152, 50, 104] <br><br>
+				<br> [30, 152, 81, 108, 184, 152, 50, 104] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 76, 32, -64, 100, 65, -47, 71, -56, -34] <br><br>
+				<br> [-10, 76, 32, -64, 100, 65, -47, 71, -56, -34] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> [30, 152, 64, 192, 200, 130, 141, 142, 168, 102] <br><br>
+				<br> [30, 152, 64, 192, 200, 130, 141, 142, 168, 102] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 82, -88, 37, 88] <br><br>
+				<br> [-10, 82, -88, 37, 88] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> [30, 164, 264, 74, 176] <br><br>
+				<br> [30, 164, 264, 74, 176] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 91, 35, -98, -51, 17, 54, 3, -99, 90] <br><br>
+				<br> [-10, 91, 35, -98, -51, 17, 54, 3, -99, 90] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> [30, 182, 70, 294, 153, 34, 108, 6, 297, 180] <br><br>
+				<br> [30, 182, 70, 294, 153, 34, 108, 6, 297, 180] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-10, 91, 6, 38, -100, -40, -57, -65, -66, -83] <br><br>
+				<br> [-10, 91, 6, 38, -100, -40, -57, -65, -66, -83] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> [30, 182, 12, 76, 300, 120, 171, 195, 198, 249] <br><br>
+				<br> [30, 182, 12, 76, 300, 120, 171, 195, 198, 249] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -11, 93, -75, 22, -69, 53, -45] <br><br>
+				<br> [-100, -11, 93, -75, 22, -69, 53, -45] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> [300, 33, 186, 225, 44, 207, 106, 135] <br><br>
+				<br> [300, 33, 186, 225, 44, 207, 106, 135] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -20, -25, -11, -79] <br><br>
+				<br> [-100, -20, -25, -11, -79] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> [300, 60, 75, 33, 237] <br><br>
+				<br> [300, 60, 75, 33, 237] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -24, 99] <br><br>
+				<br> [-100, -24, 99] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> [300, 72, 198] <br><br>
+				<br> [300, 72, 198] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -29] <br><br>
+				<br> [-100, -29] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> [300, 87] <br><br>
+				<br> [300, 87] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -39, -15, 19, 19, -62, -37, -84, -13, 90, -14] <br><br>
+				<br> [-100, -39, -15, 19, 19, -62, -37, -84, -13, 90, -14] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> [300, 117, 45, 38, 38, 186, 111, 252, 39, 180, 42] <br><br>
+				<br> [300, 117, 45, 38, 38, 186, 111, 252, 39, 180, 42] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -41, 76, 20, 88, 69] <br><br>
+				<br> [-100, -41, 76, 20, 88, 69] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> [300, 123, 152, 40, 176, 138] <br><br>
+				<br> [300, 123, 152, 40, 176, 138] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -42] <br><br>
+				<br> [-100, -42] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> [300, 126] <br><br>
+				<br> [300, 126] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -60, 14, 5, 27, -41, -8, -38, -59, -64, -63] <br><br>
+				<br> [-100, -60, 14, 5, 27, -41, -8, -38, -59, -64, -63] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> [300, 180, 28, 10, 54, 123, 24, 114, 177, 192, 189] <br><br>
+				<br> [300, 180, 28, 10, 54, 123, 24, 114, 177, 192, 189] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -64, 61, 25, 41, 16, 19, 69, -43, 74] <br><br>
+				<br> [-100, -64, 61, 25, 41, 16, 19, 69, -43, 74] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> [300, 192, 122, 50, 82, 32, 38, 138, 129, 148] <br><br>
+				<br> [300, 192, 122, 50, 82, 32, 38, 138, 129, 148] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -65, 46, -65, 77, 2, 76, 14, 75, -82, 5] <br><br>
+				<br> [-100, -65, 46, -65, 77, 2, 76, 14, 75, -82, 5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> [300, 195, 92, 195, 154, 4, 152, 28, 150, 246, 10] <br><br>
+				<br> [300, 195, 92, 195, 154, 4, 152, 28, 150, 246, 10] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -67, -27, 55, -21, -47, 7, 47, 2, 91] <br><br>
+				<br> [-100, -67, -27, 55, -21, -47, 7, 47, 2, 91] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> [300, 201, 81, 110, 63, 141, 14, 94, 4, 182] <br><br>
+				<br> [300, 201, 81, 110, 63, 141, 14, 94, 4, 182] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -69, 86, -22, -47, 17, 48] <br><br>
+				<br> [-100, -69, 86, -22, -47, 17, 48] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> [300, 207, 172, 66, 141, 34, 96] <br><br>
+				<br> [300, 207, 172, 66, 141, 34, 96] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -70, -77, -56, 18, -36, -84, 34, 29, 13] <br><br>
+				<br> [-100, -70, -77, -56, 18, -36, -84, 34, 29, 13] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> [300, 210, 231, 168, 36, 108, 252, 68, 58, 26] <br><br>
+				<br> [300, 210, 231, 168, 36, 108, 252, 68, 58, 26] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -72, -56, -17, 56, 33, 88, -44, -24, -89, 35] <br><br>
+				<br> [-100, -72, -56, -17, 56, 33, 88, -44, -24, -89, 35] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> [300, 216, 168, 51, 112, 66, 176, 132, 72, 267, 70] <br><br>
+				<br> [300, 216, 168, 51, 112, 66, 176, 132, 72, 267, 70] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -75, 83, -55, 48, -78] <br><br>
+				<br> [-100, -75, 83, -55, 48, -78] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> [300, 225, 166, 165, 96, 234] <br><br>
+				<br> [300, 225, 166, 165, 96, 234] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, -9, -62, -63, -13, -39, 98, 59, 11, -76, -43] <br><br>
+				<br> [-100, -9, -62, -63, -13, -39, 98, 59, 11, -76, -43] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> [300, 27, 186, 189, 39, 117, 196, 118, 22, 228, 129] <br><br>
+				<br> [300, 27, 186, 189, 39, 117, 196, 118, 22, 228, 129] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 0, 77, 8, -3, -49, 24, 43] <br><br>
+				<br> [-100, 0, 77, 8, -3, -49, 24, 43] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> [300, 0, 154, 16, 9, 147, 48, 86] <br><br>
+				<br> [300, 0, 154, 16, 9, 147, 48, 86] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 28] <br><br>
+				<br> [-100, 28] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> [300, 56] <br><br>
+				<br> [300, 56] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 35, 93] <br><br>
+				<br> [-100, 35, 93] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> [300, 70, 186] <br><br>
+				<br> [300, 70, 186] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 45, -1, -37, 19, -77, -86] <br><br>
+				<br> [-100, 45, -1, -37, 19, -77, -86] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> [300, 90, 3, 111, 38, 231, 258] <br><br>
+				<br> [300, 90, 3, 111, 38, 231, 258] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 47, -27, 62, -33, -81, -45, -55, 75, 87, 78] <br><br>
+				<br> [-100, 47, -27, 62, -33, -81, -45, -55, 75, 87, 78] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> [300, 94, 81, 124, 99, 243, 135, 165, 150, 174, 156] <br><br>
+				<br> [300, 94, 81, 124, 99, 243, 135, 165, 150, 174, 156] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 48, -48, -48, -51, -93, -83, 57] <br><br>
+				<br> [-100, 48, -48, -48, -51, -93, -83, 57] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> [300, 96, 144, 144, 153, 279, 249, 114] <br><br>
+				<br> [300, 96, 144, 144, 153, 279, 249, 114] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 51] <br><br>
+				<br> [-100, 51] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> [300, 102] <br><br>
+				<br> [300, 102] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 53, -46, -9, -14, 86] <br><br>
+				<br> [-100, 53, -46, -9, -14, 86] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> [300, 106, 138, 27, 42, 172] <br><br>
+				<br> [300, 106, 138, 27, 42, 172] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 56, 97, 24, -54, -14, -5] <br><br>
+				<br> [-100, 56, 97, 24, -54, -14, -5] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> [300, 112, 194, 48, 162, 42, 15] <br><br>
+				<br> [300, 112, 194, 48, 162, 42, 15] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 57, 43, 77, 85, -42, 26, -19] <br><br>
+				<br> [-100, 57, 43, 77, 85, -42, 26, -19] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> [300, 114, 86, 154, 170, 126, 52, 57] <br><br>
+				<br> [300, 114, 86, 154, 170, 126, 52, 57] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 6, 96, -55, -20, -80, 60, 88, -95, -99] <br><br>
+				<br> [-100, 6, 96, -55, -20, -80, 60, 88, -95, -99] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> [300, 12, 192, 165, 60, 240, 120, 176, 285, 297] <br><br>
+				<br> [300, 12, 192, 165, 60, 240, 120, 176, 285, 297] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 64, -22, -65, 54, 72, -92, -67, -46, -29] <br><br>
+				<br> [-100, 64, -22, -65, 54, 72, -92, -67, -46, -29] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> [300, 128, 66, 195, 108, 144, 276, 201, 138, 87] <br><br>
+				<br> [300, 128, 66, 195, 108, 144, 276, 201, 138, 87] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 72, -44, -20, 41, 49, -51, -96, 91, -46, -34] <br><br>
+				<br> [-100, 72, -44, -20, 41, 49, -51, -96, 91, -46, -34] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> [300, 144, 132, 60, 82, 98, 153, 288, 182, 138, 102] <br><br>
+				<br> [300, 144, 132, 60, 82, 98, 153, 288, 182, 138, 102] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 8, 13] <br><br>
+				<br> [-100, 8, 13] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> [300, 16, 26] <br><br>
+				<br> [300, 16, 26] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 83, -92, 26] <br><br>
+				<br> [-100, 83, -92, 26] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> [300, 166, 276, 52] <br><br>
+				<br> [300, 166, 276, 52] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 85] <br><br>
+				<br> [-100, 85] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> [300, 170] <br><br>
+				<br> [300, 170] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 90, 31, -71] <br><br>
+				<br> [-100, 90, 31, -71] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> [300, 180, 62, 213] <br><br>
+				<br> [300, 180, 62, 213] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-100, 93, 56, 10, -78, 59, -36, -6, 62, -25] <br><br>
+				<br> [-100, 93, 56, 10, -78, 59, -36, -6, 62, -25] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> [300, 186, 112, 20, 234, 118, 108, 18, 124, 75] <br><br>
+				<br> [300, 186, 112, 20, 234, 118, 108, 18, 124, 75] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -31, 48, 76, 85, 44, 67, -12, -12, -96, -72] <br><br>
+				<br> [-11, -31, 48, 76, 85, 44, 67, -12, -12, -96, -72] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> [33, 93, 96, 152, 170, 88, 134, 36, 36, 288, 216] <br><br>
+				<br> [33, 93, 96, 152, 170, 88, 134, 36, 36, 288, 216] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -32, -20, 32, 77] <br><br>
+				<br> [-11, -32, -20, 32, 77] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> [33, 96, 60, 64, 154] <br><br>
+				<br> [33, 96, 60, 64, 154] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -32] <br><br>
+				<br> [-11, -32] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> [33, 96] <br><br>
+				<br> [33, 96] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -34, 15] <br><br>
+				<br> [-11, -34, 15] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> [33, 102, 30] <br><br>
+				<br> [33, 102, 30] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -53, -21, -62, 24, 68] <br><br>
+				<br> [-11, -53, -21, -62, 24, 68] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> [33, 159, 63, 186, 48, 136] <br><br>
+				<br> [33, 159, 63, 186, 48, 136] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -61, 93] <br><br>
+				<br> [-11, -61, 93] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> [33, 183, 186] <br><br>
+				<br> [33, 183, 186] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -7, -8, 9, 35] <br><br>
+				<br> [-11, -7, -8, 9, 35] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> [33, 21, 24, 18, 70] <br><br>
+				<br> [33, 21, 24, 18, 70] <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> [-11, -73, 19, -82] <br><br>
+				<br> [-11, -73, 19, -82] <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> [33, 219, 38, 246] <br><br>
+				<br> [33, 219, 38, 246] <br><br>
+			</td>
+		</tr>
+	</table>

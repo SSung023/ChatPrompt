@@ -27,3 +27,1739 @@
 
  ( split this page up and down ) 
 
+	<table border='1' table width='1024px' style='table-layout:fixed; word-break:break-all;'><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 1 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: luggage surrounds a vehicle in an underground parking area <br><br>
+				<br> 문장: 지하주차장에서 짐이 차량을 에워싸다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 1 <br><br>
+			</td>
+			<td>
+				<br> area parking underground an in vehicle a surrounds luggage <br><br>
+				<br> 지하 주차장 및 차량 내 수하물 주변 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 2 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: people stand at a traffic light in a busy city <br><br>
+				<br> 문장: 바쁜 도시의 신호등 앞에 서 있는 사람들 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 2 <br><br>
+			</td>
+			<td>
+				<br> city busy a in light traffic a at stand people <br><br>
+				<br> 교통량이 적은 도시 바쁜 사람들 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 3 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a baby cow nursing and many other cows are in a brown field <br><br>
+				<br> 문장: 새끼 젖소 젖먹이와 다른 많은 젖소들이 갈색 들판에 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 3 <br><br>
+			</td>
+			<td>
+				<br> field brown a in are cows other many and nursing cow baby a <br><br>
+				<br> 들판 갈색 암소 다른 많은 암소 아기 암소 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 4 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a baby girl and a toy fox with woman laying down <br><br>
+				<br> 문장: 누워있는 여자 아기와 장난감 여우 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 4 <br><br>
+			</td>
+			<td>
+				<br> down laying woman with fox toy a and girl baby a <br><br>
+				<br> 누워있는 여자 여우 장난감 a와 여자 아기 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 5 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a baseball game is in action as the catcher leans for the ball <br><br>
+				<br> 문장: 포수가 공을 향해 몸을 기울일 때 야구 경기가 진행 중입니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 5 <br><br>
+			</td>
+			<td>
+				<br> ball the for leans catcher the as action in is game baseball a <br><br>
+				<br> 공을 기대다 포수로 액션에서 게임 야구 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 6 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a basic portal potty that may be in a plane <br><br>
+				<br> 문장: 평면에 있을 수 있는 기본 포털 변기 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 6 <br><br>
+			</td>
+			<td>
+				<br> plane a in be may that potty portal basic a <br><br>
+				<br> 평면 a in be may that potty Portal 기본 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 7 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bathroom scene with a toilet sink and a suitcase <br><br>
+				<br> 문장: 세면대와 여행가방이 있는 화장실 장면 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 7 <br><br>
+			</td>
+			<td>
+				<br> suitcase a and sink toilet a with scene bathroom a <br><br>
+				<br> 여행 가방 a와 세면대 화장실 a 장면 욕실 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 8 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bathroom scene with marble counter top and toiletries <br><br>
+				<br> 문장: 대리석 상판과 세면도구가 있는 욕실 장면 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 8 <br><br>
+			</td>
+			<td>
+				<br> toiletries and top counter marble with scene bathroom a <br><br>
+				<br> 세면 도구 및 장면 욕실이있는 상단 카운터 대리석 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 9 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bathroom stall with a toilet lid that is open and graffiti o the walls <br><br>
+				<br> 문장: 변기 뚜껑이 열려 있고 벽에 그래피티가 있는 화장실 칸막이 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 9 <br><br>
+			</td>
+			<td>
+				<br> walls the o graffiti and open is that lid toilet a with stall bathroom a <br><br>
+				<br> 벽 o 낙서 및 오픈은 마구간 욕실이 있는 뚜껑이 있는 변기 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 10 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bathroom with a sink a urinal and a commode <br><br>
+				<br> 문장: 세면대, 소변기, 변기가 있는 욕실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 10 <br><br>
+			</td>
+			<td>
+				<br> commode a and urinal a sink a with bathroom a <br><br>
+				<br> 변기 a와 소변기 세면대 a 화장실 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 11 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bathroom with a sink toilet mirror and a window <br><br>
+				<br> 문장: 세면대 변기 거울과 창문이 있는 욕실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 11 <br><br>
+			</td>
+			<td>
+				<br> window a and mirror toilet sink a with bathroom a <br><br>
+				<br> 창문 a와 거울 세면대 a 욕실 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 12 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bathroom with a small white toilet under a window <br><br>
+				<br> 문장: 창문 아래 작은 흰색 변기가 있는 욕실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 12 <br><br>
+			</td>
+			<td>
+				<br> window a under toilet white small a with bathroom a <br><br>
+				<br> 창문 a 화장실 아래 흰색 작은 a 화장실 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 13 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a beautiful woman in purple holding a tennis racquet <br><br>
+				<br> 문장: 테니스 라켓을 들고 보라색 옷을 입은 아름다운 여성 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 13 <br><br>
+			</td>
+			<td>
+				<br> racquet tennis a holding purple in woman beautiful a <br><br>
+				<br> 라켓 테니스 아름 다운 여자에 지주 보라색 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 14 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bed room with a bed and a large window <br><br>
+				<br> 문장: 침대와 큰 창문이 있는 침실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 14 <br><br>
+			</td>
+			<td>
+				<br> window large a and bed a with room bed a <br><br>
+				<br> 큰 창문 a와 침실 a가 있는 침대 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 15 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bed sitting up against a wall next to a computer <br><br>
+				<br> 문장: 컴퓨터 옆 벽에 기대어 앉은 침대 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 15 <br><br>
+			</td>
+			<td>
+				<br> computer a to next wall a against up sitting bed a <br><br>
+				<br> 컴퓨터 a를 옆벽에 a에 기대어 앉은 침대 a에 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 16 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bed with a wooden headboard next to a window <br><br>
+				<br> 문장: 창문 옆에 나무 헤드보드가 있는 침대 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 16 <br><br>
+			</td>
+			<td>
+				<br> window a to next headboard wooden a with bed a <br><br>
+				<br> 창문 a 옆 침대 머리판 나무 a 침대 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 17 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bench near a path next to a tree <br><br>
+				<br> 문장: 나무 옆 오솔길 근처 벤치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 17 <br><br>
+			</td>
+			<td>
+				<br> tree a to next path a near bench a <br><br>
+				<br> 나무 a에서 다음 경로 a 가까운 벤치 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 18 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bench with a potted plant at the top <br><br>
+				<br> 문장: 꼭대기에 화분이 있는 벤치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 18 <br><br>
+			</td>
+			<td>
+				<br> top the at plant potted a with bench a <br><br>
+				<br> 벤치 a로 화분에 심은 식물 꼭대기 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 19 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a beth room with a toilet and a bath tub <br><br>
+				<br> 문장: 화장실과 욕조가 있는 침실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 19 <br><br>
+			</td>
+			<td>
+				<br> tub bath a and toilet a with room beth a <br><br>
+				<br> 욕조 욕조 a 화장실 a 방 베 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 20 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a big bear that is staring at a camera <br><br>
+				<br> 문장: 카메라를 응시하는 큰 곰 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 20 <br><br>
+			</td>
+			<td>
+				<br> camera a at staring is that bear big a <br><br>
+				<br> 카메라가 응시하는 것은 그 곰이 크다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 21 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a big brown teddy bear sitting on top of a sign in front of a tree <br><br>
+				<br> 문장: 나무 앞 표지판 위에 앉아 있는 큰 갈색 테디베어 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 21 <br><br>
+			</td>
+			<td>
+				<br> tree a of front in sign a of top on sitting bear teddy brown big a <br><br>
+				<br> 앉아있는 곰 테디 브라운 빅 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 22 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bike with motor fixed in it standing in a line up of bikes <br><br>
+				<br> 문장: 모터가 고정된 자전거가 줄지어 서서 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 22 <br><br>
+			</td>
+			<td>
+				<br> bikes of up line a in standing it in fixed motor with bike a <br><br>
+				<br> 바이크 a로 고정 모터에 세워서 업라인 a의 바이크 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 23 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a black bear calmly swimming in the water <br><br>
+				<br> 문장: 물속에서 침착하게 수영하는 흑곰 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 23 <br><br>
+			</td>
+			<td>
+				<br> water the in swimming calmly bear black a <br><br>
+				<br> 물은 수영에서 침착하게 곰 검정을 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 24 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a black bear is walking through the wild near a rock <br><br>
+				<br> 문장: 흑곰이 바위 근처의 야생을 걷고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 24 <br><br>
+			</td>
+			<td>
+				<br> rock a near wild the through walking is bear black a <br><br>
+				<br> 야생에 가까운 바위를 걷는 것은 곰 검은 색입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 25 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a black dog laying down on a couch <br><br>
+				<br> 문장: 소파에 누워있는 검은 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 25 <br><br>
+			</td>
+			<td>
+				<br> couch a on down laying dog black a <br><br>
+				<br> 소파에 누워있는 강아지 검정 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 26 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a black vase holds a group of flowers <br><br>
+				<br> 문장: 검은 꽃병에 꽃 무리가 들어 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 26 <br><br>
+			</td>
+			<td>
+				<br> flowers of group a holds vase black a <br><br>
+				<br> 그룹 a의 꽃은 꽃병 블랙 a를 보유 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 27 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boat in a body of water with a house and lighthouse in the distance <br><br>
+				<br> 문장: 저 멀리 집과 등대가 있는 물속의 배 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 27 <br><br>
+			</td>
+			<td>
+				<br> distance the in lighthouse and house a with water of body a in boat a <br><br>
+				<br> 등대와 집에서 배에서 몸의 물과 거리 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 28 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boston red sox player up to bat <br><br>
+				<br> 문장: 타석까지 보스턴 레드삭스 선수 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 28 <br><br>
+			</td>
+			<td>
+				<br> bat to up player sox red boston a <br><br>
+				<br> 배트 투 업 플레이어 삭스 레드 보스턴 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 29 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boy blurs down a hill on his skateboard in front of a graffiti wall <br><br>
+				<br> 문장: 한 소년이 그래피티 벽 앞에서 스케이트보드를 타고 언덕을 내려오고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 29 <br><br>
+			</td>
+			<td>
+				<br> wall graffiti a of front in skateboard his on hill a down blurs boy a <br><br>
+				<br> 스케이트 보드 앞의 벽 낙서 a는 언덕에 그의 아래로 흐리게 소년 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 30 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boy is hitting a baseball during a baseball game <br><br>
+				<br> 문장: 소년이 야구 경기 중에 야구공을 치고 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 30 <br><br>
+			</td>
+			<td>
+				<br> game baseball a during baseball a hitting is boy a <br><br>
+				<br> 게임 야구 a 야구 중 타격은 소년 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 31 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boy is playing a game with a controller in a room <br><br>
+				<br> 문장: 소년이 방에서 컨트롤러로 게임을 하고 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 31 <br><br>
+			</td>
+			<td>
+				<br> room a in controller a with game a playing is boy a <br><br>
+				<br> 컨트롤러 a의 방 a with game a playing is boy a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 32 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boy rides a pony close to a large crowd <br><br>
+				<br> 문장: 한 소년이 많은 군중 가까이에서 조랑말을 탄다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 32 <br><br>
+			</td>
+			<td>
+				<br> crowd large a to close pony a rides boy a <br><br>
+				<br> 조랑말 a 타기 소년 a를 닫는 군중 큰 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 33 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boy runs with a kite as many people mill about nearby <br><br>
+				<br> 문장: 많은 사람들이 근처에서 방황하는 동안 소년은 연을 가지고 달린다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 33 <br><br>
+			</td>
+			<td>
+				<br> nearby about mill people many as kite a with runs boy a <br><br>
+				<br> 연 소년과 함께 많은 밀 사람들이 근처에 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 34 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boy standing in a subway station with a bag of luggage <br><br>
+				<br> 문장: 짐가방을 들고 지하철역에 서 있는 소년 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 34 <br><br>
+			</td>
+			<td>
+				<br> luggage of bag a with station subway a in standing boy a <br><br>
+				<br> 서있는 소년 a에 역 지하철 a가있는 가방 a의 수하물 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 35 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a boy standing with a cow on a dirt road <br><br>
+				<br> 문장: 소와 함께 흙길에 서 있는 소년 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 35 <br><br>
+			</td>
+			<td>
+				<br> road dirt a on cow a with standing boy a <br><br>
+				<br> 서있는 소년과 함께 암소의 도로 흙 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 36 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a brown bear standing on top of a rock <br><br>
+				<br> 문장: 바위 위에 서 있는 갈색 곰 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 36 <br><br>
+			</td>
+			<td>
+				<br> rock a of top on standing bear brown a <br><br>
+				<br> 서 있는 곰 브라운에 정상의 락 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 37 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a brown donut on some white paper on a red counter <br><br>
+				<br> 문장: 빨간 카운터에 흰 종이에 갈색 도넛 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 37 <br><br>
+			</td>
+			<td>
+				<br> counter red a on paper white some on donut brown a <br><br>
+				<br> 흰색 종이에 카운터 레드 a 일부는 도넛 브라운 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 38 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bucket of oranges sitting next to a bike <br><br>
+				<br> 문장: 자전거 옆에 앉아 있는 오렌지 양동이 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 38 <br><br>
+			</td>
+			<td>
+				<br> bike a to next sitting oranges of bucket a <br><br>
+				<br> 양동이 a의 다음 앉아있는 오렌지에 자전거 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 39 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a building has a large hamburger for a sign <br><br>
+				<br> 문장: 건물에는 간판으로 큰 햄버거가 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 39 <br><br>
+			</td>
+			<td>
+				<br> sign a for hamburger large a has building a <br><br>
+				<br> 큰 햄버거를 위해 a에 서명하십시오 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 40 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bunch of animals that are in some grass <br><br>
+				<br> 문장: 잔디에 있는 동물의 무리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 40 <br><br>
+			</td>
+			<td>
+				<br> grass some in are that animals of bunch a <br><br>
+				<br> 잔디 일부는 무리의 동물입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 41 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bunch of apples sitting in a pile together <br><br>
+				<br> 문장: 함께 더미에 앉아 사과의 무리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 41 <br><br>
+			</td>
+			<td>
+				<br> together pile a in sitting apples of bunch a <br><br>
+				<br> 함께 무리의 앉아 사과 더미 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 42 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bunch of bikes parked on the side of the road <br><br>
+				<br> 문장: 길가에 주차된 자전거 한 다발 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 42 <br><br>
+			</td>
+			<td>
+				<br> road the of side the on parked bikes of bunch a <br><br>
+				<br> 무리 A의 주차 자전거에 측면의 도로 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 43 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bunch of passenger jets is parked by the air port <br><br>
+				<br> 문장: 한 무리의 여객기가 공항 옆에 주차되어 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 43 <br><br>
+			</td>
+			<td>
+				<br> port air the by parked is jets passenger of bunch a <br><br>
+				<br> 항구 공기에 의해 주차는 무리 A의 제트기 승객입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 44 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bunch of people with umbrellas walking near the water <br><br>
+				<br> 문장: 우산을 쓰고 물가를 걷고 있는 한 무리의 사람들 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 44 <br><br>
+			</td>
+			<td>
+				<br> water the near walking umbrellas with people of bunch a <br><br>
+				<br> A 무리의 사람들과 가까운 걷는 우산에 물을 주다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 45 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a bus is stopped and people are walking nearby <br><br>
+				<br> 문장: 버스가 정차하고 사람들이 근처를 걷고 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 45 <br><br>
+			</td>
+			<td>
+				<br> nearby walking are people and stopped is bus a <br><br>
+				<br> 근처에 걷는 사람은 사람이고 멈춘 곳은 버스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 46 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a busted up boat sitting in the middle of some grass <br><br>
+				<br> 문장: 잔디 한가운데에 앉아 있는 부서진 배 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 46 <br><br>
+			</td>
+			<td>
+				<br> grass some of middle the in sitting boat up busted a <br><br>
+				<br> 잔디 일부 의 중간 에 에 앉아 보트 올라 체포 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 47 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cake for a baby is displayed on a table <br><br>
+				<br> 문장: 아기를 위한 케이크가 탁자 위에 놓여 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 47 <br><br>
+			</td>
+			<td>
+				<br> table a on displayed is baby a for cake a <br><br>
+				<br> 표시된 테이블 a는 케이크 a를 위한 아기 a입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 48 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a car seat with a rotten banana in the cup holder <br><br>
+				<br> 문장: 컵 홀더에 썩은 바나나가 있는 카시트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 48 <br><br>
+			</td>
+			<td>
+				<br> holder cup the in banana rotten a with seat car a <br><br>
+				<br> 홀더 컵 더 인 바나나 썩은 a with seat car a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 49 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cargo train makes its way across the mountain <br><br>
+				<br> 문장: 화물열차가 산을 가로질러 간다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 49 <br><br>
+			</td>
+			<td>
+				<br> mountain the across way its makes train cargo a <br><br>
+				<br> 건너편에 있는 산은 기차 화물을 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 50 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cat curiously reaching towards a television screen <br><br>
+				<br> 문장: 텔레비전 화면을 향해 손을 뻗는 고양이 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 50 <br><br>
+			</td>
+			<td>
+				<br> screen television a towards reaching curiously cat a <br><br>
+				<br> 고양이에게 다가가는 스크린 텔레비전 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 51 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cat is curled up inside a wire basket <br><br>
+				<br> 문장: 고양이가 철망 바구니 안에 웅크리고 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 51 <br><br>
+			</td>
+			<td>
+				<br> basket wire a inside up curled is cat a <br><br>
+				<br> 바스켓 와이어 a 뒤집어 웅크린 고양이 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 52 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cat sitting on a desk in front of a large image of an owl <br><br>
+				<br> 문장: 올빼미의 큰 이미지 앞에 책상에 앉아 고양이 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 52 <br><br>
+			</td>
+			<td>
+				<br> owl an of image large a of front in desk a on sitting cat a <br><br>
+				<br> 앉아있는 고양이 a에 책상 a 앞의 이미지 큰 a의 올빼미 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 53 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cat sitting on a ladder being reflected in a mirror <br><br>
+				<br> 문장: 사다리에 앉아 있는 고양이가 거울에 비친 모습 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 53 <br><br>
+			</td>
+			<td>
+				<br> mirror a in reflected being ladder a on sitting cat a <br><br>
+				<br> 앉아있는 고양이에 반사되는 사다리에 거울 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 54 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a city side walk crowded with many people by a street <br><br>
+				<br> 문장: 거리에서 많은 사람들로 붐비는 도시 쪽 산책 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 54 <br><br>
+			</td>
+			<td>
+				<br> street a by people many with crowded walk side city a <br><br>
+				<br> 붐비는 많은 사람들이 거리를 걷고 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 55 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a city street with apartment buildings and a lamp post <br><br>
+				<br> 문장: 아파트 건물과 가로등 기둥이 있는 도시의 거리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 55 <br><br>
+			</td>
+			<td>
+				<br> post lamp a and buildings apartment with street city a <br><br>
+				<br> 가로등 a와 거리 도시 a가 있는 건물 아파트 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 56 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a city street with bicyclists doubledecker buses and many lights <br><br>
+				<br> 문장: 자전거 타는 이층 버스와 많은 조명이 있는 도시 거리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 56 <br><br>
+			</td>
+			<td>
+				<br> lights many and buses doubledecker bicyclists with street city a <br><br>
+				<br> 거리 도시와 함께 많은 조명과 버스 이층 자전거 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 57 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a clean restroom with towels and washcloths laid out <br><br>
+				<br> 문장: 수건과 수건이 깔려 있는 깨끗한 화장실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 57 <br><br>
+			</td>
+			<td>
+				<br> out laid washcloths and towels with restroom clean a <br><br>
+				<br> 화장실에 놓인 수건과 수건을 청소합니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 58 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a clock on a pole on a city street <br><br>
+				<br> 문장: 도시 거리에 기둥에 시계 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 58 <br><br>
+			</td>
+			<td>
+				<br> street city a on pole a on clock a <br><br>
+				<br> 스트리트 시티 a on pole a on clock a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 59 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a clock sits atop a red brick building <br><br>
+				<br> 문장: 붉은 벽돌 건물 위에 시계가 앉아 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 59 <br><br>
+			</td>
+			<td>
+				<br> building brick red a atop sits clock a <br><br>
+				<br> 건물 벽돌 빨강 a 꼭대기에 앉아 시계 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 60 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a close up of a clock tower and a steeple <br><br>
+				<br> 문장: 시계탑과 첨탑의 클로즈업 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 60 <br><br>
+			</td>
+			<td>
+				<br> steeple a and tower clock a of up close a <br><br>
+				<br> 첨탑 a와 가까이 있는 탑시계 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 61 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a close up of a pair of scissors on a piece of black material <br><br>
+				<br> 문장: 검은색 재료에 가위 클로즈업 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 61 <br><br>
+			</td>
+			<td>
+				<br> material black of piece a on scissors of pair a of up close a <br><br>
+				<br> 가까운 a의 쌍 a의 가위에 조각 a의 재료 검은색 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 62 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a close up of a person holding a doughnut <br><br>
+				<br> 문장: 도넛을 들고 있는 사람의 클로즈업 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 62 <br><br>
+			</td>
+			<td>
+				<br> doughnut a holding person a of up close a <br><br>
+				<br> 가까이 있는 사람을 안고 있는 도넛 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 63 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a closeup of carrots with a large knife <br><br>
+				<br> 문장: 큰 칼로 당근을 클로즈업 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 63 <br><br>
+			</td>
+			<td>
+				<br> knife large a with carrots of closeup a <br><br>
+				<br> 근접 촬영의 당근 큰 칼 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 64 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cloudless day on a farm with cattle <br><br>
+				<br> 문장: 소가 있는 농장의 구름 한 점 없는 날 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 64 <br><br>
+			</td>
+			<td>
+				<br> cattle with farm a on day cloudless a <br><br>
+				<br> 구름 없는 날에 농장이 있는 소 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 65 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cluttered bedroom with books on the bed <br><br>
+				<br> 문장: 침대 위에 책이 있는 어수선한 침실 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 65 <br><br>
+			</td>
+			<td>
+				<br> bed the on books with bedroom cluttered a <br><br>
+				<br> 침실이 어수선한 책에 침대 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 66 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a colorful array of vegetables is on the table <br><br>
+				<br> 문장: 테이블 위에 다채로운 채소가 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 66 <br><br>
+			</td>
+			<td>
+				<br> table the on is vegetables of array colorful a <br><br>
+				<br> 테이블에 배열 다채로운 a의 야채입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 67 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a computer that is sitting on a bed <br><br>
+				<br> 문장: 침대에 앉아 있는 컴퓨터 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 67 <br><br>
+			</td>
+			<td>
+				<br> bed a on sitting is that computer a <br><br>
+				<br> 앉아있는 침대는 그 컴퓨터입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 68 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couch sitting out on a sidewalk next to a red and white fire hydrant <br><br>
+				<br> 문장: 빨간색과 흰색 소화전 옆 보도에 앉아 있는 소파 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 68 <br><br>
+			</td>
+			<td>
+				<br> hydrant fire white and red a to next sidewalk a on out sitting couch a <br><br>
+				<br> 소화전 화재 흰색과 빨간색 a 옆 보도 a 야외 소파 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 69 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple of giraffe standing next to each other <br><br>
+				<br> 문장: 나란히 서 있는 기린 두 마리 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 69 <br><br>
+			</td>
+			<td>
+				<br> other each to next standing giraffe of couple a <br><br>
+				<br> 부부 a의 옆에 서있는 기린에게 서로 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 70 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple of guys standing next to each other holding tennis racquet <br><br>
+				<br> 문장: 테니스 라켓을 들고 서로 옆에 서있는 두 사람 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 70 <br><br>
+			</td>
+			<td>
+				<br> racquet tennis holding other each to next standing guys of couple a <br><br>
+				<br> 라켓 테니스 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 71 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple of long horn goats standing on a rocky cliff side <br><br>
+				<br> 문장: 바위 절벽 쪽에 서 있는 긴 뿔 염소 한 쌍 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 71 <br><br>
+			</td>
+			<td>
+				<br> side cliff rocky a on standing goats horn long of couple a <br><br>
+				<br> 커플 a의 긴 서있는 염소 뿔에 바위가 많은 측면 절벽 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 72 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple of men moving appliances outside of a home <br><br>
+				<br> 문장: 집 밖에서 가전제품을 옮기는 두 남자 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 72 <br><br>
+			</td>
+			<td>
+				<br> home a of outside appliances moving men of couple a <br><br>
+				<br> 부부a의 남자 이사하는 가전제품의 집a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 73 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple of people holding nintendo wii game controllers <br><br>
+				<br> 문장: nintendo wii 게임 컨트롤러를 들고 있는 두 사람 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 73 <br><br>
+			</td>
+			<td>
+				<br> controllers game wii nintendo holding people of couple a <br><br>
+				<br> 컨트롤러 게임 wii nintendo 부부의 사람들을 들고 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 74 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple of people standing on top of a snow covered slope <br><br>
+				<br> 문장: 눈 덮인 비탈 위에 서 있는 두 사람 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 74 <br><br>
+			</td>
+			<td>
+				<br> slope covered snow a of top on standing people of couple a <br><br>
+				<br> 커플의 서 있는 사람들 위에 있는 슬로프 덮힌 눈 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 75 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple of young men standing next to each other <br><br>
+				<br> 문장: 서로 옆에 서 있는 두 명의 젊은 남자 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 75 <br><br>
+			</td>
+			<td>
+				<br> other each to next standing men young of couple a <br><br>
+				<br> 부부 a의 젊은 남자 옆에 서로 서로 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 76 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a couple pieces of pizza sit on some tin foil <br><br>
+				<br> 문장: 피자 두 조각이 은박지에 놓여 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 76 <br><br>
+			</td>
+			<td>
+				<br> foil tin some on sit pizza of pieces couple a <br><br>
+				<br> 호일 주석 약간에 앉아 조각 피자 커플 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 77 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a cow is in a lake washing itself around ducks <br><br>
+				<br> 문장: 소가 호수에서 오리 주위를 씻는다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 77 <br><br>
+			</td>
+			<td>
+				<br> ducks around itself washing lake a in is cow a <br><br>
+				<br> 호수를 씻는 오리 주변의 오리는 소입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 78 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a crowd of people mingling on a sidewalk by parked motorcycles <br><br>
+				<br> 문장: 주차된 오토바이를 타고 인도에서 섞이는 사람들의 군중 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 78 <br><br>
+			</td>
+			<td>
+				<br> motorcycles parked by sidewalk a on mingling people of crowd a <br><br>
+				<br> 군중의 혼합 사람들에 보도에 주차 오토바이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 79 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a desk with a computer monitor printer and cd rack <br><br>
+				<br> 문장: 컴퓨터 모니터 프린터와 CD 랙이 있는 책상 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 79 <br><br>
+			</td>
+			<td>
+				<br> rack cd and printer monitor computer a with desk a <br><br>
+				<br> 랙 cd 및 프린터 모니터 컴퓨터 a와 책상 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 80 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dinner order at a very expensive restaurant <br><br>
+				<br> 문장: 아주 비싼 레스토랑에서 저녁 주문 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 80 <br><br>
+			</td>
+			<td>
+				<br> restaurant expensive very a at order dinner a <br><br>
+				<br> 비싼 레스토랑 매우 a at order dinner a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 81 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dinner plate filled with food on a table <br><br>
+				<br> 문장: 테이블 위에 음식이 가득 차 있는 디너 플레이트 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 81 <br><br>
+			</td>
+			<td>
+				<br> table a on food with filled plate dinner a <br><br>
+				<br> 채워진 접시 저녁 식사와 함께 음식에 테이블 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 82 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a display case in a store filled with apples and oranges <br><br>
+				<br> 문장: 사과와 오렌지로 가득 찬 가게의 진열장 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 82 <br><br>
+			</td>
+			<td>
+				<br> oranges and apples with filled store a in case display a <br><br>
+				<br> 채워진 매장이 있는 오렌지와 사과 케이스 디스플레이 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 83 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog doin his duty and heerding sheep <br><br>
+				<br> 문장: 의무를 다하고 양을 지키는 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 83 <br><br>
+			</td>
+			<td>
+				<br> sheep heerding and duty his doin dog a <br><br>
+				<br> 양을 치는 것과 그의 개를 하는 의무 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 84 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog laying under a bed on top of a wooden floor <br><br>
+				<br> 문장: 나무 바닥 위에 침대 밑에 누워있는 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 84 <br><br>
+			</td>
+			<td>
+				<br> floor wooden a of top on bed a under laying dog a <br><br>
+				<br> 침대 위의 나무 바닥 a 아래에 누워있는 개 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 85 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog looking the same direction as two females sitting on a park bench facing a body of water <br><br>
+				<br> 문장: 수역을 마주한 공원 벤치에 앉아 있는 두 마리의 암컷과 같은 방향을 바라보는 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 85 <br><br>
+			</td>
+			<td>
+				<br> water of body a facing bench park a on sitting females two as direction same the looking dog a <br><br>
+				<br> 몸의 물을 마주보는 벤치 공원 a 앉은 암컷 두 마리 같은 방향으로 바라보는 개 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 86 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog on a leash tied to a motor home <br><br>
+				<br> 문장: 캠핑카에 목줄이 묶인 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 86 <br><br>
+			</td>
+			<td>
+				<br> home motor a to tied leash a on dog a <br><br>
+				<br> 홈 모터 a에서 가죽 끈 a를 개 a에 묶었습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 87 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog sits next to two standing people <br><br>
+				<br> 문장: 서 있는 두 사람 옆에 개 한 마리가 앉아 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 87 <br><br>
+			</td>
+			<td>
+				<br> people standing two to next sits dog a <br><br>
+				<br> 두 사람 옆에 서 있는 사람들이 개를 앉는다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 88 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog sits on the grass as a man holds a frisbe <br><br>
+				<br> 문장: 남자가 프리즈베를 들고 있을 때 개는 풀밭에 앉아 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 88 <br><br>
+			</td>
+			<td>
+				<br> frisbe a holds man a as grass the on sits dog a <br><br>
+				<br> frisbe a는 사람을 잔디처럼 안고 있고 개는 앉는다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 89 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog sitting on a couch holding a frisbee in its mouth <br><br>
+				<br> 문장: 프리스비를 입에 물고 소파에 앉아 있는 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 89 <br><br>
+			</td>
+			<td>
+				<br> mouth its in frisbee a holding couch a on sitting dog a <br><br>
+				<br> 프리스비에 입을 대고 소파에 앉아있는 개에 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 90 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog standing in the snow with a stick in its mouth <br><br>
+				<br> 문장: 입에 막대기를 물고 눈 속에 서있는 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 90 <br><br>
+			</td>
+			<td>
+				<br> mouth its in stick a with snow the in standing dog a <br><br>
+				<br> 입 그것의 스틱 a 눈과 함께 서 있는 개 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 91 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dog that is sitting on top of a rug <br><br>
+				<br> 문장: 양탄자 위에 앉아있는 개 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 91 <br><br>
+			</td>
+			<td>
+				<br> rug a of top on sitting is that dog a <br><br>
+				<br> 위에 깔개 a는 그 개 a입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 92 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a dresser with several jewelery boxes and other personal items on it <br><br>
+				<br> 문장: 여러 개의 보석 상자와 기타 개인 물품이 있는 서랍장 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 92 <br><br>
+			</td>
+			<td>
+				<br> it on items personal other and boxes jewelery several with dresser a <br><br>
+				<br> 옷장과 함께 개인 기타 및 상자 보석 여러 개에 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 93 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a empty highway with a bicycler riding a bike on it <br><br>
+				<br> 문장: 자전거 타는 사람이 타고 있는 텅 빈 고속도로 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 93 <br><br>
+			</td>
+			<td>
+				<br> it on bike a riding bicycler a with highway empty a <br><br>
+				<br> 그것은 자전거를 타고 자전거를 타는 사람과 고속도로가 비어있는 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 94 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a female tennis player waiting for the serve <br><br>
+				<br> 문장: 서브를 기다리는 여자 테니스 선수 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 94 <br><br>
+			</td>
+			<td>
+				<br> serve the for waiting player tennis female a <br><br>
+				<br> 기다리는 선수 테니스 여성에게 봉사 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 95 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a fire hydrant is on the side of the street <br><br>
+				<br> 문장: 소화전은 길가에 있다 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 95 <br><br>
+			</td>
+			<td>
+				<br> street the of side the on is hydrant fire a <br><br>
+				<br> 거리의 측면에 소화전 화재입니다 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 96 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a fire hydrant is painted yellow and blue and a guy is next to one <br><br>
+				<br> 문장: 소화전은 노란색과 파란색으로 칠해져 있고 그 옆에는 남자가 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 96 <br><br>
+			</td>
+			<td>
+				<br> one to next is guy a and blue and yellow painted is hydrant fire a <br><br>
+				<br> 다음은 남자 a이고 파란색과 노란색으로 칠해진 것은 소화전 화재 a입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 97 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a fire hydrant next to a tall wooden fence <br><br>
+				<br> 문장: 높은 나무 울타리 옆 소화전 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 97 <br><br>
+			</td>
+			<td>
+				<br> fence wooden tall a to next hydrant fire a <br><br>
+				<br> 울타리 나무 높이 a 다음 소화전 화재 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 98 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a flock of pigeons on a traffic light post in the city <br><br>
+				<br> 문장: 도시의 신호등 기둥에 비둘기 떼 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 98 <br><br>
+			</td>
+			<td>
+				<br> city the in post light traffic a on pigeons of flock a <br><br>
+				<br> 도시는 포스트 라이트 트래픽에서 무리의 비둘기를 타고 있습니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 99 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a food processor with a small cup attachment filled with a green paste <br><br>
+				<br> 문장: 녹색 페이스트로 채워진 작은 컵 부착물이 있는 푸드 프로세서 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 99 <br><br>
+			</td>
+			<td>
+				<br> paste green a with filled attachment cup small a with processor food a <br><br>
+				<br> 페이스트 녹색 a 채워진 부착 컵 작은 a 프로세서 식품 a <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 100 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a food truck is parked by an overpass <br><br>
+				<br> 문장: 육교 옆에 푸드트럭이 주차되어 있습니다. <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 100 <br><br>
+			</td>
+			<td>
+				<br> overpass an by parked is truck food a <br><br>
+				<br> 육교 옆에 주차된 것은 트럭 음식입니다. <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 101 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a garden bench nestled in a botanical oasis <br><br>
+				<br> 문장: 식물 오아시스에 자리 잡은 정원 벤치 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 101 <br><br>
+			</td>
+			<td>
+				<br> oasis botanical a in nestled bench garden a <br><br>
+				<br> 자리잡은 벤치 가든에 있는 오아시스 보태니컬 <br><br>
+			</td>
+		</tr><tr>
+			<td bgcolor='green' align='center'>
+				<br> 입력 102 <br><br>
+			</td>
+			<td bgcolor='green'>
+				<br> Sentence: a giraffe almost hidden by tall trees surrounding it <br><br>
+				<br> 문장: 주변의 키 큰 나무에 거의 가려진 기린 <br><br>
+			</td>
+		</tr>
+		<tr>
+			<td align='center'>
+				<br> 출력 102 <br><br>
+			</td>
+			<td>
+				<br> it surrounding trees tall by hidden almost giraffe a <br><br>
+				<br> 숨겨진 거의 기린에 의해 키가 큰 나무를 둘러싼 <br><br>
+			</td>
+		</tr>
+	</table>
