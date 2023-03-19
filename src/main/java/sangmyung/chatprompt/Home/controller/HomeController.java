@@ -45,7 +45,7 @@ public class HomeController {
             promptList.add(infoList.get(i+1));
 
             String taskNum = promptList.get(0).getTask().replaceAll("[^0-9]", "");
-            int idx = Integer.parseInt(infoList.get(i).getIndex().replaceAll("[^0-9]", ""));
+            String idx = infoList.get(i).getIndex().replaceAll("[^0-9]", "");
 
             taskList.add(taskNum);
             txtWriter.checkAndWriteFile(promptList, taskNum, idx);

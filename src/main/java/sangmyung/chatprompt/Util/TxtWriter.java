@@ -21,7 +21,7 @@ public class TxtWriter {
 
 
 
-    public void checkAndWriteFile(List<PromptDTO> infoList, String taskNum, int idx) throws IOException {
+    public void checkAndWriteFile(List<PromptDTO> infoList, String taskNum, String idx) throws IOException {
         File file = new File(txtPath + taskNum + refSuffix);
 
         if (!file.exists()){
@@ -37,7 +37,7 @@ public class TxtWriter {
         bufferedWriter.close();
 
 
-        appender.appendTds(file, infoList, idx);
+        appender.appendTds(taskNum, infoList, idx);
     }
 
     public void addTableSuffix(String taskNum) throws IOException {

@@ -7,10 +7,13 @@ import java.util.List;
 
 @Service
 public class TxtAppender {
-//    private File file;
+    private String txtPath = "prompt/reference/";
+    private String refSuffix = "_reference.txt";
 
-    public File appendTds(File file, List<PromptDTO> infoList, int idx) throws IOException {
+    public void appendTds(String taskNum, List<PromptDTO> infoList, String idx) throws IOException {
 //        this.file = file;
+
+        File file = new File(txtPath + taskNum + refSuffix);
         FileWriter fileWriter = new FileWriter(file, true);
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
@@ -22,31 +25,28 @@ public class TxtAppender {
                idx);
 
         bufferedWriter.close();
-
-        return file;
     }
 
     public void writeLowerText(BufferedWriter writer,
-                               String i1, String i2, String o1, String o2, int idx) throws IOException {
-        writer.write("\t\t<tr>\n" +
+                               String i1, String i2, String o1, String o2, String idx) throws IOException {
+        writer.write("<tr>\n" +
                         "\t\t\t<td bgcolor='green' align='center'>\n" +
-                        "\t\t\t\t<br> 입력" + idx + " <br><br>\n" +
+                        "\t\t\t\t<br> 입력 "+ idx +" <br><br>\n" +
                         "\t\t\t</td>\n" +
                         "\t\t\t<td bgcolor='green'>\n" +
                         "\t\t\t\t<br> " + i1 + " <br><br>\n" +
                         "\t\t\t\t<br> " + i2 + " <br><br>\n" +
                         "\t\t\t</td>\n" +
                         "\t\t</tr>\n" +
-
                         "\t\t<tr>\n" +
                         "\t\t\t<td align='center'>\n" +
-                        "\t\t\t\t<br> 출력" + idx + " <br><br>\n" +
+                        "\t\t\t\t<br> 출력 " + idx + " <br><br>\n" +
                         "\t\t\t</td>\n" +
-                        "\t\t\t<td bgcolor='green'>\n" +
+                        "\t\t\t<td>\n" +
                         "\t\t\t\t<br> " + o1 + " <br><br>\n" +
                         "\t\t\t\t<br> " + o2 + " <br><br>\n" +
                         "\t\t\t</td>\n" +
-                        "\t\t</tr>\n"
+                        "\t\t</tr>"
                 );
     }
 }
