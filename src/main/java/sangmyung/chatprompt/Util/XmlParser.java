@@ -1,6 +1,5 @@
 package sangmyung.chatprompt.Util;
 
-import sangmyung.chatprompt.xml.DTO.PromptDTO;
 import sangmyung.chatprompt.xml.DTO.PromptListDTO;
 
 import javax.xml.bind.JAXBContext;
