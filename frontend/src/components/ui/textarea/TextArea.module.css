@@ -1,5 +1,6 @@
 .input {
     box-sizing: border-box;
+    padding: 1em;
 
     max-height: 4em;
     overflow-y: hidden;
@@ -9,4 +10,11 @@
     width: 100%;
     border: none;
     outline: none;
+
+    font-size: 1em;
+    color: var(--txt-color);
+}
+
+.input::placeholder {
+    color: var(--placeholder-txt-color);
 }

@@ -1,15 +1,15 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef } from 'react';
 import styles from './TextArea.module.css';
 
 export default function TextArea({ input, setInput }) {
 
     const textAreaRef = useRef();
-    const handleChange = useCallback((e) => {
-        e.preventDefault();
-        const val = e.target.value;
+    // const handleChange = useCallback((e) => {
+    //     e.preventDefault();
+    //     const val = e.target.value;
 
-        setInput(val);
-    }, []);
+    //     setInput(val);
+    // }, []);
 
     // 줄바꿈시 text area의 높이가 늘어나게 처리
     useEffect(() => {
@@ -23,7 +23,8 @@ export default function TextArea({ input, setInput }) {
         <textarea 
             rows={1}
             className={styles.input} 
-            onChange={handleChange}
+            onChange={(e) => setInput(e.target.value)}
+            placeholder={`지시문을 작성하세요`}
             value={input}
             ref={textAreaRef}
         />

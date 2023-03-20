@@ -1,18 +1,24 @@
 .edit {
-    width: 60%;
+    box-sizing: border-box;
+    padding: 0 0.5em;
+    margin-bottom: 2em;
+    
+    width: 80%;
     min-width: 30em;
     background-color: var(--white-color);
+
+    border-radius: 10px;
+    border: 1px solid var(--line-color);
 }
 
-.input {
-    box-sizing: border-box;
+.title {
+    color: var(--light-txt-color);
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 1em;
+}
 
-    max-height: 4em;
-    overflow-y: hidden;
-    resize: none;
-    background-color: transparent;
-
-    width: 100%;
-    border: none;
-    outline: none;
+/* text area */
+.edit:nth-child(1) {
+    border-bottom: 1px solid var(--grey-line-color);
 }
