@@ -35,8 +35,7 @@ class XmlParserTest {
         // Then
         assertNotNull(xmlListTag);
         assertNotNull(xmlListTag.getInfoList());
-        assertEquals(4, xmlListTag.getInfoList().length);
-//        assertEquals("iPhone", xmlListTag.getInfoList()[0].getModel());
+        assertEquals(4, xmlListTag.getInfoList().size());
     }
 
 }

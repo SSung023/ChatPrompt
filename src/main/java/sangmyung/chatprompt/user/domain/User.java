@@ -1,6 +1,7 @@
 package sangmyung.chatprompt.user.domain;
 
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -26,4 +27,10 @@ public class User {
     private String identifier; // 구분자
     private String name; // 이름
 
+
+    @Builder
+    public User(String identifier, String name) {
+        this.identifier = identifier;
+        this.name = name;
+    }
 }

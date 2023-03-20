@@ -19,7 +19,7 @@ import java.util.Set;
 @Controller
 @RequiredArgsConstructor
 @Slf4j
-public class XmlController {
+public class JSPController {
 
     private XmlParser parser = new XmlParser();
     private final TxtWriter txtWriter;
