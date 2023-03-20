@@ -1,4 +1,4 @@
-package sangmyung.chatprompt.Util;
+package sangmyung.chatprompt.xml.service;
 
 import sangmyung.chatprompt.xml.DTO.PromptListDTO;
 

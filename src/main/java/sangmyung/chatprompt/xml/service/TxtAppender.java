@@ -1,4 +1,4 @@
-package sangmyung.chatprompt.Util;
+package sangmyung.chatprompt.xml.service;
 import org.springframework.stereotype.Service;
 import sangmyung.chatprompt.xml.DTO.PromptDTO;
 
