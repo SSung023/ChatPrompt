@@ -10,6 +10,13 @@
     border-right: 1px solid var(--grey-line-color);
 }
 
+.divider {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1px;
+    border: 1px dotted var(--grey-line-color);
+}
+
 .colFlex {
     display: flex;
     flex-direction: column;

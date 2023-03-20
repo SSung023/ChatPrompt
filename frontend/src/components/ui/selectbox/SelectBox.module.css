@@ -1,0 +1,97 @@
+/* select box */
+.selectBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* default value */
+.defaultValue {
+    box-sizing: border-box;
+    padding: 0.8em;
+    margin-top: 1em;
+    width: 80%;
+    letter-spacing: 0.2em;
+
+    background-color: var(--white-color);
+    border: 1px solid var(--grey-line-color);
+    border-radius: 10px;
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: var(--bold);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 250ms ease-in-out;
+}
+
+.defaultValue:hover {
+    cursor: pointer;
+    border-color: var(--line-color);
+}
+
+.defaultValue > svg {
+    font-size: 1em;
+    margin-left: 4px;
+}
+
+/* option */
+.options {
+    visibility: hidden;
+    box-sizing: border-box;
+    padding: 0.5em;
+    animation: close 250ms;
+}
+
+.options.active {
+    visibility: visible;
+    animation: open 250ms;
+}
+
+@keyframes open {
+    from {
+        opacity: 0;
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@keyframes close {
+    from {
+        opacity: 1;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    to {
+        visibility: hidden;
+        opacity: 0;
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+}
+
+/* option component */
+.option {
+    box-sizing: border-box;
+    padding: 0.5em;
+    width: 100%;
+    letter-spacing: 0.5em;
+    font-size: 14px;
+
+    background-color: var(--white-color);
+    border: none;
+    transition: transform 100ms, background-color 100ms ease-out;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: #f5faf7;
+    transform: scale(1.1);
+}
