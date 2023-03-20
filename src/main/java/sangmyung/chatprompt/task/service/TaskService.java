@@ -139,7 +139,7 @@ public class TaskService {
             IOPairs savedIoPair = ioPairRepository.save(ioPairs);
             savedIoPair.addTask(task);
 
-            log.info("task 처리" + task.getTaskNum() + "\t" + "현재 인덱스: " + i);
+            log.info("task 처리" + task.getTaskNum() + "\t" + "현재 인덱스: " + i + "\t 전체 인덱스: " + len);
 
         }
         log.info("task 처리 완료");

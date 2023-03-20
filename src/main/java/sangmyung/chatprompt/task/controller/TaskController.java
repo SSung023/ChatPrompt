@@ -33,7 +33,7 @@ public class TaskController {
         String xmlPath = "prompt/preparation/reference.xml";
         String path = "prompt/preparation/sample.xml";
 
-        taskService.parseXmlToTask(path);
+        taskService.parseXmlToTask(xmlPath);
 
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
