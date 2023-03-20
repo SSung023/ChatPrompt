@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import styles from './SelectBox.module.css';
 import { FaAngleDown } from 'react-icons/fa';
+import { userContext, SET_NAME } from '../../../context/UserContext';
 
 export default function SelectBox({ defaultValue, options }) {
-    const [selected, setSelected] = useState(window.localStorage.getItem("writer"));
+    const context = useContext(userContext);
+
+    const [selected, setSelected] = useState(context.state.data.name);
     const [visible, setVisible] = useState(false);
 
     const handleSelected = (value) => {
         setSelected(value);
     }
-
     const handleVisible = (value) => {
         setVisible(value);
     }
@@ -21,8 +23,7 @@ export default function SelectBox({ defaultValue, options }) {
     }
 
     useEffect(() => {
-        window.localStorage.setItem("writer", selected);
-        // console.log(window.localStorage.getItem("writer"));
+        context.actions.contextDispatch({ type: SET_NAME, data: `${selected}` })
     }, [selected]);
 
     return (
