@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function EditInput() {
     return (
-        <div>
+        <div className='body'>
             input
         </div>
     );
