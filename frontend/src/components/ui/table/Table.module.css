@@ -7,11 +7,11 @@
 
 .th {
     box-sizing: border-box;
+    padding: 0 1em;
     border-radius: 5px;
     border: 1px solid var(--grey-line-color);
     font-weight: var(--regular);
 
-    width: 120px;
     white-space: nowrap;
     background-color: var(--table-color);
 }
@@ -30,7 +30,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid var(--grey-line-color);
-    padding: 1em;
+    padding: 0 1em;
 
     background-color: var(--white-color);
 }

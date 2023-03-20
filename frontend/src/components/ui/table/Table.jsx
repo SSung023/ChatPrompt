@@ -25,8 +25,8 @@ export function TableRow({ children }) {
     )
 }
 
-export function TableCell({ children }) {
+export function TableCell({ children, style }) {
     return (
-        <td className={styles.td}>{children}</td>
+        <td className={styles.td} style={style}>{children}</td>
     )
 }
