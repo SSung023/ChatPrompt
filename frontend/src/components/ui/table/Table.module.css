@@ -1,0 +1,36 @@
+.table {
+    width: 60%;
+    min-width: 30em;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.th {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid var(--grey-line-color);
+    font-weight: var(--regular);
+
+    width: 120px;
+    white-space: nowrap;
+    background-color: var(--table-color);
+}
+
+.tbody {
+    box-sizing: border-box;
+}
+
+.tr {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid var(--grey-line-color);
+}
+
+.td {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid var(--grey-line-color);
+    padding: 1em;
+
+    background-color: var(--white-color);
+}

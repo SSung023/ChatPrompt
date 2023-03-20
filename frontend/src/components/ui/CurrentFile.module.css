@@ -9,6 +9,7 @@
 
     background-color: #ffffff80;
     width: 100%;
+    min-width: 16em;
     max-width: 30em;
     border-radius: 20px;
     border: 1px solid var(--grey-line-color);
