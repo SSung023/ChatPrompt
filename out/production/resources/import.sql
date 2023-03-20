@@ -1,3 +1,4 @@
+insert into user(identifier, name) values('Z', '원본');
 insert into user(identifier, name) values('A', '박소영');
 insert into user(identifier, name) values('B', '김다은');
 insert into user(identifier, name) values('C', '성희연');

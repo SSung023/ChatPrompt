@@ -25,6 +25,8 @@ public class JSPController {
     private final TxtWriter txtWriter;
     private final TxtAppender txtAppender;
 
+    private String xmlPath = "prompt/preparation/reference.xml";
+
 
     @GetMapping("/")
     public String initPage(){
@@ -36,7 +38,7 @@ public class JSPController {
     @GetMapping("/parse")
     public String writeTxt() throws JAXBException, IOException {
         Set<String> taskNumList = new HashSet<>();
-        List<PromptDTO> infoList = parser.unmarshall().getInfoList();
+        List<PromptDTO> infoList = parser.unmarshall(xmlPath).getInfoList();
         int len = infoList.size();
 
         for (int i = 0; i < len; i+=2){

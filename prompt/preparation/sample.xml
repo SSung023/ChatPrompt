@@ -48,4 +48,820 @@
 		<output>MCI 환자 270명</output>
 		<num_input_tokens>13</num_input_tokens>
 	</text>
+	<text>
+		<index_SMU>5</index_SMU>
+		<line_num>103a</line_num>
+		<category>Information Extraction</category>
+		<task>task180_intervention_extraction</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>In medical studies, the efficacy of medical treatments (called interventions) is evaluated within a group of study participants. You will be given a sentence of a study report in which your task is to list the phrases that describe the intervention(s) of the study. You should list the phrase in the same order that they appear in the text, separated by commas. If no information about the interventions is mentioned, just answer with "not found". Interventions are: a specific drug, surgery, talking therapy, a lifestyle modification, control or placebo treatment. Do not include details, dosages, frequency and duration, intervention mentions that are not in an informative span of text.</definition>
+		<input>The patients received either azithromycin (600 mg/d for 3 days during week 1, then 600 mg/wk during weeks 2-12; n = 3879) or placebo (n = 3868)</input>
+		<output>azithromycin, placebo</output>
+		<num_input_tokens>27</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>6</index_SMU>
+		<line_num>103b</line_num>
+		<category>Information Extraction</category>
+		<task>task180_intervention_extraction</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 의학적 치료(개입이라고 함)의 효능은 연구 참여자 그룹 내에서 평가됩니다. 연구 개입(들)을 설명하는 문구를 나열하는 작업이 포함된 연구 보고서 문장이 제공됩니다. 쉼표로 구분하여 텍스트에 나타나는 것과 동일한 순서로 구문을 나열해야 합니다. 개입에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"으로 대답하십시오. 중재는 다음과 같습니다: 특정 약물, 수술, 대화 요법, 생활 방식 수정, 통제 또는 위약 치료. 세부 정보, 복용량, 빈도 및 기간, 유익한 텍스트 범위에 없는 개입 언급을 포함하지 마십시오.</definition>
+		<input>환자는 아지스로마이신(1주 동안 3일 동안 600mg/d, 그 후 2-12주 동안 600mg/주; n = 3879) 또는 위약(n = 3868)을 받았습니다.</input>
+		<output>아지트로마이신, 위약</output>
+		<num_input_tokens>19</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>7</index_SMU>
+		<line_num>104a</line_num>
+		<category>Information Extraction</category>
+		<task>task180_intervention_extraction</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>In medical studies, the efficacy of medical treatments (called interventions) is evaluated within a group of study participants. You will be given a sentence of a study report in which your task is to list the phrases that describe the intervention(s) of the study. You should list the phrase in the same order that they appear in the text, separated by commas. If no information about the interventions is mentioned, just answer with "not found". Interventions are: a specific drug, surgery, talking therapy, a lifestyle modification, control or placebo treatment. Do not include details, dosages, frequency and duration, intervention mentions that are not in an informative span of text.</definition>
+		<input>We report findings of a pilot RCT for a parent training intervention with a focus on the development of joint attention skills and joint action routines.</input>
+		<output>parent training intervention</output>
+		<num_input_tokens>26</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>8</index_SMU>
+		<line_num>104b</line_num>
+		<category>Information Extraction</category>
+		<task>task180_intervention_extraction</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 의학적 치료(개입이라고 함)의 효능은 연구 참여자 그룹 내에서 평가됩니다. 연구 개입(들)을 설명하는 문구를 나열하는 작업이 포함된 연구 보고서 문장이 제공됩니다. 쉼표로 구분하여 텍스트에 나타나는 것과 동일한 순서로 구문을 나열해야 합니다. 개입에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"으로 대답하십시오. 중재는 다음과 같습니다: 특정 약물, 수술, 대화 요법, 생활 방식 수정, 통제 또는 위약 치료. 세부 정보, 복용량, 빈도 및 기간, 유익한 텍스트 범위에 없는 개입 언급을 포함하지 마십시오.</definition>
+		<input>우리는 공동 주의 기술 및 공동 행동 루틴의 개발에 초점을 둔 부모 교육 개입을 위한 파일럿 RCT 결과를 보고합니다.</input>
+		<output>부모 훈련 개입</output>
+		<num_input_tokens>19</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>9</index_SMU>
+		<line_num>105a</line_num>
+		<category>Information Extraction</category>
+		<task>task180_intervention_extraction</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>In medical studies, the efficacy of medical treatments (called interventions) is evaluated within a group of study participants. You will be given a sentence of a study report in which your task is to list the phrases that describe the intervention(s) of the study. You should list the phrase in the same order that they appear in the text, separated by commas. If no information about the interventions is mentioned, just answer with "not found". Interventions are: a specific drug, surgery, talking therapy, a lifestyle modification, control or placebo treatment. Do not include details, dosages, frequency and duration, intervention mentions that are not in an informative span of text.</definition>
+		<input>Seventy-two people residing in National Health Service (U.K.) care facilities who had clinically significant agitation in the context of severe dementia were randomly assigned to aromatherapy with Melissa essential oil (N = 36) or placebo (sunflower oil) (N = 36).</input>
+		<output>aromatherapy with melissa essential oil, placebo, sunflower oil</output>
+		<num_input_tokens>40</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>10</index_SMU>
+		<line_num>105b</line_num>
+		<category>Information Extraction</category>
+		<task>task180_intervention_extraction</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 의학적 치료(개입이라고 함)의 효능은 연구 참여자 그룹 내에서 평가됩니다. 연구 개입(들)을 설명하는 문구를 나열하는 작업이 포함된 연구 보고서 문장이 제공됩니다. 쉼표로 구분하여 텍스트에 나타나는 것과 동일한 순서로 구문을 나열해야 합니다. 개입에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"으로 대답하십시오. 중재는 다음과 같습니다: 특정 약물, 수술, 대화 요법, 생활 방식 수정, 통제 또는 위약 치료. 세부 정보, 복용량, 빈도 및 기간, 유익한 텍스트 범위에 없는 개입 언급을 포함하지 마십시오.</definition>
+		<input>영국 국립보건원(National Health Service) 요양 시설에 거주하며 심각한 치매와 관련하여 임상적으로 유의미한 초조를 보인 72명을 멜리사 에센셜 오일(N = 36) 또는 위약(해바라기 오일)(N = 36)을 사용한 아로마테라피에 무작위로 배정했습니다. .</input>
+		<output>멜리사 에센셜 오일, 플라시보, 해바라기 오일을 사용한 아로마테라피</output>
+		<num_input_tokens>30</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>11</index_SMU>
+		<line_num>206a</line_num>
+		<category>Information Extraction</category>
+		<task>task181_outcome_extraction</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>In medical studies, treatments are tested within a group of study participants. To determine if a new treatment works, various outcomes are measured in the people who take part in the study. You will be given a sentence of a study report in which your task is to list the phrases that give information about the outcomes of the study. You should list the phrases in the same order that they appear in the text, separated by commas. If no information about the outcome is mentioned, just answer with: "not found". Outcomes contain: outcomes measured in patients: like blood sugar, outcomes regarding the intervention: like effectiveness, costs the score on a medical test or questionnaire, positive or negative events in the patient groups: like quitting smoking, or adverse reactions. Do not mention numbers or results, interpretations of outcomes, outcome mentions without relevant information.</definition>
+		<input>Effects of 12 weeks' treatment with a proton pump inhibitor on insulin secretion, glucose metabolism and markers of cardiovascular risk in patients with type 2 diabetes</input>
+		<output>insulin secretion, glucose metabolism and markers of cardiovascular risk</output>
+		<num_input_tokens>26</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>12</index_SMU>
+		<line_num>206b</line_num>
+		<category>Information Extraction</category>
+		<task>task181_outcome_extraction</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 치료는 연구 참가자 그룹 내에서 테스트됩니다. 새로운 치료법이 효과가 있는지 확인하기 위해 연구에 참여하는 사람들에게서 다양한 결과를 측정합니다. 연구 결과에 대한 정보를 제공하는 문구를 나열하는 것이 귀하의 임무인 연구 보고서 문장을 받게 될 것입니다. 쉼표로 구분하여 텍스트에 나타나는 동일한 순서로 구문을 나열해야 합니다. 결과에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"으로 대답하십시오. 결과에는 다음이 포함됩니다. 환자에서 측정된 결과: 혈당과 같은 개입에 관한 결과: 효과와 같은 의료 테스트 또는 설문지의 점수 비용 환자 그룹의 긍정적 또는 부정적 사건: 금연 또는 부작용과 같은. 숫자나 결과, 결과 해석, 관련 정보 없이 결과를 언급하지 마십시오.</definition>
+		<input>제2형 당뇨병 환자의 인슐린 분비, 포도당 대사 및 심혈관 위험 지표에 대한 양성자 펌프 억제제로 12주 치료의 효과</input>
+		<output>인슐린 분비, 포도당 대사 및 심혈관 위험 지표</output>
+		<num_input_tokens>18</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>13</index_SMU>
+		<line_num>207a</line_num>
+		<category>Information Extraction</category>
+		<task>task181_outcome_extraction</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>In medical studies, treatments are tested within a group of study participants. To determine if a new treatment works, various outcomes are measured in the people who take part in the study. You will be given a sentence of a study report in which your task is to list the phrases that give information about the outcomes of the study. You should list the phrases in the same order that they appear in the text, separated by commas. If no information about the outcome is mentioned, just answer with: "not found". Outcomes contain: outcomes measured in patients: like blood sugar, outcomes regarding the intervention: like effectiveness, costs the score on a medical test or questionnaire, positive or negative events in the patient groups: like quitting smoking, or adverse reactions. Do not mention numbers or results, interpretations of outcomes, outcome mentions without relevant information.</definition>
+		<input>There were no serious adverse device effects.</input>
+		<output>no serious adverse device effects</output>
+		<num_input_tokens>7</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>14</index_SMU>
+		<line_num>207b</line_num>
+		<category>Information Extraction</category>
+		<task>task181_outcome_extraction</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 치료는 연구 참가자 그룹 내에서 테스트됩니다. 새로운 치료법이 효과가 있는지 확인하기 위해 연구에 참여하는 사람들에게서 다양한 결과를 측정합니다. 연구 결과에 대한 정보를 제공하는 문구를 나열하는 것이 귀하의 임무인 연구 보고서 문장을 받게 될 것입니다. 쉼표로 구분하여 텍스트에 나타나는 동일한 순서로 구문을 나열해야 합니다. 결과에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"으로 대답하십시오. 결과에는 다음이 포함됩니다. 환자에서 측정된 결과: 혈당과 같은 개입에 관한 결과: 효과와 같은 의료 테스트 또는 설문지의 점수 비용 환자 그룹의 긍정적 또는 부정적 사건: 금연 또는 부작용과 같은. 숫자나 결과, 결과 해석, 관련 정보 없이 결과를 언급하지 마십시오.</definition>
+		<input>심각한 부작용은 없었습니다.</input>
+		<output>심각한 부작용 없음</output>
+		<num_input_tokens>3</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>15</index_SMU>
+		<line_num>208a</line_num>
+		<category>Information Extraction</category>
+		<task>task181_outcome_extraction</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>In medical studies, treatments are tested within a group of study participants. To determine if a new treatment works, various outcomes are measured in the people who take part in the study. You will be given a sentence of a study report in which your task is to list the phrases that give information about the outcomes of the study. You should list the phrases in the same order that they appear in the text, separated by commas. If no information about the outcome is mentioned, just answer with: "not found". Outcomes contain: outcomes measured in patients: like blood sugar, outcomes regarding the intervention: like effectiveness, costs the score on a medical test or questionnaire, positive or negative events in the patient groups: like quitting smoking, or adverse reactions. Do not mention numbers or results, interpretations of outcomes, outcome mentions without relevant information.</definition>
+		<input>The primary outcome measures were the score on the Irritability subscale of the Aberrant Behavior Checklist and the rating on the Clinical Global Impressions - Improvement (CGI-I) scale at eight weeks.</input>
+		<output>score on the Irritability subscale of the Aberrant Behavior Checklist and the rating on the Clinical Global Impressions - Improvement (CGI-I) scale</output>
+		<num_input_tokens>31</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>16</index_SMU>
+		<line_num>208b</line_num>
+		<category>Information Extraction</category>
+		<task>task181_outcome_extraction</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>의학 연구에서 치료는 연구 참가자 그룹 내에서 테스트됩니다. 새로운 치료법이 효과가 있는지 확인하기 위해 연구에 참여하는 사람들에게서 다양한 결과를 측정합니다. 연구 결과에 대한 정보를 제공하는 문구를 나열하는 것이 귀하의 임무인 연구 보고서 문장을 받게 될 것입니다. 쉼표로 구분하여 텍스트에 나타나는 동일한 순서로 구문을 나열해야 합니다. 결과에 대한 정보가 언급되지 않은 경우 "찾을 수 없음"으로 대답하십시오. 결과에는 다음이 포함됩니다. 환자에서 측정된 결과: 혈당과 같은 개입에 관한 결과: 효과와 같은 의료 테스트 또는 설문지의 점수 비용 환자 그룹의 긍정적 또는 부정적 사건: 금연 또는 부작용과 같은. 숫자나 결과, 결과 해석, 관련 정보 없이 결과를 언급하지 마십시오.</definition>
+		<input>1차 결과 측정은 비정상적인 행동 체크리스트의 과민성 하위 척도에 대한 점수와 8주째 임상 전반적 인상 - 개선(CGI-I) 척도에 대한 등급이었습니다.</input>
+		<output>비정상 행동 체크리스트의 과민성 하위 척도 점수 및 전반적 임상 인상 - 개선(CGI-I) 척도 등급</output>
+		<num_input_tokens>20</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>17</index_SMU>
+		<line_num>309a</line_num>
+		<category>Information Extraction</category>
+		<task>task292_storycommonsense_character_text_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>In this task, you're given a story (which contains five sentences only). Your task is to find all the characters which are available in the given story.</definition>
+		<input>Sentence1: My dog was bored. Sentence2: I was working all day so I couldn't spend time with him. Sentence3: When I finished work I decided to play with my dog. Sentence4: He was so happy to finally have some fun! Sentence5: Alas, he fell sick and died.</input>
+		<output>I (myself), Dog</output>
+		<num_input_tokens>47</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>18</index_SMU>
+		<line_num>309b</line_num>
+		<category>Information Extraction</category>
+		<task>task292_storycommonsense_character_text_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 스토리(5문장만 포함)가 제공됩니다. 당신의 임무는 주어진 이야기에서 사용할 수 있는 모든 캐릭터를 찾는 것입니다.</definition>
+		<input>Sentence1: 내 개는 지루했다. Sentence2: 나는 하루종일 일을 했기 때문에 그와 시간을 보낼 수 없었다. Sentence3: 일이 끝나면 강아지와 놀기로 했어요. Sentence4: 그는 마침내 약간의 재미를 갖게 되어 매우 기뻤습니다! Sentence5: 아아, 그는 병에 걸려 죽었습니다.</input>
+		<output>나(나), 개</output>
+		<num_input_tokens>36</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>19</index_SMU>
+		<line_num>310a</line_num>
+		<category>Information Extraction</category>
+		<task>task292_storycommonsense_character_text_generation</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>In this task, you're given a story (which contains five sentences only). Your task is to find all the characters which are available in the given story.</definition>
+		<input>Sentence1: The doctor diagnosed Gemma with GAD. Sentence2: Her panic attacks made her life difficult. Sentence3: She went to the ASPCA to get a pet. Sentence4: After not finding any suitable pets, she walked home. Sentence5: On her way home, she found an adorable stray and adopted it.</input>
+		<output>Pet, Gemma, Stray, The doctor</output>
+		<num_input_tokens>48</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>20</index_SMU>
+		<line_num>310b</line_num>
+		<category>Information Extraction</category>
+		<task>task292_storycommonsense_character_text_generation</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 스토리(5문장만 포함)가 제공됩니다. 당신의 임무는 주어진 이야기에서 사용할 수 있는 모든 캐릭터를 찾는 것입니다.</definition>
+		<input>Sentence1: 의사는 GAD로 Gemma를 진단했습니다. Sentence2: 그녀의 공황 발작은 그녀의 삶을 어렵게 만들었습니다. Sentence3: 그녀는 애완동물을 키우기 위해 ASPCA에 갔다. Sentence4: 적합한 애완 동물을 찾지 못한 후 그녀는 집으로 걸어갔습니다. Sentence5: 그녀는 집에 가는 길에 사랑스러운 길고양이를 발견하고 입양했습니다.</input>
+		<output>펫, 젬마, 스트레이, 닥터</output>
+		<num_input_tokens>39</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>21</index_SMU>
+		<line_num>311a</line_num>
+		<category>Information Extraction</category>
+		<task>task292_storycommonsense_character_text_generation</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>In this task, you're given a story (which contains five sentences only). Your task is to find all the characters which are available in the given story.</definition>
+		<input>Sentence1: Roger is an alcoholic. Sentence2: He lives on the streets. Sentence3: One day he decided to rob a grocery store. Sentence4: He was caught taking beer. Sentence5: Roger is serving time in jail.</input>
+		<output>Roger</output>
+		<num_input_tokens>34</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>22</index_SMU>
+		<line_num>311b</line_num>
+		<category>Information Extraction</category>
+		<task>task292_storycommonsense_character_text_generation</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 스토리(5문장만 포함)가 제공됩니다. 당신의 임무는 주어진 이야기에서 사용할 수 있는 모든 캐릭터를 찾는 것입니다.</definition>
+		<input>Sentence1: Roger는 알코올 중독자입니다. Sentence2: 그는 거리에서 산다. Sentence3: 어느 날 그는 식료품점을 털기로 결심했습니다. 문장 4: 그는 맥주를 마시다가 들켰다. Sentence5: Roger는 감옥에서 복역 중입니다.</input>
+		<output>알았다</output>
+		<num_input_tokens>26</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>23</index_SMU>
+		<line_num>412a</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>In this task, a passage will be given and the goal is to identify an event from the passage. An event is defined as a single word representing something that happened, is happening, or may happen. An event can be factual or hypothetical, positive or negative, certain or uncertain. While most events are based on verbs, an event can also be based on a noun (ex. storm, snow, rainfall) or a copula verb (is, was, been, etc.). The event must not be a pronoun or an adjective. For noun events with multiple words, use the last word in the phrase as event.</definition>
+		<input>Passage: I submitted the hit. The hit was approved, and then I was paid.</input>
+		<output>approved</output>
+		<num_input_tokens>14</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>24</index_SMU>
+		<line_num>412b</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 구절이 주어지며 목표는 구절에서 이벤트를 식별하는 것입니다. 이벤트는 발생했거나 발생 중이거나 발생할 수 있는 일을 나타내는 단일 단어로 정의됩니다. 사건은 사실적일 수도 가상적일 수도 있고, 긍정적일 수도 부정적일 수도 있으며, 확실할 수도 불확실할 수도 있습니다. 대부분의 이벤트는 동사를 기반으로 하지만 이벤트는 명사를 기반으로 할 수도 있습니다(예: 폭풍, 눈, 강우) 또는 연결사 동사(is, was, been 등). 사건은 대명사나 형용사가 아니어야 합니다. 여러 단어로 구성된 명사 사건의 경우 구의 마지막 단어를 사건으로 사용합니다.</definition>
+		<input>패시지: 히트작을 제출했습니다. 조회가 승인된 후 지급되었습니다.</input>
+		<output>승인</output>
+		<num_input_tokens>7</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>25</index_SMU>
+		<line_num>413a</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>In this task, a passage will be given and the goal is to identify an event from the passage. An event is defined as a single word representing something that happened, is happening, or may happen. An event can be factual or hypothetical, positive or negative, certain or uncertain. While most events are based on verbs, an event can also be based on a noun (ex. storm, snow, rainfall) or a copula verb (is, was, been, etc.). The event must not be a pronoun or an adjective. For noun events with multiple words, use the last word in the phrase as event.</definition>
+		<input>Passage: He was caught in the snow storm.</input>
+		<output>storm</output>
+		<num_input_tokens>8</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>26</index_SMU>
+		<line_num>413b</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 구절이 주어지며 목표는 구절에서 이벤트를 식별하는 것입니다. 이벤트는 발생했거나 발생 중이거나 발생할 수 있는 일을 나타내는 단일 단어로 정의됩니다. 사건은 사실적일 수도 가상적일 수도 있고, 긍정적일 수도 부정적일 수도 있으며, 확실할 수도 불확실할 수도 있습니다. 대부분의 이벤트는 동사를 기반으로 하지만 이벤트는 명사를 기반으로 할 수도 있습니다(예: 폭풍, 눈, 강우) 또는 연결사 동사(is, was, been 등). 사건은 대명사나 형용사가 아니어야 합니다. 여러 단어로 구성된 명사 사건의 경우 구의 마지막 단어를 사건으로 사용합니다.</definition>
+		<input>통로: 그는 눈보라에 휩싸였습니다.</input>
+		<output>폭풍</output>
+		<num_input_tokens>4</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>27</index_SMU>
+		<line_num>414a</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>In this task, a passage will be given and the goal is to identify an event from the passage. An event is defined as a single word representing something that happened, is happening, or may happen. An event can be factual or hypothetical, positive or negative, certain or uncertain. While most events are based on verbs, an event can also be based on a noun (ex. storm, snow, rainfall) or a copula verb (is, was, been, etc.). The event must not be a pronoun or an adjective. For noun events with multiple words, use the last word in the phrase as event.</definition>
+		<input>Passage: He is on the east coast.</input>
+		<output>is</output>
+		<num_input_tokens>7</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>28</index_SMU>
+		<line_num>414b</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 구절이 주어지며 목표는 구절에서 이벤트를 식별하는 것입니다. 이벤트는 발생했거나 발생 중이거나 발생할 수 있는 일을 나타내는 단일 단어로 정의됩니다. 사건은 사실적일 수도 가상적일 수도 있고, 긍정적일 수도 부정적일 수도 있으며, 확실할 수도 불확실할 수도 있습니다. 대부분의 이벤트는 동사를 기반으로 하지만 이벤트는 명사를 기반으로 할 수도 있습니다(예: 폭풍, 눈, 강우) 또는 연결사 동사(is, was, been 등). 사건은 대명사나 형용사가 아니어야 합니다. 여러 단어로 구성된 명사 사건의 경우 구의 마지막 단어를 사건으로 사용합니다.</definition>
+		<input>항로: 그는 동해안에 있습니다.</input>
+		<output>~이다</output>
+		<num_input_tokens>4</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>29</index_SMU>
+		<line_num>415a</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>4a</idx>
+		<type>example</type>
+		<definition>In this task, a passage will be given and the goal is to identify an event from the passage. An event is defined as a single word representing something that happened, is happening, or may happen. An event can be factual or hypothetical, positive or negative, certain or uncertain. While most events are based on verbs, an event can also be based on a noun (ex. storm, snow, rainfall) or a copula verb (is, was, been, etc.). The event must not be a pronoun or an adjective. For noun events with multiple words, use the last word in the phrase as event.</definition>
+		<input>Passage: He wanted to finish the task.</input>
+		<output>wanted</output>
+		<num_input_tokens>7</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>30</index_SMU>
+		<line_num>415b</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>4b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 구절이 주어지며 목표는 구절에서 이벤트를 식별하는 것입니다. 이벤트는 발생했거나 발생 중이거나 발생할 수 있는 일을 나타내는 단일 단어로 정의됩니다. 사건은 사실적일 수도 가상적일 수도 있고, 긍정적일 수도 부정적일 수도 있으며, 확실할 수도 불확실할 수도 있습니다. 대부분의 이벤트는 동사를 기반으로 하지만 이벤트는 명사를 기반으로 할 수도 있습니다(예: 폭풍, 눈, 강우) 또는 연결사 동사(is, was, been 등). 사건은 대명사나 형용사가 아니어야 합니다. 여러 단어로 구성된 명사 사건의 경우 구의 마지막 단어를 사건으로 사용합니다.</definition>
+		<input>Passage: 그는 작업을 끝내고 싶었습니다.</input>
+		<output>원하는</output>
+		<num_input_tokens>5</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>31</index_SMU>
+		<line_num>416a</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>5a</idx>
+		<type>example</type>
+		<definition>In this task, a passage will be given and the goal is to identify an event from the passage. An event is defined as a single word representing something that happened, is happening, or may happen. An event can be factual or hypothetical, positive or negative, certain or uncertain. While most events are based on verbs, an event can also be based on a noun (ex. storm, snow, rainfall) or a copula verb (is, was, been, etc.). The event must not be a pronoun or an adjective. For noun events with multiple words, use the last word in the phrase as event.</definition>
+		<input>Passage: If he works hard, then he will finish the task.</input>
+		<output>finish</output>
+		<num_input_tokens>11</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>32</index_SMU>
+		<line_num>416b</line_num>
+		<category>Information Extraction</category>
+		<task>task388_torque_token_classification</task>
+		<idx>5b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 구절이 주어지며 목표는 구절에서 이벤트를 식별하는 것입니다. 이벤트는 발생했거나 발생 중이거나 발생할 수 있는 일을 나타내는 단일 단어로 정의됩니다. 사건은 사실적일 수도 가상적일 수도 있고, 긍정적일 수도 부정적일 수도 있으며, 확실할 수도 불확실할 수도 있습니다. 대부분의 이벤트는 동사를 기반으로 하지만 이벤트는 명사를 기반으로 할 수도 있습니다(예: 폭풍, 눈, 강우) 또는 연결사 동사(is, was, been 등). 사건은 대명사나 형용사가 아니어야 합니다. 여러 단어로 구성된 명사 사건의 경우 구의 마지막 단어를 사건으로 사용합니다.</definition>
+		<input>Passage: 그가 열심히 일하면 그는 그 일을 끝낼 것이다.</input>
+		<output>마치다</output>
+		<num_input_tokens>9</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>33</index_SMU>
+		<line_num>517a</line_num>
+		<category>Information Extraction</category>
+		<task>task456_matres_intention_classification</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>You will be given a context and a verb separated with a newline character. You have to identify if the given verb implies an opinion, an intention, a wish or not. Please note that a verb refers to an intention only if it refers to an event planned to happen in the future and is not conditional (or part of a condition). The output should be: 'Yes' if the verb refers to an opinion, an intention, or a wish; and 'No' otherwise.</definition>
+		<input>It was followed by Denmark, Norway, Germany, France, Greece, Luxembourg, Spain, Britain, the United States, Iceland, Belgium, Italy, Portugal and Turkey. NATO decided at last year's Madrid summit to (invite) the three eastern European countries to start accession talks. Verb: invite</input>
+		<output>Yes</output>
+		<num_input_tokens>41</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>34</index_SMU>
+		<line_num>517b</line_num>
+		<category>Information Extraction</category>
+		<task>task456_matres_intention_classification</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>개행 문자로 구분된 컨텍스트와 동사가 제공됩니다. 주어진 동사가 의견, 의도, 소원을 암시하는지 확인해야 합니다. 동사는 조건부(또는 조건의 일부)가 아닌 미래에 발생할 예정인 이벤트를 가리키는 경우에만 의도를 나타냅니다. 출력은 다음과 같아야 합니다. 동사가 의견, 의도 또는 희망을 나타내는 경우 '예'; 그렇지 않으면 '아니오'입니다.</definition>
+		<input>덴마크, 노르웨이, 독일, 프랑스, 그리스, 룩셈부르크, 스페인, 영국, 미국, 아이슬란드, 벨기에, 이탈리아, 포르투갈, 터키가 그 뒤를 이었습니다. NATO는 작년 마드리드 정상회담에서 동유럽 3개국을 (초청) 가입 협상을 시작하기로 결정했습니다. 동사: 초대하다</input>
+		<output>예</output>
+		<num_input_tokens>30</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>35</index_SMU>
+		<line_num>518a</line_num>
+		<category>Information Extraction</category>
+		<task>task456_matres_intention_classification</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>You will be given a context and a verb separated with a newline character. You have to identify if the given verb implies an opinion, an intention, a wish or not. Please note that a verb refers to an intention only if it refers to an event planned to happen in the future and is not conditional (or part of a condition). The output should be: 'Yes' if the verb refers to an opinion, an intention, or a wish; and 'No' otherwise.</definition>
+		<input>In Washington today, the Federal Aviation Administration (released) air traffic control tapes from the night the TWA Flight eight hundred went down. Verb: released</input>
+		<output>No</output>
+		<num_input_tokens>24</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>36</index_SMU>
+		<line_num>518b</line_num>
+		<category>Information Extraction</category>
+		<task>task456_matres_intention_classification</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>개행 문자로 구분된 컨텍스트와 동사가 제공됩니다. 주어진 동사가 의견, 의도, 소원을 암시하는지 확인해야 합니다. 동사는 조건부(또는 조건의 일부)가 아닌 미래에 발생할 예정인 이벤트를 가리키는 경우에만 의도를 나타냅니다. 출력은 다음과 같아야 합니다. 동사가 의견, 의도 또는 희망을 나타내는 경우 '예'; 그렇지 않으면 '아니오'입니다.</definition>
+		<input>오늘 워싱턴에서 연방 항공국(연방 항공국)은 TWA 800편이 추락한 밤의 항공 교통 관제 테이프를 공개했습니다. 동사: 풀다</input>
+		<output>아니요</output>
+		<num_input_tokens>16</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>37</index_SMU>
+		<line_num>519a</line_num>
+		<category>Information Extraction</category>
+		<task>task456_matres_intention_classification</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>You will be given a context and a verb separated with a newline character. You have to identify if the given verb implies an opinion, an intention, a wish or not. Please note that a verb refers to an intention only if it refers to an event planned to happen in the future and is not conditional (or part of a condition). The output should be: 'Yes' if the verb refers to an opinion, an intention, or a wish; and 'No' otherwise.</definition>
+		<input>We will act again if we have evidence he is (rebuilding) his weapons of mass destruction capabilities, senior officials say. In a bit of television diplomacy, Iraq’s deputy foreign minister responded from Baghdad in less than one hour. Verb: rebuilding</input>
+		<output>No</output>
+		<num_input_tokens>40</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>38</index_SMU>
+		<line_num>519b</line_num>
+		<category>Information Extraction</category>
+		<task>task456_matres_intention_classification</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>개행 문자로 구분된 컨텍스트와 동사가 제공됩니다. 주어진 동사가 의견, 의도, 소원을 암시하는지 확인해야 합니다. 동사는 조건부(또는 조건의 일부)가 아닌 미래에 발생할 예정인 이벤트를 가리키는 경우에만 의도를 나타냅니다. 출력은 다음과 같아야 합니다. 동사가 의견, 의도 또는 희망을 나타내는 경우 '예'; 그렇지 않으면 '아니오'입니다.</definition>
+		<input>그가 대량살상무기 능력을 (재구축)하고 있다는 증거가 있다면 우리는 다시 행동할 것이라고 고위 관리들은 말했습니다. 약간의 텔레비전 외교에서 이라크 외무부 차관은 바그다드에서 한 시간도 채 안되어 응답했습니다. 동사: 재건하다</input>
+		<output>아니요</output>
+		<num_input_tokens>28</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>39</index_SMU>
+		<line_num>620a</line_num>
+		<category>Information Extraction</category>
+		<task>task578_curiosity_dialogs_answer_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>In this task, you are given dialogue, and you have to find the most critical location in the given conversation.</definition>
+		<input>Hello! I would love to learn about Antigua and Barbuda today. Antigua and Barbuda is an island nation in the Caribbean Sea. The country is part of the British Commonwealth. That is very interesting! What can you tell me about "symbols" in Antigua and Barbuda? Agave Karatto is a symbol of the country and was included in Meghan Markle's wedding veil which included distinct flora from all of the commonwealth's countries. oh Wow! That is really cool! i never knew, Can you give me any other info about "symbols" in Antigua and Barbuda? I do not have any further information about symbols but Calypso and soca music are both important to the culture. Okay, I'd love to learn about Notables in Antigua and Barbuda. I do not have any information about that but I can tell you that the islands became independent in 1981. Can you tell me more about the Culture in Antigua and Barbuda? They have the most technologically advanced hospital in the Caribbean. I didn't know that! Can you tell me more about the Hospital there? It was opened as part of an education mission and is called the Mt St John Medical Center in the nations capital, Saint John. That is Interesting! I would like to hear more about the education mission if you have any information on that. Unfortunately I have no further information regarding that but I can tell you that there are two foreign owned for profit off shore medical schools, the American Unversity of Antigua and The University of Health Sciences Antigua. Thank you so much for all your information! You are welcome!</input>
+		<output>Antigua and Barbuda</output>
+		<num_input_tokens>271</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>40</index_SMU>
+		<line_num>620b</line_num>
+		<category>Information Extraction</category>
+		<task>task578_curiosity_dialogs_answer_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 대화가 주어지며 주어진 대화에서 가장 중요한 위치를 찾아야 합니다.</definition>
+		<input>안녕하세요! 저는 오늘 앤티가 바부다에 대해 배우고 싶습니다. 앤티가 바부다는 카리브해에 있는 섬나라입니다. 이 나라는 영연방의 일부입니다. 그것은 매우 흥미 롭습니다! 앤티가 바부다의 "상징"에 대해 무엇을 말해 줄 수 있습니까? Agave Karatto는 국가의 상징이며 모든 영연방 국가의 독특한 식물을 포함하는 Meghan Markle의 웨딩 베일에 포함되었습니다. 오 와우! 정말 멋져요! 나는 전혀 몰랐는데 앤티가 바부다의 "상징"에 대한 다른 정보를 줄 수 있습니까? 상징에 대한 추가 정보는 없지만 칼립소와 소카 음악은 둘 다 문화에 중요합니다. 알겠습니다. 앤티가 바부다의 Notables에 대해 알고 싶습니다. 그것에 대한 정보는 없지만 1981년에 섬이 독립했다고 말할 수 있습니다. 앤티가 바부다의 문화에 대해 더 말씀해 주시겠습니까? 그들은 카리브해에서 가장 기술적으로 진보된 병원을 가지고 있습니다. 나는 그것을 몰랐다! 거기 병원에 대해 좀 더 말씀해 주시겠어요? 그것은 교육 사명의 일환으로 문을 열었으며 수도인 세인트 존에 있는 마운트 세인트 존 의료 센터라고 불립니다. 그것 참 흥미 롭네! 교육 미션에 대한 정보가 있다면 더 듣고 싶습니다. 불행히도 나는 그것에 관한 추가 정보가 없지만 해안 의과 대학, 미국 안티구아 대학 및 안티구아 보건 과학 대학에서 영리를 위해 소유한 두 개의 외국인이 있다고 말할 수 있습니다. 귀하의 모든 정보에 감사드립니다! 물론이죠!</input>
+		<output>앤티가 바부다</output>
+		<num_input_tokens>176</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>41</index_SMU>
+		<line_num>621a</line_num>
+		<category>Information Extraction</category>
+		<task>task578_curiosity_dialogs_answer_generation</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>In this task, you are given dialogue, and you have to find the most critical location in the given conversation.</definition>
+		<input>Hello, I want to learn about Arab League. What can you tell me about it? The Arab League is an organization made up of countries in the Arab World in Northern Africa and Southwest Asia. It is formally the League of Arab States . Interesting, any information on when this occurred and how long it's been in existence? I do not have a date or time on that information, but what I can tell you is that the Pan Arab Games are considered the biggest Arab sporting event, which brings together athletes from all the Arab countries to participate in a variety of different sports. Good to know. Any additional information on culture? I don't have anything in particular on that topic, but today the State of Palestine is a full member of the Arab League. Do you have any information on the Literacy of the Arab League? The Arab League also includes great fertile lands in the southern part of Sudan. Almost all of the Arab League's citizens adhere to Islam, with Christianity being the second largest religion. Okay, any other culturally interesting facts about the Arab League countries? Nothing else on culture at this time, but I can tell you that Palestine was shortly admitted into the Arab League after being presented by the PLO When was Palestine admitted into the Arab League? The actual date is not given on when Palestine was admitted, however,the fear of the richer sharing wealth with the poorer, the feuds among Arab rulers, and the influence of external powers that might oppose Arab unity can be seen as obstacles towards a deeper integration of the league. Good information. Thank you for sharing this knowledge. Goodbye. Your welcome and have a great day.</input>
+		<output>Arab League</output>
+		<num_input_tokens>290</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>42</index_SMU>
+		<line_num>621b</line_num>
+		<category>Information Extraction</category>
+		<task>task578_curiosity_dialogs_answer_generation</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 대화가 주어지며 주어진 대화에서 가장 중요한 위치를 찾아야 합니다.</definition>
+		<input>안녕하세요, 아랍연맹에 대해 알고 싶습니다. 그것에 대해 무엇을 말해 줄 수 있습니까? 아랍 연맹은 북아프리카와 서남아시아의 아랍 세계 국가들로 구성된 조직입니다. 공식적으로는 아랍 국가 연맹입니다. 흥미롭게도, 이것이 언제 발생했고 얼마나 오래 존재했는지에 대한 정보가 있습니까? 해당 정보에 대한 날짜나 시간은 알 수 없지만 Pan Arab Games는 모든 아랍 국가의 선수들이 함께 모여 다양한 스포츠에 참여하는 가장 큰 아랍 스포츠 행사로 간주된다는 점만 말씀드릴 수 있습니다. 알아 둘만 한. 문화에 대한 추가 정보가 있습니까? 나는 그 주제에 대해 특별히 가지고 있는 것이 없지만, 오늘날 팔레스타인 국가는 아랍 연맹의 정회원입니다. 아랍 연맹의 문해력에 대한 정보가 있습니까? 아랍 연맹은 또한 수단 남부의 비옥한 땅을 포함하고 있습니다. 거의 모든 아랍 연맹 시민은 이슬람교를 신봉하며 기독교는 두 번째로 큰 종교입니다. 알겠습니다. 아랍 연맹 국가에 대한 다른 문화적으로 흥미로운 사실이 있나요? 현재로서는 문화에 관한 다른 내용은 없지만 팔레스타인이 PLO에서 발표한 후 곧 아랍 연맹에 가입했다고 말할 수 있습니다. 팔레스타인은 언제 아랍 연맹에 가입했습니까? 실제 날짜는 팔레스타인이 언제 받아들여졌는지는 나와 있지 않지만 부자가 가난한 사람과 부를 공유하는 것에 대한 두려움, 아랍 통치자들 사이의 불화, 아랍 통일에 반대할 수 있는 외부 세력의 영향은 더 깊은 팔레스타인 통합에 대한 장애물로 볼 수 있습니다. 리그 통합. 좋은 정보입니다. 이 지식을 공유해 주셔서 감사합니다. 안녕히 가세요. 당신의 환영과 좋은 하루 되세요.</input>
+		<output>아랍 리그</output>
+		<num_input_tokens>200</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>43</index_SMU>
+		<line_num>622a</line_num>
+		<category>Information Extraction</category>
+		<task>task578_curiosity_dialogs_answer_generation</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>In this task, you are given dialogue, and you have to find the most critical location in the given conversation.</definition>
+		<input>I would like to know more about Hong Kong, could you help me? Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China. It is one of the richest and most highly developed places in China and even the world! That's great! What about the education in Hong Kong, do you have any information on that? Sure, the education in Hong Kong is largely formed after that of the United Kingdom, particulary the English system. How interesting. I kind of figured that it being so high tech. What about the media in Hong Kong, do you have any information regarding that? Absolutely! Hong Kong's major English-language press is the South China Morning Post, with The Standard a business-oriented alternative. Do you know what television channels are popular there by any chance? As a matter of fact i do, Three free-to air broadcasters operate in the territory, TVB, HKTVE, and Hong Kong Open TV air three analogue and eight digital channels. That is awesome. Is there any other interesting facts about Hong Kong that you can share with me? An interesting fact about the history, Hong Kong was transferred to China in 1997, after 156 years of British rule! Excellent. Well, I thank you very much for all of this information. I have learned a great deal about Hong Kong. You are very welcome!</input>
+		<output>Hong Kong</output>
+		<num_input_tokens>228</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>44</index_SMU>
+		<line_num>622b</line_num>
+		<category>Information Extraction</category>
+		<task>task578_curiosity_dialogs_answer_generation</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>이 작업에서는 대화가 주어지며 주어진 대화에서 가장 중요한 위치를 찾아야 합니다.</definition>
+		<input>홍콩에 대해 더 알고 싶은데 도와주실 수 있나요? 홍콩, 공식적으로는 중화인민공화국의 홍콩특별행정구. 그것은 중국과 심지어 세계에서 가장 부유하고 가장 고도로 발전된 곳 중 하나입니다! 대단해! 홍콩의 교육은 어떻습니까? 그것에 대한 정보가 있습니까? 물론 홍콩의 교육은 영국, 특히 영어 시스템 이후에 형성되었습니다. 얼마나 흥미 롭습니다. 정말 첨단 기술이구나 하는 생각이 들었습니다. 홍콩 언론은 어떻습니까? 관련 정보가 있습니까? 전적으로! 홍콩의 주요 영자 언론은 사우스 차이나 모닝 포스트(South China Morning Post)이며 비즈니스 지향적 대안인 스탠다드(The Standard)가 있습니다. 혹시 그곳에서 어떤 텔레비전 채널이 인기가 있는지 아십니까? 사실 저는 3개의 무료 방송 방송사가 해당 지역에서 운영되고 있으며, TVB, HKTVE 및 Hong Kong Open TV는 3개의 아날로그 채널과 8개의 디지털 채널을 방송합니다. 굉장하다. 저와 공유할 수 있는 홍콩에 대한 다른 흥미로운 사실이 있습니까? 역사에 대한 흥미로운 사실은 홍콩이 156년의 영국 통치 후인 1997년에 중국으로 편입되었다는 것입니다! 훌륭한. 이 모든 정보에 대해 대단히 감사합니다. 나는 홍콩에 대해 많은 것을 배웠다. 당신은 매우 환영합니다!</input>
+		<output>홍콩</output>
+		<num_input_tokens>146</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>45</index_SMU>
+		<line_num>723a</line_num>
+		<category>Information Extraction</category>
+		<task>task621_ohsumed_yes_no_numerical_answer_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>Indicate the presence of numerical data in the abstract (whether numerical data plays a key role in medical records), solely using the information from the abstract.</definition>
+		<input>Abstract: Some patients converted from ventricular fibrillation to organized rhythms by defibrillation - trained ambulance technicians(EMT - Ds) will refibrillate before hospital arrival.The authors analyzed 271 cases of ventricular fibrillation managed by EMT - Ds working without paramedic back - up.Of 111 patients initially converted to organized rhythms, 19(17%) refibrillated, 11(58%) of whom were reconverted to perfusing rhythms, including nine of 11(82%) who had spontaneous pulses prior to refibrillation.Among patients initially converted to organized rhythms, hospital admission rates were lower for patients who refibrillated than for patients who did not(53 % versus 76% , P = NS), although discharge rates were virtually identical(37 % and 35 % , respectively).Scene - to - hospital transport times were not predictively associated with either the frequency of refibrillation or patient outcome.Defibrillation - trained EMTs can effectively manage refibrillation with additional shocks and are not at a significant disadvantage when paramedic back - up is not available. Question: Does the abstract contain any numerical data?</input>
+		<output>Yes</output>
+		<num_input_tokens>161</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>46</index_SMU>
+		<line_num>723b</line_num>
+		<category>Information Extraction</category>
+		<task>task621_ohsumed_yes_no_numerical_answer_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>초록의 정보만을 사용하여 초록에 숫자 데이터의 존재를 표시합니다(숫자 데이터가 의료 기록에서 중요한 역할을 하는지 여부).</definition>
+		<input>초록: 일부 환자는 제세동에 의해 심실 세동에서 조직화된 리듬으로 전환되었습니다. 훈련된 구급차 기술자(EMT - Ds)는 병원 도착 전에 재세동할 것입니다. 저자는 구급대원의 백업 없이 작동하는 EMT - Ds가 관리하는 심실 세동의 271가지 사례를 분석했습니다.111개 중 19명(17%)이 재세동되었고, 그 중 11명(58%)은 재세동 전에 자발적인 맥박이 있었던 11명 중 9명(82%)을 포함하여 관류성 리듬으로 재전환되었습니다. 환자 중 처음에 조직화된 리듬으로 전환되었습니다. , 퇴원율은 거의 동일했지만(각각 37% 및 35%) 병원 입원율은 재세동을 하지 않은 환자보다 낮았습니다(53% 대 76%, P = NS).현장에서 병원으로 이송 시간은 재세동 빈도 또는 환자 결과와 예측적으로 연관되지 않았습니다.제세동 - 훈련된 EMT는 추가 충격으로 재세동을 효과적으로 관리할 수 있습니다. 구급대원의 지원을 받을 수 없을 때 큰 불이익을 받지 않습니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까?</input>
+		<output>예</output>
+		<num_input_tokens>114</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>47</index_SMU>
+		<line_num>724a</line_num>
+		<category>Information Extraction</category>
+		<task>task621_ohsumed_yes_no_numerical_answer_generation</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>Indicate the presence of numerical data in the abstract (whether numerical data plays a key role in medical records), solely using the information from the abstract.</definition>
+		<input>Abstract: Our results suggest that ethylene oxide retention after sterilization is increased in cuprammonium cellulose plate dialyzers containing potting compound. In contrast, cuprammonium cellulose plate dialyzers without potting compound were characterized by a rapid disappearance of retained ethylene oxide after sterilization. Whether these findings explain the low incidence of SARD with cuprammonium cellulose plate dialyzers that do not contain potting material is a matter for continued study and experimentation. Question: Does the abstract contain any numerical data?</input>
+		<output>No</output>
+		<num_input_tokens>77</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>48</index_SMU>
+		<line_num>724b</line_num>
+		<category>Information Extraction</category>
+		<task>task621_ohsumed_yes_no_numerical_answer_generation</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>초록의 정보만을 사용하여 초록에 숫자 데이터의 존재를 표시합니다(숫자 데이터가 의료 기록에서 중요한 역할을 하는지 여부).</definition>
+		<input>초록: 우리의 결과는 포팅 화합물을 함유한 구리암모늄 셀룰로오스 플레이트 투석기에서 멸균 후 에틸렌 옥사이드 보유가 증가함을 시사합니다. 대조적으로, 포팅 화합물이 없는 쿠프라암모늄 셀룰로오스 플레이트 투석기는 멸균 후 보유된 에틸렌 옥사이드가 빠르게 사라지는 특징이 있습니다. 이러한 발견이 포팅 재료를 포함하지 않는 큐암모늄 셀룰로오스 플레이트 투석기에서 SARD의 낮은 발생률을 설명하는지 여부는 지속적인 연구 및 실험의 문제입니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까?</input>
+		<output>아니요</output>
+		<num_input_tokens>60</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>49</index_SMU>
+		<line_num>725a</line_num>
+		<category>Information Extraction</category>
+		<task>task621_ohsumed_yes_no_numerical_answer_generation</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>Indicate the presence of numerical data in the abstract (whether numerical data plays a key role in medical records), solely using the information from the abstract.</definition>
+		<input>Abstract: The case of a man who injected turpentine intravenously in an attempt to kill himself is reported. The patient developed immediate pulmonary edema and hypoxia, followed later by cellulitis at the site of injection. Although only one death to date has been attributed to this form of chemical abuse, extensive local reactions, pulmonary involvement, central nervous system depression, and febrile reactions should be anticipated, and such patients should be admitted to the hospital. Patients should be observed for local reactions and myonecrosis around the site of injection, especially as these occur 12-24 hours later. Question: Does the abstract contain any numerical data?</input>
+		<output>Yes</output>
+		<num_input_tokens>103</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>50</index_SMU>
+		<line_num>725b</line_num>
+		<category>Information Extraction</category>
+		<task>task621_ohsumed_yes_no_numerical_answer_generation</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>초록의 정보만을 사용하여 초록에 숫자 데이터의 존재를 표시합니다(숫자 데이터가 의료 기록에서 중요한 역할을 하는지 여부).</definition>
+		<input>초록: 자살을 시도하기 위해 테레빈유를 정맥 주사한 남성의 사례가 보고되었습니다. 환자는 즉시 폐부종과 저산소증이 발생했고, 이후 주사 부위에 봉와직염이 발생했습니다. 현재까지 단 한 명의 사망이 이러한 형태의 화학적 남용으로 인한 것으로 밝혀졌지만 광범위한 국소 반응, 폐 침범, 중추 신경계 억제 및 발열 반응이 예상되어야 하며 이러한 환자는 병원에 입원해야 합니다. 특히 12-24시간 후에 발생하므로 주사 부위 주변의 국소 반응 및 근괴사증에 대해 환자를 관찰해야 합니다. 질문: 초록에 숫자 데이터가 포함되어 있습니까?</input>
+		<output>예</output>
+		<num_input_tokens>71</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>51</index_SMU>
+		<line_num>826a</line_num>
+		<category>Information Extraction</category>
+		<task>task646_answer_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>Indicate all the pronouns (they, them, you, he, his, her, you, it, etc.) present in the given sentence. If there are multiple such pronouns in a sentence, then list them in the order of their first appearance in the given sentence. If a pronoun appears multiple times in a sentence, list it only once.</definition>
+		<input>the user changed his password from grwqwu8jyc toÂ willow-towered canopy huntertropic wrestles as it was easy to remember.</input>
+		<output>his, it</output>
+		<num_input_tokens>18</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>52</index_SMU>
+		<line_num>826b</line_num>
+		<category>Information Extraction</category>
+		<task>task646_answer_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>모든 대명사를 표시합니다(그들, 그들, 당신, 그, 그의, 그녀, 당신, 그것 등). 주어진 문장에 존재합니다. 한 문장에 이러한 대명사가 여러 개 있는 경우 주어진 문장에서 처음 나타나는 순서대로 나열합니다. 한 문장에 대명사가 여러 번 나오는 경우 한 번만 나열합니다.</definition>
+		<input>사용자는 기억하기 쉽기 때문에 암호를 grwqwu8jyc에서 willow-towered canopy huntertropic wrests로 변경했습니다.</input>
+		<output>그의, 그것</output>
+		<num_input_tokens>11</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>53</index_SMU>
+		<line_num>827a</line_num>
+		<category>Information Extraction</category>
+		<task>task646_answer_generation</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>Indicate all the pronouns (they, them, you, he, his, her, you, it, etc.) present in the given sentence. If there are multiple such pronouns in a sentence, then list them in the order of their first appearance in the given sentence. If a pronoun appears multiple times in a sentence, list it only once.</definition>
+		<input>during a game of tag, ethan ran from luke because he was chasing him.</input>
+		<output>he, him</output>
+		<num_input_tokens>14</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>54</index_SMU>
+		<line_num>827b</line_num>
+		<category>Information Extraction</category>
+		<task>task646_answer_generation</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>모든 대명사를 표시합니다(그들, 그들, 당신, 그, 그의, 그녀, 당신, 그것 등). 주어진 문장에 존재합니다. 한 문장에 이러한 대명사가 여러 개 있는 경우 주어진 문장에서 처음 나타나는 순서대로 나열합니다. 한 문장에 대명사가 여러 번 나오는 경우 한 번만 나열합니다.</definition>
+		<input>술래잡기 게임을 하는 동안 에단은 루크를 쫓고 있었기 때문에 루크에게서 도망쳤습니다.</input>
+		<output>그, 그를</output>
+		<num_input_tokens>11</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>55</index_SMU>
+		<line_num>928a</line_num>
+		<category>Information Extraction</category>
+		<task>task647_answer_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>Indicate a noun phrase from given statement which mentions a pronoun.</definition>
+		<input>this book introduced shakespeare to ovid; it was a fine selection of his writing.</input>
+		<output>his writing</output>
+		<num_input_tokens>14</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>56</index_SMU>
+		<line_num>928b</line_num>
+		<category>Information Extraction</category>
+		<task>task647_answer_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>대명사를 언급하는 주어진 문장에서 명사구를 나타냅니다.</definition>
+		<input>이 책은 셰익스피어를 ovid에 소개했습니다. 그의 글의 훌륭한 선택이었습니다.</input>
+		<output>그의 글</output>
+		<num_input_tokens>9</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>57</index_SMU>
+		<line_num>929a</line_num>
+		<category>Information Extraction</category>
+		<task>task647_answer_generation</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>Indicate a noun phrase from given statement which mentions a pronoun.</definition>
+		<input>madonna fired her trainer because she couldn't stand her boyfriend.</input>
+		<output>her boyfriend</output>
+		<num_input_tokens>10</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>58</index_SMU>
+		<line_num>929b</line_num>
+		<category>Information Extraction</category>
+		<task>task647_answer_generation</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>대명사를 언급하는 주어진 문장에서 명사구를 나타냅니다.</definition>
+		<input>마돈나는 남자 친구를 참을 수 없어 트레이너를 해고했습니다.</input>
+		<output>그녀의 남자 친구</output>
+		<num_input_tokens>8</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>59</index_SMU>
+		<line_num>1030a</line_num>
+		<category>Information Extraction</category>
+		<task>task676_ollie_relationship_answer_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>Given a sentence and two mentions from the text (arguments), indicate a phrase (a verb or noun phrase) that describes the relationship between the provided arguments.</definition>
+		<input>Sentence: 'Harry glanced again at the raw looking thing that trembled and choked in the shadow beneath the distant chair.', Argument/Subject 1: 'Harry', Argument/Subject 2: 'raw looking thing'</input>
+		<output>glance</output>
+		<num_input_tokens>28</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>60</index_SMU>
+		<line_num>1030b</line_num>
+		<category>Information Extraction</category>
+		<task>task676_ollie_relationship_answer_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>텍스트(인수)에서 한 문장과 두 개의 언급이 주어지면 제공된 인수 간의 관계를 설명하는 구(동사 또는 명사구)를 표시합니다.</definition>
+		<input>문장: '해리는 멀리 있는 의자 아래 그림자 속에서 질식하며 떨고 있는 날것처럼 보이는 것을 다시 한 번 흘끗 보았다. ', 인수/주제 1: '해리', 인수/주제 2: '날 것 같은 것'</input>
+		<output>섬광</output>
+		<num_input_tokens>29</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>61</index_SMU>
+		<line_num>1031a</line_num>
+		<category>Information Extraction</category>
+		<task>task676_ollie_relationship_answer_generation</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>Given a sentence and two mentions from the text (arguments), indicate a phrase (a verb or noun phrase) that describes the relationship between the provided arguments.</definition>
+		<input>Question: 'Dumbledore beamed at Harry, and Dumbledore's voice sounded loud and strong in his ears.', Argument/Subject 1: 'Dumbledore', Argument/Subject 2: 'Harry'</input>
+		<output>beam</output>
+		<num_input_tokens>21</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>62</index_SMU>
+		<line_num>1031b</line_num>
+		<category>Information Extraction</category>
+		<task>task676_ollie_relationship_answer_generation</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>텍스트(인수)에서 한 문장과 두 개의 언급이 주어지면 제공된 인수 간의 관계를 설명하는 구(동사 또는 명사구)를 표시합니다.</definition>
+		<input>질문: '덤블도어가 해리에게 환하게 웃었고 덤블도어의 목소리가 그의 귀에 크고 강하게 들렸습니다. ', 인수/주제 1: '덤블도어', 인수/주제 2: '해리'</input>
+		<output>빔</output>
+		<num_input_tokens>19</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>63</index_SMU>
+		<line_num>1032a</line_num>
+		<category>Information Extraction</category>
+		<task>task676_ollie_relationship_answer_generation</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>Given a sentence and two mentions from the text (arguments), indicate a phrase (a verb or noun phrase) that describes the relationship between the provided arguments.</definition>
+		<input>Sentence: 'Mohandas Karamchand Gandhi was born in Porbandar, Gujarat India', Argument/Subject 1: 'Mohandas Karamchand Gandhi', Argument/Subject 2: 'Porabandar'</input>
+		<output>be bear</output>
+		<num_input_tokens>18</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>64</index_SMU>
+		<line_num>1032b</line_num>
+		<category>Information Extraction</category>
+		<task>task676_ollie_relationship_answer_generation</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>텍스트(인수)에서 한 문장과 두 개의 언급이 주어지면 제공된 인수 간의 관계를 설명하는 구(동사 또는 명사구)를 표시합니다.</definition>
+		<input>문장: '모한다스 카람찬드 간디는 인도 구자라트의 포르반다르에서 태어났다', 인수/주제 1: '모한다스 카람찬드 간디', 인수/주제 2: '포라반다르'</input>
+		<output>곰이되다</output>
+		<num_input_tokens>16</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>65</index_SMU>
+		<line_num>1133a</line_num>
+		<category>Information Extraction</category>
+		<task>task678_ollie_actual_relationship_answer_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>From the given sentence, extract the phrase (often noun or verb) that carries the given relationship. The generated phrase should be present in the sentence.</definition>
+		<input>Given Relationship: 'make', Sentence: 'Jenny made the announcement that her baby was an alien.'</input>
+		<output>made</output>
+		<num_input_tokens>14</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>66</index_SMU>
+		<line_num>1133b</line_num>
+		<category>Information Extraction</category>
+		<task>task678_ollie_actual_relationship_answer_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>주어진 문장에서 주어진 관계를 전달하는 구(종종 명사 또는 동사)를 추출합니다. 생성된 구문이 문장에 있어야 합니다.</definition>
+		<input>주어진 관계: 'make', 문장: 'Jenny는 그녀의 아기가 외계인이라고 발표했습니다.'</input>
+		<output>만들어진</output>
+		<num_input_tokens>9</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>67</index_SMU>
+		<line_num>1134a</line_num>
+		<category>Information Extraction</category>
+		<task>task678_ollie_actual_relationship_answer_generation</task>
+		<idx>2a</idx>
+		<type>example</type>
+		<definition>From the given sentence, extract the phrase (often noun or verb) that carries the given relationship. The generated phrase should be present in the sentence.</definition>
+		<input>Given Relationship: 'look', Sentence: 'As he looked out of the window, he saw a clown walk by.'</input>
+		<output>looked</output>
+		<num_input_tokens>17</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>68</index_SMU>
+		<line_num>1134b</line_num>
+		<category>Information Extraction</category>
+		<task>task678_ollie_actual_relationship_answer_generation</task>
+		<idx>2b</idx>
+		<type>example</type>
+		<definition>주어진 문장에서 주어진 관계를 전달하는 구(종종 명사 또는 동사)를 추출합니다. 생성된 구문이 문장에 있어야 합니다.</definition>
+		<input>주어진 관계: '봐', 문장: '그가 창밖을 내다봤을 때, 그는 광대가 지나가는 것을 보았다.'</input>
+		<output>보았다</output>
+		<num_input_tokens>13</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>69</index_SMU>
+		<line_num>1135a</line_num>
+		<category>Information Extraction</category>
+		<task>task678_ollie_actual_relationship_answer_generation</task>
+		<idx>3a</idx>
+		<type>example</type>
+		<definition>From the given sentence, extract the phrase (often noun or verb) that carries the given relationship. The generated phrase should be present in the sentence.</definition>
+		<input>Given Relationship: 'be find', Sentence: 'Happiness can be found in the depths of chocolate pudding.'</input>
+		<output>be found</output>
+		<num_input_tokens>15</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>70</index_SMU>
+		<line_num>1135b</line_num>
+		<category>Information Extraction</category>
+		<task>task678_ollie_actual_relationship_answer_generation</task>
+		<idx>3b</idx>
+		<type>example</type>
+		<definition>주어진 문장에서 주어진 관계를 전달하는 구(종종 명사 또는 동사)를 추출합니다. 생성된 구문이 문장에 있어야 합니다.</definition>
+		<input>주어진 관계: '찾다', 문장: '초콜릿 푸딩의 깊이에서 행복을 찾을 수 있습니다.'</input>
+		<output>발견되다</output>
+		<num_input_tokens>11</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>71</index_SMU>
+		<line_num>1236a</line_num>
+		<category>Information Extraction</category>
+		<task>task683_online_privacy_policy_text_purpose_answer_generation</task>
+		<idx>1a</idx>
+		<type>example</type>
+		<definition>Given a part of privacy policy text, identify the purpose for which the user information is collected/used. The purpose should be given inside the policy text, answer as 'Not Specified' otherwise</definition>
+		<input>The site collects your IP address or device IDs for advertising. Collection happens when you implicitly provide information on the website.</input>
+		<output>Advertising</output>
+		<num_input_tokens>21</num_input_tokens>
+	</text>
+	<text>
+		<index_SMU>72</index_SMU>
+		<line_num>1236b</line_num>
+		<category>Information Extraction</category>
+		<task>task683_online_privacy_policy_text_purpose_answer_generation</task>
+		<idx>1b</idx>
+		<type>example</type>
+		<definition>개인정보취급방침 문구의 일부를 주어 이용자 정보가 수집/이용되는 목적을 명시합니다. 목적은 정책 텍스트 안에 제공되어야 하며, 그렇지 않으면 '지정되지 않음'으로 응답해야 합니다.</definition>
+		<input>사이트는 광고를 위해 귀하의 IP 주소 또는 장치 ID를 수집합니다. 수집은 귀하가 웹사이트에 정보를 암시적으로 제공할 때 발생합니다.</input>
+		<output>광고하는</output>
+		<num_input_tokens>18</num_input_tokens>
+	</text>
 </Root>
