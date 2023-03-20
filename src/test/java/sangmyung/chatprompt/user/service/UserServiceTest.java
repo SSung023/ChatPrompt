@@ -26,13 +26,13 @@ class UserServiceTest {
     @DisplayName("저장되어 있는 사용자 리스트를 받아올 수 있다.")
     public void canGetParticipantList(){
         //given
-        // spring 시작 시 sql문이 실행되어 자동으로 6명의 사용자가 DB에 등록된다.
+        // spring 시작 시 sql문이 실행되어 자동으로 5명의 사용자가 DB에 등록된다.
         
         //when
         List<User> userList = userService.findAllUserList();
 
         //then
-        Assertions.assertThat(userList.size()).isEqualTo(6);
+        Assertions.assertThat(userList.size()).isEqualTo(5);
     }
 
     @Test

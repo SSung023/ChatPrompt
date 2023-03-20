@@ -1,7 +1,6 @@
 package sangmyung.chatprompt.task.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -82,7 +81,7 @@ class TaskServiceTest {
 
         //when
         Task taskByPK = taskService.findTaskByPK(taskId);
-        TaskResponse taskResponse = taskService.getTaskInfo(taskId);
+        TaskResponse taskResponse = taskService.getTaskDefinition(taskId);
 
         //then
         assertThat(taskByPK.getDefinition_kor()).isEqualTo(taskResponse.getDefinition_kor());

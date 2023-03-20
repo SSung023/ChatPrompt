@@ -1,10 +1,7 @@
 package sangmyung.chatprompt.task.service;
 
 import lombok.RequiredArgsConstructor;
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
@@ -39,6 +36,7 @@ public class TaskService {
 
 
 
+    // Task 엔티티를 DB에 저장
     @Transactional
     public Long saveTask(Task task){
         Task save = taskRepository.save(task);
@@ -74,12 +72,21 @@ public class TaskService {
     }
 
     /**
-     * Task ID(PK)에 대응되는 Task의 정보가 담긴 객체를 반환
+     * Task ID(PK)에 대응되는 Task의 정보(Definition)가 담긴 객체를 반환
      * @param taskId 정보를 찾고자하는 Task의 PK
      */
-    public TaskResponse getTaskInfo(Long taskId){
+    public TaskResponse getTaskDefinition(Long taskId){
         Task task = findTaskByPK(taskId);
         return convertToTaskResponse(task);
+    }
+
+    /**
+     * 사용자가 마지막으로 수정한 Task의 PK를 반환
+     * @param username 사용자의 실명
+     */
+    public Long getLastModifiedTaskId(String username){
+        User user = userRepository.findUserByName(username);
+        return user.getLastTaskNum();
     }
 
 
@@ -95,9 +102,6 @@ public class TaskService {
         PromptListDTO promptList = xmlParser.unmarshall(path);
         List<PromptDTO> infoList = promptList.getInfoList();
         int len = infoList.size();
-
-        User user = userRepository.findOriginUser();
-
 
         for (int i = 0; i < len; i += 2){
             PromptDTO engDTO = infoList.get(i);
@@ -118,7 +122,6 @@ public class TaskService {
                         .numInputTokens(engDTO.getInputToken())
                         .build();
                 task = taskRepository.save(task);
-                task.addUser(user);
             }
             else {
                 task = optionalTask.get();
@@ -147,12 +150,14 @@ public class TaskService {
 
     private TaskResponse convertToTaskResponse(Task task){
         return TaskResponse.builder()
+                .taskId(task.getId())
                 .definition_kor(task.getDefinition_kor())
                 .definition_eng(task.getDefinition_eng())
                 .build();
     }
     private IOResponse convertToIOResponse(IOPairs ioPairs){
         return IOResponse.builder()
+                .taskId(ioPairs.getTask().getId())
                 .index(ioPairs.getIdx())
                 .input1(ioPairs.getInput1())
                 .input2(ioPairs.getInput2())

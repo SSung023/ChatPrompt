@@ -4,7 +4,6 @@ import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import sangmyung.chatprompt.user.domain.User;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -19,10 +18,6 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "task_id")
     private Long id;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
-    private User user;
 
     @OneToMany(mappedBy = "task", cascade = CascadeType.ALL)
     private List<IOPairs> ioPairsList = new ArrayList<>();
@@ -53,9 +48,4 @@ public class Task {
         this.numInputTokens = numInputTokens;
     }
 
-    //== 연관관계 편의메서드 ==//
-    public void addUser(User user){
-        this.user = user;
-        user.getTaskList().add(this);
-    }
 }

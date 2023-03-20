@@ -9,13 +9,14 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class TaskResponse {
-
+    private Long taskId;
     private String definition_eng;
     private String definition_kor;
 
 
     @Builder
-    public TaskResponse(String definition_eng, String definition_kor) {
+    public TaskResponse(Long taskId, String definition_eng, String definition_kor) {
+        this.taskId = taskId;
         this.definition_eng = definition_eng;
         this.definition_kor = definition_kor;
     }
