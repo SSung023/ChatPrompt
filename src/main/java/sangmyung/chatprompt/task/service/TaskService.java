@@ -39,6 +39,12 @@ public class TaskService {
 
 
 
+    @Transactional
+    public Long saveTask(Task task){
+        Task save = taskRepository.save(task);
+        return save.getId();
+    }
+
     // TaskId(PK)를 통해 Task 엔티티를 반환
     public Task findTaskByPK(Long taskId){
         return taskRepository.findTaskByPK(taskId)

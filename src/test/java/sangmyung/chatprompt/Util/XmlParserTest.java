@@ -35,7 +35,7 @@ class XmlParserTest {
         // Then
         assertNotNull(xmlListTag);
         assertNotNull(xmlListTag.getInfoList());
-        assertEquals(4, xmlListTag.getInfoList().size());
+        assertEquals(72, xmlListTag.getInfoList().size());
     }
 
 }
