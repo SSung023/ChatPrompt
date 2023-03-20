@@ -1,0 +1,12 @@
+.input {
+    box-sizing: border-box;
+
+    max-height: 4em;
+    overflow-y: hidden;
+    resize: none;
+    background-color: transparent;
+
+    width: 100%;
+    border: none;
+    outline: none;
+}

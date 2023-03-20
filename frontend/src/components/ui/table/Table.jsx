@@ -1,27 +1,27 @@
 import React from 'react';
 import styles from './Table.module.css';
 
-export default function Table({ children }) {
+export default function Table({ children, style }) {
     return (
-        <table className={styles.table}>{children}</table>
+        <table className={styles.table} style={style}>{children}</table>
     );
 }
 
-export function TableHead({ children, align }) {
+export function TableHead({ children, align, style }) {
     return (
-        <th className={styles.th} align={align}>{children}</th>
+        <th className={styles.th} align={align} style={style}>{children}</th>
     )
 }
 
-export function TableBody({ children }){
+export function TableBody({ children, style }){
     return (
-        <tbody className={styles.tbody}>{children}</tbody>
+        <tbody className={styles.tbody} style={style}>{children}</tbody>
     )
 }
 
-export function TableRow({ children }) {
+export function TableRow({ children, style }) {
     return (
-        <tr className={styles.tr}>{children}</tr>
+        <tr className={styles.tr} style={style}>{children}</tr>
     )
 }
 

@@ -1,11 +1,15 @@
-import React, { useContext, useEffect } from 'react';
+import axios from 'axios';
+import React, { useContext, useEffect, useState } from 'react';
 import Directive from '../components/definition/Directive';
 import EditDirective from '../components/definition/EditDirective';
+import References from '../components/definition/References';
 import CurrentFile from '../components/ui/CurrentFile';
 import { SET_NAME, SET_TASKID, SET_TASKNAME, userContext } from '../context/UserContext';
 
 export default function EditDefinition() {
     const context = useContext(userContext);
+    const [taskId, setTaskId] = useState(context.state.data.taskId);
+    const [defData, setDef] = useState();
 
     useEffect(() => {
         // if(window.localStorage.getItem("name")){
@@ -22,11 +26,22 @@ export default function EditDefinition() {
             window.localStorage.setItem("taskName", context.state.data.taskName);
         }
     }, []);
+
+    useEffect(() => {
+        const tId = parseInt(taskId);
+        axios.get(`/api/tasks/${tId}`)
+        .then(function(res) {
+            setDef(res.data.data);
+        });
+    }, [taskId]);
+
     return (
+        defData && 
         <div className='body'>
             <CurrentFile ptaskName='지시문' />
-            <Directive />
+            <Directive data={defData}/>
             <EditDirective />
+            <References taskId={taskId} defData={defData}/>
         </div>
     );
 }

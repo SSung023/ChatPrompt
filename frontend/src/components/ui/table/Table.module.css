@@ -30,7 +30,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid var(--grey-line-color);
-    padding: 0 1em;
+    padding: 1em;
 
     background-color: var(--white-color);
 }
