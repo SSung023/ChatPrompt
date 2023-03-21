@@ -6,6 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
@@ -18,7 +19,8 @@ import sangmyung.chatprompt.user.repository.UserRepository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@SpringBootTest
+@SpringBootTest(properties = "spring.profiles.active=test")
+@ActiveProfiles({"test"})
 @Transactional
 @Slf4j
 class AssignmentServiceTest {
@@ -48,6 +50,8 @@ class AssignmentServiceTest {
         assertThat(writtenAssignment.getSimilarInstruct2()).isEqualTo("유사지시문2");
         assertThat(writtenAssignment.getInput()).isEqualTo("입력");
         assertThat(writtenAssignment.getOutput()).isEqualTo("출력");
+
+        assertThat(user.getLastTaskNum()).isEqualTo(task.getId());
     }
 
     @Test
@@ -65,6 +69,8 @@ class AssignmentServiceTest {
         assertThat(writtenAssignment.getSimilarInstruct2()).isEqualTo("");
         assertThat(writtenAssignment.getInput()).isEqualTo("");
         assertThat(writtenAssignment.getOutput()).isEqualTo("");
+
+        assertThat(user.getLastTaskNum()).isEqualTo(task.getId());
     }
 
     @Test
@@ -84,6 +90,8 @@ class AssignmentServiceTest {
         assertThat(assignResponse.getSimilarInstruct2()).isEqualTo("s2");
         assertThat(assignResponse.getInput()).isEqualTo("in");
         assertThat(assignResponse.getOutput()).isEqualTo("out");
+
+        assertThat(user.getLastTaskNum()).isEqualTo(task.getId());
     }
 
 

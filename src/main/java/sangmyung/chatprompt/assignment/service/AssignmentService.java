@@ -30,21 +30,24 @@ public class AssignmentService {
     public AssignResponse getWrittenAssignment(User user, Long taskId){
         Optional<Assignment> optionalAssignment = repository.getAssignment(user.getId(), taskId);
 
-        // 해당하는 Assignment가 있던 경우
-        if (optionalAssignment.isPresent()){
-            return convertToAssignResponse(optionalAssignment.get());
-        }
+        // User가 마지막으로 수정한 TaskId 갱신
+        user.updateLastTaskNum(taskId);
 
         // 해당하는 Assignment가 없던 경우
-        Assignment assignment = Assignment.builder()
-                .taskId(taskId)
-                .similarInstruct1("").similarInstruct2("")
-                .input("").output("")
-                .build();
-        Assignment savedAssign = repository.save(assignment);
-        savedAssign.addUser(user);
+        if (optionalAssignment.isEmpty()){
+            Assignment assignment = Assignment.builder()
+                    .taskId(taskId)
+                    .similarInstruct1("").similarInstruct2("")
+                    .input("").output("")
+                    .build();
+            Assignment savedAssign = repository.save(assignment);
+            savedAssign.addUser(user);
 
-        return convertToAssignResponse(savedAssign);
+            return convertToAssignResponse(savedAssign);
+        }
+
+        // 해당하는 Assignment가 있던 경우
+        return convertToAssignResponse(optionalAssignment.get());
     }
 
 
@@ -57,6 +60,9 @@ public class AssignmentService {
     @Transactional
     public AssignResponse writeAssignmentContent(User user, Long taskId, AssignRequest assignRequest){
         Optional<Assignment> optional = repository.getAssignment(user.getId(), taskId);
+
+        // User가 마지막으로 수정한 TaskId 갱신
+        user.updateLastTaskNum(taskId);
 
         // 존재하지 않았던 경우 -> Assignment 객체 새로 생성
         if (optional.isEmpty()){

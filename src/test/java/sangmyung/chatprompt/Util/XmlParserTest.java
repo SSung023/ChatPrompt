@@ -3,6 +3,7 @@ package sangmyung.chatprompt.Util;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 import sangmyung.chatprompt.xml.DTO.PromptDTO;
 import sangmyung.chatprompt.xml.DTO.PromptListDTO;
 
@@ -15,7 +16,8 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
+@SpringBootTest(properties = "spring.profiles.active=test")
+@ActiveProfiles({"test"})
 class XmlParserTest {
     private String xmlPath = "prompt/preparation/sample.xml";
 
