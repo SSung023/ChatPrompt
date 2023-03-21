@@ -23,17 +23,23 @@ export default function References({ taskId, defData }) {
                     <TableRow>
                         <TableHead>{`입력 ${io_pair.index}`}</TableHead>
                         <TableCell>
-                            {io_pair.input1}
+                            {/* <span>{io_pair.input1}</span>
                             <br/>
-                            {io_pair.input2}
+                            <span style={{color: `var(--lowb-main-color)`}}>{io_pair.input2}</span> */}
+                            <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.input1}</span>
+                            <br/>
+                            <span>{io_pair.input2}</span>
                         </TableCell>
                     </TableRow>
                     <TableRow>
                         <TableHead>{`출력 ${io_pair.index}`}</TableHead>
                         <TableCell>
-                            {io_pair.output1}
+                            {/* <span>{io_pair.output1}</span>
                             <br/>
-                            {io_pair.output2}
+                            <span style={{color: `var(--lowb-main-color)`}}>{io_pair.output2}</span> */}
+                            <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.output1}</span>
+                            <br/>
+                            <span>{io_pair.output2}</span>
                         </TableCell>
                     </TableRow>
                 </>
@@ -50,10 +56,10 @@ export default function References({ taskId, defData }) {
                     <TableRow>
                         <TableHead>지시문</TableHead>
                         <TableCell>
-                            {defData.definition_eng}
+                            <span style={{color: `var(--g-dark-txt-color)`}}>{defData.definition_eng}</span>
                             <br/>
                             <br/>
-                            {defData.definition_kor}
+                            <span>{defData.definition_kor}</span>
                         </TableCell>
                     </TableRow>
                     {makeIOPairs()}

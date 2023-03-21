@@ -8,7 +8,7 @@ export const userContext = createContext();
 
 const initData = {
     name: '박소영',
-    taskId: '001',
+    taskId: 1,
     taskName: '지시문',
 }
 
