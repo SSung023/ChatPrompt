@@ -1,173 +1,4067 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sangmyung.chatprompt.task.service.TaskServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-03-20T17:34:45" hostname="HEY-2.local" time="4.051">
+<testsuite name="sangmyung.chatprompt.task.service.TaskServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-03-21T06:28:56" hostname="HEY-2.local" time="0.408">
   <properties/>
-  <testcase name="PromptDTO를 Task와 IOPairs로 변환하여 저장할 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="0.932"/>
-  <testcase name="taskNum을 통해 특정 Task를 찾을 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="0.975"/>
-  <testcase name="Task를 TaskResponse로 반환할 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="0.96"/>
-  <testcase name="IOPair를 IOResponse로 변환할 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="1.182"/>
-  <system-out><![CDATA[2023-03-21 02:34:45.676  INFO 6552 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [sangmyung.chatprompt.task.service.TaskServiceTest], using SpringBootContextLoader
-2023-03-21 02:34:45.676  INFO 6552 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [sangmyung.chatprompt.task.service.TaskServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2023-03-21 02:34:45.676  INFO 6552 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [sangmyung.chatprompt.task.service.TaskServiceTest]: TaskServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2023-03-21 02:34:45.679  INFO 6552 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration sangmyung.chatprompt.ChatPromptApplication for test class sangmyung.chatprompt.task.service.TaskServiceTest
-2023-03-21 02:34:45.681  INFO 6552 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2023-03-21 02:34:45.681  INFO 6552 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6aeb769d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51f412e6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7234db3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@189c6683, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2972b493, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58e0f079, org.springframework.test.context.transaction.TransactionalTestExecutionListener@45b37003, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e60be48, org.springframework.test.context.event.EventPublishingTestExecutionListener@20a533b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5db6083b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3db48e6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@38f2342b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@68312b85, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5ab0168, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5c6ee543]
-2023-03-21 02:34:45.690  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@49e54217, testMethod = canSaveTaskAndIOPairs@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3e7da4cb]; rollback [true]
-2023-03-21 02:34:45.756  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
-2023-03-21 02:34:45.783  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
-2023-03-21 02:34:45.818  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
-2023-03-21 02:34:45.843  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
-2023-03-21 02:34:45.867  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
-2023-03-21 02:34:45.897  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
-2023-03-21 02:34:45.911  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
-2023-03-21 02:34:45.926  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
-2023-03-21 02:34:45.955  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
-2023-03-21 02:34:45.979  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
-2023-03-21 02:34:46.002  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
-2023-03-21 02:34:46.038  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
-2023-03-21 02:34:46.066  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
-2023-03-21 02:34:46.091  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
-2023-03-21 02:34:46.115  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
-2023-03-21 02:34:46.138  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
-2023-03-21 02:34:46.175  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
-2023-03-21 02:34:46.195  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
-2023-03-21 02:34:46.217  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
-2023-03-21 02:34:46.241  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
-2023-03-21 02:34:46.255  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
-2023-03-21 02:34:46.272  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
-2023-03-21 02:34:46.293  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
-2023-03-21 02:34:46.310  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
-2023-03-21 02:34:46.324  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
-2023-03-21 02:34:46.347  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
-2023-03-21 02:34:46.363  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
-2023-03-21 02:34:46.399  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
-2023-03-21 02:34:46.423  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
-2023-03-21 02:34:46.451  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
-2023-03-21 02:34:46.470  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
-2023-03-21 02:34:46.484  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
-2023-03-21 02:34:46.505  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
-2023-03-21 02:34:46.519  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
-2023-03-21 02:34:46.532  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
-2023-03-21 02:34:46.562  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
-2023-03-21 02:34:46.562  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
-2023-03-21 02:34:46.614  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@49e54217, testMethod = canSaveTaskAndIOPairs@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
-2023-03-21 02:34:46.626  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@4548bfc7, testMethod = canFindTaskByTaskNum@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3e7da4cb]; rollback [true]
-2023-03-21 02:34:46.667  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
-2023-03-21 02:34:46.691  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
-2023-03-21 02:34:46.727  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
-2023-03-21 02:34:46.751  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
-2023-03-21 02:34:46.774  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
-2023-03-21 02:34:46.801  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
-2023-03-21 02:34:46.822  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
-2023-03-21 02:34:46.848  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
-2023-03-21 02:34:46.886  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
-2023-03-21 02:34:46.911  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
-2023-03-21 02:34:46.931  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
-2023-03-21 02:34:46.960  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
-2023-03-21 02:34:46.975  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
-2023-03-21 02:34:46.989  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
-2023-03-21 02:34:47.003  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
-2023-03-21 02:34:47.018  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
-2023-03-21 02:34:47.055  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
-2023-03-21 02:34:47.079  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
-2023-03-21 02:34:47.107  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
-2023-03-21 02:34:47.147  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
-2023-03-21 02:34:47.163  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
-2023-03-21 02:34:47.179  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
-2023-03-21 02:34:47.202  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
-2023-03-21 02:34:47.217  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
-2023-03-21 02:34:47.235  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
-2023-03-21 02:34:47.256  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
-2023-03-21 02:34:47.271  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
-2023-03-21 02:34:47.292  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
-2023-03-21 02:34:47.308  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
-2023-03-21 02:34:47.375  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
-2023-03-21 02:34:47.415  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
-2023-03-21 02:34:47.439  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
-2023-03-21 02:34:47.475  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
-2023-03-21 02:34:47.495  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
-2023-03-21 02:34:47.517  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
-2023-03-21 02:34:47.555  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
-2023-03-21 02:34:47.555  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
-2023-03-21 02:34:47.591  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@4548bfc7, testMethod = canFindTaskByTaskNum@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
-2023-03-21 02:34:47.602  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@258e5601, testMethod = canConverTaskToTaskResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3e7da4cb]; rollback [true]
-2023-03-21 02:34:47.646  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
-2023-03-21 02:34:47.671  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
-2023-03-21 02:34:47.701  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
-2023-03-21 02:34:47.726  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
-2023-03-21 02:34:47.755  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
-2023-03-21 02:34:47.790  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
-2023-03-21 02:34:47.815  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
-2023-03-21 02:34:47.839  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
-2023-03-21 02:34:47.871  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
-2023-03-21 02:34:47.899  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
-2023-03-21 02:34:47.923  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
-2023-03-21 02:34:47.958  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
-2023-03-21 02:34:47.983  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
-2023-03-21 02:34:48.011  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
-2023-03-21 02:34:48.035  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
-2023-03-21 02:34:48.059  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
-2023-03-21 02:34:48.095  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
-2023-03-21 02:34:48.123  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
-2023-03-21 02:34:48.151  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
-2023-03-21 02:34:48.199  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
-2023-03-21 02:34:48.223  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
-2023-03-21 02:34:48.239  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
-2023-03-21 02:34:48.262  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
-2023-03-21 02:34:48.278  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
-2023-03-21 02:34:48.291  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
-2023-03-21 02:34:48.312  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
-2023-03-21 02:34:48.326  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
-2023-03-21 02:34:48.347  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
-2023-03-21 02:34:48.361  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
-2023-03-21 02:34:48.382  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
-2023-03-21 02:34:48.396  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
-2023-03-21 02:34:48.410  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
-2023-03-21 02:34:48.430  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
-2023-03-21 02:34:48.444  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
-2023-03-21 02:34:48.463  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
-2023-03-21 02:34:48.503  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
-2023-03-21 02:34:48.503  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
-2023-03-21 02:34:48.551  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@258e5601, testMethod = canConverTaskToTaskResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
-2023-03-21 02:34:48.559  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@213fc7e7, testMethod = canConvertIOPairToIOResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@3e7da4cb]; rollback [true]
-2023-03-21 02:34:48.603  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
-2023-03-21 02:34:48.627  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
-2023-03-21 02:34:48.663  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
-2023-03-21 02:34:48.686  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
-2023-03-21 02:34:48.711  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
-2023-03-21 02:34:48.751  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
-2023-03-21 02:34:48.779  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
-2023-03-21 02:34:48.802  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
-2023-03-21 02:34:48.839  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
-2023-03-21 02:34:48.863  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
-2023-03-21 02:34:48.887  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
-2023-03-21 02:34:48.927  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
-2023-03-21 02:34:48.950  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
-2023-03-21 02:34:48.974  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
-2023-03-21 02:34:48.999  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
-2023-03-21 02:34:49.023  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
-2023-03-21 02:34:49.055  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
-2023-03-21 02:34:49.070  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
-2023-03-21 02:34:49.084  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
-2023-03-21 02:34:49.111  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
-2023-03-21 02:34:49.126  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
-2023-03-21 02:34:49.140  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
-2023-03-21 02:34:49.162  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
-2023-03-21 02:34:49.177  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
-2023-03-21 02:34:49.191  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
-2023-03-21 02:34:49.212  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
-2023-03-21 02:34:49.227  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
-2023-03-21 02:34:49.247  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
-2023-03-21 02:34:49.261  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
-2023-03-21 02:34:49.283  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
-2023-03-21 02:34:49.297  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
-2023-03-21 02:34:49.314  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
-2023-03-21 02:34:49.334  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
-2023-03-21 02:34:49.348  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
-2023-03-21 02:34:49.362  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
-2023-03-21 02:34:49.391  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
-2023-03-21 02:34:49.391  INFO 6552 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
-2023-03-21 02:34:49.710  INFO 6552 --- [    Test worker] s.c.task.service.TaskServiceTest         : 0
-2023-03-21 02:34:49.732  INFO 6552 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1418a1bd testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@213fc7e7, testMethod = canConvertIOPairToIOResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@628af295 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5b6ec132, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cce16f4, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3b7d3a38, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2bb3058, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7a1a14a4, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+  <testcase name="PromptDTO를 Task와 IOPairs로 변환하여 저장할 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="0.15"/>
+  <testcase name="taskNum을 통해 특정 Task를 찾을 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="0.086"/>
+  <testcase name="Task를 TaskResponse로 반환할 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="0.085"/>
+  <testcase name="IOPair를 IOResponse로 변환할 수 있다." classname="sangmyung.chatprompt.task.service.TaskServiceTest" time="0.084"/>
+  <system-out><![CDATA[2023-03-21 15:28:56.862  INFO 2747 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [sangmyung.chatprompt.task.service.TaskServiceTest], using SpringBootContextLoader
+2023-03-21 15:28:56.862  INFO 2747 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [sangmyung.chatprompt.task.service.TaskServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-03-21 15:28:56.862  INFO 2747 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [sangmyung.chatprompt.task.service.TaskServiceTest]: TaskServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-03-21 15:28:56.864  INFO 2747 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration sangmyung.chatprompt.ChatPromptApplication for test class sangmyung.chatprompt.task.service.TaskServiceTest
+2023-03-21 15:28:56.865  INFO 2747 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-03-21 15:28:56.865  INFO 2747 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3577fd9b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@76140ca5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@47b5c247, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4057eb76, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4ac64dc2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c61011b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@75af5f2a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@adc06b2, org.springframework.test.context.event.EventPublishingTestExecutionListener@728cf276, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@66f15ce5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@69a8191e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3ab7b0f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1621264e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7a5b561b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5392c0a7]
+2023-03-21 15:28:56.867  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@34fe89a5, testMethod = canSaveTaskAndIOPairs@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1efa258e]; rollback [true]
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.887  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.893  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.896  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.899  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.901  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.905  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.908  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.911  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.915  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.918  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.922  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.926  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.929  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.933  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.935  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.938  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.942  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.945  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.948  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.952  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.955  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.958  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.962  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.965  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.968  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.971  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.974  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.977  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.979  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.982  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.984  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.987  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.990  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.992  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.995  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:56.998  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
+2023-03-21 15:28:56.998  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_
+2023-03-21 15:28:57.017  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@34fe89a5, testMethod = canSaveTaskAndIOPairs@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2023-03-21 15:28:57.018  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@14d44e72, testMethod = canFindTaskByTaskNum@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1efa258e]; rollback [true]
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.029  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.031  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.033  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.035  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.037  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.039  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.041  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.043  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.045  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.047  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.049  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.052  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.054  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.055  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.057  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.059  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.061  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.063  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.064  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.067  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.068  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.070  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.073  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.075  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.076  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.079  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.080  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.083  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.085  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.087  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.089  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.091  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.093  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.094  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.096  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.098  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
+2023-03-21 15:28:57.098  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+2023-03-21 15:28:57.103  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@14d44e72, testMethod = canFindTaskByTaskNum@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2023-03-21 15:28:57.105  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@12b0440b, testMethod = canConverTaskToTaskResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1efa258e]; rollback [true]
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.114  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.115  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.118  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.119  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.121  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.126  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.128  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.130  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.133  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.136  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.138  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.140  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.142  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.143  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.145  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.147  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.150  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.152  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.154  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.156  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.158  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.159  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.161  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.163  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.164  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.166  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.167  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.170  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.171  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.173  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.174  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.176  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.178  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.179  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.181  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.182  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
+2023-03-21 15:28:57.182  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_id=?
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_id=?
+2023-03-21 15:28:57.190  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@12b0440b, testMethod = canConverTaskToTaskResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2023-03-21 15:28:57.191  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@73ec417b, testMethod = canConvertIOPairToIOResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1efa258e]; rollback [true]
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.199  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 0	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.200  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리179	현재 인덱스: 2	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.202  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 4	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.203  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 6	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.204  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리180	현재 인덱스: 8	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.206  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 10	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.207  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 12	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.208  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리181	현재 인덱스: 14	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.210  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 16	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.214  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 18	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.215  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리292	현재 인덱스: 20	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.217  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 22	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.219  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 24	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.221  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 26	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.222  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 28	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.223  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리388	현재 인덱스: 30	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.225  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 32	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.226  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 34	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.227  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리456	현재 인덱스: 36	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.229  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 38	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.231  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 40	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.232  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리578	현재 인덱스: 42	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.234  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 44	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.236  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 46	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.237  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리621	현재 인덱스: 48	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.238  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 50	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.240  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리646	현재 인덱스: 52	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.242  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 54	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.243  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리647	현재 인덱스: 56	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.244  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 58	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.246  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 60	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.247  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리676	현재 인덱스: 62	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.249  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 64	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.250  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 66	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.251  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리678	현재 인덱스: 68	 전체 인덱스: 72
+Hibernate: 
+    select
+        task0_.task_id as task_id1_2_,
+        task0_.category as category2_2_,
+        task0_.definition_eng as definiti3_2_,
+        task0_.definition_kor as definiti4_2_,
+        task0_.num_input_tokens as num_inpu5_2_,
+        task0_.task_num as task_num6_2_,
+        task0_.task_str as task_str7_2_,
+        task0_.type as type8_2_ 
+    from
+        task task0_ 
+    where
+        task0_.task_num=?
+Hibernate: 
+    insert 
+    into
+        task
+        (category, definition_eng, definition_kor, num_input_tokens, task_num, task_str, type) 
+    values
+        (?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        iopairs
+        (idx, input1, input2, output1, output2, task_id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-03-21 15:28:57.253  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리683	현재 인덱스: 70	 전체 인덱스: 72
+2023-03-21 15:28:57.253  INFO 2747 --- [    Test worker] s.chatprompt.task.service.TaskService    : task 처리 완료
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    update
+        iopairs 
+    set
+        idx=?,
+        input1=?,
+        input2=?,
+        output1=?,
+        output2=?,
+        task_id=? 
+    where
+        io_pairs_id=?
+Hibernate: 
+    select
+        iopairs0_.io_pairs_id as io_pairs1_1_,
+        iopairs0_.idx as idx2_1_,
+        iopairs0_.input1 as input3_1_,
+        iopairs0_.input2 as input4_1_,
+        iopairs0_.output1 as output5_1_,
+        iopairs0_.output2 as output6_1_,
+        iopairs0_.task_id as task_id7_1_ 
+    from
+        iopairs iopairs0_ 
+    where
+        iopairs0_.task_id=?
+2023-03-21 15:28:57.269  INFO 2747 --- [    Test worker] s.c.task.service.TaskServiceTest         : 0
+2023-03-21 15:28:57.274  INFO 2747 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1435feb6 testClass = TaskServiceTest, testInstance = sangmyung.chatprompt.task.service.TaskServiceTest@73ec417b, testMethod = canConvertIOPairToIOResponse@TaskServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@71acf065 testClass = TaskServiceTest, locations = '{}', classes = '{class sangmyung.chatprompt.ChatPromptApplication}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{spring.profiles.active=test, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@63f259c3, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2bb3058, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4ae9cfc1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1458ed9c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3899782c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2d2ffcb7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
