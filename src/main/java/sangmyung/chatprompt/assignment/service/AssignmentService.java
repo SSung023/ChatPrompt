@@ -3,10 +3,14 @@ package sangmyung.chatprompt.assignment.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import sangmyung.chatprompt.Util.exception.BusinessException;
+import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.assignment.dto.AssignResponse;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
+import sangmyung.chatprompt.task.domain.Task;
+import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 
 import java.util.Optional;
@@ -15,6 +19,7 @@ import java.util.Optional;
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
 public class AssignmentService {
+    private final TaskRepository taskRepository;
     private final AssignmentRepository repository;
 
 
@@ -59,6 +64,9 @@ public class AssignmentService {
      */
     @Transactional
     public AssignResponse writeAssignmentContent(User user, Long taskId, AssignRequest assignRequest){
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
         Optional<Assignment> optional = repository.getAssignment(user.getId(), taskId);
 
         // User가 마지막으로 수정한 TaskId 갱신
@@ -76,6 +84,9 @@ public class AssignmentService {
             Assignment savedAssign = repository.save(assignment);
             savedAssign.addUser(user);
 
+            if (user.getId() == 1){ // 교수인 경우
+                return convertToProAssignResponse(task, savedAssign);
+            }
             return convertToAssignResponse(savedAssign);
         }
 
@@ -84,6 +95,10 @@ public class AssignmentService {
 
         assignment.updateSimilarInstruct(assignRequest.getSimilarInstruct1(), assignRequest.getSimilarInstruct2());
         assignment.updateIO(assignRequest.getInput(), assignRequest.getOutput());
+
+        if (user.getId() == 1) {
+            return convertToProAssignResponse(task, assignment);
+        }
 
         return convertToAssignResponse(assignment);
     }
@@ -97,6 +112,14 @@ public class AssignmentService {
     private AssignResponse convertToAssignResponse(Assignment assignment){
         return AssignResponse.builder()
                 .similarInstruct1(assignment.getSimilarInstruct1())
+                .similarInstruct2(assignment.getSimilarInstruct2())
+                .input(assignment.getInput())
+                .output(assignment.getOutput())
+                .build();
+    }
+    private AssignResponse convertToProAssignResponse(Task task, Assignment assignment){
+        return AssignResponse.builder()
+                .similarInstruct1(task.getInstruction())
                 .similarInstruct2(assignment.getSimilarInstruct2())
                 .input(assignment.getInput())
                 .output(assignment.getOutput())
