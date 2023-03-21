@@ -32,8 +32,9 @@ public class AssignmentController {
      */
     @GetMapping("/tasks/{taskId}/assignment")
     public SingleResponse<AssignResponse> getTasksAssignment(HttpServletRequest request, @PathVariable Long taskId){
-        HttpSession session = request.getSession(false);
-        Long userId = (Long) session.getAttribute(LOGIN_MEMBER_PK);
+
+        // Session에서 User의 정보를 얻음
+        Long userId = userService.getUserIdFromRequest(request);
 
         User user = userService.findUserById(userId);
         AssignResponse assignResponse = assignmentService.getWrittenAssignment(user, taskId);
@@ -49,8 +50,8 @@ public class AssignmentController {
     @PatchMapping("/tasks/{taskId}/assignment")
     public SingleResponse<AssignResponse> updateTasksAssignment (HttpServletRequest request,
                                                                  @PathVariable Long taskId, @RequestBody AssignRequest assignRequest){
-        HttpSession session = request.getSession(false);
-        Long userId = (Long) session.getAttribute(LOGIN_MEMBER_PK);
+        // Session에서 User의 정보를 얻음
+        Long userId = userService.getUserIdFromRequest(request);
 
         User user = userService.findUserById(userId);
         AssignResponse assignResponse = assignmentService.writeAssignmentContent(user, taskId, assignRequest);
