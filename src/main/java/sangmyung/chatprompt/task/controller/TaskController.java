@@ -7,6 +7,7 @@ import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.CommonResponse;
 import sangmyung.chatprompt.Util.response.dto.ListResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
+import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.service.TaskService;
@@ -70,5 +71,18 @@ public class TaskController {
         List<IOResponse> ioPairs = taskService.getTaskIOPairs(taskId);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairs);
+    }
+
+    /**
+     * 관리자가 특정 Task의 Definition을 등록(변경) 요청
+     * @param taskId 지시문을 변경하고자 하는 Task의 PK
+     * @param defRequest 변경하고자 하는 지시문 내용
+     */
+    @PatchMapping("/tasks/{taskId}/users/{userId}/instruction")
+    public SingleResponse<TaskResponse> registerNewDefinition
+        (@PathVariable Long taskId, @PathVariable Long userId, @RequestBody DefRequest defRequest){
+        TaskResponse taskResponse = taskService.updateDefinition(taskId, userId, defRequest);
+
+        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), taskResponse);
     }
 }

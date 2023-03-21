@@ -8,6 +8,7 @@ import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.domain.Task;
+import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.IoPairRepository;
@@ -87,6 +88,21 @@ public class TaskService {
     public Long getLastModifiedTaskId(String username){
         User user = userRepository.findUserByName(username);
         return user.getLastTaskNum();
+    }
+
+
+    /**
+     * Task(1~120)의 지시문(definition_eng)의 등록(변경) 요청
+     * @param taskId 지시문을 변경하고자 하는 Task의 PK
+     * @param userId 지시문을 변경하고자 하는 사용자의 PK
+     * @param defRequest 변경하고자 하는 지시문의 내용
+     */
+    public TaskResponse updateDefinition(Long taskId, Long userId, DefRequest defRequest){
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+
+
     }
 
 
