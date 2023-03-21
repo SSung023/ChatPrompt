@@ -91,7 +91,7 @@ export default function EditDirective() {
             setInput1(data.similarInstruct1);
             setInput2(data.similarInstruct2);
         })
-    }, [taskNum]);
+    }, []);
     
     return (
         <>
