@@ -35,17 +35,14 @@ export default function Login() {
         <div className='body' style={bodyStyle}>
             <div className={styles.wrapper}>
                 <div className={styles.start}>
-                    <h1>
-                        <span style={{ color: `var(--main-color)` }}>{`${name}`}</span>
-                        <span>{`님, 안녕하세요!`}</span>
-                    </h1>
-                    <button 
-                        className={styles.button} 
-                        onClick={handleLogin}
-                    >{`시작하기 >`}</button>
+                    <SelectBox defaultValue="구축자 선택" options={writer}/>
+                    
+                    <h1>{`님, 안녕하세요!`}</h1>
                 </div>
-                
-                <SelectBox defaultValue="구축자 선택" options={writer}/>
+                <button 
+                    className={styles.button} 
+                    onClick={handleLogin}
+                >{`시작하기 >`}</button>
             </div>
         </div>
     );

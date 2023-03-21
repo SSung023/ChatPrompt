@@ -3,26 +3,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 100%;
-    min-width: 10em;
-    max-width: 20em;
 }
 
 /* default value */
 .defaultValue {
     position: relative;
     box-sizing: border-box;
-    padding: 0.8em;
-    margin-top: 1em;
-    width: 50%;
-    letter-spacing: 0.5em;
+    padding: 0.5em;
+    width: fit-content;
 
-    background-color: var(--white-color);
+    background-color: transparent;
     border: 1px solid var(--grey-line-color);
     border-radius: 10px;
     color: var(--main-color);
-    font-size: 16px;
+    font-size: 2em;
     font-weight: var(--bold);
 
     display: flex;
@@ -38,7 +32,7 @@
 }
 
 .defaultValue > svg {
-    position: absolute;
+    /* position: absolute; */
     right: 1em;
     font-size: 1em;
     margin-left: 4px;
@@ -46,18 +40,19 @@
 
 /* option */
 .options {
-    width: 50%;
-    display: none;
-    /* visibility: hidden; */
+    /* display: none; */
+    visibility: hidden;
     box-sizing: border-box;
     padding: 0.5em;
     /* animation: close 250ms; */
+    display: flex;
+    flex-direction: column;
 }
 
 .options.active {
-    display: block;
-    width: 50%;
-    /* visibility: visible; */
+    /* display: block; */
+    /* width: 50%; */
+    visibility: visible;
     animation: open 250ms;
 }
 
@@ -78,10 +73,8 @@
 .option {
     box-sizing: border-box;
     padding: 0.5em;
-    width: 100%;
-    letter-spacing: 0.5em;
-    font-size: 14px;
-    /* text-align: left; */
+    letter-spacing: 2px;
+    font-size: 1.5em;
 
     background-color: transparent;
     border: none;
@@ -90,6 +83,6 @@
 
 .option:hover {
     cursor: pointer;
-    background-color: #f5faf7;
     transform: scale(1.1);
+    color: var(--main-color);
 }
