@@ -105,7 +105,7 @@ class AssignmentServiceTest {
         Task task = Task.builder()
                 .taskNum(taskNum)
                 .taskStr("task" + taskNum + "_testTask")
-                .definition_eng("definition_eng" + taskNum)
+                .instruction("instruction" + taskNum)
                 .definition_kor("definition_kor" + taskNum)
                 .build();
 

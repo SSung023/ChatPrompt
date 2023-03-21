@@ -10,14 +10,16 @@ import lombok.ToString;
 @ToString
 public class TaskResponse {
     private Long taskId;
-    private String definition_eng;
+    private String instruction; // 지시문
     private String definition_kor;
+//    private String definition_eng;
+
 
 
     @Builder
-    public TaskResponse(Long taskId, String definition_eng, String definition_kor) {
+    public TaskResponse(Long taskId, String instruction, String definition_kor) {
         this.taskId = taskId;
-        this.definition_eng = definition_eng;
+        this.instruction = instruction;
         this.definition_kor = definition_kor;
     }
 }

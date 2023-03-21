@@ -9,8 +9,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.task.domain.Task;
+import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
+import sangmyung.chatprompt.task.repository.TaskRepository;
+import sangmyung.chatprompt.user.domain.User;
+import sangmyung.chatprompt.user.repository.UserRepository;
+import sangmyung.chatprompt.user.service.UserService;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
@@ -23,6 +28,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Transactional
 @Slf4j
 class TaskServiceTest {
+    @Autowired
+    UserService userService;
+    @Autowired
+    TaskRepository taskRepository;
     @Autowired TaskService taskService;
 
     @BeforeEach
@@ -76,7 +85,7 @@ class TaskServiceTest {
                 .taskNum(063)
                 .taskStr("task063_testTask")
                 .definition_kor("definition_kor")
-                .definition_eng("definition_eng")
+                .instruction("instruction")
                 .build();
         Long taskId = taskService.saveTask(task);
 
@@ -87,7 +96,38 @@ class TaskServiceTest {
 
         //then
         assertThat(taskByPK.getDefinition_kor()).isEqualTo(taskResponse.getDefinition_kor());
-        assertThat(taskByPK.getDefinition_eng()).isEqualTo(taskResponse.getDefinition_eng());
+        assertThat(taskByPK.getInstruction()).isEqualTo(taskResponse.getInstruction());
+    }
+    
+    @Test
+    @DisplayName("Task의 instruction(지시문)을 수정할 수 있다.")
+    public void canModifyInstruction(){
+        //given
+        User user1 = userService.findUserById(1L);
+        Task task = getTask();
+        DefRequest defRequest = DefRequest.builder()
+                .newDefinition("newDefinition")
+                .build();
+
+        //when
+        assertThat(task.getInstruction()).isEqualTo(task.getInstruction());
+        taskService.updateDefinition(task.getId(), user1.getId(), defRequest);
+        
+        //then
+        assertThat(task.getInstruction()).isEqualTo(defRequest.getNewDefinition());
+    }
+
+
+
+    private Task getTask(){
+        Task task = Task.builder()
+                .category("example")
+                .taskNum(063)
+                .taskStr("task063_testTask")
+                .definition_kor("definition_kor")
+                .instruction("instruction")
+                .build();
+        return taskRepository.save(task);
     }
 }
 

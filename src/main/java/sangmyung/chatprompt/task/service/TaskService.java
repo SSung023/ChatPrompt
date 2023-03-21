@@ -101,8 +101,12 @@ public class TaskService {
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
+        if (userId == 1 || userId == 2 || userId == 3){
+            String newDefinition = defRequest.getNewDefinition();
+            task.updateDefinition(newDefinition);
+        }
 
-
+        return convertToTaskResponse(task);
     }
 
 
@@ -132,7 +136,7 @@ public class TaskService {
                         .taskStr(engDTO.getTask())
                         .taskNum(taskNum)
                         .category(engDTO.getCategory())
-                        .definition_eng(engDTO.getDefinition())
+                        .instruction(engDTO.getDefinition())
                         .definition_kor(korDTO.getDefinition())
                         .type(engDTO.getType())
                         .numInputTokens(engDTO.getInputToken())
@@ -167,8 +171,8 @@ public class TaskService {
     private TaskResponse convertToTaskResponse(Task task){
         return TaskResponse.builder()
                 .taskId(task.getId())
+                .instruction(task.getInstruction())
                 .definition_kor(task.getDefinition_kor())
-                .definition_eng(task.getDefinition_eng())
                 .build();
     }
     private IOResponse convertToIOResponse(IOPairs ioPairs){

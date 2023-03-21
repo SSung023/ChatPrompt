@@ -27,8 +27,11 @@ public class Task {
 
     private String category; // Information Extraction
 
-    @Column(columnDefinition = "TEXT")
-    private String definition_eng; // definition 영어
+    @Column(columnDefinition = "TEXT") // 지시문
+    private String instruction;
+
+//    @Column(columnDefinition = "TEXT")
+//    private String definition_eng; // definition 영어
     @Column(columnDefinition = "TEXT")
     private String definition_kor; // definition 한글
     private String type; // ex) example, instance
@@ -37,15 +40,21 @@ public class Task {
 
 
     @Builder
-    public Task(int taskNum, String taskStr, String category, String definition_eng, String definition_kor,
+    public Task(int taskNum, String taskStr, String category, String instruction, String definition_kor,
                 String type, int numInputTokens) {
         this.taskNum = taskNum;
         this.taskStr = taskStr;
         this.category = category;
-        this.definition_eng = definition_eng;
+        this.instruction = instruction;
         this.definition_kor = definition_kor;
         this.type = type;
         this.numInputTokens = numInputTokens;
     }
 
+
+
+    //== 비지니스 코드 ===//
+    public void updateDefinition(String newInstruction) {
+        this.instruction = newInstruction;
+    }
 }
