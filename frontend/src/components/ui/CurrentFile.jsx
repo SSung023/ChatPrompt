@@ -6,10 +6,10 @@ import styles from './CurrentFile.module.css';
 // name: 알바
 // taskId: task 번호
 // taskName: 작업 내용(지시문, 입출력 etc..)
-export default function CurrentFile({ ptaskName }) {
+export default function CurrentFile({ ptaskName, taskId }) {
     const context = useContext(userContext);
     const name = context.state.data.name;
-    const taskId = context.state.data.taskId;
+    // const taskId = context.state.data.inst_taskId;
     const taskName = context.state.data.taskName;
 
     useEffect(() => {

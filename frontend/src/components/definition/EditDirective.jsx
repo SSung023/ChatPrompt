@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { SET_TASKID, userContext } from '../../context/UserContext';
+import { SET_INST_TASKID, userContext } from '../../context/UserContext';
 import { FormattedTaskID, UnformattedTaskId } from '../../utility/FormattedTaskId';
 import { GetUserId } from '../../utility/GetUserId';
 import TextArea from '../ui/textarea/TextArea';
@@ -13,7 +13,7 @@ export default function EditDirective() {
     const [input2, setInput2] = useState('');
 
     const userId = GetUserId(context.state.data.name);
-    const [taskNum, setTaskNum] = useState(context.state.data.taskId);
+    const [taskNum, setTaskNum] = useState(context.state.data.inst_taskId);
 
     const saveInstruction = async () => {
         axios.patch(`/api/tasks/${taskNum}/users/${1}/instruction`, {
@@ -22,7 +22,7 @@ export default function EditDirective() {
         .then(function(res) {
             if(taskNum < 120){
                 setTaskNum(prev => prev + 1);
-                context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
                 // setInput1('');
                 // setInput2('');
             }
@@ -51,7 +51,7 @@ export default function EditDirective() {
         .then(function(data) {
             setInput1(data.similarInstruct1);
             setInput2(data.similarInstruct2);
-            context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
+            context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
         })
     }
     const handleSaveAndLoad = (e) => {
@@ -64,7 +64,7 @@ export default function EditDirective() {
                 setInput1('');
                 setInput2('');
                 setTaskNum(prev => prev + 1);
-                context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
             }
             else if(taskNum >=120){
                 alert('마지막 태스크입니다!');

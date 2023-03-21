@@ -1,13 +1,21 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+import Login from './pages/Login';
 import Root from './pages/Root';
 import EditDefinition from './pages/EditDefinition';
 import EditInput from './pages/EditInput';
+import PrivateRoute from './utility/routes/PrivateRoute';
+import PublicRoute from './utility/routes/PublicRoute';
 
 const router = createBrowserRouter([
+  // {
+  //   path: '/login',
+  //   element: <Login/>
+  // },
   {
     path: '/',
+    // element: <PrivateRoute component={<Root />}/>,
     element: <Root />,
     children: [
       { index: true, element: <EditDefinition /> } ,

@@ -8,16 +8,8 @@ import { userContext } from '../context/UserContext';
 
 export default function EditDefinition() {
     const context = useContext(userContext);
-    const taskId = context.state.data.taskId;
+    const taskId = context.state.data.inst_taskId;
     const [defData, setDef] = useState();
-
-    useEffect(() => {
-        return () => {
-            window.localStorage.setItem("name", context.state.data.name);
-            window.localStorage.setItem("taskId", context.state.data.taskId);
-            window.localStorage.setItem("taskName", context.state.data.taskName);
-        }
-    }, []);
 
     useEffect(() => {
         axios.get(`/api/tasks/${taskId}`)
@@ -29,7 +21,7 @@ export default function EditDefinition() {
     return (
         defData && 
         <div className='body'>
-            <CurrentFile ptaskName='지시문' />
+            <CurrentFile ptaskName='지시문' taskId={taskId}/>
             <Directive data={defData}/>
             <EditDirective />
             <References taskId={taskId} defData={defData}/>
