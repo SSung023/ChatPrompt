@@ -1,8 +1,9 @@
 .input {
     box-sizing: border-box;
-    padding: 1em;
+    padding: 0.5em 1em;
 
-    max-height: 4em;
+    /* 최대 높이 */
+    max-height: 5.5em;
     overflow-y: hidden;
     resize: none;
     background-color: transparent;
