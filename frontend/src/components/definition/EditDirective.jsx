@@ -41,17 +41,7 @@ export default function EditDirective() {
     };
 
     const handleLoad = () => {
-        axios.get(`/api/tasks/${taskNum}/users/${userId}`)
-        .then(function(res) {
-            return res.data.data;
-        })
-        .then(function(data) {
-            setInput1(data.similarInstruct1);
-            setInput2(data.similarInstruct2);
-        })
-        .then(function() {
-            context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
-        })
+        context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
     }
     const handleSaveAndLoad = (e) => {
         axios.patch(`/api/tasks/${taskNum}/users/${userId}`, {
@@ -100,11 +90,12 @@ export default function EditDirective() {
                 <div className={styles.left}>
                     <p className={styles.title}>* 다음 유사 지시문 2개를 작성하시오.</p>
                     <input
-                        onChange={(e) => setTaskNum(UnformattedTaskId(e.target.value))}
+                        onChange={(e) => {
+                            const value = e.target.value;
+                            value >=1 && value <=120 && setTaskNum(UnformattedTaskId(e.target.value))}}
                         type="text"
                         id="taskId"
                         value={FormattedTaskID(taskNum)}
-                        // onKeyDown={handlePressEnter}
                     />
                 </div>
                 <div className={styles.buttons}>

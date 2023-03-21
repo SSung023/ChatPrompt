@@ -56,7 +56,7 @@ export default function References({ taskId, defData }) {
                     <TableRow>
                         <TableHead>지시문</TableHead>
                         <TableCell>
-                            <span style={{color: `var(--g-dark-txt-color)`}}>{defData.definition_eng}</span>
+                            <span style={{color: `var(--g-dark-txt-color)`}}>{defData.instruction}</span>
                             <br/>
                             <br/>
                             <span>{defData.definition_kor}</span>
