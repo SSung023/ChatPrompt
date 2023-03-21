@@ -81,6 +81,7 @@ class TaskServiceTest {
     @DisplayName("Task를 TaskResponse로 반환할 수 있다.")
     public void canConverTaskToTaskResponse(){
         //given
+        User user = getUser();
         Task task = Task.builder()
                 .taskNum(063)
                 .taskStr("task063_testTask")
@@ -92,7 +93,7 @@ class TaskServiceTest {
 
         //when
         Task taskByPK = taskService.findTaskByPK(taskId);
-        TaskResponse taskResponse = taskService.getTaskDefinition(taskId);
+        TaskResponse taskResponse = taskService.getTaskDefinition(user, taskId);
 
         //then
         assertThat(taskByPK.getDefinition_kor()).isEqualTo(taskResponse.getDefinition_kor());
@@ -119,6 +120,10 @@ class TaskServiceTest {
 
 
 
+
+    private User getUser(){
+        return userService.findUserById(1L);
+    }
     private Task getTask(){
         Task task = Task.builder()
                 .category("example")

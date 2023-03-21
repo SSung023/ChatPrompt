@@ -11,7 +11,9 @@ import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.service.TaskService;
+import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.dto.UserRequest;
+import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -26,6 +28,7 @@ import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
 @Slf4j
 @RequestMapping("/api")
 public class TaskController {
+    private final UserService userService;
     private final TaskService taskService;
 
 
@@ -56,8 +59,13 @@ public class TaskController {
      * @param taskId Definition 정보를 얻고 싶은 Task의 PK
      */
     @GetMapping("/tasks/{taskId}")
-    public SingleResponse<TaskResponse> getTaskDefinition(@PathVariable Long taskId){
-        TaskResponse taskResponse = taskService.getTaskDefinition(taskId);
+    public SingleResponse<TaskResponse> getTaskDefinition(HttpServletRequest request, @PathVariable Long taskId){
+        HttpSession session = request.getSession(false);
+        Long userId = (Long) session.getAttribute(LOGIN_MEMBER_PK);
+
+        User user = userService.findUserById(userId);
+
+        TaskResponse taskResponse = taskService.getTaskDefinition(user, taskId);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), taskResponse);
     }
@@ -86,6 +94,8 @@ public class TaskController {
         // Session에서 User의 정보(UserId)를 얻음
         HttpSession session = request.getSession(false);
         Long userId = (Long) session.getAttribute(LOGIN_MEMBER_PK);
+
+        log.info("사용자 PK: " + userId.toString());
 
         TaskResponse taskResponse = taskService.updateDefinition(taskId, userId, defRequest);
 

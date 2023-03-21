@@ -28,14 +28,16 @@ public class UserController {
 
     /**
      * 특정 사용자 선택과 함께, 사용자가 마지막으로 수정한 Task의 PK를 반환
-     * @param userRequest 사용자의 실명이 담긴 DTO
+     * @param username 사용자의 실명
+     * /api/login?username=홍길동
+//     * @param userRequest 사용자의 실명이 담긴 DTO
      */
     @PostMapping("/login")
-    public SingleResponse<Long> userLogin(HttpServletRequest request, @RequestBody UserRequest userRequest){
+    public SingleResponse<Long> userLogin(HttpServletRequest request, @RequestParam String username/*@RequestBody UserRequest userRequest*/){
         // 세션 생성
         HttpSession session = request.getSession();
 
-        String username = userRequest.getUsername(); // 실명이 담긴 객체
+//        String username = userRequest.getUsername(); // 실명이 담긴 객체
         User user = userService.findUserByUserName(username);
 
         Long lastModifiedTaskId = taskService.getLastModifiedTaskId(user);

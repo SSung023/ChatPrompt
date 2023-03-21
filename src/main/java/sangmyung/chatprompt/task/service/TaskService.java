@@ -1,6 +1,7 @@
 package sangmyung.chatprompt.task.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -76,9 +77,10 @@ public class TaskService {
      * Task ID(PK)에 대응되는 Task의 정보(Definition)가 담긴 객체를 반환
      * @param taskId 정보를 찾고자하는 Task의 PK
      */
-    public TaskResponse getTaskDefinition(Long taskId){
+    public TaskResponse getTaskDefinition(User user, Long taskId){
         Task task = findTaskByPK(taskId);
-        return convertToTaskResponse(task);
+
+        return convertToTaskResponse(user, task);
     }
 
     /**
@@ -98,6 +100,8 @@ public class TaskService {
      */
     @Transactional
     public TaskResponse updateDefinition(Long taskId, Long userId, DefRequest defRequest){
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
@@ -106,7 +110,7 @@ public class TaskService {
             task.updateDefinition(newDefinition);
         }
 
-        return convertToTaskResponse(task);
+        return convertToTaskResponse(user, task);
     }
 
 
@@ -159,7 +163,7 @@ public class TaskService {
             IOPairs savedIoPair = ioPairRepository.save(ioPairs);
             savedIoPair.addTask(task);
 
-            log.info("task 처리" + task.getTaskNum() + "\t" + "현재 인덱스: " + i + "\t 전체 인덱스: " + len);
+//            log.info("task 처리" + task.getTaskNum() + "\t" + "현재 인덱스: " + i + "\t 전체 인덱스: " + len);
 
         }
         log.info("task 처리 완료");
@@ -168,13 +172,13 @@ public class TaskService {
 
 
 
-    private TaskResponse convertToTaskResponse(Task task){
+    private TaskResponse convertToTaskResponse(User user, Task task){
         return TaskResponse.builder()
                 .taskId(task.getId())
                 .instruction(task.getInstruction())
                 .definition_kor(task.getDefinition_kor())
-                .hasNext(true)
-                .hasPrevious(false)
+                .hasNext(checkHasNext(user, task.getId()))
+                .hasPrevious(checkHasPrevious(user, task.getId()))
                 .build();
     }
     private IOResponse convertToIOResponse(IOPairs ioPairs){
@@ -187,5 +191,14 @@ public class TaskService {
                 .output2(ioPairs.getOutput2())
                 .build();
     }
-
+    // 현재 Task의 Id를 기준으로 사용자가 뒤에 할당받은 Task가 더 있는지 여부 반환
+    private boolean checkHasNext(User user, Long taskId){
+        int endTaskIdx = user.getTaskEndIdx();
+        return endTaskIdx < taskId;
+    }
+    // 현재 Task의 Id를 기준으로 사용자가 앞에 할당받은 Task가 더 있는지 여부 반환
+    private boolean checkHasPrevious(User user, Long taskId){
+        int startTaskIdx = user.getTaskStartIdx();
+        return startTaskIdx > taskId;
+    }
 }
