@@ -7,6 +7,7 @@ import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.assignment.dto.AssignResponse;
+import sangmyung.chatprompt.assignment.dto.SimilarInstructResponse;
 import sangmyung.chatprompt.assignment.service.AssignmentService;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.service.UserService;
@@ -57,5 +58,20 @@ public class AssignmentController {
         AssignResponse assignResponse = assignmentService.writeAssignmentContent(user, taskId, assignRequest);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), assignResponse);
+    }
+
+    /**
+     * 특정 Task에서 사용자가 작성한 유사 지시문 1&2를 반환
+     * @param taskId 유사 지시문 1&2를 가지고 오고자 하는 Task의 PK
+     */
+    @GetMapping("/tasks/{taskId}/assignment-similar")
+    public SingleResponse<SimilarInstructResponse> getSimilarInstruct(HttpServletRequest request, @PathVariable Long taskId){
+        // Session에서 User의 정보를 얻음
+        Long userId = userService.getUserIdFromRequest(request);
+
+        User user = userService.findUserById(userId);
+        SimilarInstructResponse similarInstructs = assignmentService.getWrittenSimilar(user, taskId);
+
+        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarInstructs);
     }
 }

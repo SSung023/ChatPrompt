@@ -8,6 +8,7 @@ import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.assignment.dto.AssignResponse;
+import sangmyung.chatprompt.assignment.dto.SimilarInstructResponse;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.domain.Task;
 import sangmyung.chatprompt.task.repository.TaskRepository;
@@ -23,6 +24,29 @@ public class AssignmentService {
     private final AssignmentRepository repository;
 
 
+    /**
+     * 사용자가 이전에 작성했던 유사지시문 2개를 반환 - 만일 기존에 없었다면 새로 생성하여 전달
+     * @param user 해당 내용을 작성한 사용자
+     * @param taskId 내용을 작성한 Task PK
+     */
+    @Transactional
+    public SimilarInstructResponse getWrittenSimilar(User user, Long taskId){
+        Optional<Assignment> optionalAssignment = repository.getAssignment(user.getId(), taskId);
+
+        if (optionalAssignment.isEmpty()){
+            Assignment assignment = Assignment.builder()
+                    .taskId(taskId)
+                    .similarInstruct1("").similarInstruct2("")
+                    .input("").output("")
+                    .build();
+            Assignment savedAssign = repository.save(assignment);
+            savedAssign.addUser(user);
+
+            return convertToSimilar(savedAssign);
+        }
+
+        return convertToSimilar(optionalAssignment.get());
+    }
 
     /**
      * 해당 사용자가 해당 Task에서 작성한 내용을 반환
@@ -132,6 +156,12 @@ public class AssignmentService {
                 .similarInstruct2(assignment.getSimilarInstruct2())
                 .input(assignment.getInput())
                 .output(assignment.getOutput())
+                .build();
+    }
+    private SimilarInstructResponse convertToSimilar(Assignment assignment){
+        return SimilarInstructResponse.builder()
+                .similarInstruct1(assignment.getSimilarInstruct1())
+                .similarInstruct2(assignment.getSimilarInstruct2())
                 .build();
     }
 }
