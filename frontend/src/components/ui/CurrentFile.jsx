@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { SET_TASKNAME, userContext } from '../../context/UserContext';
+import { FormattedTaskID } from '../../utility/FormattedTaskId';
 import styles from './CurrentFile.module.css';
 
 // name: 알바
@@ -19,7 +20,7 @@ export default function CurrentFile({ ptaskName }) {
         <div className={styles.wrapper}>
             <p className={styles.p}>Current File is: </p>
             <div className={styles.currentFile}>
-                <p>{`${name} _ ${taskId} _ ${taskName}`}</p>
+                <p>{`${name} _ ${FormattedTaskID(taskId)} _ ${taskName}`}</p>
                 <p> .txt</p>
             </div>
         </div>
