@@ -33,6 +33,8 @@ public class AssignmentService {
      */
     @Transactional
     public AssignResponse getWrittenAssignment(User user, Long taskId){
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Optional<Assignment> optionalAssignment = repository.getAssignment(user.getId(), taskId);
 
         // User가 마지막으로 수정한 TaskId 갱신
@@ -48,11 +50,18 @@ public class AssignmentService {
             Assignment savedAssign = repository.save(assignment);
             savedAssign.addUser(user);
 
+            if (user.getId() == 1){ // 교수인 경우
+                return convertToProAssignResponse(task, savedAssign);
+            }
             return convertToAssignResponse(savedAssign);
         }
 
         // 해당하는 Assignment가 있던 경우
-        return convertToAssignResponse(optionalAssignment.get());
+        Assignment assignment = optionalAssignment.get();
+        if (user.getId() == 1){ // 교수인 경우
+            return convertToProAssignResponse(task, assignment);
+        }
+        return convertToAssignResponse(assignment);
     }
 
 
