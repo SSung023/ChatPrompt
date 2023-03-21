@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://3.36.115.5:3306/dashboard?useSSL=false&amp;serverTimezone=Asia/Seoul&amp;characterEncoding=UTF-8</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="dashboard@localhost" uuid="5a2d2bfe-7641-4099-a13e-9caeede9136b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/dashboard?serverTimezone=UTC&amp;characterEncoding=UTF-8</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

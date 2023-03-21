@@ -83,10 +83,9 @@ public class TaskService {
 
     /**
      * 사용자가 마지막으로 수정한 Task의 PK를 반환
-     * @param username 사용자의 실명
+     * @param user 사용자
      */
-    public Long getLastModifiedTaskId(String username){
-        User user = userRepository.findUserByName(username);
+    public Long getLastModifiedTaskId(User user){
         return user.getLastTaskNum();
     }
 
@@ -174,6 +173,8 @@ public class TaskService {
                 .taskId(task.getId())
                 .instruction(task.getInstruction())
                 .definition_kor(task.getDefinition_kor())
+                .hasNext(true)
+                .hasPrevious(false)
                 .build();
     }
     private IOResponse convertToIOResponse(IOPairs ioPairs){

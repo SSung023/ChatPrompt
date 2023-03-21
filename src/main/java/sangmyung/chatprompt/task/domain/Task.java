@@ -30,8 +30,6 @@ public class Task {
     @Column(columnDefinition = "TEXT") // 지시문
     private String instruction;
 
-//    @Column(columnDefinition = "TEXT")
-//    private String definition_eng; // definition 영어
     @Column(columnDefinition = "TEXT")
     private String definition_kor; // definition 한글
     private String type; // ex) example, instance

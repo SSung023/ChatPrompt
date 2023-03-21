@@ -27,14 +27,19 @@ public class User {
     private String identifier; // 구분자
     private String name; // 이름
 
+    private int taskStartIdx; // 사용자가 할당받은 Task 시작 번호
+    private int taskEndIdx; // 사용자가 할당받은 Task 끝 번호
+
     private Long lastTaskNum;
 
 
     @Builder
-    public User(String identifier, String name, Long lastTaskNum) {
+    public User(String identifier, String name, Long lastTaskNum, int taskStartIdx, int taskEndIdx) {
         this.identifier = identifier;
         this.name = name;
         this.lastTaskNum = lastTaskNum;
+        this.taskStartIdx = taskStartIdx;
+        this.taskEndIdx = taskEndIdx;
     }
 
     //== 비지니스 코드 ==//

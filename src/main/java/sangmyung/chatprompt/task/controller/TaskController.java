@@ -13,9 +13,13 @@ import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.service.TaskService;
 import sangmyung.chatprompt.user.dto.UserRequest;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.util.List;
+
+import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
 
 @RestController
 @RequiredArgsConstructor
@@ -27,7 +31,6 @@ public class TaskController {
 
     /**
      * 특정 xml 파일을 파싱하여 Entity에 mapping
-     *
      */
     @GetMapping("/parse")
     public CommonResponse parseXml() throws JAXBException, IOException {
@@ -39,16 +42,13 @@ public class TaskController {
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
 
-    /**
-     * 특정 사용자 선택과 함께, 사용자가 마지막으로 수정한 Task의 PK를 반환
-     * @param userRequest 사용자의 실명이 담긴 DTO
-     */
-    @PostMapping("/login")
-    public SingleResponse<Long> userLogin(@RequestBody UserRequest userRequest){
-        String username = userRequest.getUsername(); // 실명이 담긴 객체
-        Long lastModifiedTaskId = taskService.getLastModifiedTaskId(username);
+    @GetMapping("/parse/test")
+    public CommonResponse parseTestFile() throws JAXBException, IOException {
+        String path = "prompt/preparation/sample.xml";
 
-        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), lastModifiedTaskId);
+        taskService.parseXmlToTask(path);
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
 
     /**
@@ -77,10 +77,16 @@ public class TaskController {
      * 관리자가 특정 Task의 Definition을 등록(변경) 요청
      * @param taskId 지시문을 변경하고자 하는 Task의 PK
      * @param defRequest 변경하고자 하는 지시문 내용
+     * 이전 api : /tasks/{taskId}/users/{userId}/instruction
      */
-    @PatchMapping("/tasks/{taskId}/users/{userId}/instruction")
+    @PatchMapping("/tasks/{taskId}/instruction")
     public SingleResponse<TaskResponse> registerNewDefinition
-        (@PathVariable Long taskId, @PathVariable Long userId, @RequestBody DefRequest defRequest){
+        (HttpServletRequest request, @PathVariable Long taskId, @RequestBody DefRequest defRequest){
+
+        // Session에서 User의 정보(UserId)를 얻음
+        HttpSession session = request.getSession(false);
+        Long userId = (Long) session.getAttribute(LOGIN_MEMBER_PK);
+
         TaskResponse taskResponse = taskService.updateDefinition(taskId, userId, defRequest);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), taskResponse);
