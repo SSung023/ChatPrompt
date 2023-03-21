@@ -17,9 +17,20 @@
 
 /* buttons */
 .buttons > button {
+    box-sizing: border-box;
     margin-right: 1em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    padding: 8px 8px;
+    font-weight: var(--bold);
 }
 
+.buttons > button:hover {
+    cursor: pointer;
+}
 
 
 /* inputs */
