@@ -23,8 +23,8 @@ export default function EditDirective() {
             if(taskNum < 120){
                 setTaskNum(prev => prev + 1);
                 context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
-                setInput1('');
-                setInput2('');
+                // setInput1('');
+                // setInput2('');
             }
             else if(taskNum >=120){
                 alert('마지막 태스크입니다!');
@@ -83,15 +83,16 @@ export default function EditDirective() {
     }
 
     useEffect(() => {
-        axios.get(`/api/tasks/${taskNum}/users/${userId}`)
-        .then(function(res) {
-            return res.data.data;
-        })
-        .then(function(data) {
-            setInput1(data.similarInstruct1);
-            setInput2(data.similarInstruct2);
-        })
-    }, []);
+        // axios.get(`/api/tasks/${taskNum}/users/${userId}`)
+        // .then(function(res) {
+        //     return res.data.data;
+        // })
+        // .then(function(data) {
+        //     setInput1(data.similarInstruct1);
+        //     setInput2(data.similarInstruct2);
+        // })
+        handleLoad();
+    }, [taskNum]);
     
     return (
         <>
