@@ -8,7 +8,7 @@ import styles from './Navigation.module.css';
 export default function Navigation() {
     const navigate = useNavigate();
     const handleLogout = () => {
-        axios.get('/api/logout')
+        axios.post('/api/logout')
         .then(function(res) {
             window.localStorage.removeItem('name');
             navigate('/login');
