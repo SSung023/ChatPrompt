@@ -193,12 +193,12 @@ public class TaskService {
     }
     // 현재 Task의 Id를 기준으로 사용자가 뒤에 할당받은 Task가 더 있는지 여부 반환
     private boolean checkHasNext(User user, Long taskId){
-        int endTaskIdx = user.getTaskEndIdx();
-        return endTaskIdx < taskId;
+        int endTaskIdx = user.getTaskEndIdx(); // end: 120 taskId: 13
+        return endTaskIdx > taskId;
     }
     // 현재 Task의 Id를 기준으로 사용자가 앞에 할당받은 Task가 더 있는지 여부 반환
     private boolean checkHasPrevious(User user, Long taskId){
-        int startTaskIdx = user.getTaskStartIdx();
-        return startTaskIdx > taskId;
+        int startTaskIdx = user.getTaskStartIdx(); // start: 1 taskId: 32
+        return startTaskIdx < taskId;
     }
 }
