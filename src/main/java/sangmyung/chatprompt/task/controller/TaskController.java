@@ -60,8 +60,8 @@ public class TaskController {
      */
     @GetMapping("/tasks/{taskId}")
     public SingleResponse<TaskResponse> getTaskDefinition(HttpServletRequest request, @PathVariable Long taskId){
-        HttpSession session = request.getSession(false);
-        Long userId = (Long) session.getAttribute(LOGIN_MEMBER_PK);
+        // Session에서 User의 정보(PK)를 얻음
+        Long userId = userService.getUserIdFromRequest(request);
 
         User user = userService.findUserById(userId);
 
@@ -85,15 +85,13 @@ public class TaskController {
      * 관리자가 특정 Task의 Definition을 등록(변경) 요청
      * @param taskId 지시문을 변경하고자 하는 Task의 PK
      * @param defRequest 변경하고자 하는 지시문 내용
-     * 이전 api : /tasks/{taskId}/users/{userId}/instruction
      */
     @PatchMapping("/tasks/{taskId}/instruction")
     public SingleResponse<TaskResponse> registerNewDefinition
         (HttpServletRequest request, @PathVariable Long taskId, @RequestBody DefRequest defRequest){
 
         // Session에서 User의 정보(UserId)를 얻음
-        HttpSession session = request.getSession(false);
-        Long userId = (Long) session.getAttribute(LOGIN_MEMBER_PK);
+        Long userId = userService.getUserIdFromRequest(request);
 
         log.info("사용자 PK: " + userId.toString());
 
