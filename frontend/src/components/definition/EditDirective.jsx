@@ -23,6 +23,8 @@ export default function EditDirective() {
             if(taskNum < 120){
                 setTaskNum(prev => prev + 1);
                 context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
+                setInput1('');
+                setInput2('');
             }
             else if(taskNum >=120){
                 alert('마지막 태스크입니다!');
@@ -40,8 +42,17 @@ export default function EditDirective() {
         setInput2(value);
     };
 
-    const handleLoad = () => {
-        context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
+    // task 별 인풋 로드해서 초기화하기
+    const handleLoad = (e) => {
+        axios.get(`/api/tasks/${taskNum}/users/${userId}`)
+        .then(function(res) {
+            return res.data.data;
+        })
+        .then(function(data) {
+            setInput1(data.similarInstruct1);
+            setInput2(data.similarInstruct2);
+            context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
+        })
     }
     const handleSaveAndLoad = (e) => {
         axios.patch(`/api/tasks/${taskNum}/users/${userId}`, {
@@ -49,8 +60,9 @@ export default function EditDirective() {
             similarInstruct2: `${input2}`
         })
         .then(function(res) {
-            console.log(res);
             if(taskNum < 120){
+                setInput1('');
+                setInput2('');
                 setTaskNum(prev => prev + 1);
                 context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
             }
@@ -64,24 +76,21 @@ export default function EditDirective() {
     }
     const handlePressEnter = (e) => {
         if(e.key === "Enter"){
-            handleLoad();
+            const value= e.target.value;
+            value >=1 && value <=120 && setTaskNum(UnformattedTaskId(value));
+            handleLoad(e);
         }
     }
 
     useEffect(() => {
-        if(taskNum != 0){
-            axios.get(`/api/tasks/${taskNum}/users/${userId}`)
-            .then(function(res) {
-                return res.data.data;
-            })
-            .then(function(data) {
-                setInput1(data.similarInstruct1);
-                setInput2(data.similarInstruct2);
-            })
-            .then(function() {
-                context.actions.contextDispatch({ type: SET_TASKID, data: taskNum});
-            })
-        }
+        axios.get(`/api/tasks/${taskNum}/users/${userId}`)
+        .then(function(res) {
+            return res.data.data;
+        })
+        .then(function(data) {
+            setInput1(data.similarInstruct1);
+            setInput2(data.similarInstruct2);
+        })
     }, [taskNum]);
     
     return (
@@ -96,12 +105,13 @@ export default function EditDirective() {
                         type="text"
                         id="taskId"
                         value={FormattedTaskID(taskNum)}
+                        onKeyDown={handlePressEnter}
                     />
                 </div>
                 <div className={styles.buttons}>
                     {(userId === 1 || userId === 2 || userId === 3) 
                     && <button onClick={saveInstruction}>교수님 전용 윤문 수정 버튼</button>}
-                    <button onClick={handleLoad}>저장 없이 왼쪽 지정 페이지로 이동</button>
+                    {/* <button onClick={handleLoad}>저장 없이 왼쪽 지정 페이지로 이동</button> */}
                     <button onClick={handleSaveAndLoad}>저장하고 다음 페이지로 이동</button>
                 </div>
             </div>
