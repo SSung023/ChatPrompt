@@ -97,6 +97,7 @@ public class TaskService {
      * @param userId 지시문을 변경하고자 하는 사용자의 PK
      * @param defRequest 변경하고자 하는 지시문의 내용
      */
+    @Transactional
     public TaskResponse updateDefinition(Long taskId, Long userId, DefRequest defRequest){
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
