@@ -16,15 +16,13 @@ export default function EditDirective() {
     const [taskNum, setTaskNum] = useState(context.state.data.inst_taskId);
 
     const saveInstruction = async () => {
-        axios.patch(`/api/tasks/${taskNum}/users/${1}/instruction`, {
+        axios.patch(`/api/tasks/${taskNum}/instruction`, {
             newDefinition: `${input1}`
         })
         .then(function(res) {
             if(taskNum < 120){
                 setTaskNum(prev => prev + 1);
                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
-                // setInput1('');
-                // setInput2('');
             }
             else if(taskNum >=120){
                 alert('마지막 태스크입니다!');
@@ -44,7 +42,7 @@ export default function EditDirective() {
 
     // task 별 인풋 로드해서 초기화하기
     const handleLoad = (e) => {
-        axios.get(`/api/tasks/${taskNum}/users/${userId}`)
+        axios.get(`/api/tasks/${taskNum}/assignment`)
         .then(function(res) {
             return res.data.data;
         })
@@ -55,7 +53,7 @@ export default function EditDirective() {
         })
     }
     const handleSaveAndLoad = (e) => {
-        axios.patch(`/api/tasks/${taskNum}/users/${userId}`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment`, {
             similarInstruct1: `${input1}`,
             similarInstruct2: `${input2}`
         })
@@ -83,16 +81,8 @@ export default function EditDirective() {
     }
 
     useEffect(() => {
-        // axios.get(`/api/tasks/${taskNum}/users/${userId}`)
-        // .then(function(res) {
-        //     return res.data.data;
-        // })
-        // .then(function(data) {
-        //     setInput1(data.similarInstruct1);
-        //     setInput2(data.similarInstruct2);
-        // })
         handleLoad();
-    }, [taskNum]);
+    }, []);
     
     return (
         <>

@@ -15,8 +15,15 @@ export default function EditDefinition() {
         axios.get(`/api/tasks/${taskId}`)
         .then(function(res) {
             setDef(res.data.data);
-        });
+        })
+        .catch(function(err) {
+            console.log(err);
+        })
     }, [taskId]);
+
+    // useEffect(() => {
+    //     console.log(defData);
+    // }, [defData]);
 
     return (
         defData && 

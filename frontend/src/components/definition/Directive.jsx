@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import styles from './Directive.module.css';
 

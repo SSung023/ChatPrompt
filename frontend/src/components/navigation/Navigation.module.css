@@ -76,6 +76,22 @@
     border: 1px dotted var(--grey-line-color);
 }
 
+.logout {
+    margin-top: 1em;
+    width: 100%;
+    font-size: 1em;
+    font-weight: var(--bold);
+
+    background-color: transparent;
+    border: none;
+    color: var(--light-txt-color);
+}
+
+.logout:hover {
+    cursor: pointer;
+    color: var(--main-color);
+}
+
 @media screen and (max-width: 786px) {
     .navMenu {
         font-size: 16px;

@@ -1,7 +1,6 @@
 import React, { createContext, useReducer } from "react";
 
 export const SET_NAME = 'user/SET_NAME';
-export const SET_ID = 'user/SET_ID';
 export const SET_INST_TASKID = 'user/SET_INST_TASKID';
 export const SET_IO_TASKID = 'user/SET_IO_TASKID';
 export const SET_TASKNAME = 'user/SET_TASKNAME';
@@ -10,7 +9,6 @@ export const userContext = createContext();
 
 const initData = {
     name: '박소영',
-    id: 1,
     inst_taskId: 1,
     io_taskId: 1,
     taskName: '지시문',
@@ -23,20 +21,15 @@ const userReducer = (state, action) => {
                 ...state,
                 name : action.data
             }
-        case SET_ID:
-            return {
-                ...state,
-                id : action.data
-            }
         case SET_INST_TASKID:
             return {
                 ...state,
-                taskId: action.data
+                inst_taskId: action.data
             }
         case SET_IO_TASKID:
             return {
                 ...state,
-                taskId: action.data
+                io_taskId: action.data
             }
         case SET_TASKNAME:
             return {

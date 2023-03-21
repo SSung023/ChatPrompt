@@ -1,5 +1,6 @@
+import axios from 'axios';
 import React, { useContext } from 'react';
-import { Navigate } from 'react-router-dom';
+import { Navigate, useNavigate } from 'react-router-dom';
 import SelectBox from '../components/ui/selectbox/SelectBox';
 import { userContext } from '../context/UserContext';
 import SignIn from '../utility/SignIn';
@@ -18,9 +19,16 @@ export default function Login() {
     const context = useContext(userContext);
     const name = context.state.data.name;
 
+    const navigate = useNavigate();
     const handleLogin = () => {
-        const isLoginSuccess = SignIn(name);
-        return isLoginSuccess ? <Navigate to='/'/> : alert("접속할 수 없습니다. 다시 시도해주세요");
+        axios.post(`/api/login?username=${name}`)
+        .then(function(res) {
+            console.log(res);
+        })
+        .then(function(res) {
+            window.localStorage.setItem('name', name);
+            navigate('/');
+        })
     }
 
     return (
