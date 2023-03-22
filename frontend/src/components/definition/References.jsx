@@ -17,33 +17,34 @@ export default function References({ taskId, defData }) {
     }, [taskId]);
 
     const makeIOPairs = () => {
-        return data.map((io_pair) => {
-            return (
-                <>
-                    <TableRow>
-                        <TableHead>{`입력 ${io_pair.index}`}</TableHead>
-                        <TableCell>
-                            {/* <span>{io_pair.input1}</span>
-                            <br/>
-                            <span style={{color: `var(--lowb-main-color)`}}>{io_pair.input2}</span> */}
-                            <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.input1}</span>
-                            <br/>
-                            <span>{io_pair.input2}</span>
-                        </TableCell>
-                    </TableRow>
-                    <TableRow>
-                        <TableHead>{`출력 ${io_pair.index}`}</TableHead>
-                        <TableCell>
-                            {/* <span>{io_pair.output1}</span>
-                            <br/>
-                            <span style={{color: `var(--lowb-main-color)`}}>{io_pair.output2}</span> */}
-                            <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.output1}</span>
-                            <br/>
-                            <span>{io_pair.output2}</span>
-                        </TableCell>
-                    </TableRow>
-                </>
+        return data.map((io_pair, idx) => {
+            const row1 =  (
+            <TableRow key={idx*2}>
+                <TableHead>{`입력 ${io_pair.index}`}</TableHead>
+                <TableCell>
+                    {/* <span>{io_pair.input1}</span>
+                    <br/>
+                    <span style={{color: `var(--lowb-main-color)`}}>{io_pair.input2}</span> */}
+                    <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.input1}</span>
+                    <br/>
+                    <span>{io_pair.input2}</span>
+                </TableCell>
+            </TableRow>
             );
+            const row2 = (
+                <TableRow key={idx*2 + 1}>
+                    <TableHead>{`출력 ${io_pair.index}`}</TableHead>
+                    <TableCell>
+                        {/* <span>{io_pair.output1}</span>
+                        <br/>
+                        <span style={{color: `var(--lowb-main-color)`}}>{io_pair.output2}</span> */}
+                        <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.output1}</span>
+                        <br/>
+                        <span>{io_pair.output2}</span>
+                    </TableCell>
+                </TableRow>
+            )
+            return [row1, row2];
         })
     }
 

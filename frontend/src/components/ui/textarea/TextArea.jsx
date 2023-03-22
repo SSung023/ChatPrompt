@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef } from 'react';
 import styles from './TextArea.module.css';
 
-export default function TextArea({ input, setInput }) {
+export default function TextArea({ input, setInput, placeholder }) {
 
     const textAreaRef = useRef();
     // const handleChange = useCallback((e) => {
@@ -24,7 +24,7 @@ export default function TextArea({ input, setInput }) {
             rows={1}
             className={styles.input} 
             onChange={(e) => setInput(e.target.value)}
-            placeholder={`지시문을 작성하세요`}
+            placeholder={placeholder}
             value={input}
             ref={textAreaRef}
         />

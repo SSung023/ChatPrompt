@@ -11,6 +11,7 @@
     border-radius: 5px;
     border: 1px solid var(--grey-line-color);
     font-weight: var(--regular);
+    width: 10%;
 
     white-space: nowrap;
     background-color: var(--table-color);
@@ -33,4 +34,5 @@
     padding: 1em;
 
     background-color: var(--white-color);
+    white-space: pre-wrap;
 }

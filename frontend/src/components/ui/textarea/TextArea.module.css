@@ -3,7 +3,7 @@
     padding: 0.5em 1em;
 
     /* 최대 높이 */
-    max-height: 8.5em;
+    max-height: 266px;
     overflow-y: hidden;
     resize: none;
     background-color: transparent;
