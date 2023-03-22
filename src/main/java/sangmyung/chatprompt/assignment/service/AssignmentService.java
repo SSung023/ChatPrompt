@@ -6,18 +6,15 @@ import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.assignment.domain.Assignment;
-import sangmyung.chatprompt.assignment.dto.AssignRequest;
-import sangmyung.chatprompt.assignment.dto.AssignResponse;
-import sangmyung.chatprompt.assignment.dto.SimilarInstructResponse;
+import sangmyung.chatprompt.assignment.dto.*;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.domain.Task;
-import sangmyung.chatprompt.task.dto.IOResponse;
-import sangmyung.chatprompt.task.dto.SingleIOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.IoPairRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
+import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.Optional;
 
@@ -27,7 +24,6 @@ import java.util.Optional;
 public class AssignmentService {
     private final TaskRepository taskRepository;
     private final AssignmentRepository assignRepository;
-    private final IoPairRepository ioPairRepository;
 
 
     /**
@@ -93,16 +89,6 @@ public class AssignmentService {
                     .similarInstruct2(null)
                     .input(null).output(null)
                     .build();
-
-//            Assignment assignment = Assignment.builder()
-//                    .taskId(taskId)
-//                    .similarInstruct1(null).similarInstruct2(null)
-//                    .input(null).output(null)
-//                    .build();
-//            Assignment savedAssign = repository.save(assignment);
-//            savedAssign.addUser(user);
-//
-//            return convertToAssignResponse(savedAssign);
         }
 
         // 해당하는 Assignment가 있던 경우
@@ -112,13 +98,13 @@ public class AssignmentService {
 
 
     /**
-     * 전달받은 내용을 통해 사용자가 수정한 내용을 변경
+     * 전달받은 내용을 통해 사용자가 수정한 내용을 변경 -> 유사지시문1,2 수정
      * @param user 수정한 사용자
      * @param taskId 사용자가 수정한 Task의 PK
      * @param assignRequest 사용자가 작성한 내용이 들어있는 객체
      */
     @Transactional
-    public AssignResponse writeAssignmentContent(User user, Long taskId, AssignRequest assignRequest){
+    public AssignResponse updateAssignmentContent(User user, Long taskId, AssignRequest assignRequest){
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
@@ -128,6 +114,7 @@ public class AssignmentService {
         user.updateLastTaskNum(taskId);
 
         // 존재하지 않았던 경우 -> Assignment 객체 새로 생성
+        // 이렇게 하면 버그있을거 같은데..? Entity 만들고 값 채우고 저장하고 값 전달해야하지 않을까?
         if (optional.isEmpty()){
             return AssignResponse.builder()
                     .similarInstruct1(null)
@@ -142,10 +129,12 @@ public class AssignmentService {
 
         // 현재 둘 중 한 쪽만 업데이트하면 다른 한 쪽이 사라지는 버그 존재 -> 수정 필요
         assignment.updateSimilarInstruct(assignRequest.getSimilarInstruct1(), assignRequest.getSimilarInstruct2());
-        assignment.updateIO(assignRequest.getInput(), assignRequest.getOutput());
+//        assignment.updateIO(assignRequest.getInput(), assignRequest.getOutput());
 
         return convertToAssignResponse(assignment);
     }
+
+
 
 
 

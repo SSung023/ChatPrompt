@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+// 유사지시문 작성 페이지에서 하단에 Task 별로 보이는 입출력쌍에 대한 정보
 @Getter
 @NoArgsConstructor
 @ToString

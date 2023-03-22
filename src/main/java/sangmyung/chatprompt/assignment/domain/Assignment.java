@@ -4,6 +4,7 @@ package sangmyung.chatprompt.assignment.domain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.user.domain.User;
 
 import javax.persistence.*;
@@ -20,6 +21,10 @@ public class Assignment {
     @JoinColumn(name = "user_id")
     private User user;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "io_pairs_id")
+    private IOPairs ioPairs;
+
     private Long taskId; // Task PK
 
     @Column(columnDefinition = "TEXT")
@@ -33,18 +38,17 @@ public class Assignment {
     @Column(columnDefinition = "TEXT")
     private String output; // 출력
 
-    private Long ioIndex; // input&output 인덱스 ex) 1a, 1b에서의 1
+//    private Long ioIndex; // input&output 인덱스 ex) 1a, 1b에서의 1
 
 
     @Builder
     public Assignment(Long taskId, String similarInstruct1, String similarInstruct2,
-                      String input, String output, Long ioIndex) {
+                      String input, String output) {
         this.taskId = taskId;
         this.similarInstruct1 = similarInstruct1;
         this.similarInstruct2 = similarInstruct2;
         this.input = input;
         this.output = output;
-        this.ioIndex = ioIndex;
     }
 
 
@@ -53,6 +57,12 @@ public class Assignment {
         this.user = user;
         user.getAssignList().add(this);
     }
+
+    public void addIOPair(IOPairs ioPairs){
+        this.ioPairs = ioPairs;
+        ioPairs.addAssignment(this);
+    }
+
 
     //=== 비지니스 코드 ===//
     // 유사 지시문1 & 2 갱신

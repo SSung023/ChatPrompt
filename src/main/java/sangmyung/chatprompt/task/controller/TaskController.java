@@ -2,28 +2,26 @@ package sangmyung.chatprompt.task.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.CommonResponse;
 import sangmyung.chatprompt.Util.response.dto.ListResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.assignment.service.AssignmentService;
-import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.SingleIOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.service.TaskService;
 import sangmyung.chatprompt.user.domain.User;
-import sangmyung.chatprompt.user.dto.UserRequest;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.util.List;
-
-import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
 
 @RestController
 @RequiredArgsConstructor

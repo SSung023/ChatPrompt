@@ -6,10 +6,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
-import sangmyung.chatprompt.assignment.service.AssignmentService;
+import sangmyung.chatprompt.assignment.domain.Assignment;
+import sangmyung.chatprompt.assignment.dto.AssignIORequest;
+import sangmyung.chatprompt.assignment.dto.AssignIOResponse;
+import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.domain.Task;
-import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.SingleIOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
@@ -31,7 +33,9 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @Slf4j
 public class TaskService {
+    private final UserRepository userRepository;
     private final TaskRepository taskRepository;
+    private final AssignmentRepository assignRepository;
     private final IoPairRepository ioPairRepository;
     private final XmlParser xmlParser;
 
@@ -109,6 +113,65 @@ public class TaskService {
         return convertToSingleIOResponse(task, ioPairs);
     }
 
+    /**
+     * 입출력 화면에서 사용자가 내용을 작성하고 저장 요청을 했을 때 저장 후 반환
+     * @param userId
+     * @param taskId
+     * @param ioIndex
+     * @param assignIORequest 사용자가 입력한 입출력 정보를 담고 있는 객체
+     */
+    @Transactional
+    public AssignIOResponse updateIOAssignmentContent(Long userId, Long taskId, int ioIndex, AssignIORequest assignIORequest){
+        Optional<Assignment> ioAssignment = assignRepository.getIOAssignment(userId, taskId, ioIndex);
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        IOPairs ioPairs = ioPairRepository.findPairByIoIndex(taskId, ioIndex)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        // 값이 없었다면 새로 만들고 값을 채워서 반환
+        if (ioAssignment.isEmpty()){
+            Assignment assignment = Assignment.builder()
+                    .taskId(taskId)
+                    .input(assignIORequest.getInput())
+                    .output(assignIORequest.getOutput())
+                    .build();
+            assignment = assignRepository.save(assignment);
+            assignment.addIOPair(ioPairs);
+            assignment.addUser(user);
+
+            return convertToAssignIOResponse(task, assignment);
+        }
+
+        // 기존에 값이 있었다면 입력&출력만 갱신한 후 반환
+        Assignment assignment = ioAssignment.get();
+
+        assignment.updateIO(assignIORequest.getInput(), assignIORequest.getOutput());
+        return convertToAssignIOResponse(task, assignment);
+    }
+
+    /**
+     * 입출력 화면에서 사용자가 작성했던 내용을 찾아서 반환
+     * @param userId
+     * @param taskId
+     * @param ioIndex
+     */
+    public AssignIOResponse getWrittenIOAssignContent(Long userId, Long taskId, int ioIndex) {
+        Optional<Assignment> ioAssignment = assignRepository.getIOAssignment(userId, taskId, ioIndex);
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        // 존재하지 않는 경우
+        if (ioAssignment.isEmpty()) {
+            return AssignIOResponse.builder()
+                    .input(null).output(null)
+                    .hasPrevious(false).hasNext(false)
+                    .build();
+        }
+
+        return convertToAssignIOResponse(task, ioAssignment.get());
+    }
 
 
 
@@ -192,6 +255,14 @@ public class TaskService {
                 .ioResponse(convertToIOResponse(ioPairs))
                 .hasNext(task.getTotalIoNum() > ioPairs.getIdx()) // totalNum(120) >
                 .hasPrevious(ioPairs.getIdx() <= 1) // 1 이하면 더 없음
+                .build();
+    }
+    private AssignIOResponse convertToAssignIOResponse(Task task, Assignment assignment){
+        return AssignIOResponse.builder()
+                .input(assignment.getInput())
+                .output(assignment.getOutput())
+                .hasNext(task.getTotalIoNum() > assignment.getIoPairs().getIdx()) // totalIoNum 설정 아직 X
+                .hasPrevious(assignment.getIoPairs().getIdx() <= 1)
                 .build();
     }
     // 현재 Task의 Id를 기준으로 사용자가 뒤에 할당받은 Task가 더 있는지 여부 반환

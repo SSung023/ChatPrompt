@@ -4,6 +4,7 @@ import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import sangmyung.chatprompt.assignment.domain.Assignment;
 
 import javax.persistence.*;
 
@@ -18,6 +19,9 @@ public class IOPairs {
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "task_id")
     private Task task;
+
+    @OneToOne(mappedBy = "ioPairs")
+    private Assignment assignment;
 
     private int idx; // 1a, 1b에서의 숫자(index)
 
@@ -44,5 +48,9 @@ public class IOPairs {
     public void addTask(Task task){
         this.task = task;
         task.getIoPairsList().add(this);
+    }
+
+    public void addAssignment(Assignment assignment){
+        this.assignment = assignment;
     }
 }
