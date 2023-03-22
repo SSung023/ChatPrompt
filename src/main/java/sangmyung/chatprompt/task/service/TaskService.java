@@ -99,7 +99,7 @@ public class TaskService {
      * @param taskId 대상 Task PK
      * @param ioIndex 알고자하는 입출력 쌍의 인덱스 (ex: 1a, 1b에서의 1)
      */
-    public SingleIOResponse getCertainIOPairs(Long taskId, Long ioIndex){
+    public SingleIOResponse getCertainIOPairs(Long taskId, int ioIndex){
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 

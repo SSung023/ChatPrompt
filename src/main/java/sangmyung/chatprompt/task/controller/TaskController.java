@@ -113,7 +113,7 @@ public class TaskController {
      * @param ioIndex 특정 Task의 특정 입출력 세트(IOPairs)의 Index
      */
     @GetMapping("/tasks/{taskId}/io-pairs/{ioIndex}")
-    public SingleResponse<SingleIOResponse> getSingleIOPair(@PathVariable Long taskId, @PathVariable Long ioIndex){
+    public SingleResponse<SingleIOResponse> getSingleIOPair(@PathVariable Long taskId, @PathVariable int ioIndex){
 
         SingleIOResponse singleIOResponse = taskService.getCertainIOPairs(taskId, ioIndex);
 
