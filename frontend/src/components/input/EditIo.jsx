@@ -4,9 +4,9 @@ import { SET_IO_TASKID, userContext } from '../../context/UserContext';
 import { UnformattedTaskId } from '../../utility/FormattedTaskId';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import TextArea from '../ui/textarea/TextArea';
-import styles from './IoEdit.module.css';
+import styles from './EditIo.module.css';
 
-export default function IoEdit() {
+export default function EditIo() {
     const context = useContext(userContext);
     const [input, setInput] = useState('');
     const [output, setOutput]= useState('');
