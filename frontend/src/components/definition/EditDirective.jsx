@@ -29,8 +29,9 @@ export default function EditDirective() {
         })
         .then(function(res) {
             if(taskNum < 120){
-                setTaskNum(prev => prev + 1);
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
+                // 다음 task로 state 초기화
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(taskNum)+1)});
+                setTaskNum(prev => parseInt(prev) + 1);
             }
             else if(taskNum >=120){
                 alert('마지막 태스크입니다!');

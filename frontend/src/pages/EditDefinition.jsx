@@ -31,7 +31,7 @@ export default function EditDefinition() {
             <CurrentFile ptaskName='지시문' taskId={taskId}/>
             <Directive data={defData}/>
             <EditDirective />
-            <References taskId={taskId} defData={defData}/>
+            <References taskId={taskId}/>
         </div>
     );
 }

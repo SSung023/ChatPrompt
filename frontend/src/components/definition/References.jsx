@@ -4,27 +4,31 @@ import Table, { TableBody, TableHead, TableRow, TableCell } from '../ui/table/Ta
 import styles from './References.module.css';
 import axios from 'axios';
 
-export default function References({ taskId, defData }) {
+export default function References({ taskId }) {
     const context = useContext(userContext);
-    const [data, setData] = useState();
+    const [ioData, setIo] = useState();
+    const [defData, setDef] = useState();
 
     useEffect(() => {
-        const tId = parseInt(taskId);
-        taskId && (axios.get(`/api/tasks/${tId}/io-pairs`)
+        taskId && (axios.get(`/api/tasks/${taskId}/io-pairs`)
         .then(function(res) {
-            setData(res.data.dataList);
+            setIo(res.data.dataList);
         }))
     }, [taskId]);
 
+    useEffect(() => {
+        taskId && axios.get(`/api/tasks/${taskId}`)
+        .then(function(res) {
+            setDef(res.data.data);
+        })
+    }, [taskId])
+
     const makeIOPairs = () => {
-        return data.map((io_pair, idx) => {
+        return ioData.map((io_pair, idx) => {
             const row1 =  (
             <TableRow key={idx*2}>
                 <TableHead>{`입력 ${io_pair.index}`}</TableHead>
                 <TableCell>
-                    {/* <span>{io_pair.input1}</span>
-                    <br/>
-                    <span style={{color: `var(--lowb-main-color)`}}>{io_pair.input2}</span> */}
                     <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.input1}</span>
                     <br/>
                     <span>{io_pair.input2}</span>
@@ -35,9 +39,6 @@ export default function References({ taskId, defData }) {
                 <TableRow key={idx*2 + 1}>
                     <TableHead>{`출력 ${io_pair.index}`}</TableHead>
                     <TableCell>
-                        {/* <span>{io_pair.output1}</span>
-                        <br/>
-                        <span style={{color: `var(--lowb-main-color)`}}>{io_pair.output2}</span> */}
                         <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.output1}</span>
                         <br/>
                         <span>{io_pair.output2}</span>
@@ -49,7 +50,7 @@ export default function References({ taskId, defData }) {
     }
 
     return (
-        data &&
+        defData && ioData &&
         <div className={styles.references}>
             <p className={styles.title}>* 참고자료</p>
             <Table>
@@ -57,10 +58,10 @@ export default function References({ taskId, defData }) {
                     <TableRow>
                         <TableHead>지시문</TableHead>
                         <TableCell>
-                            <span style={{color: `var(--g-dark-txt-color)`}}>{defData.instruction}</span>
+                            <span style={{color: `var(--g-dark-txt-color)`}}>{`${defData.definition1}`}</span>
                             <br/>
                             <br/>
-                            <span>{defData.definition_kor}</span>
+                            <span>{`${defData.definition2}`}</span>
                         </TableCell>
                     </TableRow>
                     {makeIOPairs()}
