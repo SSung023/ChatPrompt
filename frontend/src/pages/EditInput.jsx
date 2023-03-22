@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
 import Instruction from '../components/input/Instruction';
-import IoEdit from '../components/input/IoEdit';
+import EditIo from '../components/input/EditIo';
 import CurrentFile from '../components/ui/CurrentFile';
 import { userContext } from '../context/UserContext';
 
@@ -22,7 +22,7 @@ export default function EditInput() {
         <div className='body'>
             <CurrentFile ptaskName={`입출력`} taskId={taskId}/>
             <Instruction data={data}/>
-            <IoEdit />
+            <EditIo />
         </div>
     );
 }
