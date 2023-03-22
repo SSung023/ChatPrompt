@@ -117,8 +117,8 @@ export default function EditDirective() {
                 </form>
             </div>
             <div className={styles.buttons}>
-                {/* {(userId === 1 || userId === 2 || userId === 3) 
-                && <button onClick={saveInstruction}>교수님 전용 윤문 수정 버튼</button>} */}
+                {/*{(userId === 1 || userId === 2 || userId === 3) */}
+                {/*&& <button onClick={saveInstruction}>교수님 전용 윤문 수정 버튼</button>}*/}
                 {/* <button onClick={handleLoad}>저장 없이 왼쪽 지정 페이지로 이동</button> */}
                 <button onClick={handleSaveAndLoad}>저장하고 다음 페이지로 이동</button>
             </div>

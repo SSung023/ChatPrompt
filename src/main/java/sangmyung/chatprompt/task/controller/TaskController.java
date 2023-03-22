@@ -102,22 +102,4 @@ public class TaskController {
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairs);
     }
 
-    /**
-     * 관리자가 특정 Task의 Definition을 등록(변경) 요청 -> 필요없음
-     * @param taskId 지시문을 변경하고자 하는 Task의 PK
-     * @param defRequest 변경하고자 하는 지시문 내용
-     */
-    @PatchMapping("/tasks/{taskId}/instruction")
-    public SingleResponse<TaskResponse> registerNewDefinition
-        (HttpServletRequest request, @PathVariable Long taskId, @RequestBody DefRequest defRequest){
-
-        // Session에서 User의 정보(UserId)를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
-
-        log.info("사용자 PK: " + userId.toString());
-
-        TaskResponse taskResponse = taskService.updateDefinition(taskId, userId, defRequest);
-
-        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), taskResponse);
-    }
 }

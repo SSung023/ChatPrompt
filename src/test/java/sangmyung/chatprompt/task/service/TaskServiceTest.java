@@ -84,8 +84,6 @@ class TaskServiceTest {
         Task task = Task.builder()
                 .taskNum(063)
                 .taskStr("task063_testTask")
-                .definition_kor("definition_kor")
-                .instruction("instruction")
                 .build();
         Long taskId = taskService.saveTask(task);
 
@@ -96,25 +94,7 @@ class TaskServiceTest {
 
         //then
         assertThat(taskByPK.getDefinition2()).isEqualTo(taskResponse.getDefinition2());
-        assertThat(taskByPK.getInstruction()).isEqualTo(taskResponse.getDefinition1());
-    }
-    
-    @Test
-    @DisplayName("Task의 instruction(지시문)을 수정할 수 있다.")
-    public void canModifyInstruction(){
-        //given
-        User user1 = userService.findUserById(1L);
-        Task task = getTask();
-        DefRequest defRequest = DefRequest.builder()
-                .newDefinition("newDefinition")
-                .build();
-
-        //when
-        assertThat(task.getInstruction()).isEqualTo(task.getInstruction());
-        taskService.updateDefinition(task.getId(), user1.getId(), defRequest);
-        
-        //then
-        assertThat(task.getInstruction()).isEqualTo(defRequest.getNewDefinition());
+//        assertThat(taskByPK.getInstruction()).isEqualTo(taskResponse.getDefinition1());
     }
 
 
@@ -128,8 +108,6 @@ class TaskServiceTest {
                 .category("example")
                 .taskNum(063)
                 .taskStr("task063_testTask")
-                .definition_kor("definition_kor")
-                .instruction("instruction")
                 .build();
         return taskRepository.save(task);
     }
