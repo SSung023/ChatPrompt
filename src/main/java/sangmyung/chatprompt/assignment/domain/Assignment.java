@@ -22,10 +22,14 @@ public class Assignment {
 
     private Long taskId; // Task PK
 
+    @Column(columnDefinition = "TEXT")
     private String similarInstruct1; // 유사지시문1
+    @Column(columnDefinition = "TEXT")
     private String similarInstruct2; // 유사지시문2
 
+    @Column(columnDefinition = "TEXT")
     private String input; // 입력
+    @Column(columnDefinition = "TEXT")
     private String output; // 출력
 
     private Long ioIndex; // input&output 인덱스 ex) 1a, 1b에서의 1
