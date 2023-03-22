@@ -83,9 +83,10 @@ public class TaskController {
         Long userId = userService.getUserIdFromRequest(request);
 
         User user = userService.findUserById(userId);
+        Long proId = userService.findUserByUserName("박소영").getId();
 
         // Assignment(userId=1)의 definition1&2를 받아서 줘야한다.
-        TaskResponse taskResponse = assignService.getDefinitions(1L, taskId);
+        TaskResponse taskResponse = assignService.getDefinitions(proId, taskId);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), taskResponse);
     }

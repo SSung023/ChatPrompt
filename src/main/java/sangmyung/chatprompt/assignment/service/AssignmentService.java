@@ -38,18 +38,12 @@ public class AssignmentService {
 
         // 교수님이 작성하신 원문이 없는 상황 -> Task의 내용을 넣는다
         if (optional.isEmpty()){
-            return TaskResponse.builder()
-                    .definition1(task.getDefinition1())
-                    .definition2(task.getDefinition2())
-                    .build();
+            return convertToDefinition(new Assignment(), task);
         }
 
         // 교수님이 작성하신 원문이 있는 상황 -> Assignment의 내용을 전달한다
         Assignment assignment = optional.get();
-        return TaskResponse.builder()
-                .definition1(assignment.getSimilarInstruct1())
-                .definition2(assignment.getSimilarInstruct2())
-                .build();
+        return convertToDefinition(assignment, task);
     }
 
     /**
@@ -64,9 +58,9 @@ public class AssignmentService {
         if (optionalAssignment.isEmpty()){
             Assignment assignment = Assignment.builder()
                     .taskId(taskId)
-                    .similarInstruct1("유사지시문을 작성해주세요.")
-                    .similarInstruct2("유사지시문을 작성해주세요.")
-                    .input("").output("")
+                    .similarInstruct1(null)
+                    .similarInstruct2(null)
+                    .input(null).output(null)
                     .build();
             Assignment savedAssign = repository.save(assignment);
             savedAssign.addUser(user);
@@ -97,23 +91,17 @@ public class AssignmentService {
         if (optionalAssignment.isEmpty()){
             Assignment assignment = Assignment.builder()
                     .taskId(taskId)
-                    .similarInstruct1("").similarInstruct2("")
-                    .input("").output("")
+                    .similarInstruct1(null).similarInstruct2(null)
+                    .input(null).output(null)
                     .build();
             Assignment savedAssign = repository.save(assignment);
             savedAssign.addUser(user);
 
-            if (user.getId() == 1){ // 교수인 경우
-                return convertToProAssignResponse(task, savedAssign);
-            }
             return convertToAssignResponse(savedAssign);
         }
 
         // 해당하는 Assignment가 있던 경우
         Assignment assignment = optionalAssignment.get();
-        if (user.getId() == 1){ // 교수인 경우
-            return convertToProAssignResponse(task, assignment);
-        }
         return convertToAssignResponse(assignment);
     }
 
@@ -146,9 +134,6 @@ public class AssignmentService {
             Assignment savedAssign = repository.save(assignment);
             savedAssign.addUser(user);
 
-            if (user.getId() == 1){ // 교수인 경우
-                return convertToProAssignResponse(task, savedAssign);
-            }
             return convertToAssignResponse(savedAssign);
         }
 
@@ -157,10 +142,6 @@ public class AssignmentService {
 
         assignment.updateSimilarInstruct(assignRequest.getSimilarInstruct1(), assignRequest.getSimilarInstruct2());
         assignment.updateIO(assignRequest.getInput(), assignRequest.getOutput());
-
-        if (user.getId() == 1) {
-            return convertToProAssignResponse(task, assignment);
-        }
 
         return convertToAssignResponse(assignment);
     }
@@ -179,18 +160,30 @@ public class AssignmentService {
                 .output(assignment.getOutput())
                 .build();
     }
-    private AssignResponse convertToProAssignResponse(Task task, Assignment assignment){
-        return AssignResponse.builder()
-                .similarInstruct1(task.getInstruction())
-                .similarInstruct2(assignment.getSimilarInstruct2())
-                .input(assignment.getInput())
-                .output(assignment.getOutput())
-                .build();
-    }
     private SingleInstructResponse convertToSimilar(Assignment assignment){
         return SingleInstructResponse.builder()
                 .similarInstruct1(assignment.getSimilarInstruct1())
                 .similarInstruct2(assignment.getSimilarInstruct2())
+                .build();
+    }
+    private TaskResponse convertToDefinition(Assignment assignment, Task task){
+        String def1, def2;
+        if (assignment.getSimilarInstruct1() == null){
+            def1 = task.getDefinition1();
+        }
+        else {
+            def1 = assignment.getSimilarInstruct1();
+        }
+        if (assignment.getSimilarInstruct2() == null){
+            def2 = task.getDefinition2();
+        }
+        else {
+            def2 = assignment.getSimilarInstruct2();
+        }
+
+        return TaskResponse.builder()
+                .definition1(def1)
+                .definition2(def2)
                 .build();
     }
 }
