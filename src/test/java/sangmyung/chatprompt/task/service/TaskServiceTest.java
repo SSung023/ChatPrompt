@@ -14,7 +14,6 @@ import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
-import sangmyung.chatprompt.user.repository.UserRepository;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.xml.bind.JAXBException;
@@ -96,8 +95,8 @@ class TaskServiceTest {
         TaskResponse taskResponse = taskService.getTaskDefinition(user, taskId);
 
         //then
-        assertThat(taskByPK.getDefinition_kor()).isEqualTo(taskResponse.getDefinition_kor());
-        assertThat(taskByPK.getInstruction()).isEqualTo(taskResponse.getInstruction());
+        assertThat(taskByPK.getDefinition2()).isEqualTo(taskResponse.getDefinition2());
+        assertThat(taskByPK.getInstruction()).isEqualTo(taskResponse.getDefinition1());
     }
     
     @Test

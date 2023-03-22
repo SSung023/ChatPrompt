@@ -1,12 +1,12 @@
 package sangmyung.chatprompt.task.service;
 
 import lombok.RequiredArgsConstructor;
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
+import sangmyung.chatprompt.assignment.service.AssignmentService;
 import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.domain.Task;
 import sangmyung.chatprompt.task.dto.DefRequest;
@@ -33,6 +33,7 @@ public class TaskService {
     private final UserRepository userRepository;
     private final TaskRepository taskRepository;
     private final IoPairRepository ioPairRepository;
+    private final AssignmentService assignmentService;
     private final XmlParser xmlParser;
 
 
@@ -75,6 +76,8 @@ public class TaskService {
 
     /**
      * Task ID(PK)에 대응되는 Task의 정보(Definition)가 담긴 객체를 반환
+     * userId=1&taskId에 해당하는 Assignment의 definition1&definition2를 반환
+     * 없는 경우에는 Task의 정보로 반환
      * @param taskId 정보를 찾고자하는 Task의 PK
      */
     public TaskResponse getTaskDefinition(User user, Long taskId){
@@ -140,8 +143,8 @@ public class TaskService {
                         .taskStr(engDTO.getTask())
                         .taskNum(taskNum)
                         .category(engDTO.getCategory())
-                        .instruction(engDTO.getDefinition())
-                        .definition_kor(korDTO.getDefinition())
+                        .definition1(engDTO.getDefinition())
+                        .definition2(korDTO.getDefinition())
                         .type(engDTO.getType())
                         .numInputTokens(engDTO.getInputToken())
                         .build();
@@ -175,8 +178,8 @@ public class TaskService {
     private TaskResponse convertToTaskResponse(User user, Task task){
         return TaskResponse.builder()
                 .taskId(task.getId())
-                .instruction(task.getInstruction())
-                .definition_kor(task.getDefinition_kor())
+                .definition1(task.getDefinition1())
+                .definition2(task.getDefinition2())
                 .hasNext(checkHasNext(user, task.getId()))
                 .hasPrevious(checkHasPrevious(user, task.getId()))
                 .build();

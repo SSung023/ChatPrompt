@@ -7,15 +7,12 @@ import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.assignment.dto.AssignResponse;
-import sangmyung.chatprompt.assignment.dto.SimilarInstructResponse;
+import sangmyung.chatprompt.assignment.dto.SingleInstructResponse;
 import sangmyung.chatprompt.assignment.service.AssignmentService;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
-import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
 
 @RestController
 @RequiredArgsConstructor
@@ -29,7 +26,6 @@ public class AssignmentController {
     /**
      * 사용자가 특정 Task에 작성했던 내용 요청
      * @param taskId 대상 Task의 PK
-     * 이전 api: /tasks/{taskId}/users/{userId}
      */
     @GetMapping("/tasks/{taskId}/assignment")
     public SingleResponse<AssignResponse> getTasksAssignment(HttpServletRequest request, @PathVariable Long taskId){
@@ -65,12 +61,12 @@ public class AssignmentController {
      * @param taskId 유사 지시문 1&2를 가지고 오고자 하는 Task의 PK
      */
     @GetMapping("/tasks/{taskId}/assignment-similar")
-    public SingleResponse<SimilarInstructResponse> getSimilarInstruct(HttpServletRequest request, @PathVariable Long taskId){
+    public SingleResponse<SingleInstructResponse> getSimilarInstruct(HttpServletRequest request, @PathVariable Long taskId){
         // Session에서 User의 정보를 얻음
         Long userId = userService.getUserIdFromRequest(request);
 
         User user = userService.findUserById(userId);
-        SimilarInstructResponse similarInstructs = assignmentService.getWrittenSimilar(user, taskId);
+        SingleInstructResponse similarInstructs = assignmentService.getWrittenSimilar(user, taskId);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarInstructs);
     }

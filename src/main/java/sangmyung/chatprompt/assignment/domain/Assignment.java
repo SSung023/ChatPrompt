@@ -28,15 +28,18 @@ public class Assignment {
     private String input; // 입력
     private String output; // 출력
 
+    private Long ioIndex; // input&output 인덱스 ex) 1a, 1b에서의 1
+
 
     @Builder
     public Assignment(Long taskId, String similarInstruct1, String similarInstruct2,
-                      String input, String output) {
+                      String input, String output, Long ioIndex) {
         this.taskId = taskId;
         this.similarInstruct1 = similarInstruct1;
         this.similarInstruct2 = similarInstruct2;
         this.input = input;
         this.output = output;
+        this.ioIndex = ioIndex;
     }
 
 

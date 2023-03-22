@@ -10,8 +10,8 @@ import lombok.ToString;
 @ToString
 public class TaskResponse {
     private Long taskId;
-    private String instruction; // 지시문
-    private String definition_kor;
+    private String definition1; // 지시문 원문
+    private String definition2; // 기계 번역문
 
     private boolean hasNext;
     private boolean hasPrevious;
@@ -19,11 +19,11 @@ public class TaskResponse {
 
 
     @Builder
-    public TaskResponse(Long taskId, String instruction, String definition_kor,
+    public TaskResponse(Long taskId, String definition1, String definition2,
                         boolean hasNext, boolean hasPrevious) {
         this.taskId = taskId;
-        this.instruction = instruction;
-        this.definition_kor = definition_kor;
+        this.definition1 = definition1;
+        this.definition2 = definition2;
         this.hasNext = hasNext;
         this.hasPrevious = hasPrevious;
     }

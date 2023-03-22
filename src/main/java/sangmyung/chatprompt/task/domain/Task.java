@@ -27,25 +27,32 @@ public class Task {
 
     private String category; // Information Extraction
 
-    @Column(columnDefinition = "TEXT") // 지시문
+    @Column(columnDefinition = "TEXT") // 지시문 -> 삭제 예정
     private String instruction;
 
+
     @Column(columnDefinition = "TEXT")
-    private String definition_kor; // definition 한글
+    private String definition1; // definition1 : 지시문 원문(윤문)
+    @Column(columnDefinition = "TEXT")
+    private String definition2; // definition1 : 기계번역문
     private String type; // ex) example, instance
 
+    private int totalIoNum; // IOPair 쌍의 최대 수 -> 1~ 33(102)
     private int numInputTokens;
 
 
     @Builder
-    public Task(int taskNum, String taskStr, String category, String instruction, String definition_kor,
-                String type, int numInputTokens) {
+    public Task(int taskNum, String taskStr, String category, String instruction,
+                String definition1, String definition2,
+                String type, int totalIoNum, int numInputTokens) {
         this.taskNum = taskNum;
         this.taskStr = taskStr;
         this.category = category;
         this.instruction = instruction;
-        this.definition_kor = definition_kor;
+        this.definition1 = definition1;
+        this.definition2 = definition2;
         this.type = type;
+        this.totalIoNum = totalIoNum;
         this.numInputTokens = numInputTokens;
     }
 

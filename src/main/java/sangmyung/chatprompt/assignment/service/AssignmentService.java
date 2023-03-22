@@ -8,9 +8,10 @@ import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.assignment.dto.AssignResponse;
-import sangmyung.chatprompt.assignment.dto.SimilarInstructResponse;
+import sangmyung.chatprompt.assignment.dto.SingleInstructResponse;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.domain.Task;
+import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 
@@ -25,18 +26,46 @@ public class AssignmentService {
 
 
     /**
+     * 교수님이 작성한 Assignment의 내용을 받아서 지시문(윤문)&기계번역문에 내용을 넣어서 반환
+     * 상단에 위치할 지시문&기계번역문에 대한 내용을 반환
+     * @param professorId 1L로 고정
+     * @param taskId Assignment를 찾고자하는 Task PK
+     */
+    public TaskResponse getDefinitions(Long professorId, Long taskId){
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Optional<Assignment> optional = repository.getAssignment(professorId, taskId);
+
+        // 교수님이 작성하신 원문이 없는 상황 -> Task의 내용을 넣는다
+        if (optional.isEmpty()){
+            return TaskResponse.builder()
+                    .definition1(task.getDefinition1())
+                    .definition2(task.getDefinition2())
+                    .build();
+        }
+
+        // 교수님이 작성하신 원문이 있는 상황 -> Assignment의 내용을 전달한다
+        Assignment assignment = optional.get();
+        return TaskResponse.builder()
+                .definition1(assignment.getSimilarInstruct1())
+                .definition2(assignment.getSimilarInstruct2())
+                .build();
+    }
+
+    /**
      * 사용자가 이전에 작성했던 유사지시문 2개를 반환 - 만일 기존에 없었다면 새로 생성하여 전달
      * @param user 해당 내용을 작성한 사용자
      * @param taskId 내용을 작성한 Task PK
      */
     @Transactional
-    public SimilarInstructResponse getWrittenSimilar(User user, Long taskId){
+    public SingleInstructResponse getWrittenSimilar(User user, Long taskId){
         Optional<Assignment> optionalAssignment = repository.getAssignment(user.getId(), taskId);
 
         if (optionalAssignment.isEmpty()){
             Assignment assignment = Assignment.builder()
                     .taskId(taskId)
-                    .similarInstruct1("").similarInstruct2("")
+                    .similarInstruct1("유사지시문을 작성해주세요.")
+                    .similarInstruct2("유사지시문을 작성해주세요.")
                     .input("").output("")
                     .build();
             Assignment savedAssign = repository.save(assignment);
@@ -158,8 +187,8 @@ public class AssignmentService {
                 .output(assignment.getOutput())
                 .build();
     }
-    private SimilarInstructResponse convertToSimilar(Assignment assignment){
-        return SimilarInstructResponse.builder()
+    private SingleInstructResponse convertToSimilar(Assignment assignment){
+        return SingleInstructResponse.builder()
                 .similarInstruct1(assignment.getSimilarInstruct1())
                 .similarInstruct2(assignment.getSimilarInstruct2())
                 .build();

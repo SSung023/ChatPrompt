@@ -7,6 +7,7 @@ import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.CommonResponse;
 import sangmyung.chatprompt.Util.response.dto.ListResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
+import sangmyung.chatprompt.assignment.service.AssignmentService;
 import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
@@ -30,6 +31,7 @@ import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
 public class TaskController {
     private final UserService userService;
     private final TaskService taskService;
+    private final AssignmentService assignService;
 
 
     /**
@@ -55,7 +57,7 @@ public class TaskController {
     }
 
     /**
-     * 특정 Task의 Definition 정보(한글, 영어)를 반환
+     * 특정 Task의 Definition 정보(엑셀 파일에 있던) 반환
      * @param taskId Definition 정보를 얻고 싶은 Task의 PK
      */
     @GetMapping("/tasks/{taskId}")
@@ -65,7 +67,25 @@ public class TaskController {
 
         User user = userService.findUserById(userId);
 
+        // Assignment(userId=1)의 definition1&2를 받아서 줘야한다.
         TaskResponse taskResponse = taskService.getTaskDefinition(user, taskId);
+
+        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), taskResponse);
+    }
+
+    /**
+     * 특정 Task의 Definition 정보(지시문 원문(윤문) & 기계번역문)를 반환
+     * @param taskId Definition 정보를 얻고 싶은 Task PK
+     */
+    @GetMapping("/tasks/{taskId}/definitions")
+    public SingleResponse<TaskResponse> getModifiedDefinition(HttpServletRequest request, @PathVariable Long taskId){
+        // Session에서 User의 정보(PK)를 얻음
+        Long userId = userService.getUserIdFromRequest(request);
+
+        User user = userService.findUserById(userId);
+
+        // Assignment(userId=1)의 definition1&2를 받아서 줘야한다.
+        TaskResponse taskResponse = assignService.getDefinitions(1L, taskId);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), taskResponse);
     }
@@ -82,7 +102,7 @@ public class TaskController {
     }
 
     /**
-     * 관리자가 특정 Task의 Definition을 등록(변경) 요청
+     * 관리자가 특정 Task의 Definition을 등록(변경) 요청 -> 필요없음
      * @param taskId 지시문을 변경하고자 하는 Task의 PK
      * @param defRequest 변경하고자 하는 지시문 내용
      */
