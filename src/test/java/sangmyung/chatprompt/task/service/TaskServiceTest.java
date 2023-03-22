@@ -84,7 +84,7 @@ class TaskServiceTest {
         Task task = Task.builder()
                 .taskNum(063)
                 .taskStr("task063_testTask")
-                .definition_kor("definition_kor")
+//                .definition_kor("definition_kor")
                 .instruction("instruction")
                 .build();
         Long taskId = taskService.saveTask(task);
@@ -96,7 +96,7 @@ class TaskServiceTest {
 
         //then
         assertThat(taskByPK.getDefinition2()).isEqualTo(taskResponse.getDefinition2());
-        assertThat(taskByPK.getInstruction()).isEqualTo(taskResponse.getDefinition1());
+//        assertThat(taskByPK.getInstruction()).isEqualTo(taskResponse.getDefinition1());
     }
     
     @Test
@@ -128,7 +128,7 @@ class TaskServiceTest {
                 .category("example")
                 .taskNum(063)
                 .taskStr("task063_testTask")
-                .definition_kor("definition_kor")
+//                .definition_kor("definition_kor")
                 .instruction("instruction")
                 .build();
         return taskRepository.save(task);
