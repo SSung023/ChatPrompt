@@ -36,7 +36,10 @@ export default function IoReference({ taskId, idx }) {
 
     // idx가 변경되면 io 초기화
     useEffect(() => {
-        
+        axios.get(`/api/tasks/${taskId}/io-pairs/${idx}`)
+        .then(function(res) {
+            console.log(res.data.data);
+        })
     }, [idx]);
 
 
