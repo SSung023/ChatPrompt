@@ -1,27 +1,82 @@
 .wrapper {
-    position: relative;
-}
-
-.start {
+    font-size: 16px;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.start > h1 {
-    margin: 0.5em;
+/* form */
+.loginForm {
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 2em;
+    background-color: var(--white-color);
+    border-radius: 30px;
+    border: 2px solid var(--line-color);
 }
 
+.loginForm > label {
+    color: var(--light-txt-color);
+    font-size: 2em;
+    margin-right: 0.5em;
+    font-family: 'DungGeunMo';
+}
+
+/* select */
+.loginForm > select {
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 4px 0.5em;
+    
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--grey-line-color);
+
+    margin-right: 2em;
+}
+
+.loginForm > select:focus {
+    border: 1px solid var(--main-color);
+    outline: none;
+}
+
+/* input */
+.loginForm > input {
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 4px 0.5em;
+
+    border-radius: 5px;
+    background-color: transparent;
+    background: none;
+    border: 1px solid var(--grey-line-color);
+}
+
+.loginForm > input:focus {
+    outline: none;
+}
+
+.loginForm > input:required {
+    background-color: transparent;
+}
+
+/* submit button */
 .button {
-    position: absolute;
-    left: 40%;
+    font-family: 'DungGeunMo';
     bottom: 1em;
     padding: 0;
     /* margin-bottom: 1em; */
     background-color: transparent;
     border: none;
     font-size: 1em;
+
+    margin: 1.5em;
 }
 
 .button:hover {
+    color: var(--main-color);
     cursor: pointer;
+    transition: color 100ms ease-in;
 }
