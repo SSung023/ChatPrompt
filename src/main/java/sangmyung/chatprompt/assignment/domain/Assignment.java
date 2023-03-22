@@ -1,6 +1,6 @@
 package sangmyung.chatprompt.assignment.domain;
 
-import lombok.AccessLevel;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -24,6 +24,7 @@ public class Assignment {
 
     @Column(columnDefinition = "TEXT")
     private String similarInstruct1; // 유사지시문1
+
     @Column(columnDefinition = "TEXT")
     private String similarInstruct2; // 유사지시문2
 

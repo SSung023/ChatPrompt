@@ -10,6 +10,7 @@ import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.assignment.service.AssignmentService;
 import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
+import sangmyung.chatprompt.task.dto.SingleIOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.service.TaskService;
 import sangmyung.chatprompt.user.domain.User;
@@ -56,6 +57,9 @@ public class TaskController {
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
 
+
+
+
     /**
      * 특정 Task의 Definition 정보(엑셀 파일에 있던) 반환
      * @param taskId Definition 정보를 얻고 싶은 Task의 PK
@@ -100,6 +104,20 @@ public class TaskController {
         List<IOResponse> ioPairs = taskService.getTaskIOPairs(taskId);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairs);
+    }
+
+
+    /**
+     * 특정 Task PK의 특정 인덱스의 입출력쌍 정보(IOPair)의 정보를 반환
+     * @param taskId 특정 Task PK
+     * @param ioIndex 특정 Task의 특정 입출력 세트(IOPairs)의 Index
+     */
+    @GetMapping("/tasks/{taskId}/io-pairs/{ioIndex}")
+    public SingleResponse<SingleIOResponse> getSingleIOPair(@PathVariable Long taskId, @PathVariable Long ioIndex){
+
+        SingleIOResponse singleIOResponse = taskService.getCertainIOPairs(taskId, ioIndex);
+
+        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), singleIOResponse);
     }
 
 }

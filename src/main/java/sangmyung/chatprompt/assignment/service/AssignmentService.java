@@ -8,10 +8,14 @@ import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.assignment.dto.AssignResponse;
-import sangmyung.chatprompt.assignment.dto.SingleInstructResponse;
+import sangmyung.chatprompt.assignment.dto.SimilarInstructResponse;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
+import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.domain.Task;
+import sangmyung.chatprompt.task.dto.IOResponse;
+import sangmyung.chatprompt.task.dto.SingleIOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
+import sangmyung.chatprompt.task.repository.IoPairRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 
@@ -22,7 +26,8 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class AssignmentService {
     private final TaskRepository taskRepository;
-    private final AssignmentRepository repository;
+    private final AssignmentRepository assignRepository;
+    private final IoPairRepository ioPairRepository;
 
 
     /**
@@ -34,7 +39,7 @@ public class AssignmentService {
     public TaskResponse getDefinitions(Long professorId, Long taskId){
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-        Optional<Assignment> optional = repository.getAssignment(professorId, taskId);
+        Optional<Assignment> optional = assignRepository.getAssignment(professorId, taskId);
 
         // 교수님이 작성하신 원문이 없는 상황 -> Task의 내용을 넣는다
         if (optional.isEmpty()){
@@ -52,20 +57,14 @@ public class AssignmentService {
      * @param taskId 내용을 작성한 Task PK
      */
     @Transactional
-    public SingleInstructResponse getWrittenSimilar(User user, Long taskId){
-        Optional<Assignment> optionalAssignment = repository.getAssignment(user.getId(), taskId);
+    public SimilarInstructResponse getWrittenSimilar(User user, Long taskId){
+        Optional<Assignment> optionalAssignment = assignRepository.getAssignment(user.getId(), taskId);
 
         if (optionalAssignment.isEmpty()){
-            Assignment assignment = Assignment.builder()
-                    .taskId(taskId)
+            return SimilarInstructResponse.builder()
                     .similarInstruct1(null)
                     .similarInstruct2(null)
-                    .input(null).output(null)
                     .build();
-            Assignment savedAssign = repository.save(assignment);
-            savedAssign.addUser(user);
-
-            return convertToSimilar(savedAssign);
         }
 
         return convertToSimilar(optionalAssignment.get());
@@ -82,22 +81,28 @@ public class AssignmentService {
     public AssignResponse getWrittenAssignment(User user, Long taskId){
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-        Optional<Assignment> optionalAssignment = repository.getAssignment(user.getId(), taskId);
+        Optional<Assignment> optionalAssignment = assignRepository.getAssignment(user.getId(), taskId);
 
         // User가 마지막으로 수정한 TaskId 갱신
         user.updateLastTaskNum(taskId);
 
-        // 해당하는 Assignment가 없던 경우
+        // 해당하는 Assignment가 없던 경우 null로 채워서 전달
         if (optionalAssignment.isEmpty()){
-            Assignment assignment = Assignment.builder()
-                    .taskId(taskId)
-                    .similarInstruct1(null).similarInstruct2(null)
+            return AssignResponse.builder()
+                    .similarInstruct1(null)
+                    .similarInstruct2(null)
                     .input(null).output(null)
                     .build();
-            Assignment savedAssign = repository.save(assignment);
-            savedAssign.addUser(user);
 
-            return convertToAssignResponse(savedAssign);
+//            Assignment assignment = Assignment.builder()
+//                    .taskId(taskId)
+//                    .similarInstruct1(null).similarInstruct2(null)
+//                    .input(null).output(null)
+//                    .build();
+//            Assignment savedAssign = repository.save(assignment);
+//            savedAssign.addUser(user);
+//
+//            return convertToAssignResponse(savedAssign);
         }
 
         // 해당하는 Assignment가 있던 경우
@@ -117,29 +122,25 @@ public class AssignmentService {
         Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
-        Optional<Assignment> optional = repository.getAssignment(user.getId(), taskId);
+        Optional<Assignment> optional = assignRepository.getAssignment(user.getId(), taskId);
 
         // User가 마지막으로 수정한 TaskId 갱신
         user.updateLastTaskNum(taskId);
 
         // 존재하지 않았던 경우 -> Assignment 객체 새로 생성
         if (optional.isEmpty()){
-            Assignment assignment = Assignment.builder()
-                    .taskId(taskId)
-                    .similarInstruct1(assignRequest.getSimilarInstruct1())
-                    .similarInstruct2(assignRequest.getSimilarInstruct2())
-                    .input(assignRequest.getInput())
-                    .output(assignRequest.getOutput())
+            return AssignResponse.builder()
+                    .similarInstruct1(null)
+                    .similarInstruct2(null)
+                    .input(null).output(null)
                     .build();
-            Assignment savedAssign = repository.save(assignment);
-            savedAssign.addUser(user);
 
-            return convertToAssignResponse(savedAssign);
         }
 
         // Assignment가 존재했던 경우
         Assignment assignment = optional.get();
 
+        // 현재 둘 중 한 쪽만 업데이트하면 다른 한 쪽이 사라지는 버그 존재 -> 수정 필요
         assignment.updateSimilarInstruct(assignRequest.getSimilarInstruct1(), assignRequest.getSimilarInstruct2());
         assignment.updateIO(assignRequest.getInput(), assignRequest.getOutput());
 
@@ -160,8 +161,8 @@ public class AssignmentService {
                 .output(assignment.getOutput())
                 .build();
     }
-    private SingleInstructResponse convertToSimilar(Assignment assignment){
-        return SingleInstructResponse.builder()
+    private SimilarInstructResponse convertToSimilar(Assignment assignment){
+        return SimilarInstructResponse.builder()
                 .similarInstruct1(assignment.getSimilarInstruct1())
                 .similarInstruct2(assignment.getSimilarInstruct2())
                 .build();

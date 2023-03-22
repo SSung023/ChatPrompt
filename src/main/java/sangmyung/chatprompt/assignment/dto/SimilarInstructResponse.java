@@ -8,13 +8,13 @@ import lombok.ToString;
 @Getter
 @ToString
 @NoArgsConstructor
-public class SingleInstructResponse {
+public class SimilarInstructResponse {
     private String similarInstruct1;
     private String similarInstruct2;
 
 
     @Builder
-    public SingleInstructResponse(String similarInstruct1, String similarInstruct2) {
+    public SimilarInstructResponse(String similarInstruct1, String similarInstruct2) {
         this.similarInstruct1 = similarInstruct1;
         this.similarInstruct2 = similarInstruct2;
     }
