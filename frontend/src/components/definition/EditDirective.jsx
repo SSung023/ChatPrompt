@@ -23,24 +23,24 @@ export default function EditDirective() {
     };
 
     // task 별 인풋 로드해서 초기화하기
-    const saveInstruction = async () => {
-        axios.patch(`/api/tasks/${taskNum}/instruction`, {
-            newDefinition: `${input1}`
-        })
-        .then(function(res) {
-            if(taskNum < 120){
-                // 다음 task로 state 초기화
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(taskNum)+1)});
-                setTaskNum(prev => parseInt(prev) + 1);
-            }
-            else if(taskNum >=120){
-                alert('마지막 태스크입니다!');
-            }
-        })
-        .catch(function(err) {
-            console.log(err);
-        })
-    }
+    // const saveInstruction = async () => {
+    //     axios.patch(`/api/tasks/${taskNum}/instruction`, {
+    //         newDefinition: `${input1}`
+    //     })
+    //     .then(function(res) {
+    //         if(taskNum < 120){
+    //             // 다음 task로 state 초기화
+    //             context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(taskNum)+1)});
+    //             setTaskNum(prev => parseInt(prev) + 1);
+    //         }
+    //         else if(taskNum >=120){
+    //             alert('마지막 태스크입니다!');
+    //         }
+    //     })
+    //     .catch(function(err) {
+    //         console.log(err);
+    //     })
+    // }
     const handleLoad = (e) => {
         axios.get(`/api/tasks/${taskNum}/assignment`)
         .then(function(res) {
