@@ -11,6 +11,7 @@ import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.domain.Task;
 import sangmyung.chatprompt.task.dto.DefRequest;
 import sangmyung.chatprompt.task.dto.IOResponse;
+import sangmyung.chatprompt.task.dto.SingleIOResponse;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.IoPairRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
@@ -30,10 +31,8 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @Slf4j
 public class TaskService {
-    private final UserRepository userRepository;
     private final TaskRepository taskRepository;
     private final IoPairRepository ioPairRepository;
-    private final AssignmentService assignmentService;
     private final XmlParser xmlParser;
 
 
@@ -94,6 +93,21 @@ public class TaskService {
         return user.getLastTaskNum();
     }
 
+
+    /**
+     * 특정 Task의 특정 입출력 쌍을 반환
+     * @param taskId 대상 Task PK
+     * @param ioIndex 알고자하는 입출력 쌍의 인덱스 (ex: 1a, 1b에서의 1)
+     */
+    public SingleIOResponse getCertainIOPairs(Long taskId, Long ioIndex){
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        IOPairs ioPairs = ioPairRepository.findPairByIoIndex(taskId, ioIndex)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        return convertToSingleIOResponse(task, ioPairs);
+    }
 
 
 
@@ -171,6 +185,13 @@ public class TaskService {
                 .input2(ioPairs.getInput2())
                 .output1(ioPairs.getOutput1())
                 .output2(ioPairs.getOutput2())
+                .build();
+    }
+    private SingleIOResponse convertToSingleIOResponse(Task task, IOPairs ioPairs){
+        return SingleIOResponse.builder()
+                .ioResponse(convertToIOResponse(ioPairs))
+                .hasNext(task.getTotalIoNum() > ioPairs.getIdx()) // totalNum(120) >
+                .hasPrevious(ioPairs.getIdx() <= 1) // 1 이하면 더 없음
                 .build();
     }
     // 현재 Task의 Id를 기준으로 사용자가 뒤에 할당받은 Task가 더 있는지 여부 반환
