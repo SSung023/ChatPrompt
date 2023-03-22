@@ -16,10 +16,16 @@
 }
 
 /* buttons */
+.buttons {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .buttons > button {
     box-sizing: border-box;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-bottom: 2em;
     border: none;
     border-radius: 5px;
     background-color: var(--btn-color);
@@ -32,13 +38,12 @@
     cursor: pointer;
 }
 
-
 /* inputs */
 
 .edit {
     box-sizing: border-box;
     padding: 0.5em 0.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     
     width: 80%;
     min-width: 30em;
@@ -49,10 +54,28 @@
 }
 
 .title {
-    color: var(--light-txt-color);
+    color: var(--txt-color);
     font-size: 1em;
     margin: 0;
     margin-bottom: 1em;
+}
+
+/* taskNum input */
+.left > label {
+    font-size: 1em;
+    margin-left: 1em;
+    color: var(--main-color);
+}
+
+.left > input {
+    color: var(--light-txt-color);
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid var(--line-color);
+}
+
+.left > input:focus {
+    outline: none;
 }
 
 /* text area */

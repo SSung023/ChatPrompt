@@ -13,6 +13,7 @@ export default function IoEdit() {
 
     const taskId = context.state.data.io_taskId;
     const [taskNum, setTaskNum] = useState(taskId);
+    const [idx, setIdx] = useState(1);
 
     // state 관리
     const handleChangeInput = (value) => {
@@ -23,7 +24,7 @@ export default function IoEdit() {
     }
 
     // 제출 관련
-    const load = async () => {
+    const load = async (e) => {
         axios.get(`/api/tasks/${taskNum}/assignment`)
         .then(function(res) {
             return res.data.data;
@@ -72,6 +73,21 @@ export default function IoEdit() {
         <div className={styles.ioEdit}>
             <div className={styles.header}>
                 <p className={styles.title}>* 위 지시문에 대하여 적절한 입력과 출력을 작성하시오.</p>
+                
+                <label>task: </label>
+                <input 
+                    type="number"
+                    onChange={(e) => {
+                        const value = e.target.value;
+                        value >=1 && value <=120 && setTaskNum(parseInt(e.target.value))
+                    }}
+                    max="120"
+                    min="1"
+                    value={taskNum}
+                    onKeyDown={handlePressEnter}
+                />
+
+                <label>index: </label>
                 <input 
                     type="number"
                     onChange={(e) => {

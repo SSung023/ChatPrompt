@@ -12,7 +12,7 @@ export default function EditDefinition() {
     const [defData, setDef] = useState();
 
     useEffect(() => {
-        axios.get(`/api/tasks/${taskId}`)
+        axios.get(`/api/tasks/${taskId}/definitions`)
         .then(function(res) {
             setDef(res.data.data);
         })

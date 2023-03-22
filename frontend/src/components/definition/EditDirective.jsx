@@ -94,6 +94,7 @@ export default function EditDirective() {
             <div className={styles.wrapper}>
                 <div className={styles.left}>
                     <p className={styles.title}>* 다음 유사 지시문 2개를 작성하시오.</p>
+                    <label>task: </label>
                     <input 
                         type="number"
                         onChange={(e) => {
@@ -106,12 +107,6 @@ export default function EditDirective() {
                         onKeyDown={handlePressEnter}
                     />
                 </div>
-                <div className={styles.buttons}>
-                    {(userId === 1 || userId === 2 || userId === 3) 
-                    && <button onClick={saveInstruction}>교수님 전용 윤문 수정 버튼</button>}
-                    {/* <button onClick={handleLoad}>저장 없이 왼쪽 지정 페이지로 이동</button> */}
-                    <button onClick={handleSaveAndLoad}>저장하고 다음 페이지로 이동</button>
-                </div>
             </div>
             <div className={styles.edit}>
                 <form>
@@ -119,6 +114,12 @@ export default function EditDirective() {
                     <div className={styles.divider}/>
                     <TextArea input={input2} setInput={handleChange2} placeholder={`유사 지시문 2를 입력하세요.`}/>
                 </form>
+            </div>
+            <div className={styles.buttons}>
+                {(userId === 1 || userId === 2 || userId === 3) 
+                && <button onClick={saveInstruction}>교수님 전용 윤문 수정 버튼</button>}
+                {/* <button onClick={handleLoad}>저장 없이 왼쪽 지정 페이지로 이동</button> */}
+                <button onClick={handleSaveAndLoad}>저장하고 다음 페이지로 이동</button>
             </div>
         </>
     );

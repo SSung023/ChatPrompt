@@ -13,7 +13,7 @@ export default function Directive({ data }) {
                             지시문
                         </TableHead>
                         <TableCell>
-                            {data.instruction}
+                            {data.definition1}
                         </TableCell>
                     </TableRow>
                     <TableRow>
@@ -21,7 +21,7 @@ export default function Directive({ data }) {
                             기계 번역문1
                         </TableHead>
                         <TableCell>
-                            {data.definition_kor}
+                            {data.definition2}
                         </TableCell>
                     </TableRow>
                 </TableBody>
