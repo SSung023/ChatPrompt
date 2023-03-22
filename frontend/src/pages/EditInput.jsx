@@ -25,7 +25,7 @@ export default function EditInput() {
             <CurrentFile ptaskName={`입출력`} taskId={taskId} idx={idx}/>
             <Instruction data={data}/>
             <EditIo />
-            <IoReference idx={idx}/>
+            <IoReference taskId={taskId} idx={idx}/>
         </div>
     );
 }

@@ -12,7 +12,6 @@
 .left > input {
     box-sizing: border-box;
     margin-left: 1em;
-    width: 5em;
 }
 
 /* buttons */
@@ -69,7 +68,7 @@
 
 .left > input {
     color: var(--light-txt-color);
-    background-color: transparent;
+    background-color: var(--white-color);
     border-radius: 5px;
     border: 1px solid var(--line-color);
 }
