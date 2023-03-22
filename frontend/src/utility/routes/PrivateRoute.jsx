@@ -4,7 +4,7 @@ import { Navigate, useNavigate } from 'react-router-dom';
 
 export default function PrivateRoute({ component }) {
     const isLogin = !!window.localStorage.getItem("name");
-    console.log(isLogin);
+    // console.log(isLogin);
     return (
         isLogin ? component : <Navigate replace to='/login'/>
     );

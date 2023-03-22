@@ -23,7 +23,7 @@ export default function Login() {
     const handleLogin = () => {
         axios.post(`/api/login?username=${name}`)
         .then(function(res) {
-            console.log(res);
+            // console.log(res);
         })
         .then(function(res) {
             window.localStorage.setItem('name', name);

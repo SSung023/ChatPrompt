@@ -25,7 +25,7 @@ export default function TextArea({ input, setInput, placeholder }) {
             className={styles.input} 
             onChange={(e) => setInput(e.target.value)}
             placeholder={placeholder}
-            value={input}
+            value={input ? input : ''}
             ref={textAreaRef}
         />
     );
