@@ -47,14 +47,14 @@ public class UserService {
      * Session 존재 X 시 강제 로그아웃 처리
      */
     public Long getUserIdFromRequest(HttpServletRequest request){
-//        HttpSession session = request.getSession(false);
-        HttpSession session = request.getSession();
+        HttpSession session = request.getSession(false);
+//        HttpSession session = request.getSession();
 
         // session이 존재하지 않는 경우
         if (session == null){
-            session.setAttribute(LOGIN_MEMBER_PK, 1);
-//            logoutUser(request);
-//            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+//            session.setAttribute(LOGIN_MEMBER_PK, 1);
+            logoutUser(request);
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
         }
 
         return (Long) session.getAttribute(LOGIN_MEMBER_PK);
