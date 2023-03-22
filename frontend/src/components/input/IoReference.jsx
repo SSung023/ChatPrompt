@@ -6,7 +6,7 @@ export default function IoReference({ idx }) {
     return (
         idx && <div className={styles.ioReference}>
             <div className={styles.header}>
-                <p className={styles.title}>* 예시</p>
+                <p className={styles.title}>* 참고자료</p>
                 <div className={styles.wrapper}>
                     <Table>
                         <TableBody>

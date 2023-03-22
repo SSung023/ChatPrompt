@@ -114,15 +114,15 @@ export default function EditIo() {
                 <Table>
                     <TableBody>
                         <TableRow>
-                            <TableHead>입력</TableHead>
+                            <TableHead>{`입력${idx}`}</TableHead>
                             <TableCell>
-                                <TextArea input={input} setInput={handleChangeInput} placeholder={`입력`}/>
+                                <TextArea input={input} setInput={handleChangeInput} placeholder={`입력을 작성하세요.`}/>
                             </TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableHead>출력</TableHead>
+                            <TableHead>{`출력${idx}`}</TableHead>
                             <TableCell>
-                                <TextArea input={output} setInput={handleChangeOutput} placeholder={`출력`}/>
+                                <TextArea input={output} setInput={handleChangeOutput} placeholder={`출력을 작성하세요.`}/>
                             </TableCell>
                         </TableRow>
                     </TableBody>
