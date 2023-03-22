@@ -27,9 +27,6 @@ public class Task {
 
     private String category; // Information Extraction
 
-    @Column(columnDefinition = "TEXT") // 지시문 -> 삭제 예정
-    private String instruction;
-
 
     @Column(columnDefinition = "TEXT")
     private String definition1; // definition1 : 지시문 원문(윤문)
@@ -42,13 +39,12 @@ public class Task {
 
 
     @Builder
-    public Task(int taskNum, String taskStr, String category, String instruction,
+    public Task(int taskNum, String taskStr, String category,
                 String definition1, String definition2,
                 String type, int totalIoNum, int numInputTokens) {
         this.taskNum = taskNum;
         this.taskStr = taskStr;
         this.category = category;
-        this.instruction = instruction;
         this.definition1 = definition1;
         this.definition2 = definition2;
         this.type = type;
@@ -56,10 +52,4 @@ public class Task {
         this.numInputTokens = numInputTokens;
     }
 
-
-
-    //== 비지니스 코드 ===//
-    public void updateDefinition(String newInstruction) {
-        this.instruction = newInstruction;
-    }
 }

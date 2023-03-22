@@ -95,27 +95,6 @@ public class TaskService {
     }
 
 
-    /**
-     * Task(1~120)의 지시문(definition_eng)의 등록(변경) 요청
-     * @param taskId 지시문을 변경하고자 하는 Task의 PK
-     * @param userId 지시문을 변경하고자 하는 사용자의 PK
-     * @param defRequest 변경하고자 하는 지시문의 내용
-     */
-    @Transactional
-    public TaskResponse updateDefinition(Long taskId, Long userId, DefRequest defRequest){
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-        Task task = taskRepository.findTaskByPK(taskId)
-                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-
-        if (userId == 1 || userId == 2 || userId == 3){
-            String newDefinition = defRequest.getNewDefinition();
-            task.updateDefinition(newDefinition);
-        }
-
-        return convertToTaskResponse(user, task);
-    }
-
 
 
 
