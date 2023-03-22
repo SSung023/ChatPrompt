@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
 import { SET_IO_TASKID, userContext } from '../../context/UserContext';
-import { UnformattedTaskId } from '../../utility/FormattedTaskId';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditIo.module.css';
@@ -13,7 +12,8 @@ export default function EditIo() {
 
     const taskId = context.state.data.io_taskId;
     const [taskNum, setTaskNum] = useState(taskId);
-    const [idx, setIdx] = useState(1);
+    const idx = context.state.data.io_idx;
+    const [taskIdx, setIdx] = useState(1);
 
     // state 관리
     const handleChangeInput = (value) => {
@@ -35,7 +35,8 @@ export default function EditIo() {
             context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
         })
     }
-    const save = async () => {
+    const save = async (e) => {
+        e.preventDefault();
         axios.patch(`/api/tasks/${taskNum}/assignment`, {
             input: `${input}`,
             output: `${output}`,
@@ -58,16 +59,23 @@ export default function EditIo() {
         })
     }
     const handlePressEnter = (e) => {
+        const id = e.target.id;
         if(e.key === "Enter"){
-            const value= e.target.value;
-            value >=1 && value <=120 && setTaskNum(value);
+            if(id === "task") {
+                const value= e.target.value;
+                value >=1 && value <=120 && setTaskNum(value);
+            }
+            else if(id === "idx") {
+                const value= e.target.value;
+                value >=1 && value <=120 && setIdx(value);
+            }
             load(e);
         }
     } 
 
     useEffect(() => {
         load();
-    }, [taskId]);
+    }, [taskId, idx]);
 
     return (
         <div className={styles.ioEdit}>
@@ -77,6 +85,7 @@ export default function EditIo() {
                 <label>task: </label>
                 <input 
                     type="number"
+                    id="task"
                     onChange={(e) => {
                         const value = e.target.value;
                         value >=1 && value <=120 && setTaskNum(parseInt(e.target.value))
@@ -90,13 +99,14 @@ export default function EditIo() {
                 <label>index: </label>
                 <input 
                     type="number"
+                    id="idx"
                     onChange={(e) => {
                         const value = e.target.value;
-                        value >=1 && value <=120 && setTaskNum(parseInt(e.target.value))
+                        value >=1 && value <=100 && setIdx(parseInt(e.target.value))
                     }}
-                    max="120"
+                    max="100"
                     min="1"
-                    value={taskNum}
+                    value={taskIdx}
                     onKeyDown={handlePressEnter}
                 />
             </div>
@@ -110,14 +120,16 @@ export default function EditIo() {
                             </TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableHead>입력</TableHead>
+                            <TableHead>출력</TableHead>
                             <TableCell>
                                 <TextArea input={output} setInput={handleChangeOutput} placeholder={`출력`}/>
                             </TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>
-                <button onClick={save} className={styles.button}>저장하고 다음으로 넘어가기</button>
+                <div className={styles.buttons}>
+                    <button onClick={save} className={styles.button}>저장하고 다음 페이지로 이동</button>
+                </div>
             </form>
         </div>
     );

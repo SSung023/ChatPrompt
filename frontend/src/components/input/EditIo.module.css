@@ -32,10 +32,16 @@
 }
 
 /* buttons */
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
 .button {
     box-sizing: border-box;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin: 1em 1em 2em 1em;
     border: none;
     border-radius: 5px;
     background-color: var(--btn-color);
