@@ -27,7 +27,7 @@ export default function EditIo() {
     const load = async (e) => {
         axios.get(`/api/tasks/${taskNum}/assignment/${taskIdx}`)
         .then(function(res) {
-            return res.data;
+            return res.data.data;
         })
         .then(function(data) {
             console.log("load:");
