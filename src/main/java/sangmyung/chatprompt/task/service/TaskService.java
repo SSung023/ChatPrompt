@@ -170,6 +170,10 @@ public class TaskService {
 
 
 
+
+
+
+
     // xml 파일을 promptDTO로 변환 후, Task&IOPairs 테이블에 정보 저장 : 매우 오래 걸리기 때문에 초기에 한 번만
     @Transactional
     public void parseXmlToTask(String path) throws JAXBException, IOException {

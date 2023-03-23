@@ -1,6 +1,7 @@
 package sangmyung.chatprompt.assignment.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
@@ -16,11 +17,14 @@ import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
+@Slf4j
 public class AssignmentService {
     private final TaskRepository taskRepository;
     private final AssignmentRepository assignRepository;
@@ -140,6 +144,56 @@ public class AssignmentService {
         return convertToAssignResponse(assignment);
     }
 
+    /**
+     * 특정 Task에서 사용자들이 작성한 유사지시문(총 10개)를 List로 반환
+     * @param taskId 사용자들이 작성한 유사지시문 쌍을 알고 싶은 Task PK
+     */
+    public List<SimilarInstructResponse> getTaskEverySimilar(Long taskId){
+        List<SimilarInstructResponse> assignmentList = new ArrayList<>();
+
+        // 작성한 유사지시문이 있다면 내용을 convert
+        List<Assignment> assignments = assignRepository.getAssignmentList(taskId);
+        for (Assignment assignment : assignments) {
+            assignmentList.add(convertToSimilar(assignment));
+        }
+
+        // 10개가 안될 때 더미 데이터로 채우기
+        int len = assignmentList.size();
+        if (len < 10) {
+            int remain = 10 - len;
+            for (int i = 0; i < remain; ++i){
+                assignmentList.add(SimilarInstructResponse.builder()
+                        .similarInstruct1("유사 지시문1이 아직 작성되지 않았습니다.")
+                        .similarInstruct2("유사 지시문2가 아직 작성되지 않았습니다.")
+                        .build());
+            }
+        }
+        return assignmentList;
+    }
+
+    /**
+     *
+     * @param taskId 입력한 입출력 쌍을 알고 싶은 Task의 PK
+     */
+    public List<AssignIOResponse> getIOPairList(Long taskId){
+        Task task = taskRepository.findTaskByPK(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        List<AssignIOResponse> ioList = new ArrayList<>();
+        List<Assignment> ioPairList = assignRepository.getIOPairList(taskId);
+        for (Assignment assignment : ioPairList) {
+            ioList.add(convertToAssignIOResponse(assignment));
+        }
+
+        int remain = task.getTotalIoNum() - ioPairList.size();
+        for (int i = 0; i < remain; ++i){
+            ioList.add(AssignIOResponse.builder()
+                            .input("입력이 아직 기입되지 않았습니다.")
+                            .output("출력이 아직 기입되지 않았습니다.")
+                    .build());
+        }
+        return ioList;
+    }
 
 
 
@@ -147,7 +201,12 @@ public class AssignmentService {
 
 
 
-
+    private AssignIOResponse convertToAssignIOResponse(Assignment assignment){
+        return AssignIOResponse.builder()
+                .input(assignment.getInput())
+                .output(assignment.getOutput())
+                .build();
+    }
     private AssignResponse convertToAssignResponse(Assignment assignment){
         return AssignResponse.builder()
                 .similarInstruct1(assignment.getSimilarInstruct1())

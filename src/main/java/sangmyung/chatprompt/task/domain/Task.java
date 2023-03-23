@@ -34,9 +34,8 @@ public class Task {
     private String definition2; // definition1 : 기계번역문
     private String type; // ex) example, instance
 
-    private int assignedTaskId; //
-    private int totalIoNum; //
-
+    private int assignedTaskId; // 웹 페이지에서 보여질 할당받은 번호
+    private int totalIoNum; // 연결된 입출력 쌍의 개수
 
     @Builder
     public Task(int taskNum, String taskStr, String category,
