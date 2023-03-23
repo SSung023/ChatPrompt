@@ -25,7 +25,7 @@ export default function Login() {
             return;
         }
         
-        axios.post(`/api/login?identifier=${identifier}&name=${annotator}`)
+        axios.post(`/api/login?identifier=${identifier}&username=${annotator}`)
         .then(function(res) {
             context.actions.contextDispatch({ type: SET_NAME, data: annotator });
             context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: res.data.data.taskStartIdx });

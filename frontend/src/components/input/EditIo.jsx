@@ -150,7 +150,7 @@ export default function EditIo() {
                     />
                 </form>
                 <p style={{ 
-                    color: `var(--light-txt-color)`, 
+                    color: `#e02b2b`, 
                     fontSize: `12px`, 
                     marginLeft: `1em`,
                     lineHeight: `1.5em`,    
