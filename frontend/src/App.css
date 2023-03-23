@@ -63,7 +63,7 @@
 :root{
   /* colors */
   --white-color: #FFFFFF;
-  --main-bg-color: #F9F9F9;
+  --main-bg-color: #fbfbfb;
   --grey-g-color: #BDDCC9;
 
   --txt-color: #222222;
@@ -78,7 +78,7 @@
 
   --btn-color: #9DDC6C;
 
-  --table-color: #F6FAF2;
+  --table-color: #eaeeec;
 
   /* adobe greens */
   --main-color: #58C23E;
@@ -128,6 +128,18 @@ p {
   width: 100%;
   height: 100%;
   padding: 2em 3em;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.root-wrapper{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width: 786px) {

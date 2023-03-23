@@ -86,29 +86,32 @@ export default function EditSimilarInst() {
     return (
         <>
             <div className={styles.wrapper}>
-                <div className={styles.left}>
+                <div className={styles.header}>
                     <p className={styles.title}>* 다음 유사 지시문 2개를 작성하시오.</p>
-                    <label>task: </label>
-                    <input 
-                        type="number"
-                        onChange={(e) => {
-                            const value = e.target.value;
-                            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                        }}
-                        max="120"
-                        min="1"
-                        value={taskNum}
-                        onKeyDown={handlePressEnter}
-                        onBlur={handleOnBlur}
-                    />
-                    <p style={{ 
-                        color: `#e02b2b`, 
-                        fontSize: `12px`, 
-                        marginLeft: `1em`,
-                        lineHeight: `1.5em`,
-                    }}>
-                        ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                    </p>
+                    <form>
+                        <label>task: </label>
+                        <input 
+                            type="number"
+                            onChange={(e) => {
+                                const value = e.target.value;
+                                value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
+                            }}
+                            max="120"
+                            min="1"
+                            value={taskNum}
+                            onKeyDown={handlePressEnter}
+                            onBlur={handleOnBlur}
+                        />
+                        <span style={{ 
+                            color: `#e02b2b`, 
+                            fontSize: `12px`, 
+                            marginLeft: `1em`,
+                            lineHeight: `1.5em`,
+                        }}>
+                            ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
+                        </span>
+                    </form>
+                    
                 </div>
             </div>
             <div className={styles.edit}>

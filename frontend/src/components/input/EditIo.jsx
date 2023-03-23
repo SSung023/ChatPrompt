@@ -148,15 +148,15 @@ export default function EditIo() {
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
                     />
+                    <span style={{
+                        color: `#e02b2b`,
+                        fontSize: `12px`,
+                        marginLeft: `1em`,
+                        lineHeight: `1.5em`,
+                    }}>
+                        ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
+                    </span>
                 </form>
-                <p style={{ 
-                    color: `#e02b2b`, 
-                    fontSize: `12px`, 
-                    marginLeft: `1em`,
-                    lineHeight: `1.5em`,    
-                }}>
-                    ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                </p>
             </div>
 
             {/* io input form */}

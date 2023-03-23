@@ -4,14 +4,10 @@
     justify-content: space-between;
 }
 
-.left {
+.header {
     display: flex;
-    align-items: flex-start;
-}
-
-.left > input {
-    box-sizing: border-box;
-    margin-left: 1em;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* buttons */
@@ -56,24 +52,30 @@
     color: var(--txt-color);
     font-size: 1em;
     margin: 0;
-    margin-bottom: 1em;
 }
 
 /* taskNum input */
-.left > label {
+.header > form {
+    margin: 1em 0;
+}
+
+.header > form > label {
     font-size: 1em;
     margin-left: 1em;
     color: var(--main-color);
 }
 
-.left > input {
+.header > form > input {
+    box-sizing: border-box;
+    margin-left: 1em;
+
     color: var(--light-txt-color);
     background-color: var(--white-color);
     border-radius: 5px;
     border: 1px solid var(--line-color);
 }
 
-.left > input:focus {
+.header > form > input:focus {
     outline: none;
 }
 
