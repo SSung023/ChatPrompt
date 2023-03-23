@@ -9,11 +9,11 @@ export const SET_TASKNAME = 'user/SET_TASKNAME';
 export const userContext = createContext();
 
 const initData = {
-    name: '박소영',
+    name: '',
     inst_taskId: 1,
     io_taskId: 1,
     io_idx: 1,
-    taskName: '지시문',
+    taskName: '',
 }
 
 const userReducer = (state, action) => {
