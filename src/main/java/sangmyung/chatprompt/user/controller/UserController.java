@@ -23,21 +23,21 @@ import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
 @Slf4j
 public class UserController {
     private final UserService userService;
-    private final TaskService taskService;
 
 
 
     /**
      * 특정 사용자 선택과 함께, 사용자가 마지막으로 수정한 Task의 PK를 반환
      * @param identifier 사용자의 구분자(A~)
-     * /api/login?username=홍길동
+     * /api/login?username=홍길동&identifier=A
      */
     @PostMapping("/login")
-    public SingleResponse<UserResponse> userLogin(HttpServletRequest request, @RequestParam String identifier){
+    public SingleResponse<UserResponse> userLogin(HttpServletRequest request,
+                                                  @RequestParam String username, @RequestParam String identifier){
         // 세션 생성
         HttpSession session = request.getSession();
 
-        User user = userService.findUserByIdentifier(identifier);
+        User user = userService.findRegisteredUser(username, identifier);
         UserResponse userResponse = UserResponse.builder()
                 .lastModifiedTaskNum(user.getLastTaskNum())
                 .taskStartIdx(user.getTaskStartIdx())
