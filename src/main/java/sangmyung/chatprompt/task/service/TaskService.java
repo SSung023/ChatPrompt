@@ -234,6 +234,7 @@ public class TaskService {
     private TaskResponse convertToTaskResponse(User user, Task task){
         return TaskResponse.builder()
                 .taskId(task.getId())
+                .taskTitle(task.getTaskStr())
                 .definition1(task.getDefinition1())
                 .definition2(task.getDefinition2())
                 .hasNext(checkHasNext(user, task.getId()))

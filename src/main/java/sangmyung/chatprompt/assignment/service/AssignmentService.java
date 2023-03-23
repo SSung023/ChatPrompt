@@ -178,6 +178,8 @@ public class AssignmentService {
         }
 
         return TaskResponse.builder()
+                .taskId(task.getId())
+                .taskTitle(task.getTaskStr())
                 .definition1(def1)
                 .definition2(def2)
                 .build();
