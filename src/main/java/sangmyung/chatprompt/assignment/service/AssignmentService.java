@@ -164,13 +164,13 @@ public class AssignmentService {
     }
     private TaskResponse convertToDefinition(Assignment assignment, Task task){
         String def1, def2;
-        if (assignment.getSimilarInstruct1() == null){
+        if (assignment.getSimilarInstruct1() == null || assignment.getSimilarInstruct1().equals("")){
             def1 = task.getDefinition1();
         }
         else {
             def1 = assignment.getSimilarInstruct1();
         }
-        if (assignment.getSimilarInstruct2() == null){
+        if (assignment.getSimilarInstruct2() == null || assignment.getSimilarInstruct2().equals("")){
             def2 = task.getDefinition2();
         }
         else {
