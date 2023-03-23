@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SET_NAME, userContext } from '../context/UserContext';
+import { SET_FIRST_IO_IDX, SET_LAST_IO_IDX, SET_NAME, userContext } from '../context/UserContext';
 import styles from './Login.module.css';
 
 export default function Login() {
@@ -22,6 +22,7 @@ export default function Login() {
     const navigate = useNavigate();
     const handleLogin = (e) => {
         e.preventDefault();
+        console.log("A".charCodeAt());
         if(!annotator){
             alert('이름을 입력하세요.');
             return;
@@ -30,20 +31,20 @@ export default function Login() {
             alert('이름을 확인해주세요.');
             return;
         }
-        if(writers.indexOf(annotator) !== parseInt(identifier)){
+        if(writers.indexOf(annotator) !== (identifier.charCodeAt()-65)){
             alert('아이디를 확인해주세요.');
             return;
         }
         
-        axios.post(`/api/login?username=${annotator}`)
+        axios.post(`/api/login?identifier=${identifier}`)
         .then(function(res) {
-            context.actions.contextDispatch({ type: SET_NAME, data: annotator })
+            context.actions.contextDispatch({ type: SET_NAME, data: annotator });
+            context.actions.contextDispatch({ type: SET_FIRST_IO_IDX, data: res.data.data.taskStartIdx });
+            context.actions.contextDispatch({ type: SET_LAST_IO_IDX, data: res.data.data.taskEndIdx });
             return res;
         })
         .then(function(res) {
             window.localStorage.setItem('name', annotator);
-            // window.localStorage.setItem('identifier', identifier);
-            // console.log(res.data);
             navigate('/');
         })
         .catch(function(err) {
