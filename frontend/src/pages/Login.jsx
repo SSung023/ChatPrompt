@@ -33,7 +33,7 @@ export default function Login() {
             context.actions.contextDispatch({ type: SET_LAST_TASKID, data: res.data.data.taskEndIdx });
         })
         .then(function() {
-            window.localStorage.setItem('name', annotator);
+            window.localStorage.setItem('prompt-login', true);
             navigate('/');
         })
         .catch(function(err) {

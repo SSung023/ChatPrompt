@@ -42,7 +42,7 @@ export default function EditIo() {
         })
         .catch(function(err) {
             if(err.response.status === 400){
-                window.localStorage.removeItem("name");
+                window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
         })

@@ -9,7 +9,7 @@ export default function Navigation() {
     const handleLogout = () => {
         axios.post('/api/logout')
         .then(function(res) {
-            window.localStorage.removeItem('name');
+            window.localStorage.removeItem('prompt-login');
             navigate('/login');
         })
         .catch(function (err) {
