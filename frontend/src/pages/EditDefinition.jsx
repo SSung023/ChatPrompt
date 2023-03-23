@@ -17,7 +17,10 @@ export default function EditDefinition() {
             setDef(res.data.data);
         })
         .catch(function(err) {
-            console.log(err);
+            if(err.response.status === 400){
+                window.localStorage.removeItem("name");
+                window.location.replace(window.location.href);
+            }
         })
     }, [taskId]);
 
