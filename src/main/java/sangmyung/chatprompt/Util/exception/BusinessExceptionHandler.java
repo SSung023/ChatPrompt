@@ -26,9 +26,6 @@ public class BusinessExceptionHandler {
 
         return ResponseEntity.badRequest()
                 .body(new CommonResponse(e.getStatus(), e.getMessage()));
-//        return new CommonResponse(e.getStatus(), e.getMessage());
-//        return ResponseEntity.badRequest().body(new CommonResponse(e.getStatus(), e.getMessage()));
-//        return responseService.failResult(e.getMessage());
     }
 }
 

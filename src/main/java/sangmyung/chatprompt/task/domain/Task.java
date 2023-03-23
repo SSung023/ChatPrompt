@@ -34,22 +34,22 @@ public class Task {
     private String definition2; // definition1 : 기계번역문
     private String type; // ex) example, instance
 
-    private int totalIoNum; // IOPair 쌍의 최대 수 -> 1~ 33(102)
-    private int numInputTokens;
+    private int assignedTaskId; //
+    private int totalIoNum; //
 
 
     @Builder
     public Task(int taskNum, String taskStr, String category,
                 String definition1, String definition2,
-                String type, int totalIoNum, int numInputTokens) {
+                String type, int assignedTaskId, int totalIoNum) {
         this.taskNum = taskNum;
         this.taskStr = taskStr;
         this.category = category;
         this.definition1 = definition1;
         this.definition2 = definition2;
         this.type = type;
+        this.assignedTaskId = assignedTaskId;
         this.totalIoNum = totalIoNum;
-        this.numInputTokens = numInputTokens;
     }
 
 }

@@ -26,7 +26,7 @@ public enum ErrorCode {
 
 	// 404 NOT_FOUND 잘못된 리소스 접근
 	, DATA_ERROR_NOT_FOUND(HttpStatus.NOT_FOUND, "해당 데이터를 찾을 수 없습니다.")
-	, MEMBER_NOT_FOUND(HttpStatus.NOT_FOUND, "로그인 정보를 찾을 수 없습니다.")
+	, MEMBER_NOT_FOUND(HttpStatus.NOT_FOUND, "사용자 정보를 찾을 수 없습니다.")
 
 	// 406 NOT_ACCEPTED?
 	, ACCESS_DENIED(HttpStatus.NOT_ACCEPTABLE,"접근이 거부되었습니다.")

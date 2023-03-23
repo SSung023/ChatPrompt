@@ -194,7 +194,6 @@ public class TaskService {
                         .definition1(engDTO.getDefinition())
                         .definition2(korDTO.getDefinition())
                         .type(engDTO.getType())
-                        .numInputTokens(engDTO.getInputToken())
                         .build();
                 task = taskRepository.save(task);
             }
