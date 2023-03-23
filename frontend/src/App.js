@@ -2,7 +2,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Root from './pages/Root';
-import EditDefinition from './pages/EditDefinition';
+import EditInst from './pages/EditInst';
 import EditInput from './pages/EditInput';
 import Login from './pages/Login';
 import PrivateRoute from './utility/routes/PrivateRoute';
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <PrivateRoute component={<Root />}/>,
     // element: <Root />,
     children: [
-      { index: true, element: <EditDefinition /> } ,
+      { index: true, element: <EditInst /> } ,
       { path: '/input', element: <EditInput />},
     ]
   }

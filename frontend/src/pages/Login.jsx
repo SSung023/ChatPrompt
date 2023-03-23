@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SET_FIRST_IO_IDX, SET_LAST_IO_IDX, SET_NAME, userContext } from '../context/UserContext';
+import { SET_FIRST_TASKID, SET_LAST_TASKID, SET_NAME, userContext } from '../context/UserContext';
 import styles from './Login.module.css';
 
 export default function Login() {
@@ -15,7 +15,7 @@ export default function Login() {
 
     const [identifier, setIdentifier] = useState('A');
     const [annotator, setAnnotator] = useState('');
-    const writers = ["박소영", "김다은", "성희연", "홍길동", "권경란"];
+    const writers = ["박소영", "김다은", "홍길동", "권경란"];
     const context = useContext(userContext);
     // const name = context.state.data.name;
 
@@ -39,11 +39,10 @@ export default function Login() {
         axios.post(`/api/login?identifier=${identifier}`)
         .then(function(res) {
             context.actions.contextDispatch({ type: SET_NAME, data: annotator });
-            context.actions.contextDispatch({ type: SET_FIRST_IO_IDX, data: res.data.data.taskStartIdx });
-            context.actions.contextDispatch({ type: SET_LAST_IO_IDX, data: res.data.data.taskEndIdx });
-            return res;
+            context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: res.data.data.taskStartIdx });
+            context.actions.contextDispatch({ type: SET_LAST_TASKID, data: res.data.data.taskEndIdx });
         })
-        .then(function(res) {
+        .then(function() {
             window.localStorage.setItem('name', annotator);
             navigate('/');
         })
@@ -74,7 +73,6 @@ export default function Login() {
                         <option value={'D'}>D</option>
                         <option value={'E'}>E</option>
                         <option value={'F'}>F</option>
-                        <option value={'G'}>G</option>
                     </select>
 
                     <label>Name:</label>

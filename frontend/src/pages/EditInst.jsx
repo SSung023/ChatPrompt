@@ -1,12 +1,12 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
 import Directive from '../components/definition/Directive';
-import EditDirective from '../components/definition/EditDirective';
+import EditSimilarInst from '../components/definition/EditSimilarInst';
 import References from '../components/definition/References';
 import CurrentFile from '../components/ui/CurrentFile';
 import { userContext } from '../context/UserContext';
 
-export default function EditDefinition() {
+export default function EditInst() {
     const context = useContext(userContext);
     const taskId = context.state.data.inst_taskId;
     const [defData, setDef] = useState();
@@ -33,7 +33,7 @@ export default function EditDefinition() {
         <div className='body'>
             <CurrentFile ptaskName='지시문' taskId={taskId}/>
             <Directive data={defData}/>
-            <EditDirective />
+            <EditSimilarInst />
             <References taskId={taskId}/>
         </div>
     );

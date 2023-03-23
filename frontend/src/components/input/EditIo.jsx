@@ -10,9 +10,14 @@ export default function EditIo() {
     const [input, setInput] = useState('');
     const [output, setOutput]= useState('');
 
+    // store 정보
     const taskId = context.state.data.io_taskId;
-    const [taskNum, setTaskNum] = useState(taskId);
+    const first_taskId = context.state.data.first_taskId;
+    const last_taskId = context.state.data.last_taskId;
     const idx = context.state.data.io_idx;
+
+    // 내부 관리용
+    const [taskNum, setTaskNum] = useState(taskId);
     const [taskIdx, setIdx] = useState(1);
 
     // state 관리
@@ -75,7 +80,7 @@ export default function EditIo() {
         if(e.key === "Enter"){
             if(id === "task") {
                 const value= e.target.value;
-                value >=1 && value <=120 && setTaskNum(value);
+                value >= first_taskId && value <= last_taskId && setTaskNum(value);
                 context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
                 load(e);
@@ -93,11 +98,11 @@ export default function EditIo() {
         const id = e.target.id;
         if(id === "task") {
             const value= e.target.value;
-            value >=1 && value <=120 && setTaskNum(value);
+            value >= first_taskId && value <= last_taskId && setTaskNum(value);
         }
         else if(id === "idx") {
             const value= e.target.value;
-            value >=1 && value <=100 && setIdx(value);
+            value >= 1 && value <= 100 && setIdx(value);
         }
     }
 
@@ -120,7 +125,7 @@ export default function EditIo() {
                         id="task"
                         onChange={(e) => {
                             const value = e.target.value;
-                            value >=1 && value <=120 && setTaskNum(parseInt(e.target.value))
+                            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
                         }}
                         max="120"
                         min="1"
