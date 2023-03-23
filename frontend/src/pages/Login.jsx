@@ -20,13 +20,12 @@ export default function Login() {
     const navigate = useNavigate();
     const handleLogin = (e) => {
         e.preventDefault();
-        console.log("A".charCodeAt());
         if(!annotator){
             alert('이름을 입력하세요.');
             return;
         }
         
-        axios.post(`/api/login?identifier=${identifier}/name=${annotator}`)
+        axios.post(`/api/login?identifier=${identifier}&name=${annotator}`)
         .then(function(res) {
             context.actions.contextDispatch({ type: SET_NAME, data: annotator });
             context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: res.data.data.taskStartIdx });
