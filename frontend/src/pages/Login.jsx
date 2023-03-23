@@ -36,10 +36,11 @@ export default function Login() {
         }
         
         axios.post(`/api/login?username=${annotator}`)
-        .then(function() {
+        .then(function(res) {
             context.actions.contextDispatch({ type: SET_NAME, data: annotator })
+            return res;
         })
-        .then(function() {
+        .then(function(res) {
             window.localStorage.setItem('name', annotator);
             navigate('/');
         })
