@@ -34,7 +34,6 @@ export default function EditIo() {
             console.log(data);
             setInput(data.input);
             setOutput(data.output);
-            // context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
         })
     }
     // 제출
@@ -51,10 +50,8 @@ export default function EditIo() {
                 setInput('');
                 setOutput('');
                 // 다음 index로 state 초기화
-                // context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskNum)+1)});
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(taskIdx)+1)});
                 // taskIdx 상승
-                // setTaskNum(prev => parseInt(prev) + 1);
                 setIdx(prev => parseInt(prev) + 1);
             }
             else if(taskIdx >= 100){
@@ -91,13 +88,10 @@ export default function EditIo() {
         if(id === "task") {
             const value= e.target.value;
             value >=1 && value <=120 && setTaskNum(value);
-            // context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
-            // load(e);
         }
         else if(id === "idx") {
             const value= e.target.value;
             value >=1 && value <=100 && setIdx(value);
-            // context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
         }
     }
 
@@ -135,7 +129,7 @@ export default function EditIo() {
                         id="idx"
                         onChange={(e) => {
                             const value = e.target.value;
-                            value >=1 && value <=100 && setIdx(parseInt(e.target.value))
+                            value >=1 && value <=100 && setIdx(parseInt(e.target.value));
                         }}
                         max="100"
                         min="1"
@@ -144,6 +138,14 @@ export default function EditIo() {
                         onBlur={handleOnBlur}
                     />
                 </form>
+                <p style={{ 
+                    color: `var(--light-txt-color)`, 
+                    fontSize: `12px`, 
+                    marginLeft: `1em`,
+                    lineHeight: `1.5em`,    
+                }}>
+                    ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
+                </p>
             </div>
 
             {/* io input form */}
@@ -165,7 +167,7 @@ export default function EditIo() {
                     </TableBody>
                 </Table>
                 <div className={styles.buttons}>
-                    <button onClick={saveIo} className={styles.button}>저장하고 다음 페이지로 이동</button>
+                    <button onClick={saveIo} className={styles.button}>저장하고 다음으로 이동</button>
                 </div>
             </form>
         </div>
