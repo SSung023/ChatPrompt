@@ -89,14 +89,6 @@ public class TaskService {
         return convertToTaskResponse(user, task);
     }
 
-    /**
-     * 사용자가 마지막으로 수정한 Task의 PK를 반환
-     * @param user 사용자
-     */
-    public Long getLastModifiedTaskId(User user){
-        return user.getLastTaskNum();
-    }
-
 
     /**
      * 특정 Task의 특정 입출력 쌍을 반환

@@ -34,7 +34,13 @@ public class UserService {
 
     // username(실명)을 통해 User 찾은 후 반환
     public User findUserByUserName(String username){
-        return userRepository.findUserByName(username);
+        return userRepository.findUserByName(username)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+    }
+
+    public User findUserByIdentifier(String identifier){
+        return userRepository.findUserByIdentifier(identifier)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
     }
 
     // 현재 등록되어 있는 모든 사용자들을 반환
