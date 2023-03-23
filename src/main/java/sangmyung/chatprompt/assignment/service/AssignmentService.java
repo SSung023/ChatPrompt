@@ -26,6 +26,9 @@ public class AssignmentService {
     private final AssignmentRepository assignRepository;
 
 
+
+
+
     /**
      * 교수님이 작성한 Assignment의 내용을 받아서 지시문(윤문)&기계번역문에 내용을 넣어서 반환
      * 상단에 위치할 지시문&기계번역문에 대한 내용을 반환
@@ -116,20 +119,23 @@ public class AssignmentService {
         // 존재하지 않았던 경우 -> Assignment 객체 새로 생성
         // 이렇게 하면 버그있을거 같은데..? Entity 만들고 값 채우고 저장하고 값 전달해야하지 않을까?
         if (optional.isEmpty()){
-            return AssignResponse.builder()
+            Assignment assignment = Assignment.builder()
+                    .taskId(taskId)
                     .similarInstruct1(null)
                     .similarInstruct2(null)
                     .input(null).output(null)
                     .build();
 
+            Assignment savedAssignment = assignRepository.save(assignment);
+            savedAssignment.updateSimilarInstruct(assignRequest);
+            savedAssignment.addUser(user);
+
+            return convertToAssignResponse(savedAssignment);
         }
 
         // Assignment가 존재했던 경우
         Assignment assignment = optional.get();
-
-        // 현재 둘 중 한 쪽만 업데이트하면 다른 한 쪽이 사라지는 버그 존재 -> 수정 필요
-        assignment.updateSimilarInstruct(assignRequest.getSimilarInstruct1(), assignRequest.getSimilarInstruct2());
-//        assignment.updateIO(assignRequest.getInput(), assignRequest.getOutput());
+        assignment.updateSimilarInstruct(assignRequest);
 
         return convertToAssignResponse(assignment);
     }

@@ -4,10 +4,13 @@ package sangmyung.chatprompt.assignment.domain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.task.domain.IOPairs;
+import sangmyung.chatprompt.task.domain.Task;
 import sangmyung.chatprompt.user.domain.User;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
 @Getter
@@ -66,9 +69,18 @@ public class Assignment {
 
     //=== 비지니스 코드 ===//
     // 유사 지시문1 & 2 갱신
-    public void updateSimilarInstruct(String similarInstruct1, String similarInstruct2){
-        this.similarInstruct1 = similarInstruct1;
-        this.similarInstruct2 = similarInstruct2;
+    public void updateSimilarInstruct(AssignRequest assignRequest){
+        if (assignRequest.getSimilarInstruct1() != null){
+            if (!assignRequest.getSimilarInstruct1().equals("null")){
+                this.similarInstruct1 = assignRequest.getSimilarInstruct1();
+            }
+        }
+        // 갱신조건: null이 아닐 때, "null"이 아닐 때
+        if (assignRequest.getSimilarInstruct2() != null) {
+            if (!assignRequest.getSimilarInstruct2().equals("null")){
+                this.similarInstruct2 = assignRequest.getSimilarInstruct2();
+            }
+        }
     }
 
     // 입력 & 출력 갱신
