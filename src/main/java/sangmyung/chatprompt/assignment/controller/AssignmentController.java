@@ -3,6 +3,8 @@ package sangmyung.chatprompt.assignment.controller;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
+import sangmyung.chatprompt.Util.exception.BusinessException;
+import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.assignment.dto.*;
@@ -31,7 +33,10 @@ public class AssignmentController {
     public SingleResponse<AssignResponse> getTasksAssignment(HttpServletRequest request, @PathVariable Long taskId){
 
         // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         User user = userService.findUserById(userId);
         AssignResponse assignResponse = assignmentService.getWrittenAssignment(user, taskId);
@@ -48,7 +53,10 @@ public class AssignmentController {
     public SingleResponse<AssignResponse> updateTasksAssignment (HttpServletRequest request,
                                                                  @PathVariable Long taskId, @RequestBody AssignRequest assignRequest){
         // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         User user = userService.findUserById(userId);
         AssignResponse assignResponse = assignmentService.updateAssignmentContent(user, taskId, assignRequest);
@@ -65,7 +73,10 @@ public class AssignmentController {
     public SingleResponse<AssignIOResponse> updateTaskIOAssignment(HttpServletRequest request, @PathVariable Long taskId,
                                                                    @PathVariable int ioIndex, @RequestBody AssignIORequest assignIORequest){
         // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         AssignIOResponse assignIOResponse = taskService.updateIOAssignmentContent(userId, taskId, ioIndex, assignIORequest);
 
@@ -81,7 +92,10 @@ public class AssignmentController {
     public SingleResponse<AssignIOResponse> getTaskIOAssignment(HttpServletRequest request,
                                                                 @PathVariable Long taskId, @PathVariable int ioIndex){
         // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         AssignIOResponse assignIOResponse = taskService.getWrittenIOAssignContent(userId, taskId, ioIndex);
 
@@ -98,7 +112,10 @@ public class AssignmentController {
     @GetMapping("/tasks/{taskId}/assignment-similar")
     public SingleResponse<SimilarInstructResponse> getSimilarInstruct(HttpServletRequest request, @PathVariable Long taskId){
         // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         User user = userService.findUserById(userId);
         SimilarInstructResponse similarInstructs = assignmentService.getWrittenSimilar(user, taskId);
