@@ -15,7 +15,7 @@ export default function CurrentFile({ ptaskName }) {
     
     return (
         <div className={styles.wrapper}>
-            <p className={styles.p}>Current File is: </p>
+            <p className={styles.p}>태스크 :</p>
             <div className={styles.currentFile}>
                 {/* 전체를 taskname으로 바꾸기 */}
                 <p>{`${taskName}`}</p>
