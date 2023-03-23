@@ -13,7 +13,7 @@ export default function Login() {
         justifyContent: `center`,
     }
 
-    const [identifier, setIdentifier] = useState(0);
+    const [identifier, setIdentifier] = useState('A');
     const [annotator, setAnnotator] = useState('');
     const writers = ["박소영", "김다은", "성희연", "홍길동", "권경란"];
     const context = useContext(userContext);
@@ -42,6 +42,8 @@ export default function Login() {
         })
         .then(function(res) {
             window.localStorage.setItem('name', annotator);
+            // window.localStorage.setItem('identifier', identifier);
+            // console.log(res.data);
             navigate('/');
         })
         .catch(function(err) {
@@ -65,13 +67,13 @@ export default function Login() {
                         }}
                         value={identifier}
                     >
-                        <option value={0} defaultValue>A</option>
-                        <option value={1}>B</option>
-                        <option value={2}>C</option>
-                        <option value={3}>D</option>
-                        <option value={4}>E</option>
-                        <option value={5}>F</option>
-                        <option value={6}>G</option>
+                        <option value={'A'} defaultValue>A</option>
+                        <option value={'B'}>B</option>
+                        <option value={'C'}>C</option>
+                        <option value={'D'}>D</option>
+                        <option value={'E'}>E</option>
+                        <option value={'F'}>F</option>
+                        <option value={'G'}>G</option>
                     </select>
 
                     <label>Name:</label>

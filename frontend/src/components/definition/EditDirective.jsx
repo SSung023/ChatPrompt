@@ -51,6 +51,11 @@ export default function EditDirective() {
             setInput2(data.similarInstruct2);
             context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
         })
+        .catch(function(err) {
+            if(err.response.status === 400){
+                window.localStorage.removeItem("name");
+            }
+        })
     }
     const handleSaveAndLoad = (e) => {
         // console.log(`taskId: ${taskId}, taskNum: ${taskNum}`);

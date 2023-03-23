@@ -35,6 +35,11 @@ export default function EditIo() {
             setInput(data.input);
             setOutput(data.output);
         })
+        .catch(function(err) {
+            if(err.response.status === 400){
+                window.localStorage.removeItem("name");
+            }
+        })
     }
     // 제출
     const saveIo = async (e) => {
