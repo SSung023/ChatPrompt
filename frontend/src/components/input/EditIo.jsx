@@ -38,7 +38,7 @@ export default function EditIo() {
         })
     }
     // 제출
-    const save = async (e) => {
+    const saveIo = async (e) => {
         e.preventDefault();
         axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
             input: `${input}`,
@@ -50,10 +50,10 @@ export default function EditIo() {
             if(taskIdx < 100){
                 setInput('');
                 setOutput('');
-                // 다음 task로 state 초기화
+                // 다음 index로 state 초기화
                 // context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskNum)+1)});
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(taskIdx)+1)});
-                // taskNum 상승
+                // taskIdx 상승
                 // setTaskNum(prev => parseInt(prev) + 1);
                 setIdx(prev => parseInt(prev) + 1);
             }
@@ -82,6 +82,7 @@ export default function EditIo() {
                 value >=1 && value <=100 && setIdx(value);
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
                 context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
+                load(e);
             }
         }
     }
@@ -164,7 +165,7 @@ export default function EditIo() {
                     </TableBody>
                 </Table>
                 <div className={styles.buttons}>
-                    <button onClick={save} className={styles.button}>저장하고 다음 페이지로 이동</button>
+                    <button onClick={saveIo} className={styles.button}>저장하고 다음 페이지로 이동</button>
                 </div>
             </form>
         </div>
