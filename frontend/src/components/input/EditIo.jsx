@@ -25,9 +25,9 @@ export default function EditIo() {
 
     // 입출력 입력칸에 불러오기
     const load = async (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment`)
+        axios.get(`/api/tasks/${taskNum}/assignment/${taskIdx}`)
         .then(function(res) {
-            return res.data.data;
+            return res.data;
         })
         .then(function(data) {
             console.log("load:");
@@ -40,23 +40,25 @@ export default function EditIo() {
     // 제출
     const save = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
         })
         .then(function(res) {
             console.log('result:');
             console.log(res);
-            if(taskNum < 120){
+            if(taskIdx < 100){
                 setInput('');
                 setOutput('');
                 // 다음 task로 state 초기화
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskNum)+1)});
+                // context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskNum)+1)});
+                context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(taskIdx)+1)});
                 // taskNum 상승
-                setTaskNum(prev => parseInt(prev) + 1);
+                // setTaskNum(prev => parseInt(prev) + 1);
+                setIdx(prev => parseInt(prev) + 1);
             }
-            else if(taskNum >=120){
-                alert('마지막 태스크입니다!');
+            else if(taskIdx >= 100){
+                alert('마지막 인덱스입니다!');
             }
         })
         .catch(function(err) {
