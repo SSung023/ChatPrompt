@@ -9,6 +9,7 @@ import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.task.service.TaskService;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.dto.UserRequest;
+import sangmyung.chatprompt.user.dto.UserResponse;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
@@ -28,21 +29,25 @@ public class UserController {
 
     /**
      * 특정 사용자 선택과 함께, 사용자가 마지막으로 수정한 Task의 PK를 반환
-     * @param username 사용자의 실명
+     * @param identifier 사용자의 구분자(A~)
      * /api/login?username=홍길동
      */
     @PostMapping("/login")
-    public SingleResponse<Long> userLogin(HttpServletRequest request, @RequestParam String username){
+    public SingleResponse<UserResponse> userLogin(HttpServletRequest request, @RequestParam String identifier){
         // 세션 생성
         HttpSession session = request.getSession();
 
-        User user = userService.findUserByUserName(username);
-        Long lastModifiedTaskId = taskService.getLastModifiedTaskId(user);
+        User user = userService.findUserByIdentifier(identifier);
+        UserResponse userResponse = UserResponse.builder()
+                .lastModifiedTaskNum(user.getLastTaskNum())
+                .taskStartIdx(user.getTaskStartIdx())
+                .taskEndIdx(user.getTaskEndIdx())
+                .build();
 
         // session에 User의 정보(PK)를 담아서 전달 -> 사용자 파악에 사용
         session.setAttribute(LOGIN_MEMBER_PK, user.getId());
 
-        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), lastModifiedTaskId);
+        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), userResponse);
     }
 
     @PostMapping("/logout")

@@ -2,7 +2,6 @@ import axios from 'axios';
 import React from 'react';
 import { TbPrompt, TbEdit } from 'react-icons/tb';
 import { NavLink, useNavigate } from 'react-router-dom';
-import SelectBox from '../ui/selectbox/SelectBox';
 import styles from './Navigation.module.css';
 
 export default function Navigation() {

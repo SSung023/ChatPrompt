@@ -11,6 +11,7 @@ import sangmyung.chatprompt.user.repository.UserRepository;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
@@ -33,7 +34,13 @@ public class UserService {
 
     // username(실명)을 통해 User 찾은 후 반환
     public User findUserByUserName(String username){
-        return userRepository.findUserByName(username);
+        return userRepository.findUserByName(username)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+    }
+
+    public User findUserByIdentifier(String identifier){
+        return userRepository.findUserByIdentifier(identifier)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
     }
 
     // 현재 등록되어 있는 모든 사용자들을 반환
@@ -46,15 +53,13 @@ public class UserService {
      * HttpSession에서 정보를 추출해서 UserId(PK)를 추출
      * Session 존재 X 시 강제 로그아웃 처리
      */
-    public Long getUserIdFromRequest(HttpServletRequest request){
-//        HttpSession session = request.getSession(false);
-        HttpSession session = request.getSession();
+    public Long getUserIdFromSession(HttpServletRequest request){
+        HttpSession session = request.getSession(false);
 
         // session이 존재하지 않는 경우
         if (session == null){
-            session.setAttribute(LOGIN_MEMBER_PK, 1);
-//            logoutUser(request);
-//            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+            logoutUser(request);
+            return 0L;
         }
 
         return (Long) session.getAttribute(LOGIN_MEMBER_PK);

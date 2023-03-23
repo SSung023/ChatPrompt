@@ -3,6 +3,7 @@ package sangmyung.chatprompt.Util.exception;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import sangmyung.chatprompt.Util.response.dto.CommonResponse;
@@ -19,11 +20,13 @@ public class BusinessExceptionHandler {
     private final ResponseService responseService;
 
     @ExceptionHandler(BusinessException.class)
-    protected CommonResponse globalBusinessExceptionHandler(BusinessException e) {
+    protected ResponseEntity<CommonResponse> globalBusinessExceptionHandler(BusinessException e) {
         log.info("[Error]" + e.getMessage());
 
 
-        return new CommonResponse(e.getStatus(), e.getMessage());
+        return ResponseEntity.badRequest()
+                .body(new CommonResponse(e.getStatus(), e.getMessage()));
+//        return new CommonResponse(e.getStatus(), e.getMessage());
 //        return ResponseEntity.badRequest().body(new CommonResponse(e.getStatus(), e.getMessage()));
 //        return responseService.failResult(e.getMessage());
     }

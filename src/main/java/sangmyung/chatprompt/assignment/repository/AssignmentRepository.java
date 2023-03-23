@@ -10,7 +10,7 @@ import java.util.Optional;
 public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
 
     // userId, taskId를 통해 작성한 Assignment를 반환 -> 유사지시문1,2
-    @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId")
+    @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.ioPairs.id = null")
     Optional<Assignment> getAssignment(@Param("userId") Long userId, @Param("taskId") Long taskId);
 
     // userId, taskId, ioIndex를 통해 작성한 입출력 정보(Assignment)를 반환 -> 입출력 작성

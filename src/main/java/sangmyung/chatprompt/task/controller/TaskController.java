@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sangmyung.chatprompt.Util.exception.BusinessException;
+import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.CommonResponse;
 import sangmyung.chatprompt.Util.response.dto.ListResponse;
@@ -65,7 +67,10 @@ public class TaskController {
     @GetMapping("/tasks/{taskId}")
     public SingleResponse<TaskResponse> getTaskDefinition(HttpServletRequest request, @PathVariable Long taskId){
         // Session에서 User의 정보(PK)를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         User user = userService.findUserById(userId);
 
@@ -82,7 +87,10 @@ public class TaskController {
     @GetMapping("/tasks/{taskId}/definitions")
     public SingleResponse<TaskResponse> getModifiedDefinition(HttpServletRequest request, @PathVariable Long taskId){
         // Session에서 User의 정보(PK)를 얻음
-        Long userId = userService.getUserIdFromRequest(request);
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         User user = userService.findUserById(userId);
         Long proId = userService.findUserByUserName("박소영").getId();

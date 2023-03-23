@@ -6,11 +6,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.task.domain.IOPairs;
-import sangmyung.chatprompt.task.domain.Task;
 import sangmyung.chatprompt.user.domain.User;
 
 import javax.persistence.*;
-import java.util.Objects;
 
 @Entity
 @Getter

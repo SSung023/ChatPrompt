@@ -51,6 +51,11 @@ export default function EditDirective() {
             setInput2(data.similarInstruct2);
             context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
         })
+        .catch(function(err) {
+            if(err.response.status === 400){
+                window.localStorage.removeItem("name");
+            }
+        })
     }
     const handleSaveAndLoad = (e) => {
         // console.log(`taskId: ${taskId}, taskNum: ${taskNum}`);
@@ -84,6 +89,10 @@ export default function EditDirective() {
             handleLoad(e);
         }
     }
+    const handleOnBlur = (e) => {
+        const value = e.target.value;
+        value >= 1 && value <= 120 && setTaskNum(value);
+    }
 
     useEffect(() => {
         // console.log(taskId);
@@ -106,7 +115,16 @@ export default function EditDirective() {
                         min="1"
                         value={taskNum}
                         onKeyDown={handlePressEnter}
+                        onBlur={handleOnBlur}
                     />
+                    <p style={{ 
+                        color: `var(--light-txt-color)`, 
+                        fontSize: `12px`, 
+                        marginLeft: `1em`,
+                        lineHeight: `1.5em`,
+                    }}>
+                        ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
+                    </p>
                 </div>
             </div>
             <div className={styles.edit}>

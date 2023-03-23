@@ -25,7 +25,7 @@ export default function EditIo() {
 
     // 입출력 입력칸에 불러오기
     const load = async (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment`)
+        axios.get(`/api/tasks/${taskNum}/assignment/${taskIdx}`)
         .then(function(res) {
             return res.data.data;
         })
@@ -34,29 +34,33 @@ export default function EditIo() {
             console.log(data);
             setInput(data.input);
             setOutput(data.output);
-            // context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
+        })
+        .catch(function(err) {
+            if(err.response.status === 400){
+                window.localStorage.removeItem("name");
+            }
         })
     }
     // 제출
-    const save = async (e) => {
+    const saveIo = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
         })
         .then(function(res) {
             console.log('result:');
             console.log(res);
-            if(taskNum < 120){
+            if(taskIdx < 100){
                 setInput('');
                 setOutput('');
-                // 다음 task로 state 초기화
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskNum)+1)});
-                // taskNum 상승
-                setTaskNum(prev => parseInt(prev) + 1);
+                // 다음 index로 state 초기화
+                context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(taskIdx)+1)});
+                // taskIdx 상승
+                setIdx(prev => parseInt(prev) + 1);
             }
-            else if(taskNum >=120){
-                alert('마지막 태스크입니다!');
+            else if(taskIdx >= 100){
+                alert('마지막 인덱스입니다!');
             }
         })
         .catch(function(err) {
@@ -80,6 +84,7 @@ export default function EditIo() {
                 value >=1 && value <=100 && setIdx(value);
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
                 context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
+                load(e);
             }
         }
     }
@@ -88,13 +93,10 @@ export default function EditIo() {
         if(id === "task") {
             const value= e.target.value;
             value >=1 && value <=120 && setTaskNum(value);
-            // context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
-            // load(e);
         }
         else if(id === "idx") {
             const value= e.target.value;
             value >=1 && value <=100 && setIdx(value);
-            // context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
         }
     }
 
@@ -132,7 +134,7 @@ export default function EditIo() {
                         id="idx"
                         onChange={(e) => {
                             const value = e.target.value;
-                            value >=1 && value <=100 && setIdx(parseInt(e.target.value))
+                            value >=1 && value <=100 && setIdx(parseInt(e.target.value));
                         }}
                         max="100"
                         min="1"
@@ -141,6 +143,14 @@ export default function EditIo() {
                         onBlur={handleOnBlur}
                     />
                 </form>
+                <p style={{ 
+                    color: `var(--light-txt-color)`, 
+                    fontSize: `12px`, 
+                    marginLeft: `1em`,
+                    lineHeight: `1.5em`,    
+                }}>
+                    ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
+                </p>
             </div>
 
             {/* io input form */}
@@ -162,7 +172,7 @@ export default function EditIo() {
                     </TableBody>
                 </Table>
                 <div className={styles.buttons}>
-                    <button onClick={save} className={styles.button}>저장하고 다음 페이지로 이동</button>
+                    <button onClick={saveIo} className={styles.button}>저장하고 다음으로 이동</button>
                 </div>
             </form>
         </div>
