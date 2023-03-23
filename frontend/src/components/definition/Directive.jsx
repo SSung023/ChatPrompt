@@ -10,7 +10,7 @@ export default function Directive({ data }) {
                 <TableBody>
                     <TableRow>
                         <TableHead align={'center'}>
-                            지시문
+                            지시문1
                         </TableHead>
                         <TableCell>
                             {data.definition1}
@@ -18,7 +18,7 @@ export default function Directive({ data }) {
                     </TableRow>
                     <TableRow>
                         <TableHead align={'center'}>
-                            기계 번역문1
+                            지시문2
                         </TableHead>
                         <TableCell>
                             {data.definition2}

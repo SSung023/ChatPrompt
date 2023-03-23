@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { userContext } from '../../context/UserContext';
+import { SET_TASKNAME, userContext } from '../../context/UserContext';
 import Table, { TableBody, TableHead, TableRow, TableCell } from '../ui/table/Table';
 import styles from './References.module.css';
 import axios from 'axios';
@@ -19,7 +19,11 @@ export default function References({ taskId }) {
     useEffect(() => {
         taskId && axios.get(`/api/tasks/${taskId}`)
         .then(function(res) {
-            setDef(res.data.data);
+            return res.data.data;
+        })
+        .then(function(data) {
+            setDef(data);
+            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle });
         })
     }, [taskId])
 

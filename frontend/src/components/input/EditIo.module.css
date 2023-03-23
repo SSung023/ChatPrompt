@@ -15,19 +15,19 @@
     margin: 0;
 }
 
-.header > label {
+.header > form > label {
     color: var(--main-color);
     margin: 0 1em;
 }
 
-.header > input {
+.header > form > input {
     background-color: var(--white-color);
     border: 1px solid var(--main-color);
     border-radius: 5px;
     color: var(--light-txt-color);
 }
 
-.header > input:focus {
+.header > form > input:focus {
     outline: none;
 }
 
