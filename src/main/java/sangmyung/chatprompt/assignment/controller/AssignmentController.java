@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
+import sangmyung.chatprompt.Util.response.dto.ListResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.assignment.dto.*;
 import sangmyung.chatprompt.assignment.service.AssignmentService;
@@ -14,6 +15,7 @@ import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -104,7 +106,6 @@ public class AssignmentController {
 
 
 
-
     /**
      * 특정 Task에서 사용자가 작성한 유사 지시문 1&2를 반환
      * @param taskId 유사 지시문 1&2를 가지고 오고자 하는 Task의 PK
@@ -121,5 +122,24 @@ public class AssignmentController {
         SimilarInstructResponse similarInstructs = assignmentService.getWrittenSimilar(user, taskId);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarInstructs);
+    }
+
+
+    /**
+     * 특정 Task에 대해 사람들이 작성한 유사지시문(총 10개)를 반환 - 관리자 용도
+     * @param taskId 사람들이 작성한 유사지시문 리스트를 얻고 싶은 테스크의 PK
+     */
+    @GetMapping("/tasks/{taskId}/assignment-similar/lists")
+    public ListResponse<SimilarInstructResponse> getSimilarInstructList(@PathVariable Long taskId){
+        List<SimilarInstructResponse> similarList = assignmentService.getTaskEverySimilar(taskId);
+
+        return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarList);
+    }
+
+    @GetMapping("/tasks/{taskId}/assignment/io-lists")
+    public ListResponse<AssignIOResponse> getIOPairList(@PathVariable Long taskId){
+        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(taskId);
+
+        return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairList);
     }
 }

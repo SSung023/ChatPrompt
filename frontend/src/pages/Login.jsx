@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SET_FIRST_IO_IDX, SET_LAST_IO_IDX, SET_NAME, userContext } from '../context/UserContext';
+import { SET_FIRST_TASKID, SET_LAST_TASKID, SET_NAME, userContext } from '../context/UserContext';
 import styles from './Login.module.css';
 
 export default function Login() {
@@ -15,41 +15,29 @@ export default function Login() {
 
     const [identifier, setIdentifier] = useState('A');
     const [annotator, setAnnotator] = useState('');
-    const writers = ["박소영", "김다은", "성희연", "홍길동", "권경란"];
     const context = useContext(userContext);
-    // const name = context.state.data.name;
 
     const navigate = useNavigate();
     const handleLogin = (e) => {
         e.preventDefault();
-        console.log("A".charCodeAt());
         if(!annotator){
             alert('이름을 입력하세요.');
             return;
         }
-        if(!writers.includes(annotator)){
-            alert('이름을 확인해주세요.');
-            return;
-        }
-        if(writers.indexOf(annotator) !== (identifier.charCodeAt()-65)){
-            alert('아이디를 확인해주세요.');
-            return;
-        }
         
-        axios.post(`/api/login?identifier=${identifier}`)
+        axios.post(`/api/login?identifier=${identifier}&username=${annotator}`)
         .then(function(res) {
             context.actions.contextDispatch({ type: SET_NAME, data: annotator });
-            context.actions.contextDispatch({ type: SET_FIRST_IO_IDX, data: res.data.data.taskStartIdx });
-            context.actions.contextDispatch({ type: SET_LAST_IO_IDX, data: res.data.data.taskEndIdx });
-            return res;
+            context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: res.data.data.taskStartIdx });
+            context.actions.contextDispatch({ type: SET_LAST_TASKID, data: res.data.data.taskEndIdx });
         })
-        .then(function(res) {
-            window.localStorage.setItem('name', annotator);
+        .then(function() {
+            window.localStorage.setItem('prompt-login', true);
             navigate('/');
         })
         .catch(function(err) {
             // 로그인 요청에 실패한 경우
-            alert('잠시 후에 다시 시도해주세요.');
+            alert(`${err.response.data.message}`);
         })
     }
 
@@ -74,7 +62,6 @@ export default function Login() {
                         <option value={'D'}>D</option>
                         <option value={'E'}>E</option>
                         <option value={'F'}>F</option>
-                        <option value={'G'}>G</option>
                     </select>
 
                     <label>Name:</label>

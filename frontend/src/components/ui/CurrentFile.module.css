@@ -33,7 +33,7 @@
 .p {
     font-family: 'DungGeunMo';
     /* font-weight: var(--bold); */
-    font-size: 18px;
+    font-size: 1em;
     margin-right: 1em;
-    color: var(--light-txt-color);
+    color: var(--main-color);
 }

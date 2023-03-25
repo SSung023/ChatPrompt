@@ -9,7 +9,7 @@ export default function Navigation() {
     const handleLogout = () => {
         axios.post('/api/logout')
         .then(function(res) {
-            window.localStorage.removeItem('name');
+            window.localStorage.removeItem('prompt-login');
             navigate('/login');
         })
         .catch(function (err) {
@@ -18,30 +18,34 @@ export default function Navigation() {
     }
 
     return (
-        <div className={styles.gnb}>
-            <ul className={styles.colFlex}>
-                <NavLink 
-                    to={`/`} 
-                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+        <div 
+            className={styles.gnb}
+            style={{height: document.documentElement.scrollHeight}}
+        >
+            <div className={styles.navWrapper}>
+                <ul className={styles.colFlex}>
+                    <NavLink 
+                        to={`/`} 
+                        className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                        >
+                        <TbPrompt />
+                        지시문 편집
+                        <p className={styles.bar}></p>
+                    </NavLink>
+                    <NavLink 
+                        to={`/input`} 
+                        className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                     >
-                    <TbPrompt />
-                    지시문 편집
-                    <p className={styles.bar}></p>
-                </NavLink>
-                <NavLink 
-                    to={`/input`} 
-                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
-                >
-                    <TbEdit />
-                    입력 편집
-                    <p className={styles.bar}></p>
-                </NavLink>
-            </ul>
+                        <TbEdit />
+                        입력 편집
+                        <p className={styles.bar}></p>
+                    </NavLink>
+                </ul>
 
-            <div className={styles.divider}/>
+                <div className={styles.divider}/>
 
-            <button onClick={handleLogout} className={styles.logout}>로그아웃</button>
-            {/* <SelectBox defaultValue="구축자 선택" options={writer}/>     */}
+                <button onClick={handleLogout} className={styles.logout}>로그아웃</button>
+            </div>
         </div>
     );
 }

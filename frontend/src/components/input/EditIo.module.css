@@ -6,13 +6,17 @@
 .header {
     display: flex;
     align-items: center;
-    margin-bottom: 1em;
+    flex-wrap: wrap;
 }
 
 .title {
     color: var(--txt-color);
     font-size: 1em;
     margin: 0;
+}
+
+.header > form {
+    margin: 1em 0;
 }
 
 .header > form > label {
