@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { SET_INST_TASKID, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
-import styles from './EditDirective.module.css';
+import styles from './EditSimilarInst.module.css';
 
 import axios from 'axios';
 
@@ -68,6 +68,7 @@ export default function EditSimilarInst() {
     }
     const handlePressEnter = (e) => {
         if(e.key === "Enter"){
+            e.preventDefault();
             const value= e.target.value;
             value >= first_taskId && value <=last_taskId && setTaskNum(value);
             handleLoad(e);

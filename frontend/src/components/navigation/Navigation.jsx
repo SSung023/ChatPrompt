@@ -1,7 +1,8 @@
 import axios from 'axios';
-import React from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { TbPrompt, TbEdit } from 'react-icons/tb';
 import { NavLink, useNavigate } from 'react-router-dom';
+import { metaDataContext } from '../../context/MetaDataContext';
 import styles from './Navigation.module.css';
 
 export default function Navigation() {
@@ -18,34 +19,29 @@ export default function Navigation() {
     }
 
     return (
-        <div 
-            className={styles.gnb}
-            style={{height: document.documentElement.scrollHeight}}
-        >
-            <div className={styles.navWrapper}>
-                <ul className={styles.colFlex}>
-                    <NavLink 
-                        to={`/`} 
-                        className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
-                        >
-                        <TbPrompt />
-                        지시문 편집
-                        <p className={styles.bar}></p>
-                    </NavLink>
-                    <NavLink 
-                        to={`/input`} 
-                        className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+        <div className={styles.gnb}>
+            <ul className={styles.colFlex}>
+                <NavLink 
+                    to={`/`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                     >
-                        <TbEdit />
-                        입력 편집
-                        <p className={styles.bar}></p>
-                    </NavLink>
-                </ul>
+                    <TbPrompt />
+                    지시문 편집
+                    <p className={styles.bar}></p>
+                </NavLink>
+                <NavLink 
+                    to={`/input`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                >
+                    <TbEdit />
+                    입력 편집
+                    <p className={styles.bar}></p>
+                </NavLink>
+            </ul>
 
-                <div className={styles.divider}/>
+            <div className={styles.divider}/>
 
-                <button onClick={handleLogout} className={styles.logout}>로그아웃</button>
-            </div>
+            <button onClick={handleLogout} className={styles.logout}>로그아웃</button>
         </div>
     );
 }
