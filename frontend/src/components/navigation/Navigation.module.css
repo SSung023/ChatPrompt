@@ -1,10 +1,10 @@
 .gnb {
     position: sticky;
     top: 0;
-
+    
     font-size: 16px;
     box-sizing: border-box;
-    padding: 1.5em 0;
+    padding: 1em 0;
     width: 100%;
     min-width: 12em;
     max-width: 13em;
@@ -20,7 +20,6 @@
     align-items: center;
 
     width: 100%;
-    height: 90vh;
 }
 
 .navMenu {
@@ -38,7 +37,7 @@
 
     border-radius: 10px;
     width: 100%;
-    margin-bottom: 0.5em;
+    /* margin-bottom: 0.5em; */
 
     color: var(--light-txt-color);
     border-right: 0 var(--grey-line-color);
@@ -79,11 +78,16 @@
 .divider {
     box-sizing: border-box;
     width: 100%;
-    height: 1px;
-    border: 1px dotted var(--grey-line-color);
+    height: 2px;
+    border-radius: 1px;
+    background-color: #edededac;
+    margin: 1em 0;
 }
 
 .logout {
+    position: absolute;
+    bottom: 2em;
+
     margin-top: 1em;
     width: 100%;
     font-size: 1em;
@@ -92,6 +96,14 @@
     background-color: transparent;
     border: none;
     color: var(--light-txt-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout > svg {
+    margin-left: 0.5em;
 }
 
 .logout:hover {

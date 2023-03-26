@@ -1,8 +1,7 @@
 import axios from 'axios';
-import React, { useContext, useEffect, useState } from 'react';
-import { TbPrompt, TbEdit } from 'react-icons/tb';
+import React from 'react';
+import { TbHomePlus, TbHomeEdit, TbClipboardList, TbClipboardText, TbLogout } from 'react-icons/tb';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { metaDataContext } from '../../context/MetaDataContext';
 import styles from './Navigation.module.css';
 
 export default function Navigation() {
@@ -25,23 +24,45 @@ export default function Navigation() {
                     to={`/`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                     >
-                    <TbPrompt />
-                    지시문 편집
+                    <TbHomePlus />
+                    <p>지시문 편집</p>
                     <p className={styles.bar}></p>
                 </NavLink>
                 <NavLink 
                     to={`/input`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
-                    <TbEdit />
-                    입력 편집
+                    <TbHomeEdit />
+                    <p>입력 편집</p>
+                    <p className={styles.bar}></p>
+                </NavLink>
+
+                <div className={styles.divider}/>
+
+                <NavLink 
+                    to={`/inquire/instruction`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                >
+                    <TbClipboardList />
+                    <p>지시문 조회</p>
+                    <p className={styles.bar}></p>
+                </NavLink>
+                <NavLink 
+                    to={`/inquire/io`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                >
+                    <TbClipboardText />
+                    <p>입력 조회</p>
                     <p className={styles.bar}></p>
                 </NavLink>
             </ul>
 
             <div className={styles.divider}/>
 
-            <button onClick={handleLogout} className={styles.logout}>로그아웃</button>
+            <button onClick={handleLogout} className={styles.logout}>
+                로그아웃
+                <TbLogout />
+            </button>
         </div>
     );
 }
