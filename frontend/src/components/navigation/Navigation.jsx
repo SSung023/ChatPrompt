@@ -10,7 +10,7 @@ import styles from './Navigation.module.css';
 export default function Navigation() {
     const navigate = useNavigate();
 
-    const [isOpen, setOpen] = useState(false);
+    const [isOpen, setOpen] = useState(true);
     const toggleSnb = () => {
         setOpen(prev => !prev);
     };

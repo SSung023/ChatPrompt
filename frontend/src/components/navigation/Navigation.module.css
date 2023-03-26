@@ -29,10 +29,12 @@
     font-size: 1.5em;
     font-family: 'TheJamsil5Bold';
     color: var(--main-color);
-}
 
-.logo > svg {
-    font-size: 24px;
+    /* drag */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
 }
 
 /* toggle button */
@@ -51,6 +53,10 @@
 .toggleBtn > svg {
     font-size: 1.5em;
     color: var(--main-color);
+}
+
+.toggleBtn:hover {
+    cursor: pointer;
 }
 
 /* menus */
