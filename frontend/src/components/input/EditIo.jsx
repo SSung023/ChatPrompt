@@ -35,8 +35,6 @@ export default function EditIo() {
             return res.data.data;
         })
         .then(function(data) {
-            console.log("load:");
-            console.log(data);
             setInput(data.input);
             setOutput(data.output);
         })

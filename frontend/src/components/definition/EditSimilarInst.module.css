@@ -13,13 +13,13 @@
 /* buttons */
 .buttons {
     width: 80%;
+    min-width: 30em;
     display: flex;
     justify-content: center;
 }
 
 .buttons > button {
     box-sizing: border-box;
-    margin-left: 1em;
     margin-bottom: 2em;
     border: none;
     border-radius: 5px;
