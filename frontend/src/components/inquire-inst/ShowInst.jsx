@@ -19,18 +19,22 @@ export default function ShowInst() {
             data && 
             data.map((definitions, idx) => {
                 const row1 = (
-                    <TableRow key={idx} rowspan={2}>
+                    <TableRow key={idx*2}>
                         <TableHead>{`지시문 1`}</TableHead>
                         <TableCell>
                             <span>지시문 1</span>
                         </TableCell>
+                    </TableRow>
+                )
+                const row2 = (
+                    <TableRow key={idx*2+1}>
                         <TableHead>{`지시문 2`}</TableHead>
                         <TableCell>
                             <span>지시문 2</span>
                         </TableCell>
                     </TableRow>
-                )
-                return row1;
+                );
+                return [row1, row2];
             })
             
         );

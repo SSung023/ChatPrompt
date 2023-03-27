@@ -1,7 +1,8 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import { SET_INST_TASKID, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditSimilarInst.module.css';
+import { TbCircleArrowLeftFilled, TbCircleArrowRightFilled } from 'react-icons/tb';
 
 import axios from 'axios';
 
@@ -16,6 +17,8 @@ export default function EditSimilarInst() {
     const last_taskId = context.state.data.last_taskId;
     // 내부 관리용 taskId state
     const [taskNum, setTaskNum] = useState(taskId);
+
+    const scrollRef = useRef();
 
     const handleChange1 = (value) => {
         setInput1(value);
@@ -97,6 +100,9 @@ export default function EditSimilarInst() {
     useEffect(() => {
         // console.log(taskId);
         handleLoad();
+        if(scrollRef.current.scrollHeight >= document.documentElement.scrollHeight){
+            scrollRef.current?.scrollIntoView({ block: "end" });
+        }
     }, [taskId]);
     
     return (
@@ -127,9 +133,9 @@ export default function EditSimilarInst() {
                             ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
                         </span>
                     </form>
-                    
                 </div>
             </div>
+
             <div className={styles.edit}>
                 <form>
                     <TextArea input={input1} setInput={handleChange1} placeholder={`유사 지시문 1을 입력하세요.`}/>
@@ -137,9 +143,38 @@ export default function EditSimilarInst() {
                     <TextArea input={input2} setInput={handleChange2} placeholder={`유사 지시문 2를 입력하세요.`}/>
                 </form>
             </div>
-            <div className={styles.buttons}>
-                <button onClick={handleSave} className={styles.button}>저장</button>
-                <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음 페이지로 이동</button>
+
+            <div className={styles.buttons} ref={scrollRef}>
+                <button 
+                    className={styles.moveBtn}
+                    onClick={() => {
+                        if(taskNum > first_taskId){
+                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1});
+                            setTaskNum(prev => parseInt(prev)-1);
+                        }
+                        else {
+                            alert('첫 태스크입니다.');
+                        }
+                    }}    
+                ><TbCircleArrowLeftFilled/></button>
+
+                <div className={styles.btnWrapper}>
+                    <button onClick={handleSave} className={styles.button}>저장</button>
+                    <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음 페이지로 이동</button>    
+                </div>
+                
+                <button 
+                    className={styles.moveBtn}
+                    onClick={() => {
+                        if(taskNum < last_taskId){
+                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1});
+                            setTaskNum(prev => parseInt(prev)+1);
+                        }
+                        else {
+                            alert('마지막 태스크입니다.');
+                        }
+                    }}
+                ><TbCircleArrowRightFilled/></button>
             </div>
         </>
     );

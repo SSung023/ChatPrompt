@@ -5,6 +5,8 @@ import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Ta
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditIo.module.css';
 
+import { TbCircleArrowRightFilled, TbCircleArrowLeftFilled } from 'react-icons/tb';
+
 export default function EditIo() {
     const context = useContext(userContext);
     const [input, setInput] = useState('');
@@ -190,9 +192,40 @@ export default function EditIo() {
                         </TableRow>
                     </TableBody>
                 </Table>
+
                 <div className={styles.buttons}>
-                    <button onClick={handleSave} className={styles.button}>저장</button>
-                    <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음으로 이동</button>
+                    <button
+                        className={styles.moveBtn}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            if(taskIdx > 1){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
+                                setIdx(prev => parseInt(prev)-1);
+                            }
+                            else {
+                                alert('마지막입니다.');
+                            }
+                        }}
+                    ><TbCircleArrowLeftFilled/></button>
+                    
+                    <div className={styles.btnWrapper}>
+                        <button onClick={handleSave} className={styles.button}>저장</button>
+                        <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음으로 이동</button>
+                    </div>
+                    
+                    <button 
+                        className={styles.moveBtn}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            if(taskIdx < 100){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
+                                setIdx(prev => parseInt(prev)+1);
+                            }
+                            else {
+                                alert('마지막입니다.');
+                            }
+                        }}
+                    ><TbCircleArrowRightFilled/></button>
                 </div>
             </form>
         </div>
