@@ -3,30 +3,55 @@ import styles from './Table.module.css';
 
 export default function Table({ children, style }) {
     return (
-        <table className={styles.table} style={style}>{children}</table>
+        <table 
+            className={styles.table} 
+            style={style}
+        >{children}</table>
     );
 }
 
-export function TableHead({ children, align, style }) {
+export function TableHead({ children, align, style, rowspan, colspan }) {
     return (
-        <th className={styles.th} align={align} style={style}>{children}</th>
+        <th 
+            className={styles.th} 
+            align={align} 
+            style={style}
+            colSpan={colspan ? `${colspan}` : ''}
+            rowSpan={rowspan ? `${rowspan}` : ''}
+        >{children}</th>
     )
 }
 
-export function TableBody({ children, style }){
+export function TableBody({ children, style, rowspan, colspan }){
     return (
-        <tbody className={styles.tbody} style={style}>{children}</tbody>
+        <tbody 
+            className={styles.tbody} 
+            style={style}
+            colSpan={colspan ? `${colspan}` : ''}
+            rowSpan={rowspan ? `${rowspan}` : ''}
+        >{children}</tbody>
     )
 }
 
-export function TableRow({ children, style }) {
+export function TableRow({ children, style, rowspan, colspan }) {
     return (
-        <tr className={styles.tr} style={style}>{children}</tr>
+        <tr 
+            className={styles.tr} 
+            style={style}
+            colSpan={colspan ? `${colspan}` : ''}
+            rowSpan={rowspan ? `${rowspan}` : ''}
+        >{children}
+        </tr>
     )
 }
 
-export function TableCell({ children, style }) {
+export function TableCell({ children, style, rowspan, colspan }) {
     return (
-        <td className={styles.td} style={style}>{children}</td>
+        <td 
+            className={styles.td} 
+            style={style}
+            colSpan={colspan ? `${colspan}` : ''}
+            rowSpan={rowspan ? `${rowspan}` : ''}
+        >{children}</td>
     )
 }

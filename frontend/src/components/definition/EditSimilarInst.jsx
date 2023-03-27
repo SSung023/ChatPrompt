@@ -66,6 +66,21 @@ export default function EditSimilarInst() {
             console.log(err);
         })
     }
+    const handleSave = async (e) => {
+        e.preventDefault();
+        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+            similarInstruct1: `${input1}`,
+            similarInstruct2: `${input2}`,
+        })
+        .then(function(res) {
+            console.log(res);
+            // return res;
+        })
+        .catch(function(err) {
+            console.log(err);
+        })
+    }
+
     const handlePressEnter = (e) => {
         if(e.key === "Enter"){
             e.preventDefault();
@@ -123,7 +138,8 @@ export default function EditSimilarInst() {
                 </form>
             </div>
             <div className={styles.buttons}>
-                <button onClick={handleSaveAndLoad}>저장하고 다음 페이지로 이동</button>
+                <button onClick={handleSave} className={styles.button}>저장</button>
+                <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음 페이지로 이동</button>
             </div>
         </>
     );

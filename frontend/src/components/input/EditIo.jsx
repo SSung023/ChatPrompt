@@ -29,7 +29,7 @@ export default function EditIo() {
     }
 
     // 입출력 입력칸에 불러오기
-    const load = async (e) => {
+    const handleLoad = async (e) => {
         axios.get(`/api/tasks/${taskNum}/assignment/${taskIdx}`)
         .then(function(res) {
             return res.data.data;
@@ -45,16 +45,16 @@ export default function EditIo() {
             }
         })
     }
-    // 제출
-    const saveIo = async (e) => {
+    // 제출하고 다음으로 이동
+    const handleSaveAndLoad = async (e) => {
         e.preventDefault();
         axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
         })
         .then(function(res) {
-            console.log('result:');
-            console.log(res);
+            // console.log('result:');
+            // console.log(res);
             if(taskIdx < 100){
                 setInput('');
                 setOutput('');
@@ -71,6 +71,21 @@ export default function EditIo() {
             console.log(err);
         })
     }
+    // 제출
+    const handleSave = async (e) => {
+        e.preventDefault();
+        axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
+            input: `${input}`,
+            output: `${output}`,
+        })
+        .then(function(res) {
+            console.log(res);
+            // return res;
+        })
+        .catch(function(err) {
+            console.log(err);
+        })
+    }
 
     // task, index 관리
     const handlePressEnter = (e) => {
@@ -81,14 +96,14 @@ export default function EditIo() {
                 value >= first_taskId && value <= last_taskId && setTaskNum(value);
                 context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
-                load(e);
+                handleLoad(e);
             }
             else if(id === "idx") {
                 const value= e.target.value;
                 value >=1 && value <=100 && setIdx(value);
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
                 context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
-                load(e);
+                handleLoad(e);
             }
         }
     }
@@ -106,7 +121,7 @@ export default function EditIo() {
 
     useEffect(() => {
         // 입출력 작성 폼에 불러오기
-        load();
+        handleLoad();
     }, [taskId]);
 
     return (
@@ -176,7 +191,8 @@ export default function EditIo() {
                     </TableBody>
                 </Table>
                 <div className={styles.buttons}>
-                    <button onClick={saveIo} className={styles.button}>저장하고 다음으로 이동</button>
+                    <button onClick={handleSave} className={styles.button}>저장</button>
+                    <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음으로 이동</button>
                 </div>
             </form>
         </div>

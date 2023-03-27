@@ -64,7 +64,7 @@ export default function Navigation() {
 
                 {/* <div className={styles.divider}/> */}
 
-                <NavLink 
+                {/* <NavLink 
                     to={`/inquire/instruction`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
@@ -79,7 +79,7 @@ export default function Navigation() {
                     <TbClipboardText />
                     {isOpen ? <p>입력 조회</p> : ''}
                     <p className={styles.bar}></p>
-                </NavLink>
+                </NavLink> */}
             </div>
 
             {/* <div className={styles.divider}/> */}
