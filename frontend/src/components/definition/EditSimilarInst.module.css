@@ -40,7 +40,7 @@
     padding: 0;
     background-color: transparent;
     border: none;
-    font-size: 1.5em;
+    font-size: 26px;
     color: var(--btn-color);
 
     margin: 0 1em;
@@ -102,4 +102,10 @@
     height: 1px;
     background-color: var(--grey-line-color);
     margin: 4px 0;
+}
+
+@media screen and (max-width: 786px) {
+    .moveBtn {
+        font-size: 24px;
+    }
 }
