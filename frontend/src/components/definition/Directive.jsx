@@ -6,7 +6,6 @@ export default function Directive({ defData, originalDefData }) {
     return (
         defData && originalDefData &&
         <div className={styles.directive}>
-            {/* <p className={styles.info}>* 지시문 원문</p> */}
             <Table>
                 <TableBody>
                     <TableRow>
@@ -18,13 +17,6 @@ export default function Directive({ defData, originalDefData }) {
                             <span>{`${originalDefData.definition2}`}</span>
                         </TableCell>
                     </TableRow>
-                </TableBody>
-            </Table>
-
-            {/* <p className={styles.info}>* 지시문</p> */}
-            <Table>
-                <TableBody>
-                    
                     <TableRow>
                         <TableHead align={'center'}>
                             지시문1

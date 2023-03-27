@@ -20,11 +20,11 @@ export default function ShowInst() {
             data.map((definitions, idx) => {
                 const row1 = (
                     <TableRow key={idx} rowspan={2}>
-                        {/* <TableHead>{`지시문 1`}</TableHead> */}
+                        <TableHead>{`지시문 1`}</TableHead>
                         <TableCell>
                             <span>지시문 1</span>
                         </TableCell>
-                        {/* <TableHead>{`지시문 2`}</TableHead> */}
+                        <TableHead>{`지시문 2`}</TableHead>
                         <TableCell>
                             <span>지시문 2</span>
                         </TableCell>
@@ -39,11 +39,12 @@ export default function ShowInst() {
     const load = () => {
         axios.get(`/api/tasks/${taskNum}/assignment-similar/lists`)
         .then(function(res) {
+            console.log(res);
             return res.data.dataList;
         })
         .then(function(data) {
             setData(data);
-            console.log(data);
+            // console.log(data);
         })
         .catch(function(err) {
             if(err.response.status === 400){

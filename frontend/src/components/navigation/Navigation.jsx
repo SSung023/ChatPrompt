@@ -29,7 +29,7 @@ export default function Navigation() {
     return (
         <div 
             className={styles.gnb} 
-            style={isOpen ? {width: `100%`, minWidth: `12em`} : {}}
+            style={isOpen ? {width: `100%`, minWidth: `13em`} : {}}
         >
             <div className={styles.colFlex}>
                 <div 
@@ -64,12 +64,12 @@ export default function Navigation() {
 
                 {/* <div className={styles.divider}/> */}
 
-                {/* <NavLink 
+                <NavLink 
                     to={`/inquire/instruction`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
                     <TbClipboardList />
-                    {isOpen ? <p>지시문 조회</p> : ''}
+                    {isOpen ? <p>지시문 전체 조회</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
                 <NavLink 
@@ -77,9 +77,9 @@ export default function Navigation() {
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
                     <TbClipboardText />
-                    {isOpen ? <p>입력 조회</p> : ''}
+                    {isOpen ? <p>입력 전체 조회</p> : ''}
                     <p className={styles.bar}></p>
-                </NavLink> */}
+                </NavLink>
             </div>
 
             {/* <div className={styles.divider}/> */}
