@@ -79,7 +79,7 @@ export default function EditIo() {
             output: `${output}`,
         })
         .then(function(res) {
-            console.log(res);
+            // console.log(res);
             // return res;
         })
         .catch(function(err) {

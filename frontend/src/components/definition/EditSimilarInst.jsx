@@ -73,7 +73,7 @@ export default function EditSimilarInst() {
             similarInstruct2: `${input2}`,
         })
         .then(function(res) {
-            console.log(res);
+            // console.log(res);
             // return res;
         })
         .catch(function(err) {
