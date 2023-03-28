@@ -39,13 +39,15 @@
 .buttons {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 80%;
+    min-width: 30em;
+    margin: 1em 0 2em 0 ;
 }
 
 .button {
     box-sizing: border-box;
-    margin: 1em 1em 2em 1em;
+    margin: 0 1em;
     border: none;
     border-radius: 5px;
     background-color: var(--btn-color);
@@ -56,4 +58,26 @@
 
 .button:hover {
     cursor: pointer;
+}
+
+/* move buttons */
+.moveBtn {
+    box-sizing: border-box;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 26px;
+    color: var(--btn-color);
+
+    margin: 0 1em;
+}
+
+.moveBtn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+    .moveBtn {
+        font-size: 24px;
+    }
 }

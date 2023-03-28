@@ -4,12 +4,24 @@ import Directive from '../components/definition/Directive';
 import EditSimilarInst from '../components/definition/EditSimilarInst';
 import References from '../components/definition/References';
 import CurrentFile from '../components/ui/CurrentFile';
-import { userContext } from '../context/UserContext';
+import { SET_TASKNAME, userContext } from '../context/UserContext';
 
 export default function EditInst() {
     const context = useContext(userContext);
     const taskId = context.state.data.inst_taskId;
-    const [defData, setDef] = useState();
+    const [originalDefData, setOrginal] = useState(); // 번역문, 원문
+    const [defData, setDef] = useState(); // 지시문 1, 2
+
+    useEffect(() => {
+        taskId && axios.get(`/api/tasks/${taskId}`)
+        .then(function(res) {
+            return res.data.data;
+        })
+        .then(function(data) {
+            setOrginal(data);
+            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle });
+        })
+    }, [taskId]);
 
     useEffect(() => {
         axios.get(`/api/tasks/${taskId}/definitions`)
@@ -24,17 +36,14 @@ export default function EditInst() {
         })
     }, [taskId]);
 
-    // useEffect(() => {
-    //     console.log(defData);
-    // }, [defData]);
 
     return (
         defData && 
         <div className='body'>
             <CurrentFile ptaskName='지시문' taskId={taskId}/>
-            <Directive data={defData}/>
+            <Directive defData={defData} originalDefData={originalDefData}/>
             <EditSimilarInst />
-            <References taskId={taskId}/>
+            <References taskId={taskId} originalDefData={originalDefData}/>
         </div>
     );
 }

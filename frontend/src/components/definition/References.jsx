@@ -1,31 +1,17 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { SET_TASKNAME, userContext } from '../../context/UserContext';
+import React, { useEffect, useState } from 'react';
 import Table, { TableBody, TableHead, TableRow, TableCell } from '../ui/table/Table';
 import styles from './References.module.css';
 import axios from 'axios';
 
-export default function References({ taskId }) {
-    const context = useContext(userContext);
+export default function References({ taskId, originalDefData }) {
     const [ioData, setIo] = useState();
-    const [defData, setDef] = useState();
-
+    
     useEffect(() => {
         taskId && (axios.get(`/api/tasks/${taskId}/io-pairs`)
         .then(function(res) {
             setIo(res.data.dataList);
         }))
     }, [taskId]);
-
-    useEffect(() => {
-        taskId && axios.get(`/api/tasks/${taskId}`)
-        .then(function(res) {
-            return res.data.data;
-        })
-        .then(function(data) {
-            setDef(data);
-            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle });
-        })
-    }, [taskId])
 
     const makeIOPairs = () => {
         return ioData.map((io_pair, idx) => {
@@ -54,7 +40,7 @@ export default function References({ taskId }) {
     }
 
     return (
-        defData && ioData &&
+        originalDefData && ioData &&
         <div className={styles.references}>
             <p className={styles.title}>* 참고자료</p>
             <Table>
@@ -62,10 +48,10 @@ export default function References({ taskId }) {
                     <TableRow>
                         <TableHead>지시문</TableHead>
                         <TableCell>
-                            <span style={{color: `var(--g-dark-txt-color)`}}>{`${defData.definition1}`}</span>
+                            <span style={{color: `var(--g-dark-txt-color)`}}>{`${originalDefData.definition1}`}</span>
                             <br/>
                             <br/>
-                            <span>{`${defData.definition2}`}</span>
+                            <span>{`${originalDefData.definition2}`}</span>
                         </TableCell>
                     </TableRow>
                     {makeIOPairs()}
