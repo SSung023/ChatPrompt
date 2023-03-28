@@ -25,6 +25,7 @@ export default function Login() {
             return;
         }
         
+        // 로그인 시 identifier과 username을 쿼리문으로 전송
         axios.post(`/api/login?identifier=${identifier}&username=${annotator}`)
         .then(function(res) {
             context.actions.contextDispatch({ type: SET_NAME, data: annotator });

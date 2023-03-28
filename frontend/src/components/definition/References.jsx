@@ -3,6 +3,9 @@ import Table, { TableBody, TableHead, TableRow, TableCell } from '../ui/table/Ta
 import styles from './References.module.css';
 import axios from 'axios';
 
+import saveAs from 'file-saver';
+import { FormattedTaskID } from '../../utility/FormattedTaskId';
+
 export default function References({ taskId, originalDefData }) {
     const [ioData, setIo] = useState();
     
@@ -10,8 +13,21 @@ export default function References({ taskId, originalDefData }) {
         taskId && (axios.get(`/api/tasks/${taskId}/io-pairs`)
         .then(function(res) {
             setIo(res.data.dataList);
+            return res.data.dataList;
         }))
+        // .then(function(data) {
+        //     // console.log([originalDefData, data]);
+        //     const jsonData = JSON.stringify([originalDefData, data]);
+        //     const blob = new Blob([jsonData], { type: 'application/json' });
+        //     saveAs(blob, `task${FormattedTaskID(taskId)}.json`);
+        // })
     }, [taskId]);
+
+    // useEffect(() => {
+    //     const jsonData = JSON.stringify([originalDefData, ioData]);
+    //     const blob = new Blob([jsonData], {tyle: 'application/json'});
+    //     saveAs(blob, `task${FormattedTaskID(taskId)}.json`);
+    // }, [originalDefData, ioData]);
 
     const makeIOPairs = () => {
         return ioData.map((io_pair, idx) => {
