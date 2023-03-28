@@ -33,12 +33,12 @@ public class UserController {
      */
     @PostMapping("/login")
     public SingleResponse<UserResponse> userLogin(HttpServletRequest request,
-                                                  /*@RequestParam String username,*/ @RequestParam String identifier){
+                                                  @RequestParam String username, @RequestParam String identifier){
         // 세션 생성
         HttpSession session = request.getSession();
 
-//        User user = userService.findRegisteredUser(username, identifier);
-        User user = userService.findUserByIdentifier(identifier);
+        User user = userService.findRegisteredUser(username, identifier);
+//        User user = userService.findUserByIdentifier(identifier);
         UserResponse userResponse = UserResponse.builder()
                 .lastModifiedTaskNum(user.getLastTaskNum())
                 .taskStartIdx(user.getTaskStartIdx())
