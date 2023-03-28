@@ -57,6 +57,7 @@ export default function Login() {
                         }}
                         value={identifier}
                     >
+                        {/* 구축자 id는 문자 */}
                         <option value={'A'} defaultValue>A</option>
                         <option value={'B'}>B</option>
                         <option value={'C'}>C</option>
