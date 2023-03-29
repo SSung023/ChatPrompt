@@ -18,6 +18,9 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id = null")
     List<Assignment> getAssignmentList(@Param("taskId") Long taskId);
 
+    @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id = null and a.taskSubIdx != null order by a.taskSubIdx asc")
+    List<Assignment> getWrittenAssignList(@Param("taskId") Long taskId);
+
     @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id != null")
     List<Assignment> getIOPairList(@Param("taskId") Long taskId);
 

@@ -130,8 +130,9 @@ public class AssignmentController {
      * @param taskId 사람들이 작성한 유사지시문 리스트를 얻고 싶은 테스크의 PK
      */
     @GetMapping("/tasks/{taskId}/assignment-similar/lists")
-    public ListResponse<SimilarInstructResponse> getSimilarInstructList(@PathVariable Long taskId){
-        List<SimilarInstructResponse> similarList = assignmentService.getTaskEverySimilar(taskId);
+    public ListResponse<SingleInstructResponse> getSimilarInstructList(@PathVariable Long taskId){
+//        List<SimilarInstructResponse> similarList = assignmentService.getTaskEverySimilar(taskId);
+        List<SingleInstructResponse> similarList = assignmentService.getWrittenTaskSimilar(taskId);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarList);
     }

@@ -136,6 +136,7 @@ public class AssignmentService {
 
             Assignment savedAssignment = assignRepository.save(assignment);
             savedAssignment.updateSimilarInstruct(assignRequest);
+            savedAssignment.addTaskSubIndex(assignRequest.getTaskSubIdx()); // subIndex 추가
             savedAssignment.addUser(user);
 
             return convertToAssignResponse(savedAssignment);
@@ -149,6 +150,35 @@ public class AssignmentService {
     }
 
     /**
+     * 사용자가 작성한 유사지시문 10개를
+     * @param assignedTaskId
+     */
+    public List<SingleInstructResponse> getWrittenTaskSimilar(Long assignedTaskId){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        List<SingleInstructResponse> assignmentList = new ArrayList<>();
+
+        List<Assignment> assignments = assignRepository.getWrittenAssignList(taskId);
+        for (Assignment assignment : assignments) {
+            assignmentList.add(convertToSingleInstruct(assignment));
+        }
+
+        // 10개가 안될 때 더미 데이터로 채우기
+        int len = assignmentList.size();
+        if (len < 10) {
+            int remain = 10 - len;
+            for (int i = 0; i < remain; ++i){
+                assignmentList.add(SingleInstructResponse.builder()
+                                .similar_instruct("유사지시문이 아직 작성되지 않았습니다.")
+                                .taskSubIdx(0L)
+                        .build());
+            }
+        }
+        return assignmentList;
+    }
+
+    /**
      * 특정 Task에서 사용자들이 작성한 유사지시문(총 10개)를 List로 반환
      * @param assignedTaskId 사용자들이 작성한 유사지시문 쌍을 알고 싶은 Task PK
      */
@@ -159,7 +189,7 @@ public class AssignmentService {
         List<SimilarInstructResponse> assignmentList = new ArrayList<>();
 
         // 작성한 유사지시문이 있다면 내용을 convert
-        List<Assignment> assignments = assignRepository.getAssignmentList(taskId);
+        List<Assignment> assignments = assignRepository.getAssignmentList(taskId); // error
         for (Assignment assignment : assignments) {
             assignmentList.add(convertToSimilar(assignment));
         }
@@ -220,6 +250,12 @@ public class AssignmentService {
                 .similarInstruct2(assignment.getSimilarInstruct2())
                 .input(assignment.getInput())
                 .output(assignment.getOutput())
+                .build();
+    }
+    private SingleInstructResponse convertToSingleInstruct(Assignment assignment){
+        return SingleInstructResponse.builder()
+                .similar_instruct(assignment.getSimilarInstruct1())
+                .taskSubIdx(assignment.getTaskSubIdx())
                 .build();
     }
     private SimilarInstructResponse convertToSimilar(Assignment assignment){
