@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
-import { SET_IO_IDX, SET_IO_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
+import { SET_IO_IDX, SET_IO_TASKID, userContext } from '../../context/UserContext';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditIo.module.css';
@@ -120,7 +120,7 @@ export default function EditIo() {
     useEffect(() => {
         // 입출력 작성 폼에 불러오기
         handleLoad();
-    }, [taskId]);
+    }, [taskId, idx]);
 
     return (
         <div className={styles.ioEdit}>

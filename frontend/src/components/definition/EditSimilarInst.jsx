@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { SET_INST_TASKID, SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditSimilarInst.module.css';
-import { TbArrowNarrowLeft, TbArrowNarrowRight } from 'react-icons/tb';
+// import { TbArrowNarrowLeft, TbArrowNarrowRight } from 'react-icons/tb';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 import axios from 'axios';
@@ -25,9 +25,6 @@ export default function EditSimilarInst() {
     const handleChange1 = (value) => {
         setInput1(value);
     };
-    // const handleChange2 = (value) => {
-    //     setInput2(value);
-    // };
 
     const handleLoad = (e) => {
         axios.get(`/api/tasks/${taskNum}/assignment/${subNum}`)
@@ -36,7 +33,6 @@ export default function EditSimilarInst() {
         })
         .then(function(data) {
             setInput1(data.similarInstruct1);
-            // setInput2(data.similarInstruct2);
             context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
             context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })

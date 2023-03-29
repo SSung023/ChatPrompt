@@ -103,6 +103,7 @@
 }
 
 .header > form > input:focus {
+    border: 1px solid var(--main-color);
     outline: none;
 }
 

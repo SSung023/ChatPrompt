@@ -26,12 +26,13 @@
 
 .header > form > input {
     background-color: var(--white-color);
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--line-color);
     border-radius: 5px;
     color: var(--light-txt-color);
 }
 
 .header > form > input:focus {
+    border: 1px solid var(--main-color);
     outline: none;
 }
 
@@ -106,6 +107,6 @@
 
 @media screen and (max-width: 786px) {
     .moveBtn {
-        font-size: 24px;
+        font-size: 14px;
     }
 }
