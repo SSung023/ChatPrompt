@@ -86,10 +86,12 @@ public class AssignmentService {
      * @param assignedTaskId 내용을 작성한 Task의 할당된 번호 -> PK 변환 필요
      */
     @Transactional
-    public AssignResponse getWrittenAssignment(User user, Long assignedTaskId){
-        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+    public AssignResponse getWrittenAssignment(User user, Long assignedTaskId, Long taskSubIdx){
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-        Optional<Assignment> optionalAssignment = assignRepository.getAssignment(user.getId(), taskId);
+        Long taskId = task.getId();
+
+        Optional<Assignment> optionalAssignment = assignRepository.getSubIdxAssignment(user.getId(), taskId, taskSubIdx);
 
         // User가 마지막으로 수정한 TaskId 갱신
         user.updateLastTaskNum(assignedTaskId);
@@ -106,22 +108,23 @@ public class AssignmentService {
 
         // 해당하는 Assignment가 있던 경우
         Assignment assignment = optionalAssignment.get();
-        return convertToAssignResponse(assignment);
+        return convertToAssignResponse(task.getTaskStr(), assignment);
     }
 
 
     /**
-     * 전달받은 내용을 통해 사용자가 수정한 내용을 변경 -> 유사지시문1,2 수정
+     * 전달받은 내용을 통해 사용자가 수정한 내용을 변경 -> 유사지시문1 수정
      * @param user 수정한 사용자
      * @param assignedTaskId 사용자가 수정한 Task의 할당받은 번호 -> PK로 변환 필요
      * @param assignRequest 사용자가 작성한 내용이 들어있는 객체
      */
     @Transactional
-    public AssignResponse updateAssignmentContent(User user, Long assignedTaskId, AssignRequest assignRequest){
-        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+    public AssignResponse updateAssignmentContent(User user, Long assignedTaskId, Long taskSubIdx, AssignRequest assignRequest){
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Long taskId = task.getId();
 
-        Optional<Assignment> optional = assignRepository.getAssignment(user.getId(), taskId);
+        Optional<Assignment> optional = assignRepository.getSubIdxAssignment(user.getId(), taskId, taskSubIdx);
 
         // User가 마지막으로 수정한 Task의 번호(assignedTaskId) 수정
         user.updateLastTaskNum(assignedTaskId);
@@ -137,20 +140,21 @@ public class AssignmentService {
 
             Assignment savedAssignment = assignRepository.save(assignment);
             savedAssignment.updateSimilarInstruct(assignRequest);
+            savedAssignment.addTaskSubIndex(taskSubIdx);
             savedAssignment.addUser(user);
 
-            return convertToAssignResponse(savedAssignment);
+            return convertToAssignResponse(task.getTaskStr(), savedAssignment);
         }
 
         // Assignment가 존재했던 경우
         Assignment assignment = optional.get();
         assignment.updateSimilarInstruct(assignRequest);
 
-        return convertToAssignResponse(assignment);
+        return convertToAssignResponse(task.getTaskStr(), assignment);
     }
 
     /**
-     * 사용자가 작성한 유사지시문 10개를
+     * 사용자가 작성한 유사지시문 10개를 반환
      * @param assignedTaskId
      */
     public List<SingleInstructResponse> getWrittenTaskSimilar(Long assignedTaskId){
@@ -182,31 +186,31 @@ public class AssignmentService {
      * 특정 Task에서 사용자들이 작성한 유사지시문(총 10개)를 List로 반환
      * @param assignedTaskId 사용자들이 작성한 유사지시문 쌍을 알고 싶은 Task PK
      */
-    public List<SimilarInstructResponse> getTaskEverySimilar(Long assignedTaskId){ // 여기서부터
-        Long taskId = taskRepository.findTaskPK(assignedTaskId)
-                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-
-        List<SimilarInstructResponse> assignmentList = new ArrayList<>();
-
-        // 작성한 유사지시문이 있다면 내용을 convert
-        List<Assignment> assignments = assignRepository.getAssignmentList(taskId); // error
-        for (Assignment assignment : assignments) {
-            assignmentList.add(convertToSimilar(assignment));
-        }
-
-        // 10개가 안될 때 더미 데이터로 채우기
-        int len = assignmentList.size();
-        if (len < 10) {
-            int remain = 10 - len;
-            for (int i = 0; i < remain; ++i){
-                assignmentList.add(SimilarInstructResponse.builder()
-                        .similarInstruct1("유사 지시문1이 아직 작성되지 않았습니다.")
-                        .similarInstruct2("유사 지시문2가 아직 작성되지 않았습니다.")
-                        .build());
-            }
-        }
-        return assignmentList;
-    }
+//    public List<SimilarInstructResponse> getTaskEverySimilar(Long assignedTaskId){ // 여기서부터
+//        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+//                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+//
+//        List<SimilarInstructResponse> assignmentList = new ArrayList<>();
+//
+//        // 작성한 유사지시문이 있다면 내용을 convert
+//        List<Assignment> assignments = assignRepository.getAssignmentList(taskId); // error
+//        for (Assignment assignment : assignments) {
+//            assignmentList.add(convertToSimilar(assignment));
+//        }
+//
+//        // 10개가 안될 때 더미 데이터로 채우기
+//        int len = assignmentList.size();
+//        if (len < 10) {
+//            int remain = 10 - len;
+//            for (int i = 0; i < remain; ++i){
+//                assignmentList.add(SimilarInstructResponse.builder()
+//                        .similarInstruct1("유사 지시문1이 아직 작성되지 않았습니다.")
+//                        .similarInstruct2("유사 지시문2가 아직 작성되지 않았습니다.")
+//                        .build());
+//            }
+//        }
+//        return assignmentList;
+//    }
 
     /**
      *
@@ -244,8 +248,9 @@ public class AssignmentService {
                 .output(assignment.getOutput())
                 .build();
     }
-    private AssignResponse convertToAssignResponse(Assignment assignment){
+    private AssignResponse convertToAssignResponse(String taskTitle, Assignment assignment){
         return AssignResponse.builder()
+                .taskTitle(taskTitle)
                 .similarInstruct1(assignment.getSimilarInstruct1())
                 .similarInstruct2(assignment.getSimilarInstruct2())
                 .taskSubIdx(assignment.getTaskSubIdx())

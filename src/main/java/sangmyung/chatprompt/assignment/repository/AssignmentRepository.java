@@ -14,6 +14,10 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.ioPairs.id = null")
     Optional<Assignment> getAssignment(@Param("userId") Long userId, @Param("taskId") Long taskId);
 
+    // 특정 Task의 subidx를 반환
+    @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.taskSubIdx=:taskSubIdx")
+    Optional<Assignment> getSubIdxAssignment(@Param("userId") Long userId, @Param("taskId") Long taskId, @Param("taskSubIdx") Long taskSubIdx);
+
     // 특정 Task에 대해 사용자들이 작성한 모든 유사지시문 set을 반환
     @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id = null")
     List<Assignment> getAssignmentList(@Param("taskId") Long taskId);

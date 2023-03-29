@@ -43,7 +43,7 @@ public class AssignmentController {
         }
 
         User user = userService.findUserById(userId);
-        AssignResponse assignResponse = assignmentService.getWrittenAssignment(user, taskId);
+        AssignResponse assignResponse = assignmentService.getWrittenAssignment(user, taskId, taskSubIdx);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), assignResponse);
     }
@@ -63,7 +63,7 @@ public class AssignmentController {
         }
 
         User user = userService.findUserById(userId);
-        AssignResponse assignResponse = assignmentService.updateAssignmentContent(user, taskId, assignRequest);
+        AssignResponse assignResponse = assignmentService.updateAssignmentContent(user, taskId, taskSubIdx, assignRequest);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), assignResponse);
     }
@@ -136,7 +136,6 @@ public class AssignmentController {
      */
     @GetMapping("/tasks/{taskId}/assignment-similar/lists")
     public ListResponse<SingleInstructResponse> getSimilarInstructList(@PathVariable Long taskId){
-//        List<SimilarInstructResponse> similarList = assignmentService.getTaskEverySimilar(taskId);
         List<SingleInstructResponse> similarList = assignmentService.getWrittenTaskSimilar(taskId);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarList);
