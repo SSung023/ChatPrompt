@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 
 import { TbFilePlus, TbFilePencil, TbFileSearch, TbLogout } from 'react-icons/tb';
-import { FiMinusSquare, FiPlusSquare } from 'react-icons/fi';
+import { BsArrowBarLeft, BsArrowBarRight } from 'react-icons/bs';
 
 import { NavLink, useNavigate } from 'react-router-dom';
 import styles from './Navigation.module.css';
@@ -38,9 +38,9 @@ export default function Navigation() {
                 >
                     {isOpen ? `Prompt` : ''}
                     <button 
-                        className={styles.toggleBtn}
+                        className={isOpen ? `${styles.toggleBtn} ${styles.open}` : `${styles.toggleBtn} ${styles.close}`}
                         onClick={toggleSnb}>
-                        {isOpen ? <FiMinusSquare /> : <FiPlusSquare />}
+                        {isOpen ? <BsArrowBarLeft /> : <BsArrowBarRight />}
                     </button>
                 </div>
                 {/* <div className={styles.divider}/> */}
