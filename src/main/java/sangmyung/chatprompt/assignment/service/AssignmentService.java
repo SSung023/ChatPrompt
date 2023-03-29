@@ -97,9 +97,10 @@ public class AssignmentService {
         // 해당하는 Assignment가 없던 경우 null로 채워서 전달
         if (optionalAssignment.isEmpty()){
             return AssignResponse.builder()
+                    .taskTitle(null)
                     .similarInstruct1(null)
                     .similarInstruct2(null)
-                    .input(null).output(null)
+                    .taskSubIdx(null)
                     .build();
         }
 
@@ -136,7 +137,6 @@ public class AssignmentService {
 
             Assignment savedAssignment = assignRepository.save(assignment);
             savedAssignment.updateSimilarInstruct(assignRequest);
-            savedAssignment.addTaskSubIndex(assignRequest.getTaskSubIdx()); // subIndex 추가
             savedAssignment.addUser(user);
 
             return convertToAssignResponse(savedAssignment);
@@ -248,8 +248,7 @@ public class AssignmentService {
         return AssignResponse.builder()
                 .similarInstruct1(assignment.getSimilarInstruct1())
                 .similarInstruct2(assignment.getSimilarInstruct2())
-                .input(assignment.getInput())
-                .output(assignment.getOutput())
+                .taskSubIdx(assignment.getTaskSubIdx())
                 .build();
     }
     private SingleInstructResponse convertToSingleInstruct(Assignment assignment){

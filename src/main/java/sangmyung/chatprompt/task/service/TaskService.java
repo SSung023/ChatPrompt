@@ -178,7 +178,6 @@ public class TaskService {
         if (ioAssignment.isEmpty()) {
             return AssignIOResponse.builder()
                     .input(null).output(null)
-                    .hasPrevious(false).hasNext(false)
                     .build();
         }
 
@@ -277,8 +276,6 @@ public class TaskService {
         return AssignIOResponse.builder()
                 .input(assignment.getInput())
                 .output(assignment.getOutput())
-                .hasNext(task.getTotalIoNum() > assignment.getIoPairs().getIdx()) // totalIoNum 설정 아직 X
-                .hasPrevious(assignment.getIoPairs().getIdx() <= 1)
                 .build();
     }
     // 현재 Task의 Id를 기준으로 사용자가 뒤에 할당받은 Task가 더 있는지 여부 반환

@@ -12,15 +12,11 @@ public class AssignIOResponse {
     // 입출력 페이지에서 사용자가 입력하는 창에 해당하는 입출력 정보
     private String input;
     private String output;
-    private boolean hasNext;
-    private boolean hasPrevious;
 
 
     @Builder
-    public AssignIOResponse(String input, String output, boolean hasNext, boolean hasPrevious) {
+    public AssignIOResponse(String input, String output) {
         this.input = input;
         this.output = output;
-        this.hasNext = hasNext;
-        this.hasPrevious = hasPrevious;
     }
 }
