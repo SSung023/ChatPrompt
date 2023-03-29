@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 
-import { TbHomePlus, TbHomeEdit, TbClipboardList, TbClipboardText, TbLogout } from 'react-icons/tb';
+import { TbFilePlus, TbFilePencil, TbFileSearch, TbLogout } from 'react-icons/tb';
 import { FiMinusSquare, FiPlusSquare } from 'react-icons/fi';
 
 import { NavLink, useNavigate } from 'react-router-dom';
@@ -49,16 +49,16 @@ export default function Navigation() {
                     to={`/`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                     >
-                    <TbHomePlus />
-                    {isOpen ? <p>지시문 편집</p> : ''}
+                    <TbFilePlus />
+                    {isOpen ? <p>지시문 작성</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
                 <NavLink 
                     to={`/input`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
-                    <TbHomeEdit />
-                    {isOpen ? <p>입력 편집</p> : ''}
+                    <TbFilePencil />
+                    {isOpen ? <p>입출력 편집</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
 
@@ -68,7 +68,7 @@ export default function Navigation() {
                     to={`/inquire/instruction`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
-                    <TbClipboardList />
+                    <TbFileSearch />
                     {isOpen ? <p>지시문 전체 조회</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
@@ -76,7 +76,7 @@ export default function Navigation() {
                     to={`/inquire/io`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
-                    <TbClipboardText />
+                    <TbFileSearch />
                     {isOpen ? <p>입력 전체 조회</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>

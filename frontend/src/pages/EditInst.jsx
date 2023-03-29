@@ -12,6 +12,7 @@ export default function EditInst() {
     const [originalDefData, setOrginal] = useState(); // 번역문, 원문
     const [defData, setDef] = useState(); // 지시문 1, 2
 
+    // CurrentFile.jsx
     useEffect(() => {
         taskId && axios.get(`/api/tasks/${taskId}`)
         .then(function(res) {
@@ -23,6 +24,7 @@ export default function EditInst() {
         })
     }, [taskId]);
 
+    // Directive.jsx 지시문1, 지시문2
     useEffect(() => {
         axios.get(`/api/tasks/${taskId}/definitions`)
         .then(function(res) {

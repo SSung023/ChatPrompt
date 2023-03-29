@@ -19,7 +19,7 @@ export default function EditIo() {
     const idx = context.state.data.io_idx;
 
     // 내부 관리용
-    const [taskNum, setTaskNum] = useState(taskId);
+    const [taskNum, setTaskNum] = useState(() => first_taskId);
     const [taskIdx, setIdx] = useState(1);
 
     // state 관리
