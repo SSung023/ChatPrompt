@@ -1,8 +1,9 @@
 insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('A', 1, '박소영', 1, 120);
 insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('B', 1, '김다은', 1, 120);
-insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('C', 1, '성희연', 1, 120);
-insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('D', 1, '홍길동', 1, 120);
-insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('E', 1, '권경란', 1, 120);
+insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('C', 1, '김이랴', 1, 30);
+insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('D', 1, '홍길동', 31, 60);
+insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('E', 1, '권경란', 61, 90);
+insert into user(identifier, last_task_num, name, task_start_idx, task_end_idx) values('F', 1, '전은하', 91, 120);
 
 # insert into assignment(similar_instruct1, similar_instruct2, input, output, task_id, user_id) values("similar_instruct01", "similar_instruct01", "", "", 1, 1);
 # insert into assignment(similar_instruct1, similar_instruct2, input, output, task_id, user_id) values("similar_instruct02", "similar_instruct02", "", "", 2, 1);

@@ -55,6 +55,12 @@ public class TaskService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
     }
 
+    // AssignedTaskId(실제 할당받은 Task 번호)를 통해 Task 엔티티를 반환
+    public Task findTaskByAssignedId(Long assignedTaskId){
+        return taskRepository.findTaskByAssignedId(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+    }
+
     // TaskNum(ex 179)를 통해 Task 엔티티를 반환
     public Task findTaskByTaskNum(int taskNum){
         return taskRepository.findTaskByTaskNum(taskNum)
@@ -68,10 +74,15 @@ public class TaskService {
 
     /**
      * Task ID(PK)에 대응되는 IOPair 객체들을 반환
-     * @param taskId 입출력 쌍들을 찾고자하는 Task의 PK
+     * @param assignedTaskId 입출력 쌍들을 찾고자하는 Task의 할당받은 번호
      */
-    public List<IOResponse> getTaskIOPairs(Long taskId){
-        List<IOPairs> pairsByTaskId = ioPairRepository.findPairsByTaskId(taskId);
+    public List<IOResponse> getTaskIOPairs(Long assignedTaskId){
+//        List<IOPairs> pairsByTaskId = ioPairRepository.findPairsByTaskId(assignedTaskId);
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        List<IOPairs> pairsByTaskId = ioPairRepository.findPairsByAssignedId(taskId);
+
         return pairsByTaskId.stream()
                 .map(p -> convertToIOResponse(p))
                 .toList();
@@ -84,7 +95,8 @@ public class TaskService {
      * @param taskId 정보를 찾고자하는 Task의 PK
      */
     public TaskResponse getTaskDefinition(User user, Long taskId){
-        Task task = findTaskByPK(taskId);
+//        Task task = findTaskByPK(taskId);
+        Task task = findTaskByAssignedId(taskId);
 
         return convertToTaskResponse(user, task);
     }
@@ -92,11 +104,14 @@ public class TaskService {
 
     /**
      * 특정 Task의 특정 입출력 쌍을 반환
-     * @param taskId 대상 Task PK
+     * @param assignedTaskId 대상 Task의 실제 할당 번호
      * @param ioIndex 알고자하는 입출력 쌍의 인덱스 (ex: 1a, 1b에서의 1)
      */
-    public SingleIOResponse getCertainIOPairs(Long taskId, int ioIndex){
-        Task task = taskRepository.findTaskByPK(taskId)
+    public SingleIOResponse getCertainIOPairs(Long assignedTaskId, int ioIndex){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        Task task = taskRepository.findTaskByAssignedId(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         IOPairs ioPairs = ioPairRepository.findPairByIoIndex(taskId, ioIndex)
@@ -108,16 +123,18 @@ public class TaskService {
     /**
      * 입출력 화면에서 사용자가 내용을 작성하고 저장 요청을 했을 때 저장 후 반환
      * @param userId
-     * @param taskId
+     * @param assignedTaskId Task의 할당받은 번호 -> PK로 변환 필요
      * @param ioIndex
      * @param assignIORequest 사용자가 입력한 입출력 정보를 담고 있는 객체
      */
     @Transactional
-    public AssignIOResponse updateIOAssignmentContent(Long userId, Long taskId, int ioIndex, AssignIORequest assignIORequest){
+    public AssignIOResponse updateIOAssignmentContent(Long userId, Long assignedTaskId, int ioIndex, AssignIORequest assignIORequest){
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Long taskId = task.getId();
+
         Optional<Assignment> ioAssignment = assignRepository.getIOAssignment(userId, taskId, ioIndex);
         User user = userRepository.findById(userId)
-                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-        Task task = taskRepository.findTaskByPK(taskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         IOPairs ioPairs = ioPairRepository.findPairByIoIndex(taskId, ioIndex)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
@@ -146,13 +163,16 @@ public class TaskService {
     /**
      * 입출력 화면에서 사용자가 작성했던 내용을 찾아서 반환
      * @param userId
-     * @param taskId
+     * @param assignedTaskId
      * @param ioIndex
      */
-    public AssignIOResponse getWrittenIOAssignContent(Long userId, Long taskId, int ioIndex) {
-        Optional<Assignment> ioAssignment = assignRepository.getIOAssignment(userId, taskId, ioIndex);
-        Task task = taskRepository.findTaskByPK(taskId)
+    public AssignIOResponse getWrittenIOAssignContent(Long userId, Long assignedTaskId, int ioIndex) {
+        // assignedTaskId를 통해 해당 Task의 PK를 찾음
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Long taskId = task.getId();
+
+        Optional<Assignment> ioAssignment = assignRepository.getIOAssignment(userId, taskId, ioIndex);
 
         // 존재하지 않는 경우
         if (ioAssignment.isEmpty()) {
@@ -228,17 +248,17 @@ public class TaskService {
 
     private TaskResponse convertToTaskResponse(User user, Task task){
         return TaskResponse.builder()
-                .taskId(task.getId())
+                .taskId(task.getAssignedTaskId())
                 .taskTitle(task.getTaskStr())
                 .definition1(task.getDefinition1())
                 .definition2(task.getDefinition2())
-                .hasNext(checkHasNext(user, task.getId()))
-                .hasPrevious(checkHasPrevious(user, task.getId()))
+                .hasNext(checkHasNext(user, task.getAssignedTaskId()))
+                .hasPrevious(checkHasPrevious(user, task.getAssignedTaskId()))
                 .build();
     }
     private IOResponse convertToIOResponse(IOPairs ioPairs){
         return IOResponse.builder()
-                .taskId(ioPairs.getTask().getId())
+                .taskId(ioPairs.getTask().getAssignedTaskId())
                 .index(ioPairs.getIdx())
                 .input1(ioPairs.getInput1())
                 .input2(ioPairs.getInput2())

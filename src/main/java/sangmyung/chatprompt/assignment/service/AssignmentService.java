@@ -37,11 +37,13 @@ public class AssignmentService {
      * 교수님이 작성한 Assignment의 내용을 받아서 지시문(윤문)&기계번역문에 내용을 넣어서 반환
      * 상단에 위치할 지시문&기계번역문에 대한 내용을 반환
      * @param professorId 1L로 고정
-     * @param taskId Assignment를 찾고자하는 Task PK
+     * @param assignedTaskId Assignment를 찾고자하는 Task의 할당받은 아이디
      */
-    public TaskResponse getDefinitions(Long professorId, Long taskId){
-        Task task = taskRepository.findTaskByPK(taskId)
+    public TaskResponse getDefinitions(Long professorId, Long assignedTaskId){
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Long taskId = task.getId();
+
         Optional<Assignment> optional = assignRepository.getAssignment(professorId, taskId);
 
         // 교수님이 작성하신 원문이 없는 상황 -> Task의 내용을 넣는다
@@ -57,10 +59,13 @@ public class AssignmentService {
     /**
      * 사용자가 이전에 작성했던 유사지시문 2개를 반환 - 만일 기존에 없었다면 새로 생성하여 전달
      * @param user 해당 내용을 작성한 사용자
-     * @param taskId 내용을 작성한 Task PK
+     * @param assignedTaskId 내용을 작성한 Task가 할당받은 번호
      */
     @Transactional
-    public SimilarInstructResponse getWrittenSimilar(User user, Long taskId){
+    public SimilarInstructResponse getWrittenSimilar(User user, Long assignedTaskId){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
         Optional<Assignment> optionalAssignment = assignRepository.getAssignment(user.getId(), taskId);
 
         if (optionalAssignment.isEmpty()){
@@ -78,16 +83,16 @@ public class AssignmentService {
      * 이전에 작성한 내용이 없었다면 객체 새로 생성, 변환 후 반환
      * 이전에 작성한 내용이 있다면 객체 받아와서 변환 후 반환
      * @param user 해당 내용을 작성한 사용자
-     * @param taskId 내용을 작성한 Task의 PK
+     * @param assignedTaskId 내용을 작성한 Task의 할당된 번호 -> PK 변환 필요
      */
     @Transactional
-    public AssignResponse getWrittenAssignment(User user, Long taskId){
-        Task task = taskRepository.findTaskByPK(taskId)
+    public AssignResponse getWrittenAssignment(User user, Long assignedTaskId){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Optional<Assignment> optionalAssignment = assignRepository.getAssignment(user.getId(), taskId);
 
         // User가 마지막으로 수정한 TaskId 갱신
-        user.updateLastTaskNum(taskId);
+        user.updateLastTaskNum(assignedTaskId);
 
         // 해당하는 Assignment가 없던 경우 null로 채워서 전달
         if (optionalAssignment.isEmpty()){
@@ -107,21 +112,20 @@ public class AssignmentService {
     /**
      * 전달받은 내용을 통해 사용자가 수정한 내용을 변경 -> 유사지시문1,2 수정
      * @param user 수정한 사용자
-     * @param taskId 사용자가 수정한 Task의 PK
+     * @param assignedTaskId 사용자가 수정한 Task의 할당받은 번호 -> PK로 변환 필요
      * @param assignRequest 사용자가 작성한 내용이 들어있는 객체
      */
     @Transactional
-    public AssignResponse updateAssignmentContent(User user, Long taskId, AssignRequest assignRequest){
-        Task task = taskRepository.findTaskByPK(taskId)
+    public AssignResponse updateAssignmentContent(User user, Long assignedTaskId, AssignRequest assignRequest){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         Optional<Assignment> optional = assignRepository.getAssignment(user.getId(), taskId);
 
-        // User가 마지막으로 수정한 TaskId 갱신
-        user.updateLastTaskNum(taskId);
+        // User가 마지막으로 수정한 Task의 번호(assignedTaskId) 수정
+        user.updateLastTaskNum(assignedTaskId);
 
         // 존재하지 않았던 경우 -> Assignment 객체 새로 생성
-        // 이렇게 하면 버그있을거 같은데..? Entity 만들고 값 채우고 저장하고 값 전달해야하지 않을까?
         if (optional.isEmpty()){
             Assignment assignment = Assignment.builder()
                     .taskId(taskId)
@@ -146,9 +150,12 @@ public class AssignmentService {
 
     /**
      * 특정 Task에서 사용자들이 작성한 유사지시문(총 10개)를 List로 반환
-     * @param taskId 사용자들이 작성한 유사지시문 쌍을 알고 싶은 Task PK
+     * @param assignedTaskId 사용자들이 작성한 유사지시문 쌍을 알고 싶은 Task PK
      */
-    public List<SimilarInstructResponse> getTaskEverySimilar(Long taskId){
+    public List<SimilarInstructResponse> getTaskEverySimilar(Long assignedTaskId){ // 여기서부터
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
         List<SimilarInstructResponse> assignmentList = new ArrayList<>();
 
         // 작성한 유사지시문이 있다면 내용을 convert
@@ -173,14 +180,14 @@ public class AssignmentService {
 
     /**
      *
-     * @param taskId 입력한 입출력 쌍을 알고 싶은 Task의 PK
+     * @param assignedTaskId 입력한 입출력 쌍을 알고 싶은 Task의 PK
      */
-    public List<AssignIOResponse> getIOPairList(Long taskId){
-        Task task = taskRepository.findTaskByPK(taskId)
+    public List<AssignIOResponse> getIOPairList(Long assignedTaskId){
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         List<AssignIOResponse> ioList = new ArrayList<>();
-        List<Assignment> ioPairList = assignRepository.getIOPairList(taskId);
+        List<Assignment> ioPairList = assignRepository.getIOPairList(task.getId());
         for (Assignment assignment : ioPairList) {
             ioList.add(convertToAssignIOResponse(assignment));
         }
@@ -237,7 +244,7 @@ public class AssignmentService {
         }
 
         return TaskResponse.builder()
-                .taskId(task.getId())
+                .taskId(task.getAssignedTaskId())
                 .taskTitle(task.getTaskStr())
                 .definition1(def1)
                 .definition2(def2)
