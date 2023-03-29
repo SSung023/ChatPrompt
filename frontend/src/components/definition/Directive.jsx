@@ -19,7 +19,7 @@ export default function Directive({ defData, originalDefData }) {
                     </TableRow>
                     <TableRow>
                         <TableHead align={'center'}>
-                            지시문1
+                            지시문 1
                         </TableHead>
                         <TableCell>
                             {defData.definition1}
@@ -27,7 +27,7 @@ export default function Directive({ defData, originalDefData }) {
                     </TableRow>
                     <TableRow>
                         <TableHead align={'center'}>
-                            지시문2
+                            지시문 2
                         </TableHead>
                         <TableCell>
                             {defData.definition2}

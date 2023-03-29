@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Instruction from '../components/input/Instruction';
 import EditIo from '../components/input/EditIo';
 import CurrentFile from '../components/ui/CurrentFile';
-import { userContext } from '../context/UserContext';
+import { SET_TASKNAME, userContext } from '../context/UserContext';
 import IoReference from '../components/input/IoReference';
 
 export default function EditInput() {
@@ -12,6 +12,17 @@ export default function EditInput() {
     const idx = context.state.data.io_idx;
 
     const [data, setData] = useState();
+
+    // CurrentFile.jsx
+    // useEffect(() => {
+    //     taskId && axios.get(`/api/tasks/${taskId}`)
+    //     .then(function(res) {
+    //         return res.data.data;
+    //     })
+    //     .then(function(data) {
+    //         context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle });
+    //     })
+    // }, [taskId]);
     
     // 유사 지시문
     useEffect(() => {
@@ -23,7 +34,7 @@ export default function EditInput() {
 
     return (
         <div className='body'>
-            <CurrentFile ptaskName={`입출력`} taskId={taskId} idx={idx}/>
+            <CurrentFile taskId={taskId} idx={idx}/>
             <Instruction data={data}/>
             <EditIo />
             <IoReference taskId={taskId} idx={idx}/>

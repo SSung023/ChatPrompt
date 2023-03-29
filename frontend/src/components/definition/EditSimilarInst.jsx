@@ -2,7 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { SET_INST_TASKID, SET_SUB_IDX, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditSimilarInst.module.css';
-import { TbCircleArrowLeftFilled, TbCircleArrowRightFilled } from 'react-icons/tb';
+import { TbArrowNarrowLeft, TbArrowNarrowRight } from 'react-icons/tb';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 import axios from 'axios';
 
@@ -61,7 +62,7 @@ export default function EditSimilarInst() {
                 setSubNum(prev => prev + 1);
             }
             else if(subNum >= 10){
-                alert('마지막 지시문입니다!');
+                alert('마지막 지시문입니다.');
             }
         })
         .catch(function(err) {
@@ -138,7 +139,7 @@ export default function EditSimilarInst() {
                             onBlur={handleOnBlur}
                         />
                         {/* definition index */}
-                        <label>definition: </label>
+                        <label>sub index: </label>
                         <input 
                             type="number"
                             id="subIdx"
@@ -176,15 +177,15 @@ export default function EditSimilarInst() {
                 <button 
                     className={styles.moveBtn}
                     onClick={() => {
-                        if(taskNum > first_taskId){
-                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1});
-                            setTaskNum(prev => parseInt(prev)-1);
+                        if(subNum > 1){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
+                            setSubNum(prev => parseInt(prev)-1);
                         }
                         else {
-                            alert('첫 태스크입니다.');
+                            alert('첫 지시문입니다.');
                         }
                     }}    
-                ><TbCircleArrowLeftFilled/></button>
+                ><AiOutlineLeft/>이전</button>
 
                 <div className={styles.btnWrapper}>
                     <button onClick={handleSave} className={styles.button}>저장</button>
@@ -194,15 +195,15 @@ export default function EditSimilarInst() {
                 <button 
                     className={styles.moveBtn}
                     onClick={() => {
-                        if(taskNum < last_taskId){
-                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1});
-                            setTaskNum(prev => parseInt(prev)+1);
+                        if(subNum < 10){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
+                            setSubNum(prev => parseInt(prev)+1);
                         }
                         else {
-                            alert('마지막 태스크입니다.');
+                            alert('마지막 지시문입니다.');
                         }
                     }}
-                ><TbCircleArrowRightFilled/></button>
+                >다음<AiOutlineRight/></button>
             </div>
         </>
     );

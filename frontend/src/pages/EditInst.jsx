@@ -42,7 +42,7 @@ export default function EditInst() {
     return (
         defData && 
         <div className='body'>
-            <CurrentFile ptaskName='지시문' taskId={taskId}/>
+            <CurrentFile taskId={taskId}/>
             <Directive defData={defData} originalDefData={originalDefData}/>
             <EditSimilarInst />
             <References taskId={taskId} originalDefData={originalDefData}/>

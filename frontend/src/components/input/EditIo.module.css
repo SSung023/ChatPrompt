@@ -35,6 +35,24 @@
     outline: none;
 }
 
+/* pagination */
+/* .pagination {
+    display: flex;
+    align-items: center;
+} */
+
+/* .testInput {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    -moz-appearance: textfield;
+} */
+
+/* .testInput::-webkit-inner-spin-button,
+.testInput::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+} */
+
 /* buttons */
 .buttons {
     display: flex;
@@ -62,18 +80,28 @@
 
 /* move buttons */
 .moveBtn {
+    display: flex;
+    align-items: center;
+
     box-sizing: border-box;
-    padding: 0;
+    padding: 4px;
+
     background-color: transparent;
     border: none;
-    font-size: 26px;
-    color: var(--btn-color);
+    color: var(--light-txt-color);
+    font-size: 14px;
 
-    margin: 0 1em;
+    margin: 0 0.5em;
+}
+
+.moveBtn > svg {
+    font-size: 18px;
+    margin: 0 4px;
 }
 
 .moveBtn:hover {
     cursor: pointer;
+    color: var(--main-color);
 }
 
 @media screen and (max-width: 786px) {

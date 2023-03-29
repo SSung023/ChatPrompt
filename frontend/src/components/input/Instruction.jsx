@@ -9,13 +9,13 @@ export default function Instruction({ data }) {
             <Table>
                 <TableBody>
                     <TableRow>
-                        <TableHead>지시문 1</TableHead>
+                        <TableHead>{`유사\n지시문1`}</TableHead>
                         <TableCell>{data.similarInstruct1}</TableCell>
                     </TableRow>
-                    <TableRow>
+                    {/* <TableRow>
                         <TableHead>지시문 2</TableHead>
                         <TableCell>{data.similarInstruct2}</TableCell>
-                    </TableRow>
+                    </TableRow> */}
                 </TableBody>
             </Table>
         </div>

@@ -5,13 +5,9 @@ import styles from './CurrentFile.module.css';
 // name: 알바
 // taskId: task 번호
 // taskName: 작업 내용(지시문, 입출력 etc..)
-export default function CurrentFile({ ptaskName }) {
+export default function CurrentFile() {
     const context = useContext(userContext);
     const taskName = context.state.data.taskName;
-
-    useEffect(() => {
-        context.actions.contextDispatch({ type: SET_TASKNAME, data: `${ptaskName}` })
-    }, [ptaskName]);
     
     return (
         <div className={styles.wrapper}>
