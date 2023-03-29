@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { SET_INST_TASKID, SET_SUB_IDX, userContext } from '../../context/UserContext';
+import { SET_INST_TASKID, SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditSimilarInst.module.css';
 import { TbArrowNarrowLeft, TbArrowNarrowRight } from 'react-icons/tb';
@@ -30,7 +30,7 @@ export default function EditSimilarInst() {
     // };
 
     const handleLoad = (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment`)
+        axios.get(`/api/tasks/${taskNum}/assignment/${subNum}`)
         .then(function(res) {
             return res.data.data;
         })
@@ -38,6 +38,7 @@ export default function EditSimilarInst() {
             setInput1(data.similarInstruct1);
             // setInput2(data.similarInstruct2);
             context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
+            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
         .catch(function(err) {
             if(err.response.status === 400){
@@ -47,7 +48,7 @@ export default function EditSimilarInst() {
         })
     }
     const handleSaveAndLoad = (e) => {
-        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
             similarInstruct1: `${input1}`,
             // similarInstruct2: `${input2}`,
             taskSubIdx: subNum,
@@ -71,7 +72,7 @@ export default function EditSimilarInst() {
     }
     const handleSave = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
             similarInstruct1: `${input1}`,
             // similarInstruct2: `${input2}`,
             taskSubIdx: subNum,

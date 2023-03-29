@@ -1,11 +1,11 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
-import { SET_IO_IDX, SET_IO_TASKID, userContext } from '../../context/UserContext';
+import { SET_IO_IDX, SET_IO_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditIo.module.css';
 
-import { TbCircleArrowRightFilled, TbCircleArrowLeftFilled } from 'react-icons/tb';
+// import { TbCircleArrowRightFilled, TbCircleArrowLeftFilled } from 'react-icons/tb';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 export default function EditIo() {
@@ -33,7 +33,7 @@ export default function EditIo() {
 
     // 입출력 입력칸에 불러오기
     const handleLoad = async (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment/${taskIdx}`)
+        axios.get(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`)
         .then(function(res) {
             return res.data.data;
         })
@@ -51,13 +51,11 @@ export default function EditIo() {
     // 제출하고 다음으로 이동
     const handleSaveAndLoad = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
         })
         .then(function(res) {
-            // console.log('result:');
-            // console.log(res);
             if(taskIdx < 100){
                 setInput('');
                 setOutput('');
@@ -77,13 +75,9 @@ export default function EditIo() {
     // 제출
     const handleSave = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
-        })
-        .then(function(res) {
-            // console.log(res);
-            // return res;
         })
         .catch(function(err) {
             console.log(err);

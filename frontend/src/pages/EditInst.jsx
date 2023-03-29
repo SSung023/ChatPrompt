@@ -12,7 +12,7 @@ export default function EditInst() {
     const [originalDefData, setOrginal] = useState(); // 번역문, 원문
     const [defData, setDef] = useState(); // 지시문 1, 2
 
-    // CurrentFile.jsx
+    // CurrentFile.jsx + 지시문 원문
     useEffect(() => {
         taskId && axios.get(`/api/tasks/${taskId}`)
         .then(function(res) {
@@ -20,7 +20,6 @@ export default function EditInst() {
         })
         .then(function(data) {
             setOrginal(data);
-            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle });
         })
     }, [taskId]);
 
