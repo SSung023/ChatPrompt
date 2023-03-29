@@ -99,10 +99,10 @@ public class AssignmentService {
         // 해당하는 Assignment가 없던 경우 null로 채워서 전달
         if (optionalAssignment.isEmpty()){
             return AssignResponse.builder()
-                    .taskTitle(null)
+                    .taskTitle(task.getTaskStr())
                     .similarInstruct1(null)
                     .similarInstruct2(null)
-                    .taskSubIdx(null)
+                    .taskSubIdx(taskSubIdx)
                     .build();
         }
 
