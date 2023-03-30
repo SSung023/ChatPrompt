@@ -1,13 +1,12 @@
 import axios from 'axios';
-import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { userContext } from '../../context/UserContext';
+import React, { useEffect, useMemo, useState } from 'react';
+// import { userContext } from '../../context/UserContext';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import styles from './ShowInst.module.css';
 
 export default function ShowInst({ taskNum }) {
-    const context = useContext(userContext);
-    const taskId = context.state.data.inst_taskId;
-
+    // const context = useContext(userContext);
+    // const taskId = context.state.data.inst_taskId;
     const [data, setData] = useState();
 
     const makeSimilarInst = useMemo(() => {

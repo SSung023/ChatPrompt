@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
 import Directive from '../components/definition/Directive';
 import ShowInst from '../components/inquire-inst/ShowInst';
-import { SET_INST_TASKID, userContext } from '../context/UserContext';
+import { userContext } from '../context/UserContext';
 import styles from './InquireInst.module.css';
 
 import { BsCaretRightFill } from 'react-icons/bs';
@@ -78,6 +78,11 @@ export default function InquireInst() {
                     onKeyDown={handlePressEnter}
                     // onBlur={handleOnBlur}
                 />
+                <p style={{
+                    color: "var(--light-main-color)", 
+                    fontSize: "14px",
+                    marginLeft: "1em",
+                }}>✓ 엔터를 누르면 조회됩니다.</p>
             </form>
             <div className={styles.toggle}>
                 <div className={styles.toggleTitle}>
