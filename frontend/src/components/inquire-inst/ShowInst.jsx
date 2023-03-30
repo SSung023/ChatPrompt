@@ -4,51 +4,39 @@ import { userContext } from '../../context/UserContext';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import styles from './ShowInst.module.css';
 
-export default function ShowInst() {
+export default function ShowInst({ taskNum }) {
     const context = useContext(userContext);
-    const first_taskId = context.state.data.first_taskId;
-    const last_taskId = context.state.data.last_taskId;
-
-    const [taskNum, setTaskNum] = useState(context.state.data.inst_taskId);
-    const [taskId, setTaskId] = useState(taskNum);
+    const taskId = context.state.data.inst_taskId;
 
     const [data, setData] = useState();
 
-    const makeDefinitions = useMemo(() => {
+    const makeSimilarInst = useMemo(() => {
         return (
             data && 
-            data.map((definitions, idx) => {
-                const row1 = (
-                    <TableRow key={idx*2}>
-                        <TableHead>{`지시문 1`}</TableHead>
+            data.map((inst, idx) => {
+                return (
+                    <TableRow key={idx}>
+                        <TableHead>{`지시문 ${idx+1}`}</TableHead>
                         <TableCell>
-                            <span>지시문 1</span>
+                            {!inst.similar_instruct || inst.similar_instruct === "유사지시문이 아직 작성되지 않았습니다."
+                            ? <span style={{color:"var(--placeholder-txt-color)"}} className="noDrag">작성한 지시문이 없습니다.</span>
+                            : <span>{inst.similar_instruct}</span>}
                         </TableCell>
                     </TableRow>
                 )
-                const row2 = (
-                    <TableRow key={idx*2+1}>
-                        <TableHead>{`지시문 2`}</TableHead>
-                        <TableCell>
-                            <span>지시문 2</span>
-                        </TableCell>
-                    </TableRow>
-                );
-                return [row1, row2];
             })
             
         );
     }, [data]);
 
-    const load = () => {
+    const loadSimilar = () => {
         axios.get(`/api/tasks/${taskNum}/assignment-similar/lists`)
         .then(function(res) {
-            console.log(res);
+            // console.log(res);
             return res.data.dataList;
         })
         .then(function(data) {
             setData(data);
-            // console.log(data);
         })
         .catch(function(err) {
             if(err.response.status === 400){
@@ -58,38 +46,16 @@ export default function ShowInst() {
         })
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setTaskId(taskNum);
-    }
-
     useEffect(() => {
-        load();
-    }, [taskId]);
+        loadSimilar();
+    }, [taskNum]);
 
     return (
         <div className={styles.showInst}>
-            <form
-                onSubmit={handleSubmit}>
-                <label>task: </label>
-                <input 
-                    type="number" 
-                    value={taskNum}
-                    onChange={(e) => {
-                        const value = e.target.value;
-                        value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                    }}
-                    max="120"
-                    min="1"
-                />
-            </form>
-            
+            <p className={styles.title}>* 내가 쓴 지시문</p>
             <Table>
                 <TableBody>
-                    <TableRow>
-                        <TableHead></TableHead>
-                    </TableRow>
-                    {makeDefinitions}
+                    {makeSimilarInst}
                 </TableBody>
             </Table>
         </div>

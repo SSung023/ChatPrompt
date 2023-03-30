@@ -13,11 +13,16 @@
     font-weight: var(--regular);
     width: 12%;
 
-    /* white-space: nowrap; */
     white-space: pre;
     background-color: var(--table-color);
 
     line-height: 1.5em;
+
+    /* prevent drag */
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
 }
 
 .tbody {

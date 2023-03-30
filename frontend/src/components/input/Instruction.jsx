@@ -14,7 +14,7 @@ export default function Instruction() {
 
     
     const handleLoad = () => {
-        console.log('load');
+        // console.log('load');
         axios.get(`/api/tasks/${taskId}/assignment/${subIdx}`)
         .then(function(res) {
             return res.data.data;
@@ -74,7 +74,7 @@ export default function Instruction() {
                 <TableBody>
                     <TableRow>
                         <TableHead>{`유사\n지시문${subIdx}`}</TableHead>
-                        <TableCell>{data.similarInstruct1 ? data.similarInstruct1 : <span style={{color: "var(--light-txt-color)"}}>작성한 지시문이 없습니다.</span>}</TableCell>
+                        <TableCell>{data.similarInstruct1 ? data.similarInstruct1 : <span style={{color: "var(--placeholder-txt-color)"}} className="noDrag">작성한 지시문이 없습니다.</span>}</TableCell>
                     </TableRow>
                 </TableBody>
             </Table>

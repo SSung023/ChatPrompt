@@ -148,6 +148,13 @@ p {
   /* height: 100%; */
 }
 
+.noDrag {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
 @media screen and (max-width: 786px) {
   html, body {
     font-size: 14px;

@@ -9,7 +9,7 @@ import { SET_TASKNAME, userContext } from '../context/UserContext';
 export default function EditInst() {
     const context = useContext(userContext);
     const taskId = context.state.data.inst_taskId;
-    const [originalDefData, setOrginal] = useState(); // 번역문, 원문
+    const [originalDefData, setOriginal] = useState(); // 번역문, 원문
     const [defData, setDef] = useState(); // 지시문 1, 2
 
     // CurrentFile.jsx + 지시문 원문
@@ -19,7 +19,7 @@ export default function EditInst() {
             return res.data.data;
         })
         .then(function(data) {
-            setOrginal(data);
+            setOriginal(data);
         })
     }, [taskId]);
 
