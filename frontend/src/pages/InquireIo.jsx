@@ -11,10 +11,12 @@ export default function InquireIo() {
     // taskNum 내부 state를 사용하여 definition 작업에 영향을 미치지 않도록
     const context = useContext(userContext);
 
-    const taskId = context.state.data.inst_taskId;
+    const taskId = context.state.data.inst_taskId; // 작업하던 taskId
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
-    const [taskNum, setTaskNum] = useState(taskId);
+
+    const [taskNum, setTaskNum] = useState(taskId); // 데이터 로드용
+    const [inputNum, setInput] = useState(taskId); // input 관리용
 
     const [defData, setDef] = useState();
     const [originalDefData, setOriginal] = useState();
@@ -63,14 +65,14 @@ export default function InquireIo() {
                     className={styles.input}
                     type="number"
                     id="task"
-                    // onChange={(e) => {
-                    //     const value = e.target.value;
-                    //     value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                    // }}
+                    onChange={(e) => {
+                        const value = e.target.value;
+                        value >= first_taskId && value <= last_taskId && setInput(parseInt(e.target.value))
+                    }}
                     max="120"
                     min="1"
-                    defaultValue={taskId}
-                    // value={taskNum}
+                    // defaultValue={taskId}
+                    value={inputNum}
                     onKeyDown={handlePressEnter}
                     // onBlur={handleOnBlur}
                 />
