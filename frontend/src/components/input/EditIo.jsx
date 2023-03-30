@@ -199,7 +199,7 @@ export default function EditIo() {
                                 setIdx(prev => parseInt(prev)-1);
                             }
                             else {
-                                alert('마지막입니다.');
+                                alert('첫 인덱스입니다.');
                             }
                         }}
                     ><AiOutlineLeft/>이전</button>
