@@ -8,6 +8,8 @@ import EditInput from './pages/EditInput';
 import InquireInst from './pages/InquireInst';
 import InquireIo from './pages/InquireIo';
 import PrivateRoute from './utility/routes/PrivateRoute';
+import Quiz from './pages/Quiz';
+import EditInstPro from './pages/EditInstPro';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,8 @@ const router = createBrowserRouter([
       { path: '/input', element: <EditInput />},
       { path: '/inquire/instruction', element: <InquireInst />},
       { path: '/inquire/io', element: <InquireIo />},
+      { path: '/quiz', element: <Quiz />},
+      { path: '/admin', element: <EditInstPro />},
     ]
   }
 ]);

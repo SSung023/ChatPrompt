@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 
-import { TbFilePlus, TbFilePencil, TbFileSearch, TbLogout } from 'react-icons/tb';
+import { TbFilePlus, TbFilePencil, TbFileSearch, TbLogout, TbTextSpellcheck, TbZoomCheck } from 'react-icons/tb';
 import { BsArrowBarLeft, BsArrowBarRight } from 'react-icons/bs';
 
 import { NavLink, useNavigate } from 'react-router-dom';
@@ -80,6 +80,15 @@ export default function Navigation() {
                     {isOpen ? <p>입력 전체 조회</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
+
+                {/* <NavLink 
+                    to={`/quiz`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                >
+                    <TbZoomCheck />
+                    {isOpen ? <p>퀴즈</p> : ''}
+                    <p className={styles.bar}></p>
+                </NavLink> */}
             </div>
 
             {/* <div className={styles.divider}/> */}

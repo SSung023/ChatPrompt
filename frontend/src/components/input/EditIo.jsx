@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import { SET_IO_IDX, SET_IO_TASKID, userContext } from '../../context/UserContext';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import TextArea from '../ui/textarea/TextArea';
@@ -22,6 +22,10 @@ export default function EditIo() {
     // 내부 관리용
     const [taskNum, setTaskNum] = useState(() => first_taskId);
     const [taskIdx, setIdx] = useState(1);
+
+    // ref
+    const taskNumRef = useRef();
+    const taskIdxRef = useRef();
 
     // state 관리
     const handleChangeInput = (value) => {
@@ -56,7 +60,7 @@ export default function EditIo() {
             output: `${output}`,
         })
         .then(function(res) {
-            if(taskIdx < 100){
+            if(taskIdx < 60){
                 setInput('');
                 setOutput('');
                 // 다음 index로 state 초기화
@@ -64,7 +68,7 @@ export default function EditIo() {
                 // taskIdx 상승
                 setIdx(prev => parseInt(prev) + 1);
             }
-            else if(taskIdx >= 100){
+            else if(taskIdx >= 60){
                 alert('마지막 인덱스입니다!');
             }
         })
@@ -97,7 +101,7 @@ export default function EditIo() {
             }
             else if(id === "idx") {
                 const value= e.target.value;
-                value >=1 && value <=100 && setIdx(value);
+                value >=1 && value <=60 && setIdx(value);
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
                 context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
                 handleLoad(e);
@@ -112,7 +116,7 @@ export default function EditIo() {
         }
         else if(id === "idx") {
             const value= e.target.value;
-            value >= 1 && value <= 100 && setIdx(value);
+            value >= 1 && value <= 60 && setIdx(value);
             // e.target.style.opacity="0"
         }
     }
@@ -132,6 +136,7 @@ export default function EditIo() {
                 >
                     <label>task: </label>
                     <input 
+                        ref={taskNumRef}
                         type="number"
                         id="task"
                         onChange={(e) => {
@@ -143,21 +148,28 @@ export default function EditIo() {
                         value={taskNum}
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
+                        onClick={() => {
+                            taskNumRef.current.select();
+                        }}
                     />
 
                     <label>index: </label>
                     <input 
+                        ref={taskIdxRef}
                         type="number"
                         id="idx"
                         onChange={(e) => {
                             const value = e.target.value;
-                            value >=1 && value <=100 && setIdx(parseInt(e.target.value));
+                            value >=1 && value <=60 && setIdx(parseInt(e.target.value));
                         }}
-                        max="100"
+                        max="60"
                         min="1"
                         value={taskIdx}
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
+                        onClick={() => {
+                            taskIdxRef.current.select();
+                        }}
                     />
                     <span style={{
                         color: `#e02b2b`,
@@ -213,7 +225,7 @@ export default function EditIo() {
                         className={styles.moveBtn}
                         onClick={(e) => {
                             e.preventDefault();
-                            if(taskIdx < 100){
+                            if(taskIdx < 60){
                                 context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
                                 setIdx(prev => parseInt(prev)+1);
                             }
@@ -243,9 +255,9 @@ export default function EditIo() {
                             id="idx"
                             onChange={(e) => {
                                 const value = e.target.value;
-                                value >=1 && value <=100 && setIdx(parseInt(e.target.value));
+                                value >=1 && value <=60 && setIdx(parseInt(e.target.value));
                             }}
-                            max="100"
+                            max="60"
                             min="1"
                             value={taskIdx}
                             onKeyDown={handlePressEnter}
@@ -256,7 +268,7 @@ export default function EditIo() {
                             className={styles.moveBtn}
                             onClick={(e) => {
                                 e.preventDefault();
-                                if(taskIdx < 100){
+                                if(taskIdx < 60){
                                     context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
                                     setIdx(prev => parseInt(prev)+1);
                                 }

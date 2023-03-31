@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import styles from './Instruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import { SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
@@ -9,9 +9,12 @@ export default function Instruction() {
     const subIdx = context.state.data.sub_idx;
     const taskId = context.state.data.io_taskId;
 
+    // state
     const [data, setData] = useState();
     const [subNum, setSubNum] = useState(1);
 
+    // ref
+    const subNumRef = useRef();
     
     const handleLoad = () => {
         // console.log('load');
@@ -50,6 +53,7 @@ export default function Instruction() {
             <div className={styles.header}>
                 <label>sub index: </label>
                 <input 
+                    ref={subNumRef}
                     type="number"
                     onChange={(e) => {
                         const value = e.target.value;
@@ -60,6 +64,9 @@ export default function Instruction() {
                     value={subNum}
                     onKeyDown={handlePressEnter}
                     onBlur={handleOnBlur}
+                    onClick={() => {
+                        subNumRef.current.select();
+                    }}
                 />
                 {/* <span style={{ 
                     color: `#e02b2b`, 

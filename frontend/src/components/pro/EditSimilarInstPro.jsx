@@ -1,16 +1,16 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
-import { SET_INST_TASKID, SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
+import { SET_INST_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
-import styles from './EditSimilarInst.module.css';
+import styles from './EditSimilarInstPro.module.css';
 // import { TbArrowNarrowLeft, TbArrowNarrowRight } from 'react-icons/tb';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 import axios from 'axios';
 
-export default function EditSimilarInst() {
+export default function EditSimilarInstPro() {
     const context = useContext(userContext);
     const [input1, setInput1] = useState('');
-    // const [input2, setInput2] = useState('');
+    const [input2, setInput2] = useState('');
 
     // const userId = GetUserId(context.state.data.name);
     const taskId = context.state.data.inst_taskId;
@@ -20,23 +20,26 @@ export default function EditSimilarInst() {
 
     // 내부 관리용 taskId state
     const [taskNum, setTaskNum] = useState(() => taskId);
-    const [subNum, setSubNum] = useState(1);
+    // const [subNum, setSubNum] = useState(1);
 
     // ref
     const taskNumRef = useRef();
-    const subNumRef = useRef();
 
     const handleChange1 = (value) => {
         setInput1(value);
     };
+    const handleChange2 = (value) => {
+        setInput2(value);
+    };
 
     const handleLoad = (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment/${subNum}`)
+        axios.get(`/api/admin/tasks/${taskNum}/assignment`)
         .then(function(res) {
             return res.data.data;
         })
         .then(function(data) {
             setInput1(data.similarInstruct1);
+            setInput2(data.similarInstruct2);
             context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
             context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
@@ -48,21 +51,21 @@ export default function EditSimilarInst() {
         })
     }
     const handleSaveAndLoad = (e) => {
-        axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
+        axios.patch(`/api/admin/tasks/${taskNum}/assignment`, {
             similarInstruct1: `${input1}`,
-            // similarInstruct2: `${input2}`,
-            taskSubIdx: subNum,
+            similarInstruct2: `${input2}`,
         })
         .then(function(res) {
-            if(subNum < 10){
+            if(taskNum < 120){
                 // input 창의 내용을 새로 받기 위해서 비워줌
                 setInput1('');
+                setInput2('');
                 // 다음 subIdx로 state 초기화
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(subNum) +1) });
-                // subNum 상승
-                setSubNum(prev => prev + 1);
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(taskNum) +1) });
+                // taskNum 상승
+                setTaskNum(prev => prev + 1);
             }
-            else if(subNum >= 10){
+            else if(taskNum >= 120){
                 alert('마지막 지시문입니다.');
             }
         })
@@ -72,10 +75,9 @@ export default function EditSimilarInst() {
     }
     const handleSave = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment`, {
             similarInstruct1: `${input1}`,
-            // similarInstruct2: `${input2}`,
-            taskSubIdx: subNum,
+            similarInstruct2: `${input2}`,
         })
         .catch(function(err) {
             alert('저장되지 않았습니다.');
@@ -91,13 +93,6 @@ export default function EditSimilarInst() {
                 const value= e.target.value;
                 value >= first_taskId && value <=last_taskId && setTaskNum(value);
                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum });
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: subNum });
-            }
-            else if(id === "subIdx") {
-                const value= e.target.value;
-                value >= 1 && value <= 10 && setSubNum(value);
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum });
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: subNum });
             }
             handleLoad(e);
         }
@@ -107,10 +102,6 @@ export default function EditSimilarInst() {
         if(id === "task") {
             const value = e.target.value;
             value >= first_taskId && value <= last_taskId && setTaskNum(value);
-        }
-        else if(id === "subIdx") {
-            const value = e.target.value;
-            value >= 1 && value <= 10 && setSubNum(value);
         }
     }
 
@@ -139,27 +130,8 @@ export default function EditSimilarInst() {
                             value={taskNum}
                             onKeyDown={handlePressEnter}
                             onBlur={handleOnBlur}
-                            onClick={ () => {
-                                taskNumRef.current.select();
-                            }}
-                        />
-                        {/* definition index */}
-                        <label>sub index: </label>
-                        <input 
-                            ref={subNumRef}
-                            type="number"
-                            id="subIdx"
-                            onChange={(e) => {
-                                const value = e.target.value;
-                                value >= 1 && value <= 10 && setSubNum(parseInt(e.target.value))
-                            }}
-                            max="10"
-                            min="1"
-                            value={subNum}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
                             onClick={() => {
-                                subNumRef.current.select();
+                                taskNumRef.current.select();
                             }}
                         />
                         <span style={{ 
@@ -177,8 +149,8 @@ export default function EditSimilarInst() {
             <div className={styles.edit}>
                 <form>
                     <TextArea input={input1} setInput={handleChange1} placeholder={`유사 지시문 ${subIdx}을 입력하세요.`}/>
-                    {/* <div className={styles.divider}/> */}
-                    {/* <TextArea input={input2} setInput={handleChange2} placeholder={`유사 지시문 2를 입력하세요.`}/> */}
+                    <div className={styles.divider}/>
+                    <TextArea input={input2} setInput={handleChange2} placeholder={`유사 지시문 2를 입력하세요.`}/>
                 </form>
             </div>
 
@@ -186,9 +158,9 @@ export default function EditSimilarInst() {
                 <button 
                     className={styles.moveBtn}
                     onClick={() => {
-                        if(subNum > 1){
-                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
-                            setSubNum(prev => parseInt(prev)-1);
+                        if(taskNum > 1){
+                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1});
+                            setTaskNum(prev => parseInt(prev)-1);
                         }
                         else {
                             alert('첫 지시문입니다.');
@@ -204,9 +176,9 @@ export default function EditSimilarInst() {
                 <button 
                     className={styles.moveBtn}
                     onClick={() => {
-                        if(subNum < 10){
-                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
-                            setSubNum(prev => parseInt(prev)+1);
+                        if(taskNum < 120){
+                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1});
+                            setTaskNum(prev => parseInt(prev)+1);
                         }
                         else {
                             alert('마지막 지시문입니다.');
