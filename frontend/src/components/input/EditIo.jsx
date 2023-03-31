@@ -134,7 +134,7 @@ export default function EditIo() {
                 <form
                     className={styles.ioForm}
                 >
-                    <label>task: </label>
+                    <label className='noDrag'>task: </label>
                     <input 
                         ref={taskNumRef}
                         type="number"
@@ -153,7 +153,7 @@ export default function EditIo() {
                         }}
                     />
 
-                    <label>index: </label>
+                    <label className='noDrag'>index: </label>
                     <input 
                         ref={taskIdxRef}
                         type="number"
@@ -171,12 +171,15 @@ export default function EditIo() {
                             taskIdxRef.current.select();
                         }}
                     />
-                    <span style={{
-                        color: `#e02b2b`,
-                        fontSize: `12px`,
-                        marginLeft: `1em`,
-                        lineHeight: `1.5em`,
-                    }}>
+                    <span 
+                        style={{
+                            color: `#e02b2b`,
+                            fontSize: `12px`,
+                            marginLeft: `1em`,
+                            lineHeight: `1.5em`,
+                        }}
+                        className='noDrag'
+                    >
                         ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
                     </span>
                 </form>
@@ -187,15 +190,15 @@ export default function EditIo() {
                 <Table>
                     <TableBody>
                         <TableRow>
-                            <TableHead>{`입력${idx}`}</TableHead>
-                            <TableCell>
-                                <TextArea input={input} setInput={handleChangeInput} placeholder={`입력을 작성하세요.`}/>
+                            <TableHead>{`입력 ${idx}`}</TableHead>
+                            <TableCell style={{border: `1px solid var(--line-color)`, padding: `0.5em 1em`}}>
+                                <TextArea input={input} setInput={handleChangeInput} placeholder={`입력을 작성하세요.`} style={{paddingRight: `0`, paddingLeft: `0`,}}/>
                             </TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableHead>{`출력${idx}`}</TableHead>
-                            <TableCell>
-                                <TextArea input={output} setInput={handleChangeOutput} placeholder={`출력을 작성하세요.`}/>
+                            <TableHead>{`출력 ${idx}`}</TableHead>
+                            <TableCell style={{border: `1px solid var(--line-color)`, padding: `0.5em 1em`}}>
+                                <TextArea input={output} setInput={handleChangeOutput} placeholder={`출력을 작성하세요.`} style={{paddingRight: `0`, paddingLeft: `0`,}}/>
                             </TableCell>
                         </TableRow>
                     </TableBody>

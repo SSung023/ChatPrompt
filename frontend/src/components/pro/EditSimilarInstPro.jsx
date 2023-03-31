@@ -75,9 +75,12 @@ export default function EditSimilarInstPro() {
     }
     const handleSave = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+        axios.patch(`/api/admin/tasks/${taskNum}/assignment`, {
             similarInstruct1: `${input1}`,
             similarInstruct2: `${input2}`,
+        })
+        .then(function() {
+            window.location.reload();
         })
         .catch(function(err) {
             alert('저장되지 않았습니다.');
@@ -116,7 +119,7 @@ export default function EditSimilarInstPro() {
                     <p className={styles.title}>* 다음 유사 지시문 2개를 작성하시오.</p>
                     <form>
                         {/* task index(assigned task) */}
-                        <label>task: </label>
+                        <label className='noDrag'>task: </label>
                         <input 
                             ref={taskNumRef}
                             type="number"

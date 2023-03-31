@@ -77,6 +77,10 @@ export default function EditSimilarInst() {
             // similarInstruct2: `${input2}`,
             taskSubIdx: subNum,
         })
+        .then(function() {
+            // alert('저장되었습니다.');
+            // window.location.reload();
+        })
         .catch(function(err) {
             alert('저장되지 않았습니다.');
         })
@@ -122,10 +126,10 @@ export default function EditSimilarInst() {
         <>
             <div className={styles.wrapper}>
                 <div className={styles.header}>
-                    <p className={styles.title}>* 다음 유사 지시문 2개를 작성하시오.</p>
+                    <p className={styles.title}>* 유사 지시문(1~10)을 작성하시오.</p>
                     <form>
                         {/* task index(assigned task) */}
-                        <label>task: </label>
+                        <label className='noDrag'>task: </label>
                         <input 
                             ref={taskNumRef}
                             type="number"
@@ -144,7 +148,7 @@ export default function EditSimilarInst() {
                             }}
                         />
                         {/* definition index */}
-                        <label>sub index: </label>
+                        <label className='noDrag'>sub index: </label>
                         <input 
                             ref={subNumRef}
                             type="number"
@@ -162,12 +166,15 @@ export default function EditSimilarInst() {
                                 subNumRef.current.select();
                             }}
                         />
-                        <span style={{ 
-                            color: `#e02b2b`, 
-                            fontSize: `12px`, 
-                            marginLeft: `1em`,
-                            lineHeight: `1.5em`,
-                        }}>
+                        <span 
+                            style={{
+                                color: `#e02b2b`,
+                                fontSize: `12px`,
+                                marginLeft: `1em`,
+                                lineHeight: `1.5em`,
+                            }}
+                            className='noDrag'
+                        >
                             ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
                         </span>
                     </form>
@@ -198,7 +205,7 @@ export default function EditSimilarInst() {
 
                 <div className={styles.btnWrapper}>
                     <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
-                    <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음 페이지로 이동</button>    
+                    <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>    
                 </div>
                 
                 <button 
