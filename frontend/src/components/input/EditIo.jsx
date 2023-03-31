@@ -203,7 +203,7 @@ export default function EditIo() {
 
                 <div className={styles.buttons}>
                     <button
-                        className={styles.moveBtn}
+                        className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
                             if(taskIdx > 1){
@@ -217,12 +217,12 @@ export default function EditIo() {
                     ><AiOutlineLeft/>이전</button>
                     
                     <div className={styles.btnWrapper}>
-                        <button onClick={handleSave} className={styles.button}>저장</button>
-                        <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음으로 이동</button>
+                        <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
+                        <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>
                     </div>
                     
                     <button 
-                        className={styles.moveBtn}
+                        className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
                             if(taskIdx < 60){

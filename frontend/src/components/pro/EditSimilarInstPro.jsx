@@ -107,7 +107,7 @@ export default function EditSimilarInstPro() {
 
     useEffect(() => {
         handleLoad();
-    }, [subIdx]);
+    }, [taskId]);
     
     return (
         <>
@@ -156,7 +156,7 @@ export default function EditSimilarInstPro() {
 
             <div className={styles.buttons}>
                 <button 
-                    className={styles.moveBtn}
+                    className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
                         if(taskNum > 1){
                             context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1});
@@ -169,12 +169,12 @@ export default function EditSimilarInstPro() {
                 ><AiOutlineLeft/>이전</button>
 
                 <div className={styles.btnWrapper}>
-                    <button onClick={handleSave} className={styles.button}>저장</button>
-                    <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음 페이지로 이동</button>    
+                    <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
+                    <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음 페이지로 이동</button>    
                 </div>
                 
                 <button 
-                    className={styles.moveBtn}
+                    className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
                         if(taskNum < 120){
                             context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1});

@@ -184,7 +184,7 @@ export default function EditSimilarInst() {
 
             <div className={styles.buttons}>
                 <button 
-                    className={styles.moveBtn}
+                    className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
                         if(subNum > 1){
                             context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
@@ -197,12 +197,12 @@ export default function EditSimilarInst() {
                 ><AiOutlineLeft/>이전</button>
 
                 <div className={styles.btnWrapper}>
-                    <button onClick={handleSave} className={styles.button}>저장</button>
-                    <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음 페이지로 이동</button>    
+                    <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
+                    <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음 페이지로 이동</button>    
                 </div>
                 
                 <button 
-                    className={styles.moveBtn}
+                    className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
                         if(subNum < 10){
                             context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
