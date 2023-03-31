@@ -9,20 +9,21 @@ import { SET_TASKNAME, userContext } from '../context/UserContext';
 export default function EditInst() {
     const context = useContext(userContext);
     const taskId = context.state.data.inst_taskId;
-    const [originalDefData, setOrginal] = useState(); // 번역문, 원문
+    const [originalDefData, setOriginal] = useState(); // 번역문, 원문
     const [defData, setDef] = useState(); // 지시문 1, 2
 
+    // CurrentFile.jsx + 지시문 원문
     useEffect(() => {
         taskId && axios.get(`/api/tasks/${taskId}`)
         .then(function(res) {
             return res.data.data;
         })
         .then(function(data) {
-            setOrginal(data);
-            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle });
+            setOriginal(data);
         })
     }, [taskId]);
 
+    // Directive.jsx 지시문1, 지시문2
     useEffect(() => {
         axios.get(`/api/tasks/${taskId}/definitions`)
         .then(function(res) {
@@ -40,7 +41,7 @@ export default function EditInst() {
     return (
         defData && 
         <div className='body'>
-            <CurrentFile ptaskName='지시문' taskId={taskId}/>
+            <CurrentFile taskId={taskId}/>
             <Directive defData={defData} originalDefData={originalDefData}/>
             <EditSimilarInst />
             <References taskId={taskId} originalDefData={originalDefData}/>

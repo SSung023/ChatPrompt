@@ -5,7 +5,8 @@ import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Ta
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditIo.module.css';
 
-import { TbCircleArrowRightFilled, TbCircleArrowLeftFilled } from 'react-icons/tb';
+// import { TbCircleArrowRightFilled, TbCircleArrowLeftFilled } from 'react-icons/tb';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 export default function EditIo() {
     const context = useContext(userContext);
@@ -19,7 +20,7 @@ export default function EditIo() {
     const idx = context.state.data.io_idx;
 
     // 내부 관리용
-    const [taskNum, setTaskNum] = useState(taskId);
+    const [taskNum, setTaskNum] = useState(() => first_taskId);
     const [taskIdx, setIdx] = useState(1);
 
     // state 관리
@@ -32,7 +33,7 @@ export default function EditIo() {
 
     // 입출력 입력칸에 불러오기
     const handleLoad = async (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment/${taskIdx}`)
+        axios.get(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`)
         .then(function(res) {
             return res.data.data;
         })
@@ -50,13 +51,11 @@ export default function EditIo() {
     // 제출하고 다음으로 이동
     const handleSaveAndLoad = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
         })
         .then(function(res) {
-            // console.log('result:');
-            // console.log(res);
             if(taskIdx < 100){
                 setInput('');
                 setOutput('');
@@ -76,13 +75,9 @@ export default function EditIo() {
     // 제출
     const handleSave = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment/${taskIdx}`, {
+        axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
-        })
-        .then(function(res) {
-            // console.log(res);
-            // return res;
         })
         .catch(function(err) {
             console.log(err);
@@ -118,13 +113,14 @@ export default function EditIo() {
         else if(id === "idx") {
             const value= e.target.value;
             value >= 1 && value <= 100 && setIdx(value);
+            // e.target.style.opacity="0"
         }
     }
 
     useEffect(() => {
         // 입출력 작성 폼에 불러오기
         handleLoad();
-    }, [taskId]);
+    }, [taskId, idx]);
 
     return (
         <div className={styles.ioEdit}>
@@ -203,10 +199,10 @@ export default function EditIo() {
                                 setIdx(prev => parseInt(prev)-1);
                             }
                             else {
-                                alert('마지막입니다.');
+                                alert('첫 인덱스입니다.');
                             }
                         }}
-                    ><TbCircleArrowLeftFilled/></button>
+                    ><AiOutlineLeft/>이전</button>
                     
                     <div className={styles.btnWrapper}>
                         <button onClick={handleSave} className={styles.button}>저장</button>
@@ -225,7 +221,52 @@ export default function EditIo() {
                                 alert('마지막입니다.');
                             }
                         }}
-                    ><TbCircleArrowRightFilled/></button>
+                    >다음<AiOutlineRight/></button>
+
+                    {/* <div className={styles.pagination}>
+                        <button
+                            className={styles.moveBtn}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                if(taskIdx > 1){
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
+                                    setIdx(prev => parseInt(prev)-1);
+                                }
+                                else {
+                                    alert('마지막입니다.');
+                                }
+                            }}
+                        ><AiOutlineLeft/>index</button>
+                        <input 
+                            className={styles.testInput}
+                            type="number"
+                            id="idx"
+                            onChange={(e) => {
+                                const value = e.target.value;
+                                value >=1 && value <=100 && setIdx(parseInt(e.target.value));
+                            }}
+                            max="100"
+                            min="1"
+                            value={taskIdx}
+                            onKeyDown={handlePressEnter}
+                            onBlur={handleOnBlur}
+                            // onClick={(e) => e.target.style.opacity="1"}
+                        />
+                        <button 
+                            className={styles.moveBtn}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                if(taskIdx < 100){
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
+                                    setIdx(prev => parseInt(prev)+1);
+                                }
+                                else {
+                                    alert('마지막입니다.');
+                                }
+                            }}
+                        >index<AiOutlineRight/></button>
+                    </div> */}
+                    
                 </div>
             </form>
         </div>

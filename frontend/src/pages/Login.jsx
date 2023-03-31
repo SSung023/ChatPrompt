@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SET_FIRST_TASKID, SET_LAST_TASKID, SET_NAME, userContext } from '../context/UserContext';
+import { SET_FIRST_TASKID, SET_INST_TASKID, SET_LAST_TASKID, userContext } from '../context/UserContext';
 import styles from './Login.module.css';
 
 export default function Login() {
@@ -28,7 +28,7 @@ export default function Login() {
         // 로그인 시 identifier과 username을 쿼리문으로 전송
         axios.post(`/api/login?identifier=${identifier}&username=${annotator}`)
         .then(function(res) {
-            context.actions.contextDispatch({ type: SET_NAME, data: annotator });
+            context.actions.contextDispatch({ type: SET_INST_TASKID, data: res.data.data.lastModifiedTaskNum });
             context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: res.data.data.taskStartIdx });
             context.actions.contextDispatch({ type: SET_LAST_TASKID, data: res.data.data.taskEndIdx });
         })

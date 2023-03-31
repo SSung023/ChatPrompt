@@ -39,7 +39,7 @@ public class Assignment {
     @Column(columnDefinition = "TEXT")
     private String output; // 출력
 
-//    private Long ioIndex; // input&output 인덱스 ex) 1a, 1b에서의 1
+    private Long taskSubIdx; // Task마다 유사지시문의 인덱스 (1~10의 범위)
 
 
     @Builder
@@ -80,7 +80,10 @@ public class Assignment {
             }
         }
     }
-
+    // task sub index 설정
+    public void addTaskSubIndex(Long taskSubIdx){
+        this.taskSubIdx = taskSubIdx;
+    }
     // 입력 & 출력 갱신
     public void updateIO(String input, String output){
         this.input = input;

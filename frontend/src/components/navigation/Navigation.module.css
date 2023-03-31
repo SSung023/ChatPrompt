@@ -19,9 +19,10 @@
 /* logo */
 
 .logo {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     box-sizing: border-box;
     padding: 1em;
@@ -48,6 +49,15 @@
     background-color: transparent;
     border: none;
     border-radius: 50%;
+}
+
+.toggleBtn.open {
+    position: absolute;
+    right: 1em;
+}
+
+.toggleBtn.close {
+    position: static;
 }
 
 .toggleBtn > svg {
