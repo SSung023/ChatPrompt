@@ -81,7 +81,7 @@ public class TaskService {
         Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
-        List<IOPairs> pairsByTaskId = ioPairRepository.findPairsByAssignedId(taskId);
+        List<IOPairs> pairsByTaskId = ioPairRepository.findPairsByTaskId(taskId);
 
         return pairsByTaskId.stream()
                 .map(p -> convertToIOResponse(p))

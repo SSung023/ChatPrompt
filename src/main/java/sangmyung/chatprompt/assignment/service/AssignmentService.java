@@ -9,13 +9,10 @@ import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.dto.*;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
-import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.domain.Task;
 import sangmyung.chatprompt.task.dto.TaskResponse;
-import sangmyung.chatprompt.task.repository.IoPairRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
-import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.ArrayList;
 import java.util.List;
