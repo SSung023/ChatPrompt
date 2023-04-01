@@ -1,6 +1,8 @@
 .table {
+    table-layout: fixed;
     width: 80%;
     min-width: 30em;
+    max-width: 70em;
     padding: 0;
     border-radius: 5px;
 }
@@ -11,7 +13,8 @@
     border-radius: 5px;
     border: 1px solid var(--grey-line-color);
     font-weight: var(--regular);
-    width: 12%;
+
+    width: 6em;
 
     white-space: pre;
     background-color: var(--table-color);

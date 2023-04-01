@@ -54,26 +54,56 @@ public class AssignmentService {
     }
 
     /**
-     * 사용자가 이전에 작성했던 유사지시문 2개를 반환 - 만일 기존에 없었다면 새로 생성하여 전달
+     * 관리자(어드민) 전용 기능
+     * 사용자가 이전에 작성했던 유사지시문 2개를 반환 - 만일 기존에 없었다면 null을 담아서 전달
      * @param user 해당 내용을 작성한 사용자
      * @param assignedTaskId 내용을 작성한 Task가 할당받은 번호
      */
-    @Transactional
-    public SimilarInstructResponse getWrittenSimilar(User user, Long assignedTaskId){
-        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+    public AssignResponse getAdminWrittenSimilar(User user, Long assignedTaskId){
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Long taskId = task.getId();
 
         Optional<Assignment> optionalAssignment = assignRepository.getAssignment(user.getId(), taskId);
 
         if (optionalAssignment.isEmpty()){
-            return SimilarInstructResponse.builder()
+            return AssignResponse.builder()
+                    .taskTitle(task.getTaskStr())
                     .similarInstruct1(null)
                     .similarInstruct2(null)
                     .build();
         }
 
-        return convertToSimilar(optionalAssignment.get());
+        return convertToAssignResponse(task.getTaskStr(), optionalAssignment.get());
     }
+
+    /**
+     * 관리자(어드민) 전용 기능
+     * 사용자가 이전에 작성했던 유사지시문 2개를 수정 - 만일 기존에 없다면 새로 생성하여 전달
+     * @param user 해당 내용을 작성한 사용자(관리자)
+     * @param assignedTaskId 내용을 작성한 Task가 할당받은 번호
+     */
+    @Transactional
+    public AssignResponse updateAdminWrittenSimilar(User user, Long assignedTaskId, AssignRequest assignRequest){
+        Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Long taskId = task.getId();
+
+        Optional<Assignment> optional = assignRepository.getAssignment(user.getId(), taskId);
+        if (optional.isEmpty()){
+            return AssignResponse.builder()
+                    .taskTitle(task.getTaskStr())
+                    .similarInstruct1(null)
+                    .similarInstruct2(null)
+                    .build();
+        }
+        Assignment assignment = optional.get();
+        assignment.updateSimilarInstruct(assignRequest);
+
+
+        return convertToAssignResponse(task.getTaskStr(), assignment);
+    }
+
 
     /**
      * 해당 사용자가 해당 Task에서 작성한 내용을 반환
@@ -82,7 +112,6 @@ public class AssignmentService {
      * @param user 해당 내용을 작성한 사용자
      * @param assignedTaskId 내용을 작성한 Task의 할당된 번호 -> PK 변환 필요
      */
-    @Transactional
     public AssignResponse getWrittenAssignment(User user, Long assignedTaskId, Long taskSubIdx){
         Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
@@ -178,36 +207,6 @@ public class AssignmentService {
         }
         return assignmentList;
     }
-
-    /**
-     * 특정 Task에서 사용자들이 작성한 유사지시문(총 10개)를 List로 반환
-     * @param assignedTaskId 사용자들이 작성한 유사지시문 쌍을 알고 싶은 Task PK
-     */
-//    public List<SimilarInstructResponse> getTaskEverySimilar(Long assignedTaskId){ // 여기서부터
-//        Long taskId = taskRepository.findTaskPK(assignedTaskId)
-//                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-//
-//        List<SimilarInstructResponse> assignmentList = new ArrayList<>();
-//
-//        // 작성한 유사지시문이 있다면 내용을 convert
-//        List<Assignment> assignments = assignRepository.getAssignmentList(taskId); // error
-//        for (Assignment assignment : assignments) {
-//            assignmentList.add(convertToSimilar(assignment));
-//        }
-//
-//        // 10개가 안될 때 더미 데이터로 채우기
-//        int len = assignmentList.size();
-//        if (len < 10) {
-//            int remain = 10 - len;
-//            for (int i = 0; i < remain; ++i){
-//                assignmentList.add(SimilarInstructResponse.builder()
-//                        .similarInstruct1("유사 지시문1이 아직 작성되지 않았습니다.")
-//                        .similarInstruct2("유사 지시문2가 아직 작성되지 않았습니다.")
-//                        .build());
-//            }
-//        }
-//        return assignmentList;
-//    }
 
     /**
      *

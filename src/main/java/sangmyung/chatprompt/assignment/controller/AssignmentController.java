@@ -109,27 +109,6 @@ public class AssignmentController {
     }
 
 
-
-    /**
-     * 특정 Task에서 사용자가 작성한 유사 지시문 1을 반환 -> '입력 편집' 페이지에서 지시문1로 표현됨
-     * @param taskId 유사 지시문 1&2를 가지고 오고자 하는 Task의 PK
-     * 이전 api: /api/tasks/{taskId}/assignment-similar
-     */
-//    @GetMapping("/tasks/{taskId}/io-definitions")
-//    public SingleResponse<SimilarInstructResponse> getSimilarInstruct(HttpServletRequest request, @PathVariable Long taskId){
-//        // Session에서 User의 정보를 얻음
-//        Long userId = userService.getUserIdFromSession(request);
-//        if (userId == null){
-//            throw new BusinessException(ErrorCode.NO_AUTHORITY);
-//        }
-//
-//        User user = userService.findUserById(userId);
-//        SimilarInstructResponse similarInstructs = assignmentService.getWrittenSimilar(user, taskId);
-//
-//        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarInstructs);
-//    }
-
-
     /**
      * 특정 Task에 대해 사람들이 작성한 유사지시문(총 10개)를 반환 - 관리자 용도
      * @param taskId 사람들이 작성한 유사지시문 리스트를 얻고 싶은 테스크의 할당받은 인덱스

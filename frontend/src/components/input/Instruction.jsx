@@ -1,17 +1,21 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import styles from './Instruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import { SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 export default function Instruction() {
     const context = useContext(userContext);
     const subIdx = context.state.data.sub_idx;
     const taskId = context.state.data.io_taskId;
 
+    // state
     const [data, setData] = useState();
     const [subNum, setSubNum] = useState(1);
 
+    // ref
+    const subNumRef = useRef();
     
     const handleLoad = () => {
         // console.log('load');
@@ -48,8 +52,10 @@ export default function Instruction() {
         data &&
         <div className={styles.instruction}>
             <div className={styles.header}>
-                <label>sub index: </label>
+                <p className={styles.title}>* 내가 쓴 지시문 조회</p>
+                <label className='noDrag'>sub index: </label>
                 <input 
+                    ref={subNumRef}
                     type="number"
                     onChange={(e) => {
                         const value = e.target.value;
@@ -60,7 +66,18 @@ export default function Instruction() {
                     value={subNum}
                     onKeyDown={handlePressEnter}
                     onBlur={handleOnBlur}
+                    onClick={() => {
+                        subNumRef.current.select();
+                    }}
                 />
+                <p 
+                    className='noDrag'
+                    style={{
+                        color: "var(--light-main-color)", 
+                        fontSize: "14px",
+                        marginLeft: "1em",
+                    }}
+                >✓ 엔터를 누르면 조회됩니다.</p>
                 {/* <span style={{ 
                     color: `#e02b2b`, 
                     fontSize: `12px`, 
@@ -70,14 +87,46 @@ export default function Instruction() {
                     ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
                 </span> */}
             </div>
+            
+            {/* show similar instruct */}
             <Table>
                 <TableBody>
                     <TableRow>
-                        <TableHead>{`유사\n지시문${subIdx}`}</TableHead>
+                        <TableHead>{`유사\n지시문 ${subIdx}`}</TableHead>
+                        {/* <TableHead>{`${subIdx}번`}</TableHead> */}
                         <TableCell>{data.similarInstruct1 ? data.similarInstruct1 : <span style={{color: "var(--placeholder-txt-color)"}} className="noDrag">작성한 지시문이 없습니다.</span>}</TableCell>
                     </TableRow>
                 </TableBody>
             </Table>
+
+            {/* buttons */}
+            <div className={styles.buttons}>
+                <button 
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={() => {
+                        if(subNum > 1){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
+                            setSubNum(prev => parseInt(prev)-1);
+                        }
+                        else {
+                            alert('첫 지시문입니다.');
+                        }
+                    }}    
+                ><AiOutlineLeft/>이전</button>
+
+                <button 
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={() => {
+                        if(subNum < 10){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
+                            setSubNum(prev => parseInt(prev)+1);
+                        }
+                        else {
+                            alert('마지막 지시문입니다.');
+                        }
+                    }}
+                >다음<AiOutlineRight/></button>
+            </div>
         </div>
     );
 }

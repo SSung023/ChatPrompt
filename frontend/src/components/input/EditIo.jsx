@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import { SET_IO_IDX, SET_IO_TASKID, userContext } from '../../context/UserContext';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import TextArea from '../ui/textarea/TextArea';
@@ -22,6 +22,10 @@ export default function EditIo() {
     // 내부 관리용
     const [taskNum, setTaskNum] = useState(() => first_taskId);
     const [taskIdx, setIdx] = useState(1);
+
+    // ref
+    const taskNumRef = useRef();
+    const taskIdxRef = useRef();
 
     // state 관리
     const handleChangeInput = (value) => {
@@ -56,7 +60,7 @@ export default function EditIo() {
             output: `${output}`,
         })
         .then(function(res) {
-            if(taskIdx < 100){
+            if(taskIdx < 60){
                 setInput('');
                 setOutput('');
                 // 다음 index로 state 초기화
@@ -64,7 +68,7 @@ export default function EditIo() {
                 // taskIdx 상승
                 setIdx(prev => parseInt(prev) + 1);
             }
-            else if(taskIdx >= 100){
+            else if(taskIdx >= 60){
                 alert('마지막 인덱스입니다!');
             }
         })
@@ -97,7 +101,7 @@ export default function EditIo() {
             }
             else if(id === "idx") {
                 const value= e.target.value;
-                value >=1 && value <=100 && setIdx(value);
+                value >=1 && value <=60 && setIdx(value);
                 context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
                 context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
                 handleLoad(e);
@@ -112,7 +116,7 @@ export default function EditIo() {
         }
         else if(id === "idx") {
             const value= e.target.value;
-            value >= 1 && value <= 100 && setIdx(value);
+            value >= 1 && value <= 60 && setIdx(value);
             // e.target.style.opacity="0"
         }
     }
@@ -130,8 +134,9 @@ export default function EditIo() {
                 <form
                     className={styles.ioForm}
                 >
-                    <label>task: </label>
+                    <label className='noDrag'>task: </label>
                     <input 
+                        ref={taskNumRef}
                         type="number"
                         id="task"
                         onChange={(e) => {
@@ -143,28 +148,38 @@ export default function EditIo() {
                         value={taskNum}
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
+                        onClick={() => {
+                            taskNumRef.current.select();
+                        }}
                     />
 
-                    <label>index: </label>
+                    <label className='noDrag'>index: </label>
                     <input 
+                        ref={taskIdxRef}
                         type="number"
                         id="idx"
                         onChange={(e) => {
                             const value = e.target.value;
-                            value >=1 && value <=100 && setIdx(parseInt(e.target.value));
+                            value >=1 && value <=60 && setIdx(parseInt(e.target.value));
                         }}
-                        max="100"
+                        max="60"
                         min="1"
                         value={taskIdx}
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
+                        onClick={() => {
+                            taskIdxRef.current.select();
+                        }}
                     />
-                    <span style={{
-                        color: `#e02b2b`,
-                        fontSize: `12px`,
-                        marginLeft: `1em`,
-                        lineHeight: `1.5em`,
-                    }}>
+                    <span 
+                        style={{
+                            color: `#e02b2b`,
+                            fontSize: `12px`,
+                            marginLeft: `1em`,
+                            lineHeight: `1.5em`,
+                        }}
+                        className='noDrag'
+                    >
                         ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
                     </span>
                 </form>
@@ -175,15 +190,15 @@ export default function EditIo() {
                 <Table>
                     <TableBody>
                         <TableRow>
-                            <TableHead>{`입력${idx}`}</TableHead>
-                            <TableCell>
-                                <TextArea input={input} setInput={handleChangeInput} placeholder={`입력을 작성하세요.`}/>
+                            <TableHead>{`입력 ${idx}`}</TableHead>
+                            <TableCell style={{border: `1px solid var(--line-color)`, padding: `0.5em 1em`}}>
+                                <TextArea input={input} setInput={handleChangeInput} placeholder={`입력을 작성하세요.`} style={{paddingRight: `0`, paddingLeft: `0`,}}/>
                             </TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableHead>{`출력${idx}`}</TableHead>
-                            <TableCell>
-                                <TextArea input={output} setInput={handleChangeOutput} placeholder={`출력을 작성하세요.`}/>
+                            <TableHead>{`출력 ${idx}`}</TableHead>
+                            <TableCell style={{border: `1px solid var(--line-color)`, padding: `0.5em 1em`}}>
+                                <TextArea input={output} setInput={handleChangeOutput} placeholder={`출력을 작성하세요.`} style={{paddingRight: `0`, paddingLeft: `0`,}}/>
                             </TableCell>
                         </TableRow>
                     </TableBody>
@@ -191,7 +206,7 @@ export default function EditIo() {
 
                 <div className={styles.buttons}>
                     <button
-                        className={styles.moveBtn}
+                        className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
                             if(taskIdx > 1){
@@ -205,15 +220,15 @@ export default function EditIo() {
                     ><AiOutlineLeft/>이전</button>
                     
                     <div className={styles.btnWrapper}>
-                        <button onClick={handleSave} className={styles.button}>저장</button>
-                        <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음으로 이동</button>
+                        <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
+                        <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>
                     </div>
                     
                     <button 
-                        className={styles.moveBtn}
+                        className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
-                            if(taskIdx < 100){
+                            if(taskIdx < 60){
                                 context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
                                 setIdx(prev => parseInt(prev)+1);
                             }
@@ -243,9 +258,9 @@ export default function EditIo() {
                             id="idx"
                             onChange={(e) => {
                                 const value = e.target.value;
-                                value >=1 && value <=100 && setIdx(parseInt(e.target.value));
+                                value >=1 && value <=60 && setIdx(parseInt(e.target.value));
                             }}
-                            max="100"
+                            max="60"
                             min="1"
                             value={taskIdx}
                             onKeyDown={handlePressEnter}
@@ -256,7 +271,7 @@ export default function EditIo() {
                             className={styles.moveBtn}
                             onClick={(e) => {
                                 e.preventDefault();
-                                if(taskIdx < 100){
+                                if(taskIdx < 60){
                                     context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
                                     setIdx(prev => parseInt(prev)+1);
                                 }

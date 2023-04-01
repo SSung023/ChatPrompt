@@ -54,7 +54,7 @@ export default function IoReference({ taskId, idx }) {
                         <TableBody>
                             {makeDefinition}
                             <TableRow>
-                                <TableHead>{`입력${idx}`}</TableHead>
+                                <TableHead>{`입력 ${idx}`}</TableHead>
                                 <TableCell>
                                     <span style={{color: `var(--g-dark-txt-color)`}}>{io.input1}</span>
                                     <br/>
@@ -62,7 +62,7 @@ export default function IoReference({ taskId, idx }) {
                                 </TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableHead>{`출력${idx}`}</TableHead>
+                                <TableHead>{`출력 ${idx}`}</TableHead>
                                 <TableCell>
                                     <span style={{color: `var(--g-dark-txt-color)`}}>{io.output1}</span>
                                     <br/>
