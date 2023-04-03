@@ -84,7 +84,6 @@ export default function EditIo() {
                     setIdx(1);
                 }
                 else {
-                    console.log(taskNum);
                     alert('마지막입니다!');
                 }
             }
