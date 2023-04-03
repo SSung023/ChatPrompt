@@ -23,11 +23,13 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id = null")
     List<Assignment> getAssignmentList(@Param("taskId") Long taskId);
 
-    @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id = null and a.taskSubIdx != null order by a.taskSubIdx asc")
-    List<Assignment> getWrittenAssignList(@Param("taskId") Long taskId, Pageable pageable);
+    // 특정 Task에 대해 특정 사용자가 작성한 유사지시문 10개를 반환
+    @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.ioPairs.id = null and a.taskSubIdx != null order by a.taskSubIdx asc")
+    List<Assignment> getWrittenAssignList(@Param("userId") Long userId, @Param("taskId") Long taskId, Pageable pageable);
 
-    @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id != null")
-    List<Assignment> getIOPairList(@Param("taskId") Long taskId);
+    // 특정 Task에 대해 특정 사용자가 작성한 입출력을 반환
+    @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.ioPairs.id != null")
+    List<Assignment> getIOPairList(@Param("userId") Long userId, @Param("taskId") Long taskId);
 
 
     // userId, taskId, ioIndex를 통해 작성한 입출력 정보(Assignment)를 반환 -> 입출력 작성

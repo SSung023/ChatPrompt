@@ -184,13 +184,13 @@ public class AssignmentService {
      * 사용자가 작성한 유사지시문 10개를 반환
      * @param assignedTaskId
      */
-    public List<SingleInstructResponse> getWrittenTaskSimilar(Long assignedTaskId, Pageable pageable){
+    public List<SingleInstructResponse> getWrittenTaskSimilar(Long userId, Long assignedTaskId, Pageable pageable){
         Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         List<SingleInstructResponse> assignmentList = new ArrayList<>();
 
-        List<Assignment> assignments = assignRepository.getWrittenAssignList(taskId, pageable);
+        List<Assignment> assignments = assignRepository.getWrittenAssignList(userId, taskId, pageable);
         for (Assignment assignment : assignments) {
             assignmentList.add(convertToSingleInstruct(assignment));
         }
@@ -213,12 +213,12 @@ public class AssignmentService {
      *
      * @param assignedTaskId 입력한 입출력 쌍을 알고 싶은 Task의 PK
      */
-    public List<AssignIOResponse> getIOPairList(Long assignedTaskId){
+    public List<AssignIOResponse> getIOPairList(Long userId, Long assignedTaskId){
         Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         List<AssignIOResponse> ioList = new ArrayList<>();
-        List<Assignment> ioPairList = assignRepository.getIOPairList(task.getId());
+        List<Assignment> ioPairList = assignRepository.getIOPairList(userId, task.getId());
         for (Assignment assignment : ioPairList) {
             ioList.add(convertToAssignIOResponse(assignment));
         }
