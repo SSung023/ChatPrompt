@@ -118,7 +118,7 @@ export default function EditSimilarInst() {
                 const value= e.target.value;
                 value >= first_taskId && value <=last_taskId && setTaskNum(parseInt(value));
                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(1) });
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
             }
             else if(id === "subIdx") {
                 const value= e.target.value;
@@ -142,6 +142,7 @@ export default function EditSimilarInst() {
     }
 
     useEffect(() => {
+        // setSubNum(subIdx);
         handleLoad();
     }, [subIdx]);
 
