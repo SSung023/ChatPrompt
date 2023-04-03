@@ -116,9 +116,9 @@ public class AssignmentController {
                     ,@PageableDefault(size = 10, sort = "taskSubIdx", direction = Sort.Direction.ASC) Pageable pageable){
 
         // Session에서 User의 정보를 얻음
-        validateTaskIdxAndGetUser(request, taskId);
+        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
 
-        List<SingleInstructResponse> similarList = assignmentService.getWrittenTaskSimilar(taskId, pageable);
+        List<SingleInstructResponse> similarList = assignmentService.getWrittenTaskSimilar(userId, taskId, pageable);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarList);
     }
@@ -131,9 +131,9 @@ public class AssignmentController {
     @GetMapping("/tasks/{taskId}/assignment-io/lists")
     public ListResponse<AssignIOResponse> getIOPairList(HttpServletRequest request, @PathVariable Long taskId){
         // Session에서 User의 정보를 얻음
-        validateTaskIdxAndGetUser(request, taskId);
+        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
 
-        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(taskId);
+        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(userId, taskId);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairList);
     }
