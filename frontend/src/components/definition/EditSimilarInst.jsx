@@ -12,14 +12,13 @@ export default function EditSimilarInst() {
     const [input1, setInput1] = useState('');
     // const [input2, setInput2] = useState('');
 
-    // const userId = GetUserId(context.state.data.name);
     const taskId = context.state.data.inst_taskId;
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
     const subIdx = context.state.data.sub_idx;
 
     // 내부 관리용 taskId state
-    const [taskNum, setTaskNum] = useState(() => taskId);
+    const [taskNum, setTaskNum] = useState(taskId);
     const [subNum, setSubNum] = useState(1);
 
     // ref
@@ -37,7 +36,7 @@ export default function EditSimilarInst() {
         })
         .then(function(data) {
             setInput1(data.similarInstruct1);
-            context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
+            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)});
             context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
         .catch(function(err) {
@@ -48,6 +47,12 @@ export default function EditSimilarInst() {
         })
     }
     const handleSaveAndLoad = (e) => {
+        e.preventDefault();
+        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+            alert('task id 확인 후 다시 제출해주세요.');
+            return;
+        }
+
         axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
             similarInstruct1: `${input1}`,
             // similarInstruct2: `${input2}`,
@@ -58,20 +63,38 @@ export default function EditSimilarInst() {
                 // input 창의 내용을 새로 받기 위해서 비워줌
                 setInput1('');
                 // 다음 subIdx로 state 초기화
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(subNum) +1) });
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(subNum) + 1) });
                 // subNum 상승
-                setSubNum(prev => prev + 1);
+                setSubNum(prev => parseInt(prev) + 1);
             }
             else if(subNum >= 10){
-                alert('마지막 지시문입니다.');
+                if(taskNum < last_taskId) {
+                    // input 창의 내용을 새로 받기 위해서 비워줌
+                    setInput1('');
+                    // state 초기화
+                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(parseInt(taskNum)+1)) });
+                    setTaskNum(prev => parseInt(prev) + 1);
+                    context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
+                    setSubNum(1);
+                }
+                else {
+                    alert('마지막입니다.');
+                }
             }
         })
         .catch(function(err) {
-            console.log(err);
+            if(err.response.status === 400){
+                alert('task id 혹은 sub index를 확인해주세요.');
+            }
         })
     }
     const handleSave = async (e) => {
         e.preventDefault();
+        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+            alert('task id 확인 후 다시 제출해주세요.');
+            return;
+        }
+
         axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
             similarInstruct1: `${input1}`,
             // similarInstruct2: `${input2}`,
@@ -93,15 +116,15 @@ export default function EditSimilarInst() {
             
             if(id === "task") {
                 const value= e.target.value;
-                value >= first_taskId && value <=last_taskId && setTaskNum(value);
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum });
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: subNum });
+                value >= first_taskId && value <=last_taskId && setTaskNum(parseInt(value));
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
             }
             else if(id === "subIdx") {
                 const value= e.target.value;
-                value >= 1 && value <= 10 && setSubNum(value);
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum });
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: subNum });
+                value >= 1 && value <= 10 && setSubNum(parseInt(value));
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
             }
             handleLoad(e);
         }
@@ -110,17 +133,22 @@ export default function EditSimilarInst() {
         const id = e.target.id;
         if(id === "task") {
             const value = e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(value);
+            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
         }
         else if(id === "subIdx") {
             const value = e.target.value;
-            value >= 1 && value <= 10 && setSubNum(value);
+            value >= 1 && value <= 10 && setSubNum(parseInt(value));
         }
     }
 
     useEffect(() => {
+        // setSubNum(subIdx);
         handleLoad();
     }, [subIdx]);
+
+    useEffect(() => {
+        setTaskNum(taskId);
+    }, [taskId]);
     
     return (
         <>
@@ -135,11 +163,11 @@ export default function EditSimilarInst() {
                             type="number"
                             id="task"
                             onChange={(e) => {
-                                const value = e.target.value;
+                                const value = parseInt(e.target.value);
                                 value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
                             }}
-                            max="120"
-                            min="1"
+                            max={`${last_taskId}`}
+                            min={`${first_taskId}`}
                             value={taskNum}
                             onKeyDown={handlePressEnter}
                             onBlur={handleOnBlur}
@@ -154,7 +182,7 @@ export default function EditSimilarInst() {
                             type="number"
                             id="subIdx"
                             onChange={(e) => {
-                                const value = e.target.value;
+                                const value = parseInt(e.target.value);
                                 value >= 1 && value <= 10 && setSubNum(parseInt(e.target.value))
                             }}
                             max="10"
@@ -193,12 +221,20 @@ export default function EditSimilarInst() {
                 <button 
                     className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
-                        if(subNum > 1){
+                        if(subNum > 1){ //이동 가능한 상태
                             context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
                             setSubNum(prev => parseInt(prev)-1);
                         }
                         else {
-                            alert('첫 지시문입니다.');
+                            if(taskNum > first_taskId){
+                                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1 });
+                                setTaskNum(prev => parseInt(prev) - 1);
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(10)) });
+                                setSubNum(10);
+                            }
+                            else{
+                                alert('첫 지시문입니다.');
+                            }
                         }
                     }}    
                 ><AiOutlineLeft/>이전</button>
@@ -216,7 +252,15 @@ export default function EditSimilarInst() {
                             setSubNum(prev => parseInt(prev)+1);
                         }
                         else {
-                            alert('마지막 지시문입니다.');
+                            if(taskNum < last_taskId) {
+                                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1 });
+                                setTaskNum(prev => parseInt(prev) + 1);
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
+                                setSubNum(1);
+                            }
+                            else{
+                                alert('마지막입니다.');
+                            }
                         }
                     }}
                 >다음<AiOutlineRight/></button>

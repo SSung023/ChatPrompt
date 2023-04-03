@@ -1,5 +1,6 @@
 package sangmyung.chatprompt.assignment.repository;
 
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -23,7 +24,7 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     List<Assignment> getAssignmentList(@Param("taskId") Long taskId);
 
     @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id = null and a.taskSubIdx != null order by a.taskSubIdx asc")
-    List<Assignment> getWrittenAssignList(@Param("taskId") Long taskId);
+    List<Assignment> getWrittenAssignList(@Param("taskId") Long taskId, Pageable pageable);
 
     @Query("select a from Assignment a where a.user.id != 1 and a.taskId =:taskId and a.ioPairs.id != null")
     List<Assignment> getIOPairList(@Param("taskId") Long taskId);

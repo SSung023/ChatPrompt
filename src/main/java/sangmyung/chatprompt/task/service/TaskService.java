@@ -143,10 +143,9 @@ public class TaskService {
         if (ioAssignment.isEmpty()){
             Assignment assignment = Assignment.builder()
                     .taskId(taskId)
-                    .input(assignIORequest.getInput())
-                    .output(assignIORequest.getOutput())
                     .build();
             assignment = assignRepository.save(assignment);
+            assignment.updateIO(assignIORequest.getInput(), assignIORequest.getOutput());
             assignment.addIOPair(ioPairs);
             assignment.addUser(user);
 
