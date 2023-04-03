@@ -80,4 +80,12 @@ public class UserService {
             session.invalidate();
         }
     }
+
+    // 현재 사용자가 접근한 TaskId가 사용자가 할당받은 TaskId인지 여부 반환
+    public boolean isAssignedTaskNum(User user, Long taskId){
+        int startIdx = user.getTaskStartIdx();
+        int endIdx = user.getTaskEndIdx();
+
+        return startIdx <= taskId && taskId <= endIdx;
+    }
 }

@@ -2,6 +2,7 @@ package sangmyung.chatprompt.assignment.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
@@ -183,13 +184,13 @@ public class AssignmentService {
      * 사용자가 작성한 유사지시문 10개를 반환
      * @param assignedTaskId
      */
-    public List<SingleInstructResponse> getWrittenTaskSimilar(Long assignedTaskId){
+    public List<SingleInstructResponse> getWrittenTaskSimilar(Long assignedTaskId, Pageable pageable){
         Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         List<SingleInstructResponse> assignmentList = new ArrayList<>();
 
-        List<Assignment> assignments = assignRepository.getWrittenAssignList(taskId);
+        List<Assignment> assignments = assignRepository.getWrittenAssignList(taskId, pageable);
         for (Assignment assignment : assignments) {
             assignmentList.add(convertToSingleInstruct(assignment));
         }
