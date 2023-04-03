@@ -91,7 +91,7 @@ export default function EditIo() {
         })
         .catch(function(err) {
             if(err.response.status === 400){
-                alert('task id 혹은 sub index를 확인해주세요.');
+                alert('task id 혹은 index를 확인해주세요.');
             }
         })
     }
