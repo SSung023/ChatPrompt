@@ -91,7 +91,7 @@ export default function EditIo() {
         })
         .catch(function(err) {
             if(err.response.status === 400){
-                alert('유효하지 않은 index입니다.');
+                alert('task id 혹은 sub index를 확인해주세요.');
             }
         })
     }
@@ -102,7 +102,7 @@ export default function EditIo() {
             alert('task id 확인 후 다시 제출해주세요.');
             return;
         }
-        
+
         axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,

@@ -12,7 +12,6 @@ export default function EditSimilarInst() {
     const [input1, setInput1] = useState('');
     // const [input2, setInput2] = useState('');
 
-    // const userId = GetUserId(context.state.data.name);
     const taskId = context.state.data.inst_taskId;
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
@@ -85,7 +84,7 @@ export default function EditSimilarInst() {
         })
         .catch(function(err) {
             if(err.response.status === 400){
-                alert('유효하지 않은 sub index입니다.');
+                alert('task id 혹은 sub index를 확인해주세요.');
             }
         })
     }
@@ -95,7 +94,7 @@ export default function EditSimilarInst() {
             alert('task id 확인 후 다시 제출해주세요.');
             return;
         }
-        
+
         axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
             similarInstruct1: `${input1}`,
             // similarInstruct2: `${input2}`,
