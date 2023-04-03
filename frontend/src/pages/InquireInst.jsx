@@ -50,7 +50,7 @@ export default function InquireInst() {
     const handlePressEnter = (e) => {
         if(e.key === "Enter") {
             const value = e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(value);
+            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
             // context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
         }
     }

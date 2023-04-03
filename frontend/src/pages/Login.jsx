@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SET_FIRST_TASKID, SET_INST_TASKID, SET_LAST_TASKID, userContext } from '../context/UserContext';
+import { SET_FIRST_TASKID, SET_INST_TASKID, SET_IO_TASKID, SET_LAST_TASKID, userContext } from '../context/UserContext';
 import styles from './Login.module.css';
 
 export default function Login() {
@@ -28,9 +28,19 @@ export default function Login() {
         // 로그인 시 identifier과 username을 쿼리문으로 전송
         axios.post(`/api/login?identifier=${identifier}&username=${annotator}`)
         .then(function(res) {
-            context.actions.contextDispatch({ type: SET_INST_TASKID, data: res.data.data.lastModifiedTaskNum });
-            context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: res.data.data.taskStartIdx });
-            context.actions.contextDispatch({ type: SET_LAST_TASKID, data: res.data.data.taskEndIdx });
+            return res.data.data;
+        })
+        .then(function(data) {
+            if(data.lastModifiedTaskNum < data.taskStartIdx || data.lastModifiedTaskNum > data.taskEndIdx){
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: data.taskStartIdx });
+                context.actions.contextDispatch({ type: SET_IO_TASKID, data: data.taskEndIdx });    
+            }
+            else {
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: data.lastModifiedTaskNum });
+                context.actions.contextDispatch({ type: SET_IO_TASKID, data: data.lastModifiedTaskNum });
+            }
+            context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: data.taskStartIdx });
+            context.actions.contextDispatch({ type: SET_LAST_TASKID, data: data.taskEndIdx });
         })
         .then(function() {
             window.localStorage.setItem('prompt-login', true);

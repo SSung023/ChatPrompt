@@ -50,7 +50,7 @@ export default function InquireIo() {
     const handlePressEnter = (e) => {
         if(e.key === "Enter") {
             const value = e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(value);
+            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
             // context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
         }
     }
@@ -86,7 +86,7 @@ export default function InquireIo() {
                 <div className={styles.toggleTitle}>
                     <BsCaretRightFill 
                         className={isOpen ? styles.open : ''}
-                        onClick={() => setOpen(prev => !prev)}    
+                        onClick={() => setOpen(prev => !Boolean(prev))}    
                     />
                     <h3 style={isOpen ? {color: "var(--txt-color)"} : {}}>지시문</h3>
                 </div>
