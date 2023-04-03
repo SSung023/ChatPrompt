@@ -86,7 +86,15 @@ public class Assignment {
     }
     // 입력 & 출력 갱신
     public void updateIO(String input, String output){
-        this.input = input;
-        this.output = output;
+        if (input != null){
+            if (!input.equals("null")){
+                this.input = input;
+            }
+        }
+        if (output != null){
+            if (!output.equals("null")){
+                this.output = output;
+            }
+        }
     }
 }
