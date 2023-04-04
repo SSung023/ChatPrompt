@@ -35,4 +35,9 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     // userId, taskId, ioIndex를 통해 작성한 입출력 정보(Assignment)를 반환 -> 입출력 작성
     @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.ioPairs.idx =:ioIndex")
     Optional<Assignment> getIOAssignment(@Param("userId") Long userId, @Param("taskId") Long taskId, @Param("ioIndex") int ioIndex);
+
+
+    // 입출력 assignment에서 특정 사용자의 특정 Task에 대해 검증이 완료된 입출력의 개수 반환
+    @Query("select count(*) from Assignment a where a.user.id = :userId and a.taskId =:taskId and a.ioPairs.id != null")
+    Integer getValidatedIOCnt(@Param("userId") Long userId, @Param("taskId") Long taskId);
 }
