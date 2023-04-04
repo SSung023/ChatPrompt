@@ -30,17 +30,22 @@ public class User {
     private int taskStartIdx; // 사용자가 할당받은 Task 시작 번호
     private int taskEndIdx; // 사용자가 할당받은 Task 끝 번호
 
+    private int ioStartIdx;
+    private int ioEndIdx;
     private Long lastTaskNum;
 
 
     @Builder
-    public User(String identifier, String name, Long lastTaskNum, int taskStartIdx, int taskEndIdx) {
+    public User(String identifier, String name, int taskStartIdx, int taskEndIdx, int ioStartIdx, int ioEndIdx, Long lastTaskNum) {
         this.identifier = identifier;
         this.name = name;
-        this.lastTaskNum = lastTaskNum;
         this.taskStartIdx = taskStartIdx;
         this.taskEndIdx = taskEndIdx;
+        this.ioStartIdx = ioStartIdx;
+        this.ioEndIdx = ioEndIdx;
+        this.lastTaskNum = lastTaskNum;
     }
+
 
     //== 비지니스 코드 ==//
     // 마지막으로 수정한 Task의 번호를 갱신
