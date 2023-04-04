@@ -22,7 +22,7 @@ public class Assignment {
     @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "io_pairs_id")
     private IOPairs ioPairs;
 
@@ -41,8 +41,8 @@ public class Assignment {
 
     private Long taskSubIdx; // Task마다 유사지시문의 인덱스 (1~10의 범위)
 
-    @Column(columnDefinition = "TINYINT")
-    private int isValidated; // 검증 여부, 0: false, 1: true
+    @Column(columnDefinition = "TINYINT", length = 1)
+    private Integer isValidated; // 검증 여부, 0: false, 1: true
 
 
     @Builder

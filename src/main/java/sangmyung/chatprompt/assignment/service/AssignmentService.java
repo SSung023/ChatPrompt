@@ -190,6 +190,7 @@ public class AssignmentService {
 
         List<SingleInstructResponse> assignmentList = new ArrayList<>();
 
+        // 사용자가 등록했던 Assignment를 모두 불러옴
         List<Assignment> assignments = assignRepository.getWrittenAssignList(userId, taskId, pageable);
         for (Assignment assignment : assignments) {
             assignmentList.add(convertToSingleInstruct(assignment));

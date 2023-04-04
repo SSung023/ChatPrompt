@@ -63,7 +63,7 @@ public class IoPairService {
      * 특정 사용자의 특정 Task에 대해 검증된 입출력의 수를 반환
      */
     public ValidationResponse getCurValidatedIOCnt(Long userId, Long taskId){
-        Integer validatedIOCnt = assignmentRepository.getValidatedIOCnt(userId, taskId);
+        int validatedIOCnt = assignmentRepository.getValidatedIOCnt(userId, taskId);
 
         return ValidationResponse.builder()
                 .validatedCnt(validatedIOCnt)
