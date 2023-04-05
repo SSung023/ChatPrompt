@@ -10,8 +10,8 @@ export default function IoPairs() {
 
     // store 정보
     const taskId = context.state.data.io_taskId;
-    const first_taskId = context.state.data.first_taskId;
-    const last_taskId = context.state.data.last_taskId;
+    const first_taskId = context.state.data.io_first_taskId;
+    const last_taskId = context.state.data.io_last_taskId;
 
     // 내부 관리용
     const [taskNum, setTaskNum] = useState(taskId);
@@ -32,15 +32,20 @@ export default function IoPairs() {
     }, [io]);
 
     const handleLoad = (e) => {
-        console.log(taskId);
         taskId && axios.get(`/api/tasks/${taskId}/assignment-io/lists`)
         .then(function(res) {
             return res.data.dataList;
         })
         .then(function(data) {
-            // console.log(data);
             setIo(data);
-        });
+        })
+        .catch(function(err) {
+            if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
+                window.localStorage.removeItem("prompt-login");
+                window.location.replace(window.location.href);
+            }
+        })
     }
 
     // task, index 관리
@@ -54,13 +59,6 @@ export default function IoPairs() {
                 // context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
                 handleLoad(e);
             }
-            // else if(id === "idx") {
-            //     const value= e.target.value;
-            //     value >=1 && value <=60 && setIdx(value);
-            //     context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
-            //     context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
-            //     handleLoad(e);
-            // }
         }
     }
     const handleOnBlur = (e) => {
@@ -69,11 +67,6 @@ export default function IoPairs() {
             const value= e.target.value;
             value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
         }
-        // else if(id === "idx") {
-        //     const value= e.target.value;
-        //     value >= 1 && value <= 60 && setIdx(parseInt(value));
-        //     // e.target.style.opacity="0"
-        // }
     }
 
     useEffect(() => {
@@ -108,25 +101,6 @@ export default function IoPairs() {
                             taskNumRef.current.select();
                         }}
                     />
-
-                    {/* <label className='noDrag'>index: </label>
-                    <input 
-                        ref={taskIdxRef}
-                        type="number"
-                        id="idx"
-                        onChange={(e) => {
-                            const value = parseInt(e.target.value);
-                            value >=1 && value <=60 && setIdx(parseInt(e.target.value));
-                        }}
-                        max="60"
-                        min="1"
-                        value={taskIdx}
-                        onKeyDown={handlePressEnter}
-                        onBlur={handleOnBlur}
-                        onClick={() => {
-                            taskIdxRef.current.select();
-                        }}
-                    /> */}
                     <span 
                         style={{
                             color: `#e02b2b`,

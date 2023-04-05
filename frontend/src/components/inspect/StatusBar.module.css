@@ -1,0 +1,42 @@
+.barWrapper {
+    width: 80%;
+    min-width: 30em;
+    max-height: 70em;
+}
+
+/* header */
+.header {
+    font-size: 14px;
+    color: var(--light-txt-color);
+    box-sizing: border-box;
+    padding: 0 0.5em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 6px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+/* status bar */
+.outerBar {
+    width: 100%;
+    height: 12px;
+    background-color: #EDEDED;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.innerBar {
+    height: 12px;
+    background: linear-gradient(270deg, #57C43B 0%, #AAF298 100%);
+    border-radius: 6px;
+    width: 0%;
+
+    transition: all 250ms ease-in-out;
+}

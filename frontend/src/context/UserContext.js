@@ -14,6 +14,8 @@ export const SET_IO_TASKID = 'user/SET_IO_TASKID';
 export const SET_IO_IDX = 'user/SET_IO_IDX';
 export const SET_SUB_IDX = 'user/SET_SUB_IDX';
 
+export const SET_IO_PROGRESS = 'user/SET_IO_PROGRESS';
+
 export const userContext = createContext();
 
 const initData = {
@@ -30,6 +32,8 @@ const initData = {
     
     io_idx: 1,
     sub_idx: 1,
+
+    io_progress: 0,
 }
 
 const userReducer = (state, action) => {
@@ -90,6 +94,12 @@ const userReducer = (state, action) => {
         return {
             ...state,
             sub_idx: action.data
+        }
+
+        case SET_IO_PROGRESS:
+        return {
+            ...state,
+            io_progress: action.data
         }
         default:
             return;

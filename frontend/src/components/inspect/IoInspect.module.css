@@ -1,0 +1,22 @@
+/* output */
+.output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open {
+    color: var(--main-color);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.checkbox {
+    visibility: hidden;
+}
+
+.label:hover {
+    cursor: pointer;
+}

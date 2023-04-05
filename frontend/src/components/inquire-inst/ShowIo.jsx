@@ -14,7 +14,7 @@ export default function ShowIo({ taskNum }) {
                     <TableRow key={idx*2}>
                         <TableHead>{`입력 ${idx+1}`}</TableHead>
                         <TableCell>
-                            {!inst.input || inst.input === "입력이 아직 기입되지 않았습니다."
+                            {!inst.input
                             ? <span style={{color:"var(--placeholder-txt-color)"}} className="noDrag">작성한 입력이 없습니다.</span>
                             : <span>{inst.input}</span>}
                         </TableCell>
@@ -24,7 +24,7 @@ export default function ShowIo({ taskNum }) {
                     <TableRow key={idx*2+1}>
                         <TableHead>{`출력 ${idx+1}`}</TableHead>
                         <TableCell>
-                            {!inst.output || inst.output === "출력이 아직 기입되지 않았습니다."
+                            {!inst.output
                             ? <span style={{color:"var(--placeholder-txt-color)"}} className="noDrag">작성한 출력이 없습니다.</span>
                             : <span>{inst.output}</span>}
                         </TableCell>
@@ -49,6 +49,7 @@ export default function ShowIo({ taskNum }) {
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
