@@ -15,6 +15,7 @@ export default function InquireIo() {
     const first_taskId = context.state.data.io_first_taskId;
     const last_taskId = context.state.data.io_last_taskId;
 
+    // 조회가 지시문과 입출력에 영향을 주지 않도록 taskId context를 사용하지 않음
     const [taskNum, setTaskNum] = useState(taskId); // 데이터 로드용
     const [inputNum, setInput] = useState(taskId); // input 관리용
 

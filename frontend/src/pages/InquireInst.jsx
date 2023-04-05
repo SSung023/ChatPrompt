@@ -15,6 +15,7 @@ export default function InquireInst() {
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
 
+    // 조회가 지시문과 입출력에 영향을 주지 않도록 taskId context를 사용하지 않음
     const [taskNum, setTaskNum] = useState(taskId); // 데이터 로드용
     const [inputNum, setInput] = useState(taskId); // input 관리용
 
@@ -73,8 +74,8 @@ export default function InquireInst() {
                         const value = e.target.value;
                         value >= first_taskId && value <= last_taskId && setInput(parseInt(e.target.value))
                     }}
-                    max="120"
-                    min="1"
+                    max={`${last_taskId}`}
+                    min={`${first_taskId}`}
                     // defaultValue={taskId}
                     value={inputNum}
                     onKeyDown={handlePressEnter}
