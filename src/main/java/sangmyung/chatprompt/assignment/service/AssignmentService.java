@@ -15,9 +15,7 @@ import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 @Transactional(readOnly = true)
@@ -192,18 +190,21 @@ public class AssignmentService {
 
         // 사용자가 등록했던 Assignment를 모두 불러옴
         List<Assignment> assignments = assignRepository.getWrittenAssignList(userId, taskId, pageable);
+        Map<Long, Assignment> assignmentMap = new HashMap<>();
         for (Assignment assignment : assignments) {
-            assignmentList.add(convertToSingleInstruct(assignment));
+            assignmentMap.put(assignment.getTaskSubIdx(), assignment);
         }
 
-        // 10개가 안될 때 더미 데이터로 채우기
-        int len = assignmentList.size();
-        if (len < 10) {
-            int remain = 10 - len;
-            for (int i = 0; i < remain; ++i){
+
+        for (int i = 1; i <= 10; ++i){
+            Long idx = Long.valueOf(i);
+            if (assignmentMap.containsKey(idx)) { // 값이 있다면
+                assignmentList.add(convertToSingleInstruct(assignmentMap.get(idx)));
+            }
+            else {
                 assignmentList.add(SingleInstructResponse.builder()
-                                .similar_instruct("유사지시문이 아직 작성되지 않았습니다.")
-                                .taskSubIdx(0L)
+                        .similar_instruct("유사지시문이 아직 작성되지 않았습니다.")
+                        .taskSubIdx(0L)
                         .build());
             }
         }
