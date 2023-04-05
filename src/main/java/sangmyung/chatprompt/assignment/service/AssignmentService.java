@@ -203,7 +203,7 @@ public class AssignmentService {
             }
             else {
                 assignmentList.add(SingleInstructResponse.builder()
-                        .similar_instruct("유사지시문이 아직 작성되지 않았습니다.")
+                        .similar_instruct(null)
                         .taskSubIdx(0L)
                         .build());
             }
@@ -228,8 +228,8 @@ public class AssignmentService {
         int remain = task.getTotalIoNum() - ioPairList.size();
         for (int i = 0; i < remain; ++i){
             ioList.add(AssignIOResponse.builder()
-                            .input("입력이 아직 기입되지 않았습니다.")
-                            .output("출력이 아직 기입되지 않았습니다.")
+                            .input(null)
+                            .output(null)
                     .build());
         }
         return ioList;
@@ -259,12 +259,6 @@ public class AssignmentService {
         return SingleInstructResponse.builder()
                 .similar_instruct(assignment.getSimilarInstruct1())
                 .taskSubIdx(assignment.getTaskSubIdx())
-                .build();
-    }
-    private SimilarInstructResponse convertToSimilar(Assignment assignment){
-        return SimilarInstructResponse.builder()
-                .similarInstruct1(assignment.getSimilarInstruct1())
-                .similarInstruct2(assignment.getSimilarInstruct2())
                 .build();
     }
     private TaskResponse convertToDefinition(Assignment assignment, Task task){

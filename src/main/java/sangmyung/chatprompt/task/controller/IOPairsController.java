@@ -6,13 +6,16 @@ import org.springframework.web.bind.annotation.*;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
+import sangmyung.chatprompt.Util.response.dto.ListResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
+import sangmyung.chatprompt.task.dto.ValidationIOResponse;
 import sangmyung.chatprompt.task.dto.ValidationResponse;
 import sangmyung.chatprompt.task.service.IoPairService;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -21,6 +24,18 @@ import javax.servlet.http.HttpServletRequest;
 public class IOPairsController {
     private final UserService userService;
     private final IoPairService ioPairService;
+
+
+
+    @GetMapping("/verifications/tasks/{taskId}/io/lists")
+    public ListResponse<ValidationIOResponse> getVerifiedIOLists(HttpServletRequest request, @PathVariable Long taskId){
+        // 사용자 정보를 받음
+        User user = validateTaskIdxAndGetUser(request, taskId);
+
+        List<ValidationIOResponse> ioPairList = ioPairService.getIOPairValidationList(user.getId(), taskId);
+
+        return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairList);
+    }
 
     /**
      * 특정 Task의 특정 입출력의 검증 여부를 반환

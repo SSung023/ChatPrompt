@@ -28,13 +28,15 @@ class UserServiceTest {
     @DisplayName("저장되어 있는 사용자 리스트를 받아올 수 있다.")
     public void canGetParticipantList(){
         //given
-        // spring 시작 시 sql문이 실행되어 자동으로 5명의 사용자가 DB에 등록된다.
+        User user1 = addUser("ABC1", "홍길동1");
+        User user2 = addUser("ABC2", "홍길동2");
+        User user3 = addUser("ABC3", "홍길동3");
         
         //when
         List<User> userList = userService.findAllUserList();
 
         //then
-        Assertions.assertThat(userList.size()).isEqualTo(5);
+        Assertions.assertThat(userList.size()).isEqualTo(3);
     }
 
     @Test
@@ -49,6 +51,20 @@ class UserServiceTest {
         //then
         Assertions.assertThat(user.getName()).isEqualTo(userById.getName());
         Assertions.assertThat(user.getIdentifier()).isEqualTo(userById.getIdentifier());
+    }
+    
+    @Test
+    @DisplayName("저장되어 있는 사용자를 이름을 통해 받아올 수 있다.")
+    public void canGetUserByUserName(){
+        //given
+        User user1 = addUser("ABC", "홍길동");
+        
+        //when
+        User userByUserName = userService.findUserByUserName(user1.getName());
+
+        //then
+        Assertions.assertThat(user1.getName()).isEqualTo(userByUserName.getName());
+        Assertions.assertThat(user1.getIdentifier()).isEqualTo(userByUserName.getIdentifier());
     }
 
 
