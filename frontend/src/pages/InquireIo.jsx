@@ -11,9 +11,9 @@ export default function InquireIo() {
     // taskNum 내부 state를 사용하여 definition 작업에 영향을 미치지 않도록
     const context = useContext(userContext);
 
-    const taskId = context.state.data.inst_taskId; // 작업하던 taskId
-    const first_taskId = context.state.data.first_taskId;
-    const last_taskId = context.state.data.last_taskId;
+    const taskId = context.state.data.io_taskId; // 작업하던 taskId
+    const first_taskId = context.state.data.io_first_taskId;
+    const last_taskId = context.state.data.io_last_taskId;
 
     const [taskNum, setTaskNum] = useState(taskId); // 데이터 로드용
     const [inputNum, setInput] = useState(taskId); // input 관리용
@@ -69,8 +69,8 @@ export default function InquireIo() {
                         const value = e.target.value;
                         value >= first_taskId && value <= last_taskId && setInput(parseInt(e.target.value))
                     }}
-                    max="120"
-                    min="1"
+                    max={`${last_taskId}`}
+                    min={`${first_taskId}`}
                     // defaultValue={taskId}
                     value={inputNum}
                     onKeyDown={handlePressEnter}
