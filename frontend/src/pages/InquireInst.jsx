@@ -88,6 +88,7 @@ export default function InquireInst() {
                     marginLeft: "1em",
                 }}>✓ 엔터를 누르면 조회됩니다.</p>
             </form>
+
             <div className={styles.toggle}>
                 <div className={styles.toggleTitle}>
                     <BsCaretRightFill 
@@ -100,6 +101,7 @@ export default function InquireInst() {
                     {isOpen ? <Directive defData={defData} originalDefData={originalDefData}/> : ''}
                 </div>
             </div>
+            
             <ShowInst taskNum={taskNum}/>
         </div>
     );
