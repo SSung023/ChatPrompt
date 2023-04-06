@@ -14,6 +14,8 @@ import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.List;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 @SpringBootTest(properties = "spring.profiles.active=test")
 @ActiveProfiles({"test"})
 @Transactional
@@ -36,7 +38,7 @@ class UserServiceTest {
         List<User> userList = userService.findAllUserList();
 
         //then
-        Assertions.assertThat(userList.size()).isEqualTo(3);
+        assertThat(userList.size()).isEqualTo(3);
     }
 
     @Test
@@ -49,8 +51,8 @@ class UserServiceTest {
         User userById = userService.findUserById(user.getId());
 
         //then
-        Assertions.assertThat(user.getName()).isEqualTo(userById.getName());
-        Assertions.assertThat(user.getIdentifier()).isEqualTo(userById.getIdentifier());
+        assertThat(user.getName()).isEqualTo(userById.getName());
+        assertThat(user.getIdentifier()).isEqualTo(userById.getIdentifier());
     }
     
     @Test
@@ -63,8 +65,36 @@ class UserServiceTest {
         User userByUserName = userService.findUserByUserName(user1.getName());
 
         //then
-        Assertions.assertThat(user1.getName()).isEqualTo(userByUserName.getName());
-        Assertions.assertThat(user1.getIdentifier()).isEqualTo(userByUserName.getIdentifier());
+        assertThat(user1.getName()).isEqualTo(userByUserName.getName());
+        assertThat(user1.getIdentifier()).isEqualTo(userByUserName.getIdentifier());
+    }
+
+    @Test
+    @DisplayName("사용자를 이름과 구분자를 통해 찾을 수 있다.")
+    public void canFindUserBoth(){
+        //given
+        User user = addUser("ABC", "홍길동");
+
+        //when
+        User foundUser = userService.findRegisteredUser(user.getName(), user.getIdentifier());
+
+        //then
+        assertThat(user.getName()).isEqualTo(foundUser.getName());
+        assertThat(user.getIdentifier()).isEqualTo(foundUser.getIdentifier());
+
+    }
+
+    @Test
+    @DisplayName("사용자가 할당받은 테스크인지 여부를 확인할 수 있다.")
+    public void canCheckIsAssignedTaskNum(){
+        //given
+        User user = addUser("A", "홍길동", 10, 20);
+
+        //when
+
+
+        //then
+
     }
 
 
@@ -79,6 +109,14 @@ class UserServiceTest {
         return userRepository.save(User.builder()
                         .identifier(identifier)
                         .name(name)
+                .build());
+    }
+    private User addUser(String identifier, String name, int taskStartIdx, int taskEndIdx){
+        return userRepository.save(User.builder()
+                .identifier(identifier)
+                .name(name)
+                        .taskStartIdx(taskStartIdx)
+                        .taskEndIdx(taskEndIdx)
                 .build());
     }
 }

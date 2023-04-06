@@ -41,13 +41,13 @@ public class IOPairsController {
      * 특정 Task의 특정 입출력의 검증 여부를 반환
      */
     @GetMapping("/verifications/tasks/{taskId}/io/{ioIndex}")
-    public SingleResponse<Integer> getIOVerified(HttpServletRequest request,
+    public SingleResponse<Boolean> getIOVerified(HttpServletRequest request,
                                         @PathVariable Long taskId, @PathVariable int ioIndex){
         // 사용자 정보를 받음
         User user = validateTaskIdxAndGetUser(request, taskId);
 
         // 해당하는 assignment를 찾고 validate 여부를 갱신 후, Response 객체 받기
-        Integer isValidated = ioPairService.getIsIOValidated(user.getId(), taskId, ioIndex);
+        Boolean isValidated = ioPairService.getIsIOValidated(user.getId(), taskId, ioIndex);
 
         return new SingleResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), isValidated);
     }

@@ -30,21 +30,29 @@ public class IoPairService {
      * 특정 Task의 특정 입출력에 대해서 사용자가 검증 여부를 무엇으로 설정했는지 여부 확인
      * 0: false, 1: true
      */
-    public Integer getIsIOValidated(Long userId, Long taskId, int ioIndex){
-        Optional<Assignment> optional = assignmentRepository.getIOAssignment(userId, taskId, ioIndex);
+    public Boolean getIsIOValidated(Long userId, Long assignedTaskId, int ioIndex){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Optional<Assignment> optional = assignmentRepository.findIOAssignment(userId, taskId, ioIndex);
 
         if (optional.isEmpty()){
             throw new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND);
         }
 
-        return optional.get().getIsValidated();
+        Assignment assignment = optional.get();
+
+        return !(assignment.getIsValidated() == null || assignment.getIsValidated() == 0);
     }
 
     /**
      * 특정 task의 특정 입출력의 검증 여부를 갱신
      */
-    public ValidationResponse updateIOValidated(Long userId, Long taskId, int ioIndex, String verify){
-        Optional<Assignment> optional = assignmentRepository.getIOAssignment(userId, taskId, ioIndex);
+    @Transactional
+    public ValidationResponse updateIOValidated(Long userId, Long assignedTaskId, int ioIndex, String verify){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        Optional<Assignment> optional = assignmentRepository.findIOAssignment(userId, taskId, ioIndex);
         if (optional.isEmpty()){
             throw new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND);
         }
@@ -68,7 +76,10 @@ public class IoPairService {
     /**
      * 특정 사용자의 특정 Task에 대해 검증된 입출력의 수를 반환
      */
-    public ValidationResponse getCurValidatedIOCnt(Long userId, Long taskId){
+    public ValidationResponse getCurValidatedIOCnt(Long userId, Long assignedTaskId){
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
         int validatedIOCnt = assignmentRepository.getValidatedIOCnt(userId, taskId);
 
         return ValidationResponse.builder()
