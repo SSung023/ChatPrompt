@@ -2,20 +2,19 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 1em;
 }
 
 .title {
     color: var(--txt-color);
     font-size: 1em;
-    margin: 0;
-    margin-right: 1em;
 }
 
 /* form */
 .ioForm {
     display: flex;
     align-items: center;
+    margin: 1em 0;
+    margin-left: 1em;
 }
 
 .label {

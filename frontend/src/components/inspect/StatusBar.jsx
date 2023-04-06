@@ -33,10 +33,10 @@ export default function StatusBar() {
     return (
         <div className={styles.barWrapper}>
             <div className={`${styles.header} noDrag`}>
-                <p style={{ fontWeight: `var(--medium)` }}>{`task ${taskId} 진행률`}</p>
+                <p style={{ fontWeight: `var(--medium)` }}>{`task ${taskId} 검증 달성률`}</p>
                 <div className={styles.wrapper}>
                     <p style={{ color: `var(--main-color)`, fontSize: `16px`, fontWeight: `var(--medium)`}}>{`${progress}`}</p>
-                    <p> / 60</p>
+                    <p style={{ fontSize:`14px` }}> / 60</p>
                 </div>
             </div>
             <div className={styles.outerBar}>

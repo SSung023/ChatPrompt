@@ -1,31 +1,40 @@
 .instruction {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 /* index input */
 .header {
     display: flex;
     align-items: center;
-    margin: 2em 0 1em 0;
+    flex-wrap: wrap;
 }
 
-.header > label {
+.title {
+    color: var(--txt-color);
     font-size: 1em;
+}
+
+/* form */
+.form {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
     margin-left: 1em;
+}
+
+.label {
     color: var(--main-color);
+    margin-right: 1em;
 }
 
-.header > input {
-    box-sizing: border-box;
-    margin-left: 1em;
-
-    color: var(--light-txt-color);
+.input {
     background-color: var(--white-color);
-    border-radius: 5px;
     border: 1px solid var(--line-color);
+    border-radius: 5px;
+    color: var(--light-txt-color);
 }
 
-.header > input:focus {
+.input:focus {
     border: 1px solid var(--main-color);
     outline: none;
 }
