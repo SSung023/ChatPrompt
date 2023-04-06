@@ -215,17 +215,18 @@ public class AssignmentService {
      *
      * @param assignedTaskId 입력한 입출력 쌍을 알고 싶은 Task의 PK
      */
-    public List<AssignIOResponse> getIOPairList(Long userId, Long assignedTaskId){
+    public List<AssignIOResponse> getIOPairList(Long userId, Long assignedTaskId, Pageable pageable){
         Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         List<AssignIOResponse> ioList = new ArrayList<>();
-        List<Assignment> ioPairList = assignRepository.getIOPairList(userId, task.getId());
+        List<Assignment> ioPairList = assignRepository.getIOPairList(userId, task.getId(), pageable);
         for (Assignment assignment : ioPairList) {
             ioList.add(convertToAssignIOResponse(assignment));
         }
 
-        int remain = task.getTotalIoNum() - ioPairList.size();
+        // int remain = task.getTotalIoNum() - ioPairList.size();
+        int remain = 60 - ioPairList.size();
         for (int i = 0; i < remain; ++i){
             ioList.add(AssignIOResponse.builder()
                             .input(null)

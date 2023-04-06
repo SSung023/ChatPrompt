@@ -2,6 +2,9 @@ package sangmyung.chatprompt.task.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
@@ -28,11 +31,12 @@ public class IOPairsController {
 
 
     @GetMapping("/verifications/tasks/{taskId}/io/lists")
-    public ListResponse<ValidationIOResponse> getVerifiedIOLists(HttpServletRequest request, @PathVariable Long taskId){
+    public ListResponse<ValidationIOResponse> getVerifiedIOLists(HttpServletRequest request, @PathVariable Long taskId
+                        ,@PageableDefault(size = 60, sort = "ioPairsIdx", direction = Sort.Direction.ASC) Pageable pageable){
         // 사용자 정보를 받음
         User user = validateTaskIdxAndGetUser(request, taskId);
 
-        List<ValidationIOResponse> ioPairList = ioPairService.getIOPairValidationList(user.getId(), taskId);
+        List<ValidationIOResponse> ioPairList = ioPairService.getIOPairValidationList(user.getId(), taskId, pageable);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairList);
     }
