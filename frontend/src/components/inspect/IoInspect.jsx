@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { TableCell, TableHead, TableRow } from '../ui/table/Table';
 import styles from './IoInspect.module.css';
 
-import { TbEyeFilled, TbEyeOff } from 'react-icons/tb';
+import { VscEyeClosed, VscEye } from 'react-icons/vsc';
 import axios from 'axios';
 import { SET_IO_PROGRESS, userContext } from '../../context/UserContext';
 import InspectInfo from '../ui/information/InspectInfo';
@@ -78,8 +78,8 @@ function Output({ data, idx, isValidated }) {
                         htmlFor={`verifi${idx}`}
                     >
                         {(isChecked 
-                        ? <TbEyeFilled color='var(--main-color)'/> 
-                        : <TbEyeOff color='var(--placeholder-txt-color)'/>) }
+                        ? <VscEye color='var(--main-color)'/> 
+                        : <VscEyeClosed color='var(--placeholder-txt-color)'/>) }
                     </label>}
                     {idx === 0 && <InspectInfo />}
                 </div>
