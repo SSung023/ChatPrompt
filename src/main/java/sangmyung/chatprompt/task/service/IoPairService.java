@@ -2,6 +2,7 @@ package sangmyung.chatprompt.task.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
@@ -90,17 +91,17 @@ public class IoPairService {
     /**
      * 사용자가 작성한 IOPair를 모두 가져오고 검증 여부를 담아서 전달
      */
-    public List<ValidationIOResponse> getIOPairValidationList(Long userId, Long assignedTaskId){
+    public List<ValidationIOResponse> getIOPairValidationList(Long userId, Long assignedTaskId, Pageable pageable){
         Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         List<ValidationIOResponse> ioList = new ArrayList<>();
-        List<Assignment> ioPairList = assignmentRepository.getIOPairList(userId, task.getId());
+        List<Assignment> ioPairList = assignmentRepository.getIOPairList(userId, task.getId(), pageable);
         for (Assignment assignment : ioPairList) {
             ioList.add(convertToValidIOResponse(assignment));
         }
 
-        int remain = task.getTotalIoNum() - ioPairList.size();
+        int remain = 60 - ioPairList.size();
         for (int i = 0; i < remain; ++i){
             ioList.add(ValidationIOResponse.builder()
                     .input(null)
