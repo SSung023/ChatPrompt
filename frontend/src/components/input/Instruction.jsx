@@ -12,7 +12,7 @@ export default function Instruction() {
 
     // state
     const [data, setData] = useState();
-    const [subNum, setSubNum] = useState(1);
+    const [subNum, setSubNum] = useState(subIdx);
 
     // ref
     const subNumRef = useRef();
