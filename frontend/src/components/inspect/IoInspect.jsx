@@ -5,6 +5,7 @@ import styles from './IoInspect.module.css';
 import { TbEyeFilled, TbEyeOff } from 'react-icons/tb';
 import axios from 'axios';
 import { SET_IO_PROGRESS, userContext } from '../../context/UserContext';
+import InspectInfo from '../ui/information/InspectInfo';
 
 export default function IoInspect({ data, idx }) {
     const row1 = (
@@ -75,10 +76,12 @@ function Output({ data, idx, isValidated }) {
                     <label 
                         className={styles.label} 
                         htmlFor={`verifi${idx}`}
-                    >{(isChecked 
+                    >
+                        {(isChecked 
                         ? <TbEyeFilled color='var(--main-color)'/> 
                         : <TbEyeOff color='var(--placeholder-txt-color)'/>) }
                     </label>}
+                    {idx === 0 && <InspectInfo />}
                 </div>
             </TableCell>
         </TableRow>

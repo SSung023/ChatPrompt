@@ -16,7 +16,6 @@ export default function StatusBar() {
         setProgress(io_progress);
         // console.log(Math.floor( 3 / 60 * 100 ));
         barRef.current.style.width = `${Math.floor( io_progress / 60 * 100 )}%`;
-        console.log(io_progress);
     }, [io_progress]);
 
     useEffect(() => {

@@ -1,0 +1,56 @@
+.inspectInfo {
+    position: absolute;
+    left: calc(100% + 1em);
+
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: var(--white-color);
+    box-sizing: border-box;
+    width: 1.8em;
+    height: 1.8em;
+    border: 1px solid var(--grey-line-color);
+    border-radius: 50%;
+    font-size: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms ease-out;
+
+    margin: 0 1em;
+}
+
+.button:hover {
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.button:first-child:hover + .infoBox {
+    opacity: 1;
+}
+
+/* info box */
+.infoBox {
+    opacity: 0;
+
+    cursor: default;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    width: 20em;
+    
+    background-color: var(--white-color);
+    border: 1px solid var(--grey-line-color);
+    border-radius: 5px;
+    font-size: 14px;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.05));
+
+    transition: all 150ms ease-out;
+}
+
+.infoBox > p {
+    line-height: 21px;
+}
