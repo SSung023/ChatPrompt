@@ -39,7 +39,7 @@
 
     cursor: default;
     box-sizing: border-box;
-    padding: 8px 12px;
+    padding: 12px;
     width: 20em;
     
     background-color: var(--white-color);

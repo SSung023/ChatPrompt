@@ -52,7 +52,7 @@ export default function Instruction() {
         data &&
         <div className={styles.instruction}>
             <div className={styles.header}>
-                <p className={styles.title}>* 내가 쓴 지시문 조회</p>
+                <p className={styles.title}>* 내가 쓴 지시문</p>
 
                 <form
                     className={styles.form}
