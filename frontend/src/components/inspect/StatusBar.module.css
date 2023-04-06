@@ -6,7 +6,7 @@
 
 /* header */
 .header {
-    font-size: 14px;
+    font-size: 1em;
     color: var(--light-txt-color);
     box-sizing: border-box;
     padding: 0 0.5em;
@@ -27,7 +27,7 @@
 .outerBar {
     width: 100%;
     height: 12px;
-    background-color: #EDEDED;
+    background-color: var(--light-line-color);
     box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }

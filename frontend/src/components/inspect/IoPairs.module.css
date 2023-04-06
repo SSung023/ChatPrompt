@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.title {
+    color: var(--txt-color);
+    font-size: 1em;
+    margin: 0;
+    margin-right: 1em;
+}
+
+/* form */
+.ioForm {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    color: var(--main-color);
+    margin-right: 1em;
+}
+
+.input {
+    background-color: var(--white-color);
+    border: 1px solid var(--line-color);
+    border-radius: 5px;
+    color: var(--light-txt-color);
+}
+
+.input:focus {
+    border: 1px solid var(--main-color);
+    outline: none;
+}

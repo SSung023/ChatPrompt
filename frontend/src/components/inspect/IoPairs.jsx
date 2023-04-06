@@ -32,7 +32,7 @@ export default function IoPairs() {
     }, [io]);
 
     const handleLoad = (e) => {
-        taskId && axios.get(`/api/tasks/${taskId}/assignment-io/lists`)
+        taskId && axios.get(`/api/verifications/tasks/${taskId}/io/lists`)
         .then(function(res) {
             return res.data.dataList;
         })
@@ -83,8 +83,9 @@ export default function IoPairs() {
                     className={styles.ioForm}
                     onSubmit={(e) => {e.preventDefault()}}
                 >
-                    <label className='noDrag'>task: </label>
+                    <label className={`${styles.label} noDrag`}>task: </label>
                     <input 
+                        className={styles.input}
                         ref={taskNumRef}
                         type="number"
                         id="task"
@@ -101,25 +102,20 @@ export default function IoPairs() {
                             taskNumRef.current.select();
                         }}
                     />
-                    <span 
-                        style={{
-                            color: `#e02b2b`,
-                            fontSize: `12px`,
-                            marginLeft: `1em`,
-                            lineHeight: `1.5em`,
-                        }}
+                    <p 
                         className='noDrag'
-                    >
-                        ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                    </span>
+                        style={{
+                            color: "var(--light-main-color)", 
+                            fontSize: "14px",
+                            marginLeft: "1em",
+                    }}>✓ 엔터를 누르면 조회됩니다.</p>
                 </form>
-                
-                <Table>
-                    <TableBody>
-                        {makeIoInspect}
-                    </TableBody>
-                </Table>
             </div>
+            <Table>
+                <TableBody>
+                    {makeIoInspect}
+                </TableBody>
+            </Table>
         </div>
     );
 }

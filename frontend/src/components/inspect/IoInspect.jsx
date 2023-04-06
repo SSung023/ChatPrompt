@@ -11,7 +11,7 @@ export default function IoInspect({ data, idx }) {
         <Input data={data.input} idx={idx} key={idx*2}/>
     )
     const row2 = (
-        <Output data={data.output} idx={idx} key={idx*2+1} isValidated={false}/>
+        <Output data={data.output} idx={idx} key={idx*2+1} isValidated={data.isValidated}/>
     );
     return (
         // console.log(data)
@@ -71,14 +71,14 @@ function Output({ data, idx, isValidated }) {
                         checked={isChecked}
                         onChange={handleChange}
                     />
+                    {data && 
                     <label 
                         className={styles.label} 
                         htmlFor={`verifi${idx}`}
-                    >{ data && 
-                        (isChecked 
+                    >{(isChecked 
                         ? <TbEyeFilled color='var(--main-color)'/> 
                         : <TbEyeOff color='var(--placeholder-txt-color)'/>) }
-                    </label>
+                    </label>}
                 </div>
             </TableCell>
         </TableRow>

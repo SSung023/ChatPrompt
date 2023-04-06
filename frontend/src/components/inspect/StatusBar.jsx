@@ -15,8 +15,8 @@ export default function StatusBar() {
     useEffect(() => {
         setProgress(io_progress);
         // console.log(Math.floor( 3 / 60 * 100 ));
-        barRef.current.style.width = `${Math.floor( 3 / 60 * 100 )}%`;
-        console.log(progress);
+        barRef.current.style.width = `${Math.floor( io_progress / 60 * 100 )}%`;
+        console.log(io_progress);
     }, [io_progress]);
 
     useEffect(() => {
@@ -32,11 +32,11 @@ export default function StatusBar() {
 
     return (
         <div className={styles.barWrapper}>
-            <div className={styles.header}>
+            <div className={`${styles.header} noDrag`}>
                 <p style={{ fontWeight: `var(--medium)` }}>{`task ${taskId} 진행률`}</p>
                 <div className={styles.wrapper}>
-                    <p>{`${progress}`}</p>
-                    <p>/ 60</p>
+                    <p style={{ color: `var(--main-color)`, fontSize: `16px`, fontWeight: `var(--medium)`}}>{`${progress}`}</p>
+                    <p> / 60</p>
                 </div>
             </div>
             <div className={styles.outerBar}>
