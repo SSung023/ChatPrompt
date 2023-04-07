@@ -45,6 +45,8 @@ public class UserController {
                 .lastModifiedTaskNum(user.getLastTaskNum())
                 .taskStartIdx(user.getTaskStartIdx())
                 .taskEndIdx(user.getTaskEndIdx())
+                .ioStartIdx(user.getIoStartIdx())
+                .ioEndIdx(user.getIoEndIdx())
                 .build();
 
         // session에 User의 정보(PK)를 담아서 전달 -> 사용자 파악에 사용
@@ -74,6 +76,8 @@ public class UserController {
                 .lastModifiedTaskNum(user.getLastTaskNum())
                 .taskStartIdx(user.getTaskStartIdx())
                 .taskEndIdx(user.getTaskEndIdx())
+                .ioStartIdx(user.getIoStartIdx())
+                .ioEndIdx(user.getIoEndIdx())
                 .build();
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), userResponse);

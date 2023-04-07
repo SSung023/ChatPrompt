@@ -12,7 +12,7 @@ export default function Instruction() {
 
     // state
     const [data, setData] = useState();
-    const [subNum, setSubNum] = useState(1);
+    const [subNum, setSubNum] = useState(subIdx);
 
     // ref
     const subNumRef = useRef();
@@ -52,40 +52,39 @@ export default function Instruction() {
         data &&
         <div className={styles.instruction}>
             <div className={styles.header}>
-                <p className={styles.title}>* 내가 쓴 지시문 조회</p>
-                <label className='noDrag'>sub index: </label>
-                <input 
-                    ref={subNumRef}
-                    type="number"
-                    onChange={(e) => {
-                        const value = e.target.value;
-                        value >= 1 && value <= 10 && setSubNum(parseInt(e.target.value))
-                    }}
-                    max="10"
-                    min="1"
-                    value={subNum}
-                    onKeyDown={handlePressEnter}
-                    onBlur={handleOnBlur}
-                    onClick={() => {
-                        subNumRef.current.select();
-                    }}
-                />
-                <p 
-                    className='noDrag'
-                    style={{
-                        color: "var(--light-main-color)", 
-                        fontSize: "14px",
-                        marginLeft: "1em",
-                    }}
-                >✓ 엔터를 누르면 조회됩니다.</p>
-                {/* <span style={{ 
-                    color: `#e02b2b`, 
-                    fontSize: `12px`, 
-                    marginLeft: `1em`,
-                    lineHeight: `1.5em`,
-                }}>
-                    ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                </span> */}
+                <p className={styles.title}>* 내가 쓴 지시문</p>
+
+                <form
+                    className={styles.form}
+                    onSubmit={(e) => {e.preventDefault()}}
+                >
+                    <label className={`${styles.label} noDrag`}>sub index: </label>
+                    <input 
+                        className={styles.input}
+                        ref={subNumRef}
+                        type="number"
+                        onChange={(e) => {
+                            const value = e.target.value;
+                            value >= 1 && value <= 10 && setSubNum(parseInt(e.target.value))
+                        }}
+                        max="10"
+                        min="1"
+                        value={subNum}
+                        onKeyDown={handlePressEnter}
+                        onBlur={handleOnBlur}
+                        onClick={() => {
+                            subNumRef.current.select();
+                        }}
+                    />
+                    <p 
+                        className='noDrag'
+                        style={{
+                            color: "var(--light-main-color)", 
+                            fontSize: "14px",
+                            marginLeft: "1em",
+                        }}
+                    >✓ 엔터를 누르면 조회됩니다.</p>
+                </form>
             </div>
             
             {/* show similar instruct */}

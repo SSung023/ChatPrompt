@@ -9,8 +9,8 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 public class SingleInstructResponse {
-    private String similar_instruct;
     private Long taskSubIdx;
+    private String similar_instruct;
 
 
     @Builder

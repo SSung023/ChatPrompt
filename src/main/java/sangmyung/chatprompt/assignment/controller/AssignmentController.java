@@ -129,11 +129,12 @@ public class AssignmentController {
      * 이전 api: /api/tasks/{taskId}/assignment/io-lists
      */
     @GetMapping("/tasks/{taskId}/assignment-io/lists")
-    public ListResponse<AssignIOResponse> getIOPairList(HttpServletRequest request, @PathVariable Long taskId){
+    public ListResponse<AssignIOResponse> getIOPairList(HttpServletRequest request, @PathVariable Long taskId
+            ,@PageableDefault(size = 60, sort = "ioPairsIdx", direction = Sort.Direction.ASC) Pageable pageable){
         // Session에서 User의 정보를 얻음
         Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
 
-        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(userId, taskId);
+        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(userId, taskId, pageable);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairList);
     }

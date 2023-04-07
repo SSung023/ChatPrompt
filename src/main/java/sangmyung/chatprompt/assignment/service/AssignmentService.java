@@ -15,9 +15,7 @@ import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 @Transactional(readOnly = true)
@@ -190,19 +188,23 @@ public class AssignmentService {
 
         List<SingleInstructResponse> assignmentList = new ArrayList<>();
 
+        // 사용자가 등록했던 Assignment를 모두 불러옴
         List<Assignment> assignments = assignRepository.getWrittenAssignList(userId, taskId, pageable);
+        Map<Long, Assignment> assignmentMap = new HashMap<>();
         for (Assignment assignment : assignments) {
-            assignmentList.add(convertToSingleInstruct(assignment));
+            assignmentMap.put(assignment.getTaskSubIdx(), assignment);
         }
 
-        // 10개가 안될 때 더미 데이터로 채우기
-        int len = assignmentList.size();
-        if (len < 10) {
-            int remain = 10 - len;
-            for (int i = 0; i < remain; ++i){
+
+        for (int i = 1; i <= 10; ++i){
+            Long idx = Long.valueOf(i);
+            if (assignmentMap.containsKey(idx)) { // 값이 있다면
+                assignmentList.add(convertToSingleInstruct(assignmentMap.get(idx)));
+            }
+            else {
                 assignmentList.add(SingleInstructResponse.builder()
-                                .similar_instruct("유사지시문이 아직 작성되지 않았습니다.")
-                                .taskSubIdx(0L)
+                        .similar_instruct(null)
+                        .taskSubIdx(0L)
                         .build());
             }
         }
@@ -213,21 +215,22 @@ public class AssignmentService {
      *
      * @param assignedTaskId 입력한 입출력 쌍을 알고 싶은 Task의 PK
      */
-    public List<AssignIOResponse> getIOPairList(Long userId, Long assignedTaskId){
+    public List<AssignIOResponse> getIOPairList(Long userId, Long assignedTaskId, Pageable pageable){
         Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         List<AssignIOResponse> ioList = new ArrayList<>();
-        List<Assignment> ioPairList = assignRepository.getIOPairList(userId, task.getId());
+        List<Assignment> ioPairList = assignRepository.getIOPairList(userId, task.getId(), pageable);
         for (Assignment assignment : ioPairList) {
             ioList.add(convertToAssignIOResponse(assignment));
         }
 
-        int remain = task.getTotalIoNum() - ioPairList.size();
+        // int remain = task.getTotalIoNum() - ioPairList.size();
+        int remain = 60 - ioPairList.size();
         for (int i = 0; i < remain; ++i){
             ioList.add(AssignIOResponse.builder()
-                            .input("입력이 아직 기입되지 않았습니다.")
-                            .output("출력이 아직 기입되지 않았습니다.")
+                            .input(null)
+                            .output(null)
                     .build());
         }
         return ioList;
@@ -257,12 +260,6 @@ public class AssignmentService {
         return SingleInstructResponse.builder()
                 .similar_instruct(assignment.getSimilarInstruct1())
                 .taskSubIdx(assignment.getTaskSubIdx())
-                .build();
-    }
-    private SimilarInstructResponse convertToSimilar(Assignment assignment){
-        return SimilarInstructResponse.builder()
-                .similarInstruct1(assignment.getSimilarInstruct1())
-                .similarInstruct2(assignment.getSimilarInstruct2())
                 .build();
     }
     private TaskResponse convertToDefinition(Assignment assignment, Task task){

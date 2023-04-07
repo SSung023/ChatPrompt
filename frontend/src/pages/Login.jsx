@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { SET_FIRST_TASKID, SET_INST_TASKID, SET_IO_TASKID, SET_LAST_TASKID, userContext } from '../context/UserContext';
+import { SET_FIRST_TASKID, SET_INST_TASKID, SET_IO_FIRST_TASKID, SET_IO_LAST_TASKID, SET_IO_TASKID, SET_LAST_TASKID, userContext } from '../context/UserContext';
 import styles from './Login.module.css';
 
 export default function Login() {
@@ -33,14 +33,16 @@ export default function Login() {
         .then(function(data) {
             if(data.lastModifiedTaskNum < data.taskStartIdx || data.lastModifiedTaskNum > data.taskEndIdx){
                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: data.taskStartIdx });
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: data.taskEndIdx });    
+                // context.actions.contextDispatch({ type: SET_IO_TASKID, data: data.ioStartIdx }); 
             }
             else {
                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: data.lastModifiedTaskNum });
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: data.lastModifiedTaskNum });
+                context.actions.contextDispatch({ type: SET_IO_TASKID, data: data.ioStartIdx });
             }
             context.actions.contextDispatch({ type: SET_FIRST_TASKID, data: data.taskStartIdx });
             context.actions.contextDispatch({ type: SET_LAST_TASKID, data: data.taskEndIdx });
+            context.actions.contextDispatch({ type: SET_IO_FIRST_TASKID, data: data.ioStartIdx });
+            context.actions.contextDispatch({ type: SET_IO_LAST_TASKID, data: data.ioEndIdx });
         })
         .then(function() {
             window.localStorage.setItem('prompt-login', true);

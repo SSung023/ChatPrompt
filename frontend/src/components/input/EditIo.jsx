@@ -15,8 +15,8 @@ export default function EditIo() {
 
     // store 정보
     const taskId = context.state.data.io_taskId;
-    const first_taskId = context.state.data.first_taskId;
-    const last_taskId = context.state.data.last_taskId;
+    const first_taskId = context.state.data.io_first_taskId;
+    const last_taskId = context.state.data.io_last_taskId;
     const idx = context.state.data.io_idx;
 
     // 내부 관리용
@@ -47,6 +47,7 @@ export default function EditIo() {
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
