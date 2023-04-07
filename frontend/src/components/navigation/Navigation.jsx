@@ -81,14 +81,14 @@ export default function Navigation() {
                     <p className={styles.bar}></p>
                 </NavLink>
 
-                <NavLink 
+                {/* <NavLink 
                     to={`/inspect`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
                     <TbZoomCheck />
                     {isOpen ? <p>검증</p> : ''}
                     <p className={styles.bar}></p>
-                </NavLink>
+                </NavLink> */}
             </div>
 
             {/* <div className={styles.divider}/> */}
