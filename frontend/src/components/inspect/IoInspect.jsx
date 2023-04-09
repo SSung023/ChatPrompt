@@ -9,13 +9,12 @@ import InspectInfo from '../ui/information/InspectInfo';
 
 export default function IoInspect({ data, idx }) {
     const row1 = (
-        <Input data={data.input} idx={idx} key={idx*2}/>
+        <Input data={data.input} idx={idx} key={(idx-1)*2}/>
     )
     const row2 = (
-        <Output data={data.output} idx={idx} key={idx*2+1} isValidated={data.isValidated}/>
+        <Output data={data.output} idx={idx} key={(idx-1)*2+1} isValidated={data.isValidated}/>
     );
     return (
-        // console.log(data)
         data && [row1, row2]
     );
 }
@@ -23,7 +22,7 @@ export default function IoInspect({ data, idx }) {
 function Input({ data, idx }) {
     return (
         <TableRow>
-            <TableHead>{`입력 ${idx+1}`}</TableHead>
+            <TableHead>{`입력 ${idx}`}</TableHead>
             <TableCell>
                 {!data
                     ? <span style={{color:"var(--placeholder-txt-color)"}} className="noDrag">작성한 입력이 없습니다.</span>
@@ -40,12 +39,13 @@ function Output({ data, idx, isValidated }) {
     const [isChecked, setChecked] = useState(isValidated);
     
     const handleChange = (e) => {
-        axios.patch(`/api/verifications/tasks/${taskId}/io/${idx+1}?verify=${isChecked ? 'no' : 'yes'}`)
+        console.log(typeof(isChecked));
+        axios.patch(`/api/verifications/tasks/${taskId}/io/${idx}?verify=${isChecked ? 'no' : 'yes'}`)
         .then(function(res) {
             return res.data.data;
         })
         .then(function(data) {
-            setChecked(data.isValidated);
+            setChecked(Boolean(data.isValidated));
             context.actions.contextDispatch({ type: SET_IO_PROGRESS, data: data.validatedCnt });
         })
         .catch(function(err) {
@@ -57,19 +57,24 @@ function Output({ data, idx, isValidated }) {
         })
     }
 
+    useEffect(() => {
+        setChecked(Boolean(isValidated));
+    }, [isValidated]);
+
     return (
         <TableRow>
-            <TableHead>{`출력 ${idx+1}`}</TableHead>
+            <TableHead>{`출력 ${idx}`}</TableHead>
             <TableCell>
                 <div className={styles.output}>
                     {!data
                         ? <span style={{color:"var(--placeholder-txt-color)"}} className="noDrag">작성한 출력이 없습니다.</span>
                         : <span className={isChecked ? `${styles.open}` : `${styles.hidden}`}>{`${data}`}</span>}
+
                     <input 
                         className={styles.checkbox}
                         type="checkbox" 
                         id={`verifi${idx}`}
-                        checked={isChecked}
+                        checked={isChecked ? true : false}
                         onChange={handleChange}
                     />
                     {data && 
@@ -81,7 +86,8 @@ function Output({ data, idx, isValidated }) {
                         ? <VscEye color='var(--main-color)'/> 
                         : <VscEyeClosed color='var(--placeholder-txt-color)'/>) }
                     </label>}
-                    {idx === 0 && <InspectInfo />}
+
+                    <InspectInfo />
                 </div>
             </TableCell>
         </TableRow>
