@@ -161,6 +161,7 @@ public class AssignmentService {
                     .similarInstruct1(null)
                     .similarInstruct2(null)
                     .input(null).output(null)
+                    .ioPairsIdx(null)
                     .build();
 
             Assignment savedAssignment = assignRepository.save(assignment);
