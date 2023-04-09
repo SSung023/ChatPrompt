@@ -44,7 +44,7 @@ public class Assignment {
 
 
     @Builder
-    public Assignment(Long taskId, int ioPairsIdx, String similarInstruct1, String similarInstruct2,
+    public Assignment(Long taskId, Integer ioPairsIdx, String similarInstruct1, String similarInstruct2,
                       String input, String output) {
         this.taskId = taskId;
         this.ioPairsIdx = ioPairsIdx;
@@ -61,10 +61,6 @@ public class Assignment {
         user.getAssignList().add(this);
     }
 
-//    public void addIOPair(IOPairs ioPairs){
-//        this.ioPairs = ioPairs;
-//        ioPairs.addAssignment(this);
-//    }
 
 
     //=== 비지니스 코드 ===//

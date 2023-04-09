@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useMemo, useRef, useState } from 'react';
-import { SET_IO_TASKID, userContext } from '../../context/UserContext';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import { SET_IO_IDX, SET_IO_TASKID, userContext } from '../../context/UserContext';
 import Table, { TableBody, TableRow } from '../ui/table/Table';
 import IoInspect from './IoInspect';
 import styles from './IoPairs.module.css';
@@ -12,29 +13,19 @@ export default function IoPairs() {
     const taskId = context.state.data.io_taskId;
     const first_taskId = context.state.data.io_first_taskId;
     const last_taskId = context.state.data.io_last_taskId;
+    const idx = context.state.data.io_idx;
 
     // 내부 관리용
-    const [taskNum, setTaskNum] = useState(taskId);
+    const [taskIdx, setIdx] = useState(1);
     const [io, setIo] = useState({});
 
     // ref
-    const taskNumRef = useRef();
-    // const taskIdxRef = useRef();
-
-    const makeIoInspect = useMemo(() => {
-        return (
-            io && Object.values(io).map((data, idx) => {
-                return (
-                    <IoInspect data={data} idx={idx} key={idx}/>
-                )
-            })
-        )
-    }, [io]);
+    const taskIdxRef = useRef();
 
     const handleLoad = (e) => {
-        taskId && axios.get(`/api/verifications/tasks/${taskId}/io/lists`)
+        taskId && axios.get(`/api/verifications/tasks/${taskId}/io/${idx}`)
         .then(function(res) {
-            return res.data.dataList;
+            return res.data.data;
         })
         .then(function(data) {
             setIo(data);
@@ -52,28 +43,27 @@ export default function IoPairs() {
     const handlePressEnter = (e) => {
         const id = e.target.id;
         if(e.key === "Enter"){
-            if(id === "task") {
+            if(id === "idx") {
                 const value= e.target.value;
-                value >= first_taskId && value <= last_taskId && setTaskNum(value);
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
-                // context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
+                value >=1 && value <=60 && setIdx(value);
+                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
                 handleLoad(e);
             }
         }
     }
     const handleOnBlur = (e) => {
         const id = e.target.id;
-        if(id === "task") {
+        if(id === "idx") {
             const value= e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
+            value >= 1 && value <= 60 && setIdx(parseInt(value));
         }
     }
 
     useEffect(() => {
         // 입출력 작성 폼에 불러오기
         handleLoad();
-        setTaskNum(taskId);
-    }, [taskId]);
+        setIdx(idx);
+    }, [taskId, idx]);
 
     return (
         <div>
@@ -83,39 +73,76 @@ export default function IoPairs() {
                     className={styles.ioForm}
                     onSubmit={(e) => {e.preventDefault()}}
                 >
-                    <label className={`${styles.label} noDrag`}>task: </label>
+                    <label className={`noDrag ${styles.label}`}>index: </label>
                     <input 
                         className={styles.input}
-                        ref={taskNumRef}
+                        ref={taskIdxRef}
                         type="number"
-                        id="task"
+                        id="idx"
                         onChange={(e) => {
                             const value = parseInt(e.target.value);
-                            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
+                            value >=1 && value <=60 && setIdx(parseInt(e.target.value));
                         }}
-                        max={`${last_taskId}`}
-                        min={`${first_taskId}`}
-                        value={taskNum}
+                        max="60"
+                        min="1"
+                        value={taskIdx}
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
                         onClick={() => {
-                            taskNumRef.current.select();
+                            taskIdxRef.current.select();
                         }}
                     />
-                    <p 
-                        className='noDrag'
-                        style={{
-                            color: "var(--light-main-color)", 
-                            fontSize: "14px",
-                            marginLeft: "1em",
-                    }}>✓ 엔터를 누르면 조회됩니다.</p>
                 </form>
             </div>
             <Table>
                 <TableBody>
-                    {makeIoInspect}
+                    <IoInspect data={io} idx={idx}/>
                 </TableBody>
             </Table>
+
+            <div className={styles.buttons}>
+                <button
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        if(taskIdx > 1){
+                            context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
+                            setIdx(prev => parseInt(prev)-1);
+                        }
+                        else {
+                            if(taskId > first_taskId) {
+                                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)-1 });
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
+                                setIdx(60);
+                            }
+                            else {
+                                alert('첫 입출력입니다.');
+                            }
+                        }
+                    }}
+                ><AiOutlineLeft/>이전</button>
+                
+                <button 
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        if(taskIdx < 60){
+                            context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
+                            setIdx(prev => parseInt(prev)+1);
+                        }
+                        else {
+                            if(taskId < last_taskId) {
+                                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)+1 });
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
+                                setIdx(1);
+                            }
+                            else{
+                                alert('마지막입니다.');
+                            }
+                        }
+                    }}
+                >다음<AiOutlineRight/></button>
+            </div>
         </div>
     );
 }
