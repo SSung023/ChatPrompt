@@ -31,7 +31,7 @@ public class IoPairService {
      * 특정 Task의 특정 입출력에 대해서 사용자가 검증 여부를 무엇으로 설정했는지 여부 확인
      * 0: false, 1: true
      */
-    public Boolean getIsIOValidated(Long userId, Long assignedTaskId, int ioIndex){
+    public ValidationIOResponse getIsIOValidated(Long userId, Long assignedTaskId, int ioIndex){
         Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Optional<Assignment> optional = assignmentRepository.findIOAssignment(userId, taskId, ioIndex);
@@ -42,7 +42,7 @@ public class IoPairService {
 
         Assignment assignment = optional.get();
 
-        return !(assignment.getIsValidated() == null || assignment.getIsValidated() == 0);
+        return convertToValidIOResponse(assignment);
     }
 
     /**

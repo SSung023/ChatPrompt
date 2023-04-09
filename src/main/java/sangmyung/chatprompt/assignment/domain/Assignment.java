@@ -61,10 +61,6 @@ public class Assignment {
         user.getAssignList().add(this);
     }
 
-//    public void addIOPair(IOPairs ioPairs){
-//        this.ioPairs = ioPairs;
-//        ioPairs.addAssignment(this);
-//    }
 
 
     //=== 비지니스 코드 ===//
