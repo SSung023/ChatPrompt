@@ -86,7 +86,7 @@ export default function Navigation() {
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
                     <TbZoomCheck />
-                    {isOpen ? <p>검증</p> : ''}
+                    {isOpen ? <p>검증하기</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
             </div>
