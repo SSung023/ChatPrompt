@@ -37,7 +37,11 @@ public class IoPairService {
         Optional<Assignment> optional = assignmentRepository.findIOAssignment(userId, taskId, ioIndex);
 
         if (optional.isEmpty()){
-            throw new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND);
+            return ValidationIOResponse.builder()
+                    .input(null).output(null)
+                    .isValidated(false)
+                    .build();
+//            throw new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND);
         }
 
         Assignment assignment = optional.get();
