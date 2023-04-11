@@ -78,7 +78,7 @@ export default function InspectInstruction() {
         data &&
         <div className={styles.instruction}>
             <div className={styles.header}>
-                <p className={styles.title}>* 내가 쓴 지시문</p>
+                <p className={styles.title}>* 지시문에 대한 입력과 출력이 적절한지 검사하시오.</p>
 
                 <form
                     className={styles.form}

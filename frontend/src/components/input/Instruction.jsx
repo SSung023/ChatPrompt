@@ -1,24 +1,20 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import styles from './Instruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
-import { SET_SUB_IDX, SET_IO_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
+import { SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
 
 export default function Instruction() {
     const context = useContext(userContext);
 
     const taskId = context.state.data.io_taskId;
-    const first_taskId = context.state.data.io_first_taskId;
-    const last_taskId = context.state.data.io_last_taskId;
     const subIdx = context.state.data.sub_idx;
 
     // state
     const [data, setData] = useState();
-    const [taskNum, setTaskNum] = useState(taskId);
     const [subNum, setSubNum] = useState(subIdx);
 
     // ref
-    const taskNumRef = useRef();
     const subNumRef = useRef();
     
     const handleLoad = () => {
@@ -56,7 +52,6 @@ export default function Instruction() {
     // 유사 지시문 로드
     useEffect(() => {
         handleLoad();
-        setTaskNum(taskId);
         setSubNum(subIdx);
     }, [taskId, subIdx]);
 
