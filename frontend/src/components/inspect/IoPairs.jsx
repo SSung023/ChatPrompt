@@ -20,7 +20,7 @@ export default function IoPairs() {
     const [io, setIo] = useState({});
 
     // ref
-    const taskIdxRef = useRef();
+    // const taskIdxRef = useRef();
 
     const handleLoad = (e) => {
         taskId && axios.get(`/api/verifications/tasks/${taskId}/io/${idx}`)
@@ -40,24 +40,24 @@ export default function IoPairs() {
     }
 
     // task, index 관리
-    const handlePressEnter = (e) => {
-        const id = e.target.id;
-        if(e.key === "Enter"){
-            if(id === "idx") {
-                const value= e.target.value;
-                value >=1 && value <=60 && setIdx(value);
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
-                handleLoad(e);
-            }
-        }
-    }
-    const handleOnBlur = (e) => {
-        const id = e.target.id;
-        if(id === "idx") {
-            const value= e.target.value;
-            value >= 1 && value <= 60 && setIdx(parseInt(value));
-        }
-    }
+    // const handlePressEnter = (e) => {
+    //     const id = e.target.id;
+    //     if(e.key === "Enter"){
+    //         if(id === "idx") {
+    //             const value= e.target.value;
+    //             value >=1 && value <=60 && setIdx(value);
+    //             context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
+    //             handleLoad(e);
+    //         }
+    //     }
+    // }
+    // const handleOnBlur = (e) => {
+    //     const id = e.target.id;
+    //     if(id === "idx") {
+    //         const value= e.target.value;
+    //         value >= 1 && value <= 60 && setIdx(parseInt(value));
+    //     }
+    // }
 
     useEffect(() => {
         // 입출력 작성 폼에 불러오기
@@ -73,7 +73,7 @@ export default function IoPairs() {
                     className={styles.ioForm}
                     onSubmit={(e) => {e.preventDefault()}}
                 >
-                    <label className={`noDrag ${styles.label}`}>index: </label>
+                    {/* <label className={`noDrag ${styles.label}`}>index: </label>
                     <input 
                         className={styles.input}
                         ref={taskIdxRef}
@@ -91,7 +91,7 @@ export default function IoPairs() {
                         onClick={() => {
                             taskIdxRef.current.select();
                         }}
-                    />
+                    /> */}
                 </form>
             </div>
             <Table>
