@@ -56,7 +56,6 @@ export default function EditSimilarInst() {
 
         axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
             similarInstruct1: `${input1}`,
-            // similarInstruct2: `${input2}`,
             taskSubIdx: subNum,
         })
         .then(function(res) {
@@ -98,12 +97,7 @@ export default function EditSimilarInst() {
 
         axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
             similarInstruct1: `${input1}`,
-            // similarInstruct2: `${input2}`,
             taskSubIdx: subNum,
-        })
-        .then(function() {
-            // alert('저장되었습니다.');
-            // window.location.reload();
         })
         .catch(function(err) {
             alert('저장되지 않았습니다.');
