@@ -3,6 +3,7 @@ import styles from './Instruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import { SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 export default function Instruction() {
     const context = useContext(userContext);
@@ -104,6 +105,35 @@ export default function Instruction() {
                     </TableRow>
                 </TableBody>
             </Table>
+
+            {/* buttons */}
+            <div className={styles.buttons}>
+                <button 
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={() => {
+                        if(subNum > 1){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
+                            setSubNum(prev => parseInt(prev)-1);
+                        }
+                        else {
+                            alert('첫 지시문입니다.');
+                        }
+                    }}    
+                ><AiOutlineLeft/>이전</button>
+
+                <button 
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={() => {
+                        if(subNum < 10){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
+                            setSubNum(prev => parseInt(prev)+1);
+                        }
+                        else {
+                            alert('마지막 지시문입니다.');
+                        }
+                    }}
+                >다음<AiOutlineRight/></button>
+            </div>
         </div>
     );
 }
