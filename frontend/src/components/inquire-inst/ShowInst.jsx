@@ -17,7 +17,7 @@ export default function ShowInst({ taskNum }) {
                     <TableRow key={idx}>
                         <TableHead>{`지시문 ${idx+1}`}</TableHead>
                         <TableCell>
-                            {!inst.similar_instruct || inst.similar_instruct === "유사지시문이 아직 작성되지 않았습니다."
+                            {!inst.similar_instruct
                             ? <span style={{color:"var(--placeholder-txt-color)"}} className="noDrag">작성한 지시문이 없습니다.</span>
                             : <span>{inst.similar_instruct}</span>}
                         </TableCell>
@@ -39,6 +39,7 @@ export default function ShowInst({ taskNum }) {
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }

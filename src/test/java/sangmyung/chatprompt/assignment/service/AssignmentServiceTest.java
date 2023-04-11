@@ -120,8 +120,6 @@ class AssignmentServiceTest {
         return AssignRequest.builder()
                 .similarInstruct1(s1)
                 .similarInstruct2(s2)
-                .input(in)
-                .output(out)
                 .build();
     }
 }

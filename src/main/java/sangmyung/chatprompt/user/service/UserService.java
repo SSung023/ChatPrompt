@@ -38,12 +38,6 @@ public class UserService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
     }
 
-    // identifier(구분자)를 통해 User 찾은 후 반환
-    public User findUserByIdentifier(String identifier){
-        return userRepository.findUserByIdentifier(identifier)
-                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-    }
-
     // username(실명) & identifier(구분자)를 통해 User를 찾은 후 반환
     public User findRegisteredUser(String username, String identifier){
         return userRepository.findUserIsRegistered(username, identifier)
@@ -79,5 +73,13 @@ public class UserService {
         if (session != null){
             session.invalidate();
         }
+    }
+
+    // 현재 사용자가 접근한 TaskId가 사용자가 할당받은 TaskId인지 여부 반환
+    public boolean isAssignedTaskNum(User user, Long taskId){
+        int startIdx = user.getTaskStartIdx();
+        int endIdx = user.getTaskEndIdx();
+
+        return startIdx <= taskId && taskId <= endIdx;
     }
 }

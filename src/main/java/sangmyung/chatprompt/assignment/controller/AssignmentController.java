@@ -2,6 +2,9 @@ package sangmyung.chatprompt.assignment.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
@@ -35,14 +38,13 @@ public class AssignmentController {
     @GetMapping("/tasks/{taskId}/assignment/{taskSubIdx}")
     public SingleResponse<AssignResponse> getTasksAssignment(HttpServletRequest request,
                                                              @PathVariable Long taskId, @PathVariable Long taskSubIdx){
-
-        // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromSession(request);
-        if (userId == null){
-            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        // taskSubIdx의 범위가 올바르지 않은 경우 400 발생
+        if (taskSubIdx < 0 || taskSubIdx > 10){
+            throw new BusinessException(ErrorCode.INVALID_PARAMETER);
         }
 
-        User user = userService.findUserById(userId);
+        User user = validateTaskIdxAndGetUser(request, taskId);
+
         AssignResponse assignResponse = assignmentService.getWrittenAssignment(user, taskId, taskSubIdx);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), assignResponse);
@@ -56,13 +58,14 @@ public class AssignmentController {
     @PatchMapping("/tasks/{taskId}/assignment/{taskSubIdx}")
     public SingleResponse<AssignResponse> updateTasksAssignment (HttpServletRequest request, @RequestBody AssignRequest assignRequest,
                                                                  @PathVariable Long taskId, @PathVariable Long taskSubIdx){
-        // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromSession(request);
-        if (userId == null){
-            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        // taskSubIdx의 범위가 올바르지 않은 경우 400 발생
+        if (taskSubIdx < 0 || taskSubIdx > 10){
+            throw new BusinessException(ErrorCode.INVALID_PARAMETER);
         }
 
-        User user = userService.findUserById(userId);
+        // Session에서 User의 정보를 얻음
+        User user = validateTaskIdxAndGetUser(request, taskId);
+
         AssignResponse assignResponse = assignmentService.updateAssignmentContent(user, taskId, taskSubIdx, assignRequest);
 
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), assignResponse);
@@ -77,11 +80,9 @@ public class AssignmentController {
     @PatchMapping("/tasks/{taskId}/assignment-io/{ioIndex}")
     public SingleResponse<AssignIOResponse> updateTaskIOAssignment(HttpServletRequest request, @PathVariable Long taskId,
                                                                    @PathVariable int ioIndex, @RequestBody AssignIORequest assignIORequest){
+
         // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromSession(request);
-        if (userId == null){
-            throw new BusinessException(ErrorCode.NO_AUTHORITY);
-        }
+        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
 
         AssignIOResponse assignIOResponse = taskService.updateIOAssignmentContent(userId, taskId, ioIndex, assignIORequest);
 
@@ -98,10 +99,7 @@ public class AssignmentController {
     public SingleResponse<AssignIOResponse> getTaskIOAssignment(HttpServletRequest request,
                                                                 @PathVariable Long taskId, @PathVariable int ioIndex){
         // Session에서 User의 정보를 얻음
-        Long userId = userService.getUserIdFromSession(request);
-        if (userId == null){
-            throw new BusinessException(ErrorCode.NO_AUTHORITY);
-        }
+        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
 
         AssignIOResponse assignIOResponse = taskService.getWrittenIOAssignContent(userId, taskId, ioIndex);
 
@@ -114,8 +112,13 @@ public class AssignmentController {
      * @param taskId 사람들이 작성한 유사지시문 리스트를 얻고 싶은 테스크의 할당받은 인덱스
      */
     @GetMapping("/tasks/{taskId}/assignment-similar/lists")
-    public ListResponse<SingleInstructResponse> getSimilarInstructList(@PathVariable Long taskId){
-        List<SingleInstructResponse> similarList = assignmentService.getWrittenTaskSimilar(taskId);
+    public ListResponse<SingleInstructResponse> getSimilarInstructList(HttpServletRequest request, @PathVariable Long taskId
+                    ,@PageableDefault(size = 10, sort = "taskSubIdx", direction = Sort.Direction.ASC) Pageable pageable){
+
+        // Session에서 User의 정보를 얻음
+        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
+
+        List<SingleInstructResponse> similarList = assignmentService.getWrittenTaskSimilar(userId, taskId, pageable);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarList);
     }
@@ -126,9 +129,32 @@ public class AssignmentController {
      * 이전 api: /api/tasks/{taskId}/assignment/io-lists
      */
     @GetMapping("/tasks/{taskId}/assignment-io/lists")
-    public ListResponse<AssignIOResponse> getIOPairList(@PathVariable Long taskId){
-        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(taskId);
+    public ListResponse<AssignIOResponse> getIOPairList(HttpServletRequest request, @PathVariable Long taskId
+            ,@PageableDefault(size = 60, sort = "ioPairsIdx", direction = Sort.Direction.ASC) Pageable pageable){
+        // Session에서 User의 정보를 얻음
+        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
+
+        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(userId, taskId, pageable);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairList);
+    }
+
+
+
+
+    private User validateTaskIdxAndGetUser(HttpServletRequest request, Long taskId) {
+        // Session에서 User의 정보를 얻음
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
+
+        User user = userService.findUserById(userId);
+
+        // 사용자가 할당받은 TaskId가 아니라면 Exception 발생
+        if (!userService.isAssignedTaskNum(user, taskId)){
+            throw new BusinessException(ErrorCode.INVALID_PARAMETER);
+        }
+        return user;
     }
 }

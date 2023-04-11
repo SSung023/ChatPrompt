@@ -28,7 +28,7 @@ export default function Navigation() {
 
     return (
         <div 
-            className={styles.gnb} 
+            className={`${styles.gnb} noDrag`} 
             style={isOpen ? {width: `100%`, minWidth: `13em`} : {}}
         >
             <div className={styles.colFlex}>
@@ -81,14 +81,14 @@ export default function Navigation() {
                     <p className={styles.bar}></p>
                 </NavLink>
 
-                {/* <NavLink 
-                    to={`/quiz`} 
+                <NavLink 
+                    to={`/inspect`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
                     <TbZoomCheck />
-                    {isOpen ? <p>퀴즈</p> : ''}
+                    {isOpen ? <p>검증하기</p> : ''}
                     <p className={styles.bar}></p>
-                </NavLink> */}
+                </NavLink>
             </div>
 
             {/* <div className={styles.divider}/> */}

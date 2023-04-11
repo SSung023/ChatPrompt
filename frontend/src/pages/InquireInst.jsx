@@ -15,6 +15,7 @@ export default function InquireInst() {
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
 
+    // 조회가 지시문과 입출력에 영향을 주지 않도록 taskId context를 사용하지 않음
     const [taskNum, setTaskNum] = useState(taskId); // 데이터 로드용
     const [inputNum, setInput] = useState(taskId); // input 관리용
 
@@ -41,6 +42,7 @@ export default function InquireInst() {
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
@@ -50,7 +52,7 @@ export default function InquireInst() {
     const handlePressEnter = (e) => {
         if(e.key === "Enter") {
             const value = e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(value);
+            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
             // context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
         }
     }
@@ -73,8 +75,8 @@ export default function InquireInst() {
                         const value = e.target.value;
                         value >= first_taskId && value <= last_taskId && setInput(parseInt(e.target.value))
                     }}
-                    max="120"
-                    min="1"
+                    max={`${last_taskId}`}
+                    min={`${first_taskId}`}
                     // defaultValue={taskId}
                     value={inputNum}
                     onKeyDown={handlePressEnter}
@@ -86,6 +88,7 @@ export default function InquireInst() {
                     marginLeft: "1em",
                 }}>✓ 엔터를 누르면 조회됩니다.</p>
             </form>
+
             <div className={styles.toggle}>
                 <div className={styles.toggleTitle}>
                     <BsCaretRightFill 
@@ -98,6 +101,7 @@ export default function InquireInst() {
                     {isOpen ? <Directive defData={defData} originalDefData={originalDefData}/> : ''}
                 </div>
             </div>
+            
             <ShowInst taskNum={taskNum}/>
         </div>
     );

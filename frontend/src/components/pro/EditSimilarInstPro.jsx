@@ -40,11 +40,12 @@ export default function EditSimilarInstPro() {
         .then(function(data) {
             setInput1(data.similarInstruct1);
             setInput2(data.similarInstruct2);
-            context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
+            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)});
             context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
@@ -63,7 +64,7 @@ export default function EditSimilarInstPro() {
                 // 다음 subIdx로 state 초기화
                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(taskNum) +1) });
                 // taskNum 상승
-                setTaskNum(prev => prev + 1);
+                setTaskNum(prev => parseInt(prev) + 1);
             }
             else if(taskNum >= 120){
                 alert('마지막 지시문입니다.');
@@ -95,7 +96,7 @@ export default function EditSimilarInstPro() {
             if(id === "task") {
                 const value= e.target.value;
                 value >= first_taskId && value <=last_taskId && setTaskNum(value);
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum });
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
             }
             handleLoad(e);
         }

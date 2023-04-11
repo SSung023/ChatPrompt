@@ -15,12 +15,12 @@ export default function EditIo() {
 
     // store 정보
     const taskId = context.state.data.io_taskId;
-    const first_taskId = context.state.data.first_taskId;
-    const last_taskId = context.state.data.last_taskId;
+    const first_taskId = context.state.data.io_first_taskId;
+    const last_taskId = context.state.data.io_last_taskId;
     const idx = context.state.data.io_idx;
 
     // 내부 관리용
-    const [taskNum, setTaskNum] = useState(() => first_taskId);
+    const [taskNum, setTaskNum] = useState(taskId);
     const [taskIdx, setIdx] = useState(1);
 
     // ref
@@ -47,6 +47,7 @@ export default function EditIo() {
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
@@ -55,6 +56,11 @@ export default function EditIo() {
     // 제출하고 다음으로 이동
     const handleSaveAndLoad = async (e) => {
         e.preventDefault();
+        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+            alert('task id 확인 후 다시 제출해주세요.');
+            return;
+        }
+        
         axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
@@ -69,16 +75,34 @@ export default function EditIo() {
                 setIdx(prev => parseInt(prev) + 1);
             }
             else if(taskIdx >= 60){
-                alert('마지막 인덱스입니다!');
+                if(taskNum < last_taskId){
+                    setInput('');
+                    setOutput('');
+                    // state 초기화
+                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskNum)+1) });
+                    setTaskNum(prev => parseInt(prev) + 1);
+                    context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(1))});
+                    setIdx(1);
+                }
+                else {
+                    alert('마지막입니다!');
+                }
             }
         })
         .catch(function(err) {
-            console.log(err);
+            if(err.response.status === 400){
+                alert('task id 혹은 index를 확인해주세요.');
+            }
         })
     }
     // 제출
     const handleSave = async (e) => {
         e.preventDefault();
+        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+            alert('task id 확인 후 다시 제출해주세요.');
+            return;
+        }
+
         axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
             input: `${input}`,
             output: `${output}`,
@@ -95,15 +119,15 @@ export default function EditIo() {
             if(id === "task") {
                 const value= e.target.value;
                 value >= first_taskId && value <= last_taskId && setTaskNum(value);
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
+                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
+                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
                 handleLoad(e);
             }
             else if(id === "idx") {
                 const value= e.target.value;
                 value >=1 && value <=60 && setIdx(value);
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: taskIdx});
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: taskNum});
+                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
+                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
                 handleLoad(e);
             }
         }
@@ -112,11 +136,11 @@ export default function EditIo() {
         const id = e.target.id;
         if(id === "task") {
             const value= e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(value);
+            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
         }
         else if(id === "idx") {
             const value= e.target.value;
-            value >= 1 && value <= 60 && setIdx(value);
+            value >= 1 && value <= 60 && setIdx(parseInt(value));
             // e.target.style.opacity="0"
         }
     }
@@ -124,6 +148,8 @@ export default function EditIo() {
     useEffect(() => {
         // 입출력 작성 폼에 불러오기
         handleLoad();
+        setTaskNum(taskId);
+        setIdx(idx);
     }, [taskId, idx]);
 
     return (
@@ -140,11 +166,11 @@ export default function EditIo() {
                         type="number"
                         id="task"
                         onChange={(e) => {
-                            const value = e.target.value;
+                            const value = parseInt(e.target.value);
                             value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
                         }}
-                        max="120"
-                        min="1"
+                        max={`${last_taskId}`}
+                        min={`${first_taskId}`}
                         value={taskNum}
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
@@ -159,7 +185,7 @@ export default function EditIo() {
                         type="number"
                         id="idx"
                         onChange={(e) => {
-                            const value = e.target.value;
+                            const value = parseInt(e.target.value);
                             value >=1 && value <=60 && setIdx(parseInt(e.target.value));
                         }}
                         max="60"
@@ -214,7 +240,15 @@ export default function EditIo() {
                                 setIdx(prev => parseInt(prev)-1);
                             }
                             else {
-                                alert('첫 인덱스입니다.');
+                                if(taskNum > first_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)-1 });
+                                    setTaskNum(prev => parseInt(prev) - 1);
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
+                                    setIdx(60);
+                                }
+                                else {
+                                    alert('첫 인덱스입니다.');
+                                }
                             }
                         }}
                     ><AiOutlineLeft/>이전</button>
@@ -233,55 +267,18 @@ export default function EditIo() {
                                 setIdx(prev => parseInt(prev)+1);
                             }
                             else {
-                                alert('마지막입니다.');
+                                if(taskNum < last_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)+1 });
+                                    setTaskNum(prev => parseInt(prev) + 1);
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
+                                    setIdx(1);
+                                }
+                                else{
+                                    alert('마지막입니다.');
+                                }
                             }
                         }}
                     >다음<AiOutlineRight/></button>
-
-                    {/* <div className={styles.pagination}>
-                        <button
-                            className={styles.moveBtn}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                if(taskIdx > 1){
-                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
-                                    setIdx(prev => parseInt(prev)-1);
-                                }
-                                else {
-                                    alert('마지막입니다.');
-                                }
-                            }}
-                        ><AiOutlineLeft/>index</button>
-                        <input 
-                            className={styles.testInput}
-                            type="number"
-                            id="idx"
-                            onChange={(e) => {
-                                const value = e.target.value;
-                                value >=1 && value <=60 && setIdx(parseInt(e.target.value));
-                            }}
-                            max="60"
-                            min="1"
-                            value={taskIdx}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            // onClick={(e) => e.target.style.opacity="1"}
-                        />
-                        <button 
-                            className={styles.moveBtn}
-                            onClick={(e) => {
-                                e.preventDefault();
-                                if(taskIdx < 60){
-                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
-                                    setIdx(prev => parseInt(prev)+1);
-                                }
-                                else {
-                                    alert('마지막입니다.');
-                                }
-                            }}
-                        >index<AiOutlineRight/></button>
-                    </div> */}
-                    
                 </div>
             </form>
         </div>

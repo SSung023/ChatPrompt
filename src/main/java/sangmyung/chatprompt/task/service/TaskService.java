@@ -108,6 +108,11 @@ public class TaskService {
      * @param ioIndex 알고자하는 입출력 쌍의 인덱스 (ex: 1a, 1b에서의 1)
      */
     public SingleIOResponse getCertainIOPairs(Long assignedTaskId, int ioIndex){
+        // 입출력 인덱스는 60까지 제한
+        if (ioIndex > 60){
+            throw new BusinessException(ErrorCode.INVALID_PARAMETER);
+        }
+
         Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
@@ -133,21 +138,19 @@ public class TaskService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Long taskId = task.getId();
 
-        Optional<Assignment> ioAssignment = assignRepository.getIOAssignment(userId, taskId, ioIndex);
+        Optional<Assignment> ioAssignment = assignRepository.findIOAssignment(userId, taskId, ioIndex);
         User user = userRepository.findById(userId)
-                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-        IOPairs ioPairs = ioPairRepository.findPairByIoIndex(taskId, ioIndex)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         // 값이 없었다면 새로 만들고 값을 채워서 반환
         if (ioAssignment.isEmpty()){
             Assignment assignment = Assignment.builder()
                     .taskId(taskId)
-                    .input(assignIORequest.getInput())
-                    .output(assignIORequest.getOutput())
+                    .ioPairsIdx(ioIndex)
                     .build();
             assignment = assignRepository.save(assignment);
-            assignment.addIOPair(ioPairs);
+            assignment.updateIO(assignIORequest.getInput(), assignIORequest.getOutput());
+//            assignment.addIOPair(ioPairs);
             assignment.addUser(user);
 
             return convertToAssignIOResponse(task, assignment);
@@ -167,12 +170,17 @@ public class TaskService {
      * @param ioIndex
      */
     public AssignIOResponse getWrittenIOAssignContent(Long userId, Long assignedTaskId, int ioIndex) {
+        // ioIndex는 60까지로 제한
+        if (ioIndex > 60){
+            throw new BusinessException(ErrorCode.INVALID_PARAMETER);
+        }
+
         // assignedTaskId를 통해 해당 Task의 PK를 찾음
         Task task = taskRepository.findTaskByAssignedId(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Long taskId = task.getId();
 
-        Optional<Assignment> ioAssignment = assignRepository.getIOAssignment(userId, taskId, ioIndex);
+        Optional<Assignment> ioAssignment = assignRepository.findIOAssignment(userId, taskId, ioIndex);
 
         // 존재하지 않는 경우
         if (ioAssignment.isEmpty()) {
