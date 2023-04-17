@@ -11,6 +11,7 @@ import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.task.repository.IoPairRepository;
+import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
 
@@ -22,6 +23,7 @@ import java.util.*;
 @Slf4j
 public class OutsourceService {
     private final UserRepository userRepository;
+    private final TaskRepository taskRepository;
     private final AssignmentRepository assignmentRepository;
     private final IoPairRepository ioPairRepository;
 
@@ -38,10 +40,10 @@ public class OutsourceService {
     public void extractType0(Pageable pageable){
         addType0TaskPK(); // Type0인 모든 Task의 PK를 ArrayList에 저장
 
-        User user = userRepository.findById(2L).get();
-
         for (Integer taskPK : type0List) {
             List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(Long.valueOf(taskPK), pageable);
+            User user = checkAssignedUser(Long.valueOf(taskPK));
+
             for (IOPairs pair : pairs) {
                 Assignment assignment = Assignment.builder()
                         .input(pair.getInput1())
@@ -62,10 +64,10 @@ public class OutsourceService {
         addType1SimpleConvert();
         matchAscii();
 
-        User user = userRepository.findById(2L).get();
-
         for (Integer taskPK : type1List) {
             List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(Long.valueOf(taskPK), pageable);
+            User user = checkAssignedUser(Long.valueOf(taskPK));
+
             for (IOPairs pair : pairs) {
                 String input = type1_convertToKor(pair.getInput1());
                 String output = type1_convertToKor(pair.getOutput1());
@@ -83,25 +85,24 @@ public class OutsourceService {
         log.info("type 1 단순 변환 등록 완료");
     }
 
-    // Type1의 단순 치환을 제외한
+    // Type1의 단순 치환 제외
     @Transactional
     public void extractType1(Pageable pageable){
         addType1TaskPK();
         matchAscii();
 
-        User user = userRepository.findById(2L).get();
-
-        extract_task48(pageable, user, Long.valueOf(type1List.get(0)));
-        extract_task87(pageable, user, Long.valueOf(type1List.get(1)));
-        extract_task99(pageable, user, Long.valueOf(type1List.get(2)));
-        extract_task112(pageable, user, Long.valueOf(type1List.get(3)));
-        extract_task115(pageable, user, Long.valueOf(type1List.get(4)));
+        extract_task48(pageable, Long.valueOf(type1List.get(0)));
+        extract_task87(pageable, Long.valueOf(type1List.get(1)));
+        extract_task99(pageable, Long.valueOf(type1List.get(2)));
+        extract_task112(pageable, Long.valueOf(type1List.get(3)));
+        extract_task115(pageable, Long.valueOf(type1List.get(4)));
 
         log.info("type 1 단순 치환 제외 테스크 변환 완료");
     }
 
-    private void extract_task48(Pageable pageable, User user, Long taskPK) {
+    private void extract_task48(Pageable pageable, Long taskPK) {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
             String input = pair.getInput1().replace("first", "첫 번째");
@@ -119,8 +120,9 @@ public class OutsourceService {
             savedAssignment.addUser(user);
         }
     }
-    private void extract_task87(Pageable pageable, User user, Long taskPK) {
+    private void extract_task87(Pageable pageable, Long taskPK) {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
             String input = type1_convertToKor(pair.getInput1());
@@ -136,8 +138,9 @@ public class OutsourceService {
             savedAssignment.addUser(user);
         }
     }
-    private void extract_task99(Pageable pageable, User user, Long taskPK) {
+    private void extract_task99(Pageable pageable, Long taskPK) {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
             String input = pair.getInput1().replace("target", "대상");
@@ -153,8 +156,9 @@ public class OutsourceService {
             savedAssignment.addUser(user);
         }
     }
-    private void extract_task112(Pageable pageable, User user, Long taskPK) {
+    private void extract_task112(Pageable pageable, Long taskPK) {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
             String input = pair.getInput1().replace("input_format", "입력 형식");
@@ -170,8 +174,9 @@ public class OutsourceService {
             savedAssignment.addUser(user);
         }
     }
-    private void extract_task115(Pageable pageable, User user, Long taskPK) {
+    private void extract_task115(Pageable pageable, Long taskPK) {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
             String input = convertToKorNum(pair.getInput1());
@@ -189,6 +194,17 @@ public class OutsourceService {
     }
 
 
+
+    // Task의 assignedId를 확인하고 할당받은 사용자의 PK를 반환
+    private User checkAssignedUser(Long taskPK){
+        Long assignedTaskId = taskRepository.findTaskAssignedId(taskPK)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        User user = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        return user;
+    }
 
 
 
