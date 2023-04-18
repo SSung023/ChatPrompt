@@ -33,7 +33,11 @@ public class InspectController {
     public SingleResponse<InspectResponse> compareInstruct(HttpServletRequest request,
                                           @PathVariable Long taskId, @RequestParam int targetIdx){
         // Session에서 User의 정보를 얻음
-        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
+//        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
 
         InspectResponse inspectResponse = inspectService.compareWithOtherInstruct(userId, taskId, targetIdx);
 
@@ -49,7 +53,7 @@ public class InspectController {
 
 
 
-    private User validateTaskIdxAndGetUser(HttpServletRequest request, Long taskId) {
+    private User validateTaskIdxAndGetUser(HttpServletRequest request, Long assignedTaskId) {
         // Session에서 User의 정보를 얻음
         Long userId = userService.getUserIdFromSession(request);
         if (userId == null){
@@ -59,7 +63,7 @@ public class InspectController {
         User user = userService.findUserById(userId);
 
         // 사용자가 할당받은 TaskId가 아니라면 Exception 발생
-        if (!userService.isAssignedTaskNum(user, taskId)){
+        if (!userService.isAssignedTaskNum(user, assignedTaskId)){
             throw new BusinessException(ErrorCode.INVALID_PARAMETER);
         }
         return user;

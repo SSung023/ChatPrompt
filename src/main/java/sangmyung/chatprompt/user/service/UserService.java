@@ -1,11 +1,13 @@
 package sangmyung.chatprompt.user.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
+import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
 
@@ -22,6 +24,7 @@ import static sangmyung.chatprompt.Util.session.SessionConst.LOGIN_MEMBER_PK;
 @Slf4j
 public class UserService {
     private final UserRepository userRepository;
+    private final TaskRepository taskRepository;
 
 
 
@@ -76,7 +79,9 @@ public class UserService {
     }
 
     // 현재 사용자가 접근한 TaskId가 사용자가 할당받은 TaskId인지 여부 반환
-    public boolean isAssignedTaskNum(User user, Long taskId){
+    public boolean isAssignedTaskNum(User user, Long assignedTaskId){
+        Long taskId = taskRepository.findTaskAssignedId(assignedTaskId).get();
+//        log.info("start : " + );
         int startIdx = user.getTaskStartIdx();
         int endIdx = user.getTaskEndIdx();
 
