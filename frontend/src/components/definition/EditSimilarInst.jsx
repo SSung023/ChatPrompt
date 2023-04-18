@@ -191,7 +191,7 @@ export default function EditSimilarInst() {
                         />
                         <span 
                             style={{
-                                color: `#e02b2b`,
+                                color: `var(--red-color)`,
                                 fontSize: `12px`,
                                 marginLeft: `1em`,
                                 lineHeight: `1.5em`,
