@@ -9,15 +9,15 @@ export default function InstHeader() {
     const taskId = context.state.data.inst_taskId;
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
-    // const subIdx = context.state.data.sub_idx;
+    const subIdx = context.state.data.sub_idx;
 
     // state
     const [taskNum, setTaskNum] = useState(taskId);
-    // const [subNum, setSubNum] = useState(subIdx);
+    const [subNum, setSubNum] = useState(subIdx);
 
     // ref
     const taskNumRef = useRef();
-    // const subNumRef = useRef();
+    const subNumRef = useRef();
 
     // dom events
     const handlePressEnter = (e) => {
@@ -31,12 +31,12 @@ export default function InstHeader() {
                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
                 // context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
             }
-            // else if(id === "subIdx") {
-            //     const value= e.target.value;
-            //     value >= 1 && value <= 10 && setSubNum(parseInt(value));
-            //     context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
-            //     context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
-            // }
+            else if(id === "subIdx") {
+                const value= e.target.value;
+                value >= 1 && value <= 10 && setSubNum(parseInt(value));
+                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
+            }
             // handleLoad(e);
         }
     }
@@ -46,19 +46,19 @@ export default function InstHeader() {
             const value = e.target.value;
             value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
         }
-        // else if(id === "subIdx") {
-        //     const value = e.target.value;
-        //     value >= 1 && value <= 10 && setSubNum(parseInt(value));
-        // }
+        else if(id === "subIdx") {
+            const value = e.target.value;
+            value >= 1 && value <= 10 && setSubNum(parseInt(value));
+        }
     }
 
     useEffect(() => {
         setTaskNum(taskId);
     }, [taskId]);
 
-    // useEffect(() => {
-    //     setSubNum(subIdx);
-    // }, [subIdx]);
+    useEffect(() => {
+        setSubNum(subIdx);
+    }, [subIdx]);
 
     return (
         <div className={styles.header}>
@@ -85,7 +85,7 @@ export default function InstHeader() {
                     }}
                 />
                 {/* definition index */}
-                {/* <label className='noDrag'>sub index: </label>
+                <label className='noDrag'>sub index: </label>
                 <input 
                     ref={subNumRef}
                     type="number"
@@ -102,7 +102,7 @@ export default function InstHeader() {
                     onClick={() => {
                         subNumRef.current.select();
                     }}
-                /> */}
+                />
                 <span 
                     className='noDrag'
                     style={{
@@ -116,42 +116,42 @@ export default function InstHeader() {
                 <button 
                     className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
-                        // if(subNum > 1){ //이동 가능한 상태
-                        //     context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
-                        //     setSubNum(prev => parseInt(prev)-1);
-                        // }
-                        // else {
+                        if(subNum > 1){ //이동 가능한 상태
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
+                            setSubNum(prev => parseInt(prev)-1);
+                        }
+                        else {
                             if(taskNum > first_taskId){
                                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1 });
                                 setTaskNum(prev => parseInt(prev) - 1);
-                                // context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(10)) });
-                                // setSubNum(10);
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(10)) });
+                                setSubNum(10);
                             }
                             else{
                                 alert('첫 지시문입니다.');
                             }
-                        // }
+                        }
                     }}    
                 ><AiOutlineLeft/></button>
 
                 <button 
                     className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
-                        // if(subNum < 10){
-                        //     context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
-                        //     setSubNum(prev => parseInt(prev)+1);
-                        // }
-                        // else {
+                        if(subNum < 10){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
+                            setSubNum(prev => parseInt(prev)+1);
+                        }
+                        else {
                             if(taskNum < last_taskId) {
                                 context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1 });
                                 setTaskNum(prev => parseInt(prev) + 1);
-                                // context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
-                                // setSubNum(1);
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
+                                setSubNum(1);
                             }
                             else{
                                 alert('마지막입니다.');
                             }
-                        // }
+                        }
                     }}
                 ><AiOutlineRight/></button>
             </div>
