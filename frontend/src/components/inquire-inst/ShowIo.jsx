@@ -12,6 +12,18 @@ export default function ShowIo({ taskNum, setTaskNum }) {
     const last_taskId = context.state.data.io_last_taskId;
 
     const [data, setData] = useState();
+    const [userId, setId] = useState();
+
+    const getUserId = (taskId) => {
+        if(taskId >= 1 && taskId < 7) setId('C')
+        else if(taskId >= 7 && taskId < 31) setId('B')
+        else if(taskId >= 31 && taskId < 39) setId('D')
+        else if(taskId >= 39 && taskId < 61) setId('B')
+        else if(taskId >= 61 && taskId < 69) setId('E')
+        else if(taskId >= 69 && taskId < 91) setId('B')
+        else if(taskId >= 91 && taskId < 99) setId('F')
+        else if(taskId >= 99 && taskId < 121) setId('B')
+    }
 
     const makeIoList = useMemo(() => {
         return (
@@ -65,12 +77,13 @@ export default function ShowIo({ taskNum, setTaskNum }) {
 
     useEffect(() => {
         loadSimilar();
+        getUserId(taskNum);
     }, [taskNum]);
 
     return (
         <div className={styles.showInst}>
             <div className={styles.header}>
-                <p className={styles.title}>* 내가 쓴 입출력</p>
+                <p className={styles.title}>{(first_taskId == 1 && last_taskId == 120) ? `* 구축자 ${userId} 입출력` : `* 내가 쓴 지시문`}</p>
                 <div className={styles.buttons}>
                     <button 
                         className={`${styles.moveBtn} noDrag`}
