@@ -25,6 +25,10 @@ export default function InquireIo() {
     // toggle
     const [isOpen, setOpen] = useState(true);
 
+    const handleTaskNum = (value) => {
+        setTaskNum(parseInt(value));
+    }
+
     useEffect(() => {
         axios.get(`/api/tasks/${taskNum}`)
         .then(function(res) {
@@ -47,6 +51,10 @@ export default function InquireIo() {
                 window.location.replace(window.location.href);
             }
         })
+    }, [taskNum]);
+
+    useEffect(() => {
+        setInput(taskNum);
     }, [taskNum]);
 
     const handlePressEnter = (e) => {
@@ -96,7 +104,7 @@ export default function InquireIo() {
                     {isOpen ? <Directive defData={defData} originalDefData={originalDefData}/> : ''}
                 </div>
             </div>
-            <ShowIo taskNum={taskNum}/>
+            <ShowIo taskNum={taskNum} setTaskNum={handleTaskNum}/>
         </div>
     );
 }

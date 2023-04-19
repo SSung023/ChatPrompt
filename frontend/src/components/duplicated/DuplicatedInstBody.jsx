@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import styles from './DuplicatedInstBody.module.css';
 import { userContext } from '../../context/UserContext';
 import axios from 'axios';
+import Table, { TableCell, TableHead, TableRow } from '../ui/table/Table';
 
 export default function DuplicatedInstBody() {
     const context = useContext(userContext);
@@ -30,3 +31,21 @@ export default function DuplicatedInstBody() {
     );
 }
 
+function OriginalInst() {
+    return (
+        <Table>
+
+        </Table>
+    );
+}
+
+function ShowDuplicatedInst({ duplicatedList, subIdx }) {
+    return (
+        <TableRow>
+            <TableHead>{`지시문${subIdx}`}</TableHead>
+            <TableCell>
+                
+            </TableCell>
+        </TableRow>
+    );
+}

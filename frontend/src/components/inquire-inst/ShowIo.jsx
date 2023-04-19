@@ -1,9 +1,16 @@
 import axios from 'axios';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useContext, useEffect, useMemo, useState } from 'react';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import styles from './ShowInst.module.css';
+import { userContext } from '../../context/UserContext';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
-export default function ShowIo({ taskNum }) {
+export default function ShowIo({ taskNum, setTaskNum }) {
+    const context = useContext(userContext);
+
+    const first_taskId = context.state.data.io_first_taskId;
+    const last_taskId = context.state.data.io_last_taskId;
+
     const [data, setData] = useState();
 
     const makeIoList = useMemo(() => {
@@ -62,7 +69,33 @@ export default function ShowIo({ taskNum }) {
 
     return (
         <div className={styles.showInst}>
-            <p className={styles.title}>* 내가 쓴 입출력</p>
+            <div className={styles.header}>
+                <p className={styles.title}>* 내가 쓴 입출력</p>
+                <div className={styles.buttons}>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(taskNum > first_taskId){
+                                setTaskNum(taskNum - 1);
+                            }
+                            else{
+                                alert('첫 지시문입니다.');
+                            }
+                        }}    
+                    ><AiOutlineLeft/></button>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(taskNum < last_taskId){
+                                setTaskNum(taskNum + 1);
+                            }
+                            else{
+                                alert('마지막 지시문입니다.');
+                            }
+                        }}    
+                    ><AiOutlineRight/></button>
+                </div>
+            </div>
             <Table>
                 <TableBody>
                     {makeIoList}
