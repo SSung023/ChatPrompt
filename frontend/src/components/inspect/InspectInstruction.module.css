@@ -3,6 +3,14 @@
 }
 
 /* index input */
+.wrapper {
+    width: 80%;
+    min-width: 30em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -63,6 +71,11 @@
 }
 
 /* move buttons */
+.moveBtns {
+    display: flex;
+    align-items: center;
+}
+
 .moveBtn {
     display: flex;
     align-items: center;
@@ -74,8 +87,6 @@
     border: none;
     color: var(--light-txt-color);
     font-size: 14px;
-
-    margin: 0 0.5em;
 }
 
 .moveBtn > svg {
