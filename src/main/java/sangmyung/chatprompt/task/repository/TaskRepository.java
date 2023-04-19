@@ -20,4 +20,7 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
 
     @Query("select t.id from Task t where t.assignedTaskId =:assignedTaskId")
     Optional<Long> findTaskPK(@Param("assignedTaskId") Long assignedTaskId);
+
+    @Query("select t.assignedTaskId from Task t where t.id =:taskId")
+    Optional<Long> findTaskAssignedId(@Param("taskId") Long taskId);
 }

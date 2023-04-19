@@ -1,29 +1,26 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import styles from './Instruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
-import { SET_IO_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
+import { SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 export default function Instruction() {
     const context = useContext(userContext);
 
-    // const subIdx = context.state.data.sub_idx;
     const taskId = context.state.data.io_taskId;
-    const first_taskId = context.state.data.io_first_taskId;
-    const last_taskId = context.state.data.io_last_taskId;
-    const ioIdx = context.state.data.io_idx;
+    const subIdx = context.state.data.sub_idx;
 
     // state
     const [data, setData] = useState();
-    const [taskNum, setTaskNum] = useState(taskId);
-    const [subNum, setSubNum] = useState((ioIdx % 10) == 0 ? 10 : ioIdx % 10);
+    const [subNum, setSubNum] = useState(subIdx);
 
     // ref
-    const taskNumRef = useRef();
+    const subNumRef = useRef();
     
     const handleLoad = () => {
         // console.log('load');
-        axios.get(`/api/tasks/${taskId}/assignment/${(ioIdx % 10) == 0 ? 10 : ioIdx % 10}`)
+        axios.get(`/api/tasks/${taskId}/assignment/${subIdx}`)
         .then(function(res) {
             return res.data.data;
         })
@@ -34,31 +31,30 @@ export default function Instruction() {
     }
 
     const handlePressEnter = (e) => {
-        const id = e.target.id;
         if(e.key === "Enter"){
-            if(id === "task") {
+            const id = e.target.id;
+            e.preventDefault();
+            if(id === "subIdx") {
                 const value= e.target.value;
-                value >=first_taskId && value <=last_taskId && setTaskNum(value);
-                // context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
-                handleLoad(e);
+                value >= 1 && value <= 10 && setSubNum(parseInt(value));
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
             }
+            handleLoad(e);
         }
     }
     const handleOnBlur = (e) => {
         const id = e.target.id;
-        if(id === "task") {
-            const value= e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
+        if(id === "subIdx") {
+            const value = e.target.value;
+            value >= 1 && value <= 10 && setSubNum(parseInt(value));
         }
     }
     
     // 유사 지시문 로드
     useEffect(() => {
         handleLoad();
-        setTaskNum(taskId);
-        setSubNum((ioIdx % 10) == 0 ? 10 : ioIdx % 10);
-    }, [taskId, ioIdx]);
+        setSubNum(subIdx);
+    }, [taskId, subIdx]);
 
     return (
         data &&
@@ -70,23 +66,23 @@ export default function Instruction() {
                     className={styles.form}
                     onSubmit={(e) => {e.preventDefault()}}
                 >
-                    <label className={`noDrag ${styles.label}`}>task: </label>
+                    <label className={`noDrag ${styles.label}`}>sub index: </label>
                     <input 
                         className={styles.input}
-                        ref={taskNumRef}
+                        ref={subNumRef}
                         type="number"
-                        id="task"
+                        id="subIdx"
                         onChange={(e) => {
                             const value = parseInt(e.target.value);
-                            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
+                            value >= 1 && value <= 10 && setSubNum(parseInt(e.target.value))
                         }}
-                        max={`${last_taskId}`}
-                        min={`${first_taskId}`}
-                        value={taskNum}
+                        max="10"
+                        min="1"
+                        value={subNum}
                         onKeyDown={handlePressEnter}
                         onBlur={handleOnBlur}
                         onClick={() => {
-                            taskNumRef.current.select();
+                            subNumRef.current.select();
                         }}
                     />
                     <p 
@@ -103,12 +99,41 @@ export default function Instruction() {
             <Table>
                 <TableBody>
                     <TableRow>
-                        <TableHead>{`유사\n지시문 ${subNum}`}</TableHead>
+                        <TableHead>{`유사\n지시문 ${subIdx}`}</TableHead>
                         {/* <TableHead>{`${subIdx}번`}</TableHead> */}
                         <TableCell>{data.similarInstruct1 ? data.similarInstruct1 : <span style={{color: "var(--placeholder-txt-color)"}} className="noDrag">작성한 지시문이 없습니다.</span>}</TableCell>
                     </TableRow>
                 </TableBody>
             </Table>
+
+            {/* buttons */}
+            <div className={styles.buttons}>
+                <button 
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={() => {
+                        if(subNum > 1){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
+                            setSubNum(prev => parseInt(prev)-1);
+                        }
+                        else {
+                            alert('첫 지시문입니다.');
+                        }
+                    }}    
+                ><AiOutlineLeft/>이전</button>
+
+                <button 
+                    className={`${styles.moveBtn} noDrag`}
+                    onClick={() => {
+                        if(subNum < 10){
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
+                            setSubNum(prev => parseInt(prev)+1);
+                        }
+                        else {
+                            alert('마지막 지시문입니다.');
+                        }
+                    }}
+                >다음<AiOutlineRight/></button>
+            </div>
         </div>
     );
 }

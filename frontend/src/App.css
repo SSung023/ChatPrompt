@@ -71,6 +71,7 @@
   --white-color: #FFFFFF;
   --main-bg-color: #fbfbfb;
   --grey-g-color: #BDDCC9;
+  --red-color: #e02b2b;
 
   --txt-color: #222222;
   --g-txt-color: #58C23E;
@@ -81,6 +82,8 @@
 
   --line-color: #A9E4BD;
   --grey-line-color: #EDEDED;
+
+  --highlight-color: rgba(187, 226, 218, 0.4);
 
   --btn-color: #9DDC6C;
 

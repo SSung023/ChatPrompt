@@ -14,6 +14,7 @@ import sangmyung.chatprompt.task.domain.Task;
 import sangmyung.chatprompt.task.dto.TaskResponse;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
+import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.*;
 
@@ -22,6 +23,7 @@ import java.util.*;
 @RequiredArgsConstructor
 @Slf4j
 public class AssignmentService {
+    private final UserRepository userRepository;
     private final TaskRepository taskRepository;
     private final AssignmentRepository assignRepository;
 
@@ -191,11 +193,27 @@ public class AssignmentService {
 
         // 사용자가 등록했던 Assignment를 모두 불러옴
         List<Assignment> assignments = assignRepository.getWrittenAssignList(userId, taskId, pageable);
+        return getSingleInstructList(assignmentList, assignments);
+    }
+
+    // Admin인 경우 자신이 작성하지 않은 경우에도 지시문 전체 조회에서 다른 사용자가 작성한 내역을 조회할 수 있음
+    public List<SingleInstructResponse> adminGetWrittenTaskSimilar(Long assignedTaskId, Pageable pageable) {
+        User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        List<SingleInstructResponse> assignmentList = new ArrayList<>();
+
+        // 사용자가 등록했던 Assignment를 모두 불러옴
+        List<Assignment> assignments = assignRepository.getWrittenAssignList(assignedUser.getId(), taskId, pageable);
+        return getSingleInstructList(assignmentList, assignments);
+    }
+    private List<SingleInstructResponse> getSingleInstructList(List<SingleInstructResponse> assignmentList, List<Assignment> assignments) {
         Map<Long, Assignment> assignmentMap = new HashMap<>();
         for (Assignment assignment : assignments) {
             assignmentMap.put(assignment.getTaskSubIdx(), assignment);
         }
-
 
         for (int i = 1; i <= 10; ++i){
             Long idx = Long.valueOf(i);
@@ -212,6 +230,7 @@ public class AssignmentService {
         return assignmentList;
     }
 
+
     /**
      *
      * @param assignedTaskId 입력한 입출력 쌍을 알고 싶은 Task의 PK
@@ -222,20 +241,37 @@ public class AssignmentService {
 
         List<AssignIOResponse> ioList = new ArrayList<>();
         List<Assignment> ioPairList = assignRepository.getIOPairList(userId, task.getId(), pageable);
+        return getAssignIOList(ioList, ioPairList);
+    }
+
+    // Admin인 경우 자신이 작성하지 않은 경우에도 입출력 전체 조회에서 다른 사용자가 작성한 내역을 조회할 수 있음
+    public List<AssignIOResponse> adminGetIOPairList(Long assignedTaskId, Pageable pageable){
+        User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        Long taskId = taskRepository.findTaskPK(assignedTaskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        List<AssignIOResponse> ioList = new ArrayList<>();
+        List<Assignment> ioPairList = assignRepository.getIOPairList(assignedUser.getId(), taskId, pageable);
+
+        return getAssignIOList(ioList, ioPairList);
+    }
+    private List<AssignIOResponse> getAssignIOList(List<AssignIOResponse> ioList, List<Assignment> ioPairList) {
         for (Assignment assignment : ioPairList) {
             ioList.add(convertToAssignIOResponse(assignment));
         }
 
-        // int remain = task.getTotalIoNum() - ioPairList.size();
         int remain = 60 - ioPairList.size();
         for (int i = 0; i < remain; ++i){
             ioList.add(AssignIOResponse.builder()
-                            .input(null)
-                            .output(null)
+                    .input(null)
+                    .output(null)
                     .build());
         }
         return ioList;
     }
+
+
 
 
 
