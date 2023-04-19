@@ -47,16 +47,17 @@ class InspectServiceTest {
         List<Assignment> instructList = assignmentRepository.getAssignmentList(6L, 111L);
 
         String targetInstruct = instructList.get(0).getSimilarInstruct1();
-        List<String> separatedOrigin = inspectService.separateInstruct(targetInstruct);
+        List<String> partList = inspectService.separatePart(targetInstruct);
+        List<String> separatedOrigin = inspectService.separateSection(partList);
 
         //when
-        List<Integer> originDupliList = new ArrayList<>();
-        DuplicateResponse duplicateResponse = inspectService.compareInstruct(originDupliList, separatedOrigin, instructList.get(2));
 
         //then
         Assertions.assertThat(targetInstruct).isEqualTo(instructList.get(2).getSimilarInstruct1());
-        log.info(duplicateResponse.toString());
-
+        log.info(targetInstruct);
+        for (String s : separatedOrigin) {
+            log.info(s);
+        }
     }
 
 

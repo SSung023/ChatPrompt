@@ -13,13 +13,13 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 public class DuplicateResponse {
-    private Long duplicatedIdx; // 중복 대상 subIdx
+    private Integer originSection;
     private List<SingleDuplicate> partList = new ArrayList<>();
 
 
     @Builder
-    public DuplicateResponse(Long duplicatedIdx, List<SingleDuplicate> partList) {
-        this.duplicatedIdx = duplicatedIdx;
+    public DuplicateResponse(Integer originSection, List<SingleDuplicate> partList) {
+        this.originSection = originSection;
         this.partList = partList;
     }
 }

@@ -18,6 +18,7 @@ import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -118,7 +119,16 @@ public class AssignmentController {
         // Session에서 User의 정보를 얻음
         Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
 
-        List<SingleInstructResponse> similarList = assignmentService.getWrittenTaskSimilar(userId, taskId, pageable);
+        List<SingleInstructResponse> similarList = new ArrayList<>();
+
+        // 어드민인 경우
+        if (userId == 1L || userId == 2L){
+            similarList = assignmentService.adminGetWrittenTaskSimilar(taskId, pageable);
+
+        }
+        else {
+            similarList = assignmentService.getWrittenTaskSimilar(userId, taskId, pageable);
+        }
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), similarList);
     }
@@ -133,8 +143,13 @@ public class AssignmentController {
             ,@PageableDefault(size = 60, sort = "ioPairsIdx", direction = Sort.Direction.ASC) Pageable pageable){
         // Session에서 User의 정보를 얻음
         Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
+        List<AssignIOResponse> ioPairList;
 
-        List<AssignIOResponse> ioPairList = assignmentService.getIOPairList(userId, taskId, pageable);
+        if (userId == 1L || userId == 2L){
+            ioPairList = assignmentService.adminGetIOPairList(taskId, pageable);
+        }
+        else
+            ioPairList = assignmentService.getIOPairList(userId, taskId, pageable);
 
         return new ListResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), ioPairList);
     }

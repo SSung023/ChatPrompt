@@ -12,13 +12,13 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 public class InspectResponse {
-    private List<Integer> originDupliIdx = new ArrayList<>();
-    private List<DuplicateResponse> duplicatedList = new ArrayList<>();
 
+    private String originalInstruct;
+    private List<DuplicateResponse> duplicateList = new ArrayList<>();
 
     @Builder
-    public InspectResponse(List<Integer> originDupliIdx, List<DuplicateResponse> duplicatedList) {
-        this.originDupliIdx = originDupliIdx;
-        this.duplicatedList = duplicatedList;
+    public InspectResponse(String originalInstruct, List<DuplicateResponse> duplicateList) {
+        this.originalInstruct = originalInstruct;
+        this.duplicateList = duplicateList;
     }
 }
