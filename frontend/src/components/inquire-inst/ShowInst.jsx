@@ -1,12 +1,17 @@
 import axios from 'axios';
-import React, { useEffect, useMemo, useState } from 'react';
-// import { userContext } from '../../context/UserContext';
+import React, { useContext, useEffect, useMemo, useState } from 'react';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import styles from './ShowInst.module.css';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import { userContext } from '../../context/UserContext';
 
-export default function ShowInst({ taskNum }) {
-    // const context = useContext(userContext);
+export default function ShowInst({ taskNum, setTaskNum }) {
+    const context = useContext(userContext);
     // const taskId = context.state.data.inst_taskId;
+
+    const first_taskId = context.state.data.first_taskId;
+    const last_taskId = context.state.data.last_taskId;
+
     const [data, setData] = useState();
 
     const makeSimilarInst = useMemo(() => {
@@ -52,7 +57,33 @@ export default function ShowInst({ taskNum }) {
 
     return (
         <div className={styles.showInst}>
-            <p className={styles.title}>* 내가 쓴 지시문</p>
+            <div className={styles.header}>
+                <p className={styles.title}>* 내가 쓴 지시문</p>
+                <div className={styles.buttons}>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(taskNum > first_taskId){
+                                setTaskNum(taskNum - 1);
+                            }
+                            else{
+                                alert('첫 지시문입니다.');
+                            }
+                        }}    
+                    ><AiOutlineLeft/></button>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(taskNum < last_taskId){
+                                setTaskNum(taskNum + 1);
+                            }
+                            else{
+                                alert('마지막 지시문입니다.');
+                            }
+                        }}    
+                    ><AiOutlineRight/></button>
+                </div>
+            </div>
             <Table>
                 <TableBody>
                     {makeSimilarInst}

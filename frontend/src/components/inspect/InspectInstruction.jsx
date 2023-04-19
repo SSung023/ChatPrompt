@@ -9,8 +9,8 @@ export default function InspectInstruction() {
 
     // const subIdx = context.state.data.sub_idx;
     const taskId = context.state.data.io_taskId;
-    const first_taskId = context.state.data.io_first_taskId;
-    const last_taskId = context.state.data.io_last_taskId;
+    const first_taskId = context.state.data.first_taskId;
+    const last_taskId = context.state.data.last_taskId;
     const ioIdx = context.state.data.io_idx;
 
     // state

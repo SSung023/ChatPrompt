@@ -25,6 +25,10 @@ export default function InquireInst() {
     // toggle
     const [isOpen, setOpen] = useState(true);
 
+    const handleTaskNum = (value) => {
+        setTaskNum(parseInt(value));
+    };
+
     useEffect(() => {
         axios.get(`/api/tasks/${taskNum}`)
         .then(function(res) {
@@ -47,6 +51,10 @@ export default function InquireInst() {
                 window.location.replace(window.location.href);
             }
         })
+    }, [taskNum]);
+
+    useEffect(() => {
+        setInput(taskNum);
     }, [taskNum]);
 
     const handlePressEnter = (e) => {
@@ -102,7 +110,7 @@ export default function InquireInst() {
                 </div>
             </div>
             
-            <ShowInst taskNum={taskNum}/>
+            <ShowInst taskNum={taskNum} setTaskNum={handleTaskNum}/>
         </div>
     );
 }
