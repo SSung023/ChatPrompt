@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
-import sangmyung.chatprompt.Util.response.dto.ListResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.assignment.dto.InspectResponse;
 import sangmyung.chatprompt.assignment.service.InspectService;
@@ -14,7 +13,6 @@ import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
@@ -33,11 +31,11 @@ public class InspectController {
     public SingleResponse<InspectResponse> compareInstruct(HttpServletRequest request,
                                           @PathVariable Long taskId, @RequestParam int targetIdx){
         // Session에서 User의 정보를 얻음
-//        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
-        Long userId = userService.getUserIdFromSession(request);
-        if (userId == null){
-            throw new BusinessException(ErrorCode.NO_AUTHORITY);
-        }
+        Long userId = validateTaskIdxAndGetUser(request, taskId).getId();
+//        Long userId = userService.getUserIdFromSession(request);
+//        if (userId == null){
+//            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+//        }
 
         InspectResponse inspectResponse = inspectService.compareWithOtherInstruct(userId, taskId, targetIdx);
 

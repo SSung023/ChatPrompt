@@ -4,6 +4,7 @@ import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Ta
 import styles from './ShowInst.module.css';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 import { userContext } from '../../context/UserContext';
+// import getId from '../../utility/getId';
 
 export default function ShowInst({ taskNum, setTaskNum }) {
     const context = useContext(userContext);
@@ -13,6 +14,14 @@ export default function ShowInst({ taskNum, setTaskNum }) {
     const last_taskId = context.state.data.last_taskId;
 
     const [data, setData] = useState();
+    const [userId, setId] = useState();
+
+    const getUserId = (taskId) => {
+        if(taskId >= 1 && taskId < 31) setId('C')
+        else if(taskId >= 31 && taskId < 61) setId('D')
+        else if(taskId >= 61 && taskId < 91) setId('E')
+        else if(taskId >= 91 && taskId < 121) setId('F')
+    }
 
     const makeSimilarInst = useMemo(() => {
         return (
@@ -53,12 +62,13 @@ export default function ShowInst({ taskNum, setTaskNum }) {
 
     useEffect(() => {
         loadSimilar();
+        getUserId(taskNum);
     }, [taskNum]);
 
     return (
         <div className={styles.showInst}>
             <div className={styles.header}>
-                <p className={styles.title}>* 내가 쓴 지시문</p>
+                <p className={styles.title}>{(first_taskId == 1 && last_taskId == 120) ? `* 구축자 ${userId} 지시문` : `* 내가 쓴 지시문`}</p>
                 <div className={styles.buttons}>
                     <button 
                         className={`${styles.moveBtn} noDrag`}
