@@ -189,18 +189,50 @@ export default function EditSimilarInst() {
                                 subNumRef.current.select();
                             }}
                         />
-                        <span 
-                            style={{
-                                color: `var(--red-color)`,
-                                fontSize: `12px`,
-                                marginLeft: `1em`,
-                                lineHeight: `1.5em`,
-                            }}
-                            className='noDrag'
-                        >
-                            ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                        </span>
                     </form>
+                </div>
+                <div className={styles.moveBtns}>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(subNum > 1){ //이동 가능한 상태
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
+                                setSubNum(prev => parseInt(prev)-1);
+                            }
+                            else {
+                                if(taskNum > first_taskId){
+                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1 });
+                                    setTaskNum(prev => parseInt(prev) - 1);
+                                    context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(10)) });
+                                    setSubNum(10);
+                                }
+                                else{
+                                    alert('첫 지시문입니다.');
+                                }
+                            }
+                        }}    
+                    ><AiOutlineLeft/></button>
+
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(subNum < 10){
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
+                                setSubNum(prev => parseInt(prev)+1);
+                            }
+                            else {
+                                if(taskNum < last_taskId) {
+                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1 });
+                                    setTaskNum(prev => parseInt(prev) + 1);
+                                    context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
+                                    setSubNum(1);
+                                }
+                                else{
+                                    alert('마지막입니다.');
+                                }
+                            }
+                        }}
+                    ><AiOutlineRight/></button>
                 </div>
             </div>
 
@@ -213,7 +245,7 @@ export default function EditSimilarInst() {
             </div>
 
             <div className={styles.buttons}>
-                <button 
+                {/* <button 
                     className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
                         if(subNum > 1){ //이동 가능한 상태
@@ -232,14 +264,14 @@ export default function EditSimilarInst() {
                             }
                         }
                     }}    
-                ><AiOutlineLeft/>이전</button>
+                ><AiOutlineLeft/>이전</button> */}
 
                 <div className={styles.btnWrapper}>
                     <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
                     <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>    
                 </div>
                 
-                <button 
+                {/* <button 
                     className={`${styles.moveBtn} noDrag`}
                     onClick={() => {
                         if(subNum < 10){
@@ -258,7 +290,7 @@ export default function EditSimilarInst() {
                             }
                         }
                     }}
-                >다음<AiOutlineRight/></button>
+                >다음<AiOutlineRight/></button> */}
             </div>
         </>
     );

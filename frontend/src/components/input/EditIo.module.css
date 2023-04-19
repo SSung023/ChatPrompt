@@ -3,6 +3,13 @@
 }
 
 /* header */
+.wrapper {
+    width: 80%;
+    min-width: 30em;
+    display: flex;
+    justify-content: space-between;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -58,7 +65,7 @@
 .buttons {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 80%;
     min-width: 30em;
     margin: 1em 0 2em 0 ;
@@ -80,6 +87,11 @@
 }
 
 /* move buttons */
+.moveBtns {
+    display: flex;
+    align-items: center;
+}
+
 .moveBtn {
     display: flex;
     align-items: center;
@@ -91,8 +103,6 @@
     border: none;
     color: var(--light-txt-color);
     font-size: 14px;
-
-    margin: 0 0.5em;
 }
 
 .moveBtn > svg {

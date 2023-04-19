@@ -3,6 +3,7 @@ import styles from './InspectInstruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import { SET_IO_IDX, SET_IO_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 export default function InspectInstruction() {
     const context = useContext(userContext);
@@ -77,61 +78,108 @@ export default function InspectInstruction() {
     return (
         data &&
         <div className={styles.instruction}>
-            <div className={styles.header}>
-                <p className={styles.title}>* 지시문에 대한 입력과 출력이 적절한지 검사하시오.</p>
+            <div className={styles.wrapper}>
+                <div className={styles.header}>
+                    <p className={styles.title}>* 지시문에 대한 입력과 출력이 적절한지 검사하시오.</p>
 
-                <form
-                    className={styles.form}
-                    onSubmit={(e) => {e.preventDefault()}}
-                >
-                    <label className={`noDrag ${styles.label}`}>task: </label>
-                    <input 
-                        className={styles.input}
-                        ref={taskNumRef}
-                        type="number"
-                        id="task"
-                        onChange={(e) => {
-                            const value = parseInt(e.target.value);
-                            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                        }}
-                        max={`${last_taskId}`}
-                        min={`${first_taskId}`}
-                        value={taskNum}
-                        onKeyDown={handlePressEnter}
-                        onBlur={handleOnBlur}
-                        onClick={() => {
-                            taskNumRef.current.select();
-                        }}
-                    />
+                    <form
+                        className={styles.form}
+                        onSubmit={(e) => {e.preventDefault()}}
+                    >
+                        <label className={`noDrag ${styles.label}`}>task: </label>
+                        <input 
+                            className={styles.input}
+                            ref={taskNumRef}
+                            type="number"
+                            id="task"
+                            onChange={(e) => {
+                                const value = parseInt(e.target.value);
+                                value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
+                            }}
+                            max={`${last_taskId}`}
+                            min={`${first_taskId}`}
+                            value={taskNum}
+                            onKeyDown={handlePressEnter}
+                            onBlur={handleOnBlur}
+                            onClick={() => {
+                                taskNumRef.current.select();
+                            }}
+                        />
 
-                    <label className={`noDrag ${styles.label}`}>index: </label>
-                    <input 
-                        className={styles.input}
-                        ref={taskIdxRef}
-                        type="number"
-                        id="idx"
-                        onChange={(e) => {
-                            const value = parseInt(e.target.value);
-                            value >=1 && value <=60 && setIdx(parseInt(e.target.value));
+                        <label className={`noDrag ${styles.label}`}>index: </label>
+                        <input 
+                            className={styles.input}
+                            ref={taskIdxRef}
+                            type="number"
+                            id="idx"
+                            onChange={(e) => {
+                                const value = parseInt(e.target.value);
+                                value >=1 && value <=60 && setIdx(parseInt(e.target.value));
+                            }}
+                            max="60"
+                            min="1"
+                            value={taskIdx}
+                            onKeyDown={handlePressEnter}
+                            onBlur={handleOnBlur}
+                            onClick={() => {
+                                taskIdxRef.current.select();
+                            }}
+                        />
+                        {/* <p 
+                            className='noDrag'
+                            style={{
+                                color: "var(--light-main-color)", 
+                                fontSize: "14px",
+                                marginLeft: "1em",
+                        }}>✓ 엔터를 누르면 조회됩니다.</p> */}
+                    </form>
+                </div>
+
+                <div className={styles.moveBtns}>
+                    <button
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            if(taskIdx > 1){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
+                                setIdx(prev => parseInt(prev)-1);
+                            }
+                            else {
+                                if(taskId > first_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)-1 });
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
+                                    setIdx(60);
+                                }
+                                else {
+                                    alert('첫 입출력입니다.');
+                                }
+                            }
                         }}
-                        max="60"
-                        min="1"
-                        value={taskIdx}
-                        onKeyDown={handlePressEnter}
-                        onBlur={handleOnBlur}
-                        onClick={() => {
-                            taskIdxRef.current.select();
+                    ><AiOutlineLeft/></button>
+                    
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            if(taskIdx < 60){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
+                                setIdx(prev => parseInt(prev)+1);
+                            }
+                            else {
+                                if(taskId < last_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)+1 });
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
+                                    setIdx(1);
+                                }
+                                else{
+                                    alert('마지막입니다.');
+                                }
+                            }
                         }}
-                    />
-                    <p 
-                        className='noDrag'
-                        style={{
-                            color: "var(--light-main-color)", 
-                            fontSize: "14px",
-                            marginLeft: "1em",
-                    }}>✓ 엔터를 누르면 조회됩니다.</p>
-                </form>
+                    ><AiOutlineRight/></button>
+                </div>
             </div>
+            
             
             {/* show similar instruct */}
             <Table>

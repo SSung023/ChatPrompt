@@ -50,7 +50,7 @@ export default function IoPairs() {
                 </TableBody>
             </Table>
 
-            <div className={styles.buttons}>
+            {/* <div className={styles.buttons}>
                 <button
                     className={`${styles.moveBtn} noDrag`}
                     onClick={(e) => {
@@ -92,7 +92,7 @@ export default function IoPairs() {
                         }
                     }}
                 >다음<AiOutlineRight/></button>
-            </div>
+            </div> */}
         </div>
     );
 }
