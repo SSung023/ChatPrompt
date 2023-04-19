@@ -154,62 +154,110 @@ export default function EditIo() {
 
     return (
         <div className={styles.ioEdit}>
-            <div className={styles.header}>
-                <p className={styles.title}>* 위 지시문에 대하여 적절한 입력과 출력을 작성하시오.</p>
-                {/* taskId, idx input form */}
-                <form
-                    className={styles.ioForm}
-                >
-                    <label className='noDrag'>task: </label>
-                    <input 
-                        ref={taskNumRef}
-                        type="number"
-                        id="task"
-                        onChange={(e) => {
-                            const value = parseInt(e.target.value);
-                            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                        }}
-                        max={`${last_taskId}`}
-                        min={`${first_taskId}`}
-                        value={taskNum}
-                        onKeyDown={handlePressEnter}
-                        onBlur={handleOnBlur}
-                        onClick={() => {
-                            taskNumRef.current.select();
-                        }}
-                    />
-
-                    <label className='noDrag'>index: </label>
-                    <input 
-                        ref={taskIdxRef}
-                        type="number"
-                        id="idx"
-                        onChange={(e) => {
-                            const value = parseInt(e.target.value);
-                            value >=1 && value <=60 && setIdx(parseInt(e.target.value));
-                        }}
-                        max="60"
-                        min="1"
-                        value={taskIdx}
-                        onKeyDown={handlePressEnter}
-                        onBlur={handleOnBlur}
-                        onClick={() => {
-                            taskIdxRef.current.select();
-                        }}
-                    />
-                    <span 
-                        style={{
-                            color: `var(--red-color)`,
-                            fontSize: `12px`,
-                            marginLeft: `1em`,
-                            lineHeight: `1.5em`,
-                        }}
-                        className='noDrag'
+            <div className={styles.wrapper}>
+                <div className={styles.header}>
+                    <p className={styles.title}>* 위 지시문에 대하여 적절한 입력과 출력을 작성하시오.</p>
+                    {/* taskId, idx input form */}
+                    <form
+                        className={styles.ioForm}
                     >
-                        ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                    </span>
-                </form>
+                        <label className='noDrag'>task: </label>
+                        <input 
+                            ref={taskNumRef}
+                            type="number"
+                            id="task"
+                            onChange={(e) => {
+                                const value = parseInt(e.target.value);
+                                value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
+                            }}
+                            max={`${last_taskId}`}
+                            min={`${first_taskId}`}
+                            value={taskNum}
+                            onKeyDown={handlePressEnter}
+                            onBlur={handleOnBlur}
+                            onClick={() => {
+                                taskNumRef.current.select();
+                            }}
+                        />
+
+                        <label className='noDrag'>index: </label>
+                        <input 
+                            ref={taskIdxRef}
+                            type="number"
+                            id="idx"
+                            onChange={(e) => {
+                                const value = parseInt(e.target.value);
+                                value >=1 && value <=60 && setIdx(parseInt(e.target.value));
+                            }}
+                            max="60"
+                            min="1"
+                            value={taskIdx}
+                            onKeyDown={handlePressEnter}
+                            onBlur={handleOnBlur}
+                            onClick={() => {
+                                taskIdxRef.current.select();
+                            }}
+                        />
+                        {/* <span 
+                            style={{
+                                color: `var(--red-color)`,
+                                fontSize: `12px`,
+                                marginLeft: `1em`,
+                                lineHeight: `1.5em`,
+                            }}
+                            className='noDrag'
+                        >
+                            ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
+                        </span> */}
+                    </form>
+                </div>
+                <div className={styles.moveBtns}>
+                    <button
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            if(taskIdx > 1){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
+                                setIdx(prev => parseInt(prev)-1);
+                            }
+                            else {
+                                if(taskNum > first_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)-1 });
+                                    setTaskNum(prev => parseInt(prev) - 1);
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
+                                    setIdx(60);
+                                }
+                                else {
+                                    alert('첫 인덱스입니다.');
+                                }
+                            }
+                        }}
+                    ><AiOutlineLeft/></button>
+
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            if(taskIdx < 60){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
+                                setIdx(prev => parseInt(prev)+1);
+                            }
+                            else {
+                                if(taskNum < last_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)+1 });
+                                    setTaskNum(prev => parseInt(prev) + 1);
+                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
+                                    setIdx(1);
+                                }
+                                else{
+                                    alert('마지막입니다.');
+                                }
+                            }
+                        }}
+                    ><AiOutlineRight/></button>
+                </div>
             </div>
+            
 
             {/* io input form */}
             <form>
@@ -231,54 +279,14 @@ export default function EditIo() {
                 </Table>
 
                 <div className={styles.buttons}>
-                    <button
-                        className={`${styles.moveBtn} noDrag`}
-                        onClick={(e) => {
-                            e.preventDefault();
-                            if(taskIdx > 1){
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
-                                setIdx(prev => parseInt(prev)-1);
-                            }
-                            else {
-                                if(taskNum > first_taskId) {
-                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)-1 });
-                                    setTaskNum(prev => parseInt(prev) - 1);
-                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
-                                    setIdx(60);
-                                }
-                                else {
-                                    alert('첫 인덱스입니다.');
-                                }
-                            }
-                        }}
-                    ><AiOutlineLeft/>이전</button>
+                    
                     
                     <div className={styles.btnWrapper}>
                         <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
                         <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>
                     </div>
                     
-                    <button 
-                        className={`${styles.moveBtn} noDrag`}
-                        onClick={(e) => {
-                            e.preventDefault();
-                            if(taskIdx < 60){
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
-                                setIdx(prev => parseInt(prev)+1);
-                            }
-                            else {
-                                if(taskNum < last_taskId) {
-                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)+1 });
-                                    setTaskNum(prev => parseInt(prev) + 1);
-                                    context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
-                                    setIdx(1);
-                                }
-                                else{
-                                    alert('마지막입니다.');
-                                }
-                            }
-                        }}
-                    >다음<AiOutlineRight/></button>
+                    
                 </div>
             </form>
         </div>
