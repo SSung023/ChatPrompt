@@ -60,7 +60,8 @@ public class XmlExtractor {
             extractOriginalDefinition(instructList, i, task);
             extractOfficialInstruct(instructList, i, taskStr, officialInst);
 
-            User assignedUser = userRepository.findAssignedUserByTaskId(i)
+            // assignedTaskId를 통해 할당받은 user가 누구인지 확인
+            User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(task.getAssignedTaskId()))
                     .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
             List<Assignment> written = assignmentRepository.getWrittenAssignList(assignedUser.getId(), Long.valueOf(i), pageable);
             for (Assignment assignment : written) {
