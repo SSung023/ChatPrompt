@@ -50,8 +50,6 @@
     border: none;
     color: var(--light-txt-color);
     font-size: 14px;
-
-    margin: 0 0.5em;
 }
 
 .moveBtn > svg {

@@ -103,13 +103,6 @@ export default function InstHeader() {
                         subNumRef.current.select();
                     }}
                 />
-                <span 
-                    className='noDrag'
-                    style={{
-                        color: "var(--light-main-color)", 
-                        fontSize: "14px",
-                        marginLeft: "1em",
-                }}>✓ 엔터를 누르면 조회됩니다.</span>
             </form>
 
             <div className={styles.buttons}>
