@@ -1,9 +1,13 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import styles from './InputNumber.module.css';
 
-export default function InputNumber({ num, setNum, setContext, maxNum, minNum }) {
+export default function InputNumber({ num, setNum, context, setContext, maxNum, minNum }) {
     const [prevNum, setPrevNum] = useState(num);
     const inputRef = useRef();
+    const inputValRef = useRef(num);
+    const inputValMemo = useMemo(() => {
+        inputValRef.current = num;
+    }, [num]);
 
     // keyDown이 onChange 보다 먼저 실행됨.
     const handleKeyDown = (e) => {
@@ -17,7 +21,7 @@ export default function InputNumber({ num, setNum, setContext, maxNum, minNum })
             }
             else {
                 alert('입력 범위를 확인 후 조회해주세요.');
-                setNum(prevNum);
+                setNum(context);
             }
         }
         else if(e.key === "ArrowUp"){
@@ -51,7 +55,12 @@ export default function InputNumber({ num, setNum, setContext, maxNum, minNum })
             setNum(maxNum);
             setPrevNum(maxNum);
         }
-        else setNum(prevNum);
+        else {
+            // 사용자가 직접 외부를 클릭해 focus를 잃었을 때
+            if(e.relatedTarget === null) {
+                setNum(context);
+            }
+        }
     }
 
     const handleOnClick = () => {

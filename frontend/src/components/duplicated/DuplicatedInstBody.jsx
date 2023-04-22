@@ -66,11 +66,19 @@ export default function DuplicatedInstBody() {
 
     useEffect(() => {
         handleLoad();
+        setTestNum(taskId);
     }, [taskId, subIdx]);
 
     return (
         <div>
-            <InputNumber num={testNum} setNum={handleTestNum} setContext={handleTaskId} maxNum={last_taskId} minNum={first_taskId} />
+            <InputNumber 
+                num={testNum} 
+                setNum={handleTestNum} 
+                context={taskId}
+                setContext={handleTaskId} 
+                maxNum={last_taskId} 
+                minNum={first_taskId}
+            />
         </div>
     );
 }
