@@ -1,13 +1,9 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import styles from './InputNumber.module.css';
 
 export default function InputNumber({ num, setNum, context, setContext, maxNum, minNum }) {
     const [prevNum, setPrevNum] = useState(num);
     const inputRef = useRef();
-    const inputValRef = useRef(num);
-    const inputValMemo = useMemo(() => {
-        inputValRef.current = num;
-    }, [num]);
 
     // keyDown이 onChange 보다 먼저 실행됨.
     const handleKeyDown = (e) => {
@@ -21,9 +17,11 @@ export default function InputNumber({ num, setNum, context, setContext, maxNum, 
             }
             else {
                 alert('입력 범위를 확인 후 조회해주세요.');
+                // context로 초기화하기
                 setNum(context);
             }
         }
+
         else if(e.key === "ArrowUp"){
             if(value >= maxNum) {
                 e.preventDefault();
