@@ -6,6 +6,7 @@ import styles from './InquireIo.module.css';
 
 import { BsCaretRightFill } from 'react-icons/bs';
 import ShowIo from '../components/inquire-inst/ShowIo';
+import InputNumber from '../components/ui/input/InputNumber';
 
 export default function InquireIo() {
     // taskNum 내부 state를 사용하여 definition 작업에 영향을 미치지 않도록
@@ -17,7 +18,9 @@ export default function InquireIo() {
 
     // 조회가 지시문과 입출력에 영향을 주지 않도록 taskId context를 사용하지 않음
     const [taskNum, setTaskNum] = useState(taskId); // 데이터 로드용
-    const [inputNum, setInput] = useState(taskId); // input 관리용
+    const handleTaskNum = (value) => {
+        setTaskNum(parseInt(value));
+    }
 
     const [defData, setDef] = useState();
     const [originalDefData, setOriginal] = useState();
@@ -25,9 +28,6 @@ export default function InquireIo() {
     // toggle
     const [isOpen, setOpen] = useState(true);
 
-    const handleTaskNum = (value) => {
-        setTaskNum(parseInt(value));
-    }
 
     useEffect(() => {
         axios.get(`/api/tasks/${taskNum}`)
@@ -53,44 +53,18 @@ export default function InquireIo() {
         })
     }, [taskNum]);
 
-    useEffect(() => {
-        setInput(taskNum);
-    }, [taskNum]);
-
-    const handlePressEnter = (e) => {
-        if(e.key === "Enter") {
-            const value = e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
-            // context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
-        }
-    }
-
     return (
         <div className='body'>
             <form
                 className={styles.form}
                 onSubmit={(e) => e.preventDefault()}>
                 <label className={styles.label}>task: </label>
-                <input 
-                    className={styles.input}
-                    type="number"
-                    id="task"
-                    onChange={(e) => {
-                        const value = e.target.value;
-                        value >= first_taskId && value <= last_taskId && setInput(parseInt(e.target.value))
-                    }}
-                    max={`${last_taskId}`}
-                    min={`${first_taskId}`}
-                    // defaultValue={taskId}
-                    value={inputNum}
-                    onKeyDown={handlePressEnter}
-                    // onBlur={handleOnBlur}
+                <InputNumber 
+                    context={taskNum}
+                    setContext={handleTaskNum}
+                    maxNum={last_taskId}
+                    minNum={first_taskId}
                 />
-                <p style={{
-                    color: "var(--light-main-color)", 
-                    fontSize: "14px",
-                    marginLeft: "1em",
-                }}>✓ 엔터를 누르면 조회됩니다.</p>
             </form>
             <div className={styles.toggle}>
                 <div className={styles.toggleTitle}>

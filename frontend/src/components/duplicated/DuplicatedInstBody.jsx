@@ -8,16 +8,13 @@ import InputNumber from '../ui/input/InputNumber';
 export default function DuplicatedInstBody() {
     const context = useContext(userContext);
 
-    const taskId = context.state.data.inst_taskId;
-    const subIdx = context.state.data.sub_idx;
-
+    
     // test
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
-    const [testNum, setTestNum] = useState(taskId);
-    const handleTestNum = (value) => {
-        setTestNum(value);
-    }
+    const subIdx = context.state.data.sub_idx;
+    
+    const taskId = context.state.data.inst_taskId;
     const handleTaskId = (value) => {
         context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(value) })
     }
@@ -66,14 +63,11 @@ export default function DuplicatedInstBody() {
 
     useEffect(() => {
         handleLoad();
-        setTestNum(taskId);
     }, [taskId, subIdx]);
 
     return (
         <div>
-            <InputNumber 
-                num={testNum} 
-                setNum={handleTestNum} 
+            <InputNumber
                 context={taskId}
                 setContext={handleTaskId} 
                 maxNum={last_taskId} 

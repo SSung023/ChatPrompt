@@ -28,7 +28,7 @@
 
 .header > form > label {
     color: var(--main-color);
-    margin: 0 1em;
+    margin-left: 1em;
 }
 
 .header > form > input {

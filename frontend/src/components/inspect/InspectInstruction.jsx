@@ -1,9 +1,10 @@
-import React, { useContext, useEffect, useRef, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import styles from './InspectInstruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import { SET_IO_IDX, SET_IO_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import InputNumber from '../ui/input/InputNumber';
 
 export default function InspectInstruction() {
     const context = useContext(userContext);
@@ -16,13 +17,14 @@ export default function InspectInstruction() {
 
     // state
     const [data, setData] = useState();
-    const [taskNum, setTaskNum] = useState(taskId);
     const [subNum, setSubNum] = useState((ioIdx % 10) == 0 ? 10 : ioIdx % 10);
-    const [taskIdx, setIdx] = useState(1);
 
-    // ref
-    const taskNumRef = useRef();
-    const taskIdxRef = useRef();
+    const handleTaskId = (value) => {
+        context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(value) });
+    }
+    const handleIdx = (value) => {
+        context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(value) });
+    }
     
     const handleLoad = () => {
         // console.log('load');
@@ -35,44 +37,11 @@ export default function InspectInstruction() {
             context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
     }
-
-    const handlePressEnter = (e) => {
-        const id = e.target.id;
-        if(e.key === "Enter"){
-            if(id === "task") {
-                const value= e.target.value;
-                value >=first_taskId && value <=last_taskId && setTaskNum(value);
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
-                handleLoad(e);
-            }
-            if(id === "idx") {
-                const value= e.target.value;
-                value >=1 && value <=60 && setIdx(value);
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
-                handleLoad(e);
-            }
-        }
-    }
-    const handleOnBlur = (e) => {
-        const id = e.target.id;
-        if(id === "task") {
-            const value= e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
-        }
-        if(id === "idx") {
-            const value= e.target.value;
-            value >= 1 && value <= 60 && setIdx(parseInt(value));
-        }
-    }
     
     // 유사 지시문 로드
     useEffect(() => {
         handleLoad();
-        setTaskNum(taskId);
         setSubNum((ioIdx % 10) == 0 ? 10 : ioIdx % 10);
-        setIdx(ioIdx);
     }, [taskId, ioIdx]);
 
     return (
@@ -87,51 +56,20 @@ export default function InspectInstruction() {
                         onSubmit={(e) => {e.preventDefault()}}
                     >
                         <label className={`noDrag ${styles.label}`}>task: </label>
-                        <input 
-                            className={styles.input}
-                            ref={taskNumRef}
-                            type="number"
-                            id="task"
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                            }}
-                            max={`${last_taskId}`}
-                            min={`${first_taskId}`}
-                            value={taskNum}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            onClick={() => {
-                                taskNumRef.current.select();
-                            }}
+                        <InputNumber 
+                            context={taskId}
+                            setContext={handleTaskId}
+                            maxNum={last_taskId}
+                            minNum={first_taskId}
                         />
 
                         <label className={`noDrag ${styles.label}`}>index: </label>
-                        <input 
-                            className={styles.input}
-                            ref={taskIdxRef}
-                            type="number"
-                            id="idx"
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                value >=1 && value <=60 && setIdx(parseInt(e.target.value));
-                            }}
-                            max="60"
-                            min="1"
-                            value={taskIdx}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            onClick={() => {
-                                taskIdxRef.current.select();
-                            }}
+                        <InputNumber 
+                            context={ioIdx}
+                            setContext={handleIdx}
+                            maxNum={60}
+                            minNum={1}
                         />
-                        {/* <p 
-                            className='noDrag'
-                            style={{
-                                color: "var(--light-main-color)", 
-                                fontSize: "14px",
-                                marginLeft: "1em",
-                        }}>✓ 엔터를 누르면 조회됩니다.</p> */}
                     </form>
                 </div>
 
@@ -140,15 +78,13 @@ export default function InspectInstruction() {
                         className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
-                            if(taskIdx > 1){
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
-                                setIdx(prev => parseInt(prev)-1);
+                            if(ioIdx > 1){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(ioIdx)-1});
                             }
                             else {
                                 if(taskId > first_taskId) {
                                     context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)-1 });
                                     context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
-                                    setIdx(60);
                                 }
                                 else {
                                     alert('첫 입출력입니다.');
@@ -161,15 +97,13 @@ export default function InspectInstruction() {
                         className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
-                            if(taskIdx < 60){
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
-                                setIdx(prev => parseInt(prev)+1);
+                            if(ioIdx < 60){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(ioIdx)+1});
                             }
                             else {
                                 if(taskId < last_taskId) {
                                     context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)+1 });
                                     context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
-                                    setIdx(1);
                                 }
                                 else{
                                     alert('마지막입니다.');
