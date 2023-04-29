@@ -7,6 +7,7 @@ import styles from './EditIo.module.css';
 
 // import { TbCircleArrowRightFilled, TbCircleArrowLeftFilled } from 'react-icons/tb';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import InputNumber from '../ui/input/InputNumber';
 
 export default function EditIo() {
     const context = useContext(userContext);
@@ -20,12 +21,12 @@ export default function EditIo() {
     const idx = context.state.data.io_idx;
 
     // 내부 관리용
-    const [taskNum, setTaskNum] = useState(taskId);
-    const [taskIdx, setIdx] = useState(1);
-
-    // ref
-    const taskNumRef = useRef();
-    const taskIdxRef = useRef();
+    const handleTaskId = (value) => {
+        context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(value) });
+    }
+    const handleIdx = (value) => {
+        context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(value) });
+    }
 
     // state 관리
     const handleChangeInput = (value) => {
@@ -37,7 +38,7 @@ export default function EditIo() {
 
     // 입출력 입력칸에 불러오기
     const handleLoad = async (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`)
+        axios.get(`/api/tasks/${taskId}/assignment-io/${idx}`)
         .then(function(res) {
             return res.data.data;
         })
@@ -56,33 +57,29 @@ export default function EditIo() {
     // 제출하고 다음으로 이동
     const handleSaveAndLoad = async (e) => {
         e.preventDefault();
-        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+        if(!taskId || taskId == 0 || taskId > last_taskId || taskId < first_taskId){
             alert('task id 확인 후 다시 제출해주세요.');
             return;
         }
         
-        axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
+        axios.patch(`/api/tasks/${taskId}/assignment-io/${idx}`, {
             input: `${input}`,
             output: `${output}`,
         })
         .then(function(res) {
-            if(taskIdx < 60){
+            if(idx < 60){
                 setInput('');
                 setOutput('');
                 // 다음 index로 state 초기화
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(taskIdx)+1)});
-                // taskIdx 상승
-                setIdx(prev => parseInt(prev) + 1);
+                context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(idx)+1)});
             }
-            else if(taskIdx >= 60){
-                if(taskNum < last_taskId){
+            else if(idx >= 60){
+                if(taskId < last_taskId){
                     setInput('');
                     setOutput('');
                     // state 초기화
-                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskNum)+1) });
-                    setTaskNum(prev => parseInt(prev) + 1);
+                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: (parseInt(taskId)+1) });
                     context.actions.contextDispatch({ type: SET_IO_IDX, data: (parseInt(1))});
-                    setIdx(1);
                 }
                 else {
                     alert('마지막입니다!');
@@ -98,12 +95,12 @@ export default function EditIo() {
     // 제출
     const handleSave = async (e) => {
         e.preventDefault();
-        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+        if(!taskId || taskId == 0 || taskId > last_taskId || taskId < first_taskId){
             alert('task id 확인 후 다시 제출해주세요.');
             return;
         }
 
-        axios.patch(`/api/tasks/${taskNum}/assignment-io/${taskIdx}`, {
+        axios.patch(`/api/tasks/${taskId}/assignment-io/${idx}`, {
             input: `${input}`,
             output: `${output}`,
         })
@@ -112,44 +109,9 @@ export default function EditIo() {
         })
     }
 
-    // task, index 관리
-    const handlePressEnter = (e) => {
-        const id = e.target.id;
-        if(e.key === "Enter"){
-            if(id === "task") {
-                const value= e.target.value;
-                value >= first_taskId && value <= last_taskId && setTaskNum(value);
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
-                handleLoad(e);
-            }
-            else if(id === "idx") {
-                const value= e.target.value;
-                value >=1 && value <=60 && setIdx(value);
-                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)});
-                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)});
-                handleLoad(e);
-            }
-        }
-    }
-    const handleOnBlur = (e) => {
-        const id = e.target.id;
-        if(id === "task") {
-            const value= e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
-        }
-        else if(id === "idx") {
-            const value= e.target.value;
-            value >= 1 && value <= 60 && setIdx(parseInt(value));
-            // e.target.style.opacity="0"
-        }
-    }
-
     useEffect(() => {
         // 입출력 작성 폼에 불러오기
         handleLoad();
-        setTaskNum(taskId);
-        setIdx(idx);
     }, [taskId, idx]);
 
     return (
@@ -162,53 +124,20 @@ export default function EditIo() {
                         className={styles.ioForm}
                     >
                         <label className='noDrag'>task: </label>
-                        <input 
-                            ref={taskNumRef}
-                            type="number"
-                            id="task"
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                            }}
-                            max={`${last_taskId}`}
-                            min={`${first_taskId}`}
-                            value={taskNum}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            onClick={() => {
-                                taskNumRef.current.select();
-                            }}
+                        <InputNumber
+                            context={taskId}
+                            setContext={handleTaskId}
+                            maxNum={last_taskId}
+                            minNum={first_taskId}
                         />
 
                         <label className='noDrag'>index: </label>
-                        <input 
-                            ref={taskIdxRef}
-                            type="number"
-                            id="idx"
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                value >=1 && value <=60 && setIdx(parseInt(e.target.value));
-                            }}
-                            max="60"
-                            min="1"
-                            value={taskIdx}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            onClick={() => {
-                                taskIdxRef.current.select();
-                            }}
+                        <InputNumber 
+                            context={idx}
+                            setContext={handleIdx}
+                            maxNum={60}
+                            minNum={1}
                         />
-                        {/* <span 
-                            style={{
-                                color: `var(--red-color)`,
-                                fontSize: `12px`,
-                                marginLeft: `1em`,
-                                lineHeight: `1.5em`,
-                            }}
-                            className='noDrag'
-                        >
-                            ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                        </span> */}
                     </form>
                 </div>
                 <div className={styles.moveBtns}>
@@ -216,16 +145,13 @@ export default function EditIo() {
                         className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
-                            if(taskIdx > 1){
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
-                                setIdx(prev => parseInt(prev)-1);
+                            if(idx > 1){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(idx)-1});
                             }
                             else {
-                                if(taskNum > first_taskId) {
-                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)-1 });
-                                    setTaskNum(prev => parseInt(prev) - 1);
+                                if(taskId > first_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)-1 });
                                     context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
-                                    setIdx(60);
                                 }
                                 else {
                                     alert('첫 인덱스입니다.');
@@ -238,16 +164,13 @@ export default function EditIo() {
                         className={`${styles.moveBtn} noDrag`}
                         onClick={(e) => {
                             e.preventDefault();
-                            if(taskIdx < 60){
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
-                                setIdx(prev => parseInt(prev)+1);
+                            if(idx < 60){
+                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(idx)+1});
                             }
                             else {
-                                if(taskNum < last_taskId) {
-                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskNum)+1 });
-                                    setTaskNum(prev => parseInt(prev) + 1);
+                                if(taskId < last_taskId) {
+                                    context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)+1 });
                                     context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
-                                    setIdx(1);
                                 }
                                 else{
                                     alert('마지막입니다.');
@@ -279,14 +202,10 @@ export default function EditIo() {
                 </Table>
 
                 <div className={styles.buttons}>
-                    
-                    
                     <div className={styles.btnWrapper}>
                         <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
                         <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>
                     </div>
-                    
-                    
                 </div>
             </form>
         </div>

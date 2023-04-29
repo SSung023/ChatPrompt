@@ -1,9 +1,10 @@
-import React, { useContext, useEffect, useRef, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import styles from './Instruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import { SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import InputNumber from '../ui/input/InputNumber';
 
 export default function Instruction() {
     const context = useContext(userContext);
@@ -11,12 +12,13 @@ export default function Instruction() {
     const taskId = context.state.data.io_taskId;
     const subIdx = context.state.data.sub_idx;
 
+    // context handler
+    const handleSubIdx = (value) => {
+        context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(value) });
+    }
+
     // state
     const [data, setData] = useState();
-    const [subNum, setSubNum] = useState(subIdx);
-
-    // ref
-    const subNumRef = useRef();
     
     const handleLoad = () => {
         // console.log('load');
@@ -29,31 +31,10 @@ export default function Instruction() {
             context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
     }
-
-    const handlePressEnter = (e) => {
-        if(e.key === "Enter"){
-            const id = e.target.id;
-            e.preventDefault();
-            if(id === "subIdx") {
-                const value= e.target.value;
-                value >= 1 && value <= 10 && setSubNum(parseInt(value));
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
-            }
-            handleLoad(e);
-        }
-    }
-    const handleOnBlur = (e) => {
-        const id = e.target.id;
-        if(id === "subIdx") {
-            const value = e.target.value;
-            value >= 1 && value <= 10 && setSubNum(parseInt(value));
-        }
-    }
     
     // 유사 지시문 로드
     useEffect(() => {
         handleLoad();
-        setSubNum(subIdx);
     }, [taskId, subIdx]);
 
     return (
@@ -68,40 +49,20 @@ export default function Instruction() {
                         onSubmit={(e) => {e.preventDefault()}}
                     >
                         <label className={`noDrag ${styles.label}`}>sub index: </label>
-                        <input 
-                            className={styles.input}
-                            ref={subNumRef}
-                            type="number"
-                            id="subIdx"
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                value >= 1 && value <= 10 && setSubNum(parseInt(e.target.value))
-                            }}
-                            max="10"
-                            min="1"
-                            value={subNum}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            onClick={() => {
-                                subNumRef.current.select();
-                            }}
+                        <InputNumber
+                            context={subIdx}
+                            setContext={handleSubIdx}
+                            maxNum={10}
+                            minNum={1}
                         />
-                        {/* <p 
-                            className='noDrag'
-                            style={{
-                                color: "var(--light-main-color)", 
-                                fontSize: "14px",
-                                marginLeft: "1em",
-                        }}>✓ 엔터를 누르면 조회됩니다.</p> */}
                     </form>
                 </div>
                 <div className={styles.moveBtns}>
                     <button 
                         className={`${styles.moveBtn} noDrag`}
                         onClick={() => {
-                            if(subNum > 1){
-                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
-                                setSubNum(prev => parseInt(prev)-1);
+                            if(subIdx > 1){
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subIdx)-1});
                             }
                             else {
                                 alert('첫 지시문입니다.');
@@ -112,9 +73,8 @@ export default function Instruction() {
                     <button 
                         className={`${styles.moveBtn} noDrag`}
                         onClick={() => {
-                            if(subNum < 10){
-                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
-                                setSubNum(prev => parseInt(prev)+1);
+                            if(subIdx < 10){
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subIdx)+1});
                             }
                             else {
                                 alert('마지막 지시문입니다.');

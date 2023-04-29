@@ -40,4 +40,10 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     // 입출력 assignment에서 특정 사용자의 특정 Task에 대해 검증이 완료된 입출력의 개수 반환
     @Query("select count(*) from Assignment a where a.user.id = :userId and a.taskId =:taskId and a.ioPairsIdx != null and a.isValidated = 1")
     Integer getValidatedIOCnt(@Param("userId") Long userId, @Param("taskId") Long taskId);
+
+
+
+    //
+    @Query("select a from Assignment a where a.user.id = 1L and a.taskId = :taskId and a.taskSubIdx = null and a.similarInstruct1 != null")
+    Optional<Assignment> extractOfficialInstruct(@Param("taskId") Long taskId);
 }

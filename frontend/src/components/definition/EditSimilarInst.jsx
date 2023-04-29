@@ -6,11 +6,11 @@ import styles from './EditSimilarInst.module.css';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 import axios from 'axios';
+import InputNumber from '../ui/input/InputNumber';
 
 export default function EditSimilarInst() {
     const context = useContext(userContext);
     const [input1, setInput1] = useState('');
-    // const [input2, setInput2] = useState('');
 
     const taskId = context.state.data.inst_taskId;
     const first_taskId = context.state.data.first_taskId;
@@ -18,25 +18,24 @@ export default function EditSimilarInst() {
     const subIdx = context.state.data.sub_idx;
 
     // 내부 관리용 taskId state
-    const [taskNum, setTaskNum] = useState(taskId);
-    const [subNum, setSubNum] = useState(1);
-
-    // ref
-    const taskNumRef = useRef();
-    const subNumRef = useRef();
-
+    const handleTaskId = (value) => {
+        context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(value) })
+    }
+    const handleSubIdx = (value) => {
+        context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(value) });
+    }
     const handleChange1 = (value) => {
         setInput1(value);
     };
 
     const handleLoad = (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment/${subNum}`)
+        axios.get(`/api/tasks/${taskId}/assignment/${subIdx}`)
         .then(function(res) {
             return res.data.data;
         })
         .then(function(data) {
             setInput1(data.similarInstruct1);
-            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)});
+            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskId)});
             context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
         .catch(function(err) {
@@ -49,33 +48,29 @@ export default function EditSimilarInst() {
     }
     const handleSaveAndLoad = (e) => {
         e.preventDefault();
-        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+        if(!taskId || taskId == 0 || taskId > last_taskId || taskId < first_taskId){
             alert('task id 확인 후 다시 제출해주세요.');
             return;
         }
 
-        axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
+        axios.patch(`/api/tasks/${taskId}/assignment/${subIdx}`, {
             similarInstruct1: `${input1}`,
-            taskSubIdx: subNum,
+            taskSubIdx: subIdx,
         })
         .then(function(res) {
-            if(subNum < 10){
+            if(subIdx < 10){
                 // input 창의 내용을 새로 받기 위해서 비워줌
                 setInput1('');
                 // 다음 subIdx로 state 초기화
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(subNum) + 1) });
-                // subNum 상승
-                setSubNum(prev => parseInt(prev) + 1);
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(subIdx) + 1) });
             }
-            else if(subNum >= 10){
-                if(taskNum < last_taskId) {
+            else if(subIdx >= 10){
+                if(taskId < last_taskId) {
                     // input 창의 내용을 새로 받기 위해서 비워줌
                     setInput1('');
                     // state 초기화
-                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(parseInt(taskNum)+1)) });
-                    setTaskNum(prev => parseInt(prev) + 1);
+                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(parseInt(taskId)+1)) });
                     context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
-                    setSubNum(1);
                 }
                 else {
                     alert('마지막입니다.');
@@ -90,60 +85,24 @@ export default function EditSimilarInst() {
     }
     const handleSave = async (e) => {
         e.preventDefault();
-        if(!taskNum || taskNum == 0 || taskNum > last_taskId || taskNum < first_taskId){
+        if(!taskId || taskId == 0 || taskId > last_taskId || taskId < first_taskId){
             alert('task id 확인 후 다시 제출해주세요.');
             return;
         }
 
-        axios.patch(`/api/tasks/${taskNum}/assignment/${subNum}`, {
+        axios.patch(`/api/tasks/${taskId}/assignment/${subIdx}`, {
             similarInstruct1: `${input1}`,
-            taskSubIdx: subNum,
+            taskSubIdx: subIdx,
         })
         .catch(function(err) {
             alert('저장되지 않았습니다.');
         })
     }
 
-    const handlePressEnter = (e) => {
-        if(e.key === "Enter") {
-            e.preventDefault();
-            const id = e.target.id;
-            
-            if(id === "task") {
-                const value= e.target.value;
-                value >= first_taskId && value <=last_taskId && setTaskNum(parseInt(value));
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
-            }
-            else if(id === "subIdx") {
-                const value= e.target.value;
-                value >= 1 && value <= 10 && setSubNum(parseInt(value));
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum) });
-                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum) });
-            }
-            handleLoad(e);
-        }
-    }
-    const handleOnBlur = (e) => {
-        const id = e.target.id;
-        if(id === "task") {
-            const value = e.target.value;
-            value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(value));
-        }
-        else if(id === "subIdx") {
-            const value = e.target.value;
-            value >= 1 && value <= 10 && setSubNum(parseInt(value));
-        }
-    }
-
     useEffect(() => {
-        // setSubNum(subIdx);
         handleLoad();
-    }, [subIdx]);
+    }, [taskId, subIdx]);
 
-    useEffect(() => {
-        setTaskNum(taskId);
-    }, [taskId]);
     
     return (
         <>
@@ -153,41 +112,19 @@ export default function EditSimilarInst() {
                     <form>
                         {/* task index(assigned task) */}
                         <label className='noDrag'>task: </label>
-                        <input 
-                            ref={taskNumRef}
-                            type="number"
-                            id="task"
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                            }}
-                            max={`${last_taskId}`}
-                            min={`${first_taskId}`}
-                            value={taskNum}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            onClick={ () => {
-                                taskNumRef.current.select();
-                            }}
+                        <InputNumber 
+                            context={taskId}
+                            setContext={handleTaskId}
+                            maxNum={last_taskId}
+                            minNum={first_taskId}
                         />
                         {/* definition index */}
                         <label className='noDrag'>sub index: </label>
-                        <input 
-                            ref={subNumRef}
-                            type="number"
-                            id="subIdx"
-                            onChange={(e) => {
-                                const value = parseInt(e.target.value);
-                                value >= 1 && value <= 10 && setSubNum(parseInt(e.target.value))
-                            }}
-                            max="10"
-                            min="1"
-                            value={subNum}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
-                            onClick={() => {
-                                subNumRef.current.select();
-                            }}
+                        <InputNumber 
+                            context={subIdx}
+                            setContext={handleSubIdx}
+                            maxNum={10}
+                            minNum={1}
                         />
                     </form>
                 </div>
@@ -195,16 +132,13 @@ export default function EditSimilarInst() {
                     <button 
                         className={`${styles.moveBtn} noDrag`}
                         onClick={() => {
-                            if(subNum > 1){ //이동 가능한 상태
-                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
-                                setSubNum(prev => parseInt(prev)-1);
+                            if(subIdx > 1){ //이동 가능한 상태
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subIdx)-1});
                             }
                             else {
-                                if(taskNum > first_taskId){
-                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1 });
-                                    setTaskNum(prev => parseInt(prev) - 1);
+                                if(taskId > first_taskId){
+                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskId)-1 });
                                     context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(10)) });
-                                    setSubNum(10);
                                 }
                                 else{
                                     alert('첫 지시문입니다.');
@@ -216,16 +150,13 @@ export default function EditSimilarInst() {
                     <button 
                         className={`${styles.moveBtn} noDrag`}
                         onClick={() => {
-                            if(subNum < 10){
-                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
-                                setSubNum(prev => parseInt(prev)+1);
+                            if(subIdx < 10){
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subIdx)+1});
                             }
                             else {
-                                if(taskNum < last_taskId) {
-                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1 });
-                                    setTaskNum(prev => parseInt(prev) + 1);
+                                if(taskId < last_taskId) {
+                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskId)+1 });
                                     context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
-                                    setSubNum(1);
                                 }
                                 else{
                                     alert('마지막입니다.');
@@ -239,58 +170,14 @@ export default function EditSimilarInst() {
             <div className={styles.edit}>
                 <form>
                     <TextArea input={input1} setInput={handleChange1} placeholder={`유사 지시문 ${subIdx}을 입력하세요.`}/>
-                    {/* <div className={styles.divider}/> */}
-                    {/* <TextArea input={input2} setInput={handleChange2} placeholder={`유사 지시문 2를 입력하세요.`}/> */}
                 </form>
             </div>
 
             <div className={styles.buttons}>
-                {/* <button 
-                    className={`${styles.moveBtn} noDrag`}
-                    onClick={() => {
-                        if(subNum > 1){ //이동 가능한 상태
-                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)-1});
-                            setSubNum(prev => parseInt(prev)-1);
-                        }
-                        else {
-                            if(taskNum > first_taskId){
-                                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1 });
-                                setTaskNum(prev => parseInt(prev) - 1);
-                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(10)) });
-                                setSubNum(10);
-                            }
-                            else{
-                                alert('첫 지시문입니다.');
-                            }
-                        }
-                    }}    
-                ><AiOutlineLeft/>이전</button> */}
-
                 <div className={styles.btnWrapper}>
                     <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
                     <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>    
                 </div>
-                
-                {/* <button 
-                    className={`${styles.moveBtn} noDrag`}
-                    onClick={() => {
-                        if(subNum < 10){
-                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subNum)+1});
-                            setSubNum(prev => parseInt(prev)+1);
-                        }
-                        else {
-                            if(taskNum < last_taskId) {
-                                context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1 });
-                                setTaskNum(prev => parseInt(prev) + 1);
-                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
-                                setSubNum(1);
-                            }
-                            else{
-                                alert('마지막입니다.');
-                            }
-                        }
-                    }}
-                >다음<AiOutlineRight/></button> */}
             </div>
         </>
     );
