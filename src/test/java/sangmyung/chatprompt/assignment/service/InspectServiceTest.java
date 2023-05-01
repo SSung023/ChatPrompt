@@ -9,12 +9,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.assignment.domain.Assignment;
-import sangmyung.chatprompt.assignment.dto.DuplicateResponse;
+import sangmyung.chatprompt.assignment.dto.InspectResponse;
+import sangmyung.chatprompt.assignment.dto.SingleDuplicate;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @SpringBootTest(properties = "spring.profiles.active=test")
 @ActiveProfiles({"test"})
@@ -58,6 +60,42 @@ class InspectServiceTest {
         for (String s : separatedOrigin) {
             log.info(s);
         }
+    }
+
+    @Test
+    @DisplayName("origin section과 Assignment를 비교했을 때")
+    public void compareWithAssignmentTest(){
+        //given
+        Assignment assignment = assignmentRepository.getSubIdxAssignment(3L, 1L, 1L).get();
+        String originInstruct = assignment.getSimilarInstruct1();
+
+        //when
+        List<String> partList = inspectService.separatePart(originInstruct);
+        List<String> sectionList = inspectService.separateSection(partList);
+
+        SingleDuplicate res1 = inspectService.compareSectionWithSingleAssignment(sectionList.get(0), assignment);
+        SingleDuplicate res2 = inspectService.compareSectionWithSingleAssignment(sectionList.get(1), assignment);
+        SingleDuplicate res3 = inspectService.compareSectionWithSingleAssignment(sectionList.get(2), assignment);
+
+        SingleDuplicate res4 = inspectService.compareSectionWithSingleAssignment(sectionList.get(0) + sectionList.get(2), assignment);
+
+        //then
+        Assertions.assertThat(res1.getPartIdx()).contains(0, 1);
+        Assertions.assertThat(res2.getPartIdx()).contains(1, 2);
+        Assertions.assertThat(res3.getPartIdx()).contains(2, 3);
+    }
+
+    @Test
+    @DisplayName("유사지시문 비교 테스트")
+    public void instructCompareTest(){
+        //given
+
+
+        //when
+        InspectResponse inspectResponse = inspectService.compareWithOtherInstruct(3L, 1L, 1);
+
+        //then
+        log.info(inspectResponse.toString());
     }
 
 

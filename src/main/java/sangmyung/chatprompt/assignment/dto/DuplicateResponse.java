@@ -13,13 +13,15 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 public class DuplicateResponse {
-    private Integer originSection;
-    private List<SingleDuplicate> partList = new ArrayList<>();
+    private Integer sectionNum;
+    private String originSection;
+    private List<SingleDuplicate> duplicates = new ArrayList<>();
 
 
     @Builder
-    public DuplicateResponse(Integer originSection, List<SingleDuplicate> partList) {
+    public DuplicateResponse(Integer sectionNum, String originSection, List<SingleDuplicate> duplicates) {
+        this.sectionNum = sectionNum;
         this.originSection = originSection;
-        this.partList = partList;
+        this.duplicates = duplicates;
     }
 }
