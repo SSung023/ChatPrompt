@@ -16,6 +16,7 @@ import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.*;
+import java.util.stream.Stream;
 
 @Service
 @RequiredArgsConstructor
@@ -195,6 +196,278 @@ public class OutsourceService {
 
 
 
+    @Transactional
+    public void extract_C27(Pageable pageable){
+        Long taskPK = 51L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+
+        for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            String target = input.split("'")[1];
+
+            // 검사 대상 문자열에서 모음의 등장 횟수를 확인
+            int cnt = 0;
+            for(int i = 0; i < target.length(); ++i){
+                if (target.charAt(i) == 'a' || target.charAt(i) == 'e' || target.charAt(i) == 'i'
+                        || target.charAt(i) == 'o' || target.charAt(i) == 'u'){
+                    cnt++;
+                }
+            }
+
+            String inputKor = "문장: '" + target + "'. 주어진 문장에서 모음의 수를 세십시오.";
+            Assignment assignment = Assignment.builder()
+                    .input(inputKor)
+                    .output(String.valueOf(cnt))
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_D20(Pageable pageable){
+        Long taskPK = 66L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            String output = pair.getOutput1().replaceAll("[aeiouAEIOU]", "");
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_E20(Pageable pageable){
+        Long taskPK = 88L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String[] splits = pair.getInput1().split(", ");
+            String input1 = splits[0];
+            String input2 = splits[1];
+            String output = "";
+
+            // find LCS
+            output = findLCS(input1, input2);
+
+            Assignment assignment = Assignment.builder()
+                    .input(pair.getInput1())
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    // 수정 중
+    @Transactional
+    public void extract_E26(Pageable pageable){
+        Long taskPK = 94L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String[] splits = pair.getInput1().split(", ");
+            String input1 = splits[0];
+            String input2 = splits[1];
+            String output = "";
+
+            // find LCS
+            String lcs = findLCS(input1, input2);
+
+            // LCS를 소문자로 변환하고, 알파벳 순으로 정렬
+            output = lcs.toLowerCase();
+            List<String> lists = new ArrayList<>();
+            for(int i = 0; i < output.length(); ++i){
+                lists.add(String.valueOf(output.charAt(i)));
+            }
+            lists = lists.stream().sorted().toList();
+
+            output = "";
+            for (String list : lists) {
+                output += list;
+            }
+
+
+        }
+    }
+
+    @Transactional
+    public void extract_E27(Pageable pageable){
+        Long taskPK = 95L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String[] strs = pair.getInput1().split(", ");
+            String in1 = strs[0];
+            String in2 = strs[1];
+            String output = "";
+
+            String in = (in1.length() > in2.length() ? in1 : in2).toLowerCase();
+            Set<String> sets = new HashSet<>();
+
+            for(int i = 0; i < in.length(); ++i){
+                sets.add(String.valueOf(in.charAt(i)));
+            }
+
+            List<String> sorted = sets.stream().sorted().toList();
+            for (int i = 0; i < sorted.size() - 1; ++i){
+                output += sorted.get(i) + ", ";
+            }
+            output += sorted.get(sorted.size() - 1);
+
+            Assignment assignment = Assignment.builder()
+                    .input(pair.getInput1())
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_F102(Pageable pageable){
+        Long taskPK = 102L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            String output = "";
+
+            int maxCode = -1;
+            for(int i = 0; i < input.length(); ++i){
+                int code = input.charAt(i) - 'A';
+                if (maxCode < code){
+                    maxCode = code;
+                    output = String.valueOf(input.charAt(i));
+                }
+            }
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_F105(Pageable pageable){
+        Long taskPK = 105L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            int[] lists = new int[26];
+
+            for(int i = 0; i < input.length(); ++i){
+                int i1 = input.charAt(i) - 'a';
+                int cnt = lists[i1];
+                lists[i1] = cnt + 1;
+            }
+
+            int result = -1;
+            int idx = -1;
+            for (int i = 0; i < 26; ++i){
+                if (result < lists[i]){
+                    result = lists[i];
+                    idx = i;
+                }
+            }
+            Character output = (char) (idx + 'a');
+
+            Assignment assignment = Assignment.builder()
+                    .input(pair.getInput1())
+                    .output(String.valueOf(output))
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_F106(Pageable pageable){
+        Long taskPK = 106L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String[] strings = pair.getInput1().split(", ");
+            String input = strings[0];
+            String compare = strings[1];
+
+            String output = input.contains(compare) ? "1" : "0";
+
+            Assignment assignment = Assignment.builder()
+                    .input(pair.getInput1())
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    // 영어를 한글에 매핑 필요
+    @Transactional
+    public void extract_F110(Pageable pageable){
+        Long taskPK = 110L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            String output = "";
+
+            Set<Character> sets = new HashSet<>();
+            for(int i = 0; i < input.length(); ++i){
+                String matchedAscii = asciiMap.get(input.charAt(i));
+                if (!sets.contains(input.charAt(i))) {
+                    output += input.charAt(i);
+                }
+                sets.add(input.charAt(i));
+            }
+
+            Assignment assignment = Assignment.builder()
+                    .input(pair.getInput1())
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+
+
+
     // Task의 assignedId를 확인하고 할당받은 사용자의 PK를 반환
     private User checkAssignedUser(Long taskPK){
         Long assignedTaskId = taskRepository.findTaskAssignedId(taskPK)
@@ -310,6 +583,8 @@ public class OutsourceService {
     }
 
     private String type1_convertToKor(String inputEng){
+        matchAscii();
+
         String inputKor = "";
         int len = inputEng.length();
         for(int i = 0; i < len; ++i){
@@ -337,4 +612,34 @@ public class OutsourceService {
         throw new BusinessException(ErrorCode.INVALID_PARAMETER);
     }
 
+
+    public String findLCS(String input1, String input2){
+        String output = "";
+
+        int n = input1.length();
+        int m = input2.length();
+
+        int[][] dp = new int[n+1][m+1];
+        int maxLength = 0;
+        int endIndex = -1;
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                if (input1.charAt(i-1) == input2.charAt(j-1)) {
+                    dp[i][j] = dp[i-1][j-1] + 1;
+                    if (dp[i][j] > maxLength) {
+                        maxLength = dp[i][j];
+                        endIndex = i - 1;
+                    }
+                }
+            }
+        }
+
+        if (maxLength == 0) {
+            output = "";
+        } else {
+            output = input1.substring(endIndex - maxLength + 1, endIndex + 1);
+        }
+        return output;
+    }
 }

@@ -40,4 +40,19 @@ public class OutsourceController {
 
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
+
+    @GetMapping("/outsource/type2")
+    public CommonResponse getType2(@PageableDefault(size = 60, sort = "idx", direction = Sort.Direction.ASC) Pageable pageable){
+        outsourceService.extract_C27(pageable);
+        outsourceService.extract_D20(pageable);
+        outsourceService.extract_E20(pageable);
+        outsourceService.extract_E27(pageable);
+        outsourceService.extract_F102(pageable);
+        outsourceService.extract_F105(pageable);
+        outsourceService.extract_F106(pageable);
+        outsourceService.extract_F110(pageable);
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
 }
