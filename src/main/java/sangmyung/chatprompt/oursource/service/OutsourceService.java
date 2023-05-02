@@ -441,21 +441,23 @@ public class OutsourceService {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
         User user = checkAssignedUser(taskPK);
 
+        matchAscii();
+
         for (IOPairs pair : pairs) {
             String input = pair.getInput1();
             String output = "";
 
-            Set<Character> sets = new HashSet<>();
+            Set<String> sets = new HashSet<>();
             for(int i = 0; i < input.length(); ++i){
-                String matchedAscii = asciiMap.get(input.charAt(i));
-                if (!sets.contains(input.charAt(i))) {
-                    output += input.charAt(i);
+                String matchedAscii = asciiMap.get(String.valueOf(input.charAt(i)));
+                if (!sets.contains(matchedAscii)) {
+                    output += matchedAscii;
                 }
-                sets.add(input.charAt(i));
+                sets.add(matchedAscii);
             }
 
             Assignment assignment = Assignment.builder()
-                    .input(pair.getInput1())
+                    .input(matchToKor(input))
                     .output(output)
                     .taskId(taskPK)
                     .ioPairsIdx(pair.getIdx())
@@ -477,6 +479,15 @@ public class OutsourceService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
         return user;
+    }
+
+    private String matchToKor(String originInput){
+        String result = "";
+        for (int i = 0; i < originInput.length(); ++i){
+            String matchedAscii = asciiMap.get(String.valueOf(originInput.charAt(i)));
+            result += matchedAscii;
+        }
+        return result;
     }
 
 
@@ -505,6 +516,8 @@ public class OutsourceService {
     }
 
     private void matchAscii(){
+        asciiMap.clear();
+
         asciiMap.put("A","가");
         asciiMap.put("B","거");
         asciiMap.put("C","고");

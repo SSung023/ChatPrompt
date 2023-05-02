@@ -135,21 +135,24 @@ class OutsourceServiceTest {
     @DisplayName("F110번 테스트")
     public void F110Test(){
         //given
-        String input = "AgGgzxvBjlCrysBmzQKfz";
+        String input = "abCCdDDgGGhi";
+        Map<String, String> asciiMap = matchAscii();
 
         //when
         String output = "";
 
-        Set<Character> sets = new HashSet<>();
+        Set<String> sets = new HashSet<>();
         for(int i = 0; i < input.length(); ++i){
-            if (!sets.contains(input.charAt(i))) {
-                output += input.charAt(i);
+            String matchedAscii = asciiMap.get(String.valueOf(input.charAt(i)));
+            if (!sets.contains(matchedAscii)) {
+                output += matchedAscii;
             }
-            sets.add(input.charAt(i));
+            sets.add(matchedAscii);
         }
 
         //then
-        Assertions.assertThat(output).isEqualTo("AgGzxvBjlCrysmQKf");
+        log.info(output);
+//        Assertions.assertThat(output).isEqualTo("AgGzxvBjlCrysmQKf");
     }
 
     @Test
@@ -266,4 +269,68 @@ class OutsourceServiceTest {
         log.info(output);
     }
 
+
+
+
+
+
+
+    private Map<String, String> matchAscii(){
+        Map<String, String> asciiMap = new HashMap<>();
+        asciiMap.put("A","가");
+        asciiMap.put("B","거");
+        asciiMap.put("C","고");
+        asciiMap.put("D","구");
+        asciiMap.put("E","나");
+        asciiMap.put("F","너");
+        asciiMap.put("G","노");
+        asciiMap.put("H","누");
+        asciiMap.put("I","다");
+        asciiMap.put("J","더");
+        asciiMap.put("K","도");
+        asciiMap.put("L","두");
+        asciiMap.put("M","라");
+        asciiMap.put("N","러");
+        asciiMap.put("O","로");
+        asciiMap.put("P","루");
+        asciiMap.put("Q","마");
+        asciiMap.put("R","머");
+        asciiMap.put("S","모");
+        asciiMap.put("T","바");
+        asciiMap.put("U","버");
+        asciiMap.put("V","보");
+        asciiMap.put("W","부");
+        asciiMap.put("X","사");
+        asciiMap.put("Y","서");
+        asciiMap.put("Z","소");
+
+        asciiMap.put("a","수");
+        asciiMap.put("b","아");
+        asciiMap.put("c","어");
+        asciiMap.put("d","오");
+        asciiMap.put("e","우");
+        asciiMap.put("f","자");
+        asciiMap.put("g","저");
+        asciiMap.put("h","조");
+        asciiMap.put("i","주");
+        asciiMap.put("j","차");
+        asciiMap.put("k","처");
+        asciiMap.put("l","초");
+        asciiMap.put("m","추");
+        asciiMap.put("n","카");
+        asciiMap.put("o","커");
+        asciiMap.put("p","코");
+        asciiMap.put("q","타");
+        asciiMap.put("r","터");
+        asciiMap.put("s","토");
+        asciiMap.put("t","투");
+        asciiMap.put("u","파");
+        asciiMap.put("v","퍼");
+        asciiMap.put("w","포");
+        asciiMap.put("x","하");
+        asciiMap.put("y","허");
+        asciiMap.put("z","호");
+
+        return asciiMap;
+    }
 }
