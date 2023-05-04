@@ -4,6 +4,7 @@ import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Ta
 import { SET_SUB_IDX, userContext } from '../../context/UserContext';
 import { useNavigate } from 'react-router-dom';
 import Divider from '../ui/divider/Divider';
+import InfoBox from '../ui/information/InfoBox';
 
 export default function InspectSection({ duplicates, originSection, sectionNum, originInst }) {
     const context = useContext(userContext);
@@ -31,25 +32,11 @@ export default function InspectSection({ duplicates, originSection, sectionNum, 
                         fontWeight: `var(--regular)`,
                         fontSize: `14px`,    
                     }}>{duplicates.length !== 0 && `중복 ${duplicates.length}건이 발견되었어요.`}</span>
-                    {/* {duplicates.length !== 0 
-                    ? <span style={{ 
-                        color: `var(--red-color)`, 
-                        marginLeft: `0.5em`, 
-                        fontWeight: `var(--regular)`,
-                        fontSize: `14px`,    
-                    }}>{`중복 ${duplicates.length}건이 발견되었어요.`}</span>
-                    : <span style={{ 
-                        color: `var(--main-color)`, 
-                        marginLeft: `0.5em`, 
-                        fontWeight: `var(--regular)`,
-                        fontSize: `16px`,    
-                    }}>{`✓`}</span>} */}
                 </p>
                 <OriginalInst subIdx={subIdx} originInst={originInst} originSection={originSection} sectionNum={sectionNum}/>
                 {duplicates.length === 0 
                 ? <p className={styles.none}>중복 지시문이 없어요 🎉</p> 
                 : makeDuplicatedInst}
-                {/* {duplicates.length !== 0 && makeDuplicatedInst} */}
             </div>
             <Divider />
         </div>

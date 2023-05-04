@@ -97,6 +97,10 @@
   --middle-main-color: #1E4215;
   --dark-main-color: #2E4229;
 
+  /* nc colors */
+  --nc-blue: #003569;
+  --nc-gradient: #004c98;
+
   /* fonts */
   --bold: 700;
   --semi-bold: 600;

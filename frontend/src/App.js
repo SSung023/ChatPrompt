@@ -27,7 +27,6 @@ const router = createBrowserRouter([
       { path: '/inquire/io', element: <InquireIo />},
       { path: '/inspect', element: <Inspect />},
       { path: '/duplicated/instruction', element: <DuplicatedInst />},
-      { path: '/duplicated/io', element: <DuplicatedInst />},
       { path: '/admin', element: <EditInstPro />},
     ]
   }

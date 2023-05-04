@@ -5,7 +5,7 @@ import styles from './IoInspect.module.css';
 import { VscEyeClosed, VscEye } from 'react-icons/vsc';
 import axios from 'axios';
 import { SET_IO_PROGRESS, userContext } from '../../context/UserContext';
-import InspectInfo from '../ui/information/InspectInfo';
+import InfoBox from '../ui/information/InfoBox';
 
 export default function IoInspect({ data, idx }) {
     const row1 = (
@@ -87,7 +87,11 @@ function Output({ data, idx, isValidated }) {
                         : <VscEyeClosed color='var(--placeholder-txt-color)'/>) }
                     </label>}
 
-                    <InspectInfo />
+                    <InfoBox>
+                        <p style={{ fontWeight: `var(--bold)`, color: `var(--main-color)`, marginBottom: `6px`, }}>✅  도움말</p>
+                        <p><VscEyeClosed/> 버튼을 활성화하면 달성률이 올라갑니다.</p>
+                        <p style={{ color: `var(--main-color)`, fontSize: `12px`, }}>버튼이 안 보인다면 입출력을 작성해 주세요!</p>
+                    </InfoBox>
                 </div>
             </TableCell>
         </TableRow>
