@@ -15,6 +15,8 @@ import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.assignment.domain.Assignment;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
+import sangmyung.chatprompt.task.domain.IOPairs;
+import sangmyung.chatprompt.task.repository.IoPairRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
@@ -32,6 +34,7 @@ class OutsourceServiceTest {
     @Autowired UserRepository userRepository;
     @Autowired TaskRepository taskRepository;
     @Autowired AssignmentRepository assignmentRepository;
+    @Autowired IoPairRepository ioPairRepository;
     @Autowired OutsourceService outsourceService;
 
 
@@ -542,11 +545,57 @@ class OutsourceServiceTest {
         //then
         Assertions.assertThat(output).isEqualTo("에트프리 탄 이들람사 스노보드를 타고 있는 남자를 고하경구 있다");
     }
+    
+    @Test
+    @DisplayName("E28번 테스트")
+    public void E28Test(){
+        //given
+        Long taskPK = 96L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "idx"));
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+
+        
+        //when
+        String input = "aaaaaangggannna";
+        String output = longestPalindrome(input);
+
+        //then
+        Assertions.assertThat(output).isEqualTo("aaaaaa");
+    }
 
 
 
 
 
+
+
+    private String longestPalindrome(String s) {
+        if (s == null || s.length() < 1) return "";
+        int start = 0, end = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
+            }
+        }
+        String result = s.substring(start, end + 1);
+        if (result.length() == 1){
+            return String.valueOf(s.charAt(0));
+        }
+        return result;
+    }
+
+    private int expandAroundCenter(String s, int left, int right) {
+        int L = left, R = right;
+        while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
+            L--;
+            R++;
+        }
+        return R - L - 1;
+    }
 
     private int getFrequency(String sentence, String target){
         List<String> lists = List.of(sentence.split(" "));

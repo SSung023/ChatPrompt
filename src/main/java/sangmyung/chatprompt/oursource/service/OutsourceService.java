@@ -609,7 +609,17 @@ public class OutsourceService {
         User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            String output = longestPalindrome(input);
 
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
         }
     }
 
@@ -934,5 +944,34 @@ public class OutsourceService {
             }
         }
         return cnt;
+    }
+
+    // 회문 관련 코드
+    private String longestPalindrome(String s) {
+        if (s == null || s.length() < 1) return "";
+        int start = 0, end = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
+            }
+        }
+        String result = s.substring(start, end + 1);
+        if (result.length() == 1){
+            return String.valueOf(s.charAt(0));
+        }
+        return result;
+    }
+
+    private int expandAroundCenter(String s, int left, int right) {
+        int L = left, R = right;
+        while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
+            L--;
+            R++;
+        }
+        return R - L - 1;
     }
 }
