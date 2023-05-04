@@ -17,8 +17,9 @@
 
     margin-top: 2em;
     margin-bottom: 3em;
+    font-size: 14px;
     text-align: center;
-    color: var(--light-txt-color);
+    color: var(--placeholder-txt-color);
 }
 
 /* DuplicatedInst */
