@@ -4,5 +4,5 @@
     max-width: 70em;
     
     height: 2px;
-    background-color: var(--grey-line-color);
+    background-color: var(--divider-color);
 }
