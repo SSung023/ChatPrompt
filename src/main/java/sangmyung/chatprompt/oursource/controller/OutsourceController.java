@@ -78,4 +78,11 @@ public class OutsourceController {
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
 
+    @GetMapping("/outsource/type2-convertToKor")
+    public CommonResponse convertEngToKor(){
+        outsourceService.convertEngToKor();
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
 }

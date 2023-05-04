@@ -563,11 +563,42 @@ class OutsourceServiceTest {
         Assertions.assertThat(output).isEqualTo("aaaaaa");
     }
 
+    @Test
+    @DisplayName("영어를 한글에 매핑하기 테스트")
+    public void matchEngToKorTest(){
+        //given
+        String input = "EPeRMnwIvIqrUlYClyMVbjWc, u";
+        String output = "0";
+
+        //when
+        String converted = matchToKor(input);
+        String convertedOut = matchToKor(output);
+
+        //then
+        log.info(converted);
+        Assertions.assertThat(converted).isEqualTo("나루우머라카포다퍼다타터버초서고초허라보아차부어, 파");
+        Assertions.assertThat(output).isEqualTo("0");
+    }
 
 
 
 
 
+    private String matchToKor(String originInput){
+        Map<String, String> asciiMap = matchAscii();
+
+        String result = "";
+        for (int i = 0; i < originInput.length(); ++i){
+            if (asciiMap.containsKey(String.valueOf(originInput.charAt(i)))){
+                String matchedAscii = asciiMap.get(String.valueOf(originInput.charAt(i)));
+                result += matchedAscii;
+            }
+            else
+                result += originInput.charAt(i);
+
+        }
+        return result;
+    }
 
     private String longestPalindrome(String s) {
         if (s == null || s.length() < 1) return "";

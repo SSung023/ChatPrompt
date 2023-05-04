@@ -146,7 +146,7 @@ public class OutsourceService {
         User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
-            String input = pair.getInput1().replace("target", "대상");
+            String input = pair.getInput1().replace("target", "목표 값");
             String output = pair.getOutput1();
 
             Assignment assignment = Assignment.builder()
@@ -747,6 +747,39 @@ public class OutsourceService {
 
 
 
+    @Transactional
+    public void convertEngToKor(){
+        matchAscii();
+
+        List<Long> assignedIds = new ArrayList<>();
+        assignedIds.add(80L);
+        assignedIds.add(86L);
+        assignedIds.add(87L);
+        assignedIds.add(88L);
+        assignedIds.add(102L);
+        assignedIds.add(105L);
+        assignedIds.add(106L);
+
+        for (Long assignedId : assignedIds) {
+            Long taskPK = taskRepository.findTaskPK(assignedId)
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            User user = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedId))
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+            PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "ioPairsIdx"));
+            List<Assignment> lists = assignmentRepository.getIOPairList(user.getId(), taskPK, pageable);
+            for (Assignment assignment : lists) {
+                String input = matchToKor(assignment.getInput());
+                String output = matchToKor(assignment.getOutput());
+
+                assignment.updateIO(input, output);
+            }
+        }
+    }
+
+
+
+
 
     // Task의 assignedId를 확인하고 할당받은 사용자의 PK를 반환
     private User checkAssignedUser(Long taskPK){
@@ -762,8 +795,13 @@ public class OutsourceService {
     private String matchToKor(String originInput){
         String result = "";
         for (int i = 0; i < originInput.length(); ++i){
-            String matchedAscii = asciiMap.get(String.valueOf(originInput.charAt(i)));
-            result += matchedAscii;
+            if (asciiMap.containsKey(String.valueOf(originInput.charAt(i)))){
+                String matchedAscii = asciiMap.get(String.valueOf(originInput.charAt(i)));
+                result += matchedAscii;
+            }
+            else
+                result += originInput.charAt(i);
+
         }
         return result;
     }
@@ -892,13 +930,13 @@ public class OutsourceService {
 
     private String type1_task79_convert(String inputEng){
         if (inputEng.equals("Numbers Win")) {
-            return "숫자 승리";
+            return "숫자 승";
         }
         else if (inputEng.equals("Alphabets Win")) {
-            return "문자 승리";
+            return "문자 승";
         }
         else if (inputEng.equals("Numbers and Alphabets are Tied")) {
-            return "숫자와 문자 비김";
+            return "무승부";
         }
         throw new BusinessException(ErrorCode.INVALID_PARAMETER);
     }
@@ -925,7 +963,6 @@ public class OutsourceService {
                 }
             }
         }
-
         if (maxLength == 0) {
             output = "";
         } else {
@@ -965,7 +1002,6 @@ public class OutsourceService {
         }
         return result;
     }
-
     private int expandAroundCenter(String s, int left, int right) {
         int L = left, R = right;
         while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {
