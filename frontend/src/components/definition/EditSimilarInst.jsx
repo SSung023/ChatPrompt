@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useRef, useState } from 'react';
 import { SET_INST_TASKID, SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditSimilarInst.module.css';
-// import { TbArrowNarrowLeft, TbArrowNarrowRight } from 'react-icons/tb';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 import axios from 'axios';

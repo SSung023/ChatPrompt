@@ -1,18 +1,14 @@
 import axios from 'axios';
-import React, { useContext, useEffect, useMemo, useRef, useState } from 'react';
-import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
-import { SET_IO_IDX, SET_IO_TASKID, userContext } from '../../context/UserContext';
+import React, { useContext, useEffect, useState } from 'react';
+import { userContext } from '../../context/UserContext';
 import Table, { TableBody, TableRow } from '../ui/table/Table';
 import IoInspect from './IoInspect';
-import styles from './IoPairs.module.css';
 
 export default function IoPairs() {
     const context = useContext(userContext);
 
     // store 정보
     const taskId = context.state.data.io_taskId;
-    const first_taskId = context.state.data.first_taskId;
-    const last_taskId = context.state.data.last_taskId;
     const idx = context.state.data.io_idx;
 
     // 내부 관리용
@@ -49,50 +45,6 @@ export default function IoPairs() {
                     <IoInspect data={io} idx={idx}/>
                 </TableBody>
             </Table>
-
-            {/* <div className={styles.buttons}>
-                <button
-                    className={`${styles.moveBtn} noDrag`}
-                    onClick={(e) => {
-                        e.preventDefault();
-                        if(taskIdx > 1){
-                            context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)-1});
-                            setIdx(prev => parseInt(prev)-1);
-                        }
-                        else {
-                            if(taskId > first_taskId) {
-                                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)-1 });
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(60)});
-                                setIdx(60);
-                            }
-                            else {
-                                alert('첫 입출력입니다.');
-                            }
-                        }
-                    }}
-                ><AiOutlineLeft/>이전</button>
-                
-                <button 
-                    className={`${styles.moveBtn} noDrag`}
-                    onClick={(e) => {
-                        e.preventDefault();
-                        if(taskIdx < 60){
-                            context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(taskIdx)+1});
-                            setIdx(prev => parseInt(prev)+1);
-                        }
-                        else {
-                            if(taskId < last_taskId) {
-                                context.actions.contextDispatch({ type: SET_IO_TASKID, data: parseInt(taskId)+1 });
-                                context.actions.contextDispatch({ type: SET_IO_IDX, data: parseInt(1)});
-                                setIdx(1);
-                            }
-                            else{
-                                alert('마지막입니다.');
-                            }
-                        }
-                    }}
-                >다음<AiOutlineRight/></button>
-            </div> */}
         </div>
     );
 }

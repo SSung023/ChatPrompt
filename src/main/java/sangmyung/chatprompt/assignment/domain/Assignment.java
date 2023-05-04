@@ -4,6 +4,7 @@ package sangmyung.chatprompt.assignment.domain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.user.domain.User;
@@ -13,6 +14,7 @@ import javax.persistence.*;
 @Entity
 @Getter
 @NoArgsConstructor()
+@ToString
 public class Assignment {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "assignment_id")
@@ -98,5 +100,11 @@ public class Assignment {
     // 검증 여부 갱신
     public void updateValidation(int isValidated){
         this.isValidated = isValidated;
+    }
+
+    // 출력 갱신
+    public void updateOutput(String output, User user){
+        this.user = user;
+        this.output = output;
     }
 }

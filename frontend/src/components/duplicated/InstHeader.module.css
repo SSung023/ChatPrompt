@@ -1,13 +1,20 @@
-.header {
-    /* width: 80%; */
+.wrapper {
+    width: 80%;
     min-width: 30em;
+    max-width: 70em;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
+/* input */
 .header > form {
     margin: 1em 0;
 }
@@ -16,6 +23,10 @@
     font-size: 1em;
     margin-left: 1em;
     color: var(--main-color);
+}
+
+.header > form > label:nth-child(1) {
+    margin-left: 0;
 }
 
 .header > form > input {
@@ -35,6 +46,30 @@
 
 /* buttons */
 .buttons {
+    width: 80%;
+    min-width: 30em;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 2em 0 ;
+}
+
+.button {
+    box-sizing: border-box;
+    margin: 0 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    padding: 8px 8px;
+    font-weight: var(--bold);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+/* move buttons */
+.moveBtns {
     display: flex;
     align-items: center;
 }

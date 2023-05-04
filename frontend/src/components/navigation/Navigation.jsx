@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 
-import { TbFilePlus, TbFilePencil, TbFileSearch, TbLogout, TbTextSpellcheck, TbZoomCheck } from 'react-icons/tb';
+import { TbFilePlus, TbFilePencil, TbFileSearch, TbLogout, TbTextSpellcheck, TbZoomCheck, TbChecks, TbCheck, TbListSearch, TbZoomQuestion } from 'react-icons/tb';
 import { BsArrowBarLeft, BsArrowBarRight } from 'react-icons/bs';
 
 import { NavLink, useNavigate } from 'react-router-dom';
@@ -85,8 +85,16 @@ export default function Navigation() {
                     to={`/inspect`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
-                    <TbZoomCheck />
+                    <TbZoomQuestion />
                     {isOpen ? <p>검증하기</p> : ''}
+                    <p className={styles.bar}></p>
+                </NavLink>
+                <NavLink 
+                    to={`/duplicated/instruction`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                >
+                    <TbTextSpellcheck />
+                    {isOpen ? <p>지시문 중복 검사</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
             </div>
