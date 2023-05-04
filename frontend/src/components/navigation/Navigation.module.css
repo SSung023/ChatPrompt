@@ -110,7 +110,8 @@
 .navMenu.active {
     color: var(--main-color);
     /* color: var(--txt-color); */
-    background-color: #58c23e15;
+    /* background-color: #58c23e15; */
+    background-color: #136dc60f;
 }
 
 /* bar */

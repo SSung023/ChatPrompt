@@ -35,7 +35,7 @@ export default function References({ taskId, originalDefData }) {
             <TableRow key={idx*2}>
                 <TableHead>{`입력 ${io_pair.index}`}</TableHead>
                 <TableCell>
-                    <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.input1}</span>
+                    <span style={{color: `var(--g-txt-color)`}}>{io_pair.input1}</span>
                     <br/>
                     <span>{io_pair.input2}</span>
                 </TableCell>
@@ -45,7 +45,7 @@ export default function References({ taskId, originalDefData }) {
                 <TableRow key={idx*2 + 1}>
                     <TableHead>{`출력 ${io_pair.index}`}</TableHead>
                     <TableCell>
-                        <span style={{color: `var(--g-dark-txt-color)`}}>{io_pair.output1}</span>
+                        <span style={{color: `var(--g-txt-color)`}}>{io_pair.output1}</span>
                         <br/>
                         <span>{io_pair.output2}</span>
                     </TableCell>
@@ -64,7 +64,7 @@ export default function References({ taskId, originalDefData }) {
                     <TableRow>
                         <TableHead>지시문</TableHead>
                         <TableCell>
-                            <span style={{color: `var(--g-dark-txt-color)`}}>{`${originalDefData.definition1}`}</span>
+                            <span style={{color: `var(--g-txt-color)`}}>{`${originalDefData.definition1}`}</span>
                             <br/>
                             <br/>
                             <span>{`${originalDefData.definition2}`}</span>

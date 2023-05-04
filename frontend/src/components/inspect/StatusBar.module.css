@@ -34,7 +34,7 @@
 
 .innerBar {
     height: 12px;
-    background: linear-gradient(270deg, #57C43B 0%, #AAF298 100%);
+    background: linear-gradient(270deg, var(--nc-blue-light) 0%, var(--main-color) 100%);
     border-radius: 6px;
     width: 0%;
 
