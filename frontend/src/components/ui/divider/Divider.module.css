@@ -1,4 +1,8 @@
 .divider {
+    width: 80%;
+    min-width: 30em;
+    max-width: 70em;
+    
     height: 2px;
     background-color: var(--grey-line-color);
 }

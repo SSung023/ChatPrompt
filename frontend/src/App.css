@@ -81,7 +81,7 @@
 
 
   --line-color: #A9E4BD;
-  --grey-line-color: #EDEDED;
+  --grey-line-color: #f1f1f1;
 
   --highlight-color: rgba(187, 226, 218, 0.4);
 
@@ -102,6 +102,11 @@
   --medium: 500;
   --regular : 400;
   --light: 300;
+
+  /* highlight */
+  --h-color-0: #BBDCE2bd;
+  --h-color-1: #BBBEEAbd;
+  --h-color-2: #EDE6B1bd;
 }
 
 html, body {

@@ -1,0 +1,53 @@
+.wrapper {
+    margin-bottom: 1em;
+}
+
+.sectionNum {
+    margin: 1em 0;
+    margin-left: 6px;
+    font-weight: var(--medium);
+    color: var(--light-txt-color);
+}
+
+/* 검색 결과가 없을 때 */
+.none {
+    width: 80%;
+    min-width: 30em;
+    max-width: 70em;
+
+    margin-top: 2em;
+    margin-bottom: 3em;
+    text-align: center;
+    color: var(--light-txt-color);
+}
+
+/* DuplicatedInst */
+.duplicateSection {
+    margin: 1em 0;
+}
+
+.duplicateHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+    min-width: 30em;
+    max-width: 70em;
+
+    margin: 2em 0 1em 0;
+}
+
+.duplicateInfo {
+    color: var(--light-txt-color);
+    margin-left: 4px;
+}
+
+.modifyBtn {
+    color: var(--main-color);
+    margin-right: 8px;
+}
+
+.modifyBtn:hover {
+    cursor: pointer;
+}

@@ -7,7 +7,7 @@ export default function DuplicatedInst() {
     return (
         <div className='body'>
             <InstHeader/>
-            <Divider/>
+            <Divider />
             <DuplicatedInstBody />
         </div>
     );
