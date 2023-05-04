@@ -28,7 +28,7 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     List<Assignment> getWrittenAssignList(@Param("userId") Long userId, @Param("taskId") Long taskId, Pageable pageable);
 
     // 특정 Task에 대해 특정 사용자가 작성한 입출력을 반환
-    @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.ioPairsIdx != null")
+    @Query("select a from Assignment a where a.user.id =:userId and a.taskId =:taskId and a.ioPairsIdx != null order by a.ioPairsIdx asc")
     List<Assignment> getIOPairList(@Param("userId") Long userId, @Param("taskId") Long taskId, Pageable pageable);
 
 

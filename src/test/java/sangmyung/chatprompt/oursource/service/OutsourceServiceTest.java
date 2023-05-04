@@ -7,10 +7,14 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
+import sangmyung.chatprompt.assignment.domain.Assignment;
+import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
 import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
@@ -27,6 +31,7 @@ import static org.assertj.core.api.Assertions.*;
 class OutsourceServiceTest {
     @Autowired UserRepository userRepository;
     @Autowired TaskRepository taskRepository;
+    @Autowired AssignmentRepository assignmentRepository;
     @Autowired OutsourceService outsourceService;
 
 
@@ -269,12 +274,299 @@ class OutsourceServiceTest {
         log.info(output);
     }
 
+    @Test
+    @DisplayName("C22번 테스트")
+    public void C22Test(){
+        //given
+        Long taskPK = 46L;
+
+        PageRequest pageable = PageRequest.of(0, 5, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> pairs = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = pairs.get(0).getInput();
+        String[] split = input.split("'");
+        String sentence = split[1];
+        String target = split[3];
+
+        int cnt = 0;
+        for(int i = 0; i < sentence.length(); ++i){
+            if (String.valueOf(sentence.charAt(i)).equals(target)){
+                cnt++;
+            }
+        }
+
+        User user = checkAssignedUser(taskPK);
+        Assignment assignment = pairs.get(0);
+        assignment.updateOutput(String.valueOf(cnt), user);
+
+
+        //then
+        Assertions.assertThat(cnt).isEqualTo(3);
+        Assertions.assertThat(user.getId()).isEqualTo(3L);
+    }
+
+    @Test
+    @DisplayName("C28번 테스트")
+    public void C28Test(){
+        //given
+        Long taskPK = 52L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] splits = input.split("'");
+        String sentence = splits[1];
+        String target = splits[3];
+
+        List<String> lists = Arrays.stream(sentence.split(" ")).toList();
+        int cnt = 0;
+        for (String list : lists) {
+            if (list.equals(target))
+                cnt++;
+        }
+
+        //then
+        log.info(String.valueOf(cnt));
+    }
+
+    @Test
+    @DisplayName("C29번 테스트")
+    public void C29Test(){
+        //given
+        Long taskPK = 53L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] splits = input.split("'");
+
+        String sentence1 = splits[1];
+        String sentence2 = splits[3];
+        String target = splits[5];
+
+
+        int cnt1 = getFrequency(sentence1, target);
+        int cnt2 = getFrequency(sentence2, target);
+
+        //then
+        Assertions.assertThat(cnt1).isEqualTo(cnt2);
+        log.info(cnt1 + "\n" + cnt2);
+    }
+
+    @Test
+    @DisplayName("C30번 테스트")
+    public void C30Test(){
+        //given
+        Long taskPK = 54L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] split = input.split("'");
+
+        String sentence = split[1];
+        String target = split[3];
+        String replace = split[5];
+
+        String output = sentence.replaceAll(target, replace);
+        //then
+        log.info("d");
+    }
+
+    @Test
+    @DisplayName("D9번 테스트")
+    public void D9Test(){
+        //given
+        Long taskPK = 55L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] split = input.split("'");
+
+        String sentence = split[1];
+        String target = split[3];
+
+        List<String> lists = List.of(sentence.split(" "));
+        int cnt = 0;
+        for (String str : lists) {
+            if (str.contains(target)){
+                cnt++;
+            }
+        }
+
+        //then
+        Assertions.assertThat(cnt).isEqualTo(2);
+    }
+
+    @Test
+    @DisplayName("D10번 테스트")
+    public void D10Test(){
+        //given
+        Long taskPK = 56L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] split = input.split("'");
+
+        String sentence = split[1];
+        String target = split[3];
+
+        List<String> lists = List.of(sentence.split(" "));
+        int cnt = 0;
+        for (String str : lists) {
+            if (str.startsWith(target)){
+                cnt++;
+            }
+        }
+
+        //then
+        Assertions.assertThat(cnt).isEqualTo(1);
+    }
+
+    @Test
+    @DisplayName("D11번 테스트")
+    public void D11Test(){
+        //given
+        Long taskPK = 57L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] split = input.split("'");
+
+        String sentence = split[1];
+        String target = split[3];
+
+        List<String> lists = List.of(sentence.split(" "));
+        int cnt = 0;
+        for (String str : lists) {
+            if (str.endsWith(target)){
+                cnt++;
+            }
+        }
+
+        //then
+        Assertions.assertThat(cnt).isEqualTo(1);
+    }
+
+    @Test
+    @DisplayName("D30번 테스트")
+    public void D30Test(){
+        //given
+        Long taskPK = 76L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String sentence = input.split(": ")[1];
+        List<String> lists = List.of(sentence.split(" "));
+        String output = "";
+        for (int i = lists.size() - 1; i > 0; --i){
+            output += lists.get(i) + " ";
+        }
+        output += lists.get(0);
+
+        //then
+        Assertions.assertThat(output).isEqualTo("있다 잔뜩 짐이 주변에 차량 있는 지하주차장에");
+    }
+
+    @Test
+    @DisplayName("E9번 테스트")
+    public void E9Test(){
+        //given
+        Long taskPK = 77L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] split = input.split("'");
+
+        String sentence = split[1];
+        int targetLen = Integer.parseInt(split[3]);
+
+        List<String> lists = List.of(sentence.split(" "));
+        String output = "";
+        for (String str : lists) {
+            if (str.length() == targetLen)
+                continue;
+
+            output += str + " ";
+        }
+        output = output.substring(0, output.length()-1);
+
+        //then
+        Assertions.assertThat(output).isEqualTo("아침으로 한 마셨다");
+    }
+
+    @Test
+    @DisplayName("E10번 테스트")
+    public void E10Test(){
+        //given
+        Long taskPK = 78L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+
+        //when
+        String input = assignments.get(0).getInput();
+        String[] split = input.split("'");
+        String sentence = split[1];
+        int targetLen = Integer.parseInt(split[3]);
+
+        List<String> lists = List.of(sentence.split(" "));
+        String output = "";
+        for (String str : lists) {
+            if (str.length() == targetLen){
+                String reverse = "";
+                for(int i = str.length() - 1; i >= 0; --i){
+                    reverse += str.charAt(i);
+                }
+                output += reverse + " ";
+                continue;
+            }
+
+            output += str + " ";
+        }
+        output = output.substring(0, output.length()-1);
+
+        //then
+        Assertions.assertThat(output).isEqualTo("에트프리 탄 이들람사 스노보드를 타고 있는 남자를 고하경구 있다");
+    }
 
 
 
 
 
 
+    private int getFrequency(String sentence, String target){
+        List<String> lists = List.of(sentence.split(" "));
+        int cnt = 0;
+        for (String str : lists) {
+            if (str.equals(target)){
+                cnt++;
+            }
+        }
+        return cnt;
+    }
+    private User checkAssignedUser(Long taskPK){
+        Long assignedTaskId = taskRepository.findTaskAssignedId(taskPK)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        User user = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        return user;
+    }
     private Map<String, String> matchAscii(){
         Map<String, String> asciiMap = new HashMap<>();
         asciiMap.put("A","가");

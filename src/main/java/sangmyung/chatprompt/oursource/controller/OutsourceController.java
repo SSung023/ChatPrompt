@@ -46,11 +46,31 @@ public class OutsourceController {
         outsourceService.extract_C27(pageable);
         outsourceService.extract_D20(pageable);
         outsourceService.extract_E20(pageable);
+        outsourceService.extract_E26(pageable);
         outsourceService.extract_E27(pageable);
+
         outsourceService.extract_F102(pageable);
         outsourceService.extract_F105(pageable);
         outsourceService.extract_F106(pageable);
         outsourceService.extract_F110(pageable);
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
+    @GetMapping("/outsource/type2-modify")
+    public CommonResponse getType2Modified(){
+        outsourceService.extract_C22();
+        outsourceService.extract_C28();
+        outsourceService.extract_C29();
+        outsourceService.extract_C30();
+
+        outsourceService.extract_D9();
+        outsourceService.extract_D10();
+        outsourceService.extract_D11();
+        outsourceService.extract_D30();
+
+        outsourceService.extract_E9();
+        outsourceService.extract_E10();
 
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }

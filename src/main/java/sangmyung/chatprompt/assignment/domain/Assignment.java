@@ -101,4 +101,10 @@ public class Assignment {
     public void updateValidation(int isValidated){
         this.isValidated = isValidated;
     }
+
+    // 출력 갱신
+    public void updateOutput(String output, User user){
+        this.user = user;
+        this.output = output;
+    }
 }

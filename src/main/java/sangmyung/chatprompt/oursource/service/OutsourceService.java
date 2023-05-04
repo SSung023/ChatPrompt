@@ -2,7 +2,9 @@ package sangmyung.chatprompt.oursource.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import sangmyung.chatprompt.Util.exception.BusinessException;
@@ -197,6 +199,250 @@ public class OutsourceService {
 
 
     @Transactional
+    public void extract_C22(){
+        Long taskPK = 46L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+
+            String[] splits = input.split("'");
+            String sentence = splits[1];
+            String target = splits[3];
+
+            int cnt = 0;
+            for(int i = 0; i < sentence.length(); ++i){
+                if (String.valueOf(sentence.charAt(i)).equals(target)){
+                    cnt++;
+                }
+            }
+
+            assignment.updateOutput(String.valueOf(cnt), user);
+        }
+    }
+    @Transactional
+    public void extract_C28(){
+        Long taskPK = 52L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] splits = input.split("'");
+            String sentence = splits[1];
+            String target = splits[3];
+
+            List<String> lists = Arrays.stream(sentence.split(" ")).toList();
+            int cnt = 0;
+            for (String list : lists) {
+                if (list.equals(target))
+                    cnt++;
+            }
+
+            assignment.updateOutput(String.valueOf(cnt), user);
+        }
+    }
+
+    @Transactional
+    public void extract_C29(){
+        Long taskPK = 53L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] splits = input.split("'");
+
+            String sentence1 = splits[1];
+            String sentence2 = splits[3];
+            String target = splits[5];
+
+
+            int cnt1 = getFrequency(sentence1, target);
+            int cnt2 = getFrequency(sentence2, target);
+
+            String output = cnt1 == cnt2 ? "예" : "아니오";
+            assignment.updateOutput(output, user);
+        }
+    }
+
+    @Transactional
+    public void extract_C30(){
+        Long taskPK = 54L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] split = input.split("'");
+
+            String sentence = split[1];
+            String target = split[3];
+            String replace = split[5];
+
+            String output = sentence.replaceAll(target, replace);
+            assignment.updateOutput(output, user);
+        }
+    }
+
+    @Transactional
+    public void extract_D9(){
+        Long taskPK = 55L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] split = input.split("'");
+
+            String sentence = split[1];
+            String target = split[3];
+
+            List<String> lists = List.of(sentence.split(" "));
+            int cnt = 0;
+            for (String str : lists) {
+                if (str.contains(target)){
+                    cnt++;
+                }
+            }
+            assignment.updateOutput(String.valueOf(cnt), user);
+        }
+    }
+    @Transactional
+    public void extract_D10(){
+        Long taskPK = 56L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] split = input.split("'");
+
+            String sentence = split[1];
+            String target = split[3];
+
+            List<String> lists = List.of(sentence.split(" "));
+            int cnt = 0;
+            for (String str : lists) {
+                if (str.startsWith(target)){
+                    cnt++;
+                }
+            }
+            assignment.updateOutput(String.valueOf(cnt), user);
+        }
+    }
+    @Transactional
+    public void extract_D11(){
+        Long taskPK = 57L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] split = input.split("'");
+
+            String sentence = split[1];
+            String target = split[3];
+
+            List<String> lists = List.of(sentence.split(" "));
+            int cnt = 0;
+            for (String str : lists) {
+                if (str.endsWith(target)){
+                    cnt++;
+                }
+            }
+            assignment.updateOutput(String.valueOf(cnt), user);
+        }
+    }
+
+    @Transactional
+    public void extract_D30(){
+        Long taskPK = 76L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String sentence = input.split(": ")[1];
+            List<String> lists = List.of(sentence.split(" "));
+            String output = "";
+            for (int i = lists.size() - 1; i > 0; --i){
+                output += lists.get(i) + " ";
+            }
+            output += lists.get(0);
+
+            assignment.updateOutput(output, user);
+        }
+    }
+    @Transactional
+    public void extract_E9(){
+        Long taskPK = 77L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] split = input.split("'");
+
+            String sentence = split[1];
+            int targetLen = Integer.parseInt(split[3]);
+
+            List<String> lists = List.of(sentence.split(" "));
+            String output = "";
+            for (String str : lists) {
+                if (str.length() == targetLen)
+                    continue;
+
+                output += str + " ";
+            }
+            output = output.substring(0, output.length()-1);
+            assignment.updateOutput(output, user);
+        }
+    }
+
+    @Transactional
+    public void extract_E10(){
+        Long taskPK = 78L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "taskSubIdx"));
+        List<Assignment> assignments = assignmentRepository.getIOPairList(2L, taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (Assignment assignment : assignments) {
+            String input = assignment.getInput();
+            String[] split = input.split("'");
+            String sentence = split[1];
+            int targetLen = Integer.parseInt(split[3]);
+
+            List<String> lists = List.of(sentence.split(" "));
+            String output = "";
+            for (String str : lists) {
+                if (str.length() == targetLen){
+                    String reverse = "";
+                    for(int i = str.length() - 1; i >= 0; --i){
+                        reverse += str.charAt(i);
+                    }
+                    output += reverse + " ";
+                    continue;
+                }
+
+                output += str + " ";
+            }
+            output = output.substring(0, output.length()-1);
+            assignment.updateOutput(output, user);
+        }
+    }
+
+    @Transactional
     public void extract_C27(Pageable pageable){
         Long taskPK = 51L;
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
@@ -275,7 +521,6 @@ public class OutsourceService {
         }
     }
 
-    // 수정 중
     @Transactional
     public void extract_E26(Pageable pageable){
         Long taskPK = 94L;
@@ -286,25 +531,38 @@ public class OutsourceService {
             String[] splits = pair.getInput1().split(", ");
             String input1 = splits[0];
             String input2 = splits[1];
-            String output = "";
+            String lowerLcs = "";
 
             // find LCS
             String lcs = findLCS(input1, input2);
 
             // LCS를 소문자로 변환하고, 알파벳 순으로 정렬
-            output = lcs.toLowerCase();
+            lowerLcs = lcs.toLowerCase();
             List<String> lists = new ArrayList<>();
-            for(int i = 0; i < output.length(); ++i){
-                lists.add(String.valueOf(output.charAt(i)));
+            for(int i = 0; i < lowerLcs.length(); ++i){
+                lists.add(String.valueOf(lowerLcs.charAt(i)));
             }
             lists = lists.stream().sorted().toList();
 
-            output = "";
+            lowerLcs = "";
             for (String list : lists) {
-                output += list;
+                lowerLcs += list;
             }
 
+            // 기존 input에서 LCS를 찾고
+            input1 = input1.replace(lcs, lowerLcs);
+            input2 = input2.replace(lcs, lowerLcs);
+            String output = input1 + ", " + input2;
 
+            // 새로운 Assignment 등록
+            Assignment assignment = Assignment.builder()
+                    .input(pair.getInput1())
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
         }
     }
 
@@ -341,6 +599,17 @@ public class OutsourceService {
                     .build();
             Assignment savedAssignment = assignmentRepository.save(assignment);
             savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_E28(Pageable pageable){
+        Long taskPK = 96L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+
         }
     }
 
@@ -434,7 +703,6 @@ public class OutsourceService {
         }
     }
 
-    // 영어를 한글에 매핑 필요
     @Transactional
     public void extract_F110(Pageable pageable){
         Long taskPK = 110L;
@@ -654,5 +922,17 @@ public class OutsourceService {
             output = input1.substring(endIndex - maxLength + 1, endIndex + 1);
         }
         return output;
+    }
+
+    // sentence 내에 target이 몇 번 등장하는지 확인
+    private int getFrequency(String sentence, String target){
+        List<String> lists = List.of(sentence.split(" "));
+        int cnt = 0;
+        for (String str : lists) {
+            if (str.equals(target)){
+                cnt++;
+            }
+        }
+        return cnt;
     }
 }
