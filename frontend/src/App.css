@@ -71,6 +71,7 @@
   --white-color: #FFFFFF;
   --main-bg-color: #fbfbfb;
   --grey-g-color: #BDDCC9;
+  --red-color: #e02b2b;
 
   --txt-color: #222222;
   --g-txt-color: #58C23E;
@@ -80,7 +81,10 @@
 
 
   --line-color: #A9E4BD;
-  --grey-line-color: #EDEDED;
+  --grey-line-color: #f1f1f1;
+  --divider-color: #f6f6f6;
+
+  --highlight-color: rgba(187, 226, 218, 0.4);
 
   --btn-color: #9DDC6C;
 
@@ -93,12 +97,21 @@
   --middle-main-color: #1E4215;
   --dark-main-color: #2E4229;
 
+  /* nc colors */
+  --nc-blue: #003569;
+  --nc-gradient: #004c98;
+
   /* fonts */
   --bold: 700;
   --semi-bold: 600;
   --medium: 500;
   --regular : 400;
   --light: 300;
+
+  /* highlight */
+  --h-color-0: #BBDCE2bd;
+  --h-color-1: #BBBEEAbd;
+  --h-color-2: #EDE6B1bd;
 }
 
 html, body {
@@ -146,6 +159,13 @@ p {
   align-items: flex-start;
   width: 100%;
   /* height: 100%; */
+}
+
+.noDrag {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 }
 
 @media screen and (max-width: 786px) {

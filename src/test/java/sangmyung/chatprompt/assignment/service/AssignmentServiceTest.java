@@ -42,13 +42,11 @@ class AssignmentServiceTest {
         Assignment assignment = getAssignment(task, user);
 
         //when
-        AssignResponse writtenAssignment = service.getWrittenAssignment(user, task.getId());
+        AssignResponse writtenAssignment = service.getWrittenAssignment(user, task.getId(), 1L);
 
         //then
         assertThat(writtenAssignment.getSimilarInstruct1()).isEqualTo("유사지시문1");
         assertThat(writtenAssignment.getSimilarInstruct2()).isEqualTo("유사지시문2");
-        assertThat(writtenAssignment.getInput()).isEqualTo("입력");
-        assertThat(writtenAssignment.getOutput()).isEqualTo("출력");
 
         assertThat(user.getLastTaskNum()).isEqualTo(task.getId());
     }
@@ -61,7 +59,7 @@ class AssignmentServiceTest {
         Task task = getTask(1);
 
         //when
-        AssignResponse writtenAssignment = service.getWrittenAssignment(user, task.getId());
+        AssignResponse writtenAssignment = service.getWrittenAssignment(user, task.getId(), 1L);
 
         //then
 //        assertThat(writtenAssignment.getSimilarInstruct1()).isEqualTo("");
@@ -82,13 +80,11 @@ class AssignmentServiceTest {
 
         //when
         AssignRequest assignRequest = getAssignRequest("s1", "s2", "in", "out");
-        AssignResponse assignResponse = service.updateAssignmentContent(user, task.getId(), assignRequest);
+        AssignResponse assignResponse = service.updateAssignmentContent(user, task.getId(), 1L, assignRequest);
 
         //then
         assertThat(assignResponse.getSimilarInstruct1()).isEqualTo("s1");
         assertThat(assignResponse.getSimilarInstruct2()).isEqualTo("s2");
-        assertThat(assignResponse.getInput()).isEqualTo("in");
-        assertThat(assignResponse.getOutput()).isEqualTo("out");
 
         assertThat(user.getLastTaskNum()).isEqualTo(task.getId());
     }
@@ -124,8 +120,6 @@ class AssignmentServiceTest {
         return AssignRequest.builder()
                 .similarInstruct1(s1)
                 .similarInstruct2(s2)
-                .input(in)
-                .output(out)
                 .build();
     }
 }

@@ -1,0 +1,46 @@
+.header {
+    width: 80%;
+    min-width: 30em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1em;
+}
+
+/* buttons */
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+/* move buttons */
+.moveBtn {
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 4px;
+
+    background-color: transparent;
+    border: none;
+    color: var(--light-txt-color);
+    font-size: 14px;
+}
+
+.moveBtn > svg {
+    font-size: 18px;
+    margin: 0 4px;
+}
+
+.moveBtn:hover {
+    cursor: pointer;
+    color: var(--main-color);
+}
+
+.title {
+    color: var(--txt-color);
+    font-size: 1em;
+    margin-bottom: 1em;
+}

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './TextArea.module.css';
 
-export default function TextArea({ input, setInput, placeholder }) {
+export default function TextArea({ input, setInput, placeholder, style }) {
 
     const textAreaRef = useRef();
     // const handleChange = useCallback((e) => {
@@ -21,6 +21,7 @@ export default function TextArea({ input, setInput, placeholder }) {
 
     return (
         <textarea 
+            style={style}
             rows={1}
             className={styles.input} 
             onChange={(e) => setInput(e.target.value)}

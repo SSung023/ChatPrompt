@@ -1,95 +1,102 @@
 import axios from 'axios';
-import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react';
-import { userContext } from '../../context/UserContext';
+import React, { useContext, useEffect, useMemo, useState } from 'react';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import styles from './ShowInst.module.css';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import { userContext } from '../../context/UserContext';
+// import getId from '../../utility/getId';
 
-export default function ShowInst() {
+export default function ShowInst({ taskNum, setTaskNum }) {
     const context = useContext(userContext);
+    // const taskId = context.state.data.inst_taskId;
+
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
 
-    const [taskNum, setTaskNum] = useState(context.state.data.inst_taskId);
-    const [taskId, setTaskId] = useState(taskNum);
-
     const [data, setData] = useState();
+    const [userId, setId] = useState();
 
-    const makeDefinitions = useMemo(() => {
+    const getUserId = (taskId) => {
+        if(taskId >= 1 && taskId < 31) setId('C')
+        else if(taskId >= 31 && taskId < 61) setId('D')
+        else if(taskId >= 61 && taskId < 91) setId('E')
+        else if(taskId >= 91 && taskId < 121) setId('F')
+    }
+
+    const makeSimilarInst = useMemo(() => {
         return (
             data && 
-            data.map((definitions, idx) => {
-                const row1 = (
-                    <TableRow key={idx*2}>
-                        <TableHead>{`지시문 1`}</TableHead>
+            data.map((inst, idx) => {
+                return (
+                    <TableRow key={idx}>
+                        <TableHead>{`지시문 ${idx+1}`}</TableHead>
                         <TableCell>
-                            <span>지시문 1</span>
+                            {!inst.similar_instruct
+                            ? <span style={{color:"var(--placeholder-txt-color)"}} className="noDrag">작성한 지시문이 없습니다.</span>
+                            : <span>{inst.similar_instruct}</span>}
                         </TableCell>
                     </TableRow>
                 )
-                const row2 = (
-                    <TableRow key={idx*2+1}>
-                        <TableHead>{`지시문 2`}</TableHead>
-                        <TableCell>
-                            <span>지시문 2</span>
-                        </TableCell>
-                    </TableRow>
-                );
-                return [row1, row2];
             })
             
         );
     }, [data]);
 
-    const load = () => {
+    const loadSimilar = () => {
         axios.get(`/api/tasks/${taskNum}/assignment-similar/lists`)
         .then(function(res) {
-            console.log(res);
+            // console.log(res);
             return res.data.dataList;
         })
         .then(function(data) {
             setData(data);
-            // console.log(data);
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
         })
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setTaskId(taskNum);
-    }
-
     useEffect(() => {
-        load();
-    }, [taskId]);
+        loadSimilar();
+        getUserId(taskNum);
+    }, [taskNum]);
 
     return (
         <div className={styles.showInst}>
-            <form
-                onSubmit={handleSubmit}>
-                <label>task: </label>
-                <input 
-                    type="number" 
-                    value={taskNum}
-                    onChange={(e) => {
-                        const value = e.target.value;
-                        value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                    }}
-                    max="120"
-                    min="1"
-                />
-            </form>
-            
+            <div className={styles.header}>
+                <p className={styles.title}>{(first_taskId == 1 && last_taskId == 120) ? `* 구축자 ${userId} 지시문` : `* 내가 쓴 지시문`}</p>
+                <div className={styles.buttons}>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(taskNum > first_taskId){
+                                setTaskNum(taskNum - 1);
+                            }
+                            else{
+                                alert('첫 지시문입니다.');
+                            }
+                        }}    
+                    ><AiOutlineLeft/></button>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(taskNum < last_taskId){
+                                setTaskNum(taskNum + 1);
+                            }
+                            else{
+                                alert('마지막 지시문입니다.');
+                            }
+                        }}    
+                    ><AiOutlineRight/></button>
+                </div>
+            </div>
             <Table>
                 <TableBody>
-                    <TableRow>
-                        <TableHead></TableHead>
-                    </TableRow>
-                    {makeDefinitions}
+                    {makeSimilarInst}
                 </TableBody>
             </Table>
         </div>

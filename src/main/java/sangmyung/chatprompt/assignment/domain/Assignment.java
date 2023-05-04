@@ -4,6 +4,7 @@ package sangmyung.chatprompt.assignment.domain;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 import sangmyung.chatprompt.assignment.dto.AssignRequest;
 import sangmyung.chatprompt.task.domain.IOPairs;
 import sangmyung.chatprompt.user.domain.User;
@@ -13,6 +14,7 @@ import javax.persistence.*;
 @Entity
 @Getter
 @NoArgsConstructor()
+@ToString
 public class Assignment {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "assignment_id")
@@ -22,11 +24,9 @@ public class Assignment {
     @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "io_pairs_id")
-    private IOPairs ioPairs;
-
     private Long taskId; // Task PK
+
+    private Integer ioPairsIdx; // 특정 Task의 입출력 인덱스
 
     @Column(columnDefinition = "TEXT")
     private String similarInstruct1; // 유사지시문1
@@ -39,13 +39,17 @@ public class Assignment {
     @Column(columnDefinition = "TEXT")
     private String output; // 출력
 
-//    private Long ioIndex; // input&output 인덱스 ex) 1a, 1b에서의 1
+    private Long taskSubIdx; // Task마다 유사지시문의 인덱스 (1~10의 범위)
+
+    @Column(columnDefinition = "TINYINT", length = 1)
+    private Integer isValidated; // 검증 여부, 0: false, 1: true
 
 
     @Builder
-    public Assignment(Long taskId, String similarInstruct1, String similarInstruct2,
+    public Assignment(Long taskId, Integer ioPairsIdx, String similarInstruct1, String similarInstruct2,
                       String input, String output) {
         this.taskId = taskId;
+        this.ioPairsIdx = ioPairsIdx;
         this.similarInstruct1 = similarInstruct1;
         this.similarInstruct2 = similarInstruct2;
         this.input = input;
@@ -59,10 +63,6 @@ public class Assignment {
         user.getAssignList().add(this);
     }
 
-    public void addIOPair(IOPairs ioPairs){
-        this.ioPairs = ioPairs;
-        ioPairs.addAssignment(this);
-    }
 
 
     //=== 비지니스 코드 ===//
@@ -80,10 +80,31 @@ public class Assignment {
             }
         }
     }
-
+    // task sub index 설정
+    public void addTaskSubIndex(Long taskSubIdx){
+        this.taskSubIdx = taskSubIdx;
+    }
     // 입력 & 출력 갱신
     public void updateIO(String input, String output){
-        this.input = input;
+        if (input != null){
+            if (!input.equals("null")){
+                this.input = input;
+            }
+        }
+        if (output != null){
+            if (!output.equals("null")){
+                this.output = output;
+            }
+        }
+    }
+    // 검증 여부 갱신
+    public void updateValidation(int isValidated){
+        this.isValidated = isValidated;
+    }
+
+    // 출력 갱신
+    public void updateOutput(String output, User user){
+        this.user = user;
         this.output = output;
     }
 }

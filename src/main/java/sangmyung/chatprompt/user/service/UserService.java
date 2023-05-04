@@ -1,6 +1,7 @@
 package sangmyung.chatprompt.user.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -35,12 +36,6 @@ public class UserService {
     // username(실명)을 통해 User 찾은 후 반환
     public User findUserByUserName(String username){
         return userRepository.findUserByName(username)
-                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-    }
-
-    // identifier(구분자)를 통해 User 찾은 후 반환
-    public User findUserByIdentifier(String identifier){
-        return userRepository.findUserByIdentifier(identifier)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
     }
 
@@ -79,5 +74,13 @@ public class UserService {
         if (session != null){
             session.invalidate();
         }
+    }
+
+    // 현재 사용자가 접근한 TaskId가 사용자가 할당받은 TaskId인지 여부 반환
+    public boolean isAssignedTaskNum(User user, Long taskId){
+        int startIdx = user.getTaskStartIdx();
+        int endIdx = user.getTaskEndIdx();
+
+        return startIdx <= taskId && taskId <= endIdx;
     }
 }

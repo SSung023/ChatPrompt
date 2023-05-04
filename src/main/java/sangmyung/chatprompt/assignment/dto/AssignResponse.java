@@ -9,18 +9,22 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class AssignResponse {
+    private String taskTitle;
     private String similarInstruct1;
     private String similarInstruct2;
+    private Long taskSubIdx;
 
-    private String input;
-    private String output;
+//    private String input;
+//    private String output;
 
 
     @Builder
-    public AssignResponse(String similarInstruct1, String similarInstruct2, String input, String output) {
+    public AssignResponse(String taskTitle, String similarInstruct1, String similarInstruct2, Long taskSubIdx) {
+        this.taskTitle = taskTitle;
         this.similarInstruct1 = similarInstruct1;
         this.similarInstruct2 = similarInstruct2;
-        this.input = input;
-        this.output = output;
+        this.taskSubIdx = taskSubIdx;
+//        this.input = input;
+//        this.output = output;
     }
 }

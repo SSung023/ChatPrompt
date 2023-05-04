@@ -1,180 +1,182 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
-import { SET_INST_TASKID, userContext } from '../../context/UserContext';
+import { SET_INST_TASKID, SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import TextArea from '../ui/textarea/TextArea';
 import styles from './EditSimilarInst.module.css';
-import { TbCircleArrowLeftFilled, TbCircleArrowRightFilled } from 'react-icons/tb';
+import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
 import axios from 'axios';
+import InputNumber from '../ui/input/InputNumber';
 
 export default function EditSimilarInst() {
     const context = useContext(userContext);
     const [input1, setInput1] = useState('');
-    const [input2, setInput2] = useState('');
 
-    // const userId = GetUserId(context.state.data.name);
     const taskId = context.state.data.inst_taskId;
     const first_taskId = context.state.data.first_taskId;
     const last_taskId = context.state.data.last_taskId;
+    const subIdx = context.state.data.sub_idx;
+
     // 내부 관리용 taskId state
-    const [taskNum, setTaskNum] = useState(taskId);
-
-    const scrollRef = useRef();
-
+    const handleTaskId = (value) => {
+        context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(value) })
+    }
+    const handleSubIdx = (value) => {
+        context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(value) });
+    }
     const handleChange1 = (value) => {
         setInput1(value);
     };
-    const handleChange2 = (value) => {
-        setInput2(value);
-    };
 
     const handleLoad = (e) => {
-        axios.get(`/api/tasks/${taskNum}/assignment`)
+        axios.get(`/api/tasks/${taskId}/assignment/${subIdx}`)
         .then(function(res) {
             return res.data.data;
         })
         .then(function(data) {
             setInput1(data.similarInstruct1);
-            setInput2(data.similarInstruct2);
-            context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskNum});
+            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskId)});
+            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle});
         })
         .catch(function(err) {
             if(err.response.status === 400){
+                alert('세션이 만료되었습니다. 로그인 후 다시 시도해주세요.');
                 window.localStorage.removeItem("prompt-login");
                 window.location.replace(window.location.href);
             }
         })
     }
     const handleSaveAndLoad = (e) => {
-        // console.log(`taskId: ${taskId}, taskNum: ${taskNum}`);
-        // save
-        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+        e.preventDefault();
+        if(!taskId || taskId == 0 || taskId > last_taskId || taskId < first_taskId){
+            alert('task id 확인 후 다시 제출해주세요.');
+            return;
+        }
+
+        axios.patch(`/api/tasks/${taskId}/assignment/${subIdx}`, {
             similarInstruct1: `${input1}`,
-            similarInstruct2: `${input2}`
+            taskSubIdx: subIdx,
         })
         .then(function(res) {
-            if(taskNum < last_taskId){
+            if(subIdx < 10){
                 // input 창의 내용을 새로 받기 위해서 비워줌
                 setInput1('');
-                setInput2('');
-                // 다음 task로 state 초기화
-                context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(taskNum)+1)});
-                // taskNum 상승
-                setTaskNum(prev => parseInt(prev) + 1);
+                // 다음 subIdx로 state 초기화
+                context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(subIdx) + 1) });
             }
-            else if(taskNum >=last_taskId){
-                alert('마지막 태스크입니다!');
+            else if(subIdx >= 10){
+                if(taskId < last_taskId) {
+                    // input 창의 내용을 새로 받기 위해서 비워줌
+                    setInput1('');
+                    // state 초기화
+                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: (parseInt(parseInt(taskId)+1)) });
+                    context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
+                }
+                else {
+                    alert('마지막입니다.');
+                }
             }
         })
         .catch(function(err) {
-            console.log(err);
+            if(err.response.status === 400){
+                alert('task id 혹은 sub index를 확인해주세요.');
+            }
         })
     }
     const handleSave = async (e) => {
         e.preventDefault();
-        axios.patch(`/api/tasks/${taskNum}/assignment`, {
+        if(!taskId || taskId == 0 || taskId > last_taskId || taskId < first_taskId){
+            alert('task id 확인 후 다시 제출해주세요.');
+            return;
+        }
+
+        axios.patch(`/api/tasks/${taskId}/assignment/${subIdx}`, {
             similarInstruct1: `${input1}`,
-            similarInstruct2: `${input2}`,
-        })
-        .then(function(res) {
-            // console.log(res);
-            // return res;
+            taskSubIdx: subIdx,
         })
         .catch(function(err) {
-            console.log(err);
+            alert('저장되지 않았습니다.');
         })
-    }
-
-    const handlePressEnter = (e) => {
-        if(e.key === "Enter"){
-            e.preventDefault();
-            const value= e.target.value;
-            value >= first_taskId && value <=last_taskId && setTaskNum(value);
-            handleLoad(e);
-        }
-    }
-    const handleOnBlur = (e) => {
-        const value = e.target.value;
-        value >= first_taskId && value <= last_taskId && setTaskNum(value);
     }
 
     useEffect(() => {
-        // console.log(taskId);
         handleLoad();
-        if(scrollRef.current.scrollHeight >= document.documentElement.scrollHeight){
-            scrollRef.current?.scrollIntoView({ block: "end" });
-        }
-    }, [taskId]);
+    }, [taskId, subIdx]);
+
     
     return (
         <>
             <div className={styles.wrapper}>
                 <div className={styles.header}>
-                    <p className={styles.title}>* 다음 유사 지시문 2개를 작성하시오.</p>
+                    <p className={styles.title}>* 유사 지시문(1~10)을 작성하시오.</p>
                     <form>
-                        <label>task: </label>
-                        <input 
-                            type="number"
-                            onChange={(e) => {
-                                const value = e.target.value;
-                                value >= first_taskId && value <= last_taskId && setTaskNum(parseInt(e.target.value))
-                            }}
-                            max="120"
-                            min="1"
-                            value={taskNum}
-                            onKeyDown={handlePressEnter}
-                            onBlur={handleOnBlur}
+                        {/* task index(assigned task) */}
+                        <label className='noDrag'>task: </label>
+                        <InputNumber 
+                            context={taskId}
+                            setContext={handleTaskId}
+                            maxNum={last_taskId}
+                            minNum={first_taskId}
                         />
-                        <span style={{ 
-                            color: `#e02b2b`, 
-                            fontSize: `12px`, 
-                            marginLeft: `1em`,
-                            lineHeight: `1.5em`,
-                        }}>
-                            ⚠ 엔터를 누르면 저장되지 않고 이동합니다.
-                        </span>
+                        {/* definition index */}
+                        <label className='noDrag'>sub index: </label>
+                        <InputNumber 
+                            context={subIdx}
+                            setContext={handleSubIdx}
+                            maxNum={10}
+                            minNum={1}
+                        />
                     </form>
+                </div>
+                <div className={styles.moveBtns}>
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(subIdx > 1){ //이동 가능한 상태
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subIdx)-1});
+                            }
+                            else {
+                                if(taskId > first_taskId){
+                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskId)-1 });
+                                    context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(10)) });
+                                }
+                                else{
+                                    alert('첫 지시문입니다.');
+                                }
+                            }
+                        }}    
+                    ><AiOutlineLeft/></button>
+
+                    <button 
+                        className={`${styles.moveBtn} noDrag`}
+                        onClick={() => {
+                            if(subIdx < 10){
+                                context.actions.contextDispatch({ type: SET_SUB_IDX, data: parseInt(subIdx)+1});
+                            }
+                            else {
+                                if(taskId < last_taskId) {
+                                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskId)+1 });
+                                    context.actions.contextDispatch({ type: SET_SUB_IDX, data: (parseInt(1)) });
+                                }
+                                else{
+                                    alert('마지막입니다.');
+                                }
+                            }
+                        }}
+                    ><AiOutlineRight/></button>
                 </div>
             </div>
 
             <div className={styles.edit}>
                 <form>
-                    <TextArea input={input1} setInput={handleChange1} placeholder={`유사 지시문 1을 입력하세요.`}/>
-                    <div className={styles.divider}/>
-                    <TextArea input={input2} setInput={handleChange2} placeholder={`유사 지시문 2를 입력하세요.`}/>
+                    <TextArea input={input1} setInput={handleChange1} placeholder={`유사 지시문 ${subIdx}을 입력하세요.`}/>
                 </form>
             </div>
 
-            <div className={styles.buttons} ref={scrollRef}>
-                <button 
-                    className={styles.moveBtn}
-                    onClick={() => {
-                        if(taskNum > first_taskId){
-                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)-1});
-                            setTaskNum(prev => parseInt(prev)-1);
-                        }
-                        else {
-                            alert('첫 태스크입니다.');
-                        }
-                    }}    
-                ><TbCircleArrowLeftFilled/></button>
-
+            <div className={styles.buttons}>
                 <div className={styles.btnWrapper}>
-                    <button onClick={handleSave} className={styles.button}>저장</button>
-                    <button onClick={handleSaveAndLoad} className={styles.button}>저장하고 다음 페이지로 이동</button>    
+                    <button onClick={handleSave} className={`${styles.button} noDrag`}>저장</button>
+                    <button onClick={handleSaveAndLoad} className={`${styles.button} noDrag`}>저장하고 다음으로 이동</button>    
                 </div>
-                
-                <button 
-                    className={styles.moveBtn}
-                    onClick={() => {
-                        if(taskNum < last_taskId){
-                            context.actions.contextDispatch({ type: SET_INST_TASKID, data: parseInt(taskNum)+1});
-                            setTaskNum(prev => parseInt(prev)+1);
-                        }
-                        else {
-                            alert('마지막 태스크입니다.');
-                        }
-                    }}
-                ><TbCircleArrowRightFilled/></button>
             </div>
         </>
     );

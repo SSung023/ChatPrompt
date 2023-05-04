@@ -1,20 +1,31 @@
 .table {
+    table-layout: fixed;
     width: 80%;
     min-width: 30em;
+    max-width: 70em;
     padding: 0;
     border-radius: 5px;
 }
 
 .th {
     box-sizing: border-box;
-    padding: 0 1em;
+    padding: 0.5em 1em;
     border-radius: 5px;
     border: 1px solid var(--grey-line-color);
     font-weight: var(--regular);
-    width: 10%;
 
-    white-space: nowrap;
+    width: 6em;
+
+    white-space: pre;
     background-color: var(--table-color);
+
+    line-height: 1.5em;
+
+    /* prevent drag */
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
 }
 
 .tbody {
@@ -35,4 +46,6 @@
 
     background-color: var(--white-color);
     white-space: pre-wrap;
+
+    line-height: 1.35em;
 }

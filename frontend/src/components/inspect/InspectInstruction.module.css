@@ -1,0 +1,100 @@
+.instruction {
+    margin-top: 1em;
+}
+
+/* index input */
+.wrapper {
+    width: 80%;
+    min-width: 30em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    color: var(--txt-color);
+    font-size: 1em;
+}
+
+/* form */
+.form {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.label {
+    color: var(--main-color);
+    margin-left: 1em;
+}
+
+.input {
+    background-color: var(--white-color);
+    border: 1px solid var(--line-color);
+    border-radius: 5px;
+    color: var(--light-txt-color);
+}
+
+.input:focus {
+    border: 1px solid var(--main-color);
+    outline: none;
+}
+
+/* buttons */
+.buttons {
+    width: 80%;
+    min-width: 30em;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0 2em 0 ;
+}
+
+.button {
+    box-sizing: border-box;
+    margin: 0 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    padding: 8px 8px;
+    font-weight: var(--bold);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+/* move buttons */
+.moveBtns {
+    display: flex;
+    align-items: center;
+}
+
+.moveBtn {
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 4px;
+
+    background-color: transparent;
+    border: none;
+    color: var(--light-txt-color);
+    font-size: 14px;
+}
+
+.moveBtn > svg {
+    font-size: 18px;
+    margin: 0 4px;
+}
+
+.moveBtn:hover {
+    cursor: pointer;
+    color: var(--main-color);
+}

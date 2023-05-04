@@ -3,6 +3,13 @@
 }
 
 /* header */
+.wrapper {
+    width: 80%;
+    min-width: 30em;
+    display: flex;
+    justify-content: space-between;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -21,25 +28,44 @@
 
 .header > form > label {
     color: var(--main-color);
-    margin: 0 1em;
+    margin-left: 1em;
 }
 
 .header > form > input {
     background-color: var(--white-color);
-    border: 1px solid var(--main-color);
+    border: 1px solid var(--line-color);
     border-radius: 5px;
     color: var(--light-txt-color);
 }
 
 .header > form > input:focus {
+    border: 1px solid var(--main-color);
     outline: none;
 }
+
+/* pagination */
+/* .pagination {
+    display: flex;
+    align-items: center;
+} */
+
+/* .testInput {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    -moz-appearance: textfield;
+} */
+
+/* .testInput::-webkit-inner-spin-button,
+.testInput::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+} */
 
 /* buttons */
 .buttons {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 80%;
     min-width: 30em;
     margin: 1em 0 2em 0 ;
@@ -61,23 +87,36 @@
 }
 
 /* move buttons */
+.moveBtns {
+    display: flex;
+    align-items: center;
+}
+
 .moveBtn {
+    display: flex;
+    align-items: center;
+
     box-sizing: border-box;
-    padding: 0;
+    padding: 4px;
+
     background-color: transparent;
     border: none;
-    font-size: 26px;
-    color: var(--btn-color);
+    color: var(--light-txt-color);
+    font-size: 14px;
+}
 
-    margin: 0 1em;
+.moveBtn > svg {
+    font-size: 18px;
+    margin: 0 4px;
 }
 
 .moveBtn:hover {
     cursor: pointer;
+    color: var(--main-color);
 }
 
 @media screen and (max-width: 786px) {
     .moveBtn {
-        font-size: 24px;
+        font-size: 14px;
     }
 }

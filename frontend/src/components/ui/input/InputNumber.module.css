@@ -1,0 +1,14 @@
+.input {
+    box-sizing: border-box;
+    margin-left: 1em;
+
+    color: var(--light-txt-color);
+    background-color: var(--white-color);
+    border-radius: 5px;
+    border: 1px solid var(--line-color);
+}
+
+.input:focus {
+    border: 1px solid var(--main-color);
+    outline: none;
+}

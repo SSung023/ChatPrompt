@@ -1,16 +1,13 @@
-import React, { useContext, useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import styles from './IoReference.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
 import axios from 'axios';
-import { SET_TASKNAME, userContext } from '../../context/UserContext';
 
 export default function IoReference({ taskId, idx }) {
-    const context = useContext(userContext);
     const [definition, setDefinition] = useState();
     const [io, setIo] = useState();
 
     const makeDefinition = useMemo(() => {
-        // console.log('useMemo!');
         return (
             definition && 
             <TableRow>
@@ -25,7 +22,7 @@ export default function IoReference({ taskId, idx }) {
         );
     }, [definition]);
 
-    // taskId가 변경되면 definition 초기화
+    // taskId가 변경되면 지시문 원문 초기화
     useEffect(() => {
         taskId && axios.get(`/api/tasks/${taskId}`)
         .then(function(res) {
@@ -33,7 +30,6 @@ export default function IoReference({ taskId, idx }) {
         })
         .then(function(data) {
             setDefinition(data);
-            context.actions.contextDispatch({ type: SET_TASKNAME, data: data.taskTitle });
         })
     }, [taskId]);
 
@@ -58,7 +54,7 @@ export default function IoReference({ taskId, idx }) {
                         <TableBody>
                             {makeDefinition}
                             <TableRow>
-                                <TableHead>{`입력${idx}`}</TableHead>
+                                <TableHead>{`입력 ${idx}`}</TableHead>
                                 <TableCell>
                                     <span style={{color: `var(--g-dark-txt-color)`}}>{io.input1}</span>
                                     <br/>
@@ -66,7 +62,7 @@ export default function IoReference({ taskId, idx }) {
                                 </TableCell>
                             </TableRow>
                             <TableRow>
-                                <TableHead>{`출력${idx}`}</TableHead>
+                                <TableHead>{`출력 ${idx}`}</TableHead>
                                 <TableCell>
                                     <span style={{color: `var(--g-dark-txt-color)`}}>{io.output1}</span>
                                     <br/>

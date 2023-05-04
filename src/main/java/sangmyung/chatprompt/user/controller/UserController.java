@@ -3,6 +3,8 @@ package sangmyung.chatprompt.user.controller;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
+import sangmyung.chatprompt.Util.exception.BusinessException;
+import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
 import sangmyung.chatprompt.Util.response.dto.CommonResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
@@ -43,6 +45,8 @@ public class UserController {
                 .lastModifiedTaskNum(user.getLastTaskNum())
                 .taskStartIdx(user.getTaskStartIdx())
                 .taskEndIdx(user.getTaskEndIdx())
+                .ioStartIdx(user.getIoStartIdx())
+                .ioEndIdx(user.getIoEndIdx())
                 .build();
 
         // session에 User의 정보(PK)를 담아서 전달 -> 사용자 파악에 사용
@@ -57,5 +61,25 @@ public class UserController {
         userService.logoutUser(request);
 
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
+    @GetMapping("/user")
+    public SingleResponse<UserResponse> getUserInfo(HttpServletRequest request){
+        // Session에서 User의 정보를 얻음
+        Long userId = userService.getUserIdFromSession(request);
+        if (userId == null){
+            throw new BusinessException(ErrorCode.NO_AUTHORITY);
+        }
+
+        User user = userService.findUserById(userId);
+        UserResponse userResponse = UserResponse.builder()
+                .lastModifiedTaskNum(user.getLastTaskNum())
+                .taskStartIdx(user.getTaskStartIdx())
+                .taskEndIdx(user.getTaskEndIdx())
+                .ioStartIdx(user.getIoStartIdx())
+                .ioEndIdx(user.getIoEndIdx())
+                .build();
+
+        return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), userResponse);
     }
 }
