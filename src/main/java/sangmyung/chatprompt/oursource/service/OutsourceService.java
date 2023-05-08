@@ -527,36 +527,38 @@ public class OutsourceService {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
         User user = checkAssignedUser(taskPK);
 
+        matchAscii();
+
         for (IOPairs pair : pairs) {
-            String[] splits = pair.getInput1().split(", ");
+            // input을 한글로 만들고, 두 단어로 나누기
+            String inputKor = type1_convertToKor(pair.getInput1());
+            String[] splits = inputKor.split(", ");
             String input1 = splits[0];
             String input2 = splits[1];
-            String lowerLcs = "";
 
             // find LCS
             String lcs = findLCS(input1, input2);
+            String sortedLcs = "";
 
-            // LCS를 소문자로 변환하고, 알파벳 순으로 정렬
-            lowerLcs = lcs.toLowerCase();
+            // LCS를 한글 순으로 정렬
             List<String> lists = new ArrayList<>();
-            for(int i = 0; i < lowerLcs.length(); ++i){
-                lists.add(String.valueOf(lowerLcs.charAt(i)));
+            for(int i = 0; i < lcs.length(); ++i){
+                lists.add(String.valueOf(lcs.charAt(i)));
             }
             lists = lists.stream().sorted().toList();
 
-            lowerLcs = "";
-            for (String list : lists) {
-                lowerLcs += list;
+            for (String str : lists) {
+                sortedLcs += str;
             }
 
             // 기존 input에서 LCS를 찾고
-            input1 = input1.replace(lcs, lowerLcs);
-            input2 = input2.replace(lcs, lowerLcs);
+            input1 = input1.replace(lcs, sortedLcs);
+            input2 = input2.replace(lcs, sortedLcs);
             String output = input1 + ", " + input2;
 
             // 새로운 Assignment 등록
             Assignment assignment = Assignment.builder()
-                    .input(pair.getInput1())
+                    .input(inputKor)
                     .output(output)
                     .taskId(taskPK)
                     .ioPairsIdx(pair.getIdx())
