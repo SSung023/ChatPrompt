@@ -383,6 +383,79 @@ public class OutsourceService {
             assignment.updateOutput(output, user);
         }
     }
+
+    @Transactional
+    public void extract_D46(Pageable pageable){
+        Long taskPK = 62L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String engInput = pair.getInput1();
+            String output = pair.getOutput1();
+
+            String[] split = engInput.split("'");
+            String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합의 원소 개수는 몇 개입니까?";
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_D47(Pageable pageable){
+        Long taskPK = 63L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String engInput = pair.getInput1();
+            String output = pair.getOutput1();
+
+            String[] split = engInput.split("'");
+            String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 합집합의 원소 개수는 몇 개입니까?";
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_D48(Pageable pageable){
+        Long taskPK = 64L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String engInput = pair.getInput1();
+            String output = pair.getOutput2();
+
+            String[] split = engInput.split("'");
+            String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합에 원소 ‘" + split[5] + "’가 있나요? ";
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
     @Transactional
     public void extract_E9(){
         Long taskPK = 77L;
@@ -439,6 +512,27 @@ public class OutsourceService {
             }
             output = output.substring(0, output.length()-1);
             assignment.updateOutput(output, user);
+        }
+    }
+
+    @Transactional
+    public void extract_E23(Pageable pageable){
+        Long taskPK = 91L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            String output = pair.getOutput1();
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
         }
     }
 
@@ -574,13 +668,16 @@ public class OutsourceService {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
         User user = checkAssignedUser(taskPK);
 
+        matchAscii();
+
         for (IOPairs pair : pairs) {
-            String[] strs = pair.getInput1().split(", ");
-            String in1 = strs[0];
-            String in2 = strs[1];
+            String[] str = pair.getInput1().split(", ");
+            String input = matchToKor(pair.getInput1());
+            String in1 = matchToKor(str[0]);
+            String in2 = matchToKor(str[1]);
             String output = "";
 
-            String in = (in1.length() > in2.length() ? in1 : in2).toLowerCase();
+            String in = in1.length() > in2.length() ? in1 : in2;
             Set<String> sets = new HashSet<>();
 
             for(int i = 0; i < in.length(); ++i){
@@ -594,7 +691,7 @@ public class OutsourceService {
             output += sorted.get(sorted.size() - 1);
 
             Assignment assignment = Assignment.builder()
-                    .input(pair.getInput1())
+                    .input(input)
                     .output(output)
                     .taskId(taskPK)
                     .ioPairsIdx(pair.getIdx())
