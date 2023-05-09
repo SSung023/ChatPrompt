@@ -98,3 +98,19 @@
     cursor: pointer;
     color: var(--main-color);
 }
+
+.modifyBtn {
+    width: 80%;
+    max-width: 70em;
+    min-width: 30em;
+    text-align: right;
+
+    margin: 0.5em 0;
+
+    color: var(--main-color);
+    margin-right: 8px;
+}
+
+.modifyBtn:hover {
+    cursor: pointer;
+}

@@ -21,6 +21,18 @@ export default function InputNumber({ context, setContext, maxNum, minNum }) {
             }
         }
 
+        if(e.key === "Tab"){
+            if(value >= minNum && value <= maxNum) {
+                setContext(value);
+            }
+            else {
+                alert('입력 범위를 확인해 주세요.');
+                e.preventDefault();
+                // context로 초기화하기
+                setNum(context);
+            }
+        }
+
         else if(e.key === "ArrowUp"){
             if(value >= maxNum) {
                 e.preventDefault();
