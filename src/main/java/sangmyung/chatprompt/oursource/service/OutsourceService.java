@@ -547,16 +547,32 @@ public class OutsourceService {
             String input = pair.getInput1();
             String target = input.split("'")[1];
 
-            // 검사 대상 문자열에서 모음의 등장 횟수를 확인
             int cnt = 0;
-            for(int i = 0; i < target.length(); ++i){
-                if (target.charAt(i) == 'a' || target.charAt(i) == 'e' || target.charAt(i) == 'i'
-                        || target.charAt(i) == 'o' || target.charAt(i) == 'u'){
-                    cnt++;
+            String inputKor = "문장: '" + target;
+
+            // 검사 대상 문자열에서 모음의 등장 횟수 확인
+            if (input.contains("vowels")){
+                for(int i = 0; i < target.length(); ++i){
+                    if (target.charAt(i) == 'a' || target.charAt(i) == 'e' || target.charAt(i) == 'i'
+                            || target.charAt(i) == 'o' || target.charAt(i) == 'u'){
+                        cnt++;
+                    }
                 }
+                inputKor += "'. 주어진 문장에서 모음의 수를 세십시오.";
             }
 
-            String inputKor = "문장: '" + target + "'. 주어진 문장에서 모음의 수를 세십시오.";
+            // 검사 대상 문자열에서 자음의 등장 횟수 확인
+            if (input.contains("consonants")){
+                for(int i = 0; i < target.length(); ++i){
+                    if (target.charAt(i) == 'a' || target.charAt(i) == 'e' || target.charAt(i) == 'i'
+                            || target.charAt(i) == 'o' || target.charAt(i) == 'u' || target.charAt(i) == ' '){
+                        continue;
+                    }
+                    cnt++;
+                }
+                inputKor += "'. 주어진 문장에서 자음의 수를 세십시오.";
+            }
+
             Assignment assignment = Assignment.builder()
                     .input(inputKor)
                     .output(String.valueOf(cnt))
