@@ -4,7 +4,6 @@ import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Ta
 import { SET_SUB_IDX, userContext } from '../../context/UserContext';
 import { useNavigate } from 'react-router-dom';
 import Divider from '../ui/divider/Divider';
-import InfoBox from '../ui/information/InfoBox';
 
 export default function InspectSection({ duplicates, originSection, sectionNum, originInst }) {
     const context = useContext(userContext);

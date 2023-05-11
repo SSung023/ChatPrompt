@@ -580,6 +580,86 @@ class OutsourceServiceTest {
         Assertions.assertThat(output).isEqualTo("0");
     }
 
+    @Test
+    @DisplayName("D46번 테스트")
+    public void D46Test(){
+        //given
+        Long taskPK = 62L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "idx"));
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+
+        //when
+        IOPairs ioPairs = pairs.get(0);
+        String engInput = ioPairs.getInput1();
+        String output = ioPairs.getOutput1();
+
+        String[] split = engInput.split("'");
+        String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합의 원소 개수는 몇 개입니까?";
+
+        //then
+        log.info(input);
+    }
+
+    @Test
+    @DisplayName("D48번 테스트")
+    public void D48Test(){
+        //given
+        Long taskPK = 64L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "idx"));
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+
+        //when
+        IOPairs pair = pairs.get(0);
+        String engInput = pair.getInput1();
+        String output = pair.getOutput1();
+
+        String[] split = engInput.split("'");
+        String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합에 원소 ‘" + split[5] + "’가 있나요? ";
+
+        //then
+        log.info(input);
+    }
+
+    @Test
+    @DisplayName("E27번 테스트")
+    public void E27Test(){
+        //given
+        Long taskPK = 95L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "idx"));
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+
+        Map<String, String> asciiMap = matchAscii();
+
+        //when
+        String input = pairs.get(0).getInput1();
+        String[] str = input.split(", ");
+        String in1 = matchToKor(str[0]);
+        String in2 = matchToKor(str[1]);
+        String output = "";
+
+        String in = in1.length() > in2.length() ? in1 : in2;
+        Set<String> sets = new HashSet<>();
+
+        for(int i = 0; i < in.length(); ++i){
+            sets.add(String.valueOf(in.charAt(i)));
+        }
+
+        List<String> sorted = sets.stream().sorted().toList();
+        for (int i = 0; i < sorted.size() - 1; ++i){
+            output += sorted.get(i) + ", ";
+        }
+        output += sorted.get(sorted.size() - 1);
+
+        //then
+        log.info(output);
+    }
+
+
+
+
+
+
+
 
 
 
@@ -599,6 +679,7 @@ class OutsourceServiceTest {
         }
         return result;
     }
+
 
     private String longestPalindrome(String s) {
         if (s == null || s.length() < 1) return "";
