@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import sangmyung.chatprompt.Util.exception.BusinessException;
 import sangmyung.chatprompt.Util.exception.ErrorCode;
 import sangmyung.chatprompt.Util.exception.SuccessCode;
+import sangmyung.chatprompt.Util.response.dto.CommonResponse;
 import sangmyung.chatprompt.Util.response.dto.ListResponse;
 import sangmyung.chatprompt.Util.response.dto.SingleResponse;
 import sangmyung.chatprompt.task.dto.ValidationIOResponse;
@@ -82,6 +83,13 @@ public class IOPairsController {
 
         ValidationResponse curValidatedIOCnt = ioPairService.getCurValidatedIOCnt(user.getId(), taskId);
         return new SingleResponse<>(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage(), curValidatedIOCnt);
+    }
+
+    @PatchMapping("/verifications/tasks")
+    public CommonResponse resetVerifyStatus(){
+        ioPairService.resetIOPairVerifyStatus();
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
 
 
