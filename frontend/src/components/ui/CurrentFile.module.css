@@ -27,7 +27,6 @@
     background-color: var(--white-color);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
     border-color: var(--line-color);
-    /* color: var(--lowb-main-color); */
 }
 
 .p {

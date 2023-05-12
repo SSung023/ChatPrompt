@@ -46,4 +46,9 @@ public interface AssignmentRepository extends JpaRepository<Assignment, Long> {
     //
     @Query("select a from Assignment a where a.user.id = 1L and a.taskId = :taskId and a.taskSubIdx = null and a.similarInstruct1 != null")
     Optional<Assignment> extractOfficialInstruct(@Param("taskId") Long taskId);
+
+
+    @Query("select a from Assignment a where a.user.id = 3L or a.user.id = 4L or a.user.id = 5L or a.user.id = 6L" +
+            "and a.input is not null")
+    List<Assignment> findAllAssignment();
 }

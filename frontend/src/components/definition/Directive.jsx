@@ -11,7 +11,7 @@ export default function Directive({ defData, originalDefData }) {
                     <TableRow>
                         <TableHead>지시문</TableHead>
                         <TableCell>
-                            <span style={{color: `var(--g-dark-txt-color)`}}>{`${originalDefData.definition1}`}</span>
+                            <span style={{color: `var(--g-txt-color)`}}>{`${originalDefData.definition1}`}</span>
                             <br/>
                             <br/>
                             <span>{`${originalDefData.definition2}`}</span>

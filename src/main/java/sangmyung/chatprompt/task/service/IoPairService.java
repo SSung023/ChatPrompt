@@ -117,6 +117,17 @@ public class IoPairService {
     }
 
 
+    /**
+     * Assignment의 is_validated를 모두 0으로 바꾸는
+     */
+    @Transactional
+    public void resetIOPairVerifyStatus(){
+        List<Assignment> assignmentList = assignmentRepository.findAllAssignment();
+        for (Assignment assignment : assignmentList) {
+            assignment.updateValidation(0);
+        }
+    }
+
 
 
 

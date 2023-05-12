@@ -13,7 +13,7 @@ export default function IoReference({ taskId, idx }) {
             <TableRow>
                 <TableHead>지시문</TableHead>
                 <TableCell>
-                    <span style={{color: `var(--g-dark-txt-color)`}}>{`${definition.definition1}`}</span>
+                    <span style={{color: `var(--g-txt-color)`}}>{`${definition.definition1}`}</span>
                     <br/>
                     <br/>
                     <span>{`${definition.definition2}`}</span>
@@ -56,7 +56,7 @@ export default function IoReference({ taskId, idx }) {
                             <TableRow>
                                 <TableHead>{`입력 ${idx}`}</TableHead>
                                 <TableCell>
-                                    <span style={{color: `var(--g-dark-txt-color)`}}>{io.input1}</span>
+                                    <span style={{color: `var(--g-txt-color)`}}>{io.input1}</span>
                                     <br/>
                                     <span>{io.input2}</span>
                                 </TableCell>
@@ -64,7 +64,7 @@ export default function IoReference({ taskId, idx }) {
                             <TableRow>
                                 <TableHead>{`출력 ${idx}`}</TableHead>
                                 <TableCell>
-                                    <span style={{color: `var(--g-dark-txt-color)`}}>{io.output1}</span>
+                                    <span style={{color: `var(--g-txt-color)`}}>{io.output1}</span>
                                     <br/>
                                     <span>{io.output2}</span>
                                 </TableCell>
