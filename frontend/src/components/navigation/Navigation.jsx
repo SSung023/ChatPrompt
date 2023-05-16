@@ -50,26 +50,33 @@ export default function Navigation() {
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                     >
                     <TbFilePlus />
-                    {isOpen ? <p>지시문 작성</p> : ''}
+                    {isOpen ? <p>지시문 구축</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
-                <NavLink 
-                    to={`/input`} 
-                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
-                >
-                    <TbFilePencil />
-                    {isOpen ? <p>입출력 편집</p> : ''}
-                    <p className={styles.bar}></p>
-                </NavLink>
-
-                {/* <div className={styles.divider}/> */}
-
                 <NavLink 
                     to={`/inquire/instruction`} 
                     className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
                 >
                     <TbFileSearch />
                     {isOpen ? <p>지시문 전체 조회</p> : ''}
+                    <p className={styles.bar}></p>
+                </NavLink>
+                <NavLink 
+                    to={`/duplicated/instruction`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                >
+                    <TbTextSpellcheck />
+                    {isOpen ? <p>지시문 중복 검사</p> : ''}
+                    <p className={styles.bar}></p>
+                </NavLink>
+
+
+                <NavLink 
+                    to={`/input`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                >
+                    <TbFilePencil />
+                    {isOpen ? <p>입출력 구축</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
                 <NavLink 
@@ -87,14 +94,6 @@ export default function Navigation() {
                 >
                     <TbZoomQuestion />
                     {isOpen ? <p>검증하기</p> : ''}
-                    <p className={styles.bar}></p>
-                </NavLink>
-                <NavLink 
-                    to={`/duplicated/instruction`} 
-                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
-                >
-                    <TbTextSpellcheck />
-                    {isOpen ? <p>지시문 중복 검사</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
             </div>
