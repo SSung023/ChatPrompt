@@ -40,12 +40,23 @@ public class InspectService {
         List<Assignment> instructList = assignmentRepository.getAssignmentList(userId, taskId);
 
         // 특정 Task에서 교수님이 작성한 지시문
-        if (subIndex == 11L || subIndex == 12L){
-            Assignment assignment = assignmentRepository.extractOfficialInstruct(taskId)
-                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
-            originInstruct = subIndex == 11L ? assignment.getSimilarInstruct1() : assignment.getSimilarInstruct2();
-        }
+        Assignment official = assignmentRepository.extractOfficialInstruct(taskId)
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
+        // official 지시문 내용 추가
+        instructList.add(Assignment.builder()
+                .similarInstruct1(official.getSimilarInstruct1())
+                .taskSubIdx(11L)
+                .build());
+        instructList.add(Assignment.builder()
+                .similarInstruct1(official.getSimilarInstruct2())
+                .taskSubIdx(12L)
+                .build());
+
+        // official 지시문에 대해 요청이 들어온 경우
+        if (subIndex == 11L || subIndex == 12L){
+            originInstruct = subIndex == 11L ? official.getSimilarInstruct1() : official.getSimilarInstruct2();
+        }
         // 특정 Task에서 특정 사용자가 작성했던 유사지시문들을 받음
         else {
             originInstruct = instructList.get(subIndex - 1).getSimilarInstruct1();
@@ -90,6 +101,9 @@ public class InspectService {
             }
             singleDuplicates.add(result);
         }
+
+
+
         return singleDuplicates;
     }
 
