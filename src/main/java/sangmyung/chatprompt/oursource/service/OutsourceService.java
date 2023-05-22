@@ -1,5 +1,6 @@
 package sangmyung.chatprompt.oursource.service;
 
+import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.PageRequest;
@@ -35,6 +36,38 @@ public class OutsourceService {
     private List<Integer> type0List = new ArrayList<>();
     private List<Integer> type1List = new ArrayList<>();
 
+
+    /**
+     * 등록된 입출력 간에 중복된 입출력이 있는지 여부 확인
+     */
+    public void checkDuplicate(){
+        List<Assignment> assignmentList = assignmentRepository.findAllAssignment();
+        Set<ioPairSet> assignSet = new HashSet<>();
+
+        for (Assignment assignment : assignmentList) {
+            String input = assignment.getInput();
+            String output = assignment.getOutput();
+
+            ioPairSet pairSet = new ioPairSet(input, output);
+
+            if (assignSet.contains(pairSet)){
+                log.info("input/output 중복 발생\ntaskId: " + assignment.getTaskId() +
+                        "ioPairIdx: " + assignment.getIoPairsIdx());
+            }
+
+            // input, output이 포함되어있지 않으면 추가
+            assignSet.add(pairSet);
+        }
+    }
+    class ioPairSet{
+        String input;
+        String output;
+
+        public ioPairSet(String input, String output) {
+            this.input = input;
+            this.output = output;
+        }
+    }
 
     /**
      * 0번 타입 입출력을 처리하는 함수

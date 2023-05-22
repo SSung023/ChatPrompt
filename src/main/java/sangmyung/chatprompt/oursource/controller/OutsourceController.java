@@ -92,4 +92,12 @@ public class OutsourceController {
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
 
+
+    @GetMapping("/outsource/check-duplicate")
+    public CommonResponse checkIsDuplicateExist(){
+        outsourceService.checkDuplicate();
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
 }

@@ -36,7 +36,7 @@ export default function InstHeader() {
                     <InputNumber 
                         context={subIdx}
                         setContext={handleSubIdx}
-                        maxNum={10}
+                        maxNum={12}
                         minNum={1}
                     />
                 </form>

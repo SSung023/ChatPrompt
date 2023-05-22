@@ -10,6 +10,6 @@
     margin-right: 8px;
 }
 
-.modifyBtn:hover {
+.modifyBtn > span:hover {
     cursor: pointer;
 }

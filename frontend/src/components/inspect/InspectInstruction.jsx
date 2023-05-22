@@ -130,13 +130,17 @@ export default function InspectInstruction() {
 
             {/* hot key */}
             <p 
-                className={styles.modifyBtn}
-                onClick={() => {
-                    context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskId });
-                    context.actions.contextDispatch({ type: SET_SUB_IDX, data: subNum });
-                    navigate('../');
-                }}    
-            >{`지시문 수정하러 가기 >`}</p>
+                className={styles.modifyBtn}    
+            >
+                <span
+                    onClick={() => {
+                        context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskId });
+                        context.actions.contextDispatch({ type: SET_SUB_IDX, data: subNum });
+                        navigate('../');
+                    }}
+                >{`지시문 수정하러 가기 >`}
+                </span>
+            </p>
         </div>
     );
 }
