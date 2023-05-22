@@ -36,11 +36,22 @@ public class InspectService {
         Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
-        // 특정 Task에서 특정 사용자가 작성했던 유사지시문들을 받음
+        String originInstruct;
         List<Assignment> instructList = assignmentRepository.getAssignmentList(userId, taskId);
 
+        // 특정 Task에서 교수님이 작성한 지시문
+        if (subIndex == 11L || subIndex == 12L){
+            Assignment assignment = assignmentRepository.extractOfficialInstruct(taskId)
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            originInstruct = subIndex == 11L ? assignment.getSimilarInstruct1() : assignment.getSimilarInstruct2();
+        }
+
+        // 특정 Task에서 특정 사용자가 작성했던 유사지시문들을 받음
+        else {
+            originInstruct = instructList.get(subIndex - 1).getSimilarInstruct1();
+        }
+
         // 비교 대상(original)인 유사 지시문 추출 & 세 단락으로 나누기
-        String originInstruct = instructList.get(subIndex - 1).getSimilarInstruct1();
         List<String> partList = separatePart(originInstruct);
         List<String> sectionList = separateSection(partList);
 
