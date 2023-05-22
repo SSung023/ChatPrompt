@@ -52,10 +52,13 @@ export default function IoPairs() {
 
             <p 
                 className={styles.modifyBtn}
-                onClick={() => {
-                    navigate('../input');
-                }}
-            >{`입출력 수정하러 가기 >`}</p>
+            >
+                <span
+                    onClick={() => {
+                        navigate('../input');
+                    }}
+                >{`입출력 수정하러 가기 >`}</span>
+            </p>
         </div>
     );
 }

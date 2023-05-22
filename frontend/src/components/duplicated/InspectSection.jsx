@@ -70,7 +70,9 @@ function DuplicatedInst({ partIdx, partList, targetSubIdx, sectionNum }){
                 <p 
                     className={styles.modifyBtn}
                     onClick={() => {
-                        context.actions.contextDispatch({ type: SET_SUB_IDX, data: targetSubIdx });
+                        if(targetSubIdx < 10) {
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: targetSubIdx });
+                        }
                         navigate('../');
                     }}    
                 >{`수정하러 가기 >`}</p>
