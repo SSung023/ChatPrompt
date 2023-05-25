@@ -1,6 +1,7 @@
 package sangmyung.chatprompt.oursource.service;
 
 
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -654,15 +655,69 @@ class OutsourceServiceTest {
         log.info(output);
     }
 
+    @Test
+    @DisplayName("입출력 중복 테스트")
+    public void duplicateTest(){
+        //given
+        Assignment assignment1 = getAssignment("input1", "output1");
+        Assignment assignment2 = getAssignment("input1", "output1");
+
+        List<Assignment> assignmentList = new ArrayList<>();
+        assignmentList.add(assignment1);
+        assignmentList.add(assignment2);
+
+        //when
+        Set<ioPairSet> assignSet = new HashSet<>();
+        for (Assignment assignment : assignmentList) {
+            String input = assignment.getInput();
+            String output = assignment.getOutput();
+
+            ioPairSet pairSet = new ioPairSet(input, output);
+
+            if (assignSet.contains(pairSet)){
+                log.info("input/output 중복 발생\ntaskId: " + assignment.getTaskId() +
+                        "ioPairIdx: " + assignment.getIoPairsIdx());
+            }
+
+            // input, output이 포함되어있지 않으면 추가
+            assignSet.add(pairSet);
+        }
+
+        //then
+
+    }
+
+    @Getter
+    class ioPairSet{
+        String input;
+        String output;
+
+        public ioPairSet(String input, String output) {
+            this.input = input;
+            this.output = output;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            ioPairSet target = (ioPairSet) obj;
+            return this.input.equals(target.getInput()) && this.output.equals(target.getOutput());
+        }
+
+        @Override
+        public int hashCode() {
+            return this.input.hashCode() + this.output.hashCode();
+        }
+    }
 
 
 
 
-
-
-
-
-
+    private Assignment getAssignment(String input, String output) {
+        return Assignment.builder()
+                .input(input)
+                .output(output)
+                .build();
+    }
 
     private String matchToKor(String originInput){
         Map<String, String> asciiMap = matchAscii();

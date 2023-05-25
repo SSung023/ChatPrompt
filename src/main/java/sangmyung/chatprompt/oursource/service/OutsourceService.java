@@ -1,6 +1,6 @@
 package sangmyung.chatprompt.oursource.service;
 
-import lombok.Builder;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.PageRequest;
@@ -19,7 +19,6 @@ import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 @Service
 @RequiredArgsConstructor
@@ -43,29 +42,103 @@ public class OutsourceService {
     public void checkDuplicate(){
         List<Assignment> assignmentList = assignmentRepository.findAllAssignment();
         Set<ioPairSet> assignSet = new HashSet<>();
+        Map<ioPairSet, TaskInfo> assignMap = new HashMap<>();
+        int cnt = 0;
 
         for (Assignment assignment : assignmentList) {
             String input = assignment.getInput();
             String output = assignment.getOutput();
+            Long assignedTaskId = taskRepository.findTaskAssignedId(assignment.getTaskId())
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            int ioPairsIdx = assignment.getIoPairsIdx();
 
-            ioPairSet pairSet = new ioPairSet(input, output);
 
-            if (assignSet.contains(pairSet)){
-                log.info("input/output 중복 발생\ntaskId: " + assignment.getTaskId() +
-                        "ioPairIdx: " + assignment.getIoPairsIdx());
+            ioPairSet pairSet = new ioPairSet(input, output, assignedTaskId, ioPairsIdx);
+            TaskInfo taskInfo = new TaskInfo(assignedTaskId, ioPairsIdx);
+
+            if (assignMap.containsKey(pairSet)){
+                TaskInfo info = assignMap.get(pairSet);
+                log.info("input/output 중복 발생"
+                        + "\ntaskId: " + info.getAssignedTaskId() + " ioPairIdx: " + info.getIoPairsIdx()
+                        + "\ntaskId: " + assignedTaskId + " ioPairIdx: " + ioPairsIdx
+                        + "\t총 중복 개수: " + ++cnt);
             }
-
-            // input, output이 포함되어있지 않으면 추가
-            assignSet.add(pairSet);
+            else {
+                assignMap.put(pairSet, taskInfo);
+            }
+//            if (assignSet.contains(pairSet)){
+//                log.info("input/output 중복 발생"
+//                        + "\ntaskId: " + assignedTaskId + " ioPairIdx: " + ioPairsIdx
+//                        + "\t총 중복 개수: " + ++cnt);
+//            }
+//            else {
+//                // input, output이 포함되어있지 않으면 추가
+//                assignSet.add(pairSet);
+//            }
         }
     }
+
+    /**
+     * input만 중복 확인
+     */
+    public void checkDuplicateOnlyInput(){
+        List<Assignment> assignmentList = assignmentRepository.findAllAssignment();
+        Set<ioPairSet> assignSet = new HashSet<>();
+        int cnt = 0;
+
+        for (Assignment assignment : assignmentList) {
+            String input = assignment.getInput();
+            Long assignedTaskId = taskRepository.findTaskAssignedId(assignment.getTaskId())
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            int ioPairsIdx = assignment.getIoPairsIdx();
+
+
+            ioPairSet pairSet = new ioPairSet(input, "", assignedTaskId, ioPairsIdx);
+
+            if (assignSet.contains(pairSet)){
+                log.info("input 중복 발생"
+                        + "\ntaskId: " + assignedTaskId + " ioPairIdx: " + ioPairsIdx
+                        + "\t총 중복 개수: " + ++cnt);
+            }
+            else {
+                // input, output이 포함되어있지 않으면 추가
+                assignSet.add(pairSet);
+            }
+        }
+    }
+    @Getter
     class ioPairSet{
         String input;
         String output;
+        Long assignedTaskId;
+        int ioPairsIdx;
 
-        public ioPairSet(String input, String output) {
+        public ioPairSet(String input, String output, Long assignedTaskId, int ioPairsIdx) {
             this.input = input;
             this.output = output;
+            this.assignedTaskId = assignedTaskId;
+            this.ioPairsIdx = ioPairsIdx;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            ioPairSet target = (ioPairSet) obj;
+            return this.input.equals(target.getInput()) && this.output.equals(target.getOutput());
+        }
+
+        @Override
+        public int hashCode() {
+            return this.input.hashCode() + this.output.hashCode();
+        }
+    }
+    @Getter
+    class TaskInfo {
+        Long assignedTaskId;
+        int ioPairsIdx;
+
+        public TaskInfo(Long assignedTaskId, int ioPairsIdx) {
+            this.assignedTaskId = assignedTaskId;
+            this.ioPairsIdx = ioPairsIdx;
         }
     }
 

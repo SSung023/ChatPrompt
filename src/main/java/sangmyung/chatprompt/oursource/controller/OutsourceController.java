@@ -100,4 +100,11 @@ public class OutsourceController {
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
 
+    @GetMapping("/outsource/check-duplicate/input")
+    public CommonResponse checkIsDuplicateInputOnly(){
+        outsourceService.checkDuplicateOnlyInput();
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
 }
