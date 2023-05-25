@@ -1,6 +1,7 @@
 package sangmyung.chatprompt.oursource.service;
 
 
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -563,10 +564,176 @@ class OutsourceServiceTest {
         Assertions.assertThat(output).isEqualTo("aaaaaa");
     }
 
+    @Test
+    @DisplayName("영어를 한글에 매핑하기 테스트")
+    public void matchEngToKorTest(){
+        //given
+        String input = "EPeRMnwIvIqrUlYClyMVbjWc, u";
+        String output = "0";
+
+        //when
+        String converted = matchToKor(input);
+        String convertedOut = matchToKor(output);
+
+        //then
+        log.info(converted);
+        Assertions.assertThat(converted).isEqualTo("나루우머라카포다퍼다타터버초서고초허라보아차부어, 파");
+        Assertions.assertThat(output).isEqualTo("0");
+    }
+
+    @Test
+    @DisplayName("D46번 테스트")
+    public void D46Test(){
+        //given
+        Long taskPK = 62L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "idx"));
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+
+        //when
+        IOPairs ioPairs = pairs.get(0);
+        String engInput = ioPairs.getInput1();
+        String output = ioPairs.getOutput1();
+
+        String[] split = engInput.split("'");
+        String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합의 원소 개수는 몇 개입니까?";
+
+        //then
+        log.info(input);
+    }
+
+    @Test
+    @DisplayName("D48번 테스트")
+    public void D48Test(){
+        //given
+        Long taskPK = 64L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "idx"));
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+
+        //when
+        IOPairs pair = pairs.get(0);
+        String engInput = pair.getInput1();
+        String output = pair.getOutput1();
+
+        String[] split = engInput.split("'");
+        String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합에 원소 ‘" + split[5] + "’가 있나요? ";
+
+        //then
+        log.info(input);
+    }
+
+    @Test
+    @DisplayName("E27번 테스트")
+    public void E27Test(){
+        //given
+        Long taskPK = 95L;
+        PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "idx"));
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+
+        Map<String, String> asciiMap = matchAscii();
+
+        //when
+        String input = pairs.get(0).getInput1();
+        String[] str = input.split(", ");
+        String in1 = matchToKor(str[0]);
+        String in2 = matchToKor(str[1]);
+        String output = "";
+
+        String in = in1.length() > in2.length() ? in1 : in2;
+        Set<String> sets = new HashSet<>();
+
+        for(int i = 0; i < in.length(); ++i){
+            sets.add(String.valueOf(in.charAt(i)));
+        }
+
+        List<String> sorted = sets.stream().sorted().toList();
+        for (int i = 0; i < sorted.size() - 1; ++i){
+            output += sorted.get(i) + ", ";
+        }
+        output += sorted.get(sorted.size() - 1);
+
+        //then
+        log.info(output);
+    }
+
+    @Test
+    @DisplayName("입출력 중복 테스트")
+    public void duplicateTest(){
+        //given
+        Assignment assignment1 = getAssignment("input1", "output1");
+        Assignment assignment2 = getAssignment("input1", "output1");
+
+        List<Assignment> assignmentList = new ArrayList<>();
+        assignmentList.add(assignment1);
+        assignmentList.add(assignment2);
+
+        //when
+        Set<ioPairSet> assignSet = new HashSet<>();
+        for (Assignment assignment : assignmentList) {
+            String input = assignment.getInput();
+            String output = assignment.getOutput();
+
+            ioPairSet pairSet = new ioPairSet(input, output);
+
+            if (assignSet.contains(pairSet)){
+                log.info("input/output 중복 발생\ntaskId: " + assignment.getTaskId() +
+                        "ioPairIdx: " + assignment.getIoPairsIdx());
+            }
+
+            // input, output이 포함되어있지 않으면 추가
+            assignSet.add(pairSet);
+        }
+
+        //then
+
+    }
+
+    @Getter
+    class ioPairSet{
+        String input;
+        String output;
+
+        public ioPairSet(String input, String output) {
+            this.input = input;
+            this.output = output;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            ioPairSet target = (ioPairSet) obj;
+            return this.input.equals(target.getInput()) && this.output.equals(target.getOutput());
+        }
+
+        @Override
+        public int hashCode() {
+            return this.input.hashCode() + this.output.hashCode();
+        }
+    }
 
 
 
 
+    private Assignment getAssignment(String input, String output) {
+        return Assignment.builder()
+                .input(input)
+                .output(output)
+                .build();
+    }
+
+    private String matchToKor(String originInput){
+        Map<String, String> asciiMap = matchAscii();
+
+        String result = "";
+        for (int i = 0; i < originInput.length(); ++i){
+            if (asciiMap.containsKey(String.valueOf(originInput.charAt(i)))){
+                String matchedAscii = asciiMap.get(String.valueOf(originInput.charAt(i)));
+                result += matchedAscii;
+            }
+            else
+                result += originInput.charAt(i);
+
+        }
+        return result;
+    }
 
 
     private String longestPalindrome(String s) {

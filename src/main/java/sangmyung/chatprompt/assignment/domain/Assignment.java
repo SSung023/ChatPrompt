@@ -47,13 +47,14 @@ public class Assignment {
 
     @Builder
     public Assignment(Long taskId, Integer ioPairsIdx, String similarInstruct1, String similarInstruct2,
-                      String input, String output) {
+                      String input, String output, Long taskSubIdx) {
         this.taskId = taskId;
         this.ioPairsIdx = ioPairsIdx;
         this.similarInstruct1 = similarInstruct1;
         this.similarInstruct2 = similarInstruct2;
         this.input = input;
         this.output = output;
+        this.taskSubIdx = taskSubIdx;
     }
 
 

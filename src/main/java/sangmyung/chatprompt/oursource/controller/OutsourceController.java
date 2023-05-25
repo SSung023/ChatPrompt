@@ -44,18 +44,25 @@ public class OutsourceController {
     @GetMapping("/outsource/type2")
     public CommonResponse getType2(@PageableDefault(size = 60, sort = "idx", direction = Sort.Direction.ASC) Pageable pageable){
         outsourceService.extract_C27(pageable);
+//
+//        outsourceService.extract_D20(pageable);
+//
+//        outsourceService.extract_E20(pageable);
+//        outsourceService.extract_E23(pageable);
+//        outsourceService.extract_E26(pageable);
+//        outsourceService.extract_E27(pageable);
+//        outsourceService.extract_E28(pageable);
 
-        outsourceService.extract_D20(pageable);
+//
+//        outsourceService.extract_F102(pageable);
+//        outsourceService.extract_F105(pageable);
+//        outsourceService.extract_F106(pageable);
+//        outsourceService.extract_F110(pageable);
 
-        outsourceService.extract_E20(pageable);
-        outsourceService.extract_E26(pageable);
-        outsourceService.extract_E27(pageable);
-        outsourceService.extract_E28(pageable);
+//        outsourceService.extract_D46(pageable);
+//        outsourceService.extract_D47(pageable);
+//        outsourceService.extract_D48(pageable);
 
-        outsourceService.extract_F102(pageable);
-        outsourceService.extract_F105(pageable);
-        outsourceService.extract_F106(pageable);
-        outsourceService.extract_F110(pageable);
 
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }
@@ -74,6 +81,28 @@ public class OutsourceController {
 
         outsourceService.extract_E9();
         outsourceService.extract_E10();
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
+    @GetMapping("/outsource/type2-convertToKor")
+    public CommonResponse convertEngToKor(){
+        outsourceService.convertEngToKor();
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
+
+    @GetMapping("/outsource/check-duplicate")
+    public CommonResponse checkIsDuplicateExist(){
+        outsourceService.checkDuplicate();
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
+    @GetMapping("/outsource/check-duplicate/input")
+    public CommonResponse checkIsDuplicateInputOnly(){
+        outsourceService.checkDuplicateOnlyInput();
 
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }

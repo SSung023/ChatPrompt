@@ -21,10 +21,19 @@ import javax.xml.bind.JAXBException;
 public class XmlController {
     private final XmlExtractor extractor;
 
-    @GetMapping("/extract")
+    @GetMapping("/extract/instruct")
     public CommonResponse extractInstructions
             (@PageableDefault(size = 10, sort = "taskSubIdx", direction = Sort.Direction.ASC) Pageable pageable) throws JAXBException {
         extractor.extractInstruct(pageable);
+
+        return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
+    }
+
+    @GetMapping("/extract/io")
+    public CommonResponse extractIOPairs
+            (@PageableDefault(size = 60, sort = "ioPairsIdx", direction = Sort.Direction.ASC) Pageable pageable) throws JAXBException {
+
+        extractor.extractIOPair(pageable);
 
         return new CommonResponse(SuccessCode.SUCCESS.getStatus(), SuccessCode.SUCCESS.getMessage());
     }

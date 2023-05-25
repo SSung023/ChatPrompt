@@ -1,12 +1,15 @@
 import React, { useContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './InspectInstruction.module.css';
 import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Table';
-import { SET_IO_IDX, SET_IO_TASKID, SET_TASKNAME, userContext } from '../../context/UserContext';
+import { SET_INST_TASKID, SET_IO_IDX, SET_IO_TASKID, SET_SUB_IDX, SET_TASKNAME, userContext } from '../../context/UserContext';
 import axios from 'axios';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 import InputNumber from '../ui/input/InputNumber';
 
 export default function InspectInstruction() {
+    const navigate = useNavigate();
+
     const context = useContext(userContext);
 
     // const subIdx = context.state.data.sub_idx;
@@ -114,7 +117,6 @@ export default function InspectInstruction() {
                 </div>
             </div>
             
-            
             {/* show similar instruct */}
             <Table>
                 <TableBody>
@@ -125,6 +127,20 @@ export default function InspectInstruction() {
                     </TableRow>
                 </TableBody>
             </Table>
+
+            {/* hot key */}
+            <p 
+                className={styles.modifyBtn}    
+            >
+                <span
+                    onClick={() => {
+                        context.actions.contextDispatch({ type: SET_INST_TASKID, data: taskId });
+                        context.actions.contextDispatch({ type: SET_SUB_IDX, data: subNum });
+                        navigate('../');
+                    }}
+                >{`지시문 수정하러 가기 >`}
+                </span>
+            </p>
         </div>
     );
 }

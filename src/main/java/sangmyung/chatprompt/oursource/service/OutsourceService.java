@@ -1,5 +1,6 @@
 package sangmyung.chatprompt.oursource.service;
 
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.PageRequest;
@@ -18,7 +19,6 @@ import sangmyung.chatprompt.user.domain.User;
 import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 @Service
 @RequiredArgsConstructor
@@ -35,6 +35,112 @@ public class OutsourceService {
     private List<Integer> type0List = new ArrayList<>();
     private List<Integer> type1List = new ArrayList<>();
 
+
+    /**
+     * 등록된 입출력 간에 중복된 입출력이 있는지 여부 확인
+     */
+    public void checkDuplicate(){
+        List<Assignment> assignmentList = assignmentRepository.findAllAssignment();
+        Set<ioPairSet> assignSet = new HashSet<>();
+        Map<ioPairSet, TaskInfo> assignMap = new HashMap<>();
+        int cnt = 0;
+
+        for (Assignment assignment : assignmentList) {
+            String input = assignment.getInput();
+            String output = assignment.getOutput();
+            Long assignedTaskId = taskRepository.findTaskAssignedId(assignment.getTaskId())
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            int ioPairsIdx = assignment.getIoPairsIdx();
+
+
+            ioPairSet pairSet = new ioPairSet(input, output, assignedTaskId, ioPairsIdx);
+            TaskInfo taskInfo = new TaskInfo(assignedTaskId, ioPairsIdx);
+
+            if (assignMap.containsKey(pairSet)){
+                TaskInfo info = assignMap.get(pairSet);
+                log.info("input/output 중복 발생"
+                        + "\ntaskId: " + info.getAssignedTaskId() + " ioPairIdx: " + info.getIoPairsIdx()
+                        + "\ntaskId: " + assignedTaskId + " ioPairIdx: " + ioPairsIdx
+                        + "\t총 중복 개수: " + ++cnt);
+            }
+            else {
+                assignMap.put(pairSet, taskInfo);
+            }
+//            if (assignSet.contains(pairSet)){
+//                log.info("input/output 중복 발생"
+//                        + "\ntaskId: " + assignedTaskId + " ioPairIdx: " + ioPairsIdx
+//                        + "\t총 중복 개수: " + ++cnt);
+//            }
+//            else {
+//                // input, output이 포함되어있지 않으면 추가
+//                assignSet.add(pairSet);
+//            }
+        }
+    }
+
+    /**
+     * input만 중복 확인
+     */
+    public void checkDuplicateOnlyInput(){
+        List<Assignment> assignmentList = assignmentRepository.findAllAssignment();
+        Set<ioPairSet> assignSet = new HashSet<>();
+        int cnt = 0;
+
+        for (Assignment assignment : assignmentList) {
+            String input = assignment.getInput();
+            Long assignedTaskId = taskRepository.findTaskAssignedId(assignment.getTaskId())
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            int ioPairsIdx = assignment.getIoPairsIdx();
+
+
+            ioPairSet pairSet = new ioPairSet(input, "", assignedTaskId, ioPairsIdx);
+
+            if (assignSet.contains(pairSet)){
+                log.info("input 중복 발생"
+                        + "\ntaskId: " + assignedTaskId + " ioPairIdx: " + ioPairsIdx
+                        + "\t총 중복 개수: " + ++cnt);
+            }
+            else {
+                // input, output이 포함되어있지 않으면 추가
+                assignSet.add(pairSet);
+            }
+        }
+    }
+    @Getter
+    class ioPairSet{
+        String input;
+        String output;
+        Long assignedTaskId;
+        int ioPairsIdx;
+
+        public ioPairSet(String input, String output, Long assignedTaskId, int ioPairsIdx) {
+            this.input = input;
+            this.output = output;
+            this.assignedTaskId = assignedTaskId;
+            this.ioPairsIdx = ioPairsIdx;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            ioPairSet target = (ioPairSet) obj;
+            return this.input.equals(target.getInput()) && this.output.equals(target.getOutput());
+        }
+
+        @Override
+        public int hashCode() {
+            return this.input.hashCode() + this.output.hashCode();
+        }
+    }
+    @Getter
+    class TaskInfo {
+        Long assignedTaskId;
+        int ioPairsIdx;
+
+        public TaskInfo(Long assignedTaskId, int ioPairsIdx) {
+            this.assignedTaskId = assignedTaskId;
+            this.ioPairsIdx = ioPairsIdx;
+        }
+    }
 
     /**
      * 0번 타입 입출력을 처리하는 함수
@@ -146,7 +252,7 @@ public class OutsourceService {
         User user = checkAssignedUser(taskPK);
 
         for (IOPairs pair : pairs) {
-            String input = pair.getInput1().replace("target", "대상");
+            String input = pair.getInput1().replace("target", "목표 값");
             String output = pair.getOutput1();
 
             Assignment assignment = Assignment.builder()
@@ -383,6 +489,79 @@ public class OutsourceService {
             assignment.updateOutput(output, user);
         }
     }
+
+    @Transactional
+    public void extract_D46(Pageable pageable){
+        Long taskPK = 62L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String engInput = pair.getInput1();
+            String output = pair.getOutput1();
+
+            String[] split = engInput.split("'");
+            String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합의 원소 개수는 몇 개입니까?";
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_D47(Pageable pageable){
+        Long taskPK = 63L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String engInput = pair.getInput1();
+            String output = pair.getOutput1();
+
+            String[] split = engInput.split("'");
+            String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 합집합의 원소 개수는 몇 개입니까?";
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
+    public void extract_D48(Pageable pageable){
+        Long taskPK = 64L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String engInput = pair.getInput1();
+            String output = pair.getOutput2();
+
+            String[] split = engInput.split("'");
+            String input = "집합1: " + split[1] + ", 집합2: " + split[3] + ". 집합1과 집합2의 교집합에 원소 ‘" + split[5] + "’가 있나요? ";
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
     @Transactional
     public void extract_E9(){
         Long taskPK = 77L;
@@ -443,6 +622,27 @@ public class OutsourceService {
     }
 
     @Transactional
+    public void extract_E23(Pageable pageable){
+        Long taskPK = 91L;
+        List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
+        User user = checkAssignedUser(taskPK);
+
+        for (IOPairs pair : pairs) {
+            String input = pair.getInput1();
+            String output = pair.getOutput1();
+
+            Assignment assignment = Assignment.builder()
+                    .input(input)
+                    .output(output)
+                    .taskId(taskPK)
+                    .ioPairsIdx(pair.getIdx())
+                    .build();
+            Assignment savedAssignment = assignmentRepository.save(assignment);
+            savedAssignment.addUser(user);
+        }
+    }
+
+    @Transactional
     public void extract_C27(Pageable pageable){
         Long taskPK = 51L;
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
@@ -453,16 +653,32 @@ public class OutsourceService {
             String input = pair.getInput1();
             String target = input.split("'")[1];
 
-            // 검사 대상 문자열에서 모음의 등장 횟수를 확인
             int cnt = 0;
-            for(int i = 0; i < target.length(); ++i){
-                if (target.charAt(i) == 'a' || target.charAt(i) == 'e' || target.charAt(i) == 'i'
-                        || target.charAt(i) == 'o' || target.charAt(i) == 'u'){
-                    cnt++;
+            String inputKor = "문장: '" + target;
+
+            // 검사 대상 문자열에서 모음의 등장 횟수 확인
+            if (input.contains("vowels")){
+                for(int i = 0; i < target.length(); ++i){
+                    if (target.charAt(i) == 'a' || target.charAt(i) == 'e' || target.charAt(i) == 'i'
+                            || target.charAt(i) == 'o' || target.charAt(i) == 'u'){
+                        cnt++;
+                    }
                 }
+                inputKor += "'. 주어진 문장에서 모음의 수를 세십시오.";
             }
 
-            String inputKor = "문장: '" + target + "'. 주어진 문장에서 모음의 수를 세십시오.";
+            // 검사 대상 문자열에서 자음의 등장 횟수 확인
+            if (input.contains("consonants")){
+                for(int i = 0; i < target.length(); ++i){
+                    if (target.charAt(i) == 'a' || target.charAt(i) == 'e' || target.charAt(i) == 'i'
+                            || target.charAt(i) == 'o' || target.charAt(i) == 'u' || target.charAt(i) == ' '){
+                        continue;
+                    }
+                    cnt++;
+                }
+                inputKor += "'. 주어진 문장에서 자음의 수를 세십시오.";
+            }
+
             Assignment assignment = Assignment.builder()
                     .input(inputKor)
                     .output(String.valueOf(cnt))
@@ -527,36 +743,38 @@ public class OutsourceService {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
         User user = checkAssignedUser(taskPK);
 
+        matchAscii();
+
         for (IOPairs pair : pairs) {
-            String[] splits = pair.getInput1().split(", ");
+            // input을 한글로 만들고, 두 단어로 나누기
+            String inputKor = type1_convertToKor(pair.getInput1());
+            String[] splits = inputKor.split(", ");
             String input1 = splits[0];
             String input2 = splits[1];
-            String lowerLcs = "";
 
             // find LCS
             String lcs = findLCS(input1, input2);
+            String sortedLcs = "";
 
-            // LCS를 소문자로 변환하고, 알파벳 순으로 정렬
-            lowerLcs = lcs.toLowerCase();
+            // LCS를 한글 순으로 정렬
             List<String> lists = new ArrayList<>();
-            for(int i = 0; i < lowerLcs.length(); ++i){
-                lists.add(String.valueOf(lowerLcs.charAt(i)));
+            for(int i = 0; i < lcs.length(); ++i){
+                lists.add(String.valueOf(lcs.charAt(i)));
             }
             lists = lists.stream().sorted().toList();
 
-            lowerLcs = "";
-            for (String list : lists) {
-                lowerLcs += list;
+            for (String str : lists) {
+                sortedLcs += str;
             }
 
             // 기존 input에서 LCS를 찾고
-            input1 = input1.replace(lcs, lowerLcs);
-            input2 = input2.replace(lcs, lowerLcs);
+            input1 = input1.replace(lcs, sortedLcs);
+            input2 = input2.replace(lcs, sortedLcs);
             String output = input1 + ", " + input2;
 
             // 새로운 Assignment 등록
             Assignment assignment = Assignment.builder()
-                    .input(pair.getInput1())
+                    .input(inputKor)
                     .output(output)
                     .taskId(taskPK)
                     .ioPairsIdx(pair.getIdx())
@@ -572,13 +790,16 @@ public class OutsourceService {
         List<IOPairs> pairs = ioPairRepository.findPairsByTaskId(taskPK, pageable);
         User user = checkAssignedUser(taskPK);
 
+        matchAscii();
+
         for (IOPairs pair : pairs) {
-            String[] strs = pair.getInput1().split(", ");
-            String in1 = strs[0];
-            String in2 = strs[1];
+            String[] str = pair.getInput1().split(", ");
+            String input = matchToKor(pair.getInput1());
+            String in1 = matchToKor(str[0]);
+            String in2 = matchToKor(str[1]);
             String output = "";
 
-            String in = (in1.length() > in2.length() ? in1 : in2).toLowerCase();
+            String in = in1.length() > in2.length() ? in1 : in2;
             Set<String> sets = new HashSet<>();
 
             for(int i = 0; i < in.length(); ++i){
@@ -592,7 +813,7 @@ public class OutsourceService {
             output += sorted.get(sorted.size() - 1);
 
             Assignment assignment = Assignment.builder()
-                    .input(pair.getInput1())
+                    .input(input)
                     .output(output)
                     .taskId(taskPK)
                     .ioPairsIdx(pair.getIdx())
@@ -747,6 +968,39 @@ public class OutsourceService {
 
 
 
+    @Transactional
+    public void convertEngToKor(){
+        matchAscii();
+
+        List<Long> assignedIds = new ArrayList<>();
+        assignedIds.add(80L);
+        assignedIds.add(86L);
+        assignedIds.add(87L);
+        assignedIds.add(88L);
+        assignedIds.add(102L);
+        assignedIds.add(105L);
+        assignedIds.add(106L);
+
+        for (Long assignedId : assignedIds) {
+            Long taskPK = taskRepository.findTaskPK(assignedId)
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            User user = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedId))
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+            PageRequest pageable = PageRequest.of(0, 60, Sort.by(Sort.Direction.ASC, "ioPairsIdx"));
+            List<Assignment> lists = assignmentRepository.getIOPairList(user.getId(), taskPK, pageable);
+            for (Assignment assignment : lists) {
+                String input = matchToKor(assignment.getInput());
+                String output = matchToKor(assignment.getOutput());
+
+                assignment.updateIO(input, output);
+            }
+        }
+    }
+
+
+
+
 
     // Task의 assignedId를 확인하고 할당받은 사용자의 PK를 반환
     private User checkAssignedUser(Long taskPK){
@@ -762,8 +1016,13 @@ public class OutsourceService {
     private String matchToKor(String originInput){
         String result = "";
         for (int i = 0; i < originInput.length(); ++i){
-            String matchedAscii = asciiMap.get(String.valueOf(originInput.charAt(i)));
-            result += matchedAscii;
+            if (asciiMap.containsKey(String.valueOf(originInput.charAt(i)))){
+                String matchedAscii = asciiMap.get(String.valueOf(originInput.charAt(i)));
+                result += matchedAscii;
+            }
+            else
+                result += originInput.charAt(i);
+
         }
         return result;
     }
@@ -892,13 +1151,13 @@ public class OutsourceService {
 
     private String type1_task79_convert(String inputEng){
         if (inputEng.equals("Numbers Win")) {
-            return "숫자 승리";
+            return "숫자 승";
         }
         else if (inputEng.equals("Alphabets Win")) {
-            return "문자 승리";
+            return "문자 승";
         }
         else if (inputEng.equals("Numbers and Alphabets are Tied")) {
-            return "숫자와 문자 비김";
+            return "무승부";
         }
         throw new BusinessException(ErrorCode.INVALID_PARAMETER);
     }
@@ -925,7 +1184,6 @@ public class OutsourceService {
                 }
             }
         }
-
         if (maxLength == 0) {
             output = "";
         } else {
@@ -965,7 +1223,6 @@ public class OutsourceService {
         }
         return result;
     }
-
     private int expandAroundCenter(String s, int left, int right) {
         int L = left, R = right;
         while (L >= 0 && R < s.length() && s.charAt(L) == s.charAt(R)) {

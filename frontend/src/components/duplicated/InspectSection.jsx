@@ -4,7 +4,6 @@ import Table, { TableBody, TableCell, TableHead, TableRow } from '../ui/table/Ta
 import { SET_SUB_IDX, userContext } from '../../context/UserContext';
 import { useNavigate } from 'react-router-dom';
 import Divider from '../ui/divider/Divider';
-import InfoBox from '../ui/information/InfoBox';
 
 export default function InspectSection({ duplicates, originSection, sectionNum, originInst }) {
     const context = useContext(userContext);
@@ -71,7 +70,9 @@ function DuplicatedInst({ partIdx, partList, targetSubIdx, sectionNum }){
                 <p 
                     className={styles.modifyBtn}
                     onClick={() => {
-                        context.actions.contextDispatch({ type: SET_SUB_IDX, data: targetSubIdx });
+                        if(targetSubIdx < 10) {
+                            context.actions.contextDispatch({ type: SET_SUB_IDX, data: targetSubIdx });
+                        }
                         navigate('../');
                     }}    
                 >{`수정하러 가기 >`}</p>

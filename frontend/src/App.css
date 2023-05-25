@@ -74,32 +74,37 @@
   --red-color: #e02b2b;
 
   --txt-color: #222222;
-  --g-txt-color: #58C23E;
-  --g-dark-txt-color: #357525;
+  /* --g-txt-color: #58C23E; */
+  --g-txt-color: #2861bc;
+  /* --g-dark-txt-color: #357525; */
+  --g-dark-txt-color: #1e4b93;
   --light-txt-color: #777777;
   --placeholder-txt-color: #B6B6B6;
 
 
-  --line-color: #A9E4BD;
+  --line-color: #a3d0f0;
   --grey-line-color: #f1f1f1;
   --divider-color: #f6f6f6;
 
-  --highlight-color: rgba(187, 226, 218, 0.4);
+  /* --btn-color: #9DDC6C; */
+  --btn-color: #7abae6;
 
-  --btn-color: #9DDC6C;
-
-  --table-color: #eaeeec;
+  /* --table-color: #eaeeec; */
+  --table-color: #eaecee;
 
   /* adobe greens */
-  --main-color: #58C23E;
-  --lowb-main-color: #418F2E;
-  --light-main-color: #8ECC7E;
-  --middle-main-color: #1E4215;
-  --dark-main-color: #2E4229;
+  /* --main-color: #58C23E; */
+  /* --light-main-color: #8ECC7E; */
+
+  --main-color: #2458ac;
+  --light-main-color: #7abae6;
 
   /* nc colors */
   --nc-blue: #003569;
-  --nc-gradient: #004c98;
+  --nc-blue-light: #7abae6;
+  --nc-blue-extra-light: #a3d0f0;
+  --nc-gradient: #1e4b93;
+  --nc-beige: #ebcc92;
 
   /* fonts */
   --bold: 700;

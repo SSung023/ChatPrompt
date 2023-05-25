@@ -8,8 +8,8 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 export default function ShowIo({ taskNum, setTaskNum }) {
     const context = useContext(userContext);
 
-    const first_taskId = context.state.data.io_first_taskId;
-    const last_taskId = context.state.data.io_last_taskId;
+    const first_taskId = context.state.data.first_taskId;
+    const last_taskId = context.state.data.last_taskId;
 
     const [data, setData] = useState();
     const [userId, setId] = useState();

@@ -1,10 +1,14 @@
 import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { userContext } from '../../context/UserContext';
-import Table, { TableBody, TableRow } from '../ui/table/Table';
+import Table, { TableBody } from '../ui/table/Table';
 import IoInspect from './IoInspect';
+import styles from './IoPairs.module.css';
 
 export default function IoPairs() {
+    const navigate = useNavigate();
+
     const context = useContext(userContext);
 
     // store 정보
@@ -45,6 +49,16 @@ export default function IoPairs() {
                     <IoInspect data={io} idx={idx}/>
                 </TableBody>
             </Table>
+
+            <p 
+                className={styles.modifyBtn}
+            >
+                <span
+                    onClick={() => {
+                        navigate('../input');
+                    }}
+                >{`입출력 수정하러 가기 >`}</span>
+            </p>
         </div>
     );
 }
