@@ -74,7 +74,7 @@ public class XmlExtractor {
                     .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
             List<Assignment> written = assignmentRepository.getWrittenAssignList(assignedUser.getId(), Long.valueOf(i), pageable);
             for (Assignment assignment : written) {
-                instructList.add(convertToInstructDTO(assignment, i, taskStr));
+                instructList.add(convertToInstructDTO(assignment, task, i, taskStr));
             }
         }
 
@@ -113,9 +113,7 @@ public class XmlExtractor {
      * 입출력 최종 파일 추출
      */
     public void extractIOPair(Pageable pageable) throws JAXBException {
-//        InstructListDTO instructList = extractInstruct1List(pageable);
         IOPairListDTO ioPairList = extractIOPairListDTO(pageable);
-
 
         JAXBContext jaxbContext = JAXBContext.newInstance(IOPairListDTO.class);
         Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
@@ -178,6 +176,7 @@ public class XmlExtractor {
         String output = ioPairs.getOutput1();
 
         return IOPairDTO.builder()
+                .assignedTaskId(task.getAssignedTaskId().toString())
                 .lineNum(lineCnt + "a")
                 .category(task.getCategory())
                 .taskName(task.getTaskStr())
@@ -190,6 +189,7 @@ public class XmlExtractor {
     }
     private IOPairDTO convertToIOPairKor(Task task, Assignment assignment, int lineCnt){
         return IOPairDTO.builder()
+                .assignedTaskId(task.getAssignedTaskId().toString())
                 .lineNum(lineCnt + "b")
                 .category(task.getCategory())
                 .taskName(task.getTaskStr())
@@ -205,6 +205,15 @@ public class XmlExtractor {
     private InstructDTO convertToInstructDTO(Assignment assignment, int taskNum, String taskStr){
         int subIdx = (int) (assignment.getTaskSubIdx() + 2);
         return InstructDTO.builder()
+                .lineNum(taskNum + "b_v" + subIdx)
+                .task(taskStr)
+                .definition(assignment.getSimilarInstruct1())
+                .build();
+    }
+    private InstructDTO convertToInstructDTO(Assignment assignment, Task task, int taskNum, String taskStr){
+        int subIdx = (int) (assignment.getTaskSubIdx() + 2);
+        return InstructDTO.builder()
+                .assignedTaskId(task.getAssignedTaskId().toString())
                 .lineNum(taskNum + "b_v" + subIdx)
                 .task(taskStr)
                 .definition(assignment.getSimilarInstruct1())

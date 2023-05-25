@@ -14,6 +14,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Data
 @NoArgsConstructor
 public class IOPairDTO {
+
+    // 교수님 수정용 필드
+    @XmlElement(name = "assignedTaskId")
+    private String assignedTaskId;
+
     @XmlElement(name = "line_num")
     private String lineNum;
 
@@ -40,7 +45,8 @@ public class IOPairDTO {
 
 
     @Builder
-    public IOPairDTO(String lineNum, String category, String taskName, String idx, String type, String definition, String input, String output) {
+    public IOPairDTO(String lineNum, String category, String taskName, String idx, String type, String definition, String input, String output
+                    , String assignedTaskId) {
         this.lineNum = lineNum;
         this.category = category;
         this.taskName = taskName;
@@ -49,5 +55,7 @@ public class IOPairDTO {
         this.definition = definition;
         this.input = input;
         this.output = output;
+
+        this.assignedTaskId = assignedTaskId;
     }
 }
