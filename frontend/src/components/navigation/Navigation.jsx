@@ -96,6 +96,15 @@ export default function Navigation() {
                     {isOpen ? <p>검증하기</p> : ''}
                     <p className={styles.bar}></p>
                 </NavLink>
+
+                <NavLink 
+                    to={`/admin`} 
+                    className={({isActive}) => isActive ? `${styles.navMenu} ${styles.active}` : styles.navMenu}
+                    >
+                    <TbFilePencil />
+                    {isOpen ? <p>윤문 수정하기</p> : ''}
+                    <p className={styles.bar}></p>
+                </NavLink>
             </div>
 
             {/* <div className={styles.divider}/> */}
