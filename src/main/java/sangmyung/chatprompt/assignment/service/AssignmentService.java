@@ -110,6 +110,7 @@ public class AssignmentService {
      * 해당 사용자가 해당 Task에서 작성한 내용을 반환
      * 이전에 작성한 내용이 없었다면 객체 새로 생성, 변환 후 반환
      * 이전에 작성한 내용이 있다면 객체 받아와서 변환 후 반환
+     * 단, 사용자가 A인 경우에는 구축자 C~F가 작성했던 내용을 반환
      * @param user 해당 내용을 작성한 사용자
      * @param assignedTaskId 내용을 작성한 Task의 할당된 번호 -> PK 변환 필요
      */
@@ -118,8 +119,7 @@ public class AssignmentService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Long taskId = task.getId();
 
-        Optional<Assignment> optionalAssignment = assignRepository.getSubIdxAssignment(user.getId(), taskId, taskSubIdx);
-
+        Optional<Assignment> optionalAssignment = getAssginmentByIdentifier(user, assignedTaskId, taskSubIdx, taskId);
         // User가 마지막으로 수정한 TaskId 갱신
         user.updateLastTaskNum(assignedTaskId);
 
@@ -151,7 +151,12 @@ public class AssignmentService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Long taskId = task.getId();
 
-        Optional<Assignment> optional = assignRepository.getSubIdxAssignment(user.getId(), taskId, taskSubIdx);
+        // 사용자 A를 고려하여 실제 할당받은 user의 정보를 미리 받아옴
+        User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        // 구축자 (C~F)가 작성했던 Assignment를 받아옴
+        Optional<Assignment> optional = getAssginmentByIdentifier(user, assignedTaskId, taskSubIdx, taskId);
 
         // User가 마지막으로 수정한 Task의 번호(assignedTaskId) 수정
         user.updateLastTaskNum(assignedTaskId);
@@ -169,7 +174,13 @@ public class AssignmentService {
             Assignment savedAssignment = assignRepository.save(assignment);
             savedAssignment.updateSimilarInstruct(assignRequest);
             savedAssignment.addTaskSubIndex(taskSubIdx);
-            savedAssignment.addUser(user);
+
+            if (user.getId() == 1L){
+                savedAssignment.addUser(assignedUser);
+            }
+            else {
+                savedAssignment.addUser(user);
+            }
 
             return convertToAssignResponse(task.getTaskStr(), savedAssignment);
         }
@@ -179,6 +190,23 @@ public class AssignmentService {
         assignment.updateSimilarInstruct(assignRequest);
 
         return convertToAssignResponse(task.getTaskStr(), assignment);
+    }
+
+    /**
+     * 사용자가 A인 경우 -> C~F가 작성했던 Assignment 반환
+     * 사용자가 C~F인 경우 -> 본인이 작성했던 Assignment 반환
+     */
+    private Optional<Assignment> getAssginmentByIdentifier(User user, Long assignedTaskId, Long taskSubIdx, Long taskId) {
+        Optional<Assignment> optional = null;
+        if (user.getIdentifier().equals("A")) {
+            User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                    .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+            optional = assignRepository.getSubIdxAssignment(assignedUser.getId(), taskId, taskSubIdx);
+        }
+        else {
+            optional = assignRepository.getSubIdxAssignment(user.getId(), taskId, taskSubIdx);
+        }
+        return optional;
     }
 
     /**

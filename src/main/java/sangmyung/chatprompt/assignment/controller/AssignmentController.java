@@ -32,9 +32,9 @@ public class AssignmentController {
 
 
     /**
-     * 사용자가 특정 Task에 작성했던 내용 요청 - 유사지시문1, 유사지시문2, 입력, 출력
+     * 사용자가 특정 Task에 작성했던 내용 요청 - 유사지시문의 taskSubIdx
+     * 사용자가 A인 경우 -> 구축자 C ~ F가 작성했던 내용을 반환
      * @param taskId 대상 Task의 PK
-     * 이전 api: /api/tasks/{taskId}/assignment
      */
     @GetMapping("/tasks/{taskId}/assignment/{taskSubIdx}")
     public SingleResponse<AssignResponse> getTasksAssignment(HttpServletRequest request,
@@ -54,7 +54,6 @@ public class AssignmentController {
     /**
      * 사용자가 특정 Task에 대응되는 내용(유사지시문 1&2) 수정 요청: 이전에 존재하지 않았던 경우 null로 채워서 반환
      * @param taskId 대상 Task의 PK
-     * 이전 api: /api/tasks/{taskId}/assignment
      */
     @PatchMapping("/tasks/{taskId}/assignment/{taskSubIdx}")
     public SingleResponse<AssignResponse> updateTasksAssignment (HttpServletRequest request, @RequestBody AssignRequest assignRequest,
@@ -76,7 +75,6 @@ public class AssignmentController {
      * 특정 Task 내의 특정 입출력 쌍에 해당하는 입출력 데이터를 입력(갱신) 요청 -> 입력 편집 페이지
      * @param taskId Task PK
      * @param ioIndex 특정 Task 내 입출력 쌍의 인덱스
-     * 이전 api: /api/tasks/{taskId}/assignment/{ioIndex}
      */
     @PatchMapping("/tasks/{taskId}/assignment-io/{ioIndex}")
     public SingleResponse<AssignIOResponse> updateTaskIOAssignment(HttpServletRequest request, @PathVariable Long taskId,
@@ -94,7 +92,6 @@ public class AssignmentController {
      * 특정 Task 내에 작성했던 특정 입출력 쌍 반환 요청 -> 입력 편집 페이지
      * @param taskId Task PK
      * @param ioIndex 특정 Task 내 입출력 쌍의 인덱스
-     * 이전 api: /api/tasks/{taskId}/assignment/{ioIndex}
      */
     @GetMapping("/tasks/{taskId}/assignment-io/{ioIndex}")
     public SingleResponse<AssignIOResponse> getTaskIOAssignment(HttpServletRequest request,
@@ -136,7 +133,6 @@ public class AssignmentController {
     /**
      * 특정 Task에 대해 작성한 입출력 리스트들을 반환
      * @param taskId 사람들이 작성한 입출력 리스트를 얻고 싶은 테스크의 할당받은 인덱스
-     * 이전 api: /api/tasks/{taskId}/assignment/io-lists
      */
     @GetMapping("/tasks/{taskId}/assignment-io/lists")
     public ListResponse<AssignIOResponse> getIOPairList(HttpServletRequest request, @PathVariable Long taskId

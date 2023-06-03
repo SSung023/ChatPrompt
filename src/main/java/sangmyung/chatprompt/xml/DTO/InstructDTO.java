@@ -14,6 +14,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Data
 @NoArgsConstructor
 public class InstructDTO {
+    // 교수님 수정 목적 필드
+    @XmlElement(name = "assignedTaskId")
+    private String assignedTaskId;
+
+
     @XmlElement(name = "line_num")
     private String lineNum;
 
@@ -25,9 +30,11 @@ public class InstructDTO {
 
 
     @Builder
-    public InstructDTO(String lineNum, String task, String definition) {
+    public InstructDTO(String lineNum, String task, String definition, String assignedTaskId) {
         this.lineNum = lineNum;
         this.task = task;
         this.definition = definition;
+
+        this.assignedTaskId = assignedTaskId;
     }
 }

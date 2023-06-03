@@ -12,6 +12,8 @@ import sangmyung.chatprompt.assignment.dto.InspectResponse;
 import sangmyung.chatprompt.assignment.dto.SingleDuplicate;
 import sangmyung.chatprompt.assignment.repository.AssignmentRepository;
 import sangmyung.chatprompt.task.repository.TaskRepository;
+import sangmyung.chatprompt.user.domain.User;
+import sangmyung.chatprompt.user.repository.UserRepository;
 
 import java.util.*;
 
@@ -20,6 +22,7 @@ import java.util.*;
 @RequiredArgsConstructor
 @Slf4j
 public class InspectService {
+    private final UserRepository userRepository;
     private final TaskRepository taskRepository;
     private final AssignmentRepository assignmentRepository;
 
@@ -36,8 +39,18 @@ public class InspectService {
         Long taskId = taskRepository.findTaskPK(assignedTaskId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
 
+        User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
         String originInstruct;
-        List<Assignment> instructList = assignmentRepository.getAssignmentList(userId, taskId);
+        List<Assignment> instructList;
+        if (userId == 1L){
+            instructList = assignmentRepository.getAssignmentList(assignedUser.getId(), taskId);
+        }
+        else {
+            instructList = assignmentRepository.getAssignmentList(userId, taskId);
+        }
+
 
         // 특정 Task에서 교수님이 작성한 지시문
         Assignment official = assignmentRepository.extractOfficialInstruct(taskId)

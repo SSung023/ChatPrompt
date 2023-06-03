@@ -138,9 +138,20 @@ public class TaskService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Long taskId = task.getId();
 
-        Optional<Assignment> ioAssignment = assignRepository.findIOAssignment(userId, taskId, ioIndex);
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+        User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+
+        Optional<Assignment> ioAssignment = null;
+        if (userId == 1L){
+            ioAssignment = assignRepository.findIOAssignment(assignedUser.getId(), taskId, ioIndex);
+        }
+        else {
+            ioAssignment = assignRepository.findIOAssignment(userId, taskId, ioIndex);
+        }
+
 
         // 값이 없었다면 새로 만들고 값을 채워서 반환
         if (ioAssignment.isEmpty()){
@@ -150,8 +161,13 @@ public class TaskService {
                     .build();
             assignment = assignRepository.save(assignment);
             assignment.updateIO(assignIORequest.getInput(), assignIORequest.getOutput());
-//            assignment.addIOPair(ioPairs);
-            assignment.addUser(user);
+            if (userId == 1L){
+                assignment.addUser(assignedUser);
+            }
+            else {
+                assignment.addUser(user);
+            }
+
 
             return convertToAssignIOResponse(task, assignment);
         }
@@ -180,7 +196,16 @@ public class TaskService {
                 .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
         Long taskId = task.getId();
 
-        Optional<Assignment> ioAssignment = assignRepository.findIOAssignment(userId, taskId, ioIndex);
+        User assignedUser = userRepository.findAssignedUserByTaskId(Math.toIntExact(assignedTaskId))
+                .orElseThrow(() -> new BusinessException(ErrorCode.DATA_ERROR_NOT_FOUND));
+
+        Optional<Assignment> ioAssignment = null;
+        if (userId == 1L){
+            ioAssignment = assignRepository.findIOAssignment(assignedUser.getId(), taskId, ioIndex);
+        }
+        else {
+            ioAssignment = assignRepository.findIOAssignment(userId, taskId, ioIndex);
+        }
 
         // 존재하지 않는 경우
         if (ioAssignment.isEmpty()) {

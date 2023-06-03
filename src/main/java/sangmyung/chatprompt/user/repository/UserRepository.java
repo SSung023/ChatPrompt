@@ -20,5 +20,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findUserIsRegistered(@Param("username") String username, @Param("identifier") String identifier);
 
     @Query("select u from User u where u.taskStartIdx <= :taskId and u.taskEndIdx >= :taskId and u.id >= 3")
-    Optional<User> findAssignedUserByTaskId(@Param("taskId") int taskId);
+    Optional<User> findAssignedUserByTaskId(@Param("taskId") int assignedTaskId);
 }
