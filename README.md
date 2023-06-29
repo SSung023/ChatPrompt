@@ -46,7 +46,7 @@ ChatPrompt는 상명대학교 산학협력단-엔씨소프트 연계 ⌜초거�
 
 <br>
 
-## 👏 팀
+## 👏 팀 소개
 <div align="center">
   <table>
     <tbody>
